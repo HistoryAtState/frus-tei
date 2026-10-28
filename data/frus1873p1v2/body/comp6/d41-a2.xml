@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v2_d41-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. <persName corresp="#p_TB1" type="from"
+                            >Biddle</persName> to Commander <persName type="to"
+                        >Kennedy</persName></title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1873p1v2/d41-a2"
+                    type="canonical"/>
+                <relatedItem target="d41-a1.xml" type="prev"/>
+                <relatedItem target="d42.xml" type="next"/>
+                <relatedItem target="d41.xml" type="parent"/>
+                <relatedItem target="d41.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v2</bibl>
+                <bibl type="frus-division-id">d41-a2</bibl>
+                <bibl type="frus-division-n">41.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="810" to="811" unit="page"
+                        >810–11</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">San Salvador</hi></placeName>
+                    <date calendar="gregorian" when="1873-03-23"><hi rendition="#italic">March 23,
+                            1873</hi></date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d41-a2">
+
+                <pb facs="0180" n="810" sameAs="frus:frus1873p1v2/pg810"/>
+
+                <opener>
+                    <seg rendition="#center">[Inclosure 2.]</seg>
+                </opener>
+                <head>
+                    <hi rendition="#italic">Mr. <persName corresp="#p_TB1" type="from"
+                            >Biddle</persName> to Commander <persName type="to"
+                        >Kennedy</persName></hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic">San
+                                Salvador</hi></placeName>, <date calendar="gregorian"
+                            when="1873-03-23"><hi rendition="#italic">March 23,
+                        1873</hi></date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">My Dear Captain</hi>: I have received with extreme
+                    gratification your hospitable proffer of Her Majesty’s ship Reindeer as a refuge
+                    from the existing peril.</p>
+                <pb facs="0181" n="811" xml:id="pg811"/>
+                <p>As my family are now sheltered from danger, I believe it to be my duty to remain
+                    at my post, but cordially tender to you my grateful thanks for this noble tender
+                    of material assistance from a kindred nationality, Which my Government will
+                    appreciate.</p>
+                <p>I have, &amp;c.,</p>
+                <closer>
+                    <signed>
+                        <list>
+                            <item><persName corresp="#p_TB1">THOMAS BIDDLE</persName>.</item>
+                            <item>Commander <persName><hi rendition="#small-caps">R. W.
+                                    Kennedy</hi></persName>, R. N.,<lb/><hi rendition="#italic">H.
+                                    M. S. Reindeer.</hi></item>
+                        </list>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

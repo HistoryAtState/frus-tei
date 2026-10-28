@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d1600" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The German-Embassy to the
+                            Department of State.</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d1600"
+                    type="canonical"/>
+                <relatedItem target="d1599.xml" type="prev"/>
+                <relatedItem target="d1600-a1.xml" type="next"/>
+                <relatedItem target="../ch99subch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d1600</bibl>
+                <bibl type="frus-division-n">1600</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="895" to="895" unit="page"
+                        >895</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1914-11-07T23:59:59-05:00" notBefore="1914-10-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1600">
+
+                <pb facs="1011" n="895" xml:id="pg895"/>
+
+                <note rend="inline" type="source">File No. 312.62/107.</note>
+                <head>
+                    <hi rendition="#italic">The German-Embassy to the
+                            Department of State.</hi>
+                </head>
+                <dateline>
+                    <date ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                        calendar="gregorian" notAfter="1914-11-07T23:59:59-05:00"
+                        notBefore="1914-10-28T00:00:00-05:00">undated</date>
+                </dateline>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">memorandum</hi>.</p>
+                <p>The German Legation at Mexico reports under October 28th: <quote
+                        rend="blockquote">
+                        <p>The German Vice Consul at Guanajuato is proprietor of a valuable estate
+                            [“hacienda “] named Santiago in the State of Zacatecas, County
+                            [“Partido.”] of Villanueva. After seizure of this estate by the Mexicon
+                            Constitutionalists the restitution was reclaimed without any result. By
+                            order of Francisco Villa the estate has now been confiscated according
+                            to the enclosed order. The restitution has been reclaimed at Mexico
+                            again on October 23rd.</p>
+                    </quote>
+                </p>
+
+
+                <xi:include href="d1600-a1.xml" xpointer="d1600-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

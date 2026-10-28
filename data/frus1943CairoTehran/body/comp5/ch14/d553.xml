@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d553" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Marshal Stalin</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d553"
+                    type="canonical"/>
+                <relatedItem target="d552.xml" type="prev"/>
+                <relatedItem target="d554.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d553</bibl>
+                <bibl type="frus-division-n">553</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="875" to="875" unit="page"
+                        >875</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-02-23">23 February 1944</date>
+                    <date notAfter="1944-02-23T23:59:59-05:00" notBefore="1944-02-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d553">
+
+                <pb facs="0979" n="875" xml:id="pg875"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Marshal Stalin</hi><anchor n="1" xml:id="d553-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-02-23">23 February 1944</date>.</dateline>
+                </opener>
+                <p>Personal and secret from the President for Marshal Stalin.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <p>It is clear to me that there is a manifest need for United Nations machinery for
+                    joint planning of the procedures by which consideration should be given to the
+                    various fields of international economic cooperation, the subjects which should
+                    be discussed, the order of discussion, and the means of coordinating existing
+                    and prospective arrangements and activities. … What I am raising here is the
+                    question of further steps toward the establishment of United Nations machinery
+                    for post-war economic collaboration, which was raised by the Secretary of State
+                    at the Moscow meeting<anchor n="2" xml:id="d553-f2"/> and was discussed by you,
+                    Prime Minister Churchill, and myself at
+                        Teheran.<anchor n="3" xml:id="d553-f3"/></p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <closer><signed><hi rendition="#small-caps"
+                                >Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d553-f1" n="1" type="source" xml:id="d553-f1-content">
+                <p>Sent to the United States Naval Attaché Moscow, via Navy channels.</p>
+            </note>
+            <note corresp="#d553-f2" n="2" xml:id="d553-f2-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg118">p. 118</ref>.</p>
+            </note>
+            <note corresp="#d553-f3" n="3" xml:id="d553-f3-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg530">pp. 530</ref>–<ref
+                        target="#pg531">531</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

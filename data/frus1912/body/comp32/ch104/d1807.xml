@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d1807" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d1807"
+                    type="canonical"/>
+                <relatedItem target="d1806.xml" type="prev"/>
+                <relatedItem target="d1808.xml" type="next"/>
+                <relatedItem target="../ch104.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d1807</bibl>
+                <bibl type="frus-division-n">1807</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1345" to="1345" unit="page"
+                        >1345</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Constantinople</hi></placeName>
+                    <date calendar="gregorian" when="1912-11-05T19:00:00+02:00">
+                        <hi rendition="#italic">November 5, 1912—7 p.m.</hi>
+                    </date>
+                    <date notAfter="1912-11-05T12:00:00-05:00" notBefore="1912-11-05T12:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1807">
+
+                <pb facs="1461" n="1345" sameAs="frus:frus1912/pg1345"/>
+
+                <note rend="inline" type="source">File No. 767.70/90.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Constantinople</hi></placeName>, <date
+                            calendar="gregorian" when="1912-11-05T19:00:00+02:00">
+                            <hi rendition="#italic">November 5, 1912—7 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>All of the Powers save one have accepted mediation and the Minister for Foreign
+                    Affairs believes that if mediation be made immediately it will prevent the
+                    possibility of the violence and anarchy that would result in case of a Turkish
+                    defeat and the disorderly entry of troops into the city. He therefore requested
+                    me to ask you to instruct our representatives at the capitals of the allied
+                    Powers in the interest of humanity to urge cessation of hostilities
+                    immediately.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Rockhill.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

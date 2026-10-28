@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1879_d520-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../frus1879_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1879_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1879/d520-a2"
+                    type="canonical"/>
+                <relatedItem target="d520-a1.xml" type="prev"/>
+                <relatedItem target="d521.xml" type="next"/>
+                <relatedItem target="d520.xml" type="parent"/>
+                <relatedItem target="d520.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1879</bibl>
+                <bibl type="frus-division-id">d520-a2</bibl>
+                <bibl type="frus-division-n">520.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1034" to="1034" unit="page"
+                        >1034</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Alexandria</placeName>
+                    <date calendar="gregorian" when="1879-10-16">October 16, 1879</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d520-a2">
+
+                <pb facs="1130" n="1034" sameAs="frus:frus1879/pg1034"/>
+
+                <opener><seg rendition="#center">[Inclosure 2 in Mr. Van Dyck’s
+                        dispatch.]</seg><lb/><dateline rendition="#center">[From the Phare
+                            d’<placeName>Alexandria</placeName> of Thursday, <date
+                            calendar="gregorian" when="1879-10-16">October 16,
+                        1879</date>.]</dateline></opener>
+                <p rendition="#center"><hi rendition="#italic">Number of vessels of each
+                        nation.</hi></p>
+                <table cols="3" rows="11">
+                    <row role="label">
+                        <cell rendition="#border-bottom #border-top #border-right"
+                            >Nationality.</cell>
+                        <cell rendition="#border-bottom #border-top #border-right">No. of
+                            vessels.</cell>
+                        <cell rendition="#border-bottom #border-top">Remarks.</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">English</cell>
+                        <cell rendition="#border-right" role="num">8,007</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">French</cell>
+                        <cell rendition="#border-right" role="num">741</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">Holland</cell>
+                        <cell rendition="#border-right" role="num">363</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">Austria-Hungary</cell>
+                        <cell rendition="#border-right" role="num">482</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">Italian</cell>
+                        <cell rendition="#border-right" role="num">445</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">Spanish</cell>
+                        <cell rendition="#border-right" role="num">150</cell>
+                        <cell rendition="#border-bottom" rows="5">If the British interest in the
+                            canal of Suez be represented by the figure 8, the interest of all the
+                            other nations together falls short of the figure 3.</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">German</cell>
+                        <cell rendition="#border-right" role="num">208</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">Ottoman</cell>
+                        <cell rendition="#border-right" role="num">146</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">Egyptian</cell>
+                        <cell rendition="#border-right" role="num">148</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right #border-bottom">Divers nations</cell>
+                        <cell rendition="#border-bottom" role="num">298</cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>

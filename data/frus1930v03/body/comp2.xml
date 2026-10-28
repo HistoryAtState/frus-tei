@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1930v03_comp2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>France:</title>
+            </titleStmt>
+            <xi:include href="../frus1930v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1930v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1930v03/comp2"
+                    type="canonical"/>
+                <relatedItem target="comp1/ch1/d2.xml" type="prev"/>
+                <relatedItem target="comp2/ch2.xml" type="next"/>
+                <relatedItem target="../frus1930v03.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1930v03</bibl>
+                <bibl type="frus-division-id">comp2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="6" to="75" unit="page"
+                        >6–75</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1930-12-03T18:00:00-05:00" notBefore="1930-01-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp2">
+
+                <pb facs="0100" n="6" xml:id="pg6"/>
+
+                <head>France:</head>
+
+
+
+
+
+                <xi:include href="comp2/ch2.xml" xpointer="ch2"/>
+                <xi:include href="comp2/ch3.xml" xpointer="ch3"/>
+                <xi:include href="comp2/ch4.xml" xpointer="ch4"/>
+                <xi:include href="comp2/ch5.xml" xpointer="ch5"/>
+            </div>
+        </body>
+    </text>
+</TEI>

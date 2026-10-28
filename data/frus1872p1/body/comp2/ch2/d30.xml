@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p1_d30" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 30.</title>
+                <title type="subtitle">Mr. Jay to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1872p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1872p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1872p1/d30"
+                    type="canonical"/>
+                <relatedItem target="d29.xml" type="prev"/>
+                <relatedItem target="d30-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1872p1</bibl>
+                <bibl type="frus-division-id">d30</bibl>
+                <bibl type="frus-division-n">30</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="50" to="52" unit="page"
+                        >50–52</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Vienna</hi></placeName>
+                    <date calendar="gregorian" when="1872-03-22"><hi rendition="#italic">March</hi>
+                        22, 1872</date>
+                    <date notAfter="1872-03-22T23:59:59-05:00" notBefore="1872-03-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d30">
+
+                <pb facs="0146" n="50" sameAs="frus:frus1872p1/pg50"/>
+
+                <head>No. 30.<lb/><hi rendition="#italic">Mr. Jay
+                        to Mr. Fish.</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                            >Vienna</hi></placeName>, <date calendar="gregorian" when="1872-03-22"
+                                ><hi rendition="#italic">March</hi> 22, 1872</date>. (Received April
+                        11.)</dateline>
+                    <seg rendition="#float-left">No. 422.]</seg>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I referred in my No. 418, dated March 9, to
+                    the request which the Count Andrassy had made to me, to advise him of the points
+                    in which the patent-laws of Austria were regarded as insufficient by American
+                    inventors; and I now append a copy of the informal note which I have since
+                    addressed to him on that subject.</p>
+                <p>I am, &amp;c,</p>
+                <closer>
+                    <signed>JOHN JAY.</signed>
+                </closer>
+
+
+                <xi:include href="d30-a1.xml" xpointer="d30-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

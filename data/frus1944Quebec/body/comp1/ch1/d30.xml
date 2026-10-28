@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d30" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to the President’s Special Assistant
+                        (Hopkins)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d30"
+                    type="canonical"/>
+                <relatedItem target="d29.xml" type="prev"/>
+                <relatedItem target="d31.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d30</bibl>
+                <bibl type="frus-division-n">30</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="19" to="20" unit="page"
+                        >19–20</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-08-26">26 August 1944</date>
+                    <date notAfter="1944-08-26T23:59:59-05:00" notBefore="1944-08-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Octagon1">Octagon</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Prime1">Prime</term>
+                    <term ref="frus:frus1944Quebec/terms#t_StageII1">Stage II</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d30">
+
+                <pb facs="0073" n="19" sameAs="frus:frus1944Quebec/pg19"/>
+
+                <note rend="inline" type="source">Hopkins Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to the President’s Special Assistant</hi>
+                        (<hi rendition="#italic">Hopkins</hi>)<anchor
+                        n="1" xml:id="d30-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>,<anchor n="2" xml:id="d30-f2"/>
+                        <date calendar="gregorian" when="1944-08-26">26 August
+                        1944</date>.</dateline>
+                </opener>
+                <p>To Mr. Harry Hopkins from Prime Minister. Personal and top secret.</p>
+                <p>I cannot pretend to be an authority on the supply and financial questions
+                    relative to stage II having been so much
+                    immersed in the war. But, of course, I would hear what the President had in mind
+                    and then report it to my colleagues. I must have someone to keep me right on the
+                    facts and figures. I am, therefore, bringing Lord Cherwell for this part of our
+                    work which would not be till some days after the military side had started.</p>
+                <pb facs="0074" n="20" xml:id="pg20"/>
+                <list>
+                    <label>2.</label>
+                    <item>With regard to the President’s wish to limit the conference to the
+                        smallest possible numbers, the British Chiefs of Staff inform me they can
+                        manage with only about fifteen officers who need actually take part in the
+                        conference. However, it is indispensable for me and the Chiefs of Staff to
+                        take with us sufficient staff for the day to day conduct of the war and for
+                        carrying on the government of Great Britain. Observing that our absence from
+                        Headquarters may be any thing up to three weeks, I shall have to have my
+                        full cypher staff, map room, etc. I cannot conceive how this will, in any
+                        way, get in your way or trouble you. You must remember that the United
+                        States Chiefs of Staff will not be away from Washington much more than a
+                        week and a few hours in an aeroplane can bring them any assistance they
+                        wish. I hope, therefore, that this will be agreed to.</item>
+                    <label>3.</label>
+                    <item>Brendan<anchor n="3" xml:id="d30-f3"/> has raised the point that our
+                        meetings at Quebec and Cairo were marked by certain troubles with the press
+                        who came from far and wide and then found that there was nothing for them
+                        until the official communiqué for the press conference at the end of the
+                        meetings. In the case of <hi
+                                rendition="#small-caps">Octagon</hi>, I suggest we should
+                        let it be known in advance that no information about the subject under
+                        discussion will be given apart from any communiqué that will be issued at
+                        the conclusion of our talks. If this is agreeable to you, I could give
+                        definite instructions to our public relations and press people to this
+                        effect at this end. Counting on you to do the same at yours.</item>
+                </list>
+                <closer><signed><hi rendition="#small-caps"
+                            >Prime</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d30-f1" n="1" type="source" xml:id="d30-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d30-f2" n="2" xml:id="d30-f2-content">
+                <p>The message originated at Eighth Army Headquarters in Italy but was sent via
+                    London.</p>
+            </note>
+            <note corresp="#d30-f3" n="3" xml:id="d30-f3-content">
+                <p>Bracken.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

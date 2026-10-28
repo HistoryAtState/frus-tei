@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d1704" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d1704"
+                    type="canonical"/>
+                <relatedItem target="d1703.xml" type="prev"/>
+                <relatedItem target="d1704-a1.xml" type="next"/>
+                <relatedItem target="../ch97.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d1704</bibl>
+                <bibl type="frus-division-n">1704</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1271" to="1272" unit="page"
+                        >1271–72</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Montevideo</hi></placeName>
+                    <date calendar="gregorian" when="1911-12-20">
+                        <hi rendition="#italic">December 20, 1911</hi></date>
+                    <date notAfter="1911-12-20T23:59:59-05:00" notBefore="1911-12-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1704">
+
+                <pb facs="1387" n="1271" sameAs="frus:frus1912/pg1271"/>
+
+                <note rend="inline" type="source">File No. 834.00/124.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <seg rendition="#float-left">No. 12, Paraguay.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Montevideo</hi></placeName>, <date
+                            calendar="gregorian" when="1911-12-20">
+                            <hi rendition="#italic">December 20, 1911</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Referring to your instructions, No. 6, to
+                    Mr. Turner, of August 24, 1911, I have the honor to enclose a statement showing
+                    the presidential succession in Paraguay from 1870 down to the present time. As
+                    will be seen, the record is marred by irregularities and violence. Since 1904
+                    the country has been in a perpetual unrest, with a revolution either brewing or
+                    in full blast.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Nicolay A. Grevstad.</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d1704-a1.xml" xpointer="d1704-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

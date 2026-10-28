@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916Supp_d457" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Great Britain (Page)
+                        to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1916Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1916Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1916Supp/d457"
+                    type="canonical"/>
+                <relatedItem target="d456.xml" type="prev"/>
+                <relatedItem target="d457-a1.xml" type="next"/>
+                <relatedItem target="../subch16.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916Supp</bibl>
+                <bibl type="frus-division-id">d457</bibl>
+                <bibl type="frus-division-n">457</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="345" to="349" unit="page"
+                        >345–49</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1916-01-24">
+                        <hi rendition="#italic">January 24, 1916</hi>
+                    </date>
+                    <date notAfter="1916-01-24T23:59:59-05:00" notBefore="1916-01-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1916Supp/persons">
+                    <term ref="frus:frus1916Supp/persons#p_PWH1">Page, Walter Hines</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d457">
+
+                <pb facs="0631" n="345" sameAs="frus:frus1916Supp/pg345"/>
+
+                <note rend="inline" type="source">File No. 763.72112/2217</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Great Britain</hi> (<hi rendition="#italic">Page</hi>)
+                        <hi rendition="#italic">to the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 2903</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1916-01-24">
+                            <hi rendition="#italic">January 24, 1916</hi>
+                        </date>.<lb/>[<hi rendition="#italic">Received February 17</hi>.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Referring to the Department’s cablegram
+                    No. 2599 of December 19 [18], 1915,<anchor n="1" xml:id="d457-f1"/> in regard to
+                    British trade regulations now in force in China and the effect thereof on
+                    American trade with that country, I have the honor to enclose herewith, for the
+                    information of the Department, a copy of the memorandum received from the
+                    Foreign Office in reply to my representations in this connection, and to which
+                    reference is made in my cablegram No. 3637 of to-day’s date.<anchor n="2"
+                        xml:id="d457-f2"/>
+                </p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        
+                            <hi rendition="#small-caps">Walter Hines Page</hi>
+                        
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d457-a1.xml" xpointer="d457-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d457-f1" n="1" xml:id="d457-f1-content">
+                <p>
+                    <ref target="frus1915Supp#pg_641">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1915, Supplement, p.
+                        641</ref>.</p>
+            </note>
+            <note corresp="#d457-f2" n="2" xml:id="d457-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1864p4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1864p4_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1864p4_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1864p4_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1864p4"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1864p4" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1864p4/covers/frus1864p4.jpg"/>
+                        <extent>
+                            <measure quantity="30210" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:25:03.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1864p4" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1864p4/ebook/frus1864p4.epub"/>
+                        <extent>
+                            <measure quantity="1026834" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:25:03.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1864p4" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1864p4/ebook/frus1864p4.mobi"/>
+                        <extent>
+                            <measure quantity="1204427" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:25:03.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1866 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                    <term xml:id="admin3">johnson-a</term>
+                    <term xml:id="admin4">grant</term>
+                    <term xml:id="admin5">hayes</term>
+                    <term xml:id="admin6">garfield</term>
+                    <term xml:id="admin7">arthur</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>austria</term>
+                    <term>chile</term>
+                    <term>germany</term>
+                    <term>belgium</term>
+                    <term>portugal</term>
+                    <term>italy</term>
+                    <term>denmark</term>
+                    <term>sweden</term>
+                    <term>norway</term>
+                    <term>turkey</term>
+                    <term>switzerland</term>
+                    <term>egypt</term>
+                    <term>morocco</term>
+                    <term>spain</term>
+                    <term>lincoln-abraham</term>
+                    <term>seward-william-henry</term>
+                    <term>mexico</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>civil-war-u-s</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>tunisia</term>
+                    <term>dominica</term>
+                    <term>the-bahamas</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1864p4" status="published" when="1866"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0007" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Papers Relating to Foreign Affairs, Accompanying the
+                        Annual Message of the President to the Second Session Thirty-eighth
+                        Congress.</titlePart>
+                    <titlePart type="subseries">Part IV.</titlePart>
+                </docTitle>
+                <docImprint>WASHINGTON: GOVERNMENT PRINTING OFFICE.</docImprint>
+            </titlePage>
+            <pb facs="0008" n="" xml:id="pg-seq-8"/>
+            <xi:include href="front/papers1.xml" xpointer="papers1"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+    </text>
+</TEI>

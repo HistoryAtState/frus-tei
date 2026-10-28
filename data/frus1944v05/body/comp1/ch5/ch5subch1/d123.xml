@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944v05_d123" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to the British Prime Minister (Churchill)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1944v05/d123"
+                    type="canonical"/>
+                <relatedItem target="d122.xml" type="prev"/>
+                <relatedItem target="d124.xml" type="next"/>
+                <relatedItem target="../ch5subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944v05</bibl>
+                <bibl type="frus-division-id">d123</bibl>
+                <bibl type="frus-division-n">123</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="121" to="121" unit="page"
+                        >121</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-06-12">12 June 1944</date>
+                    <date notAfter="1944-06-12T23:59:59-05:00" notBefore="1944-06-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d123">
+
+                <pb facs="0133" n="121" xml:id="pg121"/>
+
+                <head>
+                    <hi rendition="#italic">President Roosevelt to
+                        the British Prime Minister</hi> (<hi rendition="#italic"
+                            >Churchill</hi>)<anchor n="82" xml:id="d123-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-06-12">12 June 1944</date>.</dateline>
+                </opener>
+                <p>560. Personal for the Former Naval Person.<anchor n="83" xml:id="d123-f2"/> Your
+                        700.<anchor n="84" xml:id="d123-f3"/> I am in agreement with your proposal
+                    in paragraph 7 of subject message.</p>
+                <p>We must be careful to make it clear that we are not establishing any post war
+                    spheres of influence.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d123-f1" n="82" type="source" xml:id="d123-f1-content">
+                <p>Copy of telegram obtained from the Franklin D. Roosevelt Library, Hyde Park, N.Y.
+                    Copy sent to the Secretary of State by President Roosevelt on June 30.</p>
+            </note>
+            <note corresp="#d123-f2" n="83" xml:id="d123-f2-content">
+                <p>Code name for Winston S. Churchill.</p>
+            </note>
+            <note corresp="#d123-f3" n="84" xml:id="d123-f3-content">
+                <p>Dated June 11, <ref target="#pg118">p. 118</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_comp21" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Netherlands</title>
+            </titleStmt>
+            <xi:include href="../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/comp21"
+                    type="canonical"/>
+                <relatedItem target="comp20/ch92/d648-a2.xml" type="prev"/>
+                <relatedItem target="comp21/ch93.xml" type="next"/>
+                <relatedItem target="../frus1903.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">comp21</bibl>
+                <bibl type="frus-division-n">21</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="686" to="687" unit="page"
+                        >686–87</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1903-11-24T23:59:59-05:00" notBefore="1903-11-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp21">
+
+                <pb facs="0772" n="686" xml:id="pg686"/>
+
+                <head>Netherlands</head>
+
+                <xi:include href="comp21/ch93.xml" xpointer="ch93"/>
+            </div>
+        </body>
+    </text>
+</TEI>

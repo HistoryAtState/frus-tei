@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v04_preface" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Preface</title>
+            </titleStmt>
+            <xi:include href="../frus1950v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1950v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1950v04/preface"
+                    type="canonical"/>
+                <relatedItem type="prev"/>
+                <relatedItem target="preface-a1.xml" type="next"/>
+                <relatedItem target="../frus1950v04.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v04</bibl>
+                <bibl type="frus-division-id">preface</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">preface</bibl>
+                <bibl type="frus-print-pages"><biblScope from="III" to="IV" unit="page"
+                        >III–IV</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1951-01-06T16:00:00-05:00" notBefore="1949-01-24T20:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="preface">
+
+                <pb facs="0007" n="III" xml:id="pgIII"/>
+
+                <head>Preface</head>
+                <p>The late S. Everett Gleason supervised the initial planning and compilation of
+                    this volume. His successors as editor of <hi rendition="#italic">Foreign
+                        Relations</hi>, Fredrick Aandahl (from 1972) and William Z. Slany (from
+                    1975), directed the process of review, declassification, and final editing.</p>
+                <p>Mr. Slany prepared all sections of the volume except for those on Austria and
+                    Germany, by Charles S. Sampson, and those on the Soviet Union, by Rogers P.
+                    Churchill. David H. Stauffer arranged for declassification of most of the
+                    documents.</p>
+                <p>The technical editing of the volume was done by the Publishing and Reproduction
+                    Division (Paul M. Washington, Chief), and Francis C. Prescott prepared the
+                    index.</p>
+                <p>The editors acknowledge with appreciation the assistance provided them by the
+                    historians of the Department of Defense, including those of the Joint Chiefs of
+                    Staff. They are grateful for the cooperation of the National Security Council,
+                    the Department of Defense, the Department of Commerce, and the Central
+                    Intelligence Agency, all of which facilitated declassification of papers for
+                    release in this volume. Thanks are also due to those foreign governments that
+                    kindly granted permission for publication of certain of their documents.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">David</hi> F. <hi rendition="#small-caps"
+                            >Trask</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">The Historian<lb/>Bureau of Public Affairs</hi>
+                </closer>
+
+
+                <xi:include href="preface-a1.xml" xpointer="preface-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

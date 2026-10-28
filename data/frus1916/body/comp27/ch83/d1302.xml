@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d1302" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d1302"
+                    type="canonical"/>
+                <relatedItem target="d1301.xml" type="prev"/>
+                <relatedItem target="../ch84.xml" type="next"/>
+                <relatedItem target="../ch83.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d1302</bibl>
+                <bibl type="frus-division-n">1302</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="943" to="943" unit="page"
+                        >943</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Panama</hi></placeName>
+                    <date calendar="gregorian" when="1916-05-20T20:00:00-05:00">
+                        <hi rendition="#italic">May 20, 1916, 8 p.m.</hi>
+                    </date>
+                    <date notAfter="1916-05-20T20:00:00-05:00" notBefore="1916-05-20T20:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1302">
+
+                <pb facs="1019" n="943" sameAs="frus:frus1916/pg943"/>
+
+                <note rend="inline" type="source">File No. 819.1052/75</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Panama</hi></placeName>, <date
+                            calendar="gregorian" when="1916-05-20T20:00:00-05:00">
+                            <hi rendition="#italic">May 20, 1916, 8 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Delivery rifles in accordance with my telegram of May 15, completed. * * *</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Price</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

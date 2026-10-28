@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1883_comp17" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Liberia.</title>
+            </titleStmt>
+            <xi:include href="../frus1883_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1883_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1883/comp17"
+                    type="canonical"/>
+                <relatedItem target="comp16/d381-a1-a1.xml" type="prev"/>
+                <relatedItem target="comp17/d382.xml" type="next"/>
+                <relatedItem target="../frus1883.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1883</bibl>
+                <bibl type="frus-division-id">comp17</bibl>
+                <bibl type="frus-division-n">17</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="610" to="617" unit="page"
+                        >610–17</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1883-04-02T23:59:59-05:00" notBefore="1882-12-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp17">
+
+                <pb facs="0680" n="610" xml:id="pg610"/>
+
+                <head>Liberia.</head>
+
+
+
+                <xi:include href="comp17/d382.xml" xpointer="d382"/>
+                <xi:include href="comp17/d383.xml" xpointer="d383"/>
+                <xi:include href="comp17/d384.xml" xpointer="d384"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v06_d14-a3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tab C</title>
+            </titleStmt>
+            <xi:include href="../../frus1969-76v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1969-76v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v06/d14-a3"
+                    type="canonical"/>
+                <relatedItem target="d14-a2.xml" type="prev"/>
+                <relatedItem target="d14-a4.xml" type="next"/>
+                <relatedItem target="d14.xml" type="parent"/>
+                <relatedItem target="d14.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v06</bibl>
+                <bibl type="frus-division-id">d14-a3</bibl>
+                <bibl type="frus-division-n">14.3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="50" to="50" unit="page"
+                        >50</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1969-01-02">January 2, 1969</date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v06/persons">
+                    <term ref="frus:frus1969-76v06/persons#p_MVB1">Mai Van Bo</term>
+                    <term ref="frus:frus1969-76v06/persons#p_NRM1">Nixon, Richard M.</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v06/terms">
+                    <term ref="frus:frus1969-76v06/terms#t_NODIS1">Nodis</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d14-a3">
+
+                <pb facs="0086" n="50" sameAs="frus:frus1969-76v06/pg50"/>
+
+                <head>Tab C</head>
+                <opener><dateline rendition="#float-right">
+                        <date calendar="gregorian" when="1969-01-02">January 2,
+                        1969</date>.</dateline></opener>
+                <p rendition="#center">
+                    <hi rendition="#bold">Message From President-elect Nixon to the Government of the Democratic Republic of
+                        Vietnam</hi><anchor n="5" xml:id="d14-f1"/>
+                </p>
+                <p rendition="#center">Message to the North Vietnamese</p>
+                <p>“We have noted with interest Mai Van Bo’s
+                    communication.</p>
+                <p>“In reply to his question, the Nixon
+                    Administration is willing to negotiate seriously and in good faith.</p>
+                <p>“The Nixon Administration solemnly affirms
+                    its readiness to withdraw U.S. forces from South Vietnam as part of an honorable
+                    settlement, which includes mutual troop withdrawal.</p>
+                <p>“It is our belief that progress depends on concrete proposals to achieve an
+                    honorable peace.</p>
+                <p>“We reaffirm our readiness to examine Hanoi’s ideas carefully, with goodwill and
+                    in strictest confidence.”</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d14-f1" n="5" xml:id="d14-f1-content">
+                <p>Secret; Nodis.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

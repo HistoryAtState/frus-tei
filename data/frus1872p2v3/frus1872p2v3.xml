@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p2v3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1872p2v3_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1872p2v3_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1872p2v3_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1872p2v3"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1872p2v3" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v3/covers/frus1872p2v3.jpg"/>
+                        <extent>
+                            <measure quantity="44939" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:30.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1872p2v3" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v3/ebook/frus1872p2v3.epub"/>
+                        <extent>
+                            <measure quantity="916222" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:30.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1872p2v3" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v3/ebook/frus1872p2v3.mobi"/>
+                        <extent>
+                            <measure quantity="1658999" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:30.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1872 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>belgium</term>
+                    <term>brazil</term>
+                    <term>cuba</term>
+                    <term>denmark</term>
+                    <term>france</term>
+                    <term>italy</term>
+                    <term>portugal</term>
+                    <term>russia</term>
+                    <term>spain</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>martinique</term>
+                    <term>st-vincent-and-the-grenadines</term>
+                    <term>curacao</term>
+                    <term>mauritius</term>
+                    <term>the-bahamas</term>
+                    <term>madagascar</term>
+                    <term>barbados</term>
+                    <term>fish-hamilton</term>
+                    <term>grant-ulysses-s</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1872p2v3" status="published" when="1872"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0003" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Papers Relating to the Foreign Relations of the United
+                        States, Transmitted to Congress with the Annual Message of the President,
+                        December 2, 1872.</titlePart>
+                    <titlePart type="subseries">PART II. V. 3</titlePart>
+                </docTitle>
+                <docImprint>WASHINGTON: GOVERNMENT PRINTING OFFICE.</docImprint>
+            </titlePage>
+            <xi:include href="front/papers1.xml" xpointer="papers1"/>
+            <xi:include href="front/contents.xml" xpointer="contents"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <pb facs="0274" n="256" xml:id="pg256"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <pb facs="0662" n="642" xml:id="pg642"/>
+            <pb facs="0663" n="643" xml:id="pg643"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+            <pb facs="0674" n="654" xml:id="pg654"/>
+        </back>
+    </text>
+</TEI>

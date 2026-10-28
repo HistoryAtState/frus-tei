@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1940v01_d55" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The British Ambassador (Lothian) to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1940v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1940v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1940v01/d55"
+                    type="canonical"/>
+                <relatedItem target="d54.xml" type="prev"/>
+                <relatedItem target="d55-a1.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1940v01</bibl>
+                <bibl type="frus-division-id">d55</bibl>
+                <bibl type="frus-division-n">55</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="142" to="143" unit="page"
+                        >142–43</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1940-04-07">April 7, 1940</date>
+                    <date notAfter="1940-04-07T23:59:59-05:00" notBefore="1940-04-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d55">
+
+                <pb facs="0154" n="142" sameAs="frus:frus1940v01/pg142"/>
+
+                <note rend="inline" type="source">740.00112 European War 1939/1304</note>
+                <head>
+                    <hi rendition="#italic">The British Ambassador</hi> (<hi
+                            rendition="#italic">Lothian</hi>) <hi rendition="#italic">to
+                        the Secretary of State
+                    </hi><anchor n="9" xml:id="d55-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1940-04-07">April 7, 1940</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Dear Mr. Secretary</hi>: With reference to my letter
+                    of yesterday informing you that a communication had been made by the Allied
+                    Governments to the Swedish and Norwegian Governments, I enclose herein the text
+                    of a message which I have been instructed to convey to the President for his
+                    personal and secret information.</p>
+                <p>Yours sincerely,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Lothian</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d55-a1.xml" xpointer="d55-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d55-f1" n="9" type="source" xml:id="d55-f1-content">
+                <p>Notation on margin of document, by the Adviser on Political Relations: “This note
+                    was handed to me by the First Secretary of the British Embassy at my house April
+                    7, 1940 at 7 p.m. J. C. Dunn.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

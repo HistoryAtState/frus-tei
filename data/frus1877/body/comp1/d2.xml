@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1877_d2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 2.</title>
+            </titleStmt>
+            <xi:include href="../../frus1877_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1877_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1877/d2"
+                    type="canonical"/>
+                <relatedItem target="d1.xml" type="prev"/>
+                <relatedItem target="d3.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1877</bibl>
+                <bibl type="frus-division-id">d2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1" to="1" unit="page"
+                    >1</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1877-06-28"><hi rendition="#italic">June</hi>
+                        28, 1877</date>
+                    <date notAfter="1877-06-28T23:59:59-05:00" notBefore="1877-06-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d2">
+
+                <pb facs="0049" n="1" sameAs="frus:frus1877/pg1"/>
+
+                <head>No. 2.</head>
+                <opener><seg rendition="#center">[Sent to European countries and Turkish
+                        dominions.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1877-06-28"><hi rendition="#italic">June</hi> 28,
+                        1877</date>.</dateline>
+                    <seg rendition="#float-left">Separate.]</seg></opener>
+                <p rendition="#flush"><hi rendition="#italic">To the diplomatic and consular
+                        officers of the United States:</hi></p>
+                <p><hi rendition="#small-caps">Gentlemen</hi>: In view of the present hostilities
+                    between Russia and Turkey, and possible complications in other countries, the
+                    government of Switzerland has requested the continuance of the protection which
+                    has heretofore been extended to citizens of that republic by the diplomatic and
+                    consular officers of the United States.</p>
+                <p>You are consequently authorized to continue the exercise of your good offices in
+                    behalf of Swiss citizens, under the limitations prescribed by my predecessor in
+                    the circular instructions which he addressed to you on the 16th of June and 15th
+                    of December, 1871.</p>
+                <p>I am, gentlemen, your obedient servant,</p>
+                <closer><signed>WM. M. EVARTS.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

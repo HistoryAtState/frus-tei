@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_comp13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ecuador</title>
+            </titleStmt>
+            <xi:include href="../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/comp13"
+                    type="canonical"/>
+                <relatedItem target="comp12/ch117/d335.xml" type="prev"/>
+                <relatedItem target="comp13/ch118.xml" type="next"/>
+                <relatedItem target="../frus1902.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">comp13</bibl>
+                <bibl type="frus-division-n">13</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="386" to="390" unit="page"
+                        >386–90</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1902-10-13T23:59:59-05:00" notBefore="1901-12-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp13">
+
+                <pb facs="0466" n="386" xml:id="pg386"/>
+
+                <head>Ecuador</head>
+
+
+
+
+                <xi:include href="comp13/ch118.xml" xpointer="ch118"/>
+                <xi:include href="comp13/ch119.xml" xpointer="ch119"/>
+                <xi:include href="comp13/ch120.xml" xpointer="ch120"/>
+            </div>
+        </body>
+    </text>
+</TEI>

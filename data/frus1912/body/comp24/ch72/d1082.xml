@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d1082" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d1082"
+                    type="canonical"/>
+                <relatedItem target="d1081.xml" type="prev"/>
+                <relatedItem target="d1083.xml" type="next"/>
+                <relatedItem target="../ch72.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d1082</bibl>
+                <bibl type="frus-division-n">1082</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="800" to="800" unit="page"
+                        >800</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1912-04-23T14:00:00-06:36">
+                        <hi rendition="#italic">April 23, 1912—2 p.m.</hi>
+                    </date>
+                    <date notAfter="1912-04-23T15:36:00-05:00" notBefore="1912-04-23T15:36:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1082">
+
+                <pb facs="0916" n="800" sameAs="frus:frus1912/pg800"/>
+
+                <note rend="inline" type="source">File No. 312.11/270.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Mexico</hi></placeName>, <date
+                            calendar="gregorian" when="1912-04-23T14:00:00-06:36">
+                            <hi rendition="#italic">April 23, 1912—2 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Press reports that the U. S. S. <hi rendition="#italic">Maryland</hi> is now on
+                    the way to Los Mochis are giving Minister Foreign Affairs much concern. He says
+                    Mexican Government has no objection to Americans there being taken away by the
+                    United States, but on account of effect upon public opinion earnestly hopes that
+                    vessel may be revenue cutter or transport.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Wilson.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

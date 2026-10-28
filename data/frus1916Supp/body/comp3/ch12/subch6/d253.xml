@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916Supp_d253" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Germany (Gerard) to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1916Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1916Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1916Supp/d253"
+                    type="canonical"/>
+                <relatedItem target="d252.xml" type="prev"/>
+                <relatedItem target="d253-a1.xml" type="next"/>
+                <relatedItem target="../subch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916Supp</bibl>
+                <bibl type="frus-division-id">d253</bibl>
+                <bibl type="frus-division-n">253</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="187" to="188" unit="page"
+                        >187–88</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1916-02-14">
+                        <hi rendition="#italic">February 14, 1916</hi>
+                    </date>
+                    <date notAfter="1916-02-14T23:59:59-05:00" notBefore="1916-02-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1916Supp/persons">
+                    <term ref="frus:frus1916Supp/persons#p_GJW1">Gerard, James Watson</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d253">
+
+                <pb facs="0473" n="187" sameAs="frus:frus1916Supp/pg187"/>
+
+                <note rend="inline" type="source">File No. 763.72/2460</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Germany</hi> (<hi rendition="#italic"
+                    >Gerard</hi>) <hi rendition="#italic">to the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 2451</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Berlin</hi></placeName>, <date
+                            calendar="gregorian" when="1916-02-14">
+                            <hi rendition="#italic">February 14, 1916</hi>
+                        </date>.<lb/>[<hi rendition="#italic">Received March 6</hi>.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to transmit to you
+                    herewith three copies of the memorandum of the Imperial German Government on the
+                    treatment of armed merchantmen, dated February 8, 1915 [1916], which formed the
+                    subject of my telegrams No. 3467, of the 9th,<anchor n="1" xml:id="d253-f1"/>
+                    and No. 3474, of the 10th instant.<anchor n="2" xml:id="d253-f2"/> There are
+                    likewise enclosed a translation of the text of the memorandum and a copy and
+                    translation of the <hi rendition="#italic">note verbale</hi> from the Imperial
+                    Foreign Office, dated February 10, 1916, with which the memorandum was
+                    transmitted to me.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        
+                            <hi rendition="#small-caps">James W. Gerard</hi>
+                        
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d253-a1.xml" xpointer="d253-a1"/>
+                <xi:include href="d253-a2.xml" xpointer="d253-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d253-f1" n="1" xml:id="d253-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d253-f2" n="2" xml:id="d253-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg163">p. 163</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

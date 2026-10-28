@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918_comp18" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Netherlands</title>
+            </titleStmt>
+            <xi:include href="../frus1918_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1918_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1918/comp18"
+                    type="canonical"/>
+                <relatedItem target="comp17/ch44/d705-a1.xml" type="prev"/>
+                <relatedItem target="comp18/ch45.xml" type="next"/>
+                <relatedItem target="../frus1918.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918</bibl>
+                <bibl type="frus-division-id">comp18</bibl>
+                <bibl type="frus-division-n">18</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="818" to="818" unit="page"
+                        >818</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1918-12-30T23:59:59-05:00" notBefore="1917-12-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp18">
+
+                <pb facs="0930" n="818" xml:id="pg818"/>
+
+                <head>Netherlands</head>
+
+                <xi:include href="comp18/ch45.xml" xpointer="ch45"/>
+            </div>
+        </body>
+    </text>
+</TEI>

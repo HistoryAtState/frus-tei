@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1882_d23" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 23.</title>
+                <title type="subtitle">Mr. Logan to Mr. Frelinghuysen.</title>
+            </titleStmt>
+            <xi:include href="../../frus1882_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1882_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1882/d23"
+                    type="canonical"/>
+                <relatedItem target="../comp6.xml" type="prev"/>
+                <relatedItem target="d23-a1.xml" type="next"/>
+                <relatedItem target="../comp6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1882</bibl>
+                <bibl type="frus-division-id">d23</bibl>
+                <bibl type="frus-division-n">23</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="32" to="33" unit="page"
+                        >32–33</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Guatemala City</hi></placeName>
+                    <date calendar="gregorian" when="1882-03-03"><hi rendition="#italic">March</hi>
+                        3, 1882</date>
+                    <date notAfter="1882-03-03T23:59:59-05:00" notBefore="1882-03-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d23">
+
+                <pb facs="0104" n="32" sameAs="frus:frus1882/pg32"/>
+
+                <head>No. 23.<lb/><hi rendition="#italic">Mr. Logan
+                        to Mr. Frelinghuysen</hi>.</head>
+                <opener><seg rendition="#center">[Extract.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Guatemala City</hi></placeName>, <date calendar="gregorian"
+                            when="1882-03-03"><hi rendition="#italic">March</hi> 3, 1882</date>.
+                        (Received April 17.)</dateline>
+                    <seg rendition="#float-left">No. 273.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Under cover of this dispatch I inclose the
+                    translation of an editorial article from El Guatemalteco, the official organ of
+                    the Guatemala Government, relating to the proposed American Peace Congress. Its
+                    utterances are important. * * *</p>
+                <p>I have, &amp;c.,</p>
+                <closer><signed>C. A. LOGAN.</signed></closer>
+
+
+
+                <xi:include href="d23-a1.xml" xpointer="d23-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

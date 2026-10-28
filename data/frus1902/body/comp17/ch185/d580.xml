@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d580" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr.
+                            Jackson.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d580"
+                    type="canonical"/>
+                <relatedItem target="d579.xml" type="prev"/>
+                <relatedItem target="d580-a1.xml" type="next"/>
+                <relatedItem target="../ch185.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d580</bibl>
+                <bibl type="frus-division-n">580</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="568" to="568" unit="page"
+                        >568</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1903-01-06"><hi rendition="#italic">January 6,
+                            1903</hi></date>
+                    <date notAfter="1903-01-06T23:59:59-05:00" notBefore="1903-01-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d580">
+
+                <pb facs="0648" n="568" xml:id="pg568"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr.
+                            Jackson.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1903-01-06"><hi rendition="#italic">January 6,
+                        1903</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 4.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to your predecessor’s No.
+                    104, of the 13th ultimo, reporting the visit of the U. S. S. <hi
+                        rendition="#italic">Hartford</hi> to the Piraeus, I now inclose for your
+                    information the report of that visit as made by the commanding officer of the
+                    vessel.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+
+                <xi:include href="d580-a1.xml" xpointer="d580-a1"/>
+                <xi:include href="d580-a2.xml" xpointer="d580-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

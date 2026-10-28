@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d1400-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d1400-a1"
+                    type="canonical"/>
+                <relatedItem target="d1400.xml" type="prev"/>
+                <relatedItem target="d1401.xml" type="next"/>
+                <relatedItem target="d1400.xml" type="parent"/>
+                <relatedItem target="d1400.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d1400-a1</bibl>
+                <bibl type="frus-division-n">1400.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1547" to="1547" unit="page"
+                        >1547</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1400-a1">
+
+                <pb facs="1747" n="1547" sameAs="frus:frus1945Berlinv02/pg1547"/>
+
+                <opener>
+                    <seg rendition="#center">[Enclosure]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                </opener>
+                <p>[Here is set forth, with minor variations, the text of <ref target="#d1383"
+                        >document No. 1383</ref>, section VII (VI).]</p>
+                <p>It is the earnest wish of the three Governments that the Provisional Government
+                    of the French Republic will be able to associate itself with the above
+                    statement.</p>
+                <p>The three Governments would be grateful if the French Provisional Government
+                    would treat the present communication as strictly secret until such time as an
+                    official statement is issued by the Conference.</p>
+                <closer><dateline rendition="#float-left">
+                        <placeName><hi rendition="#small-caps">Paris</hi></placeName>, <date
+                            calendar="gregorian" when="1945-08-01">August 1,
+                    1945</date>.</dateline></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1893_comp11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Hawaii</title>
+            </titleStmt>
+            <xi:include href="../frus1893_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1893_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1893/comp11"
+                    type="canonical"/>
+                <relatedItem target="comp10/d380-a4.xml" type="prev"/>
+                <relatedItem target="comp12.xml" type="next"/>
+                <relatedItem target="../frus1893.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1893</bibl>
+                <bibl type="frus-division-id">comp11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype">referral</bibl>
+                <bibl type="frus-print-pages"><biblScope from="383" to="383" unit="page"
+                        >383</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1894-04-19T23:59:59-05:00" notBefore="1883-11-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp11">
+
+                <pb facs="0491" n="383" xml:id="pg383"/>
+
+                <head>Hawaii<anchor n="*" xml:id="comp11-f1"/></head>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#comp11-f1" n="*" type="source" xml:id="comp11-f1-content">
+                <p>The correspondence respecting the affairs in Hawaii will be found in Senate Ex.
+                    Docs. 13, 46, 57, 65, 77; House Ex. Docs. 47, 48, 70, 76, 79, 95, 112, 140;
+                    Senate Report 227 and House Report 243, parts 1 and 2, Fifty-third Congress,
+                    second session.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

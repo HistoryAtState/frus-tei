@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav02_d906" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Russia (Francis) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav02/d906"
+                    type="canonical"/>
+                <relatedItem target="d905.xml" type="prev"/>
+                <relatedItem target="d907.xml" type="next"/>
+                <relatedItem target="../ch6subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav02</bibl>
+                <bibl type="frus-division-id">d906</bibl>
+                <bibl type="frus-division-n">906</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="753" to="754" unit="page"
+                        >753–54</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Petrograd</hi></placeName>
+                    <date calendar="gregorian" when="1918-02-19T21:00:00+02:31"><hi
+                            rendition="#italic">February 19, 1918, 9 p.m.</hi></date>
+                    <date notAfter="1918-02-19T13:29:00-05:00" notBefore="1918-02-19T13:29:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav02/persons">
+                    <term ref="frus:frus1918Russiav02/persons#p_FDR1">Francis, David R.</term>
+                    <term ref="frus:frus1918Russiav02/persons#p_MGCGE1">Mannerheim, Gen. Carl Gustaf
+                        Emil</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d906">
+
+                <pb facs="0843" n="753" sameAs="frus:frus1918Russiav02/pg753"/>
+
+                <note rend="inline" type="source">File No. 860d.00/21</note>
+                <head><hi rendition="#italic">The Ambassador in Russia</hi> (<hi rendition="#italic"
+                        >Francis</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Petrograd</hi></placeName>, <date calendar="gregorian"
+                            when="1918-02-19T21:00:00+02:31"><hi rendition="#italic">February 19,
+                                1918, 9 p.m.</hi></date>
+                        <lb/> [<hi rendition="#italic">Received February 24, 10.33
+                        a.m.</hi>]</dateline>
+                </opener>
+                <p>2390. Kliefoth<anchor n="1" xml:id="d906-f1"/> just arrived
+                    from Torneå after eight days across Finland to Murmansk road and reports as
+                    follows:</p>
+                <p>White Guard, comprising an army of patriots totaling about 50,000 well-drilled
+                    and disciplined men and under command of Mannerheim, a Russian-Finnish general distinguished in present
+                    and the Russian-Japanese war, who is virtually dictator, is in absolute control
+                    of all Finland north of general line Björneborg-Tammerfors-Viborg. This force
+                    includes many Russian generals and officers, <pb facs="0844" n="754"
+                        xml:id="pg754"/> about 60 volunteer Swedish officers and only 6 volunteer
+                    Germans formerly affiliated with Finland. They are not fighting Russia, their
+                    sole object being to drive from their country Finnish-Bolshevik and Russian Red
+                    Guards and to establish Finnish independence. They are not expecting official
+                    German aid. Finland claims Aland Islands of which Sweden has taken
+                    possession.</p>
+                <closer>
+                    <signed><hi rendition="#small-caps"
+                            >Francis</hi></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d906-f1" n="1" xml:id="d906-f1-content">
+                <p>Alfred W. Kliefoth, Vice Consul at Haparanda.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

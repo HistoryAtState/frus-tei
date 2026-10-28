@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app1_d124" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EXHIBIT E.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1902app1/d124"
+                    type="canonical"/>
+                <relatedItem target="d123.xml" type="prev"/>
+                <relatedItem target="d124-a1.xml" type="next"/>
+                <relatedItem target="../s04.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app1</bibl>
+                <bibl type="frus-division-id">d124</bibl>
+                <bibl type="frus-division-n">124</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="267" to="273" unit="page"
+                        >267–73</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1900-11-20T23:59:59-05:00" notBefore="1900-11-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d124">
+
+                <pb facs="0289" n="267" sameAs="frus:frus1902app1/pg267"/>
+
+                <head>EXHIBIT E.</head>
+                <p rendition="#flush"><hi rendition="#small-caps">State of California</hi>, <hi
+                        rendition="#italic">City and County of San Francisco, ss:</hi></p>
+                <p>I, W. T. Hess, a notary public in and for the city and county of San Francisco,
+                    State aforesaid, duly commissioned and sworn, do hereby certify that the annexed
+                    log book of the <hi rendition="#italic">Kate and Anna</hi> is the original log
+                    book produced by Charles Lutjens and verified as an original log book by his
+                    affidavit this day sworn to before me, to which said affidavit special reference
+                    is hereby made.</p>
+                <p>The said log book consists of 58 pages besides this, and I have this day affixed
+                    my official seal to each of the said 58 pages for the purpose of identifying the
+                    same.</p>
+                <closer>
+                    <dateline rendition="#float-left">In witness whereof I have hereunto set my hand
+                        and official seal <date calendar="gregorian" when="1900-11-20">this 20th day
+                            of November, 1900</date>.</dateline>
+                    <lb/>
+                    <signed><hi rendition="#small-caps">W. T. Hess</hi>,<lb/><hi rendition="#italic"
+                            >Notary Public in and for the City and County of San Francisco, State of
+                            California</hi>.</signed>
+                    <lb/>
+                    <seg rendition="#float-left">[Seal of notary public.]</seg>
+                </closer>
+
+
+
+
+
+                <xi:include href="d124-a1.xml" xpointer="d124-a1"/>
+                <xi:include href="d124-a2.xml" xpointer="d124-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

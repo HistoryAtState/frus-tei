@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d155" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d155"
+                    type="canonical"/>
+                <relatedItem target="d154.xml" type="prev"/>
+                <relatedItem target="../ch3subch13.xml" type="next"/>
+                <relatedItem target="../ch3subch12.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d155</bibl>
+                <bibl type="frus-division-n">155</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="377" to="377" unit="page"
+                        >377</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-05-27">May 27, 1943</date>
+                    <date notAfter="1943-05-27T23:59:59-05:00" notBefore="1943-05-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Churchill1">Churchill</term>
+                    <term ref="frus:frus1943/terms#t_Freedom1">Freedom</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d155">
+
+                <pb facs="0479" n="377" sameAs="frus:frus1943/pg377"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to
+                        Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d155-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1943-05-27">May 27, 1943</date>.]</dateline>
+                </opener>
+                <p>276. We were all very happy to hear this afternoon that you have safely completed
+                    the second leg of the trip. I have given the one sentence announcement of the
+                    end of the conferences to the Press.<anchor n="2" xml:id="d155-f2"/> I miss you
+                    much. It was a highly successful meeting in every way and proved that it was
+                    well timed and necessary.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d155-f1" n="1" type="source" xml:id="d155-f1-content">
+                <p>This message was sent by Roosevelt to Eisenhower, in telegram 
+                        <hi rendition="#small-caps">Freedom</hi>
+                     8961, May 27, 1943, 4 p.m., for delivery to Churchill.</p>
+            </note>
+            <note corresp="#d155-f2" n="2" xml:id="d155-f2-content">
+                <p>For the statement by Roosevelt, see <hi rendition="#italic">supra.</hi>
+                </p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_comp27" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Netherlands:</title>
+            </titleStmt>
+            <xi:include href="../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/comp27"
+                    type="canonical"/>
+                <relatedItem target="comp26/ch104/d1639.xml" type="prev"/>
+                <relatedItem target="comp27/ch105.xml" type="next"/>
+                <relatedItem target="../frus1914.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">comp27</bibl>
+                <bibl type="frus-division-n">27</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="924" to="939" unit="page"
+                        >924–39</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1914-12-17T23:59:59-05:00" notBefore="1913-09-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp27">
+
+                <pb facs="1040" n="924" xml:id="pg924"/>
+
+                <head>Netherlands:</head>
+
+
+                <xi:include href="comp27/ch105.xml" xpointer="ch105"/>
+                <xi:include href="comp27/ch106.xml" xpointer="ch106"/>
+            </div>
+        </body>
+    </text>
+</TEI>

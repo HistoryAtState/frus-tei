@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d11"
+                    type="canonical"/>
+                <relatedItem target="d10.xml" type="prev"/>
+                <relatedItem target="d12.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="8" to="8" unit="page"
+                    >8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-06-20">20 June 1944</date>
+                    <date notAfter="1944-06-20T23:59:59-05:00" notBefore="1944-06-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Red1">Red</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d11">
+
+                <pb facs="0062" n="8" xml:id="pg8"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President Roosevelt</hi><anchor n="1" xml:id="d11-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1944-06-20">20 June 1944</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Roosevelt personal and top secret number 707 your
+                        564.<anchor n="2" xml:id="d11-f2"/></p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <list>
+                    <label>2.</label>
+                    <item>Your operations in the Pacific assume every day a more vehement and
+                        compulsive course. Admiral King gave me a full account in the several good
+                        talks I had with him. Everything went well at the meeting of the Chiefs of
+                            Staff.<anchor n="3" xml:id="d11-f3"/></item>
+                    <label>3.</label>
+                    <item>However, it is most desirable we have a meeting before October.<anchor
+                            n="4" xml:id="d11-f4"/> How about August 20 at the Citadel Quebec? A
+                        week in those surroundings and cool air would do you no end of good.</item>
+                    <label>4.</label>
+                    <item>Your troops are fighting magnificently and I should not think that
+                        Cherbourg would hold out long. Anyhow, the synthetic harbours, which are a
+                        miracle of rapid construction, would each of them handle more traffic than
+                        Cherbourg, and I hope you will honour one of them with your arrival.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d11-f1" n="1" type="source" xml:id="d11-f1-content">
+                <p>Sent to Washington by the United States Military Attaché, London, via Army
+                    channels; forwarded by the White House Map Room to Roosevelt, who was then at
+                    Hyde Park, New York, as telegram No. <hi
+                            rendition="#small-caps">Red</hi> 77.</p>
+            </note>
+            <note corresp="#d11-f2" n="2" xml:id="d11-f2-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d11-f3" n="3" xml:id="d11-f3-content">
+                <p>The Combined Chiefs of Staff had held their 162d–166th meetings in England in the
+                    period June 10–15, 1944. With reference to these meetings and related activities
+                    and conversations, see Matloff, pp. 467–469; Alanbrooke, pp. 156–162; Arnold,
+                    pp. 504–512; Churchill, <hi rendition="#italic">Triumph and Tragedy</hi>, pp.
+                    60–61; and King, pp. 547–553.</p>
+            </note>
+            <note corresp="#d11-f4" n="4" xml:id="d11-f4-content">
+                <p>No message from Roosevelt to Churchill has been found which mentions the
+                    possibility of a meeting in October.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

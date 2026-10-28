@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v09_comp1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Berlin crisis, 1959–1960</title>
+            </titleStmt>
+            <xi:include href="../frus1958-60v09_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1958-60v09_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v09/comp1"
+                    type="canonical"/>
+                <relatedItem target="../front/persons.xml" type="prev"/>
+                <relatedItem target="comp1/ch1.xml" type="next"/>
+                <relatedItem target="../frus1958-60v09.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v09</bibl>
+                <bibl type="frus-division-id">comp1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1" to="626" unit="page"
+                        >1–626</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1960-12-17T17:30:00-05:00" notBefore="1959-08-10T13:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp1">
+
+                <pb facs="0035" n="1" xml:id="pg1"/>
+
+                <head>Berlin crisis, 1959–1960</head>
+
+
+
+                <xi:include href="comp1/ch1.xml" xpointer="ch1"/>
+                <xi:include href="comp1/ch2.xml" xpointer="ch2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

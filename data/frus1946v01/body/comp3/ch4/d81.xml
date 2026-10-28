@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1946v01_d81" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Principal Adviser to the United
+                        States Delegation (Hiss) to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1946v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1946v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1946v01/d81"
+                    type="canonical"/>
+                <relatedItem target="d80.xml" type="prev"/>
+                <relatedItem target="d81-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1946v01</bibl>
+                <bibl type="frus-division-id">d81</bibl>
+                <bibl type="frus-division-n">81</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="156" to="157" unit="page"
+                        >156–57</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1946-01-12">January 12, 1946</date>
+                    <date notAfter="1946-01-12T23:59:59-05:00" notBefore="1946-01-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1946v01/terms">
+                    <term ref="frus:frus1946v01/terms#t_IO1">IO</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d81">
+
+                <pb facs="0174" n="156" sameAs="frus:frus1946v01/pg156"/>
+
+                <note rend="inline" type="source">
+                    IO Files: USGA/Ia/12/Add.1</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the Principal Adviser to the United States
+                        Delegation</hi> (<hi rendition="#italic"
+                        >Hiss</hi>) <hi rendition="#italic">to the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>,] <date calendar="gregorian"
+                            when="1946-01-12">January 12, 1946</date>.</dateline>
+                </opener>
+                <p>The attached slates have been circulated this morning<anchor n="50"
+                        xml:id="d81-f1"/> by our political officers as our slates for the Security
+                    Council and the Economic and Social Council.</p>
+
+
+
+                <xi:include href="d81-a1.xml" xpointer="d81-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d81-f1" n="50" xml:id="d81-f1-content">
+                <p>Typed notation at bottom of this memorandum reads: “Covering Memo to slates sent
+                    Byrnes Jan. 12, 9 a.m.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

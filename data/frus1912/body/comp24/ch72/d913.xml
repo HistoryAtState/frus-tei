@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d913" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d913"
+                    type="canonical"/>
+                <relatedItem target="d912.xml" type="prev"/>
+                <relatedItem target="d914.xml" type="next"/>
+                <relatedItem target="../ch72.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d913</bibl>
+                <bibl type="frus-division-n">913</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="717" to="717" unit="page"
+                        >717</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                        <hi rendition="#italic">Chihuahua</hi></placeName>
+                    <date calendar="gregorian" when="1912-02-06T13:00:00-07:04">
+                        <hi rendition="#italic">February 6, 1912—1 p.m.</hi>
+                    </date>
+                    <date notAfter="1912-02-06T15:04:00-05:00" notBefore="1912-02-06T15:04:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d913">
+
+                <pb facs="0833" n="717" sameAs="frus:frus1912/pg717"/>
+
+                <note rend="inline" type="source">File No. 812.00/2744.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                            <hi rendition="#italic">Chihuahua</hi></placeName>, <date
+                            calendar="gregorian" when="1912-02-06T13:00:00-07:04">
+                            <hi rendition="#italic">February 6, 1912—1 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Orozco elected governor by State congress. No action taken with reference to
+                    secession. Remarkable change in the situation within a few hours, undoubtedly
+                    attributable to fear of intervention; prospects rather more favorable.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Letcher.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

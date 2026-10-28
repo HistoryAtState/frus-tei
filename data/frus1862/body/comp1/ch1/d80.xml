@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1862_d80" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adams to Mr.
+                        Seward.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1862_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1862_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1862/d80"
+                    type="canonical"/>
+                <relatedItem target="d79.xml" type="prev"/>
+                <relatedItem target="d80-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1862</bibl>
+                <bibl type="frus-division-id">d80</bibl>
+                <bibl type="frus-division-n">80</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="110" to="112" unit="page"
+                        >110–12</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                        <hi rendition="#italic">London,</hi></placeName>
+                    <date calendar="gregorian" when="1862-06-13"><hi rendition="#italic">June</hi>
+                        13, 1862.</date>
+                    <date notAfter="1862-06-13T23:59:59-05:00" notBefore="1862-06-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d80">
+
+                <pb facs="0180" n="110" sameAs="frus:frus1862/pg110"/>
+
+                <head>Mr. Adams to Mr.
+                        Seward.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 174.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                            <hi rendition="#italic">London,</hi></placeName>
+                        <date calendar="gregorian" when="1862-06-13"><hi rendition="#italic"
+                                >June</hi> 13, 1862.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> I have the honor to transmit a copy of Lord
+                    Russell’s note to me, just received, in reply to mine of the 28th of May, on the
+                    subject of the ship Emily St. Pierre. At the same time I transmit a copy of my
+                    reply.</p>
+                <p>It seems to me that after this no resource is left in cases of seizure for
+                    violating the blockade but to put the officers in irons.</p>
+                <p>I have the honor to be, sir, your obedient servant,</p>
+                <closer>
+                    <signed>CHARLES FRANCIS ADAMS.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward,</hi>
+                        <hi rendition="#italic">Secretary of State, Washington, D. C.</hi></p>
+                </postscript>
+
+
+
+                <xi:include href="d80-a1.xml" xpointer="d80-a1"/>
+                <xi:include href="d80-a2.xml" xpointer="d80-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

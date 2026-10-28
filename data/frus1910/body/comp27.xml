@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1910_comp27" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Morocco</title>
+            </titleStmt>
+            <xi:include href="../frus1910_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1910_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1910/comp27"
+                    type="canonical"/>
+                <relatedItem target="comp26/ch81/d764.xml" type="prev"/>
+                <relatedItem target="comp27/ch82.xml" type="next"/>
+                <relatedItem target="../frus1910.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1910</bibl>
+                <bibl type="frus-division-id">comp27</bibl>
+                <bibl type="frus-division-n">27</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="734" to="735" unit="page"
+                        >734–35</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1910-04-29T23:59:59-05:00" notBefore="1909-12-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp27">
+
+                <pb facs="0846" n="734" xml:id="pg734"/>
+
+                <head>Morocco</head>
+
+                <xi:include href="comp27/ch82.xml" xpointer="ch82"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d163" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to Marshal Stalin
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d163"
+                    type="canonical"/>
+                <relatedItem target="d162.xml" type="prev"/>
+                <relatedItem target="../../../comp2.xml" type="next"/>
+                <relatedItem target="../ch3subch13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d163</bibl>
+                <bibl type="frus-division-n">163</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="387" to="387" unit="page"
+                        >387</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-06-02">June 2, 1943</date>
+                    <date notAfter="1943-06-02T23:59:59-05:00" notBefore="1943-06-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d163">
+
+                <pb facs="0489" n="387" xml:id="pg387"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to
+                        Marshal Stalin
+                    </hi><anchor n="1" xml:id="d163-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">operational priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-06-02">June 2, 1943</date>.</dateline>
+                </opener>
+                <p>Personal and most secret from the President to Premier Stalin.</p>
+                <p>I am sending you through Ambassador Standley the recently approved decisions of
+                    our Combined Chiefs of Staff. These decisions have the joint approval of both
+                    Mr. Churchill and myself. In view of their extremely secret nature I am asking
+                    Ambassador Standley to deliver them to you personally.<anchor n="2"
+                        xml:id="d163-f2"/>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d163-f1" n="1" type="source" xml:id="d163-f1-content">
+                <p>Transmitted via the United States Naval Attaché in Moscow.</p>
+            </note>
+            <note corresp="#d163-f2" n="2" xml:id="d163-f2-content">
+                <p>Roosevelt’s communication to Stalin, which was sent by telegram to the United
+                    States Naval Attaché in Moscow, is not printed here. The text was identical with
+                    the draft prepared by Marshall and printed <hi rendition="#italic">ante</hi>,
+                        <ref target="#pg383">p. 383</ref>, with the exception of the change
+                    indicated in footnote 4 to that draft and certain minor typographical
+                    alterations. For a description of the manner in which the communication from
+                    Roosevelt to Stalin was received by Ambassador Standley in Moscow on June 4 and
+                    was delivered to Stalin in his Kremlin air raid shelter during an air raid
+                    alert, see William H. Standley and Arthur A. Ageton, <hi rendition="#italic"
+                        >Admiral Ambassador to Russia</hi> (Chicago: Henry Regnery Company, 1955),
+                    p. 429. For text of Stalin’s reply to Roosevelt’s message, sent on June 11,
+                    1943, see <hi rendition="#italic">Stalin’s Correspondence</hi>, vol. <hi
+                        rendition="#small-caps">ii</hi>, p. 70.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

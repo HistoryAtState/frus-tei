@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d906-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d906-a1"
+                    type="canonical"/>
+                <relatedItem target="d906.xml" type="prev"/>
+                <relatedItem target="../ch92.xml" type="next"/>
+                <relatedItem target="d906.xml" type="parent"/>
+                <relatedItem target="d906.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d906-a1</bibl>
+                <bibl type="frus-division-n">906.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="783" to="784" unit="page"
+                        >783–84</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d906-a1">
+
+                <pb facs="0881" n="783" sameAs="frus:frus1900/pg783"/>
+
+                <opener><seg rendition="#center">[Inclosure.]</seg></opener>
+                <p>Received from the Secretary of State of the United States the sum of $287,833.77,
+                    being the unpaid balance of the award in favor of Benjamin Weil, by the United
+                    States and Mexican Mixed Claims Commission under the convention of July 4, 1868,
+                    which award by the decision of the Court of Claims, and, upon appeal, by the
+                    decision <pb facs="0882" n="784" xml:id="pg784"/> of the Supreme Court of the
+                    United States, upon action brought by the Attorney-General of the United States
+                    under the authority of an act of Congress which took effect December 28, 1892,
+                    was declared to be obtained by fraud.</p>
+                <p>This amount is paid by check No. 4017, drawn upon the assistant treasurer of the
+                    United States at New York, dated November 10, 1900, and made payable to my
+                    order.</p>
+                <closer><dateline rendition="#float-left">Signed in triplicate this <date
+                            calendar="gregorian" when="1900-11-10">10th day of November,
+                        1900</date>, at <placeName>Washington, D. C.</placeName></dateline><lb/>[<hi
+                        rendition="#small-caps">seal.</hi>] <signed><hi rendition="#small-caps">M.
+                            de Azpíroz.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

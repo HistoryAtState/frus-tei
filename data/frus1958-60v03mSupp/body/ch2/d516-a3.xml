@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d516-a3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d516-a3"
+                    type="canonical"/>
+                <relatedItem target="d516-a2.xml" type="prev"/>
+                <relatedItem target="d517.xml" type="next"/>
+                <relatedItem target="d516.xml" type="parent"/>
+                <relatedItem target="d516.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d516-a3</bibl>
+                <bibl type="frus-division-n">516.3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label">Attachment</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d516-a3">
+
+                <pb facs="1972" n="1867" xml:id="pg1867"/>
+
+
+                <pb facs="d516-16" n="16" type="facsimile" xml:id="d516-16"/>
+                <p rendition="#center">SUGGESTED THRESHOLD DEFINITION</p>
+                <p>1. A seismic event shall qualify for consideration by the Control System if its
+                    seismic waves are as large as, or larger than, the seismic waves recorded from
+                    an earthquake of magnitude 4.75 as determined by the procedure given in
+                    paragraph 2 below.</p>
+                <p>2. The method for determining magnitude is as follows:</p>
+                <p>a. From the seismograms of each control post which detects signals from the event
+                    in question for which A is measurable as defined below and for which the
+                    epicentral distance is greater than 16° and less than 36° to 90°<anchor n="2"
+                        xml:id="d516-f1"/>, determine whether or not the magnitude m, according
+                    to:</p>
+                <figure xml:id="ufig23">
+                    <graphic url="eq_05"/>
+                </figure>
+                <p>is greater than 4.75</p>
+                <p>In the above formula, the symbols are defined as follows:</p>
+                <p>A = half of the maximum peak positive to negative amplitude (displacement),
+                    measured in microns, in the first three cycles of the P waves, as recorded by a
+                    vertical seismograph of the type described in paragraph 3 below. For the purpose
+                    of this computation, signals are considered to be detectable and measurable to
+                    sufficient accuracy if A is 3 times the peak noise amplitude during the
+                    preceding few minutes.</p>
+                <pb facs="d516-17" n="17" type="facsimile" xml:id="d516-17"/>
+                <p>T = the time, measured in seconds, between the peak displacement (used in
+                    determining A) and the next following peak.</p>
+                <p>G = the steady-state magnification of the seismograph at period T.</p>
+                <p>Q is given as a function of distance in Table 1.</p>
+                <p>b. If the apparent magnitude exceeds 4.75 at half, or more than half, of the
+                    control posts specified in 2a above, the event is judged to have a magnitude of
+                    4.75 or more.</p>
+                <p>3. The vertical seismograph used for measuring A, as defined in paragraph 2a
+                    above, shall be a short period seismograph with characteristics which will
+                    permit operation of single seismographs at quiet stations with magnification
+                    greater than 10<hi rendition="#superscript">6</hi> at the frequency of peak
+                    response. It may, in particular, conform to the specifications in GEN/DNT/TWG.
+                    2/9, Annex IV, page 12.</p>
+                <pb facs="1973" n="1868" type="typeset" xml:id="pg1868"/>
+                <pb facs="d516-18" n="18" type="facsimile" xml:id="d516-18"/>
+                <p><hi rendition="#bold">Table I</hi></p>
+                <table xml:id="tab091">
+                    <row role="label">
+                        <cell cols="2">(Sample)</cell>
+                    </row>
+                    <row>
+                        <cell>Distance</cell>
+                        <cell>G</cell>
+                    </row>
+                    <row>
+                        <cell>16°</cell>
+                        <cell>5.92</cell>
+                    </row>
+                    <row>
+                        <cell>17°</cell>
+                        <cell>5.95</cell>
+                    </row>
+                    <row>
+                        <cell>18°</cell>
+                        <cell>5.98</cell>
+                    </row>
+                    <row>
+                        <cell>19°</cell>
+                        <cell>6.02</cell>
+                    </row>
+                    <row>
+                        <cell>20°</cell>
+                        <cell>6. 05</cell>
+                    </row>
+                    <row>
+                        <cell>.</cell>
+                        <cell>.</cell>
+                    </row>
+                    <row>
+                        <cell>.</cell>
+                        <cell>.</cell>
+                    </row>
+                    <row>
+                        <cell>.</cell>
+                        <cell>.</cell>
+                    </row>
+                    <row>
+                        <cell>90°</cell>
+                        <cell>7.03</cell>
+                    </row>
+                    <row>
+                        <cell cols="2">Note: 1° =111. 11 Km</cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d516-f1" n="2" xml:id="d516-f1-content">
+                <p>(The most desirable cut-off distance for data to be used in determining magnitude
+                    under this definition is still under consideration.) [Footnote is in the
+                    original.]</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

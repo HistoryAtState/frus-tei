@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v21_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1969-76v21_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1969-76v21_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v21/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1969-76v21.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v21</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1002" to="1002" unit="page"
+                        >1002</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1976-11-03T23:59:59-05:00" notBefore="1973-01-03T22:15:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="1045" n="[1002]" xml:id="pg1002"/>
+
+                <head>Errata</head>
+                <p>The following changes have been made to the online version of <ref
+                        target="frus:frus1969-76v21">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1969–1976, Volume XXI,
+                        Chile, 1969–1973</ref>. Please be aware that printed volumes have not been
+                    revised. </p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. Footnote 3, Document 342. </hi>
+                    </item>
+                    <item>The original footnote had an incorrect cross reference. The revised
+                        footnote reads: “3. See <ref target="frus:frus1969-76v21/d339">Document
+                            339</ref> and <ref target="frus:frus1969-76ve16/d138">Document 138 in
+                                <hi rendition="#italic">Foreign Relations</hi>, 1969–1976, vol.
+                            E–16, Documents on Chile, 1969–1973</ref>.”</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

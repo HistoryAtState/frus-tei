@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp_d278" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Great Britain (Page)
+                        to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915Supp/d278"
+                    type="canonical"/>
+                <relatedItem target="d277.xml" type="prev"/>
+                <relatedItem target="d278-a1.xml" type="next"/>
+                <relatedItem target="../subch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915Supp</bibl>
+                <bibl type="frus-division-id">d278</bibl>
+                <bibl type="frus-division-n">278</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="201" to="202" unit="page"
+                        >201–2</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1915-02-02">
+                        <hi rendition="#italic">February 2, 1915</hi>.</date>
+                    <date notAfter="1915-02-02T23:59:59-05:00" notBefore="1915-02-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1915Supp/persons">
+                    <term ref="frus:frus1915Supp/persons#p_PWH1">Page, Walter Hines</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d278">
+
+                <pb facs="0459" n="201" sameAs="frus:frus1915Supp/pg201"/>
+
+                <note rend="inline" type="source">File No. 763.72112/723</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Great Britain</hi> (<hi rendition="#italic">Page</hi>)
+                        <hi rendition="#italic">to the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 835]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1915-02-02">
+                            <hi rendition="#italic">February 2, 1915</hi>.</date>
+                        <lb/> [<hi rendition="#italic">Received February 15.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Referring to the Department’s telegram No.
+                    871 of January 2, inquiring whether the term “Resinous products,” in the Royal
+                    proclamation of December 23 last,<anchor n="1" xml:id="d278-f1"/> was intended
+                    to include “rosin” proper and at the same time requesting to be informed of the
+                    reason for which the British Government had decided to declare these products to
+                    be contraband of war, I have the honor to enclose herewith a copy of a note I
+                    have received from the Foreign Office, setting forth the reason for which. His
+                    Majesty’s Government had decided to declare these products to be contraband of
+                    war, and upon which my telegram No. 1576 of to-day<anchor n="2" xml:id="d278-f2"
+                    /> was based.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        
+                            <hi rendition="#small-caps">Walter Hines Page</hi>
+                        
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d278-a1.xml" xpointer="d278-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d278-f1" n="1" xml:id="d278-f1-content">
+                <p>
+                    <ref target="frus1914Supp#pg_269">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1914, Supplement, p.
+                        269</ref>.</p>
+            </note>
+            <note corresp="#d278-f2" n="2" xml:id="d278-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

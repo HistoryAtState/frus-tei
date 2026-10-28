@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d222" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d222"
+                    type="canonical"/>
+                <relatedItem target="d221.xml" type="prev"/>
+                <relatedItem target="d223.xml" type="next"/>
+                <relatedItem target="../ch53.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d222</bibl>
+                <bibl type="frus-division-n">222</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="196" to="196" unit="page"
+                        >196</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Santo Domingo</hi></placeName>
+                    <date calendar="gregorian" when="1914-01-12T10:00:00-04:40">
+                        <hi rendition="#italic">January 12, 1914, 10 a.m.</hi>
+                    </date>
+                    <date notAfter="1914-01-12T09:40:00-05:00" notBefore="1914-01-12T09:40:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d222">
+
+                <pb facs="0312" n="196" sameAs="frus:frus1914/pg196"/>
+
+                <note rend="inline" type="source">File No. 839.51/1192.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Santo Domingo</hi></placeName>, <date
+                            calendar="gregorian" when="1914-01-12T10:00:00-04:40">
+                            <hi rendition="#italic">January 12, 1914, 10 a.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Your January 10, 7 p.m. First inquiry, yes. Second inquiry, yes. Third, Dominican
+                    Government agrees and proposes consolidated guaranty asked for that the American
+                    Minister shall in the future supervise the daily expenditures of the Dominican
+                    Republic that the same may always be kept within budget. Objects to an open
+                    comptroller. I believe with this power vested in Department our ability to
+                    defeat revolutions and blackmail will be ample and that Dominican Government can
+                    be kept solvent. If this seems the solution would earnestly request immediate
+                    appointment of commercial attaché to assume the duties which such an arrangement
+                    would impose. It seems to me an opportune time to demand increased powers for
+                    the Receivership in the collection of customs.</p>
+                <p>Please send instructions.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Sullivan</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

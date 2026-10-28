@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1923v01_comp15" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Denmark:</title>
+            </titleStmt>
+            <xi:include href="../frus1923v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1923v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1923v01/comp15"
+                    type="canonical"/>
+                <relatedItem target="comp14/ch55/d713-a1.xml" type="prev"/>
+                <relatedItem target="comp15/ch56.xml" type="next"/>
+                <relatedItem target="../frus1923v01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1923v01</bibl>
+                <bibl type="frus-division-id">comp15</bibl>
+                <bibl type="frus-division-n">15</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="881" to="891" unit="page"
+                        >881–91</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1922-12-06T23:59:59-05:00" notBefore="1920-06-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp15">
+
+                <pb facs="0997" n="881" xml:id="pg881"/>
+
+                <head>Denmark:</head>
+
+                <xi:include href="comp15/ch56.xml" xpointer="ch56"/>
+            </div>
+        </body>
+    </text>
+</TEI>

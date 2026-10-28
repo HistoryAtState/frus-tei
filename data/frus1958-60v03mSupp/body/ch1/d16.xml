@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Conference with the President</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d16"
+                    type="canonical"/>
+                <relatedItem target="d15-a1.xml" type="prev"/>
+                <relatedItem target="d17.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d16</bibl>
+                <bibl type="frus-division-n">16</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1958-02-25">February 25, 1958</date>
+                    <date notAfter="1958-02-25T23:59:59-05:00" notBefore="1958-02-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_GBGAJ_1">Goodpaster, Brigadier
+                        General Andrew J.</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_KJR_1">Killian, James R.,
+                        Jr.</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_SALL_1">Strauss, Admiral Lewis
+                        L.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_USA_1">USA</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d16">
+
+                <pb facs="0158" n="53" xml:id="pg53"/>
+
+                <head>16. Memorandum of Conference with the President<anchor n="1" xml:id="d16-f1"
+                    /></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1958-02-25">February 25,
+                        1958</date></dateline>
+                </opener>
+                <pb facs="d16-1" n="1" type="facsimile" xml:id="d16-1"/>
+                <list subtype="participants" type="description">
+                    <label>OTHERS PRESENT</label>
+                    <item>Dr. Killian</item>
+                    <item>Admiral Strauss</item>
+                    <item>General Goodpaster</item>
+                </list>
+                <p>Dr. Killian reported on an unexpected
+                    effect anticipated from exploding nuclear weapons at very high altitude. An
+                    “electron capture” phenomenon is anticipated which might have major effects on
+                    communication and radar. There was discussion of the possibilities in relation
+                    to “blanking out” of radars of certain wavelength.</p>
+                <p>The significance of this discovery to the shot planned for 250,000 feet altitude
+                    during the weapons tests this year was also discussed.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">A.J.
+                            Goodpaster</hi>
+                        <lb/>
+                        <hi rendition="#italic">Brigadier General, USA</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d16-f1" n="1" type="source" xml:id="d16-f1-content">
+                <p>Source: High-altitude nuclear explosions. Top Secret. 1 p. Eisenhower Library,
+                    Whitman File, DDE Diaries.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

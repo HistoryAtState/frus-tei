@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1948v05p1_d2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Conversation, by Mr. Herbert A. Breakey
+                        of the Petroleum Division</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1948v05p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1948v05p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1948v05p1/d2"
+                    type="canonical"/>
+                <relatedItem target="../ch1subch4.xml" type="prev"/>
+                <relatedItem target="d3.xml" type="next"/>
+                <relatedItem target="../ch1subch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1948v05p1</bibl>
+                <bibl type="frus-division-id">d2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="4" to="4" unit="page"
+                    >4</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1948-01-28">January 28, 1948</date>
+                    <date notAfter="1948-01-28T23:59:59-05:00" notBefore="1948-01-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1948v05p1/terms">
+                    <term ref="frus:frus1948v05p1/terms#t_Aramco1">Aramco</term>
+                    <term ref="frus:frus1948v05p1/terms#t_NE1">NE</term>
+                    <term ref="frus:frus1948v05p1/terms#t_PED1">PED</term>
+                    <term ref="frus:frus1948v05p1/terms#t_Tapline1">Tapline</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d2">
+
+                <pb facs="0018" n="4" sameAs="frus:frus1948v05p1/pg4"/>
+
+                <note rend="inline" type="source">890F.6363/1–2648</note>
+                <head>
+                    <hi rendition="#italic">Memorandum of Conversation, by Mr. Herbert A. Breakey of
+                        the Petroleum Division</hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1948-01-28">January 28, 1948</date>.</dateline>
+                </opener>
+                <table>
+                    <row role="label">
+                        <cell rendition="#top #nowrap">Participants:</cell>
+                        <cell rendition="#hanging-indent">Messrs. [James] Terry Duce and [Philip C.]
+                            Kidd, Arabian American Oil Company</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell rendition="#hanging-indent">Colonel [William A.] Eddy, Arabian
+                            American Oil Company</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell rendition="#hanging-indent">Mr. Sanger, NE
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell rendition="#hanging-indent">Mr. Jenkins, NE
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell rendition="#hanging-indent">Mr. Breakey, PED
+                        </cell>
+                    </row>
+                </table>
+                <p>Mr. Terry Duce, of the Arabian American Oil Company, being in the city for a few
+                    days, was invited to meet with some of the State Department officials to inform
+                    them of the last developments regarding the Trans-Arabian pipe line.</p>
+                <p>[Here follow four paragraphs of observations by Mr. Duce.]</p>
+                <p>Mr. Duce summarized the situation as follows: <list>
+                        <label>1.</label>
+                        <item>The company is going ahead with the pipe line as planned.<anchor n="2"
+                                xml:id="d2-f1"/>
+                        </item>
+                        <label>2.</label>
+                        <item>This winter it is proceeding with the line in the south.</item>
+                        <label>3.</label>
+                        <item>The company is not at the present time interested in an alternative
+                            route, but it may investigate such possibilities.</item>
+                        <label>4.</label>
+                        <item>The company, however, will consult with the governments at present
+                            concerned before attempting any alternative routes.</item>
+                        <label>5.</label>
+                        <item>If war develops in Palestine,<anchor n="3" xml:id="d2-f2"/> new plans
+                            will have to be considered.</item>
+                    </list>
+                </p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d2-f1" n="2" xml:id="d2-f1-content">
+                <p>Cairo, on January 26, had advised that Aramco
+                    was giving consideration to abandoning the Tapline project for six years and to negotiating transit rights in
+                    Egypt (telegram 75, 883.6363/1–2648).</p>
+            </note>
+            <note corresp="#d2-f2" n="3" xml:id="d2-f2-content">
+                <p>Documentation on Palestine is scheduled for publication in part 2 of the present
+                    volume.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

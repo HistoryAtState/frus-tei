@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 5</title>
+                <title type="subtitle">President Truman to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d5"
+                    type="canonical"/>
+                <relatedItem target="d4.xml" type="prev"/>
+                <relatedItem target="d6.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="8" to="8" unit="page"
+                    >8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-05-11">11 May 1945</date>
+                    <date notAfter="1945-05-11T23:59:59-05:00" notBefore="1945-05-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_HWA2">Harriman, W. Averell</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_KSAC1">Kerr, Sir Archibald
+                        Clark</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d5">
+
+                <pb facs="0140" n="8" xml:id="pg8"/>
+
+                <note rend="inline" type="source">
+                    Leahy Papers: Telegram</note>
+                <head>No. 5 <lb/>
+                    <hi rendition="#italic">President Truman to Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d5-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-05-11">11 May 1945</date>.</dateline>
+                </opener>
+                <p>36. Your Number 40.<anchor n="2" xml:id="d5-f2"/>
+                </p>
+                <p>I would much prefer to have Stalin
+                    propose the meeting and believe it is worth while to endeavor, through our
+                        Ambassadors,<anchor n="3" xml:id="d5-f3"/> to induce him to propose the
+                    meeting. If such an effort fails, we can then consider our issuing an invitation
+                    jointly or severally.</p>
+                <p>When and if such a meeting is arranged, it appears to me that in order to avoid
+                    any suspicion of our “ganging up” it would be advantageous for us to proceed to
+                    the meeting place separately.</p>
+                <p>When the conference ends, if my duties here do not make it impossible, I shall be
+                    very pleased to make a visit to England where you and I may discuss fully our
+                    common interests and problems.</p>
+                <p>I am fully in agreement that the next few months will decide questions of the
+                    greatest consequence to the whole world.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d5-f1" n="1" type="source" xml:id="d5-f1-content">
+                <p>Presumably sent to the United States Naval Attaché, London, via Navy
+                    channels.</p>
+            </note>
+            <note corresp="#d5-f2" n="2" xml:id="d5-f2-content">
+                <p>
+                    <ref target="#d3">Document No. 3</ref>.</p>
+            </note>
+            <note corresp="#d5-f3" n="3" xml:id="d5-f3-content">
+                <p>
+                    W. Averell Harriman and Sir Archibald Clark Kerr were, respectively,
+                    the American and British Ambassadors to the Soviet Union.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

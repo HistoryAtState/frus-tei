@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d40" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Morgan to
+                        the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d40"
+                    type="canonical"/>
+                <relatedItem target="../ch25.xml" type="prev"/>
+                <relatedItem target="d40-a1.xml" type="next"/>
+                <relatedItem target="../ch25.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d40</bibl>
+                <bibl type="frus-division-n">40</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="30" to="31" unit="page"
+                        >30–31</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Rio de Janeiro</hi></placeName>
+                    <date calendar="gregorian" when="1914-05-19">
+                        <hi rendition="#italic">May 19, 1914</hi></date>
+                    <date notAfter="1914-05-19T23:59:59-05:00" notBefore="1914-05-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d40">
+
+                <pb facs="0146" n="30" sameAs="frus:frus1914/pg30"/>
+
+                <note rend="inline" type="source">File No. 832.032/6.</note>
+                <head>
+                    <hi rendition="#italic">Ambassador Morgan to
+                        the Secretary of State.</hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Extract]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">No. 377.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Rio de Janeiro</hi></placeName>, <date
+                            calendar="gregorian" when="1914-05-19">
+                            <hi rendition="#italic">May 19, 1914</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith
+                    duplicate copies of the annual message to the Congress of Brazil which the
+                    President sent to that body on the 3d of May.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Edwin V. Morgan</hi></signed>.</closer>
+
+
+                <xi:include href="d40-a1.xml" xpointer="d40-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

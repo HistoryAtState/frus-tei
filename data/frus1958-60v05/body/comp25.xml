@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v05_comp25" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>PERU</title>
+            </titleStmt>
+            <xi:include href="../frus1958-60v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1958-60v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v05/comp25"
+                    type="canonical"/>
+                <relatedItem target="comp24/ch16/d348.xml" type="prev"/>
+                <relatedItem target="comp25/ch17.xml" type="next"/>
+                <relatedItem target="../frus1958-60v05.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v05</bibl>
+                <bibl type="frus-division-id">comp25</bibl>
+                <bibl type="frus-division-n">25</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype">editorial-note</bibl>
+                <bibl type="frus-print-pages"><biblScope from="913" to="914" unit="page"
+                        >913–14</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1960-12-27T23:59:59-05:00" notBefore="1958-01-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp25">
+
+                <pb facs="0953" n="913" xml:id="pg913"/>
+
+                <head>PERU</head>
+
+                <xi:include href="comp25/ch17.xml" xpointer="ch17"/>
+            </div>
+        </body>
+    </text>
+</TEI>

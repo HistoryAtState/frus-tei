@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1880_d435-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 7.</title>
+            </titleStmt>
+            <xi:include href="../../frus1880_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1880_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1880/d435-a1"
+                    type="canonical"/>
+                <relatedItem target="d435.xml" type="prev"/>
+                <relatedItem target="d435-a1-a1.xml" type="next"/>
+                <relatedItem target="d435.xml" type="parent"/>
+                <relatedItem target="d435.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1880</bibl>
+                <bibl type="frus-division-id">d435-a1</bibl>
+                <bibl type="frus-division-n">435.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="686" to="687" unit="page"
+                        >686–87</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d435-a1">
+
+                <pb facs="0786" n="686" sameAs="frus:frus1880/pg686"/>
+
+                <opener><seg rendition="#center">[Inclosure 1 in No.
+                    1088.—Translation.]</seg></opener>
+                <head>No. 7.</head>
+                <p>Proclamation is hereby made that the following method of paying the debts of the
+                    old Lew Chew Han, and of collecting the money and grain lent out by said Han,
+                    has been decided on.</p>
+                <p><hi rendition="#small-caps">Note.</hi>—Those who have claims against said Han
+                    must forward them, along with a <pb facs="0787" n="687" xml:id="pg687"/> written
+                    calculation of the principal and interest, through the proper government office,
+                    to the finance department before the 30th of May next. Claims already forwarded
+                    to the finance department or claims for old loans made before 1843 need not be
+                    forwarded. Claims not forwarded within the time above given will not be
+                    accepted.</p>
+                <closer><signed>SANJO SANEYOSHI,<lb/><hi rendition="#italic">Daijo
+                        Daijin.</hi></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><date calendar="gregorian" when="1880-03-11"
+                                ><hi rendition="#small-caps">March</hi> 11,
+                    1880</date>.</dateline></closer>
+
+
+                <xi:include href="d435-a1-a1.xml" xpointer="d435-a1-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

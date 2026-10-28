@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v1_d270" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 267.</title>
+                <title type="subtitle">Mr. <persName type="from"
+                            >Nelson</persName> to Mr. <persName corresp="#p_HF1" type="to"
+                            >Fish</persName>.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1873p1v1/d270"
+                    type="canonical"/>
+                <relatedItem target="../comp22.xml" type="prev"/>
+                <relatedItem target="d270-a1.xml" type="next"/>
+                <relatedItem target="../comp22.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v1</bibl>
+                <bibl type="frus-division-id">d270</bibl>
+                <bibl type="frus-division-n">270</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="631" to="633" unit="page"
+                        >631–33</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1872-09-20"><hi rendition="#italic"
+                            >September</hi> 20, 1872</date>
+                    <date notAfter="1872-09-20T23:59:59-05:00" notBefore="1872-09-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d270">
+
+                <pb facs="0717" n="631" sameAs="frus:frus1873p1v1/pg631"/>
+
+                <head>No. 267.<lb/><hi rendition="#italic">Mr. <persName type="from"
+                            >Nelson</persName> to Mr. <persName corresp="#p_HF1" type="to"
+                            >Fish</persName>.</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Mexico</hi></placeName>, <date calendar="gregorian"
+                            when="1872-09-20"><hi rendition="#italic">September</hi> 20,
+                        1872</date>. (Received October 17.)</dateline>
+                    <seg rendition="#float-left">No. 640.]</seg>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Herewith I inclose the speeches pronounced
+                    by President Lerdo de Tejada, (A and B,) and by General Pedro Baranda, president
+                    of the Mexican Congress, (C and D),) on the 16th instant, on the occasion of the
+                    opening of the sessions of that body.</p>
+                <p>I have, &amp;c.,</p>
+                <closer>
+                    <signed><persName>THOMAS H. NELSON</persName>.</signed>
+                </closer>
+
+
+
+                <xi:include href="d270-a1.xml" xpointer="d270-a1"/>
+                <xi:include href="d270-a2.xml" xpointer="d270-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

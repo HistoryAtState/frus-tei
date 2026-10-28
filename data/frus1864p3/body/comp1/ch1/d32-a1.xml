@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1864p3_d32-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1864p3_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1864p3_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1864p3/d32-a1"
+                    type="canonical"/>
+                <relatedItem target="d32.xml" type="prev"/>
+                <relatedItem target="d32-a1-a1.xml" type="next"/>
+                <relatedItem target="d32.xml" type="parent"/>
+                <relatedItem target="d32.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1864p3</bibl>
+                <bibl type="frus-division-id">d32-a1</bibl>
+                <bibl type="frus-division-n">32.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="25" to="27" unit="page"
+                        >25–27</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Consulate of the United States of
+                            America,</hi>
+                        <hi rendition="#italic">Vera Cruz,</hi></placeName>
+                    <date calendar="gregorian" when="1863-12-31"><hi rendition="#italic"
+                            >December</hi> 31, 1863.</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d32-a1">
+
+                <pb facs="0045" n="25" xml:id="pg25"/>
+
+                <head ana="#head_untitled-missing-head-in-printed-volume">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Consulate of the United States of
+                                America,</hi>
+                            <hi rendition="#italic">Vera Cruz,</hi></placeName>
+                        <date calendar="gregorian" when="1863-12-31"><hi rendition="#italic"
+                                >December</hi> 31, 1863.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor Herewith to forward the
+                    protest of José W. Smith, a citizen of the United States, taken prisoner at
+                    Minatitlan, by French authorities, and sent to this place.</p>
+                <p>Mr. Smith leaves here for the States, per English steamer, to-morrow.</p>
+                <p>I have the honor to be, with great respect, your obedient servant,</p>
+                <closer>
+                    <signed>M. D. L. LANE, <hi rendition="#italic">United States
+                        Consul.</hi></signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward</hi>
+                        <hi rendition="#italic">Secretary of State, Washington, D. C.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d32-a1-a1.xml" xpointer="d32-a1-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

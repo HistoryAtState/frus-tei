@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d631" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d631"
+                    type="canonical"/>
+                <relatedItem target="../ch12subch7.xml" type="prev"/>
+                <relatedItem target="d631-a1.xml" type="next"/>
+                <relatedItem target="../ch12subch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d631</bibl>
+                <bibl type="frus-division-n">631</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1303" to="1306" unit="page"
+                        >1303–6</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-09-04">September 4, 1943</date>
+                    <date notAfter="1943-09-04T23:59:59-05:00" notBefore="1943-09-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d631">
+
+                <pb facs="1417" n="1303" sameAs="frus:frus1943/pg1303"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                    </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, [<date
+                            calendar="gregorian" when="1943-09-04">September 4,
+                        1943</date>.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Mr. President</hi>. It seemed to me that your draft
+                    message to Stalin<anchor n="1" xml:id="d631-f1"/> did not draw clear enough
+                    distinction between the Mediterranean Commission and the Three-Power Conference.
+                    I have ventured therefore to suggest some alterations which you will be able to
+                    identify on the re-typed copy annexed.<anchor n="2" xml:id="d631-f2"/>
+                </p>
+                <p>I also annex a re-draft of my message, in which I have made some changes. In
+                    particular, you will see that I show Stalin I am aware that you propose a
+                    different procedure, and I suggest an argument in favour of adopting it.</p>
+                <closer>
+                    <signed>W[<hi rendition="#small-caps">inston</hi>] S C[<hi
+                            rendition="#small-caps">hurchill</hi>]</signed>
+                    <lb/> 4.9.43</closer>
+
+
+
+                <xi:include href="d631-a1.xml" xpointer="d631-a1"/>
+                <xi:include href="d631-a2.xml" xpointer="d631-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d631-f1" n="1" xml:id="d631-f1-content">
+                <p>Enclosure 1, below.</p>
+            </note>
+            <note corresp="#d631-f2" n="2" xml:id="d631-f2-content">
+                <p>Enclosure 2 to Churchill’s memorandum; not printed. Churchill’s suggestions, most
+                    of which Roosevelt accepted, are described in the footnotes to enclosure 1,
+                    below.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

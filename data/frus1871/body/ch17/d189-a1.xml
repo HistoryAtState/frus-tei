@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1871_d189-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 4.</title>
+            </titleStmt>
+            <xi:include href="../../frus1871_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1871_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1871/d189-a1"
+                    type="canonical"/>
+                <relatedItem target="d189.xml" type="prev"/>
+                <relatedItem target="d189-a1-a1.xml" type="next"/>
+                <relatedItem target="d189.xml" type="parent"/>
+                <relatedItem target="d189.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1871</bibl>
+                <bibl type="frus-division-id">d189-a1</bibl>
+                <bibl type="frus-division-n">189.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="383" to="393" unit="page"
+                        >383–93</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label">german diet, first legislative period, first
+                    session, 1871.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1871-03-21"><hi rendition="#italic">March</hi>
+                        21, 1871.</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d189-a1">
+
+                <pb facs="0597" n="383" sameAs="frus:frus1871/pg383"/>
+
+                <head>No. 4.</head>
+
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Berlin</hi></placeName>, <date
+                            calendar="gregorian" when="1871-03-21"><hi rendition="#italic"
+                                >March</hi> 21, 1871.</date></dateline></opener>
+                <p>In the name of His Majesty the Emperor, the undersigned, chancellor of the
+                    empire, has the honor to submit to the diet, for its action, the annexed plan of
+                    a law regarding the constitution of the German Empire as it has been adopted by
+                    the Federal Council.</p>
+                <closer>
+                    <signed>V. BISMARCK.</signed></closer>
+                <postscript>
+                    <p>To the <hi rendition="#small-caps">Diet.</hi></p>
+                </postscript>
+
+
+
+                <xi:include href="d189-a1-a1.xml" xpointer="d189-a1-a1"/>
+                <xi:include href="d189-a1-a2.xml" xpointer="d189-a1-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

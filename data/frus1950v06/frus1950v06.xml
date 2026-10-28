@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v06" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1950v06_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1950v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1950v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1950v06"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1950v06" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1950v06/covers/frus1950v06.jpg"/>
+                        <extent>
+                            <measure quantity="31855" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:07:25.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1950v06" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1950v06/ebook/frus1950v06.epub"/>
+                        <extent>
+                            <measure quantity="2672042" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:07:25.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1950v06" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1950v06/ebook/frus1950v06.mobi"/>
+                        <extent>
+                            <measure quantity="4109409" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:07:25.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1976 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>australia</term>
+                    <term>burma</term>
+                    <term>china</term>
+                    <term>indonesia</term>
+                    <term>japan</term>
+                    <term>philippines</term>
+                    <term>thailand</term>
+                    <term>acheson-dean-gooderham</term>
+                    <term>truman-harry-s</term>
+                    <term>military-bases</term>
+                    <term>korean-war</term>
+                    <term>covert-actions</term>
+                    <term>taiwan</term>
+                    <term>united-nations</term>
+                    <term>belgium</term>
+                    <term>congressional-relations</term>
+                    <term>arms-transfers</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>india</term>
+                    <term>netherlands</term>
+                    <term>foreign-investment</term>
+                    <term>peace</term>
+                    <term>north-korea</term>
+                    <term>south-korea</term>
+                    <term>macau</term>
+                    <term>national-security-council</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>new-zealand</term>
+                    <term>pakistan</term>
+                    <term>self-determination</term>
+                    <term>united-kingdom</term>
+                    <term>nauru</term>
+                    <term>wake-island</term>
+                    <term>american-samoa</term>
+                    <term>midway-islands</term>
+                    <term>new-caledonia</term>
+                    <term>far-eastern-commission</term>
+                    <term>marshall-islands</term>
+                    <term>bhutan</term>
+                    <term>paracel-islands</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1950v06" status="published" when="1976"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1950</titlePart>
+                    <titlePart type="volumeno">Volume VI</titlePart>
+                    <titlePart type="volumetitle">East Asia and The Pacific</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1976</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication 8858 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the<lb/>U.S. Government Book Store<lb/>Department of
+                    State<lb/>Washington, D.C. 20520 - Price $00.00 (Buckram)<lb/>Stock Number
+                    0000–00000</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <pb facs="1554" n="1540" xml:id="pg1540"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+            <pb facs="1596" n="1582" xml:id="pg1582"/>
+            <pb facs="1597" n="1583" xml:id="pg1583"/>
+            <pb facs="1598" n="1584" xml:id="pg1584"/>
+        </back>
+    </text>
+</TEI>

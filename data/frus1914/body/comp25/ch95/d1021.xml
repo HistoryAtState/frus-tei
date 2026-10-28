@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d1021" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Brazilian Minister, in
+                        chargé of American interests in Mexico, to the Secretary of
+                            State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d1021"
+                    type="canonical"/>
+                <relatedItem target="../ch95.xml" type="prev"/>
+                <relatedItem target="d1021-a1.xml" type="next"/>
+                <relatedItem target="../ch95.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d1021</bibl>
+                <bibl type="frus-division-n">1021</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="655" to="656" unit="page"
+                        >655–56</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Brazilian Legation</hi>, <lb/>
+                        <hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1914-10-07">
+                        <hi rendition="#italic">October 7, 1914</hi></date>
+                    <date notAfter="1914-10-07T23:59:59-05:00" notBefore="1914-10-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1021">
+
+                <pb facs="0771" n="655" sameAs="frus:frus1914/pg655"/>
+
+                <note rend="inline" type="source">File No. 412.00/36.</note>
+                <head>
+                    <hi rendition="#italic">The Brazilian Minister, in
+                        chargé of American interests in Mexico, to the Secretary of
+                            State
+                    </hi><anchor n="87" xml:id="d1021-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 54.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Brazilian Legation</hi>, <lb/>
+                            <hi rendition="#italic">Mexico</hi></placeName>, <date
+                            calendar="gregorian" when="1914-10-07">
+                            <hi rendition="#italic">October 7, 1914</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to enclose herewith a
+                    translation of the decree issued by Venustiano Carranza, First Chief of the
+                    Constitutionalist Army, under date of May 10, 1913, relative to the presentation
+                    and settling of claims for damages and losses suffered by Mexicans and
+                    foreigners since the beginning of the Civil War on the 21st day of November,
+                    1910, to date.<anchor n="88" xml:id="d1021-f2"/>
+                </p>
+                <p>It might be well to give this decree some publication in the American press so
+                    that interested persons may be able to comply with the requirements of the
+                    same.</p>
+                <p>With assurances [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">J. M. Cardoso de
+                    Oliveira</hi></signed>.</closer>
+
+
+                <xi:include href="d1021-a1.xml" xpointer="d1021-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1021-f1" n="87" type="source" xml:id="d1021-f1-content">
+                <p>Receipt acknowledged Dec. 19, 1914.</p>
+            </note>
+            <note corresp="#d1021-f2" n="88" xml:id="d1021-f2-content">
+                <p>This decree is printed in <ref target="frus1913#pg_955">For. Rel. 1913, p.
+                        955</ref>; but the text differs from the one here printed not only in
+                    immaterial variations of translation hut also in two substantial particulars:
+                    texts of Article V and Article VI.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

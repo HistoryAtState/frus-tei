@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_d63" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. E. B. Washburne to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/d63"
+                    type="canonical"/>
+                <relatedItem target="d62.xml" type="prev"/>
+                <relatedItem target="d63-a1.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">d63</bibl>
+                <bibl type="frus-division-n">63</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="94" to="98" unit="page"
+                        >94–98</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                        <hi rendition="#italic">Paris</hi></placeName>
+                    <date calendar="gregorian" when="1870-08-16"><hi rendition="#italic">August</hi>
+                        16, 1870</date>
+                    <date notAfter="1870-08-16T23:59:59-05:00" notBefore="1870-08-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d63">
+
+                <pb facs="0128" n="94" sameAs="frus:frus1870/pg94"/>
+
+                <note rend="inline" type="source">No. 63.</note>
+                <head>Mr. E. B. Washburne to Mr. Fish.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 258.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                            <hi rendition="#italic">Paris</hi></placeName>, <date
+                            calendar="gregorian" when="1870-08-16"><hi rendition="#italic"
+                                >August</hi> 16, 1870</date>. (Received August
+                    31.)</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my dispatch No. 238, bearing
+                    date the 29th instant, [ultimo,] I now have the honor to inclose you herewith
+                    the reply of the Duke de Gramont to my letter to him dated the 25th ultimo,
+                    together with my rejoinder thereto.</p>
+                <closer>
+                    <signed>E. B. WABHBURNE.</signed></closer>
+
+
+
+                <xi:include href="d63-a1.xml" xpointer="d63-a1"/>
+                <xi:include href="d63-a2.xml" xpointer="d63-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

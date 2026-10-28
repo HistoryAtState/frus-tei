@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v02_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1977-80v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1977-80v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1977-80v02/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1977-80v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1977-80v02</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1242" to="1242" unit="page"
+                        >1242</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1980-11-10T23:59:59-05:00" notBefore="1976-10-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="1303" n="1242" sameAs="frus:frus1977-80v02/pg1242"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to <hi rendition="#italic">Foreign
+                        Relations</hi>, 1977–1980, Volume II, Human Rights and Humanitarian Affairs.
+                    Please be aware that printed volumes have not been revised.</p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. Footnote 5, <ref target="#d207">Document 207</ref>
+                            (date of errata entry: July 18, 2017)</hi>
+                    </item>
+                    <item>The incorrect reference to <hi rendition="#italic">Foreign Relations</hi>,
+                        1969–1976, Volume III, Foreign Economic Policy, Document 300 has been
+                        corrected to <hi rendition="#italic">Foreign Relations</hi>, 1969–1976,
+                        Volume XXXI, Foreign Economic Policy, 1973–1976, Document 300</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

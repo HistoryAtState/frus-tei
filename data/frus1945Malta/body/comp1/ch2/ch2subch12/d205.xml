@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d205" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d205"
+                    type="canonical"/>
+                <relatedItem target="d204.xml" type="prev"/>
+                <relatedItem target="d206.xml" type="next"/>
+                <relatedItem target="../ch2subch12.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d205</bibl>
+                <bibl type="frus-division-n">205</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="291" to="291" unit="page"
+                        >291</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Warm Springs, Georgia</hi></placeName>
+                    <date calendar="gregorian" when="1944-12-06">6 December 1944</date>
+                    <date notAfter="1944-12-06T23:59:59-05:00" notBefore="1944-12-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_DG1">De Gaulle, General Charles</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d205">
+
+                <pb facs="0377" n="291" sameAs="frus:frus1945Malta/pg291"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d205-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Warm
+                                Springs, Georgia</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-12-06">6 December 1944</date>.</dateline>
+                </opener>
+                <p>Number 670, Top Secret and Personal from the President for the Prime
+                    Minister.</p>
+                <p>Your 846.</p>
+                <p>You will have seen from my reply<anchor n="2" xml:id="d205-f2"/> to Stalin on his talks with De Gaulle that our views are identical on the
+                    two questions which he raised.</p>
+                <p>I still adhere to my position that any attempt to include De Gaulle in the meeting of the three of us
+                    would merely introduce a complicating and undesirable factor.</p>
+                <p>In regard to your suggestion to Uncle Joe that the question of France’s postwar
+                    frontiers be referred to the European Advisory Commission I feel that since the
+                    Commission is fully occupied with questions relating to the surrender of
+                    Germany, it would be a mistake to attempt to bring up at this stage before it
+                    any questions of postwar frontiers. It seems to me preferable to leave this
+                    specific topic for further exploration between us.</p>
+                <p>I fully appreciate the advantages which you see in a possible tripartite
+                    Anglo-Franco-Soviet pact. I am somewhat dubious, however, as to the effect of
+                    such an arrangement on the question of an international security organization to
+                    which, as you know, I attach the very highest importance. I fear that a
+                    tripartite pact might be interpreted by public opinion here as a competitor to a
+                    future world organization, whereas a bilateral arrangement between France and
+                    the Soviet Union similar to the Soviet-British Pact would be more
+                    understandable. I realize, however, that this is a subject which is of primary
+                    concern to the three countries involved.</p>
+                <closer>
+                    <signed>
+                        
+                            <hi rendition="#small-caps">Roosevelt</hi>
+                        
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d205-f1" n="1" type="source" xml:id="d205-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+            <note corresp="#d205-f2" n="2" xml:id="d205-f2-content">
+                <p>
+                    <hi rendition="#italic">Supra</hi>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

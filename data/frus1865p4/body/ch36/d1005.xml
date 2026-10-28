@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p4_d1005" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inhabitants of Thun</title>
+            </titleStmt>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p4/d1005"
+                    type="canonical"/>
+                <relatedItem target="d1004.xml" type="prev"/>
+                <relatedItem target="d1006.xml" type="next"/>
+                <relatedItem target="../ch36.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p4</bibl>
+                <bibl type="frus-division-id">d1005</bibl>
+                <bibl type="frus-division-n">1005</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="601" to="601" unit="page"
+                        >601</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1865-05-15T18:25:59-05:00" notBefore="1865-05-13T18:26:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1005">
+
+                <pb facs="0673" n="601" sameAs="frus:frus1865p4/pg601"/>
+
+                <head>Inhabitants of Thun</head>
+                <note rend="inline" rendition="#center" type="source">[Translation.]</note>
+                <dateline>
+                    <placeName>
+                        <hi rendition="#small-caps">Thun</hi></placeName>, <date
+                        ana="#date_imprecise-inferred-from-sibling-dates" calendar="gregorian"
+                        notAfter="1865-05-15T23:59:59+00:34" notBefore="1865-05-14T00:00:00+00:34"
+                        when="1865-05"><hi rendition="#italic">May</hi>, 1865</date>.</dateline>
+                <p>The undersigned authorities, societies and private individuals in the district of
+                    Thun, rejoicing over the final victory of human rights and the end of the civil
+                    war in the American Union, on the one part, and lamenting the murder of the
+                    greatest man in the nation, on the other hand, feel it their duty to join
+                    cordially in the address to the American people and their leader in the cause of
+                    freedom and humanity in our sister republic beyond the ocean.</p>
+                <closer>
+                    <signed>
+                        <list>
+                            <item>HEINRICH HOFER, <hi rendition="#italic">President</hi>.</item>
+                            <item>A. KREBSER, <hi rendition="#italic">Notary</hi>.</item>
+                        </list>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>(280 other signatures.)</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

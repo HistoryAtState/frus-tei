@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v08_d383" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 383</title>
+                <title type="subtitle">The British Ambassador (Makins) to President Eisenhower</title>
+            </titleStmt>
+            <xi:include href="../../../frus1952-54v08_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1952-54v08_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v08/d383"
+                    type="canonical"/>
+                <relatedItem target="d382.xml" type="prev"/>
+                <relatedItem target="d383-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v08</bibl>
+                <bibl type="frus-division-id">d383</bibl>
+                <bibl type="frus-division-n">383</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="710" to="712" unit="page"
+                        >710–12</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1954-09-20">September 20, 1954</date>
+                    <date notAfter="1954-09-20T23:59:59-05:00" notBefore="1954-09-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v08/persons">
+                    <term ref="frus:frus1952-54v08/persons#p_EDD1">Eisenhower, Dwight D.</term>
+                    <term ref="frus:frus1952-54v08/persons#p_MRM2">Makins, Roger M.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d383">
+
+                <pb facs="0744" n="710" sameAs="frus:frus1952-54v08/pg710"/>
+
+                <note rend="inline" type="source">Eisenhower
+                    Library, Eisenhower papers, Whitman
+                    file</note>
+                <head>No. 383<lb/><hi rendition="#italic">The British Ambassador (Makins) to President Eisenhower</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1954-09-20">September 20, 1954</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Dear Mr. President</hi>: With reference to the
+                    message to you from the Prime Minister about Cyprus which I sent to you on
+                    September 18,<anchor n="1" xml:id="d383-f1"/> I enclose the factual note
+                    referred to in that message.</p>
+                <p>Yours sincerely,</p>
+                <closer><signed><hi rendition="#small-caps">Roger
+                                Makins</hi></signed></closer>
+
+
+
+                <xi:include href="d383-a1.xml" xpointer="d383-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d383-f1" n="1" xml:id="d383-f1-content">
+                <p><ref target="#d382"><hi rendition="#italic">Supra</hi>.</ref></p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d713" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Emperor to the President.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d713"
+                    type="canonical"/>
+                <relatedItem target="d712.xml" type="prev"/>
+                <relatedItem target="d714.xml" type="next"/>
+                <relatedItem target="../ch69.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d713</bibl>
+                <bibl type="frus-division-n">713</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="585" to="585" unit="page"
+                        >585</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Kyoto, Japan</hi></placeName>
+                    <date ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                        calendar="gregorian" notAfter="1915-11-12T23:59:59-05:00"
+                        notBefore="1915-11-10T00:00:00-05:00"><hi rendition="#italic"
+                        >undated</hi></date>
+                    <date notAfter="1915-11-12T23:59:59-05:00" notBefore="1915-11-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d713">
+
+                <pb facs="0701" n="585" sameAs="frus:frus1915/pg585"/>
+
+                <note rend="inline" type="source">File No. 894.001YS/27.</note>
+                <head>
+                    <hi rendition="#italic">The Emperor to the President</hi>.</head>
+                <opener>
+                    <seg rendition="#center">[Telegram.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Kyoto, Japan</hi></placeName>, [<date
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            calendar="gregorian" notAfter="1915-11-12T23:59:59-05:00"
+                            notBefore="1915-11-10T00:00:00-05:00"><hi rendition="#italic"
+                                >undated</hi></date>; <hi rendition="#italic">Received November 12,
+                            1915</hi>.]</dateline>
+                </opener>
+                <p>I sincerely thank you for the kind congratulations on the ceremonies of my
+                    accession to the Throne. At the same time I reciprocate my best wishes for your
+                    personal welfare and for the invariability of the friendship which united by the
+                    bond of amicable relation subsisting between our two countries.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Yoshihito.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

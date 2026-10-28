@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1946v01_d300" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Briefing Book Paper</title>
+            </titleStmt>
+            <xi:include href="../../frus1946v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1946v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1946v01/d300"
+                    type="canonical"/>
+                <relatedItem target="d299.xml" type="prev"/>
+                <relatedItem target="d301.xml" type="next"/>
+                <relatedItem target="../comp6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1946v01</bibl>
+                <bibl type="frus-division-id">d300</bibl>
+                <bibl type="frus-division-n">300</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="546" to="547" unit="page"
+                        >546–47</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1945-12-26">
+                        <hi rendition="#small-caps">December</hi> 26, 1945</date>
+                    <date notAfter="1945-12-26T23:59:59-05:00" notBefore="1945-12-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1946v01/terms">
+                    <term ref="frus:frus1946v01/terms#t_IO1">IO</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d300">
+
+                <pb facs="0564" n="546" sameAs="frus:frus1946v01/pg546"/>
+
+                <note rend="inline" type="source">
+                    IO Files: USGA/Gen/7</note>
+                <head>
+                    <hi rendition="#italic">Briefing Book Paper</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <date calendar="gregorian" when="1945-12-26">
+                            <hi rendition="#small-caps">December</hi> 26, 1945</date>.</dateline>
+                </opener>
+                <p rendition="#center">8(<hi rendition="#italic">e</hi>) <hi rendition="#small-caps"
+                        >Questions Bearing on Pacific Islands</hi>
+                </p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">the problem</hi>
+                </p>
+                <p>In view both of the interest of this Government in certain territories conquered
+                    from the Japanese, and of the difficulties which have delayed any actual
+                    implementation of the trusteeship system, certain questions arise. Should the
+                    U.S. make a specific clarification of its intentions to to place Japanese
+                    mandated territories under trusteeship, and initiate negotiations among the
+                    states directly concerned? Which states should be so defined? Should this
+                    Government extend trusteeship to the other Japanese Islands desired for security
+                    purposes: The Bonin-Volcano Islands including Marcus Island, the Izu Islands,
+                    and the Ryukyu <pb facs="0565" n="547" xml:id="pg547"/> Islands? Should the U.S.
+                    insist that it be the sole administering authority over any of the captured
+                    Japanese mandates or islands concerned?</p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">discussion</hi>
+                </p>
+                <p>The State Department is preparing policy papers on the above problems. In some
+                    cases, clearance with other departments of the government will be required
+                    before these papers can be considered as representing official United States
+                    policy.</p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">proposed united states position</hi>
+                </p>
+                <p>In the event that the above questions are raised in the General Assembly, the
+                    United States should take the position that it is not prepared to discuss such
+                    questions, and they should be referred immediately to the Department.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

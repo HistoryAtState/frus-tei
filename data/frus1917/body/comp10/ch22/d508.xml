@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d508" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d508"
+                    type="canonical"/>
+                <relatedItem target="d507.xml" type="prev"/>
+                <relatedItem target="d509.xml" type="next"/>
+                <relatedItem target="../ch22.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d508</bibl>
+                <bibl type="frus-division-n">508</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="384" to="384" unit="page"
+                        >384</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Habana</hi></placeName>
+                    <date calendar="gregorian" when="1917-03-16T01:00:00-05:29">
+                        <hi rendition="#italic">March 16, 1917—1 a.m.</hi>
+                    </date>
+                    <date notAfter="1917-03-16T01:29:00-05:00" notBefore="1917-03-16T01:29:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d508">
+
+                <pb facs="0550" n="384" sameAs="frus:frus1917/pg384"/>
+
+                <note rend="inline" type="source">File No. 837.00/1227</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Habana</hi></placeName>, <date
+                            calendar="gregorian" when="1917-03-16T01:00:00-05:29">
+                            <hi rendition="#italic">March 16, 1917—1 a.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Your March 14, 6 p.m. The President has answered <hi rendition="#italic"
+                        >Montana</hi> asking object of formal armistice. He has no information as to
+                    need for formal declaration, but states a practical armistice already exists, as
+                    he is making no advance toward Guantanamo.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Gonzales</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d545" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d545"
+                    type="canonical"/>
+                <relatedItem target="d544.xml" type="prev"/>
+                <relatedItem target="d546.xml" type="next"/>
+                <relatedItem target="../ch62.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d545</bibl>
+                <bibl type="frus-division-n">545</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="476" to="476" unit="page"
+                        >476</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Port au Prince</hi></placeName>
+                    <date calendar="gregorian" when="1915-07-30">
+                        <hi rendition="#italic">July 30, 1915</hi></date>
+                    <date notAfter="1915-07-30T23:59:59-05:00" notBefore="1915-07-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d545">
+
+                <pb facs="0592" n="476" sameAs="frus:frus1915/pg476"/>
+
+                <note rend="inline" type="source">File No. 838.00/1226.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Port au Prince</hi></placeName>, <date
+                            calendar="gregorian" when="1915-07-30">
+                            <hi rendition="#italic">July 30, 1915</hi></date>.</dateline>
+                </opener>
+                <p>Two bluejackets killed by snipers last night. Urgent need that the American
+                    forces in the city be augmented by at least a regiment of marines. This seems
+                    advisable on account of the moral effect of increased numbers and also because
+                    it would permit a patrol of the city which under present conditions is desirable
+                    but not feasible on account of the smallness of the force. City outwardly quiet
+                    today but there is quite an undercurrent of excitement and unrest. Disarmament
+                    continues slowly.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Davis</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1893_d292-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../frus1893_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1893_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1893/d292-a2"
+                    type="canonical"/>
+                <relatedItem target="d292-a1.xml" type="prev"/>
+                <relatedItem target="d292-a3.xml" type="next"/>
+                <relatedItem target="d292.xml" type="parent"/>
+                <relatedItem target="d292.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1893</bibl>
+                <bibl type="frus-division-id">d292-a2</bibl>
+                <bibl type="frus-division-n">292.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="286" to="286" unit="page"
+                        >286</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d292-a2">
+
+                <pb facs="0394" n="286" sameAs="frus:frus1893/pg286"/>
+
+                <opener><seg rendition="#center">[Royal order of August 8, 1804, approving the
+                        appointment by the president captain-general of Guatemala of a collector of
+                        customs at the port of San Juan de Nicaragua.—Translation.]</seg></opener>
+                <p>His excellency, the secretary of state and finance, in royal order of August 8,
+                    1804, tells me the following:</p>
+                <p>“The King has approved the creation accorded by that superior junta<anchor n="*"
+                        xml:id="d292-f1"/> of a place of collector of customs (guarda) at the port
+                    of San Juan de Nicaragua with a yearly salary of $200, which you report, with
+                    documents, in letter of last April 3, No. 467.”</p>
+                <p>Which I transmit to you for your knowledge and that you may propose for the
+                    appointment, as the place is vacant.</p>
+                <p>God save you for many years.</p>
+                <closer>
+                    <dateline rendition="#float-left">Royal palace
+                        (<placeName>Guatemala</placeName>), <date calendar="gregorian"
+                            when="1806-04-02">April 2, 1806</date>.</dateline>
+                    <lb/>
+                    <signed><hi rendition="#small-caps">Antonio Gonzalez.</hi></signed></closer>
+                <postscript>
+                    <p>To the <hi rendition="#small-caps">Collector-General of Guatemala.</hi></p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d292-f1" n="*" xml:id="d292-f1-content">
+                <p>By superior junta is meant the committee of finance of the captaincy-general and
+                    audience of Guatemala.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

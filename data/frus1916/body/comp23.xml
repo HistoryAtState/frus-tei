@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_comp23" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Liberia:</title>
+            </titleStmt>
+            <xi:include href="../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/comp23"
+                    type="canonical"/>
+                <relatedItem target="comp22/ch62.xml" type="prev"/>
+                <relatedItem target="comp23/ch63.xml" type="next"/>
+                <relatedItem target="../frus1916.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">comp23</bibl>
+                <bibl type="frus-division-n">23</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="452" to="462" unit="page"
+                        >452–62</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1916-12-01T23:59:59-05:00" notBefore="1916-01-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp23">
+
+                <pb facs="0528" n="452" xml:id="pg452"/>
+
+                <head>Liberia:</head>
+
+
+
+                <xi:include href="comp23/ch63.xml" xpointer="ch63"/>
+                <xi:include href="comp23/ch64.xml" xpointer="ch64"/>
+                <xi:include href="comp23/ch65.xml" xpointer="ch65"/>
+            </div>
+        </body>
+    </text>
+</TEI>

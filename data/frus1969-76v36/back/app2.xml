@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v36_app2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appendix B</title>
+            </titleStmt>
+            <xi:include href="../frus1969-76v36_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1969-76v36_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v36/app2"
+                    type="canonical"/>
+                <relatedItem target="app1.xml" type="prev"/>
+                <relatedItem target="index.xml" type="next"/>
+                <relatedItem target="../frus1969-76v36.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v36</bibl>
+                <bibl type="frus-division-id">app2</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">appendix</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1031" to="1031" unit="page"
+                        >1031</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1974-08-03T10:00:00-05:00" notBefore="1969-03-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="app2">
+
+                <pb facs="1069" n="1031" xml:id="pg1031"/>
+
+                <head>Appendix B<anchor n="1" xml:id="ch9-f1"/></head>
+                <p>Figure 5: Major Oil Trade Routes</p>
+                <figure>
+                    <graphic url="figure_1069"/>
+                </figure>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#ch9-f1" n="1" type="source" xml:id="ch9-f1-content">
+                <p>The map is attached to another copy of <ref target="#d185">Document 185</ref> in
+                    the Central Intelligence Agency, National Intelligence Council Files, Job
+                    79–R01012A, Box 447.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

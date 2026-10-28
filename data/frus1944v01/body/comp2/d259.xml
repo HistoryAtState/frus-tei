@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944v01_d259" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Conversation, by the Secretary of
+                        State</title>
+            </titleStmt>
+            <xi:include href="../../frus1944v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1944v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1944v01/d259"
+                    type="canonical"/>
+                <relatedItem target="d258.xml" type="prev"/>
+                <relatedItem target="d259-a1.xml" type="next"/>
+                <relatedItem target="../comp2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944v01</bibl>
+                <bibl type="frus-division-id">d259</bibl>
+                <bibl type="frus-division-n">259</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="485" to="486" unit="page"
+                        >485–86</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi>
+                    </placeName>
+                    <date calendar="gregorian" when="1943-12-27">December 27, 1943</date>
+                    <date notAfter="1943-12-27T23:59:59-05:00" notBefore="1943-12-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d259">
+
+                <pb facs="0499" n="485" sameAs="frus:frus1944v01/pg485"/>
+
+                <note rend="inline" type="source">740.00119 European War 1939/2088</note>
+                <head>
+                    <hi rendition="#italic">Memorandum of Conversation, by the Secretary of
+                        State</hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi>
+                        </placeName>], <date calendar="gregorian" when="1943-12-27">December 27,
+                            1943</date>.</dateline>
+                </opener>
+                <p>The British Ambassador<anchor n="11" xml:id="d259-f1"/> called at his request and
+                    handed me an <hi rendition="#italic">aide-mémoire</hi> in regard to a peace
+                    feeler by the Germans, a copy of which is hereto attached. I thanked him. He
+                    said that of course he did not know what was in it, but that it was the most
+                    serious proposal from Germany his Government has thus far received.</p>
+                <closer>
+                    <signed>C[<hi rendition="#small-caps">ordell</hi>] H[<hi rendition="#small-caps"
+                            >ull</hi>]</signed>
+                </closer>
+
+
+                <xi:include href="d259-a1.xml" xpointer="d259-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d259-f1" n="11" xml:id="d259-f1-content">
+                <p>Viscount Halifax.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

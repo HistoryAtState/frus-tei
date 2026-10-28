@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d540" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in the Soviet Union (Harriman) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d540"
+                    type="canonical"/>
+                <relatedItem target="d539.xml" type="prev"/>
+                <relatedItem target="d541.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d540</bibl>
+                <bibl type="frus-division-n">540</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="865" to="865" unit="page"
+                        >865</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1944-01-06">January 6, 1944</date>
+                    <date notAfter="1944-01-06T23:59:59-05:00" notBefore="1944-01-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HK1">Harriman, Kathleen</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MVM1">Molotov, Vyacheslov
+                        Mikhailovich</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d540">
+
+                <pb facs="0969" n="865" xml:id="pg865"/>
+
+                <note rend="inline" type="source">740.0011 EW
+                    1939/32572: Telegram</note>
+                <head><hi rendition="#italic">The Ambassador in the Soviet Union</hi> (<hi rendition="#italic"
+                        >Harriman</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Moscow</hi></placeName>, <date calendar="gregorian"
+                            when="1944-01-06">January 6, 1944</date>.</dateline>
+                </opener>
+                <p>43, January 6, 4 p.m. Personal and secret for the President and the Secretary
+                    from Harriman:</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <p>Molotov<anchor n="1" xml:id="d540-f1"/>
+                    continued that Marshal Stalin at Tehran
+                    had outlined the terms which the Soviet Government were prepared to accord
+                    Finland and, as he recalled it, the President and Mr. Churchill had expressed no objection to these terms.<anchor
+                        n="2" xml:id="d540-f2"/></p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <closer><signed><hi rendition="#small-caps"
+                            >Harriman</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d540-f1" n="1" xml:id="d540-f1-content">
+                <p>In the course of a conversation with Harriman on December 31, 1943.</p>
+            </note>
+            <note corresp="#d540-f2" n="2" xml:id="d540-f2-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg592">p. 592</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

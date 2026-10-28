@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d78" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Thompson to Mr.
+                            Flay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d78"
+                    type="canonical"/>
+                <relatedItem target="../ch24.xml" type="prev"/>
+                <relatedItem target="d78-a1.xml" type="next"/>
+                <relatedItem target="../ch24.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d78</bibl>
+                <bibl type="frus-division-n">78</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="109" to="111" unit="page"
+                        >109–11</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Petropolis</hi></placeName>
+                    <date calendar="gregorian" when="1904-07-28"><hi rendition="#italic">July 28,
+                            1904</hi></date>
+                    <date notAfter="1904-07-28T23:59:59-05:00" notBefore="1904-07-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d78">
+
+                <pb facs="0197" n="109" sameAs="frus:frus1904/pg109"/>
+
+                <head><hi rendition="#italic">Mr. Thompson to Mr.
+                            Flay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                            >Petropolis</hi></placeName>, <date calendar="gregorian"
+                            when="1904-07-28"><hi rendition="#italic">July 28,
+                        1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 204.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose herewith copy of the provisional
+                    accord between Brazil and Peru, formulated as a means of settling in a friendly
+                    manner the boundary dispute between the two countries, and of a convention of
+                    arbitration entered into at the same time for the purpose of settling equitably
+                    and finally the claims of their respective citizens for losses and damages
+                    sustained by them in the regions of the upper Juruá and the upper Purús,
+                    together with translation of the same.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">D. E. Thompson.</hi></signed></closer>
+
+
+
+
+                <xi:include href="d78-a1.xml" xpointer="d78-a1"/>
+                <xi:include href="d78-a2.xml" xpointer="d78-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

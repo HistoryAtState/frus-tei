@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d115" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d115"
+                    type="canonical"/>
+                <relatedItem target="d114.xml" type="prev"/>
+                <relatedItem target="d116.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d115</bibl>
+                <bibl type="frus-division-n">115</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="79" to="79" unit="page"
+                        >79</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-11">11 November 1943</date>
+                    <date notAfter="1943-11-11T23:59:59-05:00" notBefore="1943-11-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CKSA1">Clark Kerr, Sir
+                        Archibald</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MVM1">Molotov, Vyacheslov
+                        Mikhailovich</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d115">
+
+                <pb facs="0171" n="79" sameAs="frus:frus1943CairoTehran/pg79"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President Roosevelt</hi><anchor n="1" xml:id="d115-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1943-11-11">11 November 1943</date>.</dateline>
+                </opener>
+                <p>Number 501. Prime Minister to President Roosevelt personal.</p>
+                <list>
+                    <label>1.</label>
+                    <item>There seems to have been a most unfortunate misunderstanding. I thought
+                        from your number 410<anchor n="2" xml:id="d115-f2"/> that the British and
+                        American Staffs would have “many meetings” before being joined by the
+                        Russians or Chinese. But now I hear from Ambassador Clark Kerr that on the 9th November the
+                        United States Ambassador at Moscow delivered a message from you to Stalin inviting Monsieur Molotov to go to Cairo on November 22nd
+                        with a Military representative.<anchor n="3" xml:id="d115-f3"/> November
+                        22nd is, however, the first day on which the Staffs can meet. I ask
+                        therefore that the date of the arrival of Molotov and his Military representative shall be postponed
+                        till the 25th November at the earliest.</item>
+                    <label>2.</label>
+                    <item>I am very glad to hear also from Ambassador Clark Kerr that you contemplate going on November 26th to
+                        Teheran. I rather wish you had been able to let me know direct.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d115-f1" n="1" type="source" xml:id="d115-f1-content">
+                <p>Channel of transmission not indicated.</p>
+            </note>
+            <note corresp="#d115-f2" n="2" xml:id="d115-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg66">p. 66</ref>.</p>
+            </note>
+            <note corresp="#d115-f3" n="3" xml:id="d115-f3-content">
+                <p>Message of November 8, 1943; <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg71">p. 71</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

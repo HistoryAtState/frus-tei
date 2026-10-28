@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901China_d100" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Rockhill to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../frus1901China_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1901China_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1901China/d100"
+                    type="canonical"/>
+                <relatedItem target="d99.xml" type="prev"/>
+                <relatedItem target="d100-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901China</bibl>
+                <bibl type="frus-division-id">d100</bibl>
+                <bibl type="frus-division-n">100</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="129" to="130" unit="page"
+                        >129–30</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Commissioner of the United States to
+                            China</hi>,<lb/><hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1901-04-15"><hi rendition="#italic">April 15,
+                            1901</hi></date>
+                    <date notAfter="1901-04-15T23:59:59-05:00" notBefore="1901-04-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d100">
+
+                <pb facs="0135" n="129" sameAs="frus:frus1901China/pg129"/>
+
+                <head><hi rendition="#italic">Mr. Rockhill to Mr.
+                            Hay.</hi></head>
+                <opener>
+                    <seg rendition="#float-left">No. 64.]</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Commissioner of the United States to China</hi>,<lb/><hi
+                                rendition="#italic">Peking</hi></placeName>, <date
+                            calendar="gregorian" when="1901-04-15"><hi rendition="#italic">April 15,
+                                1901</hi></date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith for
+                    your information copy of a report made by the British special-service officer
+                    detailed to investigate the looting of the foreign settlement at Peitaiho in
+                    June last, in which is set forth the punishments meeted out to those persons
+                    found guilty of participation in said act.</p>
+                <p>I am, sir, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">W. W. Rockhill.</hi></signed></closer>
+
+
+                <xi:include href="d100-a1.xml" xpointer="d100-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

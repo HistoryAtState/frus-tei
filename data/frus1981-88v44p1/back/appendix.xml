@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v44p1_appendix" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appendix</title>
+            </titleStmt>
+            <xi:include href="../frus1981-88v44p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1981-88v44p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v44p1/appendix"
+                    type="canonical"/>
+                <relatedItem target="../body/ch1/d294.xml" type="prev"/>
+                <relatedItem target="appendix/appA.xml" type="next"/>
+                <relatedItem target="../frus1981-88v44p1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v44p1</bibl>
+                <bibl type="frus-division-id">appendix</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">appendix</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1072" to="1077" unit="page"
+                        >1072–77</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1986-11-07T23:59:59-05:00" notBefore="1986-11-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="appendix">
+
+                <pb facs="1103" n="1072" xml:id="pg1072"/>
+
+                <head>Appendix</head>
+
+                <xi:include href="appendix/appA.xml" xpointer="appA"/>
+            </div>
+        </body>
+    </text>
+</TEI>

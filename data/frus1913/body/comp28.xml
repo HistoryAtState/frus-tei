@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_comp28" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Salvador:</title>
+            </titleStmt>
+            <xi:include href="../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/comp28"
+                    type="canonical"/>
+                <relatedItem target="comp27/ch107/d1639.xml" type="prev"/>
+                <relatedItem target="comp28/ch108.xml" type="next"/>
+                <relatedItem target="../frus1913.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">comp28</bibl>
+                <bibl type="frus-division-n">28</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1304" to="1308" unit="page"
+                        >1304–8</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1913-02-18T23:59:59-05:00" notBefore="1913-02-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp28">
+
+                <pb facs="1408" n="1304" xml:id="pg1304"/>
+
+                <head>Salvador:</head>
+
+                <xi:include href="comp28/ch108.xml" xpointer="ch108"/>
+            </div>
+        </body>
+    </text>
+</TEI>

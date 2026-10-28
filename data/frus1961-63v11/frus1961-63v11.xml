@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1961-63v11_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1961-63v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1961-63v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1961-63v11"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1961-63v11" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1961-63v11/covers/frus1961-63v11.jpg"/>
+                        <extent>
+                            <measure quantity="35711" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:45:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1961-63v11" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1961-63v11/ebook/frus1961-63v11.epub"/>
+                        <extent>
+                            <measure quantity="1289906" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:45:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1961-63v11" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1961-63v11/ebook/frus1961-63v11.mobi"/>
+                        <extent>
+                            <measure quantity="1981619" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:45:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1996 as printed book</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">kennedy</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>cuban-missile-crisis</term>
+                    <term>cuba</term>
+                    <term>quarantine-blockade</term>
+                    <term>china</term>
+                    <term>covert-actions</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>military-bases</term>
+                    <term>italy</term>
+                    <term>kennedy-john-f</term>
+                    <term>nuclear-weapons</term>
+                    <term>laos</term>
+                    <term>morocco</term>
+                    <term>organization-of-american-states</term>
+                    <term>poland</term>
+                    <term>rusk-david-dean</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>venezuela</term>
+                    <term>vietnam</term>
+                    <term>russia</term>
+                    <term>civil-rights-domestic</term>
+                    <term>the-bahamas</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1961-63v11" status="published" when="1996"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="I" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1961–1963</titlePart>
+                    <titlePart type="volumenumber">Volume XI</titlePart>
+                    <titlePart type="volume">Cuban Missile Crisis and Aftermath</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline>Editors:Edward C. Keefer
+                    <lb/>
+                    Charles S. Sampson
+                    <lb/>
+                    Louis J. Smith
+                </byline>
+                <byline>General Editor:David S. Patterson
+                </byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1996</docDate>
+                    <pb facs="0002" n="II" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION
+                    10410<lb/>Office of the Historian<lb/>Bureau of Public Affairs<lb/>For sale by
+                    the U.S. Government Printing Office Superintendent of Documents, Mail Stop:
+                    SSOP, Washington, DC 20402-9328ISBN 0-16-045210-4</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0010" n="[X]" xml:id="pgX"/>
+            <xi:include href="front/subseriesvols.xml" xpointer="subseriesvols"/>
+            <pb facs="0012" n="[XII]" xml:id="pgXII"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0014" n="[XIV]" xml:id="pgXIV"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+            <pb facs="0028" n="[XXVIII]" xml:id="pgXXVIII"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <pb facs="0940" n="[912]" xml:id="pg912"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

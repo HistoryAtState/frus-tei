@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v07-09mSupp_d365" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum from President Kennedy to
+                        Martin, October 14</title>
+            </titleStmt>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v07-09mSupp/d365"
+                    type="canonical"/>
+                <relatedItem target="../ch96.xml" type="prev"/>
+                <relatedItem target="d365-a1.xml" type="next"/>
+                <relatedItem target="../ch96.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v07-09mSupp</bibl>
+                <bibl type="frus-division-id">d365</bibl>
+                <bibl type="frus-division-n">365</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                        when="1963-10-14">October 14, 1963</date>
+                    <date notAfter="1963-10-14T23:59:59-05:00" notBefore="1963-10-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v07-09mSupp/persons">
+                    <term ref="frus:frus1961-63v07-09mSupp/persons#p_KJF_1">Kennedy, John F.</term>
+                    <term ref="frus:frus1961-63v07-09mSupp/persons#p_MEM_1">Martin, Edwin M.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d365">
+
+                <pb facs="1713" n="1562" sameAs="frus:frus1961-63v07-09mSupp/pg1562"/>
+
+                <head>365. Memorandum from President Kennedy
+                    to Martin, October 14<anchor n="1"
+                        xml:id="d365-f1"/></head>
+                <opener>
+                    <dateline>
+                        <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            when="1963-10-14">October 14, 1963</date>
+                    </dateline>
+                </opener>
+                <pb facs="d365-1" n="1" type="facsimile" xml:id="d365-1"/>
+                <p>I am asking the Secretary of the Treasury to form a Committee to review the
+                    United States position in the discussions now in progress on the evolution of
+                    the international monetary system.</p>
+                <p>The Committee is described in the attached memorandum. I would appreciate it if
+                    you would be willing to sit with the Committee when it meets.</p>
+                <closer><signed corresp="#p_KJF_1">John
+                            Kennedy</signed></closer>
+
+
+                <xi:include href="d365-a1.xml" xpointer="d365-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d365-f1" n="1" type="source" xml:id="d365-f1-content">
+                <p>Martin’s participation in meetings to
+                    review U.S. position on evolution of international monetary system.
+                    Confidential. 2 pp. Kennedy Library, National Security Files, Subjects Series,
+                    Balance of Payments and Gold, 10/63–11/63, Box 292.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

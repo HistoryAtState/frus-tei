@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943v02" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1943v02_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1943v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1943v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943v02"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1943v02" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1943v02/covers/frus1943v02.jpg"/>
+                        <extent>
+                            <measure quantity="26750" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:35:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1943v02" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1943v02/ebook/frus1943v02.epub"/>
+                        <extent>
+                            <measure quantity="1949336" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:35:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1943v02" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1943v02/ebook/frus1943v02.mobi"/>
+                        <extent>
+                            <measure quantity="2541692" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:35:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1964 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>roosevelt-franklin-d</term>
+                    <term>hull-cordell</term>
+                    <term>albania</term>
+                    <term>belgium</term>
+                    <term>denmark</term>
+                    <term>finland</term>
+                    <term>france</term>
+                    <term>greece</term>
+                    <term>iceland</term>
+                    <term>italy</term>
+                    <term>netherlands</term>
+                    <term>norway</term>
+                    <term>poland</term>
+                    <term>portugal</term>
+                    <term>spain</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>holy-see</term>
+                    <term>world-war-ii</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>prisoners-of-war</term>
+                    <term>slovenia</term>
+                    <term>croatia</term>
+                    <term>bosnia-and-herzegovina</term>
+                    <term>serbia</term>
+                    <term>montenegro</term>
+                    <term>kosovo</term>
+                    <term>macedonia</term>
+                    <term>faroe-islands</term>
+                    <term>guadeloupe</term>
+                    <term>martinique</term>
+                    <term>new-caledonia</term>
+                    <term>saint-pierre-and-miquelon</term>
+                    <term>french-guiana</term>
+                    <term>st-lucia</term>
+                    <term>suriname</term>
+                    <term>djibouti</term>
+                    <term>aruba</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1943v02" status="published" when="1964"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relation of the United States<lb/>Diplomatic
+                        Papers</titlePart>
+                    <titlePart type="subseries">1943</titlePart>
+                    <titlePart type="volumeno">Volume II</titlePart>
+                    <titlePart type="volumetitle">Europe</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1964</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication 7679 <lb/>
+                    <hi rendition="#small-caps">Historical Office Bureau of Public Affairs</hi>
+                    <lb/> For sale by the Superintendent of Documents, U.S. Government Printing
+                    Office<lb/>Washington, D.C., 20402 - Price $3.75 (Buckram)</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0012" n="[VIII]" xml:id="pgVIII"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+            <xi:include href="body/comp12.xml" xpointer="comp12"/>
+            <xi:include href="body/comp13.xml" xpointer="comp13"/>
+            <xi:include href="body/comp14.xml" xpointer="comp14"/>
+            <xi:include href="body/comp15.xml" xpointer="comp15"/>
+            <xi:include href="body/comp16.xml" xpointer="comp16"/>
+            <xi:include href="body/comp17.xml" xpointer="comp17"/>
+            <xi:include href="body/comp18.xml" xpointer="comp18"/>
+            <pb facs="1061" n="[1049]" xml:id="pg1049"/>
+            <pb facs="1062" n="[1050]" xml:id="pg1050"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

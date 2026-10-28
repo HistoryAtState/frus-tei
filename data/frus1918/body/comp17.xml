@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918_comp17" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mexico</title>
+            </titleStmt>
+            <xi:include href="../frus1918_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1918_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1918/comp17"
+                    type="canonical"/>
+                <relatedItem target="comp16/ch36/ch36subch1/d500.xml" type="prev"/>
+                <relatedItem target="comp17/ch37.xml" type="next"/>
+                <relatedItem target="../frus1918.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918</bibl>
+                <bibl type="frus-division-id">comp17</bibl>
+                <bibl type="frus-division-n">17</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="548" to="817" unit="page"
+                        >548–817</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1918-12-31T23:59:59-05:00" notBefore="1917-11-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp17">
+
+                <pb facs="0660" n="548" xml:id="pg548"/>
+
+                <head>Mexico</head>
+
+
+
+
+
+
+
+
+
+
+
+                <xi:include href="comp17/ch37.xml" xpointer="ch37"/>
+                <xi:include href="comp17/ch38.xml" xpointer="ch38"/>
+                <xi:include href="comp17/ch39.xml" xpointer="ch39"/>
+                <xi:include href="comp17/ch40.xml" xpointer="ch40"/>
+                <xi:include href="comp17/ch41.xml" xpointer="ch41"/>
+                <xi:include href="comp17/ch42.xml" xpointer="ch42"/>
+                <xi:include href="comp17/ch43.xml" xpointer="ch43"/>
+                <xi:include href="comp17/ch44.xml" xpointer="ch44"/>
+            </div>
+        </body>
+    </text>
+</TEI>

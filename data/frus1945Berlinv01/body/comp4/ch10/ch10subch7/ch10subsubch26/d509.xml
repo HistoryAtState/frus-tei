@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d509" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 509</title>
+                <title type="subtitle">Briefing Book Paper</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d509"
+                    type="canonical"/>
+                <relatedItem target="../ch10subsubch26.xml" type="prev"/>
+                <relatedItem target="d510.xml" type="next"/>
+                <relatedItem target="../ch10subsubch26.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d509</bibl>
+                <bibl type="frus-division-n">509</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="742" to="742" unit="page"
+                        >742</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-06-29T23:59:59-05:00" notBefore="1945-06-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_AMGAC1">Arnold, Major-General Allan
+                        C.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d509">
+
+                <pb facs="0874" n="742" sameAs="frus:frus1945Berlinv01/pg742"/>
+
+                <note rend="inline" type="source">740.00119 (Potsdam)/5–2446</note>
+                <head>No. 509<lb/><hi rendition="#italic">Briefing Book Paper</hi><anchor n="1"
+                        xml:id="d509-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Extract]<anchor n="2" xml:id="d509-f2"/></seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">European Territorial Settlements</hi>
+                </p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">i. germany</hi>
+                </p>
+                <p>In general all territories seized by Germany either before or during the course
+                    of the war will automatically return to their rightful owners. Major territorial
+                    claims against Germany are treated below. On Polish claims against Germany this
+                    Government agrees that east Prussia (except for the Koenigsberg district), the
+                    former Free City of Danzig, German Upper Silesia and a portion of eastern
+                    Pomerania should be ceded to Poland. The American Government would prefer that
+                    other German territory east of the Oder should remain German. However, the
+                    British have agreed to the cession to Poland of all territory east of the
+                        Oder<anchor n="3" xml:id="d509-f3"/> and this Government would probably not
+                    wish to stand out alone if the Russians insist on this point.<anchor n="4"
+                        xml:id="d509-f4"/>
+                </p>
+                <p rendition="#center">. . . . . . .</p>
+                <closer>
+                    <dateline rendition="#float-left">[<placeName>
+                            <hi rendition="#small-caps">Washington</hi>
+                        </placeName>,] <date calendar="gregorian" when="1945-06-29">June 29,
+                            1945</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d509-f1" n="1" type="source" xml:id="d509-f1-content">
+                <p>Annex 13 to the attachment to <ref target="#d177">document No. 177</ref>.</p>
+            </note>
+            <note corresp="#d509-f2" n="2" xml:id="d509-f2-content">
+                <p>For other extracts from this paper, see documents Nos. 259 and 398.</p>
+            </note>
+            <note corresp="#d509-f3" n="3" xml:id="d509-f3-content">
+                <p>See <ref target="frus1945Malta#pg_203">
+                        <hi rendition="#italic">Foreign Relations</hi>, The Conferences at Malta and
+                        Yalta, 1945, p. 203</ref>. Cf. Arnold and Veronica M. Toynbee, eds., <hi
+                        rendition="#italic">Survey of International Affairs, 1939–1946: The
+                        Realignment of Europe</hi> (London, 1955), pp. 184, 186; Edward J.
+                        Rozek, <hi rendition="#italic">Allied Wartime Diplomacy: A
+                        Pattern in Poland</hi> (New York, 1958), pp. 275, 277, 287.</p>
+            </note>
+            <note corresp="#d509-f4" n="4" xml:id="d509-f4-content">
+                <p>Another version of this paper in the Department of State files, also dated June
+                    29 (file No. 740.00119 Council/6–3045), has the following sentence added at this
+                    point: “It is believed that this Government should refuse to sanction, at this
+                    conference, the transfer to Poland of the territory between the Oder and the
+                    Neisse.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

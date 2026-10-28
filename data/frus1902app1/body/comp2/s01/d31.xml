@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app1_d31" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EXHIBIT V.</title>
+                <title type="subtitle">(Annex 2 and Annex 3, charts.)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902app1/d31"
+                    type="canonical"/>
+                <relatedItem target="d30.xml" type="prev"/>
+                <relatedItem target="d32.xml" type="next"/>
+                <relatedItem target="../s01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app1</bibl>
+                <bibl type="frus-division-id">d31</bibl>
+                <bibl type="frus-division-n">31</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="Map 1" to="71" unit="page">Map
+                        1–71</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                        notAfter="1892-11-05T23:59:59-08:00" notBefore="1890-01-30T00:00:00-08:00"
+                        type="content-date">undated</date>
+                    <date notAfter="1892-11-06T02:59:59-05:00" notBefore="1890-01-30T03:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d31">
+
+                <pb facs="0081" n="[Map 1]" xml:id="pg-seq-0081-map-1"/>
+
+                <figure>
+                    <graphic url="figure_0081"/>
+                </figure>
+                <pb facs="0082" n="[Map 2]" xml:id="pg-seq-0082-map-2"/>
+                <figure>
+                    <graphic url="figure_0082"/>
+                </figure>
+                <pb facs="0083" n="71" xml:id="pg71"/>
+                <head>EXHIBIT V. <lb/> (Annex 2 and Annex 3, charts.)</head>
+                <opener>
+                    <dateline rendition="#float-right">[<date
+                            ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                            notAfter="1892-11-05T23:59:59-08:00"
+                            notBefore="1890-01-30T00:00:00-08:00" type="content-date"
+                        >undated</date>]</dateline>
+                </opener>
+            </div>
+        </body>
+    </text>
+</TEI>

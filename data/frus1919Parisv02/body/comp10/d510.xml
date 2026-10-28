@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv02_d510" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Food Administrator (Hoover) to President Wilson
+                    </title>
+            </titleStmt>
+            <xi:include href="../../frus1919Parisv02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1919Parisv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv02/d510"
+                    type="canonical"/>
+                <relatedItem target="../comp10.xml" type="prev"/>
+                <relatedItem target="d511.xml" type="next"/>
+                <relatedItem target="../comp10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv02</bibl>
+                <bibl type="frus-division-id">d510</bibl>
+                <bibl type="frus-division-n">510</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="627" to="627" unit="page"
+                        >627</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi>
+                    </placeName>
+                    <date calendar="gregorian" when="1918-11-07">7 November, 1918</date>
+                    <date notAfter="1918-11-07T23:59:59-05:00" notBefore="1918-11-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d510">
+
+                <pb facs="0715" n="627" sameAs="frus:frus1919Parisv02/pg627"/>
+
+                <note rend="inline" type="source">103.97/837</note>
+                <head>
+                    <hi rendition="#italic">The Food Administrator</hi> (<hi
+                            rendition="#italic">Hoover</hi>) <hi rendition="#italic">to
+                        President Wilson
+                    </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi>
+                        </placeName>, <date calendar="gregorian" when="1918-11-07">7 November,
+                            1918</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Dear Mr. President</hi>: Please find enclosed
+                    herewith a telegram which I am despatching to Mr. Cotton<anchor n="1"
+                        xml:id="d510-f1"/> in respect to the proposals for the world’s food and
+                    shipping supplies to be vested in the Inter-Allied Food Council and the
+                    Inter-Allied Maritime Council.</p>
+                <p>I believe this cable is in accord with the conclusions of our conference
+                    yesterday and I am wondering if you could see your way to despatch this same
+                    telegram to Colonel House, informing him that it has been sent to Mr. Cotton by
+                    myself and that it is with your authorization and, furthermore, if you could
+                    state to Colonel House that I will be leaving within the next few days for Paris
+                    and that no arrangements looking forward to the handling of food for liberated
+                    populations should be undertaken until after my arrival and consultation with
+                        him.<anchor n="2" xml:id="d510-f2"/>
+                </p>
+                <p>Yours faithfully,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Herbert Hoover</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d510-f1" n="1" xml:id="d510-f1-content">
+                <p>J. P. Cotton, in London, member of the Food Administration.</p>
+            </note>
+            <note corresp="#d510-f2" n="2" xml:id="d510-f2-content">
+                <p>For the text of the telegram as sent, see <ref target="frus1918Supp01v01#pg_616">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1918, supp. 1, vol. <hi
+                            rendition="#small-caps">i</hi>, p. 616</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

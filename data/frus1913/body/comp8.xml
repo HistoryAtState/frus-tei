@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_comp8" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Costa Rica:</title>
+            </titleStmt>
+            <xi:include href="../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/comp8"
+                    type="canonical"/>
+                <relatedItem target="comp7/ch31/d248.xml" type="prev"/>
+                <relatedItem target="comp8/ch32.xml" type="next"/>
+                <relatedItem target="../frus1913.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">comp8</bibl>
+                <bibl type="frus-division-n">8</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="330" to="332" unit="page"
+                        >330–32</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1913-07-31T23:59:59-05:00" notBefore="1913-06-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp8">
+
+                <pb facs="0434" n="330" xml:id="pg330"/>
+
+                <head>Costa Rica:</head>
+
+                <xi:include href="comp8/ch32.xml" xpointer="ch32"/>
+            </div>
+        </body>
+    </text>
+</TEI>

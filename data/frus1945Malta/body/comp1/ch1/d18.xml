@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d18" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d18"
+                    type="canonical"/>
+                <relatedItem target="d17.xml" type="prev"/>
+                <relatedItem target="d19.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d18</bibl>
+                <bibl type="frus-division-n">18</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="14" unit="page"
+                        >13–14</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-11-05">5 November 1944</date>
+                    <date notAfter="1944-11-05T23:59:59-05:00" notBefore="1944-11-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_MVM1">Molotov, Vyacheslav
+                        Mikhailovich</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d18">
+
+                <pb facs="0095" n="13" sameAs="frus:frus1945Malta/pg13"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                    </hi><anchor n="1" xml:id="d18-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1944-11-05">5 November
+                        1944</date>.</dateline>
+                </opener>
+                <p>Personal and Top Secret from the Prime Minister to President Roosevelt. Number 814.</p>
+                <p>1. Your number 641. I send you in my immediately following the report which I
+                    called for from the First Sea Lord.<anchor n="2" xml:id="d18-f2"/> The whole
+                    matter has been carefully studied by the Admiralty and, as you will see, every
+                    port is reported on separately. Our sailors have pretty good knowledge of these
+                    ports. On all this I consider the Black Sea out of the question and the Piraeus
+                    very little better.</p>
+                <p>2. I am somewhat attracted by the suggestion of Jerusalem. Here there are
+                    first-class hotels, government houses, etc., and every means can be taken to
+                    ensure security. The warships could probably lie at Haifa unless the weather
+                    turned very rough, in which case they could go to Port Said or Alexandria.</p>
+                <pb facs="0096" n="14" xml:id="pg14"/>
+                <p>3. Alexandria would probably be a feasible proposition.</p>
+                <p>4. U. J. could come by special train, with every form of protection, from Moscow
+                    to Jerusalem. I am having the timetables of the journeys studied and will
+                    telegraph to you about them.</p>
+                <p>5. I think we ought to put the proposition to U. J., and throw on him the onus of
+                    refusing. After all, we are respectable people too.</p>
+                <p>6. In the event of his not coming, I earnestly hope you will pay your
+                    long-promised and deferred visit to Great Britain and then visit your armies in
+                    France. The right thing would be to have the conference between us in Britain. I
+                    have trenched so often on your hospitality. We could no doubt get Molotov to deputize for Stalin. He counts for a lot.</p>
+                <p>7. Perhaps you would send me a draft of the telegram we should send to Stalin, after considering the information I am
+                    now sending you.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Prime</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d18-f1" n="1" type="source" xml:id="d18-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d18-f2" n="2" xml:id="d18-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

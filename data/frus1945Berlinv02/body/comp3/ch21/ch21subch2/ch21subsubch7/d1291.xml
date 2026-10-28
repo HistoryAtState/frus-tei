@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d1291" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 1291</title>
+                <title type="subtitle">Memorandum by the United States
+                        Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d1291"
+                    type="canonical"/>
+                <relatedItem target="d1290.xml" type="prev"/>
+                <relatedItem target="d1291-a1.xml" type="next"/>
+                <relatedItem target="../ch21subsubch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d1291</bibl>
+                <bibl type="frus-division-n">1291</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1345" to="1346" unit="page"
+                        >1345–46</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Babelsberg</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-19">19 July 1945</date>
+                    <date notAfter="1945-07-19T23:59:59-05:00" notBefore="1945-07-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/terms">
+                    <term ref="frus:frus1945Berlinv02/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1945Berlinv02/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1291">
+
+                <pb facs="1543" n="1345" sameAs="frus:frus1945Berlinv02/pg1345"/>
+
+                <note rend="inline" type="source">J. C. S.
+                    Files</note>
+                <head>No. 1291<lb/><hi rendition="#italic">Memorandum by the United States Chiefs of
+                        Staff</hi><anchor n="1" xml:id="d1291-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        C. C. S. 895/2</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Babelsberg</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-07-19">19 July 1945</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Participation of Two French
+                        Colonial Infantry Divisions in Far Eastern Operations</hi></p>
+                <p>The United States Chiefs of Staff have considered the comments of the British
+                    Chiefs of Staff in C. C. S. 895/1<anchor n="2"
+                        xml:id="d1291-f2"/> as to the employment of the two French divisions and
+                    recommend that the enclosed memorandum be forwarded by the Combined Chiefs of
+                    Staff to the Chief of the French Military Mission to the United States in lieu
+                    of Enclosure “B” to C. C. S. 895.<anchor n="3"
+                        xml:id="d1291-f3"/></p>
+
+
+
+                <xi:include href="d1291-a1.xml" xpointer="d1291-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1291-f1" n="1" type="source" xml:id="d1291-f1-content">
+                <p>Considered by the Combined Chiefs of Staff at their 196th Meeting, July 19. See
+                        <hi rendition="#italic">ante</hi>, <ref target="#pg113">p. 113</ref>.</p>
+            </note>
+            <note corresp="#d1291-f2" n="2" xml:id="d1291-f2-content">
+                <p><ref target="#d1290">Document No. 1290</ref>.</p>
+            </note>
+            <note corresp="#d1291-f3" n="3" xml:id="d1291-f3-content">
+                <p><ref target="#d1288">Document No. 1288</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

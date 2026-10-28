@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1908_comp36" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Salvador</title>
+            </titleStmt>
+            <xi:include href="../frus1908_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1908_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1908/comp36"
+                    type="canonical"/>
+                <relatedItem target="comp35/ch124/d684-a2.xml" type="prev"/>
+                <relatedItem target="comp36/ch125.xml" type="next"/>
+                <relatedItem target="../frus1908.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1908</bibl>
+                <bibl type="frus-division-id">comp36</bibl>
+                <bibl type="frus-division-n">36</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="705" to="709" unit="page"
+                        >705–9</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1908-07-23T23:59:59-05:00" notBefore="1908-04-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp36">
+
+                <pb facs="0807" n="705" xml:id="pg705"/>
+
+                <head>Salvador</head>
+
+
+
+                <xi:include href="comp36/ch125.xml" xpointer="ch125"/>
+                <xi:include href="comp36/ch126.xml" xpointer="ch126"/>
+                <xi:include href="comp36/ch127.xml" xpointer="ch127"/>
+            </div>
+        </body>
+    </text>
+</TEI>

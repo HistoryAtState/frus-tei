@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v10-12mSupp_d642" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum from Brubeck to McGeorge Bundy, April 1</title>
+            </titleStmt>
+            <xi:include href="../../../frus1961-63v10-12mSupp_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1961-63v10-12mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d642"
+                    type="canonical"/>
+                <relatedItem target="../ch49.xml" type="prev"/>
+                <relatedItem target="d642-a1.xml" type="next"/>
+                <relatedItem target="../ch49.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v10-12mSupp</bibl>
+                <bibl type="frus-division-id">d642</bibl>
+                <bibl type="frus-division-n">642</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                        when="1963-04-01">April 1, 1963</date>
+                    <date notAfter="1963-04-01T23:59:59-05:00" notBefore="1963-04-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v10-12mSupp/persons">
+                    <term ref="frus:frus1961-63v10-12mSupp/persons#p_BWH_1">Brubeck, William
+                        H.</term>
+                    <term ref="frus:frus1961-63v10-12mSupp/persons#p_BM_1">Bundy, McGeorge</term>
+                    <term ref="frus:frus1961-63v10-12mSupp/persons#p_HRA_1">Hurwitch, Robert
+                        A.</term>
+                </keywords>
+                <keywords scheme="frus:frus1961-63v10-12mSupp/terms">
+                    <term ref="frus:frus1961-63v10-12mSupp/terms#t_CF_1">CF</term>
+                    <term ref="frus:frus1961-63v10-12mSupp/terms#t_DOS_1">DOS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d642">
+
+                <pb facs="1833" n="1658" sameAs="frus:frus1961-63v10-12mSupp/pg1658"/>
+
+                <head>642. Memorandum from Brubeck to
+                        McGeorge Bundy, April 1<anchor n="1"
+                        xml:id="d642-f1"/></head>
+                <opener><dateline rendition="#float-right">
+                        <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            when="1963-04-01">April 1, 1963</date>
+                    </dateline></opener>
+                <pb facs="d642-1" n="1" type="facsimile" xml:id="d642-1"/>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Prevention of Pin-Prick Raids against Cuba</item>
+                </list>
+                <p>The Deputy Coordinator of Cuban Affairs has supplied me with the enclosed
+                    memorandum which he has prepared for the Attorney General.</p>
+                <p>In accordance with the Deputy Coordinator’s request, I am forwarding it to you
+                    for your information.</p>
+                <closer>
+                    <signed>/s/ C.C. Moor <lb/> for <lb/>
+                        William H. Brubeck</signed>
+                    <affiliation>Executive Secretary</affiliation>
+                </closer>
+
+
+
+                <xi:include href="d642-a1.xml" xpointer="d642-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d642-f1" n="1" type="source" xml:id="d642-f1-content">
+                <p>Transmits memorandum from Hurwitch to the
+                    Attorney General on actions and recommendations to prevent pin-prick raids
+                    against Cuba. Secret. 5 pp. DOS, CF, POL 30–2 CUBA.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

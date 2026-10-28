@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943China_d632" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chinese Ministry for Foreign
+                            Affairs to the American Embassy in
+                            China
+                    </title>
+            </titleStmt>
+            <xi:include href="../../frus1943China_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1943China_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943China/d632"
+                    type="canonical"/>
+                <relatedItem target="d631.xml" type="prev"/>
+                <relatedItem target="d632-a1.xml" type="next"/>
+                <relatedItem target="../comp13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943China</bibl>
+                <bibl type="frus-division-id">d632</bibl>
+                <bibl type="frus-division-n">632</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="698" to="700" unit="page"
+                        >698–700</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Chungking</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-13">October 13, 1943</date>
+                    <date notAfter="1943-10-13T23:59:59-05:00" notBefore="1943-10-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d632">
+
+                <pb facs="0708" n="698" sameAs="frus:frus1943China/pg698"/>
+
+                <note rend="inline" type="source">811.203/358</note>
+                <head>
+                    <hi rendition="#italic">The Chinese Ministry for Foreign
+                            Affairs to the American Embassy in
+                            China
+                    </hi><anchor n="11" xml:id="d632-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Translation]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Chungking</hi></placeName>, <date calendar="gregorian"
+                            when="1943-10-13">October 13, 1943</date>.]</dateline>
+                </opener>
+                <p>The Ministry of Foreign Affairs presents its compliments to the American Embassy
+                    and has the honor to state that in the matter of exercising exclusive
+                    jurisdiction by the service courts and the authorities of the military and naval
+                    forces of the United States over criminal offenses committed by members of the
+                    armed forces of the United States in China, the Ministry has received from the
+                    Executive Yuan a copy of the Regulations Governing the Handling of Criminal
+                    Offenses Committed by Members of the Armed Forces of the United States in
+                    China.</p>
+                <p>The Ministry has the honor to enclose, for the Embassy’s information, a copy
+                    thereof.</p>
+                <closer>(<hi rendition="#small-caps">stamped</hi>) <hi rendition="#small-caps"
+                        >Ministry of Foreign Affairs<lb/>of the Republic of China</hi>
+                </closer>
+
+
+
+                <xi:include href="d632-a1.xml" xpointer="d632-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d632-f1" n="11" type="source" xml:id="d632-f1-content">
+                <p>Copy transmitted to the Department by the Ambassador in China in his despatch No.
+                    1788, November 8; received November 27.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

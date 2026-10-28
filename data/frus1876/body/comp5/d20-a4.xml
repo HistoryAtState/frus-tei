@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1876_d20-a4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Table of the quantity of wine for chiefs and officers
+                        to which free dispatch is granted and of which the opinion of the ministry
+                        of foreign affairs of this date treats.</title>
+            </titleStmt>
+            <xi:include href="../../frus1876_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1876_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1876/d20-a4"
+                    type="canonical"/>
+                <relatedItem target="d20-a3.xml" type="prev"/>
+                <relatedItem target="d20-a5.xml" type="next"/>
+                <relatedItem target="d20.xml" type="parent"/>
+                <relatedItem target="d20.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1876</bibl>
+                <bibl type="frus-division-id">d20-a4</bibl>
+                <bibl type="frus-division-n">20.4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="24" to="24" unit="page"
+                        >24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20-a4">
+
+                <pb facs="0080" n="24" sameAs="frus:frus1876/pg24"/>
+
+                <opener><seg rendition="#center">[Inclosure 1 in inclosure 3 in No.
+                    297.]</seg></opener>
+                <head><hi rendition="#italic">Table of the quantity of wine for chiefs and officers
+                        to which free dispatch is granted and of which the opinion of the ministry
+                        of foreign affairs of this date treats.</hi></head>
+                <table cols="2" rows="4">
+                    <row>
+                        <cell/>
+                        <cell>Litres.</cell>
+                    </row>
+                    <row>
+                        <cell>To the chief of naval station</cell>
+                        <cell role="num">2,000</cell>
+                    </row>
+                    <row>
+                        <cell>To the captain and other officers to the post of lieutenant</cell>
+                        <cell role="num">1,000</cell>
+                    </row>
+                    <row>
+                        <cell>To the lieutenants and other officers</cell>
+                        <cell role="num">500</cell>
+                    </row>
+                </table>
+                <closer>
+                    <dateline rendition="#float-left"><hi rendition="#small-caps">Treasury
+                            Department</hi>, <date calendar="gregorian" when="1875-10-30"><hi
+                                rendition="#italic">October</hi> 30, 1875</date></dateline>
+                    <lb/>
+                    <signed>JOSÉ SEVERIANO DA ROCHA.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

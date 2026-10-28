@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d1600-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914/d1600-a1"
+                    type="canonical"/>
+                <relatedItem target="d1600.xml" type="prev"/>
+                <relatedItem target="d1601.xml" type="next"/>
+                <relatedItem target="d1600.xml" type="parent"/>
+                <relatedItem target="d1600.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d1600-a1</bibl>
+                <bibl type="frus-division-n">1600.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="895" to="895" unit="page"
+                        >895</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Constitutionalist Army, <lb/> Division of the
+                            North</hi></placeName>
+                    <date/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1600-a1">
+
+                <pb facs="1011" n="895" sameAs="frus:frus1914/pg895"/>
+
+                <opener>
+                    <seg rendition="#center">[Inclosure—Translation.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Constitutionalist Army, <lb/> Division of
+                                the North</hi></placeName>.</dateline>
+                </opener>
+                <p>Col. Miguel Hernandez, in a telephone message to-day tells me: <quote
+                        rend="blockquote">
+                        <p>General Francisco Villa orders me: Inform the ranches “Encarnacion,”
+                            “Tayanua,” “Salto,” “Santiago “and any others along that route which are
+                            confiscated, that from this moment they are absolutely prohibited from
+                            taking away corn, stock, or anything, even though they may have an order
+                            of the Department of Agriculture, until a new order has been given.
+                            Please convey as quickly as possible this order to the managers of these
+                            properties. This I communicate to you for your information and due
+                            performance.</p>
+                    </quote>
+                </p>
+                <closer>
+                    <dateline rendition="#float-left">
+                        <placeName>
+                            <hi rendition="#small-caps">Villanueva</hi>
+                        </placeName>, <date calendar="gregorian" when="1914-10-13">
+                            <hi rendition="#italic">October 13, 1914</hi>
+                        </date>.</dateline>
+                    <lb/> First Captain, Chief of Arms, <lb/>
+                    <signed>
+                        <hi rendition="#small-caps">R. S. Garay</hi></signed>. <lb/>
+                    <dateline rendition="#float-left">
+                        <hi rendition="#small-caps">German Embassy</hi>, <lb/>
+                        <placeName>
+                            <hi rendition="#italic">Washington</hi>
+                        </placeName>, <date calendar="gregorian" when="1914-11-07"><hi
+                                rendition="#italic">November 7, 1914</hi></date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

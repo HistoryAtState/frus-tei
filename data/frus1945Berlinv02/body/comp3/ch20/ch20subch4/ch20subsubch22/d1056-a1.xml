@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d1056-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aide-Mémoire</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d1056-a1"
+                    type="canonical"/>
+                <relatedItem target="d1056.xml" type="prev"/>
+                <relatedItem target="d1057.xml" type="next"/>
+                <relatedItem target="d1056.xml" type="parent"/>
+                <relatedItem target="d1056.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d1056-a1</bibl>
+                <bibl type="frus-division-n">1056.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1037" to="1037" unit="page"
+                        >1037</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/terms">
+                    <term ref="frus:frus1945Berlinv02/terms#t_Stat1">Stat</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1056-a1">
+
+                <pb facs="1233" n="1037" sameAs="frus:frus1945Berlinv02/pg1037"/>
+
+                <opener>
+                    <seg rendition="#center">[Enclosure—Translation]</seg>
+                </opener>
+                <head><hi rendition="#small-caps">Aide-Mémoire</hi></head>
+                <p>The Soviet Government has received information that with relation to German
+                    troops on Norwegian territory, the unconditional surrender regime provided for
+                    in the military capitulation of Germany, signed in Berlin on May 8, 1945<anchor
+                        n="1" xml:id="d1056-f1"/> is not being applied in full. It is stated that
+                    the German troops located in the region between the cities of Mo and Trondheim,
+                    amounting to 260,000 men, and in the region of Tromsö, 140,000 men, are holding
+                    on to their arms and military “technique” (this probably means light military
+                        equipment).<anchor n="2" xml:id="d1056-f2"/> The personnel of these troops
+                    have not been interned and they have full freedom of movement. The Soviet
+                    Government considers it necessary to draw to the attention of the Government of
+                    the United States of America and the British Government this information, since
+                    the Supreme Allied Control with respect to the surrendered troops on Norwegian
+                    territory is effected by the Allied Command.</p>
+                <closer><dateline rendition="#float-left">[<placeName><hi rendition="#small-caps"
+                                >Babelsberg</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-07-25">July 25, 1945</date>.</dateline></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1056-f1" n="1" xml:id="d1056-f1-content">
+                <p>Executive Agreement Series No. 502; 59 Stat. (2)
+                    1857.</p>
+            </note>
+            <note corresp="#d1056-f2" n="2" xml:id="d1056-f2-content">
+                <p>The words in parentheses are apparently a note by the translator.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

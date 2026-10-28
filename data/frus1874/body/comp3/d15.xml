@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1874_d15" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 13.</title>
+                <title type="subtitle">Mr. Fish to Mr. Jay.</title>
+            </titleStmt>
+            <xi:include href="../../frus1874_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1874_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1874/d15"
+                    type="canonical"/>
+                <relatedItem target="d14.xml" type="prev"/>
+                <relatedItem target="d15-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1874</bibl>
+                <bibl type="frus-division-id">d15</bibl>
+                <bibl type="frus-division-n">15</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="23" to="24" unit="page"
+                        >23–24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1874-04-29"><hi rendition="#italic">April</hi>
+                        29, 1874</date>
+                    <date notAfter="1874-04-29T23:59:59-05:00" notBefore="1874-04-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d15">
+
+                <pb facs="0119" n="23" sameAs="frus:frus1874/pg23"/>
+
+                <head>No. 13.<lb/><hi rendition="#italic">Mr. Fish
+                        to Mr. Jay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1874-04-29"><hi rendition="#italic">April</hi> 29,
+                        1874</date>.</dateline>
+                    <seg rendition="#float-left">No. 404.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose herewith a copy of a letter of
+                    the 27th instant, from Judge Wm. T. Otto, arbitrator on the part of the United
+                    States before the American and Spanish Claims Commission, and of its
+                    accompanying letter addressed by Baron Lederer to the arbitrators of the two
+                    governments, resigning the position of umpire to the said commission.</p>
+                <p>You are requested to express the regret with which the President learns of the
+                    retirement of Baron Lederer from duties for which he has shown such
+                    qualification, and the sense of the President of the ability and learning with
+                    which the baron has devoted himself to their performance,</p>
+                <p>You will also request the minister for foreign affairs to be pleased to convey to
+                    Baron Lederer the thanks of the President for the valuable services rendered by
+                    him in the interest of the two governments represented in the commission.</p>
+                <p>I am, &amp;c.,</p>
+                <closer><signed>HAMILTON FISH.</signed></closer>
+
+
+
+
+                <xi:include href="d15-a1.xml" xpointer="d15-a1"/>
+                <xi:include href="d15-a2.xml" xpointer="d15-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

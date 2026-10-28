@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d14"
+                    type="canonical"/>
+                <relatedItem target="d13.xml" type="prev"/>
+                <relatedItem target="../../comp4.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="8" to="8" unit="page"
+                    >8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Buenos Aires</hi></placeName>
+                    <date calendar="gregorian" when="1917-07-31T16:00:00-04:16">
+                        <hi rendition="#italic">July 31, 1917, 4 p.m.</hi>
+                    </date>
+                    <date notAfter="1917-07-31T15:16:00-05:00" notBefore="1917-07-31T15:16:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d14">
+
+                <pb facs="0174" n="8" sameAs="frus:frus1917/pg8"/>
+
+                <note rend="inline" type="source">File No. 811.3335/33</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Buenos Aires</hi></placeName>, <date
+                            calendar="gregorian" when="1917-07-31T16:00:00-04:16">
+                            <hi rendition="#italic">July 31, 1917, 4 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Ships sailed this morning. Admiral and I waited to make parting call on President
+                    who expressed best wishes for good fortune of the squadron. Admiral has left to
+                    rejoin fleet on Argentine cruiser.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Stimson</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

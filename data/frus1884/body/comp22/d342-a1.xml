@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1884_d342-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>royal order.</title>
+            </titleStmt>
+            <xi:include href="../../frus1884_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1884_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1884/d342-a1"
+                    type="canonical"/>
+                <relatedItem target="d342.xml" type="prev"/>
+                <relatedItem target="d342-a1-a1.xml" type="next"/>
+                <relatedItem target="d342.xml" type="parent"/>
+                <relatedItem target="d342.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1884</bibl>
+                <bibl type="frus-division-id">d342-a1</bibl>
+                <bibl type="frus-division-n">342.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="473" to="473" unit="page"
+                        >473</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d342-a1">
+
+                <pb facs="0573" n="473" sameAs="frus:frus1884/pg473"/>
+
+                <opener><seg rendition="#center">[Inclosure in No. 142.—Translation.]</seg></opener>
+                <head><hi rendition="#small-caps">royal order.</hi></head>
+                <p>In accordance with the judgment of my council of ministers, I have ordered my
+                    Minister of State to present to the Cortes a project of law asking the necessary
+                    authorization for the ratification of the commercial agreement between Spain and
+                    the United States of America, signed at Madrid on the 2d instant.</p>
+                <closer>
+                    <dateline rendition="#float-left">Given at <placeName>Madrid</placeName>
+                        <date calendar="gregorian" when="1884-01-10">the tenth of January, one
+                            thousand eight hundred and eighty-four</date>.</dateline>
+                    <lb/>
+                    <signed>ALFONSO.</signed></closer>
+                <postscript>
+                    <p>The Minister of State,<lb/><hi rendition="#small-caps">Servando Ruiz
+                            Gomez.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d342-a1-a1.xml" xpointer="d342-a1-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

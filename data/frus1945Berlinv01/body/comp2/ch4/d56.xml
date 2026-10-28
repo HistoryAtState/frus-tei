@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d56" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 56</title>
+                <title type="subtitle">President Truman to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d56"
+                    type="canonical"/>
+                <relatedItem target="d55.xml" type="prev"/>
+                <relatedItem target="d57.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d56</bibl>
+                <bibl type="frus-division-n">56</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="95" to="95" unit="page"
+                        >95</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-06-11">11 June 1945</date>
+                    <date notAfter="1945-06-11T23:59:59-05:00" notBefore="1945-06-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_EGADD1">Eisenhower, General of the
+                        Army Dwight D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_MGAGC1">Marshall, General of the
+                        Army George C.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv01/terms">
+                    <term ref="frus:frus1945Berlinv01/terms#t_W1">W</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d56">
+
+                <pb facs="0227" n="95" sameAs="frus:frus1945Berlinv01/pg95"/>
+
+                <note rend="inline" type="source">
+                    Leahy Papers: Telegram</note>
+                <head>No. 56 <lb/>
+                    <hi rendition="#italic">President Truman to Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d56-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-06-11">11 June 1945</date>.</dateline>
+                </opener>
+                <p>67. Your 82.<anchor n="2" xml:id="d56-f2"/> I am in agreement and will instruct
+                        Eisenhower to make the necessary
+                    arrangements to accomplish your expressed desires.<anchor n="3" xml:id="d56-f3"
+                    />
+                </p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d56-f1" n="1" type="source" xml:id="d56-f1-content">
+                <p>Presumably sent to the United States Naval Attaché, London, via Navy
+                    channels.</p>
+            </note>
+            <note corresp="#d56-f2" n="2" xml:id="d56-f2-content">
+                <p>
+                    <ref target="#d55">document No. 55</ref>.</p>
+            </note>
+            <note corresp="#d56-f3" n="3" xml:id="d56-f3-content">
+                <p>On June 12, in telegram No. W–15519, General of the
+                    Army George C. Marshall sent to
+                        Eisenhower the text of the final
+                    paragraph of <ref target="#d55">document No. 55</ref>, prefaced with the
+                    following instruction (Department of the Army Files): <quote rend="blockquote">
+                        <p>“The <hi rendition="#small-caps">President</hi> directs that you make
+                            necessary advance arrangements to accomplish the desires expressed in
+                            the following quoted message from 
+                                <hi rendition="#small-caps">Churchill</hi>
+                             with which he is in agreement.”</p>
+                    </quote>
+                </p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d82" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Wilson to Mr.
+                            Flay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d82"
+                    type="canonical"/>
+                <relatedItem target="../ch27.xml" type="prev"/>
+                <relatedItem target="d82-a1.xml" type="next"/>
+                <relatedItem target="../ch27.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d82</bibl>
+                <bibl type="frus-division-n">82</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="115" to="116" unit="page"
+                        >115–16</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Santiago</hi></placeName>
+                    <date calendar="gregorian" when="1904-06-15"><hi rendition="#italic">June 15,
+                            1904</hi></date>
+                    <date notAfter="1904-06-15T23:59:59-05:00" notBefore="1904-06-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d82">
+
+                <pb facs="0203" n="115" sameAs="frus:frus1904/pg115"/>
+
+                <head><hi rendition="#italic">Mr. Wilson to Mr.
+                            Flay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                            >Santiago</hi></placeName>, <date calendar="gregorian" when="1904-06-15"
+                                ><hi rendition="#italic">June 15, 1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 364.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to report that upon June 1
+                    the President of the Republic formally opened the regular session of Congress,
+                    and read upon the occasion the message which is inclosed herewith, in the
+                    original text, a summary in English text accompanying.</p>
+                <p>The message is noteworthy only in that it depicts very clearly the improved
+                    financial condition of the country.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Henry Lane
+                    Wilson.</hi></signed></closer>
+
+
+                <xi:include href="d82-a1.xml" xpointer="d82-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

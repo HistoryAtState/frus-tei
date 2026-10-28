@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v25_toc" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Contents</title>
+            </titleStmt>
+            <xi:include href="../frus1964-68v25_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1964-68v25_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v25/toc"
+                    type="canonical"/>
+                <relatedItem target="subseriesvols.xml" type="prev"/>
+                <relatedItem target="sources.xml" type="next"/>
+                <relatedItem target="../frus1964-68v25.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v25</bibl>
+                <bibl type="frus-division-id">toc</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">table-of-contents</bibl>
+                <bibl type="frus-print-pages"><biblScope from="XIII" to="XIII" unit="page"
+                        >XIII</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1968-11-22T20:56:00-05:00" notBefore="1964-01-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="toc">
+
+                <pb facs="0013" n="XIII" xml:id="pgXIII"/>
+
+                <head>Contents</head>
+                <list type="toc">
+                    <item>
+                        <ref target="#pgIII">Preface</ref>
+                    </item>
+                    <item>
+                        <ref target="#pgXI">Johnson Administration Volumes</ref>
+                    </item>
+                    <item>
+                        <ref target="#pgXV">Sources</ref>
+                    </item>
+                    <item>
+                        <ref target="#pgXXVII">Abbreviations</ref>
+                    </item>
+                    <item>
+                        <ref target="#pgXXXIII">Persons</ref>
+                    </item>
+                    <item>South Asia <list>
+                            <item>
+                                <ref target="#pg1">India and Pakistan</ref>
+                            </item>
+                            <item>
+                                <ref target="#pg1045">Afghanistan</ref>
+                            </item>
+                        </list>
+                    </item>
+                    <item>
+                        <ref target="#pg1087">Index</ref>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

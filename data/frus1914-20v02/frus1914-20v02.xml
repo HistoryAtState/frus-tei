@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914-20v02" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1914-20v02_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1914-20v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1914-20v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914-20v02"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1914-20v02" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1914-20v02/covers/frus1914-20v02.jpg"/>
+                        <extent>
+                            <measure quantity="31535" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:50:44.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1914-20v02" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1914-20v02/ebook/frus1914-20v02.epub"/>
+                        <extent>
+                            <measure quantity="941416" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:50:44.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1914-20v02" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1914-20v02/ebook/frus1914-20v02.mobi"/>
+                        <extent>
+                            <measure quantity="1261095" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:50:44.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1940 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">wilson</term>
+                    <term xml:id="admin3">harding</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>world-war-i</term>
+                    <term>russia</term>
+                    <term>armistices</term>
+                    <term>austria</term>
+                    <term>hungary</term>
+                    <term>brazil</term>
+                    <term>bulgaria</term>
+                    <term>china</term>
+                    <term>colombia</term>
+                    <term>costa-rica</term>
+                    <term>germany</term>
+                    <term>united-kingdom</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>league-of-nations</term>
+                    <term>mexico</term>
+                    <term>norway</term>
+                    <term>neutrality</term>
+                    <term>peace</term>
+                    <term>poland</term>
+                    <term>sweden</term>
+                    <term>turkey</term>
+                    <term>uruguay</term>
+                    <term>wilson-woodrow</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1914-20v02" status="published" when="1940"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Papers Relating to the Foreign Relations of the United
+                        States</titlePart>
+                    <titlePart type="subseries">THE LANSING PAPERS, 1914–1920</titlePart>
+                    <titlePart type="volumeno">(In Two Volumes), Volume II</titlePart>
+                    <titlePart type="volumetitle"/>
+                </docTitle>
+                <docImprint>U. S. GOVERNMENT PRINTING OFFICE<lb/>WASHINGTON</docImprint>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1940</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE <lb/>
+                    <hi rendition="#small-caps">Publication</hi> 1421 For sale by
+                    the<lb/>Superintendent of Documents, Washington, D. C.<lb/>Price $1.25
+                    (cloth)</docImprint>
+            </titlePage>
+            <xi:include href="front/contents.xml" xpointer="contents"/>
+            <pb facs="0008" n="[IV]" xml:id="pgIV"/>
+            <xi:include href="front/toc-papers.xml" xpointer="toc-papers"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d30" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d30"
+                    type="canonical"/>
+                <relatedItem target="d29.xml" type="prev"/>
+                <relatedItem target="d31.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d30</bibl>
+                <bibl type="frus-division-n">30</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="21" to="21" unit="page"
+                        >21</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-12-23">23 December 1944</date>
+                    <date notAfter="1944-12-23T23:59:59-05:00" notBefore="1944-12-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_HWA1">Harriman, W. Averell</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d30">
+
+                <pb facs="0103" n="21" xml:id="pg21"/>
+
+                <note rend="inline" type="source">Roosevelt Papera: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d30-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-12-23">23 December 1944</date>.</dateline>
+                </opener>
+                <p>Number 676, Personal and Top Secret, from the President for the Prime
+                    Minister.</p>
+                <p>I am today sending to Harriman the
+                    following message in regard to our projected three party meeting with U. J.</p>
+                <p>Please let me have your opinion as to the possibilities of this plan from your
+                    point of view.</p>
+                <quote rend="blockquote">
+                    <p>“If Stalin cannot manage to meet us in
+                        the Mediterranean I am prepared to go to the Crimea and have the meeting at
+                        Yalta which appears to be the best place available in the Black Sea having
+                        the best accommodations ashore and the most promising flying conditions.</p>
+                    <p>We would arrive by plane from some Mediterranean port and would send in
+                        advance a naval vessel to Sevastopol to provide necessary service and living
+                        accommodations if it should be necessary for me to live on board ship.</p>
+                    <p>I would plan to leave America very soon after the inauguration on a naval
+                        vessel. You will be informed later of a date of arrival that will be
+                        satisfactory to Churchill and to me.
+                        My party will be numerically equal to that which was present at Teheran,
+                        about 35 total.</p>
+                    <p>I still hope the military situation will permit Marshal Stalin to meet us half way.”</p>
+                </quote>
+                <closer>
+                    <signed>
+                        
+                            <hi rendition="#small-caps">Roosevelt</hi>
+                        
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d30-f1" n="1" type="source" xml:id="d30-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

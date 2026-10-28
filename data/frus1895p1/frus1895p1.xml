@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1895p1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1895p1_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1895p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1895p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1895p1"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1895p1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1895p1/covers/frus1895p1.jpg"/>
+                        <extent>
+                            <measure quantity="45552" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:41:53.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1895p1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1895p1/ebook/frus1895p1.epub"/>
+                        <extent>
+                            <measure quantity="1581751" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2021-09-03T12:13:17.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1895p1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1895p1/ebook/frus1895p1.mobi"/>
+                        <extent>
+                            <measure quantity="2004006" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2021-09-03T12:13:29.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1896 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">cleveland-24</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>argentina</term>
+                    <term>asylum</term>
+                    <term>austria</term>
+                    <term>belgium</term>
+                    <term>border-administration</term>
+                    <term>brazil</term>
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>cleveland-grover-1893-1897</term>
+                    <term>colombia</term>
+                    <term>congo-brazzaville</term>
+                    <term>costa-rica</term>
+                    <term>denmark</term>
+                    <term>dominican-republic</term>
+                    <term>ecuador</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>fiji</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>hungary</term>
+                    <term>immigration</term>
+                    <term>japan</term>
+                    <term>law-of-the-sea</term>
+                    <term>neutrality</term>
+                    <term>nicaragua</term>
+                    <term>olney-richard</term>
+                    <term>portugal</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>quarantine-blockade</term>
+                    <term>russia</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>trinidad-and-tobago</term>
+                    <term>tunisia</term>
+                    <term>united-kingdom</term>
+                    <term>venezuela</term>
+                    <term>guadeloupe</term>
+                    <term>reunion</term>
+                    <term>gresham-walter-quintin</term>
+                    <term>mauritius</term>
+                    <term>grenada</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1895p1" status="published" when="1896"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0007" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0007"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">PAPERS RELATING TO THE FOREIGN RELATIONS OF THE UNITED
+                        STATES</titlePart>
+                    <titlePart type="subseries">WITH THE ANNUAL MESSAGE OF THE PRESIDENT,
+                        TRANSMITTED TO CONGRESS DECEMBER 2, 1895</titlePart>
+                    <titlePart type="volumeno">Part I</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <pubPlace>WASHINGTON</pubPlace>
+                    <lb/>
+                    <publisher>GOVERNMENT PRINTING OFFICE.</publisher>
+                    <docDate>1896</docDate>
+                </docImprint>
+            </titlePage>
+            <pb facs="0008" n="[II]" xml:id="pgII"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0026" n="[XX]" xml:id="pgXX"/>
+            <xi:include href="front/message-of-the-president.xml"
+                xpointer="message-of-the-president"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+            <xi:include href="body/comp12.xml" xpointer="comp12"/>
+            <xi:include href="body/comp13.xml" xpointer="comp13"/>
+            <xi:include href="body/comp14.xml" xpointer="comp14"/>
+        </body>
+    </text>
+</TEI>

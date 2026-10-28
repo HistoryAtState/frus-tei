@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p4_d859" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Spanish Senate</title>
+            </titleStmt>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p4/d859"
+                    type="canonical"/>
+                <relatedItem target="d858.xml" type="prev"/>
+                <relatedItem target="d860.xml" type="next"/>
+                <relatedItem target="../ch33.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p4</bibl>
+                <bibl type="frus-division-id">d859</bibl>
+                <bibl type="frus-division-n">859</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="531" to="532" unit="page"
+                        >531–32</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1865-05-03T23:59:59-05:00" notBefore="1865-05-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d859">
+
+                <pb facs="0603" n="531" sameAs="frus:frus1865p4/pg531"/>
+
+                <head>Spanish Senate</head>
+                <note rend="inline" rendition="#center" type="source">[Translation.]</note>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">presidency of the cabinet of
+                    ministers—senate</hi>.</p>
+                <p rendition="#flush">
+                    <hi rendition="#italic">To the President of the Cabinet of Ministers:</hi>
+                </p>
+                <p>
+                    <hi rendition="#small-caps">Excellency</hi>: The Senate in session of to-day has
+                    unanimously declared that it associates itself to the profound grief produced in
+                    the United States by <pb facs="0604" n="532" xml:id="pg532"/> the horrible crime
+                    committed on the person of their worthy President, Abraham Lincoln.</p>
+                <closer>
+                    <dateline rendition="#float-left">God guard your excellency many years.
+                            <placeName type="venue">Palace of the Senate</placeName>, <date
+                            calendar="gregorian" when="1865-05-03">May 3, 1865</date>.</dateline>
+                    <signed>
+                        <list>
+                            <item>JUAN DE SEVILLE, <lb/>
+                                <hi rendition="#italic">Senator Secretary</hi>.</item>
+                            <item>HILARION DEL REY, <lb/>
+                                <hi rendition="#italic">Senator Secretary</hi>.</item>
+                        </list>
+                    </signed> It is a true copy: <signed>VALENCIA.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

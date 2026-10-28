@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d15" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Lee to Mr.
+                            Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d15"
+                    type="canonical"/>
+                <relatedItem target="d14-a1.xml" type="prev"/>
+                <relatedItem target="d15-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d15</bibl>
+                <bibl type="frus-division-n">15</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="22" to="23" unit="page"
+                        >22–23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Rio de Janeiro</hi></placeName>
+                    <date calendar="gregorian" when="1890-04-02"><hi rendition="#italic">April</hi>
+                        2, 1890</date>
+                    <date notAfter="1890-04-02T23:59:59-05:00" notBefore="1890-04-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d15">
+
+                <pb facs="0126" n="22" xml:id="pg22"/>
+
+                <head><hi rendition="#italic">Mr. Lee to Mr.
+                            Blaine</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic">Rio
+                                de Janeiro</hi></placeName>, <date calendar="gregorian"
+                            when="1890-04-02"><hi rendition="#italic">April</hi> 2, 1890</date>.
+                        (Received April 28.)</dateline>
+                    <seg rendition="#float-left">No. 56.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to report that I was
+                    received yesterday (April 1) by the President for the purpose of presenting the
+                    joint resolution of Congress congratulating the people of Brazil on their
+                    assumption of the powers, duties, and responsibilities of self-government.</p>
+                <p>I inclose a copy of my speech and of the President’s reply to the remarks made by
+                    me on that occasion; also a translation thereof and notice in O Paiz with
+                    translation.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">J. Fenner Lee.</hi></signed></closer>
+
+
+
+
+
+                <xi:include href="d15-a1.xml" xpointer="d15-a1"/>
+                <xi:include href="d15-a2.xml" xpointer="d15-a2"/>
+                <xi:include href="d15-a3.xml" xpointer="d15-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d381" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr.
+                            Thieriot.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d381"
+                    type="canonical"/>
+                <relatedItem target="d380-a1.xml" type="prev"/>
+                <relatedItem target="d381-a1.xml" type="next"/>
+                <relatedItem target="../ch136.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d381</bibl>
+                <bibl type="frus-division-n">381</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="436" to="437" unit="page"
+                        >436–37</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-12-21"><hi rendition="#italic">December
+                            21, 1900</hi>.</date>
+                    <date notAfter="1900-12-21T23:59:59-05:00" notBefore="1900-12-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d381">
+
+                <pb facs="0516" n="436" sameAs="frus:frus1901/pg436"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr.
+                            Thieriot.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-12-21"><hi rendition="#italic">December 21,
+                        1900</hi>.</date></dateline>
+                    <seg rendition="#float-left">No. 30.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to the Department’s instruction
+                    of yesterday’s date, I inclose copy of a later letter from the J. C. Ayer
+                    Company relative to the “exclusion of their medicines from Portugal.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+
+                <xi:include href="d381-a1.xml" xpointer="d381-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

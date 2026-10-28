@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1896_d83" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Tillman to Mr.
+                            Olney.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1896_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1896_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1896/d83"
+                    type="canonical"/>
+                <relatedItem target="d82-a1.xml" type="prev"/>
+                <relatedItem target="d83-a1.xml" type="next"/>
+                <relatedItem target="../ch25.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1896</bibl>
+                <bibl type="frus-division-id">d83</bibl>
+                <bibl type="frus-division-n">83</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="109" to="110" unit="page"
+                        >109–10</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                        States</hi></placeName>
+                    <date calendar="gregorian" when="1896-10-13"><hi rendition="#italic">October 13,
+                            1896</hi></date>
+                    <date notAfter="1896-10-13T23:59:59-05:00" notBefore="1896-10-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d83">
+
+                <pb facs="0203" n="109" sameAs="frus:frus1896/pg109"/>
+
+                <head><hi rendition="#italic">Mr. Tillman to Mr.
+                            Olney.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi></placeName>, <date
+                            calendar="gregorian" when="1896-10-13"><hi rendition="#italic">October
+                                13, 1896</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 90.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to hand you herewith copy
+                    of letter from Mr. St. John, arbitrator in the Santos matter, also copy of his
+                    award and translation of the same. I am not yet informed whether the Government
+                    of Ecuador is in receipt of copy of the award.</p>
+                <p>I have, etc.;</p>
+                <closer><signed><hi rendition="#small-caps">James D. Tillman.</hi></signed></closer>
+
+
+
+                <xi:include href="d83-a1.xml" xpointer="d83-a1"/>
+                <xi:include href="d83-a2.xml" xpointer="d83-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

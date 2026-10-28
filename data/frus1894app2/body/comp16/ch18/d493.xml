@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894app2_d493" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1894app2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1894app2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1894app2/d493"
+                    type="canonical"/>
+                <relatedItem target="../ch18.xml" type="prev"/>
+                <relatedItem target="d493-a1.xml" type="next"/>
+                <relatedItem target="../ch18.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1894app2</bibl>
+                <bibl type="frus-division-id">d493</bibl>
+                <bibl type="frus-division-n">493</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1313" to="1313" unit="page"
+                        >1313</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1894-04-21T23:59:59-05:00" notBefore="1894-04-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d493">
+
+                <pb facs="1319" n="1313" sameAs="frus:frus1894app2/pg1313"/>
+
+                <head>[Untitled]</head>
+                <p rendition="#center"><hi rendition="#small-caps">April</hi> 21, 1894.—Read,
+                    referred to the Committee on Foreign Relations, and ordered to be printed.</p>
+                <p rendition="#flush"><hi rendition="#italic">To the Congress:</hi></p>
+                <p>I transmit herewith a communication from the Secretary of State covering a
+                    dispatch from the U. S. minister at Honolulu, and reply thereto.</p>
+                <closer><signed><hi rendition="#small-caps">Grover Cleveland.</hi></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><hi rendition="#small-caps">Executive
+                            Mansion</hi>,<lb/><placeName><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1894-04-21"><hi rendition="#italic">April 21,
+                        1894</hi></date>.</dateline>
+                </closer>
+
+
+                <xi:include href="d493-a1.xml" xpointer="d493-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

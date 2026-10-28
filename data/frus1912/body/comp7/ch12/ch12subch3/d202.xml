@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d202" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d202"
+                    type="canonical"/>
+                <relatedItem target="d201.xml" type="prev"/>
+                <relatedItem target="d203.xml" type="next"/>
+                <relatedItem target="../ch12subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d202</bibl>
+                <bibl type="frus-division-n">202</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="137" to="137" unit="page"
+                        >137</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1912-06-11">
+                        <hi rendition="#italic">June 11, 1912</hi></date>
+                    <date notAfter="1912-06-11T23:59:59-05:00" notBefore="1912-06-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d202">
+
+                <pb facs="0253" n="137" xml:id="pg137"/>
+
+                <note rend="inline" type="source">File No. 893.51/933.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1912-06-11">
+                            <hi rendition="#italic">June 11, 1912</hi></date>.</dateline>
+                </opener>
+                <p>Sir Edward Grey thinks it would be a mistake to move about the question of
+                    Mongolia and Manchuria until he hears from the Russian and Japanese
+                    Governments.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Reid.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

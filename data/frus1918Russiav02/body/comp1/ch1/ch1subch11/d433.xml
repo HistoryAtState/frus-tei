@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav02_d433" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Minister in Switzerland (Stovall) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav02/d433"
+                    type="canonical"/>
+                <relatedItem target="d432-a1.xml" type="prev"/>
+                <relatedItem target="d433-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav02</bibl>
+                <bibl type="frus-division-id">d433</bibl>
+                <bibl type="frus-division-n">433</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="358" to="359" unit="page"
+                        >358–59</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Berne</hi></placeName>
+                    <date calendar="gregorian" when="1918-08-27"><hi rendition="#italic">August 27,
+                            1918</hi></date>
+                    <date notAfter="1918-08-27T23:59:59-05:00" notBefore="1918-08-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav02/persons">
+                    <term ref="frus:frus1918Russiav02/persons#p_SPA1">Stovall, Pleasant A.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d433">
+
+                <pb facs="0448" n="358" sameAs="frus:frus1918Russiav02/pg358"/>
+
+                <note rend="inline" type="source">File No. 861.00/2675</note>
+                <head><hi rendition="#italic">The Minister in Switzerland</hi> (<hi rendition="#italic"
+                        >Stovall</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#float-left">No. 4278</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Berne</hi></placeName>, <date calendar="gregorian"
+                            when="1918-08-27"><hi rendition="#italic">August 27, 1918</hi></date>.
+                        <lb/> [<hi rendition="#italic">Received September 12.</hi>]</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to my cipher telegram No.
+                    4434 of August 22,<anchor n="1" xml:id="d433-f1"/> transmitting a <hi
+                        rendition="#italic">résumé</hi> of the despatches handed me by the
+                    representative <pb facs="0449" n="359" xml:id="pg359"/> of the Russian Soviet
+                    government in Switzerland, I have the honor to transmit herewith translations in
+                    full of these three despatches.<anchor n="1" xml:id="d433-f2"/></p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed><hi rendition="#small-caps">Pleasant A.
+                                Stovall</hi></signed>
+                </closer>
+
+
+                <xi:include href="d433-a1.xml" xpointer="d433-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d433-f1" n="1" xml:id="d433-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d433-f2" n="1" xml:id="d433-f2-content">
+                <p>Two enclosures, not printed, outlined conditions under which representatives and
+                    citizens of countries of the Entente might leave Russia. One was addressed to
+                    the Netherland Minister at Petrograd; the second bore no designation.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

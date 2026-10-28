@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v04_comp12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Yugoslavia</title>
+            </titleStmt>
+            <xi:include href="../frus1950v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1950v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1950v04/comp12"
+                    type="canonical"/>
+                <relatedItem target="comp11/ch23/d757.xml" type="prev"/>
+                <relatedItem target="comp12/ch24.xml" type="next"/>
+                <relatedItem target="../frus1950v04.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v04</bibl>
+                <bibl type="frus-division-id">comp12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1338" to="1515" unit="page"
+                        >1338–1515</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1950-12-29T18:00:00-05:00" notBefore="1949-01-24T20:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp12">
+
+                <pb facs="1354" n="1338" xml:id="pg1338"/>
+
+                <head>Yugoslavia</head>
+
+                <xi:include href="comp12/ch24.xml" xpointer="ch24"/>
+            </div>
+        </body>
+    </text>
+</TEI>

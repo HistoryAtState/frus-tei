@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1881_d12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 12.</title>
+                <title type="subtitle">Mr. Carrié to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1881_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1881_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1881/d12"
+                    type="canonical"/>
+                <relatedItem target="d11.xml" type="prev"/>
+                <relatedItem target="d12-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1881</bibl>
+                <bibl type="frus-division-id">d12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="16" to="17" unit="page"
+                        >16–17</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Argentine Legation</hi>,<lb/><hi
+                            rendition="#italic">New York</hi></placeName>
+                    <date calendar="gregorian" when="1881-11-28"><hi rendition="#italic"
+                            >November</hi> 28, 1881</date>
+                    <date notAfter="1881-11-28T23:59:59-05:00" notBefore="1881-11-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d12">
+
+                <pb facs="0140" n="16" sameAs="frus:frus1881/pg16"/>
+
+                <head>No. 12.<lb/><hi rendition="#italic">Mr. Carrié to Mr. Blaine</hi>.</head>
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Argentine Legation</hi>,<lb/><hi rendition="#italic">New
+                            York</hi></placeName>, <date calendar="gregorian" when="1881-11-28"><hi
+                                rendition="#italic">November</hi> 28, 1881</date>. (Received
+                        November 29.)</dateline></opener>
+                <p><hi rendition="#small-caps">Mr. Secretary of State</hi>: I have the honor
+                    herewith to inclose a communication which this legation has just received from
+                    the ministry of foreign relations of the Argentine Republic, addressed to your
+                    excellency, and which my government instructs me to transmit to you.</p>
+                <p>In so doing I take pleasure in reiterating to your excellency the assurance,
+                    &amp;c.,</p>
+                <closer><signed>JULIO CARRIÉ.</signed></closer>
+
+
+
+                <xi:include href="d12-a1.xml" xpointer="d12-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

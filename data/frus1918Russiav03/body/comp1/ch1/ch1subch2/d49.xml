@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav03_d49" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Russia (Francis) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav03/d49"
+                    type="canonical"/>
+                <relatedItem target="d48.xml" type="prev"/>
+                <relatedItem target="d49-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav03</bibl>
+                <bibl type="frus-division-id">d49</bibl>
+                <bibl type="frus-division-n">49</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="32" to="33" unit="page"
+                        >32–33</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Petrograd</hi></placeName>
+                    <date calendar="gregorian" when="1918-02-12"><hi rendition="#italic">February
+                            12, 1918</hi></date>
+                    <date notAfter="1918-02-12T23:59:59-05:00" notBefore="1918-02-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav03/persons">
+                    <term ref="frus:frus1918Russiav03/persons#p_FDR1">Francis, David R.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d49">
+
+                <pb facs="0082" n="32" sameAs="frus:frus1918Russiav03/pg32"/>
+
+                <note rend="inline" type="source">File No. 861.51/295</note>
+                <head><hi rendition="#italic">The Ambassador in Russia</hi> (<hi rendition="#italic"
+                        >Francis</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#float-left">No. 1027</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Petrograd</hi></placeName>, <date calendar="gregorian"
+                            when="1918-02-12"><hi rendition="#italic">February 12, 1918</hi></date>.
+                        <lb/> [<hi rendition="#italic">Received April 8.</hi>]</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith
+                    enclosed a translation of a decree regarding the annulment of state loans
+                    adopted by the [All-]Russian Central Executive Committee at its session on
+                    January 21/February 3, 1918, and published in the bulletin of the Soviets of
+                    January 26/February 8, 1918.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed><hi rendition="#small-caps">David R.
+                                Francis</hi></signed>
+                </closer>
+
+
+                <xi:include href="d49-a1.xml" xpointer="d49-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

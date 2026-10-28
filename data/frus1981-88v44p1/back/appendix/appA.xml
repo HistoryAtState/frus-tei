@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v44p1_appA" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Notes of a Meeting</title>
+            </titleStmt>
+            <xi:include href="../../frus1981-88v44p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1981-88v44p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v44p1/appA"
+                    type="canonical"/>
+                <relatedItem target="../appendix.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../appendix.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v44p1</bibl>
+                <bibl type="frus-division-id">appA</bibl>
+                <bibl type="frus-division-n">A</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1072" to="1077" unit="page"
+                        >1072–77</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1986-11-07">November 7, 1986</date>
+                    <date notAfter="1986-11-07T23:59:59-05:00" notBefore="1986-11-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1981-88v44p1/persons">
+                    <term ref="frus:frus1981-88v44p1/persons#p_KAGA_1">Keel, Alton G., Jr.
+                        (Al)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="appA">
+
+                <pb facs="1103" n="1072" sameAs="frus:frus1981-88v44p1/pg1072"/>
+
+                <head>A. Notes of a Meeting<anchor n="1" xml:id="appA-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1986-11-07">November 7, 1986</date>
+                    </dateline>
+                </opener>
+                <figure xml:id="fig01">
+                    <graphic url="fig01"/>
+                </figure>
+                <pb facs="1104" n="1073" xml:id="pg1073"/>
+                <figure xml:id="fig02">
+                    <graphic url="fig02"/>
+                </figure>
+                <pb facs="1105" n="1074" xml:id="pg1074"/>
+                <figure xml:id="fig03">
+                    <graphic url="fig03"/>
+                </figure>
+                <pb facs="1106" n="1075" xml:id="pg1075"/>
+                <figure xml:id="fig04">
+                    <graphic url="fig04"/>
+                </figure>
+                <pb facs="1107" n="1076" xml:id="pg1076"/>
+                <figure xml:id="fig05">
+                    <graphic url="fig05"/>
+                </figure>
+                <pb facs="1108" n="1077" xml:id="pg1077"/>
+                <figure xml:id="fig06">
+                    <graphic url="fig06"/>
+                </figure>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#appA-f1" n="1" type="source" xml:id="appA-f1-content">
+                <p>Source: Reagan Library, Alton Keel
+                    Files, Subject File, Ballistic Missile Defense. No classification marking.
+                    Drafted by Keel, who handwrote the
+                    notes. For the transcribed text of these notes and excision statements, see <ref
+                        target="#d155">Document 155</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

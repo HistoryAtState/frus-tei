@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Russia_d78" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Russian Ambassador to the United States
+                        (Bakhmeteff) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Russia_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Russia_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Russia/d78"
+                    type="canonical"/>
+                <relatedItem target="d77.xml" type="prev"/>
+                <relatedItem target="d78-a1.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Russia</bibl>
+                <bibl type="frus-division-id">d78</bibl>
+                <bibl type="frus-division-n">78</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="109" to="110" unit="page"
+                        >109–10</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Paris</hi></placeName>
+                    <date calendar="gregorian" when="1919-05-07"><hi rendition="#italic">May 7,
+                            1919</hi></date>
+                    <date notAfter="1919-05-07T23:59:59-05:00" notBefore="1919-05-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1919Russia/persons">
+                    <term ref="frus:frus1919Russia/persons#p_BBA1">Bakhmeteff, Boris A.</term>
+                    <term ref="frus:frus1919Russia/persons#p_NF1">Nansen, Fridtjof</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d78">
+
+                <pb facs="0221" n="109" sameAs="frus:frus1919Russia/pg109"/>
+
+                <note rend="inline" type="source">Paris Peace Conference 861.48/42</note>
+                <head><hi rendition="#italic">The Russian Ambassador to the United States</hi>
+                        (<hi rendition="#italic"
+                            >Bakhmeteff</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Paris</hi></placeName>, <date calendar="gregorian"
+                            when="1919-05-07"><hi rendition="#italic">May 7,
+                        1919</hi></date>.<lb/>[Received in Paris May 8.]</dateline></opener>
+                <p><hi rendition="#small-caps">My Dear Mr. Secretary</hi>: I have the honor of
+                    transmitting to you herewith a statement signed by the representatives of the
+                    unified <pb facs="0222" n="110" xml:id="pg110"/> National Governments of Russia,
+                    with regard to the proposal made by Dr. Nansen to relieve famine stricken districts of Russia.</p>
+                <p>Accept [etc.]</p>
+                <closer><signed><hi rendition="#small-caps">B.
+                                Bakhmeteff</hi></signed></closer>
+
+
+                <xi:include href="d78-a1.xml" xpointer="d78-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

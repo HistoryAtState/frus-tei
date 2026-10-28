@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d428" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr.
+                            Choate.</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d428"
+                    type="canonical"/>
+                <relatedItem target="d427.xml" type="prev"/>
+                <relatedItem target="d429.xml" type="next"/>
+                <relatedItem target="../ch26subch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d428</bibl>
+                <bibl type="frus-division-n">428</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="345" to="345" unit="page"
+                        >345</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi></placeName>
+                    <date calendar="gregorian" when="1900-07-18"><hi rendition="#italic">July 18,
+                            1900</hi></date>
+                    <date notAfter="1900-07-18T23:59:59-05:00" notBefore="1900-07-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d428">
+
+                <pb facs="0443" n="345" sameAs="frus:frus1900/pg345"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr.
+                            Choate.</hi></head>
+                <opener><seg rendition="#center">[Circular—Telegram.—Paraphrase.]<anchor n="2"
+                            xml:id="d428-f1"/></seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi></placeName>,<lb/><date
+                            calendar="gregorian" when="1900-07-18"><hi rendition="#italic">July 18,
+                                1900</hi></date>.</dateline></opener>
+                <p>(In view of request of Viceroys presented to the President yesterday by the
+                    Chinese minister that Tientsin be not destroyed, the President has instructed
+                    the United States officers in China that nothing but military necessity would
+                    justify destruction of city, and hoped that no such necessity might arise.)</p>
+                <closer><signed><hi rendition="#small-caps">Hay.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d428-f1" n="2" xml:id="d428-f1-content">
+                <p>Also sent to Berlin, Paris, and St. Petersburg.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

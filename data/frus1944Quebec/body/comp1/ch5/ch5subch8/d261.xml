@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d261" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the British Chiefs of
+                    Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d261"
+                    type="canonical"/>
+                <relatedItem target="d260.xml" type="prev"/>
+                <relatedItem target="d261-a1.xml" type="next"/>
+                <relatedItem target="../ch5subch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d261</bibl>
+                <bibl type="frus-division-n">261</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="438" to="440" unit="page"
+                        >438–40</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-15">15 September 1944</date>
+                    <date notAfter="1944-09-15T23:59:59-05:00" notBefore="1944-09-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Fan1">Fan</term>
+                    <term ref="frus:frus1944Quebec/terms#t_JCS1">JCS</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Medcos1">Medcos</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Rankin1">Rankin</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d261">
+
+                <pb facs="0500" n="438" sameAs="frus:frus1944Quebec/pg438"/>
+
+                <note rend="inline" type="source">J.C.S.
+                    Files</note>
+                <head><hi rendition="#italic">Memorandum by the British Chiefs of Staff</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        C.C.S. 684</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-09-15">15 September 1944</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">“Rankin” Planning in the Mediterranean Theater</hi></p>
+                <list>
+                    <label>1.</label>
+                    <item>We have noted the request from General Wilson in his telegram (<hi rendition="#small-caps">Medcos</hi>
+                            181)<anchor n="1" xml:id="d261-f1"/> for a firm directive on his
+                        responsibilities for <hi rendition="#small-caps"
+                                >Rankin</hi> in the Mediterranean.</item>
+                    <label>2.</label>
+                    <item>We ask that the Combined Chiefs of Staff should agree to the immediate
+                        dispatch of the enclosed message to General Wilson.<anchor n="2"
+                            xml:id="d261-f2"/></item>
+                </list>
+
+
+
+                <xi:include href="d261-a1.xml" xpointer="d261-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d261-f1" n="1" xml:id="d261-f1-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg224">p. 224</ref>.</p>
+            </note>
+            <note corresp="#d261-f2" n="2" xml:id="d261-f2-content">
+                <p>At their 176th Meeting, September 16, 1944, the Combined Chiefs of Staff approved
+                    the message contained in the enclosure. See <hi rendition="#italic">ante</hi>,
+                        <ref target="#pg375">p. 375</ref>. The message was sent as telegram No.
+                        <hi rendition="#small-caps">Fan</hi>
+                    418.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

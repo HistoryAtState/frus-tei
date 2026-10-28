@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v17_d229" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Conversation</title>
+            </titleStmt>
+            <xi:include href="../../../frus1958-60v17_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1958-60v17_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v17/d229"
+                    type="canonical"/>
+                <relatedItem target="d228.xml" type="prev"/>
+                <relatedItem target="d229-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v17</bibl>
+                <bibl type="frus-division-id">d229</bibl>
+                <bibl type="frus-division-n">229</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="444" to="448" unit="page"
+                        >444–48</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" type="conversation-or-meeting-date" when="1959-11-17"
+                        >November 17, 1959</date>
+                    <date notAfter="1959-11-17T23:59:59-05:00" notBefore="1959-11-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v17/persons">
+                    <term ref="frus:frus1958-60v17/persons#p_BMR2">Booker, Malcolm R.</term>
+                    <term ref="frus:frus1958-60v17/persons#p_CRG3">Casey, Richard G.</term>
+                    <term ref="frus:frus1958-60v17/persons#p_MJG1">Mein, John Gordon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d229">
+
+                <pb facs="0470" n="444" sameAs="frus:frus1958-60v17/pg444"/>
+
+                <head>229. Memorandum of Conversation<anchor n="0" xml:id="d229-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" type="conversation-or-meeting-date"
+                            when="1959-11-17">November 17, 1959</date>.</dateline></opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Indonesia</item>
+                </list>
+                <list subtype="participants" type="description">
+                    <label>PARTICIPANTS</label>
+                    <item>Mr. Booker, Minister, Australian
+                        Embassy</item>
+                    <item>Mr. Mein, Director, Office of
+                        Southwest Pacific Affairs</item>
+                </list>
+                <p>Mr. Mein gave Mr. Booker a copy of the attached paper commenting
+                    on the Australian paper on “Negotiations with Dissidents” which Minister
+                        Casey had handed to the Secretary on
+                    November 4, 1959.<anchor n="1" xml:id="d229-f2"/> Mr. Booker expressed his appreciation for receiving
+                    the Department’s comments.</p>
+
+
+
+                <xi:include href="d229-a1.xml" xpointer="d229-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d229-f1" n="0" type="source" xml:id="d229-f1-content">
+                <p>Source: Department of State, Central Files, 756D.00/11–1759. Top Secret. Drafted
+                    by Mein.</p>
+            </note>
+            <note corresp="#d229-f2" n="1" xml:id="d229-f2-content">
+                <p>See <ref target="#d228">Document 228</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

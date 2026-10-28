@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d229" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. White to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d229"
+                    type="canonical"/>
+                <relatedItem target="d228.xml" type="prev"/>
+                <relatedItem target="d229-a1.xml" type="next"/>
+                <relatedItem target="../ch91.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d229</bibl>
+                <bibl type="frus-division-n">229</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="236" to="236" unit="page"
+                        >236</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1901-12-20"><hi rendition="#italic">December
+                            20, 1901</hi></date>
+                    <date notAfter="1901-12-20T23:59:59-05:00" notBefore="1901-12-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d229">
+
+                <pb facs="0316" n="236" xml:id="pg236"/>
+
+                <head><hi rendition="#italic">Mr. White to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1901-12-20"
+                                ><hi rendition="#italic">December 20, 1901</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 726.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to my dispatch No. 721, of
+                    10th instant, I inclose copies of a letter which I have received from Mr.
+                    Barratt, counsel for Mr. Charles Lilrywhite, of the one inclosed therewith from
+                    the latter, and of the cablegram<anchor n="a" xml:id="d229-f1"/> which I
+                    thereupon sent you, asking whether I might, in accordance with his wishes,
+                    inform His Majesty’s Government that we accept the amount offered in settlement
+                    of his claim and hand it over to him.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Henry White.</hi></signed></closer>
+
+
+
+                <xi:include href="d229-a1.xml" xpointer="d229-a1"/>
+                <xi:include href="d229-a2.xml" xpointer="d229-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d229-f1" n="a" xml:id="d229-f1-content">
+                <p>Printed ante.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_comp27" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Salvador:</title>
+            </titleStmt>
+            <xi:include href="../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/comp27"
+                    type="canonical"/>
+                <relatedItem target="comp26/ch61/d1457-a1.xml" type="prev"/>
+                <relatedItem target="comp27/ch62.xml" type="next"/>
+                <relatedItem target="../frus1917.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">comp27</bibl>
+                <bibl type="frus-division-n">27</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1213" to="1222" unit="page"
+                        >1213–22</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1917-07-13T20:00:00-05:00" notBefore="1917-03-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp27">
+
+                <pb facs="1379" n="1213" xml:id="pg1213"/>
+
+                <head>Salvador:</head>
+
+
+
+                <xi:include href="comp27/ch62.xml" xpointer="ch62"/>
+                <xi:include href="comp27/ch63.xml" xpointer="ch63"/>
+                <xi:include href="comp27/ch64.xml" xpointer="ch64"/>
+            </div>
+        </body>
+    </text>
+</TEI>

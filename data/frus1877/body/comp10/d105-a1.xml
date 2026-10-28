@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1877_d105-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>the marshal president’s manifesto.</title>
+            </titleStmt>
+            <xi:include href="../../frus1877_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1877_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1877/d105-a1"
+                    type="canonical"/>
+                <relatedItem target="d105.xml" type="prev"/>
+                <relatedItem target="d105-a1-a1.xml" type="next"/>
+                <relatedItem target="d105.xml" type="parent"/>
+                <relatedItem target="d105.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1877</bibl>
+                <bibl type="frus-division-id">d105-a1</bibl>
+                <bibl type="frus-division-n">105.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="170" to="171" unit="page"
+                        >170–71</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d105-a1">
+
+                <pb facs="0218" n="170" sameAs="frus:frus1877/pg170"/>
+
+                <opener><seg rendition="#center">[Inclosure.]</seg></opener>
+                <head><hi rendition="#small-caps">the marshal president’s manifesto.</hi></head>
+                <p>The following is the text of the important document issued by the chief of the
+                    state to the French nation:</p>
+
+
+                <xi:include href="d105-a1-a1.xml" xpointer="d105-a1-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_about-this-digital-edition" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>About the Digital Edition</title>
+            </titleStmt>
+            <xi:include href="../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/about-this-digital-edition"
+                    type="canonical"/>
+                <relatedItem type="prev"/>
+                <relatedItem target="preface.xml" type="next"/>
+                <relatedItem target="../frus1958-60v03mSupp.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">about-this-digital-edition</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">about-frus-series</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1960-12-30T23:59:59-05:00" notBefore="1957-12-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="about-this-digital-edition">
+
+                <pb facs="0003" n="II" sameAs="frus:frus1958-60v03mSupp/pgII"/>
+
+                <head>About the Digital Edition</head>
+                <p>In creating this digital edition, the Office of the Historian focused on
+                    maintaining the original structure of the microfiche supplement while bringing
+                    it up to the current standards of the <hi rendition="#italic">Foreign
+                        Relations</hi> series. The editors supplied a heading and source note for
+                    each document based on the text from the List of Documents. In those instances
+                    in which the documents also included images of attachments and covering
+                    memoranda, the editors provided headings to mark these divisions, though this
+                    was not indicated in the List of Documents. In the digital edition, the editors
+                    examined the document images and added material such as the date, time of
+                    transmission, and location to document datelines when unavailable in the List of
+                    Documents entry. Many documents in these supplements contain marginalia, which
+                    are not accounted for in the source note. Where applicable, marginalia can be
+                    viewed in the facsimile version of each page. Numerous documents are partially
+                    or completely illegible; those that were known to have had such problems during
+                    the preparation of the microfiche were stamped: “Best copy available” and the
+                    editors have indicated gaps in legibility by inserting “[illegible in the
+                    original].” All brackets, except those indicating illegible or redacted text,
+                    are in the original.</p>
+                <p>During review, the editors discovered the following problems with images in the
+                    microfiche edition and made the following corrections:</p>
+                <list>
+                    <item>Document <ref target="#d141">141</ref>: The first page of the document is
+                        missing in the microfiche. Editors printed the document without the first
+                        page.</item>
+                    <item>Documents <ref target="#d246">246</ref> and <ref target="#d247">247</ref>:
+                        Documents 246 and 247, encompassing fiche sheet 16, frames 54–59, were
+                        originally numbered 247 with a handwritten annotation on both documents
+                        reading “SPLIT.” Editors split the document as indicated and supplied
+                        document numbers and headings for each.</item>
+                    <item>Document <ref target="#d286">286</ref>: The image at fiche sheet 19, frame
+                        37, is a duplicate of fiche sheet 19, frame 36. Editors removed the
+                        image.</item>
+                    <item>Document <ref target="#d306">306</ref>: The image at fiche sheet 20, frame
+                        68, is a duplicate of fiche sheet 20, frame 67. Editors removed the
+                        image.</item>
+                    <item>Document <ref target="#d355">355</ref>: Only 2 documents were found
+                        attached.</item>
+                    <item>Documents <ref target="#d492">492</ref> and <ref target="#d494">494</ref>:
+                        Fiche sheet 26, frame 80, was filmed out of sequence. Editors moved the
+                        image to the correct order in fiche sheet 26, between frame 85 and frame
+                        86.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

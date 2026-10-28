@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d494-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>United States citizens, Bermuda.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d494-a2"
+                    type="canonical"/>
+                <relatedItem target="d494-a1.xml" type="prev"/>
+                <relatedItem target="d494-a3.xml" type="next"/>
+                <relatedItem target="d494.xml" type="parent"/>
+                <relatedItem target="d494.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d494-a2</bibl>
+                <bibl type="frus-division-n">494.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="494" to="494" unit="page"
+                        >494</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d494-a2">
+
+                <pb facs="0574" n="494" sameAs="frus:frus1902/pg494"/>
+
+                <opener><seg rendition="#center">[Subinclosure 1.]</seg></opener>
+                <head><hi rendition="#italic">United States citizens, Bermuda.</hi></head>
+                <table cols="4" rows="5">
+                    <row role="label">
+                        <cell rendition="#border-bottom #border-right #border-top">No.</cell>
+                        <cell rendition="#border-bottom #border-right #border-top">Name.</cell>
+                        <cell rendition="#border-bottom #border-right #border-top">State or
+                            Territory.</cell>
+                        <cell rendition="#border-bottom #border-top">Remarks.</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">24131</cell>
+                        <cell rendition="#nowrap #border-right">Du Queene, F. J</cell>
+                        <cell rendition="#border-right">Indian Territory</cell>
+                        <cell>Editor of Petit Bleu; said he had no nationality.</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">21229</cell>
+                        <cell rendition="#nowrap #border-right">Molloy, J. L</cell>
+                        <cell rendition="#border-right">Massachusetts</cell>
+                        <cell/>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">11265</cell>
+                        <cell rendition="#nowrap #border-right">Halley, M</cell>
+                        <cell rendition="#border-right">Nevada</cell>
+                        <cell>This man’s name was not included in rolls sent you on 13th instant,
+                            No. S. A. 723/1, as he has only since given this information.</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right #border-bottom"/>
+                        <cell rendition="#nowrap #border-right #border-bottom">Rubino,
+                            Antonio</cell>
+                        <cell rendition="#border-right #border-bottom">New York</cell>
+                        <cell rendition="#border-bottom">Reported in House of Representatives as
+                            being a citizen.</cell>
+                    </row>
+                </table>
+                <closer>
+                    <dateline rendition="#float-left"><placeName>Bermuda</placeName>, <date
+                            calendar="gregorian" when="1902-06-24">June 24, 1902</date>.</dateline>
+                    <lb/>
+                    <signed><hi rendition="#small-caps">Le G. Geary</hi>,<lb/><hi
+                            rendition="#italic">Lieutenant-General, Commanding the Troops,
+                            Bermuda.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

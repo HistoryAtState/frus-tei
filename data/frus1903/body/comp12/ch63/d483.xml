@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d483" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d483"
+                    type="canonical"/>
+                <relatedItem target="d482.xml" type="prev"/>
+                <relatedItem target="d483-a1.xml" type="next"/>
+                <relatedItem target="../ch63.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d483</bibl>
+                <bibl type="frus-division-n">483</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="494" to="495" unit="page"
+                        >494–95</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1903-04-01"><hi rendition="#italic">April 1,
+                            1903</hi></date>
+                    <date notAfter="1903-04-01T23:59:59-05:00" notBefore="1903-04-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d483">
+
+                <pb facs="0578" n="494" sameAs="frus:frus1903/pg494"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1903-04-01"
+                                ><hi rendition="#italic">April 1, 1903</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 1094.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to your instruction, No. 1149, of
+                    March 10 last, I have the honor to inclose herewith copies of the note in which
+                    I communicated the President’s proclamation of the convention between the United
+                    States and Great Britain for the settlement of questions relative to the Alaska
+                    boundary, and of his lordship’s reply.</p>
+                <p>I have the honor to be, sir, your obedient servant,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+                <postscript>
+                    <p>The Hon. <hi rendition="#small-caps">John Hay</hi>,<lb/><hi
+                            rendition="#italic">Secretary of State.</hi></p>
+                </postscript>
+
+
+
+
+                <xi:include href="d483-a1.xml" xpointer="d483-a1"/>
+                <xi:include href="d483-a2.xml" xpointer="d483-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

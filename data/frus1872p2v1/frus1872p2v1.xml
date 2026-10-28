@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p2v1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1872p2v1_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1872p2v1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1872p2v1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1872p2v1"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1872p2v1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v1/covers/frus1872p2v1.jpg"/>
+                        <extent>
+                            <measure quantity="44772" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:29:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1872p2v1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v1/ebook/frus1872p2v1.epub"/>
+                        <extent>
+                            <measure quantity="1734282" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:29:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1872p2v1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v1/ebook/frus1872p2v1.mobi"/>
+                        <extent>
+                            <measure quantity="2133886" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:29:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1872 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                    <term xml:id="admin3">johnson-a</term>
+                    <term xml:id="admin4">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>belgium</term>
+                    <term>bermuda</term>
+                    <term>brazil</term>
+                    <term>civil-war-u-s</term>
+                    <term>cuba</term>
+                    <term>france</term>
+                    <term>jamaica</term>
+                    <term>netherlands</term>
+                    <term>portugal</term>
+                    <term>russia</term>
+                    <term>singapore</term>
+                    <term>spain</term>
+                    <term>isle-of-man</term>
+                    <term>martinique</term>
+                    <term>guernsey</term>
+                    <term>mauritius</term>
+                    <term>the-bahamas</term>
+                    <term>grenada</term>
+                    <term>barbados</term>
+                    <term>fish-hamilton</term>
+                    <term>grant-ulysses-s</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1872p2v1" status="published" when="1872"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0007" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Papers relating to the foreign relations of the United
+                        States,</titlePart>
+                    <titlePart type="volumetitle">Transmitted to Congress with the annual message of
+                        the President, December 2, 1872, Part II.</titlePart>
+                    <titlePart type="volumeno"/>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <pubPlace>WASHINGTON:</pubPlace>
+                    <lb/>
+                    <publisher>GOVERNMENT PRINTING OFFICE.</publisher>
+                    <lb/>
+                    <docDate>1872.</docDate>
+                </docImprint>
+            </titlePage>
+            <pb facs="0008" n="[II]" xml:id="pgII"/>
+            <pb facs="0009" n="[III]" xml:id="pgIII"/>
+            <p rendition="#center">Papers relating to the treaty of Washington</p>
+            <p rendition="#center">Volume I–Geneva arbitration.</p>
+            <p rendition="#center">Containing the Case of the United States; the Case of Great
+                Britain; the Counter Case of the United States; and a portion of the additional
+                documents, correspondence, and evidence which accompanied the same.</p>
+            <pb facs="0010" n="[IV]" xml:id="pgIV"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0012" n="[VI]" xml:id="pgVI"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <pb facs="0428" n="[414]" xml:id="pg414"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+        </body>
+        <back>
+            <xi:include href="back/errata.xml" xpointer="errata"/>
+        </back>
+    </text>
+</TEI>

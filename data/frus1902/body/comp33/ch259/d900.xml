@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d900" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Senor
+                            Ojeda.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d900"
+                    type="canonical"/>
+                <relatedItem target="d899.xml" type="prev"/>
+                <relatedItem target="d900-a1.xml" type="next"/>
+                <relatedItem target="../ch259.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d900</bibl>
+                <bibl type="frus-division-n">900</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="963" to="965" unit="page"
+                        >963–65</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington-</hi></placeName>
+                    <date calendar="gregorian" when="1902-12-12"><hi rendition="#italic">December
+                            12, 1902</hi></date>
+                    <date notAfter="1902-12-12T23:59:59-05:00" notBefore="1902-12-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d900">
+
+                <pb facs="1043" n="963" sameAs="frus:frus1902/pg963"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Senor
+                            Ojeda.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington-</hi></placeName>, <date calendar="gregorian"
+                            when="1902-12-12"><hi rendition="#italic">December 12,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 20.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to your note of the 5th ultimo,
+                    complaining of the arrest of the master of the Spanish steamship <hi
+                        rendition="#italic">Leonora</hi> and the searching of his vessel by the
+                    municipal police at Pensacola, I have the honor to inclose copy of a letter to
+                    the governor of Florida from the mayor of Pensacola stating the circumstances as
+                    reported to him.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+                <xi:include href="d900-a1.xml" xpointer="d900-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

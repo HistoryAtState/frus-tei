@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d1457" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Francis
+                        to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d1457"
+                    type="canonical"/>
+                <relatedItem target="d1456.xml" type="prev"/>
+                <relatedItem target="d1457-a1.xml" type="next"/>
+                <relatedItem target="../ch61.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d1457</bibl>
+                <bibl type="frus-division-n">1457</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1211" to="1212" unit="page"
+                        >1211–12</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Petrograd</hi></placeName>
+                    <date calendar="gregorian" when="1917-03-26">
+                        <hi rendition="#italic">March 26, 1917</hi></date>
+                    <date notAfter="1917-03-26T23:59:59-05:00" notBefore="1917-03-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1457">
+
+                <pb facs="1377" n="1211" sameAs="frus:frus1917/pg1211"/>
+
+                <note rend="inline" type="source">File No. 861.00/365</note>
+                <head>
+                    <hi rendition="#italic">Ambassador Francis to
+                        the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 657</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Petrograd</hi></placeName>, <date
+                            calendar="gregorian" when="1917-03-26">
+                            <hi rendition="#italic">March 26, 1917</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: In my unnumbered despatch of
+                        yesterday,<anchor n="1" xml:id="d1457-f1"/> I gave the details and sequence
+                    of my recognition on behalf of our Government of the new Government of
+                    Russia.</p>
+                <pb facs="1378" n="1212" xml:id="pg1212"/>
+                <p>I have the honor to forward herewith copies of the correspondence between the
+                    American Embassy and the Foreign Office on the subject.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">D. R. Francis</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d1457-a1.xml" xpointer="d1457-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1457-f1" n="1" xml:id="d1457-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_d253" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Telegram.]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/d253"
+                    type="canonical"/>
+                <relatedItem target="d252.xml" type="prev"/>
+                <relatedItem target="d254.xml" type="next"/>
+                <relatedItem target="../ch59.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">d253</bibl>
+                <bibl type="frus-division-n">253</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="215" to="216" unit="page"
+                        >215–16</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1910-07-01"><hi rendition="#italic">July 1,
+                            1910</hi></date>
+                    <date notAfter="1910-07-01T23:59:59-05:00" notBefore="1910-07-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d253">
+
+                <pb facs="0297" n="215" sameAs="frus:frus1911/pg215"/>
+
+                <note rend="inline" type="source">File No. 20437/105.</note>
+                <head>[Telegram.]</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Berlin</hi></placeName>, <date calendar="gregorian"
+                            when="1910-07-01"><hi rendition="#italic">July 1,
+                        1910</hi></date>.</dateline></opener>
+                <p>Bundesrat rendered decision June 29. Reduction of duty on excesses of quota shall
+                    be contingent on compliance with three conditions laid down in foreign office
+                    note of June 21, which are: <list>
+                        <item>First. In calculating the average expenditures, including the reduced
+                            duties that the purchaser has to pay for the salts the quantities not in
+                            excess of the quota of the seller and not burdened with the duty, must
+                            also be included.</item>
+                        <pb facs="0298" n="216" xml:id="pg216"/>
+                        <item>Second. The reduction can be applied only to quantities which the
+                            buyer can prove he is obliged to accept, and not to quantities
+                            respecting which he may exercise his option. (<hi rendition="#italic"
+                                >See</hi> Foreign office note of May 11.)</item>
+                        <item>Third. The buyer must petition for reduction of duty to be paid by
+                            seller and at the same time prove that he is not only bound to accept
+                            the goods but also to defray the duty.</item>
+                    </list></p>
+                <closer><signed><hi rendition="#small-caps">Hill.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d245" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Blaine to Mr.
+                            Lincoln.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d245"
+                    type="canonical"/>
+                <relatedItem target="d244.xml" type="prev"/>
+                <relatedItem target="d246.xml" type="next"/>
+                <relatedItem target="../comp9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d245</bibl>
+                <bibl type="frus-division-n">245</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="339" to="339" unit="page"
+                        >339</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1890-05-19"><hi rendition="#italic">May</hi>
+                        19, 1890</date>
+                    <date notAfter="1890-05-19T23:59:59-05:00" notBefore="1890-05-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d245">
+
+                <pb facs="0443" n="339" sameAs="frus:frus1890/pg339"/>
+
+                <head><hi rendition="#italic">Mr. Blaine to Mr.
+                            Lincoln.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1890-05-19"><hi rendition="#italic">May</hi> 19,
+                        1890</date>.</dateline>
+                    <seg rendition="#float-left">No. 264.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose herewith a copy of a
+                        dispatch<anchor n="†" xml:id="d245-f1"/> from our minister at Caracas
+                    concerning the Venezuelan boundary dispute. You will observe that the sketch map
+                    which accompanies Mr. Scruggs’s dispatch indicates an extreme boundary
+                    considerably to the westward of the line claimed in the colonial office list map
+                    for 1890 and the two preceding years.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">James G. Blaine.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d245-f1" n="†" xml:id="d245-f1-content">
+                <p>For inclosure, see dispatch No. 100 from the United States minister to Venezuela,
+                    dated May 3, 1890.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

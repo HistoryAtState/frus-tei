@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d1804" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d1804"
+                    type="canonical"/>
+                <relatedItem target="d1803.xml" type="prev"/>
+                <relatedItem target="d1805.xml" type="next"/>
+                <relatedItem target="../ch124.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d1804</bibl>
+                <bibl type="frus-division-n">1804</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1064" to="1064" unit="page"
+                        >1064</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Lima</hi></placeName>
+                    <date calendar="gregorian" when="1914-03-26">
+                        <hi rendition="#italic">March 26, 1914</hi></date>
+                    <date notAfter="1914-03-26T23:59:59-05:00" notBefore="1914-03-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1804">
+
+                <pb facs="1180" n="1064" sameAs="frus:frus1914/pg1064"/>
+
+                <note rend="inline" type="source">File No. 823.00/146</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Lima</hi></placeName>, <date
+                            calendar="gregorian" when="1914-03-26">
+                            <hi rendition="#italic">March 26, 1914</hi></date>.</dateline>
+                </opener>
+                <p>I have reliable information Leguistas have considered having him sworn in as
+                    President and seek asylum at the Legation. Under such tactical move should it be
+                    given? Conference failed to reach an understanding; proposals discussed include
+                    resignation of both Leguia and Junta and general elections; negotiations
+                    continue.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">McMillin</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

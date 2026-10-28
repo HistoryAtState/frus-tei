@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_d401" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Extract]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/d401"
+                    type="canonical"/>
+                <relatedItem target="d400.xml" type="prev"/>
+                <relatedItem target="../../comp19.xml" type="next"/>
+                <relatedItem target="../ch70.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">d401</bibl>
+                <bibl type="frus-division-n">401</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="307" to="307" unit="page"
+                        >307</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Tegucigalpa</hi></placeName>
+                    <date calendar="gregorian" when="1911-11-01"><hi rendition="#italic">November 1,
+                            1911</hi></date>
+                    <date notAfter="1911-11-01T23:59:59-05:00" notBefore="1911-11-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d401">
+
+                <pb facs="0389" n="307" sameAs="frus:frus1911/pg307"/>
+
+                <note rend="inline" type="source">File No. 815.00/1393.</note>
+                <head>[Extract]</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                                >Tegucigalpa</hi></placeName>, <date calendar="gregorian"
+                            when="1911-11-01"><hi rendition="#italic">November 1,
+                        1911</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 44.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to report that the
+                    national elections were held in this country on Sunday, Monday, and Tuesday, the
+                    29th to 31st ultimo, inclusive. Gen. Manuel Bonilla and Dr. Francisco Bográn are
+                    declared to have been chosen President and Vice President, respectively.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Charles D. White.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

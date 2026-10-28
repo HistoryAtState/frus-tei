@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d434" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the United States Chiefs of
+                    Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d434"
+                    type="canonical"/>
+                <relatedItem target="d433.xml" type="prev"/>
+                <relatedItem target="d435.xml" type="next"/>
+                <relatedItem target="../ch9subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d434</bibl>
+                <bibl type="frus-division-n">434</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="991" to="991" unit="page"
+                        >991</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-19">19 August 1943</date>
+                    <date notAfter="1943-08-19T23:59:59-05:00" notBefore="1943-08-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d434">
+
+                <pb facs="1105" n="991" sameAs="frus:frus1943/pg991"/>
+
+                <note rend="inline" type="source">
+                    J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the United States Chiefs of
+                        Staff</hi><anchor n="1" xml:id="d434-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        C.C.S. 314/2</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-19">19 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Allocation of Landing Ships and Craft—American
+                        Production</hi>
+                </p>
+                <p>The United States Chiefs of Staff have considered the proposals presented by the
+                    British Chiefs of Staff in C.C.S. 314/1.<anchor
+                        n="2" xml:id="d434-f2"/> They feel that the provision of landing craft still
+                    constitutes a bottleneck in the conduct of military operations and will continue
+                    to do so for some time. At present there is no likelihood of a reserve in
+                    landing craft being created.</p>
+                <p>The whole subject of the allocation of landing craft is being explored by the
+                    Combined Staff Planners. However, the United States Chiefs of Staff feel the
+                    landing craft must continue to be allocated as necessary to meet the needs of
+                    specific operations.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d434-f1" n="1" type="source" xml:id="d434-f1-content">
+                <p>For the discussion of the subject of this paper at the 112th Meeting of the
+                    Combined Chiefs of Staff, August 19, 1943, see <hi rendition="#italic"
+                    >ante</hi>, <ref target="#pg892">p. 892</ref>.</p>
+            </note>
+            <note corresp="#d434-f2" n="2" xml:id="d434-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg989">p. 989</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

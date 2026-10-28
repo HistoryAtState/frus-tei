@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d315" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marshal Stalin to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d315"
+                    type="canonical"/>
+                <relatedItem target="d314.xml" type="prev"/>
+                <relatedItem target="d316.xml" type="next"/>
+                <relatedItem target="../ch6subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d315</bibl>
+                <bibl type="frus-division-n">315</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="415" to="415" unit="page"
+                        >415</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-25">November 25, 1943.</date>
+                    <date notAfter="1943-11-25T23:59:59-05:00" notBefore="1943-11-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_HK1">Harriman, Kathleen</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RE1">Roosevelt, Elliott</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SSP1">Spalding, Sidney P.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d315">
+
+                <pb facs="0517" n="415" sameAs="frus:frus1943CairoTehran/pg415"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">Marshal Stalin to President Roosevelt</hi><anchor n="1" xml:id="d315-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">urgent</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Moscow</hi></placeName>, <date calendar="gregorian"
+                            when="1943-11-25">November 25, 1943.</date></dateline>
+                </opener>
+                <p>Personal and strictly secret from Premier Stalin to President Roosevelt. Your message from Cairo<anchor n="2" xml:id="d315-f2"
+                    /> received. I will be at your service in Teheran the evening of November
+                    twenty-eighth.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d315-f1" n="1" type="source" xml:id="d315-f1-content">
+                <p>Sent by Spalding at Moscow to Harriman at Cairo, via Navy channels.</p>
+            </note>
+            <note corresp="#d315-f2" n="2" xml:id="d315-f2-content">
+                <p>Telegram of November 22, 1943, <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg373">p. 373</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

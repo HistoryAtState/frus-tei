@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1906p1_message-of-the-president" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Message of the President:</title>
+            </titleStmt>
+            <xi:include href="../frus1906p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1906p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1906p1/message-of-the-president"
+                    type="canonical"/>
+                <relatedItem target="toc.xml" type="prev"/>
+                <relatedItem target="message-of-the-president/annual.xml" type="next"/>
+                <relatedItem target="../frus1906p1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1906p1</bibl>
+                <bibl type="frus-division-id">message-of-the-president</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="VII" to="" unit="page"
+                        >VII–</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1906-12-03T23:59:59-05:00" notBefore="1906-12-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="message-of-the-president">
+
+                <pb facs="0007" n="VII" xml:id="pgVII"/>
+
+                <head>Message of the President:</head>
+
+
+
+                <xi:include href="message-of-the-president/annual.xml" xpointer="annual"/>
+                <xi:include href="message-of-the-president/san-Francisco-earthquake.xml"
+                    xpointer="san-Francisco-earthquake"/>
+            </div>
+        </body>
+    </text>
+</TEI>

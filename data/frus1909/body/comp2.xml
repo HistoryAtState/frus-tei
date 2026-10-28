@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1909_comp2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Argentine Republic</title>
+            </titleStmt>
+            <xi:include href="../frus1909_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1909_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1909/comp2"
+                    type="canonical"/>
+                <relatedItem target="comp1/ch7/d7.xml" type="prev"/>
+                <relatedItem target="comp2/ch8.xml" type="next"/>
+                <relatedItem target="../frus1909.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1909</bibl>
+                <bibl type="frus-division-id">comp2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="10" to="20" unit="page"
+                        >10–20</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1909-10-26T23:59:59-05:00" notBefore="1908-06-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp2">
+
+                <pb facs="0082" n="10" xml:id="pg10"/>
+
+                <head>Argentine Republic</head>
+
+
+                <xi:include href="comp2/ch8.xml" xpointer="ch8"/>
+                <xi:include href="comp2/ch9.xml" xpointer="ch9"/>
+            </div>
+        </body>
+    </text>
+</TEI>

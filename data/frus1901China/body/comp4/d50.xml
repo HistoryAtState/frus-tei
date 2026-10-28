@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901China_d50" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Rockhill to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../frus1901China_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1901China_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1901China/d50"
+                    type="canonical"/>
+                <relatedItem target="d49.xml" type="prev"/>
+                <relatedItem target="d50-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901China</bibl>
+                <bibl type="frus-division-id">d50</bibl>
+                <bibl type="frus-division-n">50</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="46" to="46" unit="page"
+                        >46</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Peking, China</hi></placeName>
+                    <date calendar="gregorian" when="1900-11-16"><hi rendition="#italic">November
+                            16, 1900</hi></date>
+                    <date notAfter="1900-11-16T23:59:59-05:00" notBefore="1900-11-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d50">
+
+                <pb facs="0052" n="46" sameAs="frus:frus1901China/pg46"/>
+
+                <head><hi rendition="#italic">Mr. Rockhill to Mr.
+                            Hay.</hi></head>
+                <opener>
+                    <seg rendition="#float-left">No. 22.]</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Peking, China</hi></placeName>, <date calendar="gregorian"
+                            when="1900-11-16"><hi rendition="#italic">November 16,
+                        1900</hi></date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit to you
+                    herewith a translation of a telegram received from Chang Chih-tung, viceroy at
+                    Wu-chang, relating to the execution of the provincial treasurer of Chih-li and
+                    other officials at Pao-ting Fu, together with my reply sent him through our
+                    consul at Hankou.</p>
+                <p>The opinion of the viceroy that these punishments should have been inflicted by
+                    the Chinese authorities agrees, I believe, with the views of the Department as
+                    shown by the Department’s note of September 21 to the German chargé d’affaires
+                    in Washington.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">W. W. Rockhill.</hi></signed></closer>
+
+
+                <xi:include href="d50-a1.xml" xpointer="d50-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

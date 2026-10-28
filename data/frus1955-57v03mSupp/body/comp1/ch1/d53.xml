@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v03mSupp_d53" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Despatch 2 from Geneva</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v03mSupp/d53"
+                    type="canonical"/>
+                <relatedItem target="d52.xml" type="prev"/>
+                <relatedItem target="d53-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v03mSupp</bibl>
+                <bibl type="frus-division-id">d53</bibl>
+                <bibl type="frus-division-n">53</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Geneva</placeName>
+                    <date calendar="gregorian" when="1955-08-09">August 9, 1955</date>
+                    <date notAfter="1955-08-09T23:59:59-05:00" notBefore="1955-08-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v03mSupp/persons">
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_JUA_1">Johnson, U. Alexis</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_WP_1">Wang Ping-nan</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d53">
+
+                <pb facs="d52-1" n="1" sameAs="frus:frus1955-57v03mSupp/d52-1"/>
+
+                <head>53. Despatch 2 from Geneva<anchor n="1" xml:id="d53-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left">No. 2</seg>
+                    <dateline rendition="#float-right"><placeName>Geneva</placeName>, <date
+                            calendar="gregorian" when="1955-08-09">August 9, 1955</date></dateline>
+                </opener>
+                <list type="references">
+                    <head>REF</head>
+                    <item>Geneva Telegram 315, August 4, 1955</item>
+                </list>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Transmitting Text of Ambassador Johnson’s Statement to Ambassador Wang on United States Immigration
+                        Procedures</item>
+                </list>
+                <pb facs="d53-1" n="1" type="facsimile" xml:id="d53-1"/>
+                <p>With reference to my telegram No. 315 of August 4, 1955, I am enclosing the full
+                    text of my remarks to Ambassador Wang
+                        Ping-nan on the subject of United States Immigration procedure.
+                    These remarks were summarized only very briefly in the reference telegram to
+                    reduce its length.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">U. Alexis
+                            Johnson</hi>
+                        <lb/>
+                        <hi rendition="#italic">American Ambassador</hi>
+                    </signed>
+                </closer>
+                <pb facs="0105" n="58" type="typeset" xml:id="pg58"/>
+
+
+
+                <xi:include href="d53-a1.xml" xpointer="d53-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d53-f1" n="1" type="source" xml:id="d53-f1-content">
+                <p>Source: Department of State, Central Files, 611.95A251.8–955. Confidential.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1926v01" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1926v01_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1926v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1926v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1926v01"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1926v01" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1926v01/covers/frus1926v01.jpg"/>
+                        <extent>
+                            <measure quantity="27105" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:07:13.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1926v01" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1926v01/ebook/frus1926v01.epub"/>
+                        <extent>
+                            <measure quantity="1943752" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:07:13.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1926v01" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1926v01/ebook/frus1926v01.mobi"/>
+                        <extent>
+                            <measure quantity="2653938" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:07:13.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1941 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">coolidge</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>afghanistan</term>
+                    <term>argentina</term>
+                    <term>bolivia</term>
+                    <term>brazil</term>
+                    <term>canada</term>
+                    <term>china</term>
+                    <term>arms-embargoes</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>labor</term>
+                    <term>league-of-nations</term>
+                    <term>kellogg-frank-billings</term>
+                    <term>monaco</term>
+                    <term>coolidge-calvin</term>
+                    <term>chinese-exclusion-act-1882</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1926v01" status="published" when="1941"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0005"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Papers Relating to the Foreign Relations of the United
+                        States</titlePart>
+                    <titlePart type="subseries">1926<lb/>(In Two Volumes)</titlePart>
+                    <titlePart type="volumeno">Volume I</titlePart>
+                </docTitle>
+                <docImprint>United States Government Printing Office Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing
+                        Office</publisher><lb/><pubPlace>Washington:</pubPlace><lb/><docDate>1941</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE<lb/><hi
+                        rendition="#small-caps">Publication</hi> 1646<lb/>For sale by
+                    the<lb/>Superintendent of Documents, Washington, D. C.<lb/>Price $2.00
+                    (Buckram)</docImprint>
+            </titlePage>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0010" n="[VI]" xml:id="pgVI"/>
+            <xi:include href="front/message-of-the-president.xml"
+                xpointer="message-of-the-president"/>
+            <pb facs="0034" n="[XXX]" xml:id="pgXXX"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+            <pb facs="0132" n="[CXXVIII]" xml:id="pgCXXVIII"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+        </body>
+        <back>
+            <pb facs="1236" n="[1104]" xml:id="pg1104"/>
+            <pb facs="1237" n="[1105]" xml:id="pg1105"/>
+            <pb facs="1238" n="[1106]" xml:id="pg1106"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

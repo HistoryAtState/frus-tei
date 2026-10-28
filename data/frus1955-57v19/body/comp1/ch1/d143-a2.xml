@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v19_d143-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tab (F)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v19_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v19_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v19/d143-a2"
+                    type="canonical"/>
+                <relatedItem target="d143-a1.xml" type="prev"/>
+                <relatedItem target="d144.xml" type="next"/>
+                <relatedItem target="d143.xml" type="parent"/>
+                <relatedItem target="d143.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v19</bibl>
+                <bibl type="frus-division-id">d143-a2</bibl>
+                <bibl type="frus-division-n">143.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="597" to="597" unit="page"
+                        >597</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v19/terms">
+                    <term ref="frus:frus1955-57v19/terms#t_FY1">FY</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d143-a2">
+
+                <pb facs="0621" n="597" sameAs="frus:frus1955-57v19/pg597"/>
+
+                <head>Tab (F)</head>
+                <p rendition="#flush">PLANNING FIGURES FOR END STRENGTH FY ’59</p>
+                <table cols="2" rows="5">
+                    <row role="label">
+                        <cell>Army</cell>
+                        <cell role="num">850,000</cell>
+                    </row>
+                    <row>
+                        <cell>Navy</cell>
+                        <cell role="num">630,000</cell>
+                    </row>
+                    <row>
+                        <cell>Marine Corps</cell>
+                        <cell role="num">170,000</cell>
+                    </row>
+                    <row>
+                        <cell>Air Force</cell>
+                        <cell role="num">850,000</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell role="num">2,500,000</cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>

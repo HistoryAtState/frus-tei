@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1886_comp25" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Turkey</title>
+            </titleStmt>
+            <xi:include href="../frus1886_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1886_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1886/comp25"
+                    type="canonical"/>
+                <relatedItem target="comp24/ch15/d450.xml" type="prev"/>
+                <relatedItem target="comp25/d451.xml" type="next"/>
+                <relatedItem target="../frus1886.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1886</bibl>
+                <bibl type="frus-division-id">comp25</bibl>
+                <bibl type="frus-division-n">25</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="862" to="869" unit="page"
+                        >862–69</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1886-04-05T23:59:59-05:00" notBefore="1886-01-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp25">
+
+                <pb facs="0946" n="862" sameAs="frus:frus1886/pg862"/>
+
+                <head>Turkey</head>
+
+
+
+                <xi:include href="comp25/d451.xml" xpointer="d451"/>
+                <xi:include href="comp25/d452.xml" xpointer="d452"/>
+            </div>
+        </body>
+    </text>
+</TEI>

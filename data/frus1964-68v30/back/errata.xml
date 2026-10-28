@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v30_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1964-68v30_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1964-68v30_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v30/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1964-68v30.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v30</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="774" to="774" unit="page"
+                        >774</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1969-01-06T17:00:00-05:00" notBefore="1964-01-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0808" n="774" xml:id="pg774"/>
+
+                <head>Errata</head>
+                <p>The following error has been identified in <hi rendition="#italic">Foreign
+                        Relations</hi>, 1964–1968, Volume XXX, China. Please be aware that printed
+                    volumes have not been revised.</p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. Document 135 (date of errata entry: January 3,
+                            2013)</hi>
+                    </item>
+                    <item>The volume skips from Document 134 to 136.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

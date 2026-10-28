@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1880_d424-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../frus1880_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1880_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1880/d424-a1"
+                    type="canonical"/>
+                <relatedItem target="d424.xml" type="prev"/>
+                <relatedItem target="d424-a1-a1.xml" type="next"/>
+                <relatedItem target="d424.xml" type="parent"/>
+                <relatedItem target="d424.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1880</bibl>
+                <bibl type="frus-division-id">d424-a1</bibl>
+                <bibl type="frus-division-n">424.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="669" to="676" unit="page"
+                        >669–76</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d424-a1">
+
+                <pb facs="0769" n="669" sameAs="frus:frus1880/pg669"/>
+
+                <opener><seg rendition="#center">[Inclosure 1 in No. 1010.]</seg></opener>
+                <p rendition="#center">(<hi rendition="#italic">Translated by D. Thompson,
+                        interpreter to the United States Legation in Japan.</hi>)</p>
+                <p rendition="#center">No. 46.</p>
+                <p>Proclamation is hereby made that the conscription law has been revised as
+                    follows, and that all previous proclamations, notifications, and instructions
+                    relating thereto are repealed.</p>
+                <closer><signed>SANJO SANEYOSHI,<lb/><hi rendition="#italic">Prime
+                        Minister.</hi></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><date calendar="gregorian" when="1879-10-27"
+                                ><hi rendition="#small-caps">October</hi> 27,
+                        1879</date>.</dateline></closer>
+
+
+                <xi:include href="d424-a1-a1.xml" xpointer="d424-a1-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

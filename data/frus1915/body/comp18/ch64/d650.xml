@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d650" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d650"
+                    type="canonical"/>
+                <relatedItem target="d649.xml" type="prev"/>
+                <relatedItem target="d651.xml" type="next"/>
+                <relatedItem target="../ch64.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d650</bibl>
+                <bibl type="frus-division-n">650</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="539" to="539" unit="page"
+                        >539</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Port au Prince</hi></placeName>
+                    <date calendar="gregorian" when="1914-09-28">
+                        <hi rendition="#italic">September 28, 1914</hi></date>
+                    <date notAfter="1914-09-28T23:59:59-05:00" notBefore="1914-09-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d650">
+
+                <pb facs="0655" n="539" sameAs="frus:frus1915/pg539"/>
+
+                <note rend="inline" type="source">File 838.77/102.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Port au Prince</hi></placeName>, <date
+                            calendar="gregorian" when="1914-09-28">
+                            <hi rendition="#italic">September 28, 1914</hi></date>.</dateline>
+                </opener>
+                <p>My telegram of September 25. The Haitian Government has today served notice of
+                    foreclosure on the National Railroad Company of Haiti for non-compliance with
+                    Article 11 of the railroad contract and given notice of the adjudication of the
+                    property on December 28. The Haitian Government has also notified claim for
+                    damages caused the Government and public by the suspension of operation, and has
+                    appointed an arbitrator on its part for examination of this last claim.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Blanchard.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

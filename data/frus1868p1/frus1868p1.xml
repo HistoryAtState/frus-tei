@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1868p1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1868p1_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1868p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1868p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1868p1"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1868p1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1868p1/covers/frus1868p1.jpg"/>
+                        <extent>
+                            <measure quantity="46546" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:28:04.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1868p1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1868p1/ebook/frus1868p1.epub"/>
+                        <extent>
+                            <measure quantity="1615505" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:28:04.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1868p1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1868p1/ebook/frus1868p1.mobi"/>
+                        <extent>
+                            <measure quantity="2313305" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:28:04.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1869 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">johnson-a</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>belgium</term>
+                    <term>canada</term>
+                    <term>china</term>
+                    <term>egypt</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>europe</term>
+                    <term>france</term>
+                    <term>ireland</term>
+                    <term>japan</term>
+                    <term>johnson-andrew</term>
+                    <term>labor</term>
+                    <term>law-of-the-sea</term>
+                    <term>netherlands</term>
+                    <term>neutrality</term>
+                    <term>nicaragua</term>
+                    <term>norway</term>
+                    <term>paraguay</term>
+                    <term>peace</term>
+                    <term>political-prisoners</term>
+                    <term>property-claims</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>protocol</term>
+                    <term>russia</term>
+                    <term>seward-william-henry</term>
+                    <term>sweden</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>united-kingdom</term>
+                    <term>war-of-1812</term>
+                    <term>guernsey</term>
+                    <term>jersey</term>
+                    <term>suriname</term>
+                    <term>the-bahamas</term>
+                    <term>grenada</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1868p1" status="published" when="1869"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="" xml:id="pg-seq-1"/>
+            <pb facs="0002" n="" xml:id="pg-seq-2"/>
+            <pb facs="0003" n="" xml:id="pg-seq-3"/>
+            <pb facs="0004" n="" xml:id="pg-seq-4"/>
+            <pb facs="0005" n="" xml:id="pg-seq-5"/>
+            <pb facs="0006" n="" xml:id="pg-seq-6"/>
+            <pb facs="0007" n="[I]" xml:id="pg-seq-7"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Papers Relating to Foreign Affairs, Accompanying the
+                        Annual Message of the President to the Third Session of the Fortieth
+                        Congress</titlePart>
+                    <titlePart type="subseries">Part I</titlePart>
+                </docTitle>
+                <docImprint>Washington: Government Printing Office, 1869</docImprint>
+            </titlePage>
+            <pb facs="0008" n="[II]" xml:id="pg-seq-8"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+            <xi:include href="front/message.xml" xpointer="message"/>
+            <pb facs="0066" n="[18]" xml:id="pg18"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <pb facs="0895" n="" xml:id="pg-seq-895"/>
+            <pb facs="0896" n="" xml:id="pg-seq-896"/>
+            <pb facs="0897" n="" xml:id="pg-seq-897"/>
+            <pb facs="0898" n="" xml:id="pg-seq-898"/>
+        </body>
+    </text>
+</TEI>

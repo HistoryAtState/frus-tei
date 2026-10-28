@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v18_d29-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tab A</title>
+            </titleStmt>
+            <xi:include href="../../frus1964-68v18_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1964-68v18_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v18/d29-a1"
+                    type="canonical"/>
+                <relatedItem target="d29.xml" type="prev"/>
+                <relatedItem target="d29-a2.xml" type="next"/>
+                <relatedItem target="d29.xml" type="parent"/>
+                <relatedItem target="d29.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v18</bibl>
+                <bibl type="frus-division-id">d29-a1</bibl>
+                <bibl type="frus-division-n">29.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="69" to="69" unit="page"
+                        >69</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1964-03-14">March 14, 1964</date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v18/persons">
+                    <term ref="frus:frus1964-68v18/persons#p_FM6">Feldman, Myer</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d29-a1">
+
+                <pb facs="0101" n="69" sameAs="frus:frus1964-68v18/pg69"/>
+
+                <head>Tab A</head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1964-03-14">March 14, 1964</date>.</dateline></opener>
+                <p rendition="#center">
+                    <hi rendition="#bold">Memorandum From the President’s Deputy Special Counsel
+                            (Feldman) to President
+                        Johnson</hi>
+                </p>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Tanks for Israel</item>
+                </list>
+                <p>I agree with the Bundy memorandum. However, I would urge
+                    that we make the decision as soon as possible as to whether or not we are going
+                    to supply tanks to Israel, leaving for a later determination the terms under
+                    which they will be acquired.</p>
+                <p>If it is decided that we should supply the tanks, I should like to be able to
+                    convey this decision, in confidence, to the leaders of the Jewish community.
+                    They have shown in the past that they can keep a secret.</p>
+                <p>Attached is an elaboration of my views on this problem.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Myer Feldman
+                        </hi>
+                    </signed><anchor n="3" xml:id="d29-f1"/>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d29-f1" n="3" xml:id="d29-f1-content">
+                <p>Printed from a copy that bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

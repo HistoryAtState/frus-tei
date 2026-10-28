@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p2v1_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1872p2v1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1872p2v1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1872p2v1/errata"
+                    type="canonical"/>
+                <relatedItem target="../body/comp3/ch1/ch1subch7/d512-a1.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1872p2v1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1872p2v1</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="856" to="856" unit="page"
+                        >856</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1872-12-01T23:55:59-05:00" notBefore="1811-07-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0870" n="856" sameAs="frus:frus1872p2v1/pg856"/>
+
+                <head>Errata</head>
+                <p>The following error has been identified in <hi rendition="#italic">Papers
+                        Relating to the Foreign Relations of the United States</hi>, Transmitted to
+                    Congress with the Annual Message of the President, December 2, 1872, Part II,
+                    Volume I. Please be aware that printed volumes have not been revised.</p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#pg722">Page 722</ref> (date of errata
+                            entry: December 5, 2018)</hi>
+                    </item>
+                    <item>In the original printed edition, the <ref target="#d268">document
+                            beginning at the bottom of the page</ref> was dated as 1896. Based on
+                        the date of publication and the date of documents surrounding this one, the
+                        encoded date was corrected to 1869, but the text of the document has not
+                        been changed.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

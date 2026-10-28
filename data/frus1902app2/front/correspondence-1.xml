@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app2_correspondence-1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../frus1902app2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1902app2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1902app2/correspondence-1"
+                    type="canonical"/>
+                <relatedItem target="united-states.xml" type="prev"/>
+                <relatedItem target="correspondence-2.xml" type="next"/>
+                <relatedItem target="../frus1902app2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app2</bibl>
+                <bibl type="frus-division-id">correspondence-1</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="3" to="3" unit="page"
+                    >3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1902-12-09T23:59:59-05:00" notBefore="1902-12-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="correspondence-1">
+
+                <pb facs="0011" n="3" xml:id="pg3"/>
+
+                <head>[Untitled]</head>
+                <p rendition="#flush">The <hi rendition="#small-caps">Senate</hi>:</p>
+                <p>In response to the Senate resolution of the 4th instant, I transmit herewith a
+                    report from the Secretary of State forwarding the report of the agent of the
+                    United States in the case of the United States <hi rendition="#italic">v</hi>.
+                    Mexico before the Permanent Court of Arbitration under The Hague Convention.</p>
+                <closer><signed><hi rendition="#small-caps">Theodore Roosevelt.</hi></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><placeName><hi rendition="#small-caps">White
+                                House</hi></placeName>,<lb/><date calendar="gregorian"
+                            when="1902-12-09"><hi rendition="#italic">December 9,
+                        1902</hi></date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

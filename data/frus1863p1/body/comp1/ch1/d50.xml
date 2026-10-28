@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1863p1_d50" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1863p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1863p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1863p1/d50"
+                    type="canonical"/>
+                <relatedItem target="d49.xml" type="prev"/>
+                <relatedItem target="d50-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1863p1</bibl>
+                <bibl type="frus-division-id">d50</bibl>
+                <bibl type="frus-division-n">50</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="87" to="88" unit="page"
+                        >87–88</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                        notAfter="1862-10-27T23:59:59-04:56" notBefore="1862-10-26T00:00:00-04:56"
+                        >undated</date>
+                    <date notAfter="1862-10-27T23:55:59-05:00" notBefore="1862-10-25T23:56:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d50">
+
+                <pb facs="0129" n="87" sameAs="frus:frus1863p1/pg87"/>
+
+                <head ana="#head_untitled-missing-head-in-printed-volume">[Untitled]</head>
+                <opener>[<dateline rendition="#float-right">
+                        <date ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                            notAfter="1862-10-27T23:59:59-04:56"
+                            notBefore="1862-10-26T00:00:00-04:56"
+                    >undated</date>.]</dateline></opener>
+                <p>It seems that previous to the departure of Mr. George N. Sanders for Europe
+                    certain legislation of the confederate congress, which had been proposed in the
+                    matter of contracting for the construction of iron-clad ships in Europe,
+                    encountered the opposition of that gentleman. The following memorandum from him
+                    on this subject is found among the intercepted papers. Addressed to “Reid
+                    Sanders,” it was probably placed by the latter in the hands of Mr. Memminger or
+                    Mr. Mallory, respectively, the secretaries of the confederate treasury and
+                    navy:</p>
+                <p rendition="#right"><hi rendition="#small-caps">Richmond</hi>, <hi
+                        rendition="#italic">August</hi> 5, 1862.</p>
+                <p>Any legislation in regard to the construction of iron-clad steamers until time is
+                    given me to get mine under way will be very unjust. My detention here was
+                    necessary to the perfection of the contracts, which took much time and
+                    reflection. The final instructions of the Navy Department have been issued but a
+                    few days. Bunglers entering the European market might endanger the entire
+                    scheme. Great skill and diplomacy must be exercised to avoid the interference of
+                    European governments.</p>
+                <p>No one is entitled to my suggestions until full time is given me to carry them
+                    out.</p>
+                <closer>
+                    <signed>GEORGE N. SANDERS.</signed></closer>
+                <postscript>
+                    <p><hi rendition="#small-caps">Reid Sanders.</hi></p>
+                </postscript>
+
+
+
+                <xi:include href="d50-a1.xml" xpointer="d50-a1"/>
+                <xi:include href="d50-a2.xml" xpointer="d50-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v07" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1964-68v07_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1964-68v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1964-68v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1964-68v07"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1964-68v07" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v07/covers/frus1964-68v07.jpg"/>
+                        <extent>
+                            <measure quantity="35679" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:52:09.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v07" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v07/ebook/frus1964-68v07.epub"/>
+                        <extent>
+                            <measure quantity="1135938" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:52:09.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v07" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v07/ebook/frus1964-68v07.mobi"/>
+                        <extent>
+                            <measure quantity="1775424" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:52:09.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 2003 as printed book and online at state.gov</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">johnson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>vietnam</term>
+                    <term>armistices</term>
+                    <term>peace</term>
+                    <term>burma</term>
+                    <term>cambodia</term>
+                    <term>china</term>
+                    <term>france</term>
+                    <term>indonesia</term>
+                    <term>japan</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>laos</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>norway</term>
+                    <term>philippines</term>
+                    <term>rusk-david-dean</term>
+                    <term>singapore</term>
+                    <term>thailand</term>
+                    <term>arms-control-and-disarmament</term>
+                    <term>united-nations</term>
+                    <term>virgin-islands-u-s</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1964-68v07" status="published" when="2003"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1964–1968</titlePart>
+                    <titlePart type="volumenumber">Volume VII</titlePart>
+                    <titlePart type="volume">Vietnam, September 1968–January 1969</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline>
+                    <hi rendition="#italic">Editors</hi>: Kent Sieg
+                </byline>
+                <byline>
+                    <hi rendition="#italic">General Editor</hi>: Edward C.
+                        Keefer
+                </byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>2003</docDate>
+                    <pb facs="0002" n="[II]" xml:id="pgII"/> Department of State Publication 11041 <lb/>
+                    <hi rendition="#small-caps">Office of the Historian<lb/>Bureau of Public
+                        Affairs</hi>
+                    <lb/> For sale by the U.S. Government Printing
+                    Office<lb/>Internet: bookstore.gop.gov Phone: toll free (866) 512-1800; DC area
+                    (202) 512-1800<lb/>Fax: (202) 512-2250 Mail Stop: SSOP, Washington, DC
+                    20402-0001<lb/>ISBN 0–16–051396–0</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0008" n="[VIII]" xml:id="pgVIII"/>
+            <xi:include href="front/subseriesvols.xml" xpointer="subseriesvols"/>
+            <pb facs="0010" n="[X]" xml:id="pgX"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0012" n="[XII]" xml:id="pgXII"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0028" n="[XXVIII]" xml:id="pgXXVIII"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <pb facs="0034" n="[XXXIV]" xml:id="pgXXXIV"/>
+            <xi:include href="body/copm1.xml" xpointer="copm1"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+            <xi:include href="back/errata.xml" xpointer="errata"/>
+        </back>
+    </text>
+</TEI>

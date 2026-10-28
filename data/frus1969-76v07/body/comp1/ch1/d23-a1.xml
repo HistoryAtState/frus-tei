@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v07_d23-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Attachment</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v07/d23-a1"
+                    type="canonical"/>
+                <relatedItem target="d23.xml" type="prev"/>
+                <relatedItem target="d24.xml" type="next"/>
+                <relatedItem target="d23.xml" type="parent"/>
+                <relatedItem target="d23.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v07</bibl>
+                <bibl type="frus-division-id">d23-a1</bibl>
+                <bibl type="frus-division-n">23.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="46" to="46" unit="page"
+                        >46</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v07/terms">
+                    <term ref="frus:frus1969-76v07/terms#t_AIK1">AIK</term>
+                    <term ref="frus:frus1969-76v07/terms#t_DOD1">DOD</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d23-a1">
+
+                <pb facs="0085" n="46" sameAs="frus:frus1969-76v07/pg46"/>
+
+                <head>
+                    <hi rendition="#bold">Attachment</hi>
+                </head>
+                <p rendition="#center">FY 1971 Sources of Commercial Import Financing ($ US
+                    Millions)</p>
+                <table cols="2" rows="4">
+                    <row role="label">
+                        <cell>CIP</cell>
+                        <cell role="num">300</cell>
+                    </row>
+                    <row>
+                        <cell>PL–480</cell>
+                        <cell role="num">135</cell>
+                    </row>
+                    <row>
+                        <cell>U.S. Piaster Purchases</cell>
+                        <cell role="num">305</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell role="num">740</cell>
+                    </row>
+                </table>
+                <p rendition="#flush">
+                    <hi rendition="#italic">Derivation of U.S. Piaster Purchases</hi>
+                </p>
+                <p rendition="#flush">
+                    <hi rendition="#italic">Expenditures</hi>
+                </p>
+                <table cols="2" rows="5">
+                    <row role="label">
+                        <cell>
+                            DOD Regular</cell>
+                        <cell role="num">260</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            DOD Other<anchor n="3" xml:id="d23-f1"/>
+                        </cell>
+                        <cell role="num">50</cell>
+                    </row>
+                    <row>
+                        <cell>Civil Official</cell>
+                        <cell role="num">50</cell>
+                    </row>
+                    <row>
+                        <cell>Personal Purchases</cell>
+                        <cell role="num">40</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell role="num">400</cell>
+                    </row>
+                </table>
+                <p rendition="#flush">
+                    <hi rendition="#italic">Sources of Piasters</hi>
+                </p>
+                <table cols="2" rows="6">
+                    <row role="label">
+                        <cell>
+                            AIK
+                        </cell>
+                        <cell role="num">20</cell>
+                    </row>
+                    <row>
+                        <cell>Trust Fund</cell>
+                        <cell role="num">40</cell>
+                    </row>
+                    <row>
+                        <cell>PL–480</cell>
+                        <cell role="num">25</cell>
+                    </row>
+                    <row>
+                        <cell>Other</cell>
+                        <cell role="num">10</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell role="num">95</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            <hi rendition="#italic">Net U.S. Piaster Purchases</hi>
+                        </cell>
+                        <cell role="num">$305</cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d23-f1" n="3" xml:id="d23-f1-content">
+                <p>Based on $15 million for Special Forces, $35 million for RDC. [Footnote in the
+                    original.]</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v04_d209" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum From Secretary of Defense Brown to President Carter</title>
+            </titleStmt>
+            <xi:include href="../../../frus1977-80v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1977-80v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1977-80v04/d209"
+                    type="canonical"/>
+                <relatedItem target="d208.xml" type="prev"/>
+                <relatedItem target="d210.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1977-80v04</bibl>
+                <bibl type="frus-division-id">d209</bibl>
+                <bibl type="frus-division-n">209</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="880" to="882" unit="page"
+                        >880–82</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1980-08-02">August 2, 1980</date>
+                    <date notAfter="1980-08-02T23:59:59-05:00" notBefore="1980-08-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1977-80v04/persons">
+                    <term ref="frus:frus1977-80v04/persons#p_BH_1">Brown, Harold</term>
+                </keywords>
+                <keywords scheme="frus:frus1977-80v04/terms">
+                    <term ref="frus:frus1977-80v04/terms#t_NORAD_1">NORAD</term>
+                    <term ref="frus:frus1977-80v04/terms#t_S_1">S</term>
+                    <term ref="frus:frus1977-80v04/terms#t_U_1">U</term>
+                    <term ref="frus:frus1977-80v04/terms#t_US_1">US</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d209">
+
+                <pb facs="0905" n="880" xml:id="pg880"/>
+
+                <head>209. Memorandum From Secretary of Defense Brown to President Carter<anchor
+                        n="1" xml:id="d209-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1980-08-02">August 2,
+                    1980</date></dateline></opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>False Alerts (U)</item>
+                </list>
+                <p>My last memorandum on this subject was on July 2.<anchor n="2" xml:id="d209-f2"/>
+                    In that memorandum I summarized the corrective actions underway to prevent false
+                    missile warning displays like those which resulted in alerts of Strategic Air
+                    Command bomber crews on June 3 and 6. The purpose of this memorandum is to
+                    provide an update on the status of those actions. (U)</p>
+                <p>Subsequent to the June 6 false warning, Aerospace Defense Command (ADCOM)
+                    suspended operation of the NORAD Missile
+                    Warning Computer System (427M) as its primary means for providing missile
+                    warning data and attack assessment to other US
+                    and Canadian command centers. While the factors which contributed to the false
+                    alerts on June 3 and 6 are being corrected, NORAD is providing such data to its customers via a completely
+                    different computer, the Minimum Essential Back-up (MEBU) computer. (C)</p>
+                <p>I believe there were three major contributors to the false alert events of June 3
+                    and 6: (1) a physical electronic failure in a circuit board of the 427M system,
+                    (2) computer programs which lacked sufficient error detection capability to
+                    prevent spurious data from being transmitted to NORAD’s customers, and (3) lack of a monitoring system which would
+                    permit NORAD personnel—whose mission it is to
+                    provide accurate warning data and attack assessment—to examine what they were
+                    sending to their customers. All three of these discrepancies require correction,
+                    but had any one of them been resolved prior to 3 June, the false alerts either
+                    would not have occurred or would have been resolved more expeditiously. (S)</p>
+                <p>Analysis of the June 3 and 6 events has all but convinced ADCOM and the
+                    independent team of computer experts from the private sector that the failure
+                    was associated with a specific micro-electronic integrated circuit in a
+                    particular data communications interface device at NORAD. Nevertheless, the actual physical phenomenon which caused
+                    that circuit to produce the spurious signals on June 3 and 6 is still <pb
+                        facs="0906" n="881" xml:id="pg881"/> unknown. There are 552 circuit boards
+                    in the 427M which are generally similar in design and fabrication (commercial
+                    rather than military quality) to the one that failed on June 3 and 6. These
+                    boards, used as interfaces throughout the 427M system, remain the primary
+                    vulnerability of the 427M today. Since these boards cannot be quickly redesigned
+                    and replaced, it is imperative that we take a very conservative approach to
+                    error detection and correction in the system’s computer programs. (S)</p>
+                <p rendition="#section-heading #italic">Error Detection (U)</p>
+                <p>When the spurious signals were transmitted to NORAD’s customers on June 3 and 6, error checking throughout the
+                    missile warning system was totally inadequate. Relatively simple error checks in
+                    the data stream which would detect random errors were removed and restored by
+                    the computer system as data messages were routed through various elements of the
+                    system. Although (as a result of changes made since the incidents) such simple
+                    error checks are now carried consistently through the 427M system and through
+                    the computers at the receiving command centers, these checks are inadequate to
+                    prevent bursts of errors from producing false data messages as occurred on June
+                    3 and 6. That is, if the 427M were on-line today and the same failure that
+                    occurred on June 3 and 6 were to recur, it is highly likely that some erroneous
+                    messages would again be transmitted and appear on the displays of NORAD’s customer command centers. (S)</p>
+                <p>The solution to this problem is the incorporation of a very powerful
+                    error-detection technique known as cyclic redundancy codes (CRC) into the
+                    computer programs of the missile warning system. Installation of CRC will delay
+                    the return to full operation of the more capable 427M for another three months,
+                    but I believe it is essential that we do so in order to provide acceptable
+                    assurance that bursts of errors caused by circuit failures will not cause false
+                    data messages to be sent. (C)</p>
+                <p rendition="#section-heading #italic">Quality Control (U)</p>
+                <p>It is the responsibility of the people on duty in the NORAD Cheyenne Mountain Complex (NCMC) to provide valid, accurate
+                    warning information to the other command centers as well as to provide a NORAD assessment. Yet prior to June 6 the crew
+                    on duty in the NCMC had no way of inspecting the data they were transmitting to
+                    their customers; they had to assume that the data they were seeing displayed
+                    were the same as those which were being transmitted to the other command
+                    centers. This, we are now well aware, was an erroneous assumption, but the fact
+                    that the people most qualified to analyze the data discrepancy on June 3 and
+                    6—the people in the NORAD Cheyenne Mountain
+                    Complex—were isolated from observation of the false <pb facs="0907" n="882"
+                        xml:id="pg882"/> data being sent to their customers delayed expeditious
+                    resolution on the spot of the false alert which ensued. (S)</p>
+                <p>To address this problem we are in the process of installing monitoring devices on
+                    the data lines exiting the NORAD Cheyenne
+                    Mountain Complex. These devices will provide audible and visual alarms to the
+                    Systems Controller and the Missile Warning Officer at NORAD whenever a warning message is transmitted to the National
+                    Military Command Center or to Strategic Air Command Headquarters. The NORAD Systems Controller and the Missile Warning
+                    Officer can then expeditiously examine the validity of such messages and quickly
+                    advise the receiving command center should the message be false. (C)</p>
+                <p>The independent team of computer experts from the private sector concluded, as I
+                    had, that it is unlikely that a system as large and complex as the NORAD missile warning system can be made
+                    completely failure-proof. Nevertheless, I find some reassurance in the following
+                    general conclusion from their report: “The checks and balances and practices are
+                    such that the events of June 3rd and June 6th, by themselves, could not have led
+                    to an improper use of nuclear weapons.” But we need to improve the system and
+                    our procedures. We have done so and will make further improvements.<anchor n="3"
+                        xml:id="d209-f3"/> (S)</p>
+                <closer><signed><hi rendition="#bold">Harold
+                            Brown</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d209-f1" n="1" type="source" xml:id="d209-f1-content">
+                <p>Source: Carter Library, National Security Affairs, Brzezinski Material, Subject
+                    File, Box 42, Missile Warning Incidents: 11/79–8/80. Secret. Brzezinski sent the
+                    memorandum to Carter under cover of an August 6 memorandum. (Ibid.)</p>
+            </note>
+            <note corresp="#d209-f2" n="2" xml:id="d209-f2-content">
+                <p>See <ref target="#d202">Document 202</ref>.</p>
+            </note>
+            <note corresp="#d209-f3" n="3" xml:id="d209-f3-content">
+                <p>Carter wrote below Brown’s signature: “The deficiencies were/are serious. J.”
+                    Brzezinski returned the memorandum to Brown under cover of an August 7
+                    memorandum drawing attention to Carter’s comment. (Carter Library, National
+                    Security Affairs, Brzezinski Material, Subject File, Box 42, Missile Warning
+                    Incidents: 11/79–8/80)</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

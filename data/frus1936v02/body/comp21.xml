@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1936v02_comp21" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Yugoslavia:</title>
+            </titleStmt>
+            <xi:include href="../frus1936v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1936v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1936v02/comp21"
+                    type="canonical"/>
+                <relatedItem target="comp20.xml" type="prev"/>
+                <relatedItem target="comp21/ch45.xml" type="next"/>
+                <relatedItem target="../frus1936v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1936v02</bibl>
+                <bibl type="frus-division-id">comp21</bibl>
+                <bibl type="frus-division-n">21</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="817" to="837" unit="page"
+                        >817–37</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1936-12-21T14:00:00-05:00" notBefore="1935-12-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp21">
+
+                <pb facs="0916" n="817" xml:id="pg817"/>
+
+                <head>Yugoslavia:</head>
+
+
+                <xi:include href="comp21/ch45.xml" xpointer="ch45"/>
+                <xi:include href="comp21/ch46.xml" xpointer="ch46"/>
+            </div>
+        </body>
+    </text>
+</TEI>

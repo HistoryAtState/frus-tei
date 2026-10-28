@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav01_d14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Russia (Francis) to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1918Russiav01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1918Russiav01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav01/d14"
+                    type="canonical"/>
+                <relatedItem target="d13.xml" type="prev"/>
+                <relatedItem target="d14-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav01</bibl>
+                <bibl type="frus-division-id">d14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="14" unit="page"
+                        >13–14</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Petrograd</hi></placeName>
+                    <date calendar="julian gregorian" when="1917-03-26">
+                        <hi rendition="#italic">March 13/26, 1917</hi></date>
+                    <date notAfter="1917-03-26T23:59:59-05:00" notBefore="1917-03-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav01/persons">
+                    <term ref="frus:frus1918Russiav01/persons#p_FDR1">Francis, David R.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d14">
+
+                <pb facs="0087" n="13" sameAs="frus:frus1918Russiav01/pg13"/>
+
+                <note rend="inline" type="source">File No. 861.00/365</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Russia</hi> (<hi rendition="#italic"
+                        >Francis</hi>) <hi rendition="#italic">to the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 657</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Petrograd</hi></placeName>, <date
+                            calendar="julian gregorian" when="1917-03-26">
+                            <hi rendition="#italic">March 13/26, 1917</hi></date>. <lb/> [<hi
+                            rendition="#italic">Received May 19.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: In my unnumbered despatch of
+                        yesterday,<anchor n="1" xml:id="d14-f1"/> the original of which was sent in
+                    pouch to Stockholm and a copy of which is in this pouch, I gave the details and
+                    sequence of my recognition on behalf of our Government of the new Government of
+                    Russia.</p>
+                <p>I have the honor to forward herewith copies of the correspondence between the
+                    American Embassy and the Foreign Office on the subject.<anchor n="2"
+                        xml:id="d14-f2"/>
+                </p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        
+                            <hi rendition="#small-caps">David R. Francis</hi>
+                        
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d14-a1.xml" xpointer="d14-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d14-f1" n="1" xml:id="d14-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d14-f2" n="2" xml:id="d14-f2-content">
+                <p>Note of Ambassador Francis of Mar. 9/22
+                    not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

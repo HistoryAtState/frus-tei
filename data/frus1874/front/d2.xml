@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1874_d2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Campbell to Mr.
+                            Fish.</title>
+            </titleStmt>
+            <xi:include href="../frus1874_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1874_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1874/d2"
+                    type="canonical"/>
+                <relatedItem target="d1.xml" type="prev"/>
+                <relatedItem target="d2-a1.xml" type="next"/>
+                <relatedItem target="../frus1874.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1874</bibl>
+                <bibl type="frus-division-id">d2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="XXV" to="XXVII" unit="page"
+                        >XXV–XXVII</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Northern Boundary
+                            Commission</hi>,<lb/><hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1874-12-02"><hi rendition="#italic"
+                            >December</hi> 2, 1874</date>
+                    <date notAfter="1874-12-02T23:59:59-05:00" notBefore="1874-12-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d2">
+
+                <pb facs="0059" n="XXV" sameAs="frus:frus1874/pgXXV"/>
+
+                <head><hi rendition="#italic">Mr. Campbell to Mr.
+                            Fish.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >United States Northern Boundary Commission</hi>,<lb/><hi
+                                rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1874-12-02"><hi rendition="#italic"
+                                >December</hi> 2, 1874</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith, for
+                    the information of the Department, a preliminary report and sketch from Major W.
+                    J. Twining, <pb facs="0060" n="XXVI" xml:id="pgXXVI"/> United States Engineers,
+                    chief astronomer of the commission, showing the progress of the survey of the
+                    boundary during the past season.</p>
+                <p>From this report it will be seen that the survey of the boundary-line defined in
+                    the treaty of 1818 has been completed, and connected (on the summit of the Rocky
+                    Mountains) with the eastern terminus of the boundary-line from the Pacific Ocean
+                    defined in the treaty of 1816. The whole boundary-line between the United States
+                    and British Possessions has now been established, with the exception of the
+                    boundary between British Columbia and Alaska.</p>
+                <p>The United States commission and the British commission are now engaged in
+                    working out the results of their field operations for the purpose of preparing
+                    the final joint maps necessary to a proper representation of the boundary-line
+                    and the territories adjacent thereto.</p>
+                <p>I have the honor to be, very respectfully, your obedient servant,</p>
+                <closer><signed>ARCHIBALD CAMPBELL,<lb/><hi rendition="#italic">Commissioner
+                            Northern Boundary Survey</hi>.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">Hamilton Fish</hi>,<lb/><hi
+                            rendition="#italic">Secretary of State.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d2-a1.xml" xpointer="d2-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

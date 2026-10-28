@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v03mSupp_d800" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegram 487 from Prague</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v03mSupp/d800"
+                    type="canonical"/>
+                <relatedItem target="d799.xml" type="prev"/>
+                <relatedItem target="d801.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v03mSupp</bibl>
+                <bibl type="frus-division-id">d800</bibl>
+                <bibl type="frus-division-n">800</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Prague</placeName>
+                    <date calendar="gregorian" when="1957-04-05">April 5, 1957, 11 a.m.</date>
+                    <date notAfter="1957-04-05T23:59:59-05:00" notBefore="1957-04-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v03mSupp/persons">
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_ELCRB_1">Ekvall, Lieutenant
+                        Colonel Robert B.</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_JUA_1">Johnson, U. Alexis</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_WP_1">Wang Ping-nan</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d800">
+
+                <pb facs="1402" n="1355" sameAs="frus:frus1955-57v03mSupp/pg1355"/>
+
+                <head>800. Telegram 487 from Prague<anchor n="1" xml:id="d800-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Prague</placeName>, <date
+                            calendar="gregorian" when="1957-04-05">April 5, 1957, 11
+                        a.m.</date></dateline>
+                </opener>
+                <pb facs="d800-1" n="1" type="facsimile" xml:id="d800-1"/>
+                <p>487. Wang’s interpreter called Ekvall this morning and asked for
+                    postponement next meeting to May 15 as Wang was in China in connection visit Polish Prime Minister. I
+                    have replied May 15 not possible for me and have suggested any time between May
+                    6 and May 9. Will inform Department when reply received.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Johnson</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d800-f1" n="1" type="source" xml:id="d800-f1-content">
+                <p>Source: Department of State, Central Files, 611.93/4–557. Official Use Only;
+                    Priority.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

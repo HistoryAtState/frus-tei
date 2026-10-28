@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v03_comp7" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Italy:</title>
+            </titleStmt>
+            <xi:include href="../frus1950v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1950v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1950v03/comp7"
+                    type="canonical"/>
+                <relatedItem target="comp6/ch17.xml" type="prev"/>
+                <relatedItem target="comp7/ch18.xml" type="next"/>
+                <relatedItem target="../frus1950v03.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v03</bibl>
+                <bibl type="frus-division-id">comp7</bibl>
+                <bibl type="frus-division-n">7</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1482" to="1521" unit="page"
+                        >1482–1521</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1950-12-04T19:00:00-05:00" notBefore="1950-01-12T17:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp7">
+
+                <pb facs="1506" n="1482" xml:id="pg1482"/>
+
+                <head>Italy:</head>
+
+
+
+
+                <xi:include href="comp7/ch18.xml" xpointer="ch18"/>
+                <xi:include href="comp7/ch19.xml" xpointer="ch19"/>
+                <xi:include href="comp7/ch20.xml" xpointer="ch20"/>
+            </div>
+        </body>
+    </text>
+</TEI>

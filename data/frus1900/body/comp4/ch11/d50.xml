@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d50" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr.
+                            Bryan.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d50"
+                    type="canonical"/>
+                <relatedItem target="d49.xml" type="prev"/>
+                <relatedItem target="d50-a1.xml" type="next"/>
+                <relatedItem target="../ch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d50</bibl>
+                <bibl type="frus-division-n">50</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="61" to="62" unit="page"
+                        >61–62</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-11-23"><hi rendition="#italic">November
+                            23, 1900</hi></date>
+                    <date notAfter="1900-11-23T23:59:59-05:00" notBefore="1900-11-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d50">
+
+                <pb facs="0157" n="61" sameAs="frus:frus1900/pg61"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr.
+                            Bryan.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-11-23"><hi rendition="#italic">November 23,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 222.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to your No. 278, of September 20
+                    last, in regard to the Portuguese label law, I inclose copy of a letter from
+                    Frederick Stearns &amp; Co., protesting against the law.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+                <xi:include href="d50-a1.xml" xpointer="d50-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

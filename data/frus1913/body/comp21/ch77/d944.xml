@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_d944" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/d944"
+                    type="canonical"/>
+                <relatedItem target="d943.xml" type="prev"/>
+                <relatedItem target="d945.xml" type="next"/>
+                <relatedItem target="../ch77.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">d944</bibl>
+                <bibl type="frus-division-n">944</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="782" to="782" unit="page"
+                        >782</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Mexico City</hi></placeName>
+                    <date calendar="gregorian" when="1913-03-24">
+                        <hi rendition="#italic">March 24, 1913</hi></date>
+                    <date notAfter="1913-03-24T23:59:59-05:00" notBefore="1913-03-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d944">
+
+                <pb facs="0886" n="782" sameAs="frus:frus1913/pg782"/>
+
+                <note rend="inline" type="source">File No. 812.00/6867.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Mexico City</hi></placeName>, <date
+                            calendar="gregorian" when="1913-03-24">
+                            <hi rendition="#italic">March 24, 1913</hi></date>.</dateline>
+                </opener>
+                <p>132. A bill has been passed by Congress granting full amnesty for the
+                    revolutionary period up to the establishment of the Provisional Government. Also
+                    a bill confiscating the estates of contributors to the revolution against the
+                    Provisional Government.</p>
+                <p>On account of failure to secure formal recognition the Government is having
+                    difficulty in negotiating its proposed loan.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Henry Lane Wilson</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v16_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1961-63v16_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1961-63v16_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v16/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1961-63v16.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v16</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="789" to="789" unit="page"
+                        >789</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1963-11-03T23:59:59-05:00" notBefore="1961-01-03T22:15:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0811" n="789" xml:id="pg789"/>
+
+                <head>Errata</head>
+                <p>The following changes have been made to the online version of <ref
+                        target="frus:frus1961-63v16">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1961–1963, Volume XVI,
+                        Eastern Europe; Cyprus; Greece; Turkey</ref>. Please be aware that printed
+                    volumes have not been revised. Revised information is in italic.</p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#d115-f2">Footnote 1, Document
+                                115</ref>. Page 250.</hi>
+                    </item>
+                    <item>The revised footnote reads: “1. <hi rendition="#italic">In November 1961,
+                            West German authorities arrested Yugoslav businessman L. Varcaric in
+                            Munich for the killing of two German soldiers during World War II. Less
+                            than a week later, Varcaric was released amidst protests from the
+                            Yugoslav government.</hi>”</item>
+                    <item>Footnote 1 originally read: “1. On November 11, 1961, Yugoslav authorities
+                        arrested a West German businessman, L. Vracaric, and charged him with war
+                        crimes. Following protests from the West German Government, he was
+                        released.”</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1933v03" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1933v03_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1933v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1933v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1933v03"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1933v03" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1933v03/covers/frus1933v03.jpg"/>
+                        <extent>
+                            <measure quantity="27979" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:16:33.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1933v03" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1933v03/ebook/frus1933v03.epub"/>
+                        <extent>
+                            <measure quantity="1543098" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:16:33.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1933v03" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1933v03/ebook/frus1933v03.mobi"/>
+                        <extent>
+                            <measure quantity="2065509" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:16:33.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1949 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">hoover</term>
+                    <term xml:id="admin3">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                    <term corresp="#admin3">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>china</term>
+                    <term>japan</term>
+                    <term>thailand</term>
+                    <term>arms-embargoes</term>
+                    <term>league-of-nations</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>foreign-investment</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>russia</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>foreign-protest-against-u-s-activity</term>
+                    <term>palau</term>
+                    <term>stimson-henry-lewis</term>
+                    <term>hoover-herbert</term>
+                    <term>hull-cordell</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1933v03" status="published" when="1949"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0005"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States<lb/>Diplomatic
+                        Papers</titlePart>
+                    <titlePart type="subseries">1933</titlePart>
+                    <titlePart type="volumeno">(In Five Volumes)<lb/>Volume III</titlePart>
+                    <titlePart type="volumetitle">The Far East</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing
+                        Office</publisher><lb/><pubPlace>Washington:</pubPlace><lb/><docDate>1949</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE<lb/><hi
+                        rendition="#small-caps">Publication</hi> 3508<lb/>For sale by
+                    the<lb/>Superintendent of Documents, U. S. Government Printing
+                    Office<lb/>Washington 25, D. C. Price $2.75 (Buckram)</docImprint>
+            </titlePage>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/toc-papers.xml" xpointer="toc-papers"/>
+            <pb facs="0102" n="[XCVIII]" xml:id="pgXCVIII"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <pb facs="0874" n="[772]" xml:id="pg772"/>
+            <pb facs="0875" n="[773]" xml:id="pg773"/>
+            <pb facs="0876" n="[774]" xml:id="pg774"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

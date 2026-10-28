@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d387" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Marshal Stalin</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d387"
+                    type="canonical"/>
+                <relatedItem target="d386.xml" type="prev"/>
+                <relatedItem target="d388.xml" type="next"/>
+                <relatedItem target="../ch9subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d387</bibl>
+                <bibl type="frus-division-n">387</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="617" to="618" unit="page"
+                        >617–18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1943-11-29T23:59:59-05:00" notBefore="1943-11-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_BCE2">Bohlen, Charles E.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d387">
+
+                <pb facs="0721" n="617" sameAs="frus:frus1943CairoTehran/pg617"/>
+
+                <note rend="inline" type="source">Bohlen
+                    Collection</note>
+                <head><hi rendition="#italic">President Roosevelt to Marshal Stalin</hi><anchor n="1" xml:id="d387-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Proposals Presented by United
+                        States Delegation at Moscow Conference</hi></p>
+                <p>During the recent Moscow Conference the United States Delegation proposed that
+                    air bases be made available in the U. S. S. R. on which <pb facs="0722" n="618"
+                        xml:id="pg618"/> United States aircraft could be refueled, emergency
+                    repaired and rearmed in connection with shuttle bombing from the United Kingdom.
+                    It was also proposed that a more effective mutual interchange of weather
+                    information be implemented and that both signal and air communication between
+                    our two countries be improved.<anchor n="2" xml:id="d387-f2"/></p>
+                <p>It was my understanding that the U. S. S. R. agreed to these proposals in
+                    principal [<hi rendition="#italic">principle</hi>] and that appropriate Soviet
+                    authorities would be given instructions to meet with my Military Mission for the
+                    purpose of considering concrete measures which would be necessary to carry out
+                    the proposals.</p>
+                <p>I hope that it will be possible to work out these arrangements promptly.</p>
+                <closer>
+                    <dateline rendition="#float-left">[<placeName>
+                            <hi rendition="#small-caps">Tehran</hi>
+                        </placeName>,] <date calendar="gregorian" when="1943-11-29">November 29,
+                            1943</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d387-f1" n="1" type="source" xml:id="d387-f1-content">
+                <p>For references to this document in the Conference discussions, see <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg529">pp. 529</ref>, <ref
+                        target="#pg596">596</ref>.</p>
+            </note>
+            <note corresp="#d387-f2" n="2" xml:id="d387-f2-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg136">p. 136</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

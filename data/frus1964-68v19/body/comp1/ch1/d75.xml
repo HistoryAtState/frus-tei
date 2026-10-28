@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v19_d75" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum</title>
+            </titleStmt>
+            <xi:include href="../../../frus1964-68v19_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1964-68v19_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v19/d75"
+                    type="canonical"/>
+                <relatedItem target="d74.xml" type="prev"/>
+                <relatedItem target="d76.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v19</bibl>
+                <bibl type="frus-division-id">d75</bibl>
+                <bibl type="frus-division-n">75</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="138" to="138" unit="page"
+                        >138</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                        when="1967-05-26">undated</date>
+                    <date notAfter="1967-05-26T23:59:59-05:00" notBefore="1967-05-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v19/persons">
+                    <term ref="frus:frus1964-68v19/persons#p_JLB1">Johnson, Lyndon B.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d75">
+
+                <pb facs="0170" n="138" sameAs="frus:frus1964-68v19/pg138"/>
+
+                <head>75. Memorandum</head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date
+                            ana="#date_undated-inferred-from-sibling-dates" calendar="gregorian"
+                            when="1967-05-26">undated</date>.</dateline></opener>
+                <note rend="inline" type="source">[Source: Johnson Library, National Security File, Country File, Middle
+                    East Crisis, Filed by the Johnson
+                    Library. Top Secret; [<hi rendition="#italic">codeword not declassified</hi>]. 2
+                    pages of source text not declassified.]</note>
+            </div>
+        </body>
+    </text>
+</TEI>

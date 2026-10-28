@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1885_d700" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Scott to Mr.
+                            Bayard.</title>
+            </titleStmt>
+            <xi:include href="../../frus1885_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1885_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1885/d700"
+                    type="canonical"/>
+                <relatedItem target="d699.xml" type="prev"/>
+                <relatedItem target="d700-a1.xml" type="next"/>
+                <relatedItem target="../comp26.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1885</bibl>
+                <bibl type="frus-division-id">d700</bibl>
+                <bibl type="frus-division-n">700</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="926" to="928" unit="page"
+                        >926–28</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Caracas</hi></placeName>
+                    <date calendar="gregorian" when="1885-10-14"><hi rendition="#italic"
+                            >October</hi> 14, 1885</date>
+                    <date notAfter="1885-10-14T23:59:59-05:00" notBefore="1885-10-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d700">
+
+                <pb facs="1054" n="926" sameAs="frus:frus1885/pg926"/>
+
+                <opener><seg rendition="#center">No. 700.</seg></opener>
+                <head><hi rendition="#italic">Mr. Scott to Mr.
+                            Bayard</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Caracas</hi></placeName>, <date calendar="gregorian"
+                            when="1885-10-14"><hi rendition="#italic">October</hi> 14, 1885</date>.
+                        (Received October 31.)</dateline>
+                    <seg rendition="#float-left">No. 35.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inform you that
+                    immediately on the receipt of your dispatch No. 22, dated Washington, September
+                    3, 1885, I addressed a note to the minister of exterior relations, of which the
+                    inclosure is a copy.</p>
+                <p>I also accompanied said note with an exhibit, containing the protests,
+                    declarations, and affidavits of the persons mentioned in your said dispatch in
+                    support of the claim of the master of the Lanie Cobb. As soon as I am able to
+                    obtain an answer thereto I will forward the same to the Department of State, and
+                    will endeavor to keep you advised as to the progress of the case, as requested
+                    to do.</p>
+                <p>I am, &amp;c.,</p>
+                <closer><signed>CHARLES L. SCOTT.</signed></closer>
+
+
+                <xi:include href="d700-a1.xml" xpointer="d700-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d45" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 45</title>
+                <title type="subtitle">President Truman to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d45"
+                    type="canonical"/>
+                <relatedItem target="d44.xml" type="prev"/>
+                <relatedItem target="d46.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d45</bibl>
+                <bibl type="frus-division-n">45</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="90" to="90" unit="page"
+                        >90</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-06-01">1 June 1945</date>
+                    <date notAfter="1945-06-01T23:59:59-05:00" notBefore="1945-06-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d45">
+
+                <pb facs="0222" n="90" xml:id="pg90"/>
+
+                <note rend="inline" type="source">
+                    Leahy Papers: Telegram</note>
+                <head>No. 45 <lb/>
+                    <hi rendition="#italic">President Truman to Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d45-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-06-01">1 June 1945</date>.</dateline>
+                </opener>
+                <p>51. Your number 60.<anchor n="2" xml:id="d45-f2"/>
+                    Marshal Stalin has informed me that he
+                    is agreeable to having our forthcoming meeting in the vicinity of Berlin about
+                    July fifteenth, which date also seems to be possible from the point of view of
+                    my domestic duties. I am looking forward with pleasure to seeing you at that
+                    time and with confidence that the meeting will produce results of great value to
+                    the future of our world.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d45-f1" n="1" type="source" xml:id="d45-f1-content">
+                <p>Presumably sent to the United States Naval Attaché, London, via Navy
+                    channels.</p>
+            </note>
+            <note corresp="#d45-f2" n="2" xml:id="d45-f2-content">
+                <p>
+                    <ref target="#d44">document No. 44</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

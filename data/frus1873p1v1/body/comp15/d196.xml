@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v1_d196" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 194.</title>
+                <title type="subtitle"><persName corresp="#p_SET1"
+                            type="from">Sir Edward Thornton</persName> to Mr. <persName type="to"
+                            >Davis</persName>.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1873p1v1/d196"
+                    type="canonical"/>
+                <relatedItem target="d195.xml" type="prev"/>
+                <relatedItem target="d196-a1.xml" type="next"/>
+                <relatedItem target="../comp15.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v1</bibl>
+                <bibl type="frus-division-id">d196</bibl>
+                <bibl type="frus-division-n">196</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="430" to="431" unit="page"
+                        >430–31</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Catskill Station</hi></placeName>
+                    <date calendar="gregorian" when="1873-07-18"><hi rendition="#italic">July</hi>
+                        18, 1873</date>
+                    <date notAfter="1873-07-18T23:59:59-05:00" notBefore="1873-07-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d196">
+
+                <pb facs="0516" n="430" sameAs="frus:frus1873p1v1/pg430"/>
+
+                <head>No. 194.<lb/><hi rendition="#italic"><persName corresp="#p_SET1" type="from"
+                            >Sir Edward Thornton</persName> to Mr. <persName type="to"
+                            >Davis</persName>.</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Catskill Station</hi></placeName>, <date calendar="gregorian"
+                            when="1873-07-18"><hi rendition="#italic">July</hi> 18, 1873</date>.
+                        (Received July 19.)</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In compliance with an instruction which I
+                    have received from Lord Granville, I have the honor to transmit herewith, for
+                    the information of the Government of the United States, a copy of the treaty
+                    which has been concluded with the Sultan of Zanzibar for the suppression of the
+                    slave-trade.</p>
+                <p>I have, &amp;c.,</p>
+                <closer>
+                    <signed><persName corresp="#p_SET1">EDW’D THORNTON</persName>.</signed>
+                </closer>
+
+
+
+                <xi:include href="d196-a1.xml" xpointer="d196-a1"/>
+                <xi:include href="d196-a2.xml" xpointer="d196-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

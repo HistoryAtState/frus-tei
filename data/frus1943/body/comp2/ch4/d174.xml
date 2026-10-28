@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d174" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d174"
+                    type="canonical"/>
+                <relatedItem target="d173.xml" type="prev"/>
+                <relatedItem target="d175.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d174</bibl>
+                <bibl type="frus-division-n">174</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="395" to="395" unit="page"
+                        >395</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-07-21">July 21, 1943</date>
+                    <date notAfter="1943-07-21T23:59:59-05:00" notBefore="1943-07-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_FNP1">Former Naval Person</term>
+                    <term ref="frus:frus1943/terms#t_Quadrant1">Quadrant</term>
+                    <term ref="frus:frus1943/terms#t_UJ1">UJ</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d174">
+
+                <pb facs="0509" n="395" xml:id="pg395"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to
+                        Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d174-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-07-21">July 21, 1943</date>.</dateline>
+                </opener>
+                <p>Number 320 personal and secret from the President for the Former Naval Person.</p>
+                <p>Referring to your numbers 371 and 372,<anchor n="2" xml:id="d174-f2"/> in
+                    consideration of the fact that so far I have had no word from UJ though I have wired him, I am in agreement with
+                    your suggestion that the “<hi
+                            rendition="#small-caps">Quadrant</hi>” conference be started
+                    about August fifteenth in the location of Montcalm.</p>
+                <p>Please inform me as early as possible of exact date of meeting that will suit
+                    your arrangements for transportation. If UJ moves
+                    I think August seventeenth would suit me better.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d174-f1" n="1" type="source" xml:id="d174-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+            <note corresp="#d174-f2" n="2" xml:id="d174-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg393">pp. 393</ref>, <ref
+                        target="#pg394">394</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

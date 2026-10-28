@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d754" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d754"
+                    type="canonical"/>
+                <relatedItem target="d753-a1.xml" type="prev"/>
+                <relatedItem target="d754-a1.xml" type="next"/>
+                <relatedItem target="../ch63.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d754</bibl>
+                <bibl type="frus-division-n">754</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="616" to="616" unit="page"
+                        >616</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1900-06-27"><hi rendition="#italic">June 27,
+                            1900</hi></date>
+                    <date notAfter="1900-06-27T23:59:59-05:00" notBefore="1900-06-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d754">
+
+                <pb facs="0714" n="616" sameAs="frus:frus1900/pg616"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1900-06-27"
+                                ><hi rendition="#italic">June 27, 1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 350.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my dispatch No. 344, of the
+                    20th instant, and to your telegram in reply, dated the 22d instant, both
+                    relative to the terms of payment for Mr. Geldart’s shipment on the <hi
+                        rendition="#italic">Mashona</hi> and <hi rendition="#italic">Beatrice</hi>,
+                    I have the honor to inclose herewith the copy of a note which I have addressed
+                    to Lord Salisbury on the subject dated yesterday.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+
+
+                <xi:include href="d754-a1.xml" xpointer="d754-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

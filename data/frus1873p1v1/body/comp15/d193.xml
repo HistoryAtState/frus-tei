@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v1_d193" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 191.</title>
+                <title type="subtitle"><persName corresp="#p_SET1"
+                            type="from">Sir Edward Thornton</persName> to Mr. <persName
+                            corresp="#p_HF1" type="to">Fish</persName>.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1873p1v1/d193"
+                    type="canonical"/>
+                <relatedItem target="d192-a1.xml" type="prev"/>
+                <relatedItem target="d193-a1.xml" type="next"/>
+                <relatedItem target="../comp15.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v1</bibl>
+                <bibl type="frus-division-id">d193</bibl>
+                <bibl type="frus-division-n">193</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="427" to="429" unit="page"
+                        >427–29</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1873-06-24"><hi rendition="#italic">June</hi>
+                        24, 1873</date>
+                    <date notAfter="1873-06-24T23:59:59-05:00" notBefore="1873-06-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d193">
+
+                <pb facs="0513" n="427" sameAs="frus:frus1873p1v1/pg427"/>
+
+                <head>No. 191.<lb/><hi rendition="#italic"><persName corresp="#p_SET1" type="from"
+                            >Sir Edward Thornton</persName> to Mr. <persName corresp="#p_HF1"
+                            type="to">Fish</persName>.</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1873-06-24"><hi rendition="#italic">June</hi> 24, 1873</date>.
+                        (Received June 26.)</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to my note of the 13th
+                    instant, on the subject of deck-loads, I have now the honor to transmit herewith
+                    three copies of <pb facs="0514" n="428" xml:id="pg428"/> a law on the same
+                    subject which was passed by the Parliament of Canada, and was assented to, in
+                    the Queen’s name, by the governor-general on the 23d ultimo.</p>
+                <p>I have, &amp;c.,</p>
+                <closer>
+                    <signed><persName corresp="#p_SET1">EDW’D THORNTON</persName>.</signed>
+                </closer>
+
+
+                <xi:include href="d193-a1.xml" xpointer="d193-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

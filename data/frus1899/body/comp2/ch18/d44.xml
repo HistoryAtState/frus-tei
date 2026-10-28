@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d44" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr.
+                            Hengelmüller.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d44"
+                    type="canonical"/>
+                <relatedItem target="d43.xml" type="prev"/>
+                <relatedItem target="d44-a1.xml" type="next"/>
+                <relatedItem target="../ch18.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d44</bibl>
+                <bibl type="frus-division-n">44</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="79" to="80" unit="page"
+                        >79–80</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1899-11-09"><hi rendition="#italic">November 9,
+                            1899</hi></date>
+                    <date notAfter="1899-11-09T23:59:59-05:00" notBefore="1899-11-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d44">
+
+                <pb facs="0171" n="79" sameAs="frus:frus1899/pg79"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr.
+                            Hengelmüller.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1899-11-09"><hi rendition="#italic">November 9,
+                        1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">Personal.]</seg></opener>
+                <p>My <hi rendition="#small-caps">Dear</hi> Mr. <hi rendition="#small-caps"
+                        >Hengelmüller</hi>: I beg to send herewith a memorandum in reply to the
+                    aide-mémoire touching the desire of the Austro-Hungarian Government to amend its
+                    naturalization treaty to the United States.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+
+                <xi:include href="d44-a1.xml" xpointer="d44-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d35" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d35"
+                    type="canonical"/>
+                <relatedItem target="d34.xml" type="prev"/>
+                <relatedItem target="d36.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d35</bibl>
+                <bibl type="frus-division-n">35</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="23" to="23" unit="page"
+                        >23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-08-29">29 August 1944</date>
+                    <date notAfter="1944-08-29T23:59:59-05:00" notBefore="1944-08-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Prime1">Prime</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d35">
+
+                <pb facs="0077" n="23" xml:id="pg23"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President Roosevelt</hi><anchor n="1" xml:id="d35-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1944-08-29">29 August 1944</date>.</dateline>
+                </opener>
+                <p>771. Prime Minister to President Roosevelt Personal and Top Secret.</p>
+                <p>To take part in the conference I shall only bring 14 or 15 persons but I must
+                    explain to you that as I and the Chiefs of Staff have to conduct a very great
+                    number of import[ant] affairs from day to day it will be necessary to have
+                    considerable numbers of persons for that purpose. For instance. My own party and
+                    private secretaries 7. Secretariat and Administration 6. Clerical 42. Cipher
+                    staff 30. Royal Marine Guard 36. There will also be a small contingent from our
+                    element in Washington. These however are only the machinery with which I carry
+                    on my work and without which I could not leave the country. You have all your
+                    great departments immediately under your hand a few hours away by air.</p>
+                <list>
+                    <label>2.</label>
+                    <item>The glorious events in France and in the Balkans have completely altered
+                        the whole outlook of the war and with people like the Germans anything might
+                        happen. Last time Bulgaria proved the lynchpin which when pulled brought
+                        everything crashing down.<anchor n="2" xml:id="d35-f2"/></item>
+                    <label>3.</label>
+                    <item>I must express my admiration to you not only for the valour but for the
+                        astonishing mobility and manoeuvering power of the great armies trained in
+                        the United States. I am looking forward immensely to seeing you again and
+                        trying to clear up with you in the light of our friendship some of the
+                        difficulties which beset even the path of dazzling victory. Thank you very
+                        much for your telegram about Greece.<anchor n="3" xml:id="d35-f3"/></item>
+                </list>
+                <closer><signed><hi rendition="#small-caps"
+                            >Prime</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d35-f1" n="1" type="source" xml:id="d35-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d35-f2" n="2" xml:id="d35-f2-content">
+                <p>In World War I Bulgaria was the first of the Central Powers to conclude an
+                    armistice.</p>
+            </note>
+            <note corresp="#d35-f3" n="3" xml:id="d35-f3-content">
+                <p>For the text of Roosevelt’s telegram No. 608 to Churchill, dated August 26, 1944,
+                    with reference to Greece, see <ref target="frus1944v05#pg_133"><hi
+                            rendition="#italic">Foreign Relations</hi>, 1944, vol. <hi
+                            rendition="#small-caps">v</hi>, pp. 133</ref>–<ref
+                        target="frus1944v05#pg_134">134</ref>; Churchill, <hi rendition="#italic"
+                        >Triumph and Tragedy</hi>, p. 112.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945v05_d18" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to the British Prime Minister (Churchill)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1945v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1945v05/d18"
+                    type="canonical"/>
+                <relatedItem target="d17.xml" type="prev"/>
+                <relatedItem target="d19.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945v05</bibl>
+                <bibl type="frus-division-id">d18</bibl>
+                <bibl type="frus-division-n">18</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="20" to="20" unit="page"
+                        >20</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Warm Springs, Georgia</hi></placeName>
+                    <date calendar="gregorian" when="1945-04-10">10 April 1945</date>
+                    <date notAfter="1945-04-10T23:59:59-05:00" notBefore="1945-04-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d18">
+
+                <pb facs="0032" n="20" sameAs="frus:frus1945v05/pg20"/>
+
+                <head>
+                    <hi rendition="#italic">President Roosevelt to
+                        the British Prime Minister</hi> (<hi rendition="#italic"
+                            >Churchill</hi>)<anchor n="16" xml:id="d18-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Warm
+                                Springs, Georgia</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-04-10">10 April 1945</date>.</dateline>
+                </opener>
+                <p>740. Your No. 938. I agree in principle with your proposal to give notice to the
+                    German Government that it is responsible for the sustenance of the civil
+                    population in those parts of Holland that remain in German occupation.</p>
+                <p>In view of Stalin’s<anchor n="17" xml:id="d18-f2"/> recent allegations in regard
+                    to <hi rendition="#small-caps">Crossword</hi>,<anchor n="18" xml:id="d18-f3"/> I
+                    believe that before making any arrangement through the Red Cross with any German
+                    authority we should inform Stalin.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d18-f1" n="16" type="source" xml:id="d18-f1-content">
+                <p>Copy of telegram obtained from the Franklin D. Roosevelt Library, Hyde Park, N.
+                    Y.</p>
+            </note>
+            <note corresp="#d18-f2" n="17" xml:id="d18-f2-content">
+                <p>Josif Vissarionovich Stalin, Chairman of the Council of People’s Commissars of
+                    the Soviet Union.</p>
+            </note>
+            <note corresp="#d18-f3" n="18" xml:id="d18-f3-content">
+                <p>Reference is to “Sunrise–Crossword”, the code name for discussion then taking
+                    place in Switzerland between German and Allied military representatives
+                    regarding a possible surrender of German forces in Northern Italy. For
+                    documentation on this subject, see <ref target="frus1945v03#pg_717">vol. <hi
+                            rendition="#small-caps">iii</hi>, pp. 717</ref> ff.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_comp24" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nicaragua:</title>
+            </titleStmt>
+            <xi:include href="../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/comp24"
+                    type="canonical"/>
+                <relatedItem target="comp23/ch87/d892.xml" type="prev"/>
+                <relatedItem target="comp24/ch88.xml" type="next"/>
+                <relatedItem target="../frus1911.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">comp24</bibl>
+                <bibl type="frus-division-n">24</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="625" to="671" unit="page"
+                        >625–71</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1911-12-23T23:59:59-05:00" notBefore="1910-11-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp24">
+
+                <pb facs="0707" n="625" xml:id="pg625"/>
+
+                <head>Nicaragua:</head>
+
+
+
+                <xi:include href="comp24/ch88.xml" xpointer="ch88"/>
+                <xi:include href="comp24/ch89.xml" xpointer="ch89"/>
+            </div>
+        </body>
+    </text>
+</TEI>

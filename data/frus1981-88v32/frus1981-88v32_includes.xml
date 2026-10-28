@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v32_includes" xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt xml:id="titleStmt">
+                <title>Foreign Relations of the United States, 1981–1988, Volume XXXII, Southeast
+                    Asia; Pacific</title>
+                <editor role="primary">Erin Cozens</editor>
+            </titleStmt>
+            <publicationStmt xml:id="publicationStmt">
+                <publisher>Department of State</publisher>
+                <pubPlace>Washington</pubPlace>
+                <date calendar="gregorian" type="publication-date"/>
+                <date calendar="gregorian" type="content-date">1981–1988</date>
+            </publicationStmt>
+            <seriesStmt xml:id="seriesStmt">
+                <title type="complete">Foreign Relations of the United States, 1981–1988, Volume
+                    XXXII, Southeast Asia; Pacific</title>
+                <title type="series">Foreign Relations of the United States</title>
+                <title n="1981-88" type="sub-series">1981–1988</title>
+                <title type="volume-number">Volume XXXII</title>
+                <title type="volume">Southeast Asia; Pacific</title>
+            </seriesStmt>
+            <sourceDesc>
+                <p>Volume-level shared header fragments; derived from the legacy volume.</p>
+            </sourceDesc>
+        </fileDesc>
+        <encodingDesc xml:id="volume-prefixes">
+            <!-- the compact cross-reference form (TEI P5 16.2.3): consumers
+                         expand frus:VOLUME/DIVISION to the canonical URL; the
+                         per-volume {project-id}_catalog.xml maps those URLs to local files -->
+            <listPrefixDef>
+                <prefixDef ident="frus" matchPattern="([a-z0-9\-]+)/(.+)$"
+                    replacementPattern="https://history.state.gov/historicaldocuments/$1/$2"/>
+                <prefixDef ident="frus" matchPattern="([a-z0-9\-]+)$"
+                    replacementPattern="https://history.state.gov/historicaldocuments/$1"/>
+            </listPrefixDef>
+        </encodingDesc>
+    </teiHeader>
+</TEI>

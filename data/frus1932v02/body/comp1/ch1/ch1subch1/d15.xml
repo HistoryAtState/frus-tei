@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1932v02_d15" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Great Britain (Mellon) to the Acting Secretary
+                            of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1932v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1932v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1932v02/d15"
+                    type="canonical"/>
+                <relatedItem target="d14.xml" type="prev"/>
+                <relatedItem target="d15-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1932v02</bibl>
+                <bibl type="frus-division-id">d15</bibl>
+                <bibl type="frus-division-n">15</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="16" unit="page"
+                        >13–16</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1932-04-11">April 11, 1932</date>
+                    <date notAfter="1932-04-11T23:59:59-05:00" notBefore="1932-04-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1932v02/persons">
+                    <term ref="frus:frus1932v02/persons#p_AR1">Atherton, Ray</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d15">
+
+                <pb facs="0103" n="13" sameAs="frus:frus1932v02/pg13"/>
+
+                <note rend="inline" type="source">890b.6363 Gulf Oil Corporation/56</note>
+                <head><hi rendition="#italic">The Ambassador in Great Britain (Mellon) to the Acting Secretary of
+                            State</hi></head>
+                <opener>
+                    <seg rendition="#float-left">No. 2</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1932-04-11">April 11, 1932</date>.<lb/>[Received April
+                        20.]</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to refer to the Embassy’s
+                    telegram No. 140, April 11, 12 noon,<anchor n="14" xml:id="d15-f1"/> relating to
+                    the Koweit oil concession, and to <pb facs="0104" n="14" xml:id="pg14"/> forward
+                    herewith a copy of the Foreign Office note, addressed to Mr. Atherton, Chargé d’Affaires, referred to
+                    therein.</p>
+                <p>Respectfully yours,</p>
+                <closer>(For the Ambassador)<lb/><signed><hi
+                                rendition="#small-caps">Ray
+                        Atherton</hi></signed><lb/><hi rendition="#italic">Counselor of
+                        Embassy</hi></closer>
+
+
+                <xi:include href="d15-a1.xml" xpointer="d15-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d15-f1" n="14" xml:id="d15-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

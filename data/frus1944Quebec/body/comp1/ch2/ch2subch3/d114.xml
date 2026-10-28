@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d114" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the United States Chiefs of
+                    Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d114"
+                    type="canonical"/>
+                <relatedItem target="d113.xml" type="prev"/>
+                <relatedItem target="d114-a1.xml" type="next"/>
+                <relatedItem target="../ch2subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d114</bibl>
+                <bibl type="frus-division-n">114</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="182" to="183" unit="page"
+                        >182–83</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-08-22">22 August 1944</date>
+                    <date notAfter="1944-08-22T23:59:59-05:00" notBefore="1944-08-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1944Quebec/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d114">
+
+                <pb facs="0238" n="182" xml:id="pg182"/>
+
+                <note rend="inline" type="source">J.C.S.
+                    Files</note>
+                <head><hi rendition="#italic">Memorandum by the United States Chiefs of
+                    Staff</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        C.C.S. 618/1</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-08-22">22 August 1944</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Machinery for Coordination of
+                        United States-Soviet-British Military Effort</hi></p>
+                <p rendition="#flush">Reference: C.C.S. 618<anchor
+                        n="1" xml:id="d114-f1"/></p>
+                <list>
+                    <label>1.</label>
+                    <item>The United States Chiefs of Staff agree that additional machinery is
+                        necessary to coordinate the military efforts of the United Nations forces on
+                        the European fronts.</item>
+                    <label>2.</label>
+                    <item>It is considered that the present relationship between the Combined Chiefs
+                        of Staff and the Soviet General Staff through the medium of the United
+                        States and British Missions in Moscow on over-all strategy must be retained
+                        until the matter can be discussed further at the next United Nations Staff
+                        Conference.</item>
+                    <label>3.</label>
+                    <item>The United States Chiefs of Staff recommend that the machinery for the
+                        coordination of day-to-day United States-British-Soviet operational matters
+                        be established by attaching a Soviet liaison group to Supreme Headquarters,
+                        Allied Expeditionary Force. An additional Soviet liaison group could be sent
+                        to Allied Force Head quarters if needed.</item>
+                    <label>4.</label>
+                    <item>It is recommended that the Combined Chiefs of Staff dispatch the enclosed
+                        directive relative to machinery for the coordination of our common military
+                        effort to the British and United States Military Missions in Moscow with
+                        information copies to the Supreme Commander, Allied Expeditionary Force and
+                        the Supreme Allied Commander, Mediterranean.</item>
+                </list>
+
+
+                <xi:include href="d114-a1.xml" xpointer="d114-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d114-f1" n="1" xml:id="d114-f1-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg9">p. 9</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app1_d86" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EXHIBIT A.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902app1/d86"
+                    type="canonical"/>
+                <relatedItem target="../s03.xml" type="prev"/>
+                <relatedItem target="d86-a1.xml" type="next"/>
+                <relatedItem target="../s03.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app1</bibl>
+                <bibl type="frus-division-id">d86</bibl>
+                <bibl type="frus-division-n">86</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="226" to="226" unit="page"
+                        >226</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1900-11-06T23:59:59-05:00" notBefore="1900-11-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d86">
+
+                <pb facs="0246" n="226" xml:id="pg226"/>
+
+                <head>EXHIBIT A.</head>
+                <p rendition="#center">No. 6616.—<hi rendition="#small-caps">United States of
+                        America.</hi></p>
+                <p rendition="#center"><hi rendition="#small-caps">department of state.</hi></p>
+                <p rendition="#flush"><hi rendition="#italic">To all to whom these presents shall
+                        come, greeting:</hi></p>
+                <p>I certify that the document hereunto annexed is under the seal of the State of
+                    California, and is entitled to full faith and credit.</p>
+                <p>In testimony whereof I, John Hay, Secretary of State of the United States, have
+                    hereunto subscribed my name, and caused the seal of the Department of State to
+                    be affixed.</p>
+                <closer>
+                    <dateline rendition="#float-left">Done at the city of
+                            <placeName>Washington</placeName>
+                        <date calendar="gregorian us-republic" when="1900-11-06">this 6th day of
+                            December A. D. 1900, and of the Independence of the United States of
+                            America the one hundred and twenty-fifth</date>.</dateline>
+                    <lb/>
+                    <signed><hi rendition="#small-caps">John Hay.</hi></signed>
+                    <lb/>
+                    <seg rendition="#float-left">[Seal of the State Department.]</seg>
+                </closer>
+
+
+
+                <xi:include href="d86-a1.xml" xpointer="d86-a1"/>
+                <xi:include href="d86-a2.xml" xpointer="d86-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1877_comp29" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Turkish Empire</title>
+            </titleStmt>
+            <xi:include href="../frus1877_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1877_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1877/comp29"
+                    type="canonical"/>
+                <relatedItem target="comp28/d317-a1.xml" type="prev"/>
+                <relatedItem target="comp29/ch8.xml" type="next"/>
+                <relatedItem target="../frus1877.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1877</bibl>
+                <bibl type="frus-division-id">comp29</bibl>
+                <bibl type="frus-division-n">29</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="549" to="633" unit="page"
+                        >549–633</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1877-10-01T23:59:59-05:00" notBefore="1876-08-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp29">
+
+                <pb facs="0597" n="549" sameAs="frus:frus1877/pg549"/>
+
+                <head>Turkish Empire</head>
+
+
+
+                <xi:include href="comp29/ch8.xml" xpointer="ch8"/>
+                <xi:include href="comp29/ch9.xml" xpointer="ch9"/>
+                <xi:include href="comp29/ch10.xml" xpointer="ch10"/>
+            </div>
+        </body>
+    </text>
+</TEI>

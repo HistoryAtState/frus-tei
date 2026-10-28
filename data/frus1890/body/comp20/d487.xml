@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d487" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Scruggs to Mr.
+                            Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d487"
+                    type="canonical"/>
+                <relatedItem target="../comp20.xml" type="prev"/>
+                <relatedItem target="d487-a1.xml" type="next"/>
+                <relatedItem target="../comp20.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d487</bibl>
+                <bibl type="frus-division-n">487</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="776" to="777" unit="page"
+                        >776–77</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Caracas</hi></placeName>
+                    <date calendar="gregorian" when="1889-12-21"><hi rendition="#italic"
+                            >December</hi> 21, 1889</date>
+                    <date notAfter="1889-12-21T23:59:59-05:00" notBefore="1889-12-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d487">
+
+                <pb facs="0886" n="776" sameAs="frus:frus1890/pg776"/>
+
+                <head><hi rendition="#italic">Mr. Scruggs to Mr.
+                            Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Caracas</hi></placeName>, <date calendar="gregorian"
+                            when="1889-12-21"><hi rendition="#italic">December</hi> 21, 1889</date>.
+                        (Received December 30.)</dateline>
+                    <seg rendition="#float-left">No. 63.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have just received from the Venezuelan
+                    minister for foreign affairs the note and copy of protest which I inclose, from
+                    which you will see that the British colonial government of Demerara has taken
+                    formal possession of the principal mouth of the Orinoco River and declared the
+                    town of Barima a British colonial port.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">William L.
+                    Scruggs.</hi></signed></closer>
+
+
+
+                <xi:include href="d487-a1.xml" xpointer="d487-a1"/>
+                <xi:include href="d487-a2.xml" xpointer="d487-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

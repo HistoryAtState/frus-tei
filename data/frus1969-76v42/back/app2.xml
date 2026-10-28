@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v42_app2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appendix 2</title>
+            </titleStmt>
+            <xi:include href="../frus1969-76v42_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1969-76v42_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v42/app2"
+                    type="canonical"/>
+                <relatedItem target="app1/d69.xml" type="prev"/>
+                <relatedItem target="app2/d70.xml" type="next"/>
+                <relatedItem target="../frus1969-76v42.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v42</bibl>
+                <bibl type="frus-division-id">app2</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">appendix</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1767" to="1777" unit="page"
+                        >1767–77</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1972-10-17T23:59:59-05:00" notBefore="1972-10-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="app2">
+
+                <pb facs="1795" n="1767" xml:id="pg1767"/>
+
+                <head>Appendix 2</head>
+
+                <xi:include href="app2/d70.xml" xpointer="d70"/>
+            </div>
+        </body>
+    </text>
+</TEI>

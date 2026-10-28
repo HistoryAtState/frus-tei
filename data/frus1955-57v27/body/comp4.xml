@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v27_comp4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Scandinavia</title>
+            </titleStmt>
+            <xi:include href="../frus1955-57v27_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1955-57v27_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v27/comp4"
+                    type="canonical"/>
+                <relatedItem target="comp3/ch3/d159.xml" type="prev"/>
+                <relatedItem target="comp4/ch4.xml" type="next"/>
+                <relatedItem target="../frus1955-57v27.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v27</bibl>
+                <bibl type="frus-division-id">comp4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="473" to="529" unit="page"
+                        >473–529</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1957-11-25T17:00:00-05:00" notBefore="1955-03-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp4">
+
+                <pb facs="0511" n="473" xml:id="pg473"/>
+
+                <head>Scandinavia</head>
+
+                <xi:include href="comp4/ch4.xml" xpointer="ch4"/>
+            </div>
+        </body>
+    </text>
+</TEI>

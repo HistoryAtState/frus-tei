@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d428" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note by the Secretaries of the Combined Chiefs of
+                        Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d428"
+                    type="canonical"/>
+                <relatedItem target="d427.xml" type="prev"/>
+                <relatedItem target="d429.xml" type="next"/>
+                <relatedItem target="../ch9subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d428</bibl>
+                <bibl type="frus-division-n">428</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="971" to="972" unit="page"
+                        >971–72</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-18">18 August 1943</date>
+                    <date notAfter="1943-08-18T23:59:59-05:00" notBefore="1943-08-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d428">
+
+                <pb facs="1085" n="971" sameAs="frus:frus1943/pg971"/>
+
+                <note rend="inline" type="source">
+                    J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Note by the Secretaries of the Combined Chiefs of
+                        Staff</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        C.C.S. 301/1</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-18">18 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Specific Operations in the Pacific and Far
+                    East</hi>, 1943–44</p>
+                <p>At their 110th Meeting, 17 August 1943,<anchor n="1" xml:id="d428-f1"/> the
+                    Combined Chiefs of Staff directed that a paragraph be drafted by the Secretaries
+                    for inclusion in paragraph 8 of C.C.S.
+                        301.<anchor n="2" xml:id="d428-f2"/> A suggested paragraph follows:</p>
+                <p rendition="#flush">(<hi rendition="#italic">i</hi>) <hi rendition="#italic">Air
+                        Route into China</hi>
+                </p>
+                <p>Present plans provide for the concentration of available resources, as first
+                    priority within the Assam–Burma Theater, on the building up and increasing of
+                    the air routes to China to a capacity of 10,000 tons <pb facs="1086" n="972"
+                        xml:id="pg972"/> a month by early Fall, and the development of air
+                    facilities in Assam with a view to: <list>
+                        <label>1.</label>
+                        <item>Intensifying air operations against the Japanese in Burma;</item>
+                        <label>2.</label>
+                        <item>Maintaining increased American Air Forces in China; and</item>
+                        <label>3.</label>
+                        <item>Maintaining the flow of air-borne supplies to China.</item>
+                    </list>
+                </p>
+                <closer>
+                    <signed> H. <hi rendition="#small-caps">Redman</hi>
+                        <lb/> J. R. <hi rendition="#small-caps">Deane</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Combined Secretariat</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d428-f1" n="1" xml:id="d428-f1-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg878">p. 878</ref>.</p>
+            </note>
+            <note corresp="#d428-f2" n="2" xml:id="d428-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg428">p. 428</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

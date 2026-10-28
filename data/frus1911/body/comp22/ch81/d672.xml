@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_d672" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/d672"
+                    type="canonical"/>
+                <relatedItem target="d671-a1.xml" type="prev"/>
+                <relatedItem target="d672-a1.xml" type="next"/>
+                <relatedItem target="../ch81.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">d672</bibl>
+                <bibl type="frus-division-n">672</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="468" to="469" unit="page"
+                        >468–69</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1911-04-29"><hi rendition="#italic">April 29,
+                            1911</hi></date>
+                    <date notAfter="1911-04-29T23:59:59-05:00" notBefore="1911-04-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d672">
+
+                <pb facs="0550" n="468" sameAs="frus:frus1911/pg468"/>
+
+                <note rend="inline" type="source">File No. 812.00/1619.</note>
+                <head>[Untitled]</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >Mexico</hi></placeName>, <date calendar="gregorian" when="1911-04-29"
+                                ><hi rendition="#italic">April 29, 1911</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 509.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to advise the Department
+                    that a serious condition in the town of Parral, Chihuahua, was called to the
+                    attention of the embassy by the consul at Saltillo, by the British legation
+                    here, and by Mr. David B. Gemmill, of the West Mexican Mines (Ltd.),
+                    recently.</p>
+                <pb facs="0551" n="469" xml:id="pg469"/>
+                <p>The situation seemed sufficiently serious to warrant the embassy in taking
+                    immediate action, and I have the honor to inclose to the Department herewith
+                    copies of two notes which I have addressed to the foreign office asking that
+                    prompt and adequate protection be afforded the American lives and property in
+                    danger.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Henry Lane
+                    Wilson.</hi></signed></closer>
+
+
+
+                <xi:include href="d672-a1.xml" xpointer="d672-a1"/>
+                <xi:include href="d672-a2.xml" xpointer="d672-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

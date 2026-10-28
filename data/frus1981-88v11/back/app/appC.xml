@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v11_appC" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Notes of a National Security Council Meeting</title>
+            </titleStmt>
+            <xi:include href="../../frus1981-88v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1981-88v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v11/appC"
+                    type="canonical"/>
+                <relatedItem target="appB.xml" type="prev"/>
+                <relatedItem target="appD.xml" type="next"/>
+                <relatedItem target="../app.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v11</bibl>
+                <bibl type="frus-division-id">appC</bibl>
+                <bibl type="frus-division-n">C</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1558" to="1561" unit="page"
+                        >1558–61</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1982-08-09T23:59:59-05:00" notBefore="1982-08-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1981-88v11/terms">
+                    <term ref="frus:frus1981-88v11/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1981-88v11/terms#t_RWR_1">RWR</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="appC">
+
+                <pb facs="1585" n="1558" xml:id="pg1558"/>
+
+                <head>C. Notes of a National Security Council Meeting<anchor n="1" xml:id="appC-f1"
+                    /></head>
+                <dateline rendition="#float-right">
+                    <placeName>Washington</placeName>, <date calendar="gregorian" when="1982-08-09"
+                        >August 9, 1982, 3:10 p.m.</date>
+                </dateline>
+                <p>[Omitted here is material unrelated to the Strategic Arms Reductions Treaty.]</p>
+                <figure>
+                    <graphic url="frus40033_AppxC_p1558"/>
+                </figure>
+                <pb facs="1586" n="1559" xml:id="pg1559"/>
+                <figure>
+                    <graphic url="frus40033_AppxC_p1559"/>
+                </figure>
+                <pb facs="1587" n="1560" xml:id="pg1560"/>
+                <figure>
+                    <graphic url="frus40033_AppxC_p1560"/>
+                </figure>
+                <pb facs="1588" n="1561" xml:id="pg1561"/>
+                <figure>
+                    <graphic url="frus40033_AppxC_p1561"/>
+                </figure>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#appC-f1" n="1" type="source" xml:id="appC-f1-content">
+                <p>Source: National Security Council, National Security Council Institutional Files,
+                    Box SR 102, NSC 00059 RWR 8/09/82. Secret. For the transcribed text of these notes, see
+                        <ref target="#d32">Document 32</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

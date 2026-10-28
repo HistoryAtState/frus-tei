@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v10-12mSupp_d61" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Airgram A–145 from Bogota, September 5</title>
+            </titleStmt>
+            <xi:include href="../../../frus1961-63v10-12mSupp_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1961-63v10-12mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d61"
+                    type="canonical"/>
+                <relatedItem target="d60.xml" type="prev"/>
+                <relatedItem target="d61-a1.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v10-12mSupp</bibl>
+                <bibl type="frus-division-id">d61</bibl>
+                <bibl type="frus-division-n">61</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Bogota</placeName>
+                    <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                        type="conversation-or-meeting-date" when="1962-09-05">September 5,
+                        1962</date>
+                    <date notAfter="1962-09-05T23:59:59-05:00" notBefore="1962-09-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v10-12mSupp/persons">
+                    <term ref="frus:frus1961-63v10-12mSupp/persons#p_FF_1">Freeman, Fulton</term>
+                    <term ref="frus:frus1961-63v10-12mSupp/persons#p_VGL_1">Valencia, Guillermo
+                        Léon</term>
+                </keywords>
+                <keywords scheme="frus:frus1961-63v10-12mSupp/terms">
+                    <term ref="frus:frus1961-63v10-12mSupp/terms#t_CF_1">CF</term>
+                    <term ref="frus:frus1961-63v10-12mSupp/terms#t_DOS_1">DOS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d61">
+
+                <pb facs="0328" n="153" sameAs="frus:frus1961-63v10-12mSupp/pg153"/>
+
+                <head>61. Airgram A–145 from Bogota, September 5<anchor n="1" xml:id="d61-f1"
+                    /></head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Bogota</placeName>, <date
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            type="conversation-or-meeting-date" when="1962-09-05">September 5,
+                            1962</date>
+                    </dateline></opener>
+                <pb facs="d61-1" n="1" type="facsimile" xml:id="d61-1"/>
+                <p>SUBJECT: Transmitting Memorandum of Conversation.</p>
+                <p>There is transmitted herewith a memorandum covering a conversation concerning the
+                    violence problem in Colombia which I had with President Guillermo Leon Valencia on September 4,
+                    1962.</p>
+                <closer>
+                    <signed corresp="#p_FF_1">Fulton
+                        Freeman</signed>
+                </closer>
+
+
+
+                <xi:include href="d61-a1.xml" xpointer="d61-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d61-f1" n="1" type="source" xml:id="d61-f1-content">
+                <p>Transmits September 4 memorandum of conversation between Ambassador Freeman and President Valencia on the violence problem in Colombia.
+                    Secret. 4 pp. DOS, CF, 721.00/9–562.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d41" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d41"
+                    type="canonical"/>
+                <relatedItem target="d40.xml" type="prev"/>
+                <relatedItem target="d42.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d41</bibl>
+                <bibl type="frus-division-n">41</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="30" to="30" unit="page"
+                        >30</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-14">October 14, 1943</date>
+                    <date notAfter="1943-10-14T23:59:59-05:00" notBefore="1943-10-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_EA1">Eden, Anthony</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MHF1">Matthews, H. Freeman</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_PII1">Peter II</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_Eureka1">Eureka</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_UJ1">U. J.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d41">
+
+                <pb facs="0122" n="30" sameAs="frus:frus1943CairoTehran/pg30"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President Roosevelt</hi><anchor n="1" xml:id="d41-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, [<date calendar="gregorian"
+                            when="1943-10-14">October 14, 1943</date>.]</dateline>
+                </opener>
+                <p>Former Naval Person to President.
+                    Personal and most secret. Number 456.</p>
+                <p>I have a new idea about “<hi rendition="#small-caps"
+                            >Eureka</hi>” which I have asked Anthony<anchor n="2" xml:id="d41-f2"/> to try on UJ for subsequent submission to you if UJ agrees. There is a place in the desert which I
+                    now call <hi rendition="#small-caps">Cyprus</hi> but whose real name is in my
+                    immediately following.<anchor n="3" xml:id="d41-f3"/> This would be a much
+                    easier journey for you from Cairo than “<hi rendition="#small-caps">Cairo
+                        Three</hi>” and very little longer for UJ. We
+                    could put up three encampments and live comfortably in perfect seclusion and
+                    security. I am going into details on the chance of agreement in the Trinity. See
+                    also meanwhile St. Mat[t]hew Chapter 17
+                    Verse 4.<anchor n="4" xml:id="d41-f4"/></p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d41-f1" n="1" type="source" xml:id="d41-f1-content">
+                <p>Apparently sent via military channels.</p>
+            </note>
+            <note corresp="#d41-f2" n="2" xml:id="d41-f2-content">
+                <p>Eden, who arrived at Moscow October 18,
+                    1943, to attend the Conference of Foreign Ministers.</p>
+            </note>
+            <note corresp="#d41-f3" n="3" xml:id="d41-f3-content">
+                <p>The place referred to was Habbaniya, Iraq, about 50 miles west of Baghdad.</p>
+            </note>
+            <note corresp="#d41-f4" n="4" xml:id="d41-f4-content">
+                <p>The following footnote was typed on the source text by the White House Map Room:
+                    “St. Mat[t]hew Chapter 17 Verse 4.—‘Then
+                    answered Peter, and said unto Jesus,
+                    Lord, it is good for us to be here: if thou wilt, let us make here three
+                    tabernacles; one for thee, and one for Moses, and one for Elias.[’]”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

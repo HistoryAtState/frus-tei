@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d408-a4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Announcement.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d408-a4"
+                    type="canonical"/>
+                <relatedItem target="d408-a3.xml" type="prev"/>
+                <relatedItem target="d409.xml" type="next"/>
+                <relatedItem target="d408.xml" type="parent"/>
+                <relatedItem target="d408.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d408-a4</bibl>
+                <bibl type="frus-division-n">408.4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="436" to="436" unit="page"
+                        >436</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d408-a4">
+
+                <pb facs="0516" n="436" sameAs="frus:frus1902/pg436"/>
+
+                <opener><seg rendition="#center">[Subinclosure 2.]</seg></opener>
+                <head><hi rendition="#italic">Announcement.</hi></head>
+                <p>During the night of June 17–18, 1902, the coat of arms of the consulate of the
+                    United States of America, affixed at the house 130 Franz-Ludwig street, this
+                    city, was intentionally defiled. The perpetrators have not as yet been
+                    discovered.</p>
+                <p>All persons who are in position to give information as to the person of the
+                    miscreant or miscreants, or who may have made observations which might lead to
+                    the discovery of the same, are hereby requested to inform the undersigned
+                    authority or the inspector of police as to their knowledge. The city government
+                    offers herewith a reward of 100 marks to whoever will cause the legal punishment
+                    of the perpetrator or perpetrators.</p>
+                <closer>
+                    <dateline rendition="#float-left"><placeName>Bamberg</placeName>, <date
+                            calendar="gregorian" when="1902-07-11">July 11, 1902</date>.</dateline>
+                    <lb/>
+                    <hi rendition="#small-caps">Royal First District Attorney</hi>,<lb/>Per
+                            <signed><hi rendition="#small-caps">Frauen
+                    Knecht</hi>.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

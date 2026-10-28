@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p2v3_d1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Argument.]</title>
+            </titleStmt>
+            <xi:include href="../../frus1872p2v3_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1872p2v3_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1872p2v3/d1"
+                    type="canonical"/>
+                <relatedItem target="../comp1.xml" type="prev"/>
+                <relatedItem target="d2.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1872p2v3</bibl>
+                <bibl type="frus-division-id">d1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="3" to="3" unit="page"
+                    >3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date/>
+                    <date notAfter="1872-06-10T23:59:59-05:00" notBefore="1872-06-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1">
+
+                <pb facs="0021" n="3" xml:id="pg3"/>
+
+                <head ana="#head_untitled-inferred-from-chapter-head">[Argument.]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <hi rendition="#small-caps"><date calendar="gregorian" when="1872-06-10"
+                                >June 10, 1872</date>.</hi>
+                    </dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir:</hi> We have the honor to hand you herewith the
+                    argument prepared by us as counsel of the United States, in order that, in
+                    pursuance of Article V of the treaty of Washington, it may be presented in their
+                    behalf to the tribunal of arbitration constituted by that treaty.</p>
+                <p>We have the honor, sir, to be your obedient servants,</p>
+                <closer>
+                    <signed>C. CUSHING.</signed>
+                    <signed>WM. M. EVARTS.</signed>
+                    <signed>M. E. WAITE.</signed>
+                </closer>
+                <postscript>
+                    <p><hi rendition="#small-caps">J. C. Bancroft Davis,</hi> Esq., <hi
+                            rendition="#italic">Agent of the United States.</hi></p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

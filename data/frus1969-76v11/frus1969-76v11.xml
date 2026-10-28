@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1969-76v11_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1969-76v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1969-76v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1969-76v11"
+                    type="canonical"/>
+                <note>This publication contains 4 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1969-76v11" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v11/covers/frus1969-76v11.jpg"/>
+                        <extent>
+                            <measure quantity="31191" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:03:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v11" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v11/ebook/frus1969-76v11.epub"/>
+                        <extent>
+                            <measure quantity="1202290" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:03:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v11" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v11/ebook/frus1969-76v11.mobi"/>
+                        <extent>
+                            <measure quantity="1770387" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:03:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v11" type="pdf">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v11/pdf/frus1969-76v11.pdf"/>
+                        <extent>
+                            <measure quantity="3932137" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:03:29.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 2005 as printed version and PDF online at state.gov</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">nixon-ford</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>bangladesh</term>
+                    <term>diplomatic-recognition</term>
+                    <term>foreign-aid</term>
+                    <term>armistices</term>
+                    <term>india</term>
+                    <term>france</term>
+                    <term>belgium</term>
+                    <term>canada</term>
+                    <term>germany</term>
+                    <term>iran</term>
+                    <term>israel</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>china</term>
+                    <term>jordan</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>refugees</term>
+                    <term>nixon-richard</term>
+                    <term>peace</term>
+                    <term>rogers-william-pierce</term>
+                    <term>saudi-arabia</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>bhutan</term>
+                    <term>genocide</term>
+                    <term>burundi</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1969-76v11" status="published" when="2005"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="I" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1969–1976</titlePart>
+                    <titlePart type="volumenumber">Volume XI</titlePart>
+                    <titlePart type="volume">South Asia Crisis, 1971</titlePart>
+                </docTitle>
+                <docImprint>DEPARTMENT OF STATE<lb/>Washington</docImprint>
+                <byline>Editor: Louis J. Smith
+                </byline>
+                <byline>General Editor: Edward C. Keefer
+                </byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>2005</docDate>
+                    <pb facs="0002" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION 11199 <lb/>
+                    <hi rendition="#small-caps">OFFICE OF THE HISTORIAN<lb/>BUREAU OF PUBLIC
+                        AFFAIRS</hi>
+                    <lb/> For sale by the U.S. Government Printing
+                    Office Superintendent of Documents, Mail Stop SSOP, Washington, DC
+                    20402-9328</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/source.xml" xpointer="source"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

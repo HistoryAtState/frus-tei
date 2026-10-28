@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app1_d100-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1902app1/d100-a1"
+                    type="canonical"/>
+                <relatedItem target="d100.xml" type="prev"/>
+                <relatedItem target="d101.xml" type="next"/>
+                <relatedItem target="d100.xml" type="parent"/>
+                <relatedItem target="d100.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app1</bibl>
+                <bibl type="frus-division-id">d100-a1</bibl>
+                <bibl type="frus-division-n">100.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="245" to="245" unit="page"
+                        >245</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United States of
+                            America,<lb/>St. Petersburg, Russia</hi></placeName>
+                    <date/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d100-a1">
+
+                <pb facs="0267" n="245" sameAs="frus:frus1902app1/pg245"/>
+
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States of America,<lb/>St. Petersburg,
+                                Russia</hi></placeName>.</dateline></opener>
+                <p>I, Herbert H. D. Peirce, first secretary of the embassy of the United States of
+                    America, at St. Petersburg, Russia, do hereby certify that I have compared the
+                    foregoing copy of a note addressed to the Imperial Russian ministry of foreign
+                    affairs by the legation of the United States of America at St. Petersburg,
+                    Russia, dated December 26, 1894, with the original as entered in the archives of
+                    this embassy and now on file, and that the same is a correct transcription of
+                    the original as so entered and of the whole thereof.</p>
+                <closer>
+                    <dateline rendition="#float-left">In testimony whereof I have hereunto set my
+                        hand and affixed the seal of the embassy of the United States of America at
+                            <placeName>St. Petersburg, Russia</placeName>, <date
+                            calendar="gregorian" when="1900-07-02">this second day of July, in the
+                            year one thousand nine hundred</date>.</dateline>
+                    <lb/>
+                    <seg rendition="#float-left">[<hi rendition="#small-caps">seal.</hi>]</seg>
+                    <signed rendition="#float-right"><hi rendition="#small-caps">Herbert H. D.
+                            Peirce</hi>,<lb/><hi rendition="#italic">First Secretary of
+                            Embassy.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

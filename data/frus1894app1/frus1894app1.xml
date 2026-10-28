@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894app1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1894app1_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1894app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1894app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1894app1"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1894app1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1894app1/covers/frus1894app1.jpg"/>
+                        <extent>
+                            <measure quantity="46362" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:40:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1894app1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1894app1/ebook/frus1894app1.epub"/>
+                        <extent>
+                            <measure quantity="1561442" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:40:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1894app1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1894app1/ebook/frus1894app1.mobi"/>
+                        <extent>
+                            <measure quantity="1859426" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:40:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1895 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">cleveland-22</term>
+                    <term xml:id="admin3">harrison</term>
+                    <term xml:id="admin4">cleveland-24</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>agriculture</term>
+                    <term>asylum</term>
+                    <term>border-administration</term>
+                    <term>buildings-foreign</term>
+                    <term>china</term>
+                    <term>cleveland-grover-1893-1897</term>
+                    <term>colombia</term>
+                    <term>congressional-relations</term>
+                    <term>cuba</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>germany</term>
+                    <term>gresham-walter-quintin</term>
+                    <term>haiti</term>
+                    <term>japan</term>
+                    <term>law-of-the-sea</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>neutrality</term>
+                    <term>nicaragua</term>
+                    <term>peace</term>
+                    <term>property-claims</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>samoa</term>
+                    <term>spain</term>
+                    <term>terrorism</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>united-kingdom</term>
+                    <term>venezuela</term>
+                    <term>war-of-1812</term>
+                    <term>tonga</term>
+                    <term>foster-john-watson</term>
+                    <term>marshall-islands</term>
+                    <term>curacao</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1894app1" status="published" when="1895"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0007" n="[1]" xml:id="pg1"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">APPENDIX I</titlePart>
+                    <titlePart type="subseries">FOREIGN RELATIONS OF THE UNITED STATES
+                        1894</titlePart>
+                    <titlePart type="volumeno"/>
+                    <titlePart type="volumetitle"/>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <pubPlace>WASHINGTON</pubPlace><lb/><publisher>GOVERNMENT PRINTING
+                        OFFICE</publisher><lb/><docDate>1894</docDate>
+                </docImprint>
+            </titlePage>
+            <pb facs="0008" n="[2]" xml:id="pg2"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0010" n="[4]" xml:id="pg4"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <pb facs="0762" n="[756]" xml:id="pg756"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1941-43_d324" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1941-43_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1941-43_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1941-43/d324"
+                    type="canonical"/>
+                <relatedItem target="d323.xml" type="prev"/>
+                <relatedItem target="d325.xml" type="next"/>
+                <relatedItem target="../ch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1941-43</bibl>
+                <bibl type="frus-division-id">d324</bibl>
+                <bibl type="frus-division-n">324</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="502" to="503" unit="page"
+                        >502–3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-01-01">January 1, 1943</date>
+                    <date notAfter="1943-01-01T23:59:59-05:00" notBefore="1943-01-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1941-43/terms">
+                    <term ref="frus:frus1941-43/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                    <term ref="frus:frus1941-43/terms#t_Symbol1">Symbol</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d324">
+
+                <pb facs="0588" n="502" sameAs="frus:frus1941-43/pg502"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to
+                        Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d324-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">urgent—priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-01-01">January 1, 1943</date>.</dateline>
+                </opener>
+                <p>No. 249 personal and most secret from the President to the Former Naval Person.</p>
+                <p>Our censor plans to issue just before departure the following instructions to all
+                    papers, radio and wire communications systems: <quote rend="blockquote">
+                        <p>“The President is going on another trip in the immediate future and for
+                            security reasons no comment should be made on his whereabouts or the
+                            purpose of the trip until a release is approved by this office.”</p>
+                    </quote>
+                </p>
+                <p>I am particularly anxious that no confidential information be given to the press
+                    as to the place or time of 
+                        <hi rendition="#small-caps">Symbol</hi>. I wonder if your censor
+                    could give out substantially the same statement to your own press <pb
+                        facs="0589" n="503" xml:id="pg503"/> regarding you as well as myself. I
+                    intend to clamp down the lid a few hours before I leave.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d324-f1" n="1" type="source" xml:id="d324-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

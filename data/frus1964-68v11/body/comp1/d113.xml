@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v11_d113" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>National Intelligence Estimate</title>
+            </titleStmt>
+            <xi:include href="../../frus1964-68v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1964-68v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v11/d113"
+                    type="canonical"/>
+                <relatedItem target="d112.xml" type="prev"/>
+                <relatedItem target="d114.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v11</bibl>
+                <bibl type="frus-division-id">d113</bibl>
+                <bibl type="frus-division-n">113</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="292" to="292" unit="page"
+                        >292</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1966-01-20">January 20, 1966</date>
+                    <date notAfter="1966-01-20T23:59:59-05:00" notBefore="1966-01-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v11/terms">
+                    <term ref="frus:frus1964-68v11/terms#t_dissem1">dissem</term>
+                    <term ref="frus:frus1964-68v11/terms#t_NIE1">NIE</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d113">
+
+                <pb facs="0328" n="292" xml:id="pg292"/>
+
+                <head>113. National Intelligence Estimate</head>
+                <opener>
+                    <seg rendition="#float-left">
+                        NIE 4-66</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1966-01-20">January 20, 1966</date>.</dateline>
+                </opener>
+                <note rend="inline" type="source">[Source: Johnson Library, National Security File,
+                    National Intelligence Estimates 4, Arms and Disarmament, Box 1. Secret;
+                    Controlled Dissem. 22 pages of source text
+                    not declassified.]</note>
+            </div>
+        </body>
+    </text>
+</TEI>

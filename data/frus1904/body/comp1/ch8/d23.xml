@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d23" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Iddings to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d23"
+                    type="canonical"/>
+                <relatedItem target="d22.xml" type="prev"/>
+                <relatedItem target="d24.xml" type="next"/>
+                <relatedItem target="../ch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d23</bibl>
+                <bibl type="frus-division-n">23</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="25" to="25" unit="page"
+                        >25</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">Rome, Italy</hi></placeName>
+                    <date calendar="gregorian" when="1904-10-10"><hi rendition="#italic">October 10,
+                            1904</hi></date>
+                    <date notAfter="1904-10-10T23:59:59-05:00" notBefore="1904-10-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d23">
+
+                <pb facs="0113" n="25" xml:id="pg25"/>
+
+                <head><hi rendition="#italic">Mr. Iddings to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic">Rome,
+                            Italy</hi></placeName>, <date calendar="gregorian" when="1904-10-10"><hi
+                                rendition="#italic">October 10, 1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 413.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In compliance with your unnumbered
+                    instruction of September 23, 1904, I beg leave to send you herewith a copy of
+                    the Official Gazette of February 11, 1904, containing the neutrality
+                    proclamation issued by the Italian Government after the beginning of the war
+                    between Japan and Russia.<anchor n="a" xml:id="d23-f1"/></p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Lewis Morris
+                    Iddings.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d23-f1" n="a" xml:id="d23-f1-content">
+                <p>Not printed. The proclamation is expressed in the same terms as the proclamation
+                    of April 25, 1898, printed in <ref target="frus1898#pg_874">Foreign Relations
+                        1898, page 874</ref> et seq.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

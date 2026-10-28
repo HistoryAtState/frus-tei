@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_comp20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Japan:</title>
+            </titleStmt>
+            <xi:include href="../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/comp20"
+                    type="canonical"/>
+                <relatedItem target="comp19/ch73/d413.xml" type="prev"/>
+                <relatedItem target="comp20/ch74.xml" type="next"/>
+                <relatedItem target="../frus1911.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">comp20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="315" to="336" unit="page"
+                        >315–36</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1911-08-16T23:59:59-05:00" notBefore="1910-09-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp20">
+
+                <pb facs="0397" n="315" xml:id="pg315"/>
+
+                <head>Japan:</head>
+
+
+
+                <xi:include href="comp20/ch74.xml" xpointer="ch74"/>
+                <xi:include href="comp20/ch75.xml" xpointer="ch75"/>
+                <xi:include href="comp20/ch76.xml" xpointer="ch76"/>
+            </div>
+        </body>
+    </text>
+</TEI>

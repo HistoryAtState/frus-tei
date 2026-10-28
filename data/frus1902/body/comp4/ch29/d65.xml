@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d65" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Baron
+                            Moncheur.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d65"
+                    type="canonical"/>
+                <relatedItem target="d64.xml" type="prev"/>
+                <relatedItem target="d66.xml" type="next"/>
+                <relatedItem target="../ch29.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d65</bibl>
+                <bibl type="frus-division-n">65</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="76" to="76" unit="page"
+                        >76</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1901-12-24"><hi rendition="#italic">December
+                            24, 1901</hi></date>
+                    <date notAfter="1901-12-24T23:59:59-05:00" notBefore="1901-12-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d65">
+
+                <pb facs="0156" n="76" sameAs="frus:frus1902/pg76"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Baron
+                            Moncheur.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1901-12-24"><hi rendition="#italic">December 24,
+                        1901</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 14.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to acknowledge the receipt
+                    of your memorandum of the 20th instant, relating further to the fine imposed in
+                    March or April on the owners of the steamship <hi rendition="#italic"
+                        >Belgika</hi>, and to inform you that I have once more called the attention
+                    of the Secretary of War to the matter, with the request that he cause a report
+                    of the proper authorities in the Philippine Islands to be made and sent to
+                    me.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

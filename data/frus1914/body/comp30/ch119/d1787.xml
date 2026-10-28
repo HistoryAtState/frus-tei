@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d1787" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d1787"
+                    type="canonical"/>
+                <relatedItem target="d1786.xml" type="prev"/>
+                <relatedItem target="d1787-a1.xml" type="next"/>
+                <relatedItem target="../ch119.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d1787</bibl>
+                <bibl type="frus-division-n">1787</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1051" to="1051" unit="page"
+                        >1051</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Panama</hi></placeName>
+                    <date calendar="gregorian" when="1914-09-02">
+                        <hi rendition="#italic">September 2, 1914</hi></date>
+                    <date notAfter="1914-09-02T23:59:59-05:00" notBefore="1914-09-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1787">
+
+                <pb facs="1167" n="1051" sameAs="frus:frus1914/pg1051"/>
+
+                <note rend="inline" type="source">File No. 819.74/62.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <seg rendition="#center">[Extract]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">No. 265.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Panama</hi></placeName>, <date
+                            calendar="gregorian" when="1914-09-02">
+                            <hi rendition="#italic">September 2, 1914</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Referring to my telegram of date of August
+                    29, which reported the signing by the President of Panama on that date of a
+                    satisfactory decree conceding permanent and complete control to the United
+                    States of the radio telegraph situation in the territory and territorial waters
+                    of Panama, I have the honor to enclose herewith a certified copy of said decree
+                    (being No. 130 of 1914) and its translation.</p>
+                <p>On last Monday I transmitted a note to Sr. Lefevre, Secretary of Foreign Affairs
+                    of Panama, expressing to him and through him to his Government gratification and
+                    appreciation for this action on the part of Panama.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Wm. Jennings Price</hi></signed>.</closer>
+
+
+                <xi:include href="d1787-a1.xml" xpointer="d1787-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

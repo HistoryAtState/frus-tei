@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d850" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 850</title>
+                <title type="subtitle">The Director of Political Affairs,
+                        United States Group, Control Council, Germany (Heath)
+                        to the Political Adviser in Germany (Murphy)</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d850"
+                    type="canonical"/>
+                <relatedItem target="d849-a1.xml" type="prev"/>
+                <relatedItem target="d850-a1.xml" type="next"/>
+                <relatedItem target="../ch20subsubch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d850</bibl>
+                <bibl type="frus-division-n">850</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="758" to="766" unit="page"
+                        >758–66</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Babelsberg</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-17">July 17, 1945</date>
+                    <date notAfter="1945-07-17T23:59:59-05:00" notBefore="1945-07-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/persons">
+                    <term ref="frus:frus1945Berlinv02/persons#p_HDR1">Heath, Donald R.</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_MRD1">Murphy, Robert D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv02/terms">
+                    <term ref="frus:frus1945Berlinv02/terms#t_USPolAd1">USPolAd</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d850">
+
+                <pb facs="0952" n="758" xml:id="pg758"/>
+
+                <note rend="inline" type="source">Frankfurt <hi
+                            rendition="#small-caps">USPolAd</hi> Files—800 Germany</note>
+                <head>No. 850<lb/><hi rendition="#italic">The Director of Political Affairs, United
+                        States Group, Control Council, Germany</hi> (<hi rendition="#italic">Heath</hi>) <hi
+                        rendition="#italic">to the Political Adviser in Germany</hi> (<hi rendition="#italic"
+                    >Murphy</hi>)</head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Babelsberg</hi></placeName>?], <date calendar="gregorian"
+                            when="1945-07-17">July 17, 1945</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Memorandum</hi></p>
+                <p>Attached is the memorandum which you directed the Division<anchor n="1"
+                        xml:id="d850-f1"/> to prepare on “Problems with which we are or may be
+                    confronted in the US Zone and in Germany as a whole”. I don’t think the paper is
+                    in the Division’s best vein. Some of the problems mentioned are small or are on
+                    their way to solution and some of the policy guidance asked for in the
+                    memorandum will be supplied as a result of the Conference, at least if the
+                    American thesis is accepted.</p>
+                <p>I have tried my hand at a new document, a rough draft of which is attached for
+                    your consideration.</p>
+                <closer><signed><hi rendition="#small-caps">Don</hi>[<hi
+                                rendition="#small-caps">ald R.
+                    Heath</hi>]</signed></closer>
+
+
+
+
+
+                <xi:include href="d850-a1.xml" xpointer="d850-a1"/>
+                <xi:include href="d850-a2.xml" xpointer="d850-a2"/>
+                <xi:include href="d850-a3.xml" xpointer="d850-a3"/>
+                <xi:include href="d850-a4.xml" xpointer="d850-a4"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d850-f1" n="1" xml:id="d850-f1-content">
+                <p>i. e., the Political Division, United States Group, Control Council
+                    (Germany).</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v04_d171-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum for the Record</title>
+            </titleStmt>
+            <xi:include href="../../../frus1977-80v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1977-80v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1977-80v04/d171-a1"
+                    type="canonical"/>
+                <relatedItem target="d171.xml" type="prev"/>
+                <relatedItem target="d172.xml" type="next"/>
+                <relatedItem target="d171.xml" type="parent"/>
+                <relatedItem target="d171.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1977-80v04</bibl>
+                <bibl type="frus-division-id">d171-a1</bibl>
+                <bibl type="frus-division-n">171.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="754" to="755" unit="page"
+                        >754–55</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label">Tab A</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1979-12-20">December 20, 1979</date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1977-80v04/terms">
+                    <term ref="frus:frus1977-80v04/terms#t_ANMCC_1">ANMCC</term>
+                    <term ref="frus:frus1977-80v04/terms#t_DSP_1">DSP</term>
+                    <term ref="frus:frus1977-80v04/terms#t_NMCC_1">NMCC</term>
+                    <term ref="frus:frus1977-80v04/terms#t_NORAD_1">NORAD</term>
+                    <term ref="frus:frus1977-80v04/terms#t_S_1">S</term>
+                    <term ref="frus:frus1977-80v04/terms#t_SAC_1">SAC</term>
+                    <term ref="frus:frus1977-80v04/terms#t_SLBM_1">SLBM</term>
+                    <term ref="frus:frus1977-80v04/terms#t_U_1">U</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d171-a1">
+
+                <pb facs="0779" n="754" sameAs="frus:frus1977-80v04/pg754"/>
+
+
+                <head>Memorandum for the Record<anchor n="2" xml:id="d171-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1979-12-20">December 20,
+                        1979</date></dateline></opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>NORAD Computer System Failure (U)</item>
+                </list>
+                <list>
+                    <label>1.</label>
+                    <item>(S) On 19 December 1979, at 1526 EST the
+                            NORAD computer system experienced an
+                        eighteen minute failure which required NORAD to manually process missile warning information.</item>
+                    <label>2.</label>
+                    <item>(S) There are two primary computers which
+                        process missile warning communications in and out of NORAD. They are backed up by a third, older
+                        computer, called the Digital Information Processor (DIP). At the time of the
+                        failure, one primary computer was online and in use; one was undergoing
+                        program testing and was not committed to automatic take over. The DIP was
+                        undergoing corrective maintenance and was not operational. Under those
+                        conditions, when the primary computer failed (cause unknown) it was
+                        necessary for NORAD
+                        <pb facs="0780" n="755" xml:id="pg755"/> to bring up the other computer
+                        manually. This action required eighteen minutes.</item>
+                    <label>3.</label>
+                    <item>(S) SAC,
+                        the NMCC and the ANMCC all receive information directly from
+                            DSP ground processing stations. This
+                        information is processed in computers at those three locations as soon as it
+                        is available. Washington principals, during the NORAD system outage, would have received missile warning
+                        information from DSP–E and DSP–W without delay. All FSS–7 SLBM radar information and NORAD assessments would have been delayed by
+                        the manual processing time (voice tell) of approximately two minutes.</item>
+                </list>
+                <closer><signed><hi rendition="#bold">George R. Stotser</hi>
+                        <lb/>
+                        <hi rendition="#italic">Brigadier General, USA</hi>
+                        <lb/>
+                        <hi rendition="#italic">Deputy Director for Operations (NMCC)</hi>
+                    </signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d171-f1" n="2" type="source" xml:id="d171-f1-content">
+                <p>Secret. Prepared by Brigadier General George Stotser, NMCC Deputy Director for Operations.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

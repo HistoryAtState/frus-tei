@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1905_comp19" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Haiti</title>
+            </titleStmt>
+            <xi:include href="../frus1905_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1905_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1905/comp19"
+                    type="canonical"/>
+                <relatedItem target="comp18/ch98/d468.xml" type="prev"/>
+                <relatedItem target="comp19/ch99.xml" type="next"/>
+                <relatedItem target="../frus1905.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1905</bibl>
+                <bibl type="frus-division-id">comp19</bibl>
+                <bibl type="frus-division-n">19</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="532" to="558" unit="page"
+                        >532–58</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1905-12-09T23:59:59-05:00" notBefore="1905-02-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp19">
+
+                <pb facs="0652" n="532" xml:id="pg532"/>
+
+                <head>Haiti</head>
+
+
+
+
+
+
+                <xi:include href="comp19/ch99.xml" xpointer="ch99"/>
+                <xi:include href="comp19/ch100.xml" xpointer="ch100"/>
+                <xi:include href="comp19/ch101.xml" xpointer="ch101"/>
+                <xi:include href="comp19/ch102.xml" xpointer="ch102"/>
+                <xi:include href="comp19/ch103.xml" xpointer="ch103"/>
+            </div>
+        </body>
+    </text>
+</TEI>

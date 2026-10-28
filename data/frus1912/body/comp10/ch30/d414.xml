@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d414" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador of Great
+                            Britain to the Secretary of
+                    State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d414"
+                    type="canonical"/>
+                <relatedItem target="d413.xml" type="prev"/>
+                <relatedItem target="d414-a1.xml" type="next"/>
+                <relatedItem target="../ch30.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d414</bibl>
+                <bibl type="frus-division-n">414</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="291" to="293" unit="page"
+                        >291–93</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">British Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1912-12-20">
+                        <hi rendition="#italic">December 20, 1912</hi></date>
+                    <date notAfter="1912-12-20T23:59:59-05:00" notBefore="1912-12-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d414">
+
+                <pb facs="0407" n="291" xml:id="pg291"/>
+
+                <note rend="inline" type="source">File No. 437.00/43.</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador of Great
+                            Britain to the Secretary of
+                        State</hi>.<anchor n="1" xml:id="d414-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 260.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">British Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1912-12-20">
+                            <hi rendition="#italic">December 20, 1912</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honour, under instructions from
+                    His Majesty’s Principal Secretary of State for Foreign Affairs, to communicate
+                    to you herewith a copy of a joint note and agreement which the representatives
+                    of His Majesty’s Government and the French and German Government at Havana have
+                    addressed to the Cuban Government in regard to the arbitration of the British,
+                    French and German outstanding claims against Cuba.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">James Bryce</hi>.</signed>
+                </closer>
+
+
+                <xi:include href="d414-a1.xml" xpointer="d414-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d414-f1" n="1" type="source" xml:id="d414-f1-content">
+                <p>A similar note was sent on the same date with the same inclosure by the French
+                    and the German Ambassadors, file nos. 437.00/44 and 437.00/45 respectively.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

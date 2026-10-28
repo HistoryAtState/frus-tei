@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1923v01" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1923v01_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1923v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1923v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1923v01"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1923v01" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1923v01/covers/frus1923v01.jpg"/>
+                        <extent>
+                            <measure quantity="27120" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:05:10.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1923v01" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1923v01/ebook/frus1923v01.epub"/>
+                        <extent>
+                            <measure quantity="1728767" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:05:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1923v01" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1923v01/ebook/frus1923v01.mobi"/>
+                        <extent>
+                            <measure quantity="2231674" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:05:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1938 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">wilson</term>
+                    <term xml:id="admin3">harding</term>
+                    <term xml:id="admin4">coolidge</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>albania</term>
+                    <term>austria</term>
+                    <term>belgium</term>
+                    <term>bolivia</term>
+                    <term>brazil</term>
+                    <term>bulgaria</term>
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>colombia</term>
+                    <term>costa-rica</term>
+                    <term>cuba</term>
+                    <term>denmark</term>
+                    <term>dominican-republic</term>
+                    <term>ecuador</term>
+                    <term>estonia</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>league-of-nations</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>economic-summit-meetings</term>
+                    <term>coolidge-calvin</term>
+                    <term>foreign-aid</term>
+                    <term>harding-warren-g</term>
+                    <term>czech-republic</term>
+                    <term>slovakia</term>
+                    <term>liechtenstein</term>
+                    <term>monaco</term>
+                    <term>hughes-charles-evans</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1923v01" status="published" when="1938"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Papers Relating to the Foreign Relations of the United
+                        States</titlePart>
+                    <titlePart type="subseries">1923</titlePart>
+                    <titlePart type="volumeno">(In Two Volumes)<lb/>Volume I</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <publisher>United States<lb/>Government Printing
+                        Office</publisher><lb/><pubPlace>Washington:</pubPlace>
+                    <docDate>1938</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE<lb/><hi
+                        rendition="#small-caps">Publication</hi> 1260<lb/>For Sale by
+                    the<lb/>Superintendent of Documents, Washington, D. C.<lb/>Price $1.25
+                    (cloth)</docImprint>
+            </titlePage>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/message-of-the-president.xml"
+                xpointer="message-of-the-president"/>
+            <pb facs="0028" n="[XXIV]" xml:id="pgXXIV"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+            <pb facs="0116" n="[CXII]" xml:id="pgCXII"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+            <xi:include href="body/comp12.xml" xpointer="comp12"/>
+            <xi:include href="body/comp13.xml" xpointer="comp13"/>
+            <xi:include href="body/comp14.xml" xpointer="comp14"/>
+            <xi:include href="body/comp15.xml" xpointer="comp15"/>
+            <xi:include href="body/comp16.xml" xpointer="comp16"/>
+            <xi:include href="body/comp17.xml" xpointer="comp17"/>
+            <xi:include href="body/comp18.xml" xpointer="comp18"/>
+        </body>
+        <back>
+            <pb facs="1067" n="[951]" xml:id="pg951"/>
+            <pb facs="1068" n="[952]" xml:id="pg952"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

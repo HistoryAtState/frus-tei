@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d549" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Minister to the
+                            Dominican Republic to the Secretary of
+                            State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d549"
+                    type="canonical"/>
+                <relatedItem target="d548.xml" type="prev"/>
+                <relatedItem target="d550.xml" type="next"/>
+                <relatedItem target="../ch40.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d549</bibl>
+                <bibl type="frus-division-n">549</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="380" to="380" unit="page"
+                        >380</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Santo Domingo</hi></placeName>
+                    <date calendar="gregorian" when="1912-01-19">
+                        <hi rendition="#italic">January 19, 1912</hi></date>
+                    <date notAfter="1912-01-19T23:59:59-05:00" notBefore="1912-01-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d549">
+
+                <pb facs="0496" n="380" sameAs="frus:frus1912/pg380"/>
+
+                <note rend="inline" type="source">File No. 839.00/481.]</note>
+                <head>
+                    <hi rendition="#italic">The American Minister to the
+                            Dominican Republic to the Secretary of
+                            State</hi>.</head>
+                <opener>
+                    <seg rendition="#center">[Telegram.—Extract.—Paraphrase.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Santo Domingo</hi></placeName>, <date
+                            calendar="gregorian" when="1912-01-19">
+                            <hi rendition="#italic">January 19, 1912</hi></date>.</dateline>
+                </opener>
+                <p>The Minister for Foreign Affairs requests me to inform you that Peynado<anchor
+                        n="5" xml:id="d549-f1"/> will leave for Washington in a few days with full
+                    general powers to sign a boundary protocol that will be submitted to
+                    plebiscite.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Russell.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d549-f1" n="5" xml:id="d549-f1-content">
+                <p>Dominican Minister to the United States.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

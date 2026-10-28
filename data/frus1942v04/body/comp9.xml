@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1942v04_comp9" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Muscat and Oman:</title>
+            </titleStmt>
+            <xi:include href="../frus1942v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1942v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1942v04/comp9"
+                    type="canonical"/>
+                <relatedItem target="comp8/ch37/d646.xml" type="prev"/>
+                <relatedItem target="comp9/ch38.xml" type="next"/>
+                <relatedItem target="../frus1942v04.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1942v04</bibl>
+                <bibl type="frus-division-id">comp9</bibl>
+                <bibl type="frus-division-n">9</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="531" to="537" unit="page"
+                        >531–37</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1942-11-04T18:00:00-05:00" notBefore="1942-08-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp9">
+
+                <pb facs="0543" n="531" xml:id="pg531"/>
+
+                <head>Muscat and Oman:</head>
+
+                <xi:include href="comp9/ch38.xml" xpointer="ch38"/>
+            </div>
+        </body>
+    </text>
+</TEI>

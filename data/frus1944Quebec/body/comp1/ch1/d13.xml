@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Representatives of the British
+                        Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d13"
+                    type="canonical"/>
+                <relatedItem target="d12.xml" type="prev"/>
+                <relatedItem target="d13-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d13</bibl>
+                <bibl type="frus-division-n">13</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="9" to="10" unit="page"
+                        >9–10</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-07-14">14 July 1944</date>
+                    <date notAfter="1944-07-14T23:59:59-05:00" notBefore="1944-07-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1944Quebec/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d13">
+
+                <pb facs="0063" n="9" sameAs="frus:frus1944Quebec/pg9"/>
+
+                <note rend="inline" type="source">J.C.S.
+                    Files</note>
+                <head><hi rendition="#italic">Memorandum by the Representatives of the British
+                        Chiefs of Staff</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        C.C.S. 618</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-07-14">14 July 1944</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Machinery for Coordination of
+                        United States-Soviet-British Military Effort</hi></p>
+                <list>
+                    <label>1.</label>
+                    <item>The text of messages which have been exchanged between the Head of the
+                        British Military Mission in Moscow and the British Chiefs of Staff is
+                        contained in the Enclosure to this paper. The British Chiefs of Staff have
+                        asked us to pass these messages to the United States Chiefs of Staff and to
+                        explain that it is their firm opinion that the coordination of matters of
+                        military importance must rest with the Combined Chiefs of Staff and cannot
+                        be delegated to any theatre commander.</item>
+                    <label>2.</label>
+                    <item>The British Chiefs of Staff agree that some machinery is necessary to
+                        coordinate the efforts of the Anglo-American forces on the one side and the
+                        Russians on the other, but feel that this is a matter which must be settled
+                        by the Combined Chiefs of Staff and that this can best be done at the next
+                        meeting of the United States and British Chiefs of Staff.</item>
+                </list>
+
+
+                <xi:include href="d13-a1.xml" xpointer="d13-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

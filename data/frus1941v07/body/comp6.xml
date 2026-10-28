@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1941v07_comp6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>El Salvador:</title>
+            </titleStmt>
+            <xi:include href="../frus1941v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1941v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1941v07/comp6"
+                    type="canonical"/>
+                <relatedItem target="comp5/ch22.xml" type="prev"/>
+                <relatedItem target="comp6/ch23.xml" type="next"/>
+                <relatedItem target="../frus1941v07.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1941v07</bibl>
+                <bibl type="frus-division-id">comp6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="310" to="312" unit="page"
+                        >310–12</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1941-12-09T23:59:59-05:00" notBefore="1941-07-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp6">
+
+                <pb facs="0318" n="310" xml:id="pg310"/>
+
+                <head>El Salvador:</head>
+
+
+                <xi:include href="comp6/ch23.xml" xpointer="ch23"/>
+                <xi:include href="comp6/ch24.xml" xpointer="ch24"/>
+            </div>
+        </body>
+    </text>
+</TEI>

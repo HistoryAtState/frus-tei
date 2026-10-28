@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1925v02_d420" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Mexican Ambassador (Téllez) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1925v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1925v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1925v02/d420"
+                    type="canonical"/>
+                <relatedItem target="d419-a1.xml" type="prev"/>
+                <relatedItem target="d420-a1.xml" type="next"/>
+                <relatedItem target="../ch44.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1925v02</bibl>
+                <bibl type="frus-division-id">d420</bibl>
+                <bibl type="frus-division-n">420</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="537" to="540" unit="page"
+                        >537–40</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1925-11-30"><hi rendition="#italic">November
+                            30, 1925</hi></date>
+                    <date notAfter="1925-11-30T23:59:59-05:00" notBefore="1925-11-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d420">
+
+                <pb facs="0619" n="537" sameAs="frus:frus1925v02/pg537"/>
+
+                <note rend="inline" type="source">711.1211/236</note>
+                <head><hi rendition="#italic">The Mexican Ambassador</hi> (<hi
+                            rendition="#italic">Téllez</hi>) <hi rendition="#italic">to
+                        the Secretary of State</hi></head>
+                <opener><seg rendition="#center">[Translation<anchor n="34" xml:id="d420-f1"
+                        />]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1925-11-30"><hi rendition="#italic">November 30,
+                        1925</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Mr. Secretary</hi>: In compliance with a telegraphic
+                    instruction from my Government, I have the honor to place in Your Excellency’s
+                    hands the enclosed memorandum containing the text of the reply which Señor
+                    Licenciado Sáenz, Minister for Foreign Affairs, made to the <hi
+                        rendition="#italic">aide-mémoire</hi> which Your Excellency was pleased to
+                    deliver to him through His Excellency, Mr. James R. Sheffield, the American <pb
+                        facs="0620" n="538" xml:id="pg538"/> Ambassador in Mexico,<anchor n="35"
+                        xml:id="d420-f2"/> regarding a bill to regulate section 1 of article 27 of
+                    the Constitution, which is now under consideration in the Senate.</p>
+                <p>Accept [etc.]</p>
+                <closer><signed><hi rendition="#small-caps">Manuel C. Téllez</hi></signed></closer>
+
+
+                <xi:include href="d420-a1.xml" xpointer="d420-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d420-f1" n="34" xml:id="d420-f1-content">
+                <p>File translation revised.</p>
+            </note>
+            <note corresp="#d420-f2" n="35" xml:id="d420-f2-content">
+                <p>See telegram No. 254, Nov. 13, to the Ambassador in Mexico, <ref target="#pg527"
+                        >p. 527</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

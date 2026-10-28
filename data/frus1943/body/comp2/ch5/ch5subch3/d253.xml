@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d253" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chief of Staff, United States Army
+                        (Marshall) to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d253"
+                    type="canonical"/>
+                <relatedItem target="d252.xml" type="prev"/>
+                <relatedItem target="d253-a1.xml" type="next"/>
+                <relatedItem target="../ch5subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d253</bibl>
+                <bibl type="frus-division-n">253</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="530" to="531" unit="page"
+                        >530–31</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-02">August 2, 1943</date>
+                    <date notAfter="1943-08-02T23:59:59-05:00" notBefore="1943-08-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d253">
+
+                <pb facs="0644" n="530" sameAs="frus:frus1943/pg530"/>
+
+                <note rend="inline" type="source">740.0011 EW/8–243</note>
+                <head>
+                    <hi rendition="#italic">The Chief of Staff, United States Army</hi> (<hi rendition="#italic">Marshall</hi>) <hi
+                        rendition="#italic">to the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1943-08-02">August 2, 1943</date>.]</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Memorandum for Secretary Hull</hi>
+                </p>
+                <p>Attached hereto is a draft of the essential conditions which the War Department
+                    believes should be imposed in order that Rome may be considered an open
+                    city.</p>
+                <p>I assume that you will take this matter up with the British.</p>
+                <closer>
+                    <signed>G C <hi rendition="#small-caps">Marshall</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d253-a1.xml" xpointer="d253-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

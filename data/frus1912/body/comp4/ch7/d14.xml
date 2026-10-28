@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d14"
+                    type="canonical"/>
+                <relatedItem target="d13.xml" type="prev"/>
+                <relatedItem target="d15.xml" type="next"/>
+                <relatedItem target="../ch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="16" to="17" unit="page"
+                        >16–17</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Brussels</hi></placeName>
+                    <date calendar="gregorian" when="1912-07-26">
+                        <hi rendition="#italic">July 26, 1912</hi></date>
+                    <date notAfter="1912-07-26T23:59:59-05:00" notBefore="1912-07-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d14">
+
+                <pb facs="0132" n="16" sameAs="frus:frus1912/pg16"/>
+
+                <note rend="inline" type="source">File No. 355.115 C76/19.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <seg rendition="#float-left">No. 59.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Brussels</hi></placeName>, <date
+                            calendar="gregorian" when="1912-07-26">
+                            <hi rendition="#italic">July 26, 1912</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>:—Referring to previous correspondence which
+                    has taken place during the past five years on the subject of discriminations
+                    against American oils appearing in the specifications of Belgian Government
+                    departments, I have the honor to report that the Legation has continued <pb
+                        facs="0133" n="17" xml:id="pg17"/> its crusade against this injustice, and
+                    in addition to its removal from the specifications in the case of the Ministry
+                    of Railways and of the Bureau of Marine I am happy now to add that I have today
+                    received a note from the Foreign Office, a translation of which I beg to
+                        enclose,<anchor n="1" xml:id="d14-f1"/> stating that the distinction between
+                    lubricating oils of American and other origins has been removed in the
+                    specifications for industrial oils for use in the service of the Minister of
+                    Colonies, which appears to be the last instance in which this discrimination can
+                    be found.</p>
+                <p>I have [etc]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Larz Anderson.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d14-f1" n="1" xml:id="d14-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

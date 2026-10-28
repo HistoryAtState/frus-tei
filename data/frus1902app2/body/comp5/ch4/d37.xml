@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app2_d37" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Powers of attorney from the bishops of Sacramento
+                        and Monterey to the archbishop of San Francisco.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902app2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902app2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902app2/d37"
+                    type="canonical"/>
+                <relatedItem target="../ch4.xml" type="prev"/>
+                <relatedItem target="d37-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app2</bibl>
+                <bibl type="frus-division-id">d37</bibl>
+                <bibl type="frus-division-n">37</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="374" to="377" unit="page"
+                        >374–77</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Sacramento, Cal.</hi></placeName>
+                    <date calendar="gregorian" when="1902-07-30"><hi rendition="#italic">July 30,
+                            1902</hi></date>
+                    <date notAfter="1902-07-30T23:59:59-05:00" notBefore="1902-07-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d37">
+
+                <pb facs="0382" n="374" sameAs="frus:frus1902app2/pg374"/>
+
+                <head ana="#head_untitled-inferred-from-chapter-head"><hi rendition="#small-caps"
+                        >Powers of attorney from the bishops of Sacramento and Monterey to the
+                        archbishop of San Francisco</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Sacramento, Cal.</hi></placeName>, <date calendar="gregorian"
+                            when="1902-07-30"><hi rendition="#italic">July 30,
+                        1902</hi></date>.</dateline></opener>
+                <p rendition="#flush">Most Rev. <hi rendition="#small-caps">P. W. Riordan</hi>, <hi
+                        rendition="#italic">Archbishop of San Francisco.</hi></p>
+                <p><hi rendition="#small-caps">Most Reverend Dear Archbishop</hi>: I enclose
+                    herewith my general power of attorney. You may need it before the arbitral court
+                    of the Pious Fund claim at The Hague. By this I appoint you to act in my stead
+                    for the collection of said moneys of the Pious Fund.</p>
+                <p>Yours truly in Christ,</p>
+                <closer>[<hi rendition="#small-caps">corporate seal.</hi>] <signed><hi
+                            rendition="#small-caps">Thomas Grace</hi>,<lb/><hi rendition="#italic"
+                            >Reman Catholic Bishop of Sacramento.</hi></signed></closer>
+
+
+
+                <xi:include href="d37-a1.xml" xpointer="d37-a1"/>
+                <xi:include href="d37-a2.xml" xpointer="d37-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

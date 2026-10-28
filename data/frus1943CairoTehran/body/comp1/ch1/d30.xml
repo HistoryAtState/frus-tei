@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d30" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marshal Stalin to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d30"
+                    type="canonical"/>
+                <relatedItem target="d29.xml" type="prev"/>
+                <relatedItem target="d31.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d30</bibl>
+                <bibl type="frus-division-n">30</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="23" to="24" unit="page"
+                        >23–24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1943-09-08">September 8, 1943</date>
+                    <date notAfter="1943-09-08T23:59:59-05:00" notBefore="1943-09-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RE1">Roosevelt, Elliott</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d30">
+
+                <pb facs="0115" n="23" sameAs="frus:frus1943CairoTehran/pg23"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">Marshal Stalin to President Roosevelt</hi><anchor n="1" xml:id="d30-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Moscow</hi></placeName>, <date calendar="gregorian"
+                            when="1943-09-08">September 8, 1943</date>.]</dateline>
+                </opener>
+                <p rendition="#center">Translation</p>
+                <p>Personal and secret message from Premier J. V.
+                        Stalin to President Franklin D.
+                        Roosevelt</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <pb facs="0116" n="24" xml:id="pg24"/>
+                <p>Third. As to our personal meeting with participation of Mr. Churchill I am also interested to have it
+                    arranged as soon as possible. Your proposal regarding the time of the meeting
+                    seems to me acceptable. I consider that it would be expedient to choose as the
+                    place of the meeting the country where there are the representations of all
+                    three countries, for instance, Iran. However, I have to say that the exact date
+                    of the meeting has to be defined later taking into consideration the situation
+                    on the Soviet-German front where more than 500 divisions are engaged in the
+                    righting in all, and where the control on the part of the High Command of the
+                    USSR is needed almost daily.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <p><hi rendition="#small-caps">September</hi> 8, 1943.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d30-f1" n="1" type="source" xml:id="d30-f1-content">
+                <p>Apparently sent via the Soviet Embassy, Washington. The entire document is
+                    printed in <hi rendition="#italic">Stalin’s Correspondence</hi>, vol. <hi rendition="#small-caps"
+                        >ii</hi>, p. 90.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

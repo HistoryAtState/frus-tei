@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1924v02_comp3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Greece:</title>
+            </titleStmt>
+            <xi:include href="../frus1924v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1924v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1924v02/comp3"
+                    type="canonical"/>
+                <relatedItem target="comp2/ch16/d201.xml" type="prev"/>
+                <relatedItem target="comp3/ch17.xml" type="next"/>
+                <relatedItem target="../frus1924v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1924v02</bibl>
+                <bibl type="frus-division-id">comp3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="262" to="289" unit="page"
+                        >262–89</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1925-01-20T13:00:00-05:00" notBefore="1924-01-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp3">
+
+                <pb facs="0356" n="262" xml:id="pg262"/>
+
+                <head>Greece:</head>
+
+
+
+                <xi:include href="comp3/ch17.xml" xpointer="ch17"/>
+                <xi:include href="comp3/ch18.xml" xpointer="ch18"/>
+                <xi:include href="comp3/ch19.xml" xpointer="ch19"/>
+            </div>
+        </body>
+    </text>
+</TEI>

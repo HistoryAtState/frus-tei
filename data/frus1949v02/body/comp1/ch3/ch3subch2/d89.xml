@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v02_d89" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Ambassador at Large (Jessup)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1949v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1949v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1949v02/d89"
+                    type="canonical"/>
+                <relatedItem target="d88.xml" type="prev"/>
+                <relatedItem target="d89-a1.xml" type="next"/>
+                <relatedItem target="../ch3subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1949v02</bibl>
+                <bibl type="frus-division-id">d89</bibl>
+                <bibl type="frus-division-n">89</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="160" to="161" unit="page"
+                        >160–61</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1949-08-31">August 31, 1949</date>
+                    <date notAfter="1949-08-31T23:59:59-05:00" notBefore="1949-08-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1949v02/terms">
+                    <term ref="frus:frus1949v02/terms#t_UNGA1">UNGA</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d89">
+
+                <pb facs="0176" n="160" sameAs="frus:frus1949v02/pg160"/>
+
+                <note rend="inline" type="source">501.BB/8–3149</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the Ambassador at Large</hi> (<hi
+                        rendition="#italic">Jessup</hi>)<anchor n="1" xml:id="d89-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1949-08-31">August 31, 1949</date>.</dateline>
+                </opener>
+                <p>Attached is a draft of a proposed UNGA
+                    Resolution on the Chinese situation which follows the pattern of the Washington
+                    Treaty of 1922 on China.<anchor n="2" xml:id="d89-f2"/> This is the step
+                    proposed in paragraph 3 of my memorandum of August 29th to the Secretary listing
+                    a series of suggested measures in regard to the Far East.<anchor n="3"
+                        xml:id="d89-f3"/> The draft resolution repeats the substance of each of the
+                    subparagraphs of Article 1 of the Washington Treaty as it was felt that the
+                    omission of any one of them, even though it might not be completely appropriate
+                    to the present situation, might give rise to criticism. There is also attached
+                    for purpose of comparison a copy of Article 1 of the Washington Treaty.<anchor
+                        n="3" xml:id="d89-f4"/> Any comments you may wish to make will be
+                    appreciated.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Philip</hi> C. <hi rendition="#small-caps"
+                            >Jessup</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d89-a1.xml" xpointer="d89-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d89-f1" n="1" type="source" xml:id="d89-f1-content">
+                <p>Addressed to the Deputy Under Secretary of State (Rusk), the Consultants on the
+                    Far East (Fosdick and Case), the Chief of the Division of Chinese Affairs
+                    (Sprouse), the Acting Director of United Nations Affairs (Sanders), and the
+                    Director of the Policy Planning Staff (Kennan).</p>
+            </note>
+            <note corresp="#d89-f2" n="2" xml:id="d89-f2-content">
+                <p>Signed February 6, 1922; <ref target="frus1922v01#pg_276">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1922, vol. <hi
+                            rendition="#small-caps">i</hi>, p. 276</ref>.</p>
+            </note>
+            <note corresp="#d89-f3" n="3" xml:id="d89-f3-content">
+                <p>Attachment not printed.</p>
+            </note>
+            <note corresp="#d89-f4" n="3" xml:id="d89-f4-content">
+                <p>Attachment not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

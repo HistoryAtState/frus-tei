@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d103" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d103"
+                    type="canonical"/>
+                <relatedItem target="d102.xml" type="prev"/>
+                <relatedItem target="d104.xml" type="next"/>
+                <relatedItem target="../ch2subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d103</bibl>
+                <bibl type="frus-division-n">103</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="167" to="167" unit="page"
+                        >167</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-08-31">31 August 1944</date>
+                    <date notAfter="1944-08-31T23:59:59-05:00" notBefore="1944-08-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d103">
+
+                <pb facs="0223" n="167" sameAs="frus:frus1944Quebec/pg167"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt
+                        to Prime Minister Churchill</hi><anchor n="1"
+                        xml:id="d103-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-08-31">31 August 1944</date>.</dateline>
+                </opener>
+                <p>Number 613, personal and top secret, from the President for the Prime
+                    Minister.</p>
+                <p>In connection with the Argentine meat negotiations you have no doubt seen the
+                    message to Buenos Aires from the Argentine Ambassador in London<anchor n="2"
+                        xml:id="d103-f2"/> in which the Ambassador warned his government that its
+                    difficulties were “no longer centered on suspension of relations with the United
+                    States” and that Argentina was being placed “in a position of isolation
+                    vis-à-vis the Allied and friendly nations.” He added that according to a “big
+                    meat packer the Allied Nations are now in a position to do without Argentine
+                    meat for six months with no trouble at all and for twelve months with some
+                    sacrifice.” The Ambassador also said that his information tallies with that from
+                    the Argentine Commercial Counsellor in Washington<anchor n="3" xml:id="d103-f3"
+                    /> and with the view expressed for some time past by the Ambassador himself that
+                    the United Nations may make fewer purchases from Argentina.</p>
+                <p>Since we know that the Colonels are falling all over themselves to get you to buy
+                    their meat, I am confident that you will agree that the Ambassador’s message was
+                    an extremely bad piece of news for them.</p>
+                <p>All the evidence that has come to my attention reinforces our belief that you are
+                    in an excellent position to use the negotiations to support the whole Allied
+                    stand in this Hemisphere against this broad Fascist movement. You will certainly
+                    have no trouble on the beef and mutton matter in any event.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d103-f1" n="1" type="source" xml:id="d103-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+            <note corresp="#d103-f2" n="2" xml:id="d103-f2-content">
+                <p>Miguel Angel Cárcano.</p>
+            </note>
+            <note corresp="#d103-f3" n="3" xml:id="d103-f3-content">
+                <p>Miguel E. Quirino-Lavalle.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

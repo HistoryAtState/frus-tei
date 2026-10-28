@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v03mSupp_d51" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegram 428 to Geneva</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v03mSupp/d51"
+                    type="canonical"/>
+                <relatedItem target="d50.xml" type="prev"/>
+                <relatedItem target="d52.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v03mSupp</bibl>
+                <bibl type="frus-division-id">d51</bibl>
+                <bibl type="frus-division-n">51</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1955-08-09">August 9, 1955</date>
+                    <date notAfter="1955-08-09T23:59:59-05:00" notBefore="1955-08-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v03mSupp/persons">
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_DJF_1">Dulles, John Foster</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_JUA_1">Johnson, U. Alexis</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_MWP_1">McConaughy, Walter
+                        P.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d51">
+
+                <pb facs="d50-1" n="1" sameAs="frus:frus1955-57v03mSupp/d50-1"/>
+
+                <head>51. Telegram 428 to Geneva<anchor n="1" xml:id="d51-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1955-08-09">August 9, 1955</date></dateline>
+                </opener>
+                <pb facs="d51-1" n="1" type="facsimile" xml:id="d51-1"/>
+                <p>428. For Johnson.</p>
+                <p>Your 369. You are authorized in your discretion to brief members congressional
+                    Atomic Energy Group on discussions to date regarding civilians. You may also
+                    give them general idea of what is involved in representation issue but you
+                    should avoid mention name of any third country in this connection.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Dulles</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d51-f1" n="1" type="source" xml:id="d51-f1-content">
+                <p>Source: Department of State, Central Files, 611.93/8–955. Confidential; Priority.
+                    Drafted by McConaughy; substance
+                    approved by Dulles and Morton (H). The
+                    time of transmission is illegible.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

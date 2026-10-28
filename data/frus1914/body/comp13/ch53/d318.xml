@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d318" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d318"
+                    type="canonical"/>
+                <relatedItem target="d317.xml" type="prev"/>
+                <relatedItem target="d319.xml" type="next"/>
+                <relatedItem target="../ch53.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d318</bibl>
+                <bibl type="frus-division-n">318</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="241" to="241" unit="page"
+                        >241</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1914-06-24T20:00:00-05:00">
+                        <hi rendition="#italic">June 24, 1914, 8 p.m.</hi>
+                    </date>
+                    <date notAfter="1914-06-24T20:00:00-05:00" notBefore="1914-06-24T20:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d318">
+
+                <pb facs="0357" n="241" sameAs="frus:frus1914/pg241"/>
+
+                <note rend="inline" type="source">File No. 839.00/1335.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1914-06-24T20:00:00-05:00">
+                            <hi rendition="#italic">June 24, 1914, 8 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Your June 20, 8 p.m. Department informed by Dominican Chargé that he will present
+                    formal protest against action of Commander of <hi rendition="#italic">South
+                        Carolina</hi> in preventing bombardment of Puerto Plata. Department will
+                    reply formally to Dominican Government’s protest. So advise Dominican
+                    Government.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Bryan</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

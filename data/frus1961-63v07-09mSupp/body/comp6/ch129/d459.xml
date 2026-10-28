@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v07-09mSupp_d459" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Hodges to Ball, September 14</title>
+            </titleStmt>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v07-09mSupp/d459"
+                    type="canonical"/>
+                <relatedItem target="d458.xml" type="prev"/>
+                <relatedItem target="d459-a1.xml" type="next"/>
+                <relatedItem target="../ch129.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v07-09mSupp</bibl>
+                <bibl type="frus-division-id">d459</bibl>
+                <bibl type="frus-division-n">459</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                        when="1962-09-14">September 14, 1962</date>
+                    <date notAfter="1962-09-14T23:59:59-05:00" notBefore="1962-09-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v07-09mSupp/persons">
+                    <term ref="frus:frus1961-63v07-09mSupp/persons#p_BGW_1">Ball, George W.</term>
+                    <term ref="frus:frus1961-63v07-09mSupp/persons#p_HLH_1">Hodges, Luther H.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d459">
+
+                <pb facs="1980" n="1829" xml:id="pg1829"/>
+
+                <head>459. Letter from Hodges to Ball, September 14<anchor n="1"
+                        xml:id="d459-f1"/></head>
+                <opener>
+                    <dateline>
+                        <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            when="1962-09-14">September 14, 1962</date>
+                    </dateline>
+                    <pb facs="d459-1" n="1" type="facsimile" xml:id="d459-1"/>
+                    <salute>Dear George:</salute>
+                </opener>
+                <p>Attached herewith are the minutes of the President’s Cabinet Textile Advisory
+                    Committee held Monday, August 27, 1962, at the White House.</p>
+                <p>The delay in getting these to you is regretted.</p>
+                <p>Sincerely yours,</p>
+                <closer><signed>Luther H.
+                        Hodges</signed><affiliation>Secretary of
+                    Commerce</affiliation></closer>
+
+
+                <xi:include href="d459-a1.xml" xpointer="d459-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d459-f1" n="1" type="source" xml:id="d459-f1-content">
+                <p>Conveys minutes of August 27 meeting of President’s Cabinet Textile Advisory
+                    Committee. Confidential. 6 pp. Department of State, Central Files,
+                    394.41/9–1462.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

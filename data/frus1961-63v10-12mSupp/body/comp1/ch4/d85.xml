@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v10-12mSupp_d85" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Circular Airgram CA–6669, December 19</title>
+            </titleStmt>
+            <xi:include href="../../../frus1961-63v10-12mSupp_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1961-63v10-12mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d85"
+                    type="canonical"/>
+                <relatedItem target="d84.xml" type="prev"/>
+                <relatedItem target="d85-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v10-12mSupp</bibl>
+                <bibl type="frus-division-id">d85</bibl>
+                <bibl type="frus-division-n">85</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                        when="1962-12-19">December 19, 1962</date>
+                    <date notAfter="1962-12-19T23:59:59-05:00" notBefore="1962-12-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v10-12mSupp/persons">
+                    <term ref="frus:frus1961-63v10-12mSupp/persons#p_RD_1">Rusk, Dean</term>
+                </keywords>
+                <keywords scheme="frus:frus1961-63v10-12mSupp/terms">
+                    <term ref="frus:frus1961-63v10-12mSupp/terms#t_CF_1">CF</term>
+                    <term ref="frus:frus1961-63v10-12mSupp/terms#t_CINCARIB_1">CINCARIB</term>
+                    <term ref="frus:frus1961-63v10-12mSupp/terms#t_DOS_1">DOS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d85">
+
+                <pb facs="0394" n="219" xml:id="pg219"/>
+
+                <head>85. Circular Airgram CA–6669, December 19<anchor n="1" xml:id="d85-f1"
+                    /></head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            when="1962-12-19">December 19, 1962</date>
+                    </dateline>
+                </opener>
+                <pb facs="d85-1" n="1" type="facsimile" xml:id="d85-1"/>
+                <p>TO: The AmEmbassy, San Jose. INFO: POLAD CINCARIB.</p>
+                <p>SUBJECT: COSTA RICA—Plan of Action for Period from Present to October 1963.</p>
+                <p>The Latin American Policy Committee recently approved the enclosed Plan of Action
+                    for Costa Rica for the guidance of all agencies concerned with United States
+                    policy toward Costa Rica.</p>
+                <closer><signed>Rusk</signed></closer>
+
+
+
+                <xi:include href="d85-a1.xml" xpointer="d85-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d85-f1" n="1" type="source" xml:id="d85-f1-content">
+                <p>Approved Plan of Action toward Costa Rica from December 1962 to October 1963.
+                    Secret. 4 pp. DOS, CF, 611.18/12–1962.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

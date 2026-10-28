@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app1_d11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EXHIBIT F.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902app1/d11"
+                    type="canonical"/>
+                <relatedItem target="d10.xml" type="prev"/>
+                <relatedItem target="d11-a1.xml" type="next"/>
+                <relatedItem target="../s01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app1</bibl>
+                <bibl type="frus-division-id">d11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="37" to="37" unit="page"
+                        >37</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">District of San Francisco, Port of San
+                            Francisco</hi>.</placeName>
+                    <date/>
+                    <date notAfter="1891-12-07T23:59:59-05:00" notBefore="1891-12-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d11">
+
+                <pb facs="0047" n="37" sameAs="frus:frus1902app1/pg37"/>
+
+                <head>EXHIBIT F.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >District of San Francisco, Port of San
+                        Francisco</hi>.</placeName></dateline></opener>
+                <p rendition="#center"><hi rendition="#small-caps">The United States of
+                        America.</hi></p>
+                <p rendition="#center"><hi rendition="#italic">Clearance of vessel to a foreign
+                        port.</hi></p>
+                <p>These are to certify all whom it doth concern that Thomas Scullun, master or
+                    commander of the American bark <hi rendition="#italic">Cape Horn Pigeon</hi>,
+                    burden 201 tons or thereabouts, mounted with——guns, navigated with 44 men, built
+                    and bound for whaling voyage, having on board stores, hath here entered and
+                    cleared his said vessel, according to law.</p>
+                <closer>
+                    <dateline rendition="#float-left">Given under our hands and seals, at the
+                        custom-house of <placeName>San Francisco</placeName>, <date
+                            calendar="gregorian us-republic" when="1891-12-07">this 7th day of
+                            December, 1891, and in the one hundred and fifteenth year of the
+                            Independence of the United States of America</date>.</dateline>
+                    <lb/>
+                    <signed><hi rendition="#small-caps">W. E. Hamilton</hi>, <hi rendition="#italic"
+                            >Deputy Naval Officer</hi>.<lb/><hi rendition="#small-caps">M.
+                            Webber</hi>, <hi rendition="#italic">Deputy
+                    Collector.</hi></signed></closer>
+
+
+                <xi:include href="d11-a1.xml" xpointer="d11-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

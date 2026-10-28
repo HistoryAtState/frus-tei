@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1923v02_d485" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The First Secretary of the Mexican Embassy
+                        (Téllez) to the Secretary of
+                    State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1923v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1923v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1923v02/d485"
+                    type="canonical"/>
+                <relatedItem target="d484.xml" type="prev"/>
+                <relatedItem target="d485-a1.xml" type="next"/>
+                <relatedItem target="../ch37.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1923v02</bibl>
+                <bibl type="frus-division-id">d485</bibl>
+                <bibl type="frus-division-n">485</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="551" to="552" unit="page"
+                        >551–52</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1923-08-25"><hi rendition="#italic">August 25,
+                            1923</hi></date>
+                    <date notAfter="1923-08-25T23:59:59-05:00" notBefore="1923-08-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d485">
+
+                <pb facs="0675" n="551" xml:id="pg551"/>
+
+                <note rend="inline" type="source">711.1211/163</note>
+                <head><hi rendition="#italic">The First Secretary of the Mexican Embassy</hi>
+                        (<hi rendition="#italic">Téllez</hi>) <hi
+                        rendition="#italic">to the Secretary of
+                    State</hi></head>
+                <opener><seg rendition="#center">[Translation<anchor n="24" xml:id="d485-f1"
+                        />]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1923-08-25"><hi rendition="#italic">August 25,
+                        1923</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Excellency</hi>: Complying with instructions that
+                    have been transmitted to me by the Department of Foreign Affairs of my
+                    Government, I have the honour to enclose herewith a telegram that has just been
+                    received at this Embassy, addressed to Your Excellency by the Secretary of
+                    Foreign Relations.</p>
+                <p>I avail myself [etc.]</p>
+                <closer><signed><hi rendition="#small-caps">Manuel C. Téllez</hi></signed></closer>
+
+
+                <xi:include href="d485-a1.xml" xpointer="d485-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d485-f1" n="24" xml:id="d485-f1-content">
+                <p>Translation submitted by the Mexican Embassy.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

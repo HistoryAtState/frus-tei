@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1896_d288" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Rodriguez to Mr.
+                            Olney.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1896_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1896_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1896/d288"
+                    type="canonical"/>
+                <relatedItem target="d287-a1.xml" type="prev"/>
+                <relatedItem target="d288-a1.xml" type="next"/>
+                <relatedItem target="../ch59.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1896</bibl>
+                <bibl type="frus-division-id">d288</bibl>
+                <bibl type="frus-division-n">288</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="368" to="369" unit="page"
+                        >368–69</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the Greater Republic of
+                            Central America</hi>,<lb/><hi rendition="#italic"
+                        >Washington</hi></placeName>
+                    <date calendar="gregorian" when="1896-12-07"><hi rendition="#italic">December 7,
+                            1896</hi></date>
+                    <date notAfter="1896-12-07T23:59:59-05:00" notBefore="1896-12-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d288">
+
+                <pb facs="0462" n="368" sameAs="frus:frus1896/pg368"/>
+
+                <head><hi rendition="#italic">Mr. Rodriguez to Mr.
+                            Olney.</hi></head>
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the Greater Republic of Central America</hi>,<lb/><hi
+                                rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1896-12-07"><hi rendition="#italic">December
+                                7, 1896</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Dear Sir</hi>: I have the honor to inclose herewith,
+                    reduced to writing, the suggestion of which we spoke on Saturday last toward the
+                    close of <pb facs="0463" n="369" xml:id="pg369"/> our interview, which will, I
+                    trust, as was understood, remain subject to whatever we may finally agree
+                    upon.</p>
+                <p>My secretary will likewise place in your hands the translation of the treaty of
+                        Amapala,<anchor n="1" xml:id="d288-f1"/> which you were pleased to intrust
+                    to me and which has been corrected by the official translator of your
+                    Department.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">J. D. Rodriguez.</hi></signed></closer>
+
+
+                <xi:include href="d288-a1.xml" xpointer="d288-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d288-f1" n="1" xml:id="d288-f1-content">
+                <p>For treaty see under Honduras, <ref target="#pg390">page 390</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

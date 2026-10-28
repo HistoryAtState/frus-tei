@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_d509" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/d509"
+                    type="canonical"/>
+                <relatedItem target="d508.xml" type="prev"/>
+                <relatedItem target="d510.xml" type="next"/>
+                <relatedItem target="../ch49.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">d509</bibl>
+                <bibl type="frus-division-n">509</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="472" to="472" unit="page"
+                        >472</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Quito</hi></placeName>
+                    <date calendar="gregorian" when="1913-12-15T17:00:00-05:14">
+                        <hi rendition="#italic">December 15, 1913—5 p.m.</hi>
+                    </date>
+                    <date notAfter="1913-12-15T17:14:00-05:00" notBefore="1913-12-15T17:14:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d509">
+
+                <pb facs="0576" n="472" sameAs="frus:frus1913/pg472"/>
+
+                <note rend="inline" type="source">File No. 822.00/324.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Quito</hi></placeName>, <date
+                            calendar="gregorian" when="1913-12-15T17:00:00-05:14">
+                            <hi rendition="#italic">December 15, 1913—5 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Since my telegram of 1 o’clock the Minister for Foreign Affairs has confirmed all
+                    the statements therein except the possibility of bombardment and actual
+                    surrender of Esmeraldas. He admits the defeat of the Government forces, of whom
+                    [omission] were killed and 130 captured.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Hartman</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

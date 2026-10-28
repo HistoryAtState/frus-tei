@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917-72PubDip_appendix-8" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A.8. Pamphlet</title>
+            </titleStmt>
+            <xi:include href="../../frus1917-72PubDip_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1917-72PubDip_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1917-72PubDip/appendix-8"
+                    type="canonical"/>
+                <relatedItem target="appendix-7.xml" type="prev"/>
+                <relatedItem target="appendix-9.xml" type="next"/>
+                <relatedItem target="../appendix.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917-72PubDip</bibl>
+                <bibl type="frus-division-id">appendix-8</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="101" to="101" unit="page"
+                        >101</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1918-09-27T23:59:59-05:00" notBefore="1918-09-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="appendix-8">
+
+                <pb facs="0121" n="101" xml:id="pg101"/>
+
+                <head>A.8. Pamphlet<anchor n="1" xml:id="app08-f1"/>
+                </head>
+                <dateline>[<date ana="#date_undated-inferred-from-document-content"
+                        calendar="gregorian" type="content-date" when="1918-09-27">September 27,
+                        1918</date>]</dateline>
+                <figure>
+                    <graphic url="Document A.8" width="26pc"/>
+                </figure>
+                <ab type="online-supplement">
+                    <head>Online Document Supplement</head>
+                    <p>Download <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDip/Document%20A.8.pdf"
+                            >the full 12-page pamphlet</ref> (PDF, 1.2 MB).</p>
+                </ab>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#app08-f1" n="1" type="source" xml:id="app08-f1-content">
+                <p>See <ref target="#d39">Document 39</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

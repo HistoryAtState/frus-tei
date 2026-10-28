@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d723" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr.
+                            Choate.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d723"
+                    type="canonical"/>
+                <relatedItem target="d722-a1.xml" type="prev"/>
+                <relatedItem target="d723-a1.xml" type="next"/>
+                <relatedItem target="../ch63.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d723</bibl>
+                <bibl type="frus-division-n">723</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="592" to="594" unit="page"
+                        >592–94</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-02-21"><hi rendition="#italic">February
+                            21, 1900</hi></date>
+                    <date notAfter="1900-02-21T23:59:59-05:00" notBefore="1900-02-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d723">
+
+                <pb facs="0690" n="592" sameAs="frus:frus1900/pg592"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr.
+                            Choate.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-02-21"><hi rendition="#italic">February 21,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 314.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose for your use a copy of a
+                    communication of the 26th ultimo, from Messrs. H. W. Peabody &amp; Co., of New
+                    York, relative to copies of invoices<anchor n="1" xml:id="d723-f1"/> and bills
+                    of lading<anchor n="1" xml:id="d723-f2"/> covering merchandise shipped by them
+                    on the steamship <hi rendition="#italic">Maria</hi> and <hi rendition="#italic"
+                        >Mashona</hi>, which were recently seized and detained by the British naval
+                    authorities.</p>
+                <p>You will observe that the above-mentioned letter is accompanied by an
+                        affidavit<anchor n="1" xml:id="d723-f3"/> in duplicate of Mr. Charles D.
+                    Barry, a member of said firm, attesting the genuineness of the shipments of said
+                    merchants, with an explanatory memorandum in duplicate intended, as said firm
+                    states, to make clear all points bearing upon the shipments in question.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+
+
+                <xi:include href="d723-a1.xml" xpointer="d723-a1"/>
+                <xi:include href="d723-a2.xml" xpointer="d723-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d723-f1" n="1" xml:id="d723-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d723-f2" n="1" xml:id="d723-f2-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d723-f3" n="1" xml:id="d723-f3-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

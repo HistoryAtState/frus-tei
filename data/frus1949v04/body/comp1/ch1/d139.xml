@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v04_d139" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador of the Soviet Union (Panyushkin) to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1949v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1949v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1949v04/d139"
+                    type="canonical"/>
+                <relatedItem target="d138.xml" type="prev"/>
+                <relatedItem target="d139-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1949v04</bibl>
+                <bibl type="frus-division-id">d139</bibl>
+                <bibl type="frus-division-n">139</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="261" to="265" unit="page"
+                        >261–65</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1949-03-31">March 31, 1949</date>
+                    <date notAfter="1949-03-31T23:59:59-05:00" notBefore="1949-03-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d139">
+
+                <pb facs="0275" n="261" sameAs="frus:frus1949v04/pg261"/>
+
+                <note rend="inline" type="source">840.20/3–3149</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador of the Soviet Union</hi> (<hi rendition="#italic">Panyushkin</hi>) <hi
+                        rendition="#italic">to the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Informal Translation]</seg>
+                    <seg rendition="#float-left">No. 32</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1949-03-31">March 31, 1949</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Upon instructions from the Soviet
+                    Government I enclose herewith for the Government of the USA a memorandum of the
+                    Soviet Government concerning the North Atlantic Pact.</p>
+                <p>At the same time I enclose the text of the declaration of the Ministry of Foreign
+                    Affairs of the USSR of January 29, 1949 concerning the North Atlantic
+                        Pact.<anchor n="1" xml:id="d139-f1"/>
+                </p>
+                <p>Accept [etc.]</p>
+                <closer>
+                    <signed>A. <hi rendition="#small-caps">Panyushkin</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d139-a1.xml" xpointer="d139-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d139-f1" n="1" xml:id="d139-f1-content">
+                <p>See telegram 228, <ref target="#pg51">p. 51</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

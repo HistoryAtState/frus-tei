@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d468" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the British Chiefs of
+                    Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d468"
+                    type="canonical"/>
+                <relatedItem target="d467-a1.xml" type="prev"/>
+                <relatedItem target="d469.xml" type="next"/>
+                <relatedItem target="../ch9subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d468</bibl>
+                <bibl type="frus-division-n">468</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1053" to="1054" unit="page"
+                        >1053–54</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-23">23 August 1943</date>
+                    <date notAfter="1943-08-23T23:59:59-05:00" notBefore="1943-08-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                    <term ref="frus:frus1943/terms#t_Quadrant1">Quadrant</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d468">
+
+                <pb facs="1167" n="1053" sameAs="frus:frus1943/pg1053"/>
+
+                <note rend="inline" type="source">
+                    J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the British Chiefs of Staff</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">most secret</hi>
+                        <lb/>
+                        C.C.S. 317/3</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-23">23 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Equipping Allies, Liberated Forces and Friendly
+                        Neutrals</hi>
+                </p>
+                <p>We agree with the recommendation of the United States Chiefs of Staff<anchor
+                        n="1" xml:id="d468-f1"/> that the Combined Chiefs of Staff should approve at
+                    once subparagraphs <pb facs="1168" n="1054" xml:id="pg1054"/> 10 <hi
+                        rendition="#italic">a</hi> and <hi rendition="#italic">b</hi> of C.C.S. 317,<anchor n="2" xml:id="d468-f2"/>
+                    provided that the following is inserted at the end of subparagraph <hi
+                        rendition="#italic">a</hi>, “insofar as this does not interfere with
+                    operations scheduled previous to 
+                        <hi rendition="#small-caps">Quadrant</hi>”.</p>
+                <p>If you agree, we suggest that the necessary action should now be taken without
+                    this matter again coming before the Combined Chiefs of Staff at 
+                        <hi rendition="#small-caps">Quadrant</hi>.<anchor n="3"
+                        xml:id="d468-f3"/>
+                </p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d468-f1" n="1" xml:id="d468-f1-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg1049">p. 1049</ref>.</p>
+            </note>
+            <note corresp="#d468-f2" n="2" xml:id="d468-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg1031">p. 1031</ref>.</p>
+            </note>
+            <note corresp="#d468-f3" n="3" xml:id="d468-f3-content">
+                <p>The question, however, did come up for discussion at the 115th Meeting of the
+                    Combined Chiefs of Staff, August 23, 1943. See <hi rendition="#italic"
+                    >ante</hi>, <ref target="#pg939">p. 939</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v07-09mSupp_d409" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum from Komer to Coffin, May 2</title>
+            </titleStmt>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v07-09mSupp/d409"
+                    type="canonical"/>
+                <relatedItem target="../ch109.xml" type="prev"/>
+                <relatedItem target="d409-a1.xml" type="next"/>
+                <relatedItem target="../ch109.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v07-09mSupp</bibl>
+                <bibl type="frus-division-id">d409</bibl>
+                <bibl type="frus-division-n">409</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                        when="1962-05-02">May 2, 1962</date>
+                    <date notAfter="1962-05-02T23:59:59-05:00" notBefore="1962-05-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v07-09mSupp/persons">
+                    <term ref="frus:frus1961-63v07-09mSupp/persons#p_CFM_1">Coffin, Frank M.</term>
+                    <term ref="frus:frus1961-63v07-09mSupp/persons#p_KRW_1">Komer, Robert W.</term>
+                </keywords>
+                <keywords scheme="frus:frus1961-63v07-09mSupp/terms">
+                    <term ref="frus:frus1961-63v07-09mSupp/terms#t_AID_1">AID</term>
+                    <term ref="frus:frus1961-63v07-09mSupp/terms#t_MAP_1">MAP</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d409">
+
+                <pb facs="1823" n="1672" sameAs="frus:frus1961-63v07-09mSupp/pg1672"/>
+
+                <head>409. Memorandum from Komer to
+                        Coffin, May 2<anchor n="1"
+                        xml:id="d409-f1"/>
+                </head>
+                <opener>
+                    <dateline>
+                        <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            when="1962-05-02">May 2, 1962</date>
+                    </dateline>
+                </opener>
+                <pb facs="d409-1" n="1" type="facsimile" xml:id="d409-1"/>
+                <p>Frank, forgive this rather long and rambling discourse, but as you know my
+                    heart’s in the right place. I see your report on MAP/AID coordination as the
+                    charter you need to bring MAP under control,
+                    and am anxious to give all the help I can.</p>
+                <closer><signed>R.W. Komer</signed></closer>
+
+
+
+                <xi:include href="d409-a1.xml" xpointer="d409-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d409-f1" n="1" type="source" xml:id="d409-f1-content">
+                <p>AID draft on improving coordination of military
+                    and economic aid programs. Secret. 4 pp. Kennedy Library, National Security
+                    Files, Kaysen Series, Foreign Aid, General, 5/62–11/63, Box 373.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

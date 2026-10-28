@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1942v06" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1942v06_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1942v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1942v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1942v06"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1942v06" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1942v06/covers/frus1942v06.jpg"/>
+                        <extent>
+                            <measure quantity="30274" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:33:38.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1942v06" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1942v06/ebook/frus1942v06.epub"/>
+                        <extent>
+                            <measure quantity="1415401" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:33:38.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1942v06" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1942v06/ebook/frus1942v06.mobi"/>
+                        <extent>
+                            <measure quantity="1782023" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:33:38.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1963 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>chile</term>
+                    <term>costa-rica</term>
+                    <term>cuba</term>
+                    <term>dominican-republic</term>
+                    <term>ecuador</term>
+                    <term>el-salvador</term>
+                    <term>guatemala</term>
+                    <term>haiti</term>
+                    <term>honduras</term>
+                    <term>mexico</term>
+                    <term>nicaragua</term>
+                    <term>panama</term>
+                    <term>peru</term>
+                    <term>uruguay</term>
+                    <term>venezuela</term>
+                    <term>hull-cordell</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>collective-security</term>
+                    <term>military-bases</term>
+                    <term>foreign-aid</term>
+                    <term>foreign-investment</term>
+                    <term>suriname</term>
+                    <term>aruba</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1942v06" status="published" when="1963"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0005"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States<lb/>Diplomatic
+                        Papers</titlePart>
+                    <titlePart type="subseries">1942</titlePart>
+                    <titlePart type="volumeno">(In Seven Volumes)<lb/>Volume VI</titlePart>
+                    <titlePart type="volumetitle">The American Republics</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>: <lb/>
+                    <docDate>1963</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION 7513 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the Superintendent of Documents, U.S. Government Printing
+                    Office<lb/>Washington 25, D.C. - Price $3.25 (Buckram)</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0014" n="[X]" xml:id="pgX"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+            <xi:include href="body/comp12.xml" xpointer="comp12"/>
+            <xi:include href="body/comp13.xml" xpointer="comp13"/>
+            <xi:include href="body/comp14.xml" xpointer="comp14"/>
+            <xi:include href="body/comp15.xml" xpointer="comp15"/>
+            <xi:include href="body/comp16.xml" xpointer="comp16"/>
+            <xi:include href="body/comp17.xml" xpointer="comp17"/>
+            <pb facs="0770" n="[756]" xml:id="pg756"/>
+            <pb facs="0771" n="[757]" xml:id="pg757"/>
+            <pb facs="0772" n="[758]" xml:id="pg758"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

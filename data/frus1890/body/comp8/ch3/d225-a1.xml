@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d225-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d225-a1"
+                    type="canonical"/>
+                <relatedItem target="d225.xml" type="prev"/>
+                <relatedItem target="../../comp9.xml" type="next"/>
+                <relatedItem target="d225.xml" type="parent"/>
+                <relatedItem target="d225.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d225-a1</bibl>
+                <bibl type="frus-division-n">225.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="320" to="320" unit="page"
+                        >320</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Treasury Department,<lb/>Bureau of
+                            Navigation</hi>,<lb/><hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1890-11-26"><hi rendition="#italic"
+                            >November</hi> 26, 1890</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d225-a1">
+
+                <pb facs="0424" n="320" sameAs="frus:frus1890/pg320"/>
+
+                <opener><seg rendition="#center">[Inclosure.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Treasury Department,<lb/>Bureau of Navigation</hi>,<lb/><hi
+                                rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1890-11-26"><hi rendition="#italic"
+                                >November</hi> 26, 1890</date>.</dateline></opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Collector of Customs</hi>, <hi
+                        rendition="#italic">New York.</hi></p>
+                <p><hi rendition="#small-caps">Sir</hi>: In construing the circular from the Bureau
+                    of Navigation, dated February 1, 1888, and in determining the liability of
+                    vessels to the payment of tonnage dues, collectors will look to the real port of
+                    departure and the actual voyage. The fact that a vessel touches at an
+                    intermediate port, at which it neither enters nor clears, and which touching is
+                    merely an incident in the voyage, will not deprive such vessel of the rights
+                    derived from sailing from a free port, such being its port of departure.</p>
+                <p>Respectfully, yours,</p>
+                <closer><signed><hi rendition="#small-caps">Wm. W. Bates</hi>,<lb/><hi
+                            rendition="#italic"
+                            >Commissioner.</hi></signed><lb/>Approved:<lb/><signed><hi
+                            rendition="#small-caps">William Windom</hi>,<lb/><hi rendition="#italic"
+                            >Secretary of the Treasury.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

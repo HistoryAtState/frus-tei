@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v2_d83" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 389.</title>
+                <title type="subtitle">General <persName corresp="#p_DES1"
+                            type="from">Sickles</persName> to Mr. <persName corresp="#p_HF1"
+                            type="to">Fish</persName>.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1873p1v2/d83"
+                    type="canonical"/>
+                <relatedItem target="d82.xml" type="prev"/>
+                <relatedItem target="d84.xml" type="next"/>
+                <relatedItem target="../comp7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v2</bibl>
+                <bibl type="frus-division-id">d83</bibl>
+                <bibl type="frus-division-n">83</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="890" to="890" unit="page"
+                        >890</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Madrid</hi></placeName>
+                    <date calendar="gregorian" when="1873-02-13"><hi rendition="#italic"
+                            >February</hi> 13, 1873</date>
+                    <date notAfter="1873-02-13T23:59:59-05:00" notBefore="1873-02-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d83">
+
+                <pb facs="0260" n="890" sameAs="frus:frus1873p1v2/pg890"/>
+
+                <head>No. 389.<lb/><hi rendition="#italic">General <persName corresp="#p_DES1"
+                            type="from">Sickles</persName> to Mr. <persName corresp="#p_HF1"
+                            type="to">Fish</persName>.</hi></head>
+                <opener>
+                    <seg rendition="#center">[Telegram.—Received Feb. 13—4.15 p.m.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Madrid</hi></placeName>, <date calendar="gregorian"
+                            when="1873-02-13"><hi rendition="#italic">February</hi> 13,
+                        1873</date>.</dateline>
+                </opener>
+                <p>Your telegram of 12th received. Conference with <persName>Castelar</persName>
+                    appointed for 4 this afternoon; time and manner of presentation to President of
+                    republic will then be arranged.</p>
+                <p><persName>Martos</persName>, who declined the presidency of the republic, was
+                    last night elected president of the sovereign assembly.</p>
+                <p>Tranquillity uninterrupted.</p>
+                <closer>
+                    <signed><persName corresp="#p_DES1">SICKLES</persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

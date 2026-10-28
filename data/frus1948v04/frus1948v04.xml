@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1948v04" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1948v04_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1948v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1948v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1948v04"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1948v04" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1948v04/covers/frus1948v04.jpg"/>
+                        <extent>
+                            <measure quantity="34414" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:57:35.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1948v04" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1948v04/ebook/frus1948v04.epub"/>
+                        <extent>
+                            <measure quantity="2052660" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:57:35.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1948v04" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1948v04/ebook/frus1948v04.mobi"/>
+                        <extent>
+                            <measure quantity="3091315" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:57:35.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1974 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>albania</term>
+                    <term>marshall-george-catlett</term>
+                    <term>truman-harry-s</term>
+                    <term>austria</term>
+                    <term>bulgaria</term>
+                    <term>labor</term>
+                    <term>refugees</term>
+                    <term>finland</term>
+                    <term>foreign-aid</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>greece</term>
+                    <term>political-prisoners</term>
+                    <term>hungary</term>
+                    <term>iran</term>
+                    <term>italy</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>national-security-council</term>
+                    <term>palestine</term>
+                    <term>poland</term>
+                    <term>organization-and-management</term>
+                    <term>romania</term>
+                    <term>sweden</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>atomic-energy</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>united-nations</term>
+                    <term>holy-see</term>
+                    <term>russia</term>
+                    <term>czech-republic</term>
+                    <term>slovakia</term>
+                    <term>slovenia</term>
+                    <term>croatia</term>
+                    <term>bosnia-and-herzegovina</term>
+                    <term>serbia</term>
+                    <term>montenegro</term>
+                    <term>kosovo</term>
+                    <term>macedonia</term>
+                    <term>antisemitism-post-world-war-ii</term>
+                    <term>far-eastern-commission</term>
+                    <term>genocide</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1948v04" status="published" when="1974"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1948</titlePart>
+                    <titlePart type="volumeno">Volume IV</titlePart>
+                    <titlePart type="volumetitle">Eastern Europe; <lb/> The Soviet Union</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office <lb/> Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1974</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication 8743 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the <lb/> Superintendent of Documents, U.S. Government
+                    Printing Office <lb/> Washington, D.C. 20402 - Price $10.80 (Buckram) <lb/>
+                    Stock Number 4400–01521</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0010" n="[VI]" xml:id="pgVI"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0012" n="[VIII]" xml:id="pgVIII"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0020" n="XVI" xml:id="pgXVI"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+        </body>
+        <back>
+            <pb facs="1140" n="[1119]" xml:id="pg1119"/>
+            <pb facs="1141" n="[1120]" xml:id="pg1120"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

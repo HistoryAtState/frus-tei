@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d875" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. King to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d875"
+                    type="canonical"/>
+                <relatedItem target="../ch251.xml" type="prev"/>
+                <relatedItem target="d875-a1.xml" type="next"/>
+                <relatedItem target="../ch251.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d875</bibl>
+                <bibl type="frus-division-n">875</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="945" to="945" unit="page"
+                        >945</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Bangkok</hi></placeName>
+                    <date calendar="gregorian" when="1902-06-17"><hi rendition="#italic">June 17,
+                            1902</hi></date>
+                    <date notAfter="1902-06-17T23:59:59-05:00" notBefore="1902-06-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d875">
+
+                <pb facs="1025" n="945" sameAs="frus:frus1902/pg945"/>
+
+                <head><hi rendition="#italic">Mr. King to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Bangkok</hi></placeName>, <date calendar="gregorian"
+                            when="1902-06-17"><hi rendition="#italic">June 17,
+                        1902</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: On May 25 the following cable<anchor n="a"
+                        xml:id="d875-f1"/> was received and transmitted at once to the foreign
+                    office.</p>
+                <p>I have to-day received a reply to the same, a copy of which I inclose.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Hamilton King</hi>, <hi
+                            rendition="#italic">Minister Resident.</hi></signed></closer>
+
+
+                <xi:include href="d875-a1.xml" xpointer="d875-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d875-f1" n="a" xml:id="d875-f1-content">
+                <p>Printed, <ref target="#pg6">page 6</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

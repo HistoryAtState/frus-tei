@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d64" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Señor
+                            Infante.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d64"
+                    type="canonical"/>
+                <relatedItem target="d63.xml" type="prev"/>
+                <relatedItem target="d65.xml" type="next"/>
+                <relatedItem target="../ch13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d64</bibl>
+                <bibl type="frus-division-n">64</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="70" to="70" unit="page"
+                        >70</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1899-11-01"><hi rendition="#italic">November 1,
+                            1899</hi></date>
+                    <date notAfter="1899-11-01T23:59:59-05:00" notBefore="1899-11-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d64">
+
+                <pb facs="0166" n="70" sameAs="frus:frus1900/pg70"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Señor
+                            Infante.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1899-11-01"><hi rendition="#italic">November 1,
+                        1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 24.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to the Department’s note of June
+                    5 last and your reply of the 8th of the same month, I have the honor to ask
+                    whether you have received any information relative to the action of the Chilean
+                    congress in the matter of the payment of the claim of the heirs of Patrick
+                    Shields.</p>
+                <p>The Department hopes that the payment may be made at an early date.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

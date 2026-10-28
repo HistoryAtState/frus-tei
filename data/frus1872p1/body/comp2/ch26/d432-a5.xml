@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p1_d432-a5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Table showing the number of slaves who, according to
+                        their cedulas, have attained the age of fifty-nine years, which number
+                        should be counted as a decrease in the rectification of the census to be
+                        published December 1, of the present
+                    year.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1872p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1872p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1872p1/d432-a5"
+                    type="canonical"/>
+                <relatedItem target="d432-a4.xml" type="prev"/>
+                <relatedItem target="d432-a6.xml" type="next"/>
+                <relatedItem target="d432.xml" type="parent"/>
+                <relatedItem target="d432.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1872p1</bibl>
+                <bibl type="frus-division-id">d432-a5</bibl>
+                <bibl type="frus-division-n">432.5</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="589" to="590" unit="page"
+                        >589–90</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d432-a5">
+
+                <pb facs="0685" n="589" sameAs="frus:frus1872p1/pg589"/>
+
+                <head><hi rendition="#italic">Table showing the number of slaves who, according to
+                        their cedulas, have attained the age of fifty-nine years, which number
+                        should be counted as a decrease in the rectification of the census to be
+                        published December</hi> 1, <hi rendition="#italic">of the present
+                    year</hi>.</head>
+                <table cols="2" rows="9">
+                    <row role="label">
+                        <cell>Departments.</cell>
+                        <cell>Slaves.</cell>
+                    </row>
+                    <row>
+                        <cell>1. Capital</cell>
+                        <cell role="num">30</cell>
+                    </row>
+                    <row>
+                        <cell>2. Arecibo</cell>
+                        <cell role="num">17</cell>
+                    </row>
+                    <row>
+                        <cell>3. Aguadilla</cell>
+                        <cell role="num">5</cell>
+                    </row>
+                    <pb facs="0686" n="590" xml:id="pg590"/>
+                    <row>
+                        <cell>4. Mayagüez</cell>
+                        <cell role="num">23</cell>
+                    </row>
+                    <row>
+                        <cell>5. Ponce</cell>
+                        <cell role="num">39</cell>
+                    </row>
+                    <row>
+                        <cell>6. Guayama</cell>
+                        <cell role="num">40</cell>
+                    </row>
+                    <row>
+                        <cell>7. Hamacao</cell>
+                        <cell rendition="#border-bottom" role="num">23</cell>
+                    </row>
+                    <row>
+                        <cell>Total</cell>
+                        <cell rendition="#border-bottom" role="num">177</cell>
+                    </row>
+                </table>
+                <closer>
+                    <dateline rendition="#float-left"><placeName><hi rendition="#small-caps">Porto
+                                Rico</hi></placeName>, <date calendar="gregorian" when="1872-07-22"
+                                ><hi rendition="#italic">July</hi> 22, 1872</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

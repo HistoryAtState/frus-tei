@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d890" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Moore to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d890"
+                    type="canonical"/>
+                <relatedItem target="../ch96.xml" type="prev"/>
+                <relatedItem target="d890-a1.xml" type="next"/>
+                <relatedItem target="../ch96.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d890</bibl>
+                <bibl type="frus-division-n">890</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="975" to="975" unit="page"
+                        >975</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1898-04-29"><hi rendition="#italic">April 29,
+                            1898</hi></date>
+                    <date notAfter="1898-04-29T23:59:59-05:00" notBefore="1898-04-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d890">
+
+                <pb facs="1071" n="975" sameAs="frus:frus1898/pg975"/>
+
+                <head><hi rendition="#italic">Mr. Moore to Mr.
+                            Hay</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1898-04-29"><hi rendition="#italic">April 29,
+                        1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 593.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I append on the overleaf copy of the
+                    Department’s telegram of the 27th instant, directing you to communicate to the
+                    Persian minister at London official information of the proclamation of war with
+                    Spain.</p>
+                <p>Respectfully, yours,</p>
+                <closer>
+                    <signed><hi rendition="#small-caps">J. B. Moore</hi>, <hi rendition="#italic"
+                            >Acting Secretary.</hi></signed>
+                </closer>
+
+
+                <xi:include href="d890-a1.xml" xpointer="d890-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

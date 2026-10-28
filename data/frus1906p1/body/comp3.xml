@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1906p1_comp3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Austria-Hungary</title>
+            </titleStmt>
+            <xi:include href="../frus1906p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1906p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1906p1/comp3"
+                    type="canonical"/>
+                <relatedItem target="comp2/ch14/d24.xml" type="prev"/>
+                <relatedItem target="comp3/ch15.xml" type="next"/>
+                <relatedItem target="../frus1906p1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1906p1</bibl>
+                <bibl type="frus-division-id">comp3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="43" to="51" unit="page"
+                        >43–51</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1906-12-28T23:59:59-05:00" notBefore="1905-12-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp3">
+
+                <pb facs="0149" n="43" xml:id="pg43"/>
+
+                <head>Austria-Hungary</head>
+
+
+
+
+                <xi:include href="comp3/ch15.xml" xpointer="ch15"/>
+                <xi:include href="comp3/ch16.xml" xpointer="ch16"/>
+                <xi:include href="comp3/ch17.xml" xpointer="ch17"/>
+                <xi:include href="comp3/ch18.xml" xpointer="ch18"/>
+            </div>
+        </body>
+    </text>
+</TEI>

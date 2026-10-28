@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d259" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 259</title>
+                <title type="subtitle">Briefing Book Paper</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d259"
+                    type="canonical"/>
+                <relatedItem target="../ch10subsubch2.xml" type="prev"/>
+                <relatedItem target="d260.xml" type="next"/>
+                <relatedItem target="../ch10subsubch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d259</bibl>
+                <bibl type="frus-division-n">259</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="321" to="321" unit="page"
+                        >321</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-06-29T23:59:59-05:00" notBefore="1945-06-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d259">
+
+                <pb facs="0453" n="321" sameAs="frus:frus1945Berlinv01/pg321"/>
+
+                <note rend="inline" type="source">740.00119 (Potsdam)/5–2446</note>
+                <head>No. 259<lb/><hi rendition="#italic">Briefing Book Paper</hi><anchor n="1"
+                        xml:id="d259-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Extract]<anchor n="2" xml:id="d259-f2"/></seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">European Territorial Settlements</hi>
+                </p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">i. germany</hi>
+                </p>
+                <p rendition="#center">. . . . . . .</p>
+                <p>… We are opposed to revision of the Danish-German frontier unless such action is
+                    considered necessary in connection with a possible internationalization of the
+                    Kiel Canal.</p>
+                <p rendition="#center">. . . . . . .</p>
+                <closer>
+                    <dateline rendition="#float-left">[<placeName>
+                            <hi rendition="#small-caps">Washington</hi>
+                        </placeName>,] <date calendar="gregorian" when="1945-06-29">June 29,
+                            1945</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d259-f1" n="1" type="source" xml:id="d259-f1-content">
+                <p>Annex 13 to the attachment to <ref target="#d177">document No. 177</ref>.</p>
+            </note>
+            <note corresp="#d259-f2" n="2" xml:id="d259-f2-content">
+                <p>For other extracts from this paper, see documents Nos. 398 and 509.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

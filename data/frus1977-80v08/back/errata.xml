@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v08_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1977-80v08_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1977-80v08_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1977-80v08/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1977-80v08.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1977-80v08</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1338" to="1338" unit="page"
+                        >1338</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1978-08-08T12:30:00-05:00" notBefore="1977-01-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="1365" n="[1338]" xml:id="pg1338"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to <hi rendition="#italic">Foreign
+                        Relations</hi>, 1977–1980, Volume VIII, Arab-Israeli Dispute, January
+                    1977–August 1978. Please be aware that printed volumes have not been revised.
+                    <!--Revised information is in italic.--></p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#d14">Document 14</ref>, Page 112
+                            (date of correction: May 11, 2015)</hi>
+                    </item>
+                    <item>Please note that in footnote 14, King Khalid was mistakenly identified as
+                        King Faisal. The meeting also only included Vance, Fahd, and Saud.
+                        Additional citation information has also been added.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

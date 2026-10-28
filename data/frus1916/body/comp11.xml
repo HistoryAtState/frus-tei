@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_comp11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dominican Republic:</title>
+            </titleStmt>
+            <xi:include href="../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/comp11"
+                    type="canonical"/>
+                <relatedItem target="comp10/ch33.xml" type="prev"/>
+                <relatedItem target="comp11/ch34.xml" type="next"/>
+                <relatedItem target="../frus1916.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">comp11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="220" to="256" unit="page"
+                        >220–56</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1916-12-20T18:00:00-05:00" notBefore="1916-01-03T08:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp11">
+
+                <pb facs="0296" n="220" xml:id="pg220"/>
+
+                <head>Dominican Republic:</head>
+
+
+                <xi:include href="comp11/ch34.xml" xpointer="ch34"/>
+                <xi:include href="comp11/ch35.xml" xpointer="ch35"/>
+            </div>
+        </body>
+    </text>
+</TEI>

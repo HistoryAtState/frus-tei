@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d67" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d67"
+                    type="canonical"/>
+                <relatedItem target="d66.xml" type="prev"/>
+                <relatedItem target="../ch2.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d67</bibl>
+                <bibl type="frus-division-n">67</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="40" to="40" unit="page"
+                        >40</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1945-01-28">28 January 1945</date>
+                    <date notAfter="1945-01-28T23:59:59-05:00" notBefore="1945-01-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Malta/terms">
+                    <term ref="frus:frus1945Malta/terms#t_ARGONAUT1">ARGONAUT</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d67">
+
+                <pb facs="0122" n="40" sameAs="frus:frus1945Malta/pg40"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d67-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[U.S.S. <hi rendition="#small-caps">“Quincy”,
+                            at sea</hi>,] <date calendar="gregorian" when="1945-01-28">28 January
+                            1945</date>.</dateline>
+                </opener>
+                <p>Number 706, Personal and Top Secret from the President to the Prime Minister.</p>
+                <p>Thank you for your 893<anchor n="2" xml:id="d67-f2"/> and 896.<anchor n="3"
+                        xml:id="d67-f3"/>
+                </p>
+                <p>The approaches to 
+                        <hi rendition="#small-caps">Argonaut</hi>
+                     appear to be much more difficult than at first reported. I will have my
+                    advance party make recommendations as to how I shall travel after Malta.</p>
+                <p>I agree that we must notify U. J. as soon as we can fix our schedule in the light
+                    of present information.</p>
+                <closer>
+                    <signed>
+                        
+                            <hi rendition="#small-caps">Roosevelt</hi>
+                        
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d67-f1" n="1" type="source" xml:id="d67-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+            <note corresp="#d67-f2" n="2" xml:id="d67-f2-content">
+                <p>Not printed. This message dealt with details of plans for the flight from Malta
+                    to Yalta.</p>
+            </note>
+            <note corresp="#d67-f3" n="3" xml:id="d67-f3-content">
+                <p>Not printed. This message dealt with unfavorable travel conditions from the
+                    Crimean airport to Yalta.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

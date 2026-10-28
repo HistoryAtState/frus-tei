@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914-20v02_comp4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Latin America</title>
+            </titleStmt>
+            <xi:include href="../frus1914-20v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1914-20v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914-20v02/comp4"
+                    type="canonical"/>
+                <relatedItem target="comp3/ch7/d280.xml" type="prev"/>
+                <relatedItem target="comp4/ch8.xml" type="next"/>
+                <relatedItem target="../frus1914-20v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914-20v02</bibl>
+                <bibl type="frus-division-id">comp4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="457" to="568" unit="page"
+                        >457–568</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1919-12-05T23:59:59-05:00" notBefore="1914-06-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp4">
+
+                <pb facs="0503" n="[457]" xml:id="pg457"/>
+
+                <head>Latin America</head>
+                <pb facs="0504" n="[458]" xml:id="pg458"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <xi:include href="comp4/ch8.xml" xpointer="ch8"/>
+                <xi:include href="comp4/ch9.xml" xpointer="ch9"/>
+                <xi:include href="comp4/ch10.xml" xpointer="ch10"/>
+                <xi:include href="comp4/ch11.xml" xpointer="ch11"/>
+                <xi:include href="comp4/ch12.xml" xpointer="ch12"/>
+                <xi:include href="comp4/ch13.xml" xpointer="ch13"/>
+                <xi:include href="comp4/ch14.xml" xpointer="ch14"/>
+            </div>
+        </body>
+    </text>
+</TEI>

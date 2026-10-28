@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p1_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1865p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1865p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1865p1/errata"
+                    type="canonical"/>
+                <relatedItem target="../body/comp1/ch1/d390-a1-a1.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1865p1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p1</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="672" to="672" unit="page"
+                        >672</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1865-12-16T18:07:00-05:00" notBefore="1865-01-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0712" n="672" sameAs="frus:frus1865p1/pg672"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to <ref target="frus:frus1865p1">
+                        <hi rendition="#italic">Papers Relating to Foreign Affairs, Accompanying the
+                            Annual Message of the President to the First Session Thirty-ninth
+                            Congress</hi></ref>. Please be aware that printed volumes have not been
+                    revised. <!--Revised information is in italic.-->
+                </p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#d373">Mr. Seward to Mr. Adams</ref>,
+                                <ref target="#pg656">Page 656</ref> (date of correction: March 14,
+                            2019)</hi>
+                    </item>
+                    <item>The dateline for this document has been corrected from “1855” to
+                        “1865.”</item>
+                    <item>
+                        <hi rendition="#bold">2. <ref target="#d373a">Mr. Seward to Mr. Adams</ref>,
+                                <ref target="#pg656">Page 659</ref> (date of correction: March 14,
+                            2019)</hi>
+                    </item>
+                    <item>This document has been reclassified from an attachment to the previous
+                        document to a newly inserted document.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

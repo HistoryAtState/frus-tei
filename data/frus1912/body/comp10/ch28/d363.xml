@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d363" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d363"
+                    type="canonical"/>
+                <relatedItem target="d362.xml" type="prev"/>
+                <relatedItem target="d364.xml" type="next"/>
+                <relatedItem target="../ch28.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d363</bibl>
+                <bibl type="frus-division-n">363</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="254" to="254" unit="page"
+                        >254</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1912-06-05T22:45:00-05:29">
+                        <hi rendition="#small-caps">June</hi> 5, 1912—10.45 p.m.</date>
+                    <date notAfter="1912-06-05T23:14:00-05:00" notBefore="1912-06-05T23:14:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d363">
+
+                <pb facs="0370" n="254" sameAs="frus:frus1912/pg254"/>
+
+                <note rend="inline" type="source">File No. 837.00/694.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <date calendar="gregorian" when="1912-06-05T22:45:00-05:29">
+                            <hi rendition="#small-caps">June</hi> 5, 1912—10.45 p.m.</date>
+                    </dateline>
+                </opener>
+                <p>President was today authorized to suspend constitutional guaranties in Oriente
+                    Province.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Beaupré</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

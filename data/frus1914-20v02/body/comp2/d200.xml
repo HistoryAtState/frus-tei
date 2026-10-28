@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914-20v02_d200" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Japanese Ambassador (Ishii) to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../frus1914-20v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1914-20v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914-20v02/d200"
+                    type="canonical"/>
+                <relatedItem target="d199.xml" type="prev"/>
+                <relatedItem target="d200-a1.xml" type="next"/>
+                <relatedItem target="../comp2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914-20v02</bibl>
+                <bibl type="frus-division-id">d200</bibl>
+                <bibl type="frus-division-n">200</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="365" to="365" unit="page"
+                        >365</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1918-06-26">
+                        <hi rendition="#italic">June 26, 1918</hi>
+                    </date>
+                    <date notAfter="1918-06-26T23:59:59-05:00" notBefore="1918-06-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d200">
+
+                <pb facs="0411" n="365" xml:id="pg365"/>
+
+                <note rend="inline" type="source">861.00/2215½</note>
+                <head>
+                    <hi rendition="#italic">The Japanese Ambassador</hi> (<hi
+                            rendition="#italic">Ishii</hi>) <hi rendition="#italic">to
+                        the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1918-06-26">
+                            <hi rendition="#italic">June 26, 1918</hi>
+                        </date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Dear Mr. Secretary</hi>: As you desired me, I have
+                    put into writing the substance of the confidential information which I
+                    communicated to you this afternoon under order of my government.</p>
+                <p>I now beg to enclose it herewith.</p>
+                <p>Yours sincerely,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">K. Ishii</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d200-a1.xml" xpointer="d200-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

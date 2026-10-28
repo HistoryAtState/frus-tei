@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1981-88v16_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1981-88v16_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1981-88v16_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1981-88v16"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1981-88v16" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1981-88v16/covers/frus1981-88v16.jpg"/>
+                        <extent>
+                            <measure quantity="32426" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2026-08-07T03:14:53.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1981-88v16" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1981-88v16/ebook/frus1981-88v16.epub"/>
+                        <extent>
+                            <measure quantity="568858" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2026-09-15T03:44:51.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1981-88v16" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1981-88v16/ebook/frus1981-88v16.mobi"/>
+                        <extent>
+                            <measure quantity="583246" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2026-09-15T03:44:51.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">reagan</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>haig-alexander-meigs</term>
+                    <term>reagan-ronald</term>
+                    <term>shultz-george-pratt</term>
+                    <term>ecuador</term>
+                    <term>paraguay</term>
+                    <term>uruguay</term>
+                    <term>venezuela</term>
+                    <term>arms-transfers</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>human-rights</term>
+                    <term>foreign-aid</term>
+                    <term>foreign-investment</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>elections</term>
+                    <term>narcotics</term>
+                    <term>political-prisoners</term>
+                    <term>international-monetary-fund</term>
+                    <term>terrorism</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="partially-published">
+            <change corresp="#frus1981-88v16" status="published" when="2026-09-18"/>
+            <change corresp="#ch1" from="2022" status="being-cleared"/>
+            <change corresp="#ch2" from="2022" status="being-cleared" to="2026"/>
+            <change corresp="#ch3" from="2022" status="being-cleared"/>
+            <change corresp="#ch4" from="2022" status="being-cleared"/>
+            <change corresp="#ch5" from="2022" status="being-cleared"/>
+            <change corresp="#ch6" from="2022" status="being-cleared"/>
+            <change corresp="#ch7" status="published" when="2026-09-18"/>
+            <change corresp="#ch8" status="published" when="2026-09-18"/>
+            <change corresp="#ch9" from="2022" status="being-cleared"/>
+            <change corresp="#ch10" status="published" when="2026-09-18"/>
+            <change corresp="#ch11" status="published" when="2026-09-18"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <xi:include href="front/about-the-digital-edition.xml"
+                xpointer="about-the-digital-edition"/>
+            <xi:include href="front/about-the-series.xml" xpointer="about-the-series"/>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <xi:include href="body/ch1.xml" xpointer="ch1"/>
+            <xi:include href="body/ch2.xml" xpointer="ch2"/>
+            <xi:include href="body/ch3.xml" xpointer="ch3"/>
+            <xi:include href="body/ch4.xml" xpointer="ch4"/>
+            <xi:include href="body/ch5.xml" xpointer="ch5"/>
+            <xi:include href="body/ch6.xml" xpointer="ch6"/>
+            <xi:include href="body/ch7.xml" xpointer="ch7"/>
+            <xi:include href="body/ch8.xml" xpointer="ch8"/>
+            <xi:include href="body/ch9.xml" xpointer="ch9"/>
+            <xi:include href="body/ch10.xml" xpointer="ch10"/>
+            <xi:include href="body/ch11.xml" xpointer="ch11"/>
+        </body>
+    </text>
+</TEI>

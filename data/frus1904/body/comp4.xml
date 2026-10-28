@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_comp4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Belgium</title>
+            </titleStmt>
+            <xi:include href="../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/comp4"
+                    type="canonical"/>
+                <relatedItem target="comp3/ch17/d62-a1.xml" type="prev"/>
+                <relatedItem target="comp4/ch18.xml" type="next"/>
+                <relatedItem target="../frus1904.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">comp4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="95" to="97" unit="page"
+                        >95–97</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1904-02-17T23:59:59-05:00" notBefore="1904-02-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp4">
+
+                <pb facs="0183" n="95" xml:id="pg95"/>
+
+                <head>Belgium</head>
+
+                <xi:include href="comp4/ch18.xml" xpointer="ch18"/>
+            </div>
+        </body>
+    </text>
+</TEI>

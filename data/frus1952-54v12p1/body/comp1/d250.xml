@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v12p1_d250" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Report of the Joint United States–United Kingdom
+                        Study Group on Southeast Asia</title>
+            </titleStmt>
+            <xi:include href="../../frus1952-54v12p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1952-54v12p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v12p1/d250"
+                    type="canonical"/>
+                <relatedItem target="d249.xml" type="prev"/>
+                <relatedItem target="d250-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v12p1</bibl>
+                <bibl type="frus-division-id">d250</bibl>
+                <bibl type="frus-division-n">250</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="631" to="642" unit="page"
+                        >631–42</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1954-07-17T23:59:59-05:00" notBefore="1954-07-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v12p1/terms">
+                    <term ref="frus:frus1952-54v12p1/terms#t_PSA1">PSA</term>
+                    <term ref="frus:frus1952-54v12p1/terms#t_UK1">UK</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d250">
+
+                <pb facs="0649" n="631" sameAs="frus:frus1952-54v12p1/pg631"/>
+
+                <note rend="inline" type="source">PSA files, lot 58
+                    D 207</note>
+                <anchor n="1" xml:id="d250-f1"/>
+                <head><hi rendition="#italic">Report of the Joint United States–United Kingdom Study
+                        Group on Southeast Asia</hi></head>
+                <opener><seg rendition="#float-left"><hi rendition="#small-caps"
+                    >secret</hi></seg></opener>
+                <p rendition="#flush"><hi rendition="#italic">Terms of Reference</hi></p>
+                <p>By agreed minute<anchor n="2" xml:id="d250-f2"/> of the meetings between the
+                    President and the Prime Minister a joint UK–US
+                    Study Group was established in Washington “to prepare agreed recommendations”
+                    with respect to Southeast Asia.</p>
+                <p rendition="#flush"><hi rendition="#italic">Meetings and Membership</hi></p>
+                <p>The Study Group held its first meeting July 7, 1954. In all the group held six
+                    meetings, the closing meeting being held on July 17.<anchor n="3"
+                        xml:id="d250-f3"/> Chief US participants were General Walter Bedell Smith
+                    and <pb facs="0650" n="632" xml:id="pg632"/> Mr. Douglas MacArthur II. The chief
+                        UK participant was Mr. R.H. Scott.</p>
+                <p rendition="#flush"><hi rendition="#italic">Recommendations</hi></p>
+                <p>Our recommendations are contained in the enclosed report to which are attached
+                    three annexes. The recommendations are submitted by the members of the Study
+                    Group without commitment on their respective Governments.</p>
+                <p rendition="#flush"><hi rendition="#italic">Publicity</hi></p>
+                <p>The Group agreed that nothing should be said to the press about the work or the
+                    recommendations of the Group, and that the line should be taken that these
+                    meetings were technical and exploratory, without commitment on either side.</p>
+                <closer><signed>
+                        <list>
+                            <item><hi rendition="#small-caps">Douglas Macarthur</hi></item>
+                            <item><hi rendition="#small-caps">R. W. Scott</hi></item>
+                        </list>
+                    </signed>
+                    <dateline rendition="#float-left">
+                        <placeName><hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1954-07-17">July 17, 1954</date>.</dateline>
+                </closer>
+
+
+
+
+                <xi:include href="d250-a1.xml" xpointer="d250-a1"/>
+                <xi:include href="d250-a2.xml" xpointer="d250-a2"/>
+                <xi:include href="d250-a3.xml" xpointer="d250-a3"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d250-f1" n="1" xml:id="d250-f1-content">
+                <p>Certain files of the Office of Philippine and Southeast Asian Affairs for the
+                    years 1949–1955, containing primarily material on Indochina.</p>
+            </note>
+            <note corresp="#d250-f2" n="2" xml:id="d250-f2-content">
+                <p>Dated June 27, <ref target="#pg580">p. 580</ref>.</p>
+            </note>
+            <note corresp="#d250-f3" n="3" xml:id="d250-f3-content">
+                <p>No minutes of this meeting have been found in Department of State files.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

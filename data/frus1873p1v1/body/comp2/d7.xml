@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v1_d7" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 5.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1873p1v1/d7"
+                    type="canonical"/>
+                <relatedItem target="d6.xml" type="prev"/>
+                <relatedItem target="d7-a1.xml" type="next"/>
+                <relatedItem target="../comp2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v1</bibl>
+                <bibl type="frus-division-id">d7</bibl>
+                <bibl type="frus-division-n">7</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="31" to="31" unit="page"
+                        >31</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1873-03-29"><hi rendition="#italic">March</hi>
+                        29, 1873</date>
+                    <date notAfter="1873-03-29T23:59:59-05:00" notBefore="1873-03-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d7">
+
+                <pb facs="0115" n="31" sameAs="frus:frus1873p1v1/pg31"/>
+
+                <head>No. 5.</head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1873-03-29"><hi rendition="#italic">March</hi> 29,
+                        1873</date>.</dateline>
+                </opener>
+                <p rendition="#flush">
+                    <hi rendition="#italic">To the Diplomatic and Consular Officers of the United
+                        States:</hi>
+                </p>
+                <p>A copy of a law of Congress approved by the President of the United States March
+                    3, 1873, is herewith inclosed for your information. You will observe that it is
+                    stated that, in computations, the value of a pound sterling shall be deemed
+                    equal to four dollars and eighty-six cents and six and one-half mills; and this
+                    valuation shall be the par of exchange between Great Britain and the United
+                    States. Heretofore the value of a pound sterling has been deemed equal to $4.84;
+                    and this value has formed the basis upon which your drafts and accounts have
+                    been adjusted. On and after the 1st day of April you are required to regard the
+                    pound sterling as equal in value to four dollars eighty-six cents six mills and
+                    one-half, and to employ this valuation in the computation of your accounts.</p>
+                <p>I am, gentlemen, your obedient servant,</p>
+                <closer>
+                    <signed><persName corresp="#p_HF1">Hamilton Fish</persName>.</signed>
+                </closer>
+
+
+                <xi:include href="d7-a1.xml" xpointer="d7-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

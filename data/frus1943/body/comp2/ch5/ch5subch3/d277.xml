@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d277" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Joint Chiefs of Staff
+                        to the President
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d277"
+                    type="canonical"/>
+                <relatedItem target="d276.xml" type="prev"/>
+                <relatedItem target="d278.xml" type="next"/>
+                <relatedItem target="../ch5subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d277</bibl>
+                <bibl type="frus-division-n">277</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="565" to="566" unit="page"
+                        >565–66</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-06">6 August 1943</date>
+                    <date notAfter="1943-08-06T23:59:59-05:00" notBefore="1943-08-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d277">
+
+                <pb facs="0679" n="565" sameAs="frus:frus1943/pg565"/>
+
+                <note rend="inline" type="source">
+                    J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">The Joint Chiefs of Staff to
+                        the President
+                    </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-06">6 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Memorandum for the President</hi>
+                </p>
+                <p rendition="#flush">Subject: Surrender Terms for Italy.</p>
+                <p>At their meeting today the Combined Chiefs of Staff agreed that the following
+                    message should be sent to General Eisenhower. The Prime Minister is being
+                    informed of this message by Representatives of the British Chiefs of Staff:
+                        <quote rend="blockquote">
+                        <p>“You have no doubt observed that the terms of surrender furnished to you
+                            by the President and Prime Minister relate entirely to the military
+                            aspects of unconditional surrender.<anchor n="1" xml:id="d277-f1"/>
+                            Should you be called upon to impose the terms now in your possession,
+                            you should make it clear to the surrendering authority that these terms
+                            are purely of a military <pb facs="0680" n="566" xml:id="pg566"/> nature
+                            and that other conditions of a political, economic and financial nature
+                            will be transmitted at a later date.”</p>
+                    </quote>
+                </p>
+                <closer>For the Joint Chiefs of Staff: <lb/>
+                    <signed>G C <hi rendition="#small-caps">Marshall</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Chief of Staff, U.S. Army</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d277-f1" n="1" xml:id="d277-f1-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg519">pp. 519</ref>, <ref
+                        target="#pg522">522</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

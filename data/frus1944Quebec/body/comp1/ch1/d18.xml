@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d18" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d18"
+                    type="canonical"/>
+                <relatedItem target="d17.xml" type="prev"/>
+                <relatedItem target="d19.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d18</bibl>
+                <bibl type="frus-division-n">18</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="13" unit="page"
+                        >13</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-08-04">4 August 1944</date>
+                    <date notAfter="1944-08-04T23:59:59-05:00" notBefore="1944-08-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Octagon1">Octagon</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Red1">Red</term>
+                    <term ref="frus:frus1944Quebec/terms#t_UJ1">UJ</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d18">
+
+                <pb facs="0067" n="13" xml:id="pg13"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President Roosevelt</hi><anchor n="1" xml:id="d18-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1944-08-04">4 August 1944</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Roosevelt Personal and Top Secret. Number 741.</p>
+                <p>As U.J. cannot come to <hi rendition="#small-caps">Octagon</hi>,<anchor n="2"
+                        xml:id="d18-f2"/> would it not be well to invite Molotov?<anchor n="3"
+                        xml:id="d18-f3"/></p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d18-f1" n="1" type="source" xml:id="d18-f1-content">
+                <p>Sent to Washington by the United States Military Attaché, London, via Army
+                    channels; forwarded by the White House Map Room to Roosevelt, who was then in
+                    Alaska, as telegram No. <hi rendition="#small-caps"
+                            >Red</hi> 234.</p>
+            </note>
+            <note corresp="#d18-f2" n="2" xml:id="d18-f2-content">
+                <p>No messages between Churchill and Roosevelt have been found explaining the
+                    appearance of the code word <hi
+                            rendition="#small-caps">Octagon</hi> in their correspondence at
+                    this time.</p>
+            </note>
+            <note corresp="#d18-f3" n="3" xml:id="d18-f3-content">
+                <p>The Map Room files indicate that Roosevelt did not reply to this message.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

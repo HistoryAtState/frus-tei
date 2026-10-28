@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d278" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 278</title>
+                <title type="subtitle">Briefing Book Paper</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d278"
+                    type="canonical"/>
+                <relatedItem target="../ch10subsubch5.xml" type="prev"/>
+                <relatedItem target="d279.xml" type="next"/>
+                <relatedItem target="../ch10subsubch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d278</bibl>
+                <bibl type="frus-division-n">278</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="347" to="348" unit="page"
+                        >347–48</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-06-23T23:59:59-05:00" notBefore="1945-06-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/terms">
+                    <term ref="frus:frus1945Berlinv01/terms#t_Stat1">Stat</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d278">
+
+                <pb facs="0479" n="347" sameAs="frus:frus1945Berlinv01/pg347"/>
+
+                <note rend="inline" type="source">740.00119 (Potsdam)/5–2446</note>
+                <head>No. 278<lb/><hi rendition="#italic">Briefing Book Paper</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Austria</hi>
+                </p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Establishment of Zones of Occupation and Control
+                        Machinery</hi> (<hi rendition="#small-caps">Inter-Allied Military
+                        Government</hi>)</p>
+                <p>The Inter-Allied Administration of Austria can, and should, be established as
+                    soon as (but not before) the European Advisory Commission <pb facs="0480"
+                        n="348" xml:id="pg348"/> has completed, and the Governments have signed, the
+                    agreements now pending in the European Advisory Commission for (1) zones of
+                    occupation, and (2) control machinery, for Austria.</p>
+                <p>The European Advisory Commission negotiations are proceeding on the basis of the
+                    British proposals for zones of occupation and control machinery, copies of which
+                    are included in the basic documents accompanying these memoranda.<anchor n="1"
+                        xml:id="d278-f1"/> The commission expects to reach agreement on the control
+                    machinery, with modifications, without difficulty as soon as the zoning of
+                    Vienna has been agreed. For zones of occupation in Austria there is already
+                    satisfactory agreement in principle to allot to United States forces: the
+                    province of Salzburg, and that part of the province of Upper Austria south of
+                    the Danube River; to the Soviet forces: Burgenland, Lower Austria, and that part
+                    of Upper Austria north of the Danube; to British forces: Styria and Carinthia;
+                    and to French forces: the Tirol and Vorarlberg.</p>
+                <p>The one main obstacle to completion of these agreements has been the zoning of
+                    the capital Vienna. As a result of the recent reconnaissance mission to Vienna,
+                    it now appears possible to settle all differences except possibly the question
+                    of airfields in the Vienna area. The United States, Great Britain and France are
+                    pressing for allotment of a field to each of these countries, while the Soviet
+                    Government has hitherto been willing to consider only one airfield for the use
+                    of all three. An effort is now (June 23, 1945) being made in the European
+                    Advisory Commission to settle this final point.<anchor n="2" xml:id="d278-f2"/>
+                </p>
+                <closer>
+                    <dateline rendition="#float-left">[<placeName>
+                            <hi rendition="#small-caps">Washington</hi>
+                        </placeName>,] <date calendar="gregorian" when="1945-06-23">June 23,
+                            1945</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d278-f1" n="1" xml:id="d278-f1-content">
+                <p>Not included in the Briefing Book.</p>
+            </note>
+            <note corresp="#d278-f2" n="2" xml:id="d278-f2-content">
+                <p>For the text of the agreement on control machinery, signed at London, July 4,
+                    1945, see <ref target="#d282">document No. 282</ref>. For the agreement on zones
+                    of occupation, signed at London, July 9, 1945, see Treaties and Other
+                    International Acts Series No. 1600; 61 Stat.
+                    (3) 2679.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

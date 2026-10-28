@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d42" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d42"
+                    type="canonical"/>
+                <relatedItem target="d41.xml" type="prev"/>
+                <relatedItem target="d43.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d42</bibl>
+                <bibl type="frus-division-n">42</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="28" to="28" unit="page"
+                        >28</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-01-05">5 January 1945</date>
+                    <date notAfter="1945-01-05T23:59:59-05:00" notBefore="1945-01-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_BAE1">Bogomolov, Alexander
+                        Efremovich</term>
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_E1">Edwards, Vice Admiral Richard
+                        S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Malta/terms">
+                    <term ref="frus:frus1945Malta/terms#t_ARGONAUT1">ARGONAUT</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d42">
+
+                <pb facs="0110" n="28" sameAs="frus:frus1945Malta/pg28"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                    </hi><anchor n="1" xml:id="d42-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-01-05">5 January 1945</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Roosevelt.
+                    Personal and Top Secret number 874. Your 690.<anchor n="2" xml:id="d42-f2"/>
+                </p>
+                <p>In none of your telegrams about 
+                        <hi rendition="#small-caps">Argonaut</hi>
+                     have you mentioned whether U. J. likes this place and agrees to it and
+                    what kind of accommodation he can provide. I am looking forward to receiving
+                    this. It has occurred to some of us that he might come back and say “Why don’t
+                    you come on the other four hours and let me entertain you in Moscow?” However, I
+                    am preparing for Y[alta] and am sending a larger liner which will cover all our
+                    troubles.</p>
+                <p>Would it not be possible for you to spend 2 or 3 nights at Malta and let the
+                    staffs have a talk together unostentatiously? Also, Eisenhower and Alexander
+                    could both be available there. We think it very important that there should be
+                    some conversation on matters which do not affect the Russians, e. g., Japan, and
+                    also about future use of the Italian Armies. You have but to say the word and we
+                    can arrange everything.</p>
+                <p>We are very sorry indeed you will not come to our shores on this journey. We
+                    should feel it very much and a very dismal impression would be made if you were
+                    to visit France before you come to Britain: In fact, it would be regarded as a
+                    slight on your closest ally. I gather however that you will only go the [<hi
+                        rendition="#italic">to</hi>] the Mediterranean and Black Sea, in which case
+                    it is merely a repetition of Teheran.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d42-f1" n="1" type="source" xml:id="d42-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d42-f2" n="2" xml:id="d42-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg27">p. 27</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

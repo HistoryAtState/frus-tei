@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v05_appB" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Handwritten Letter From President Reagan to Soviet General Secretary Gorbachev</title>
+            </titleStmt>
+            <xi:include href="../../frus1981-88v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1981-88v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v05/appB"
+                    type="canonical"/>
+                <relatedItem target="appA.xml" type="prev"/>
+                <relatedItem target="appC.xml" type="next"/>
+                <relatedItem target="../app.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v05</bibl>
+                <bibl type="frus-division-id">appB</bibl>
+                <bibl type="frus-division-n">B</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1356" to="1360" unit="page"
+                        >1356–60</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1985-11-28T23:59:59-05:00" notBefore="1985-11-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1981-88v05/persons">
+                    <term ref="frus:frus1981-88v05/persons#p_GMS_1">Gorbachev, Mikhail S.</term>
+                    <term ref="frus:frus1981-88v05/persons#p_RRW_1">Reagan, Ronald W.</term>
+                </keywords>
+                <keywords scheme="frus:frus1981-88v05/terms">
+                    <term ref="frus:frus1981-88v05/terms#t_NSC_1">NSC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="appB">
+
+                <pb facs="1387" n="1356" xml:id="pg1356"/>
+
+                <head>B. Handwritten Letter From President Reagan to Soviet General Secretary Gorbachev<anchor n="1" xml:id="appB-f1"/></head>
+                <dateline rendition="#float-right">
+                    <placeName>Washington</placeName>, <date calendar="gregorian" when="1985-11-28"
+                        >November 28, 1985</date>
+                </dateline>
+                <figure>
+                    <graphic url="d311p1"/>
+                </figure>
+                <pb facs="1388" n="1357" xml:id="pg1357"/>
+                <figure>
+                    <graphic url="d311p2"/>
+                </figure>
+                <pb facs="1389" n="1358" xml:id="pg1358"/>
+                <figure>
+                    <graphic url="d311p3"/>
+                </figure>
+                <pb facs="1390" n="1359" xml:id="pg1359"/>
+                <figure>
+                    <graphic url="d311p4"/>
+                </figure>
+                <pb facs="1391" n="1360" xml:id="pg1360"/>
+                <figure>
+                    <graphic url="d311p5"/>
+                </figure>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#appB-f1" n="1" type="source" xml:id="appB-f1-content">
+                <p>Source: Reagan Library, Executive Secretariat, NSC Head of State File, U.S.S.R.: General Secretary Gorbachev (8591143, 8591239). No
+                    classification marking. For the transcribed text of this letter, see <ref
+                        target="#d163">Document 163</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v11_appE" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Notes of a Conversation</title>
+            </titleStmt>
+            <xi:include href="../../frus1981-88v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1981-88v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v11/appE"
+                    type="canonical"/>
+                <relatedItem target="appD.xml" type="prev"/>
+                <relatedItem target="appF.xml" type="next"/>
+                <relatedItem target="../app.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v11</bibl>
+                <bibl type="frus-division-id">appE</bibl>
+                <bibl type="frus-division-n">E</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1574" to="1579" unit="page"
+                        >1574–79</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1985-10-12T23:59:59-05:00" notBefore="1985-10-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1981-88v11/persons">
+                    <term ref="frus:frus1981-88v11/persons#p_MCHill_1">Hill, M. Charles</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="appE">
+
+                <pb facs="1601" n="1574" xml:id="pg1574"/>
+
+                <head>E. Notes of a Conversation<anchor n="1" xml:id="appE-f1"/></head>
+                <dateline rendition="#float-right">
+                    <placeName>Reykjavik</placeName>, <date calendar="gregorian" when="1985-10-12"
+                        >October 12, 1986</date>
+                </dateline>
+                <figure>
+                    <graphic url="frus40033_AppxE_p1574"/>
+                </figure>
+                <pb facs="1602" n="1575" xml:id="pg1575"/>
+                <figure>
+                    <graphic url="frus40033_AppxE_p1575"/>
+                </figure>
+                <pb facs="1603" n="1576" xml:id="pg1576"/>
+                <figure>
+                    <graphic url="frus40033_AppxE_p1576"/>
+                </figure>
+                <pb facs="1604" n="1577" xml:id="pg1577"/>
+                <figure>
+                    <graphic url="frus40033_AppxE_p1577"/>
+                </figure>
+                <pb facs="1605" n="1578" xml:id="pg1578"/>
+                <figure>
+                    <graphic url="frus40033_AppxE_p1578"/>
+                </figure>
+                <pb facs="1606" n="1579" xml:id="pg1579"/>
+                <figure>
+                    <graphic url="frus40033_AppxE_p1579"/>
+                </figure>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#appE-f1" n="1" type="source" xml:id="appE-f1-content">
+                <p>Source: Reagan Library, Charles Hill
+                    Papers, Charles Hill Notebooks, entry
+                    for October 12, 1986. No classification marking. For the transcribed text of
+                    these notes, see <ref target="#d160">Document 160</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

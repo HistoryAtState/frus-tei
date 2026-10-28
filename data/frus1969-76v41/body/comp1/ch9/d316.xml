@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v41_d316" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter From President Nixon to
+                    British Prime Minister Wilson</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v41_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v41_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v41/d316"
+                    type="canonical"/>
+                <relatedItem target="d315.xml" type="prev"/>
+                <relatedItem target="d317.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v41</bibl>
+                <bibl type="frus-division-id">d316</bibl>
+                <bibl type="frus-division-n">316</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="965" to="966" unit="page"
+                        >965–66</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1969-09-17">September 17, 1969</date>
+                    <date notAfter="1969-09-17T23:59:59-05:00" notBefore="1969-09-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v41/persons">
+                    <term ref="frus:frus1969-76v41/persons#p_JUA_1">Johnson, U. Alexis</term>
+                    <term ref="frus:frus1969-76v41/persons#p_NRM_1">Nixon, Richard M.</term>
+                    <term ref="frus:frus1969-76v41/persons#p_WH_1">Wilson, Harold</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v41/terms">
+                    <term ref="frus:frus1969-76v41/terms#t_NSC_1">NSC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d316">
+
+                <pb facs="1004" n="965" sameAs="frus:frus1969-76v41/pg965"/>
+
+                <head>316. Letter From President Nixon to
+                    British Prime Minister Wilson<anchor
+                        n="1" xml:id="d316-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1969-09-17">September 17, 1969</date>.</dateline></opener>
+                <opener>
+                    <salute>Dear Mr. Prime Minister:</salute>
+                </opener>
+                <p>Your letter of August 4, 1969 suggests that the understandings existing between
+                    our two governments with regard to consultation on the use of nuclear weapons be
+                    reaffirmed in the usual way.<anchor n="2" xml:id="d316-f2"/>
+                </p>
+                <pb facs="1005" n="966" xml:id="pg966"/>
+                <p>I am pleased to confirm that the understandings set forth in the enclosure to
+                    this letter and in President Johnson’s
+                    letter of November 11, 1965<anchor n="3" xml:id="d316-f3"/> remain in full
+                    effect under my Administration.</p>
+                <p>Sincerely,</p>
+                <closer>
+                    <signed corresp="#p_NRM_1">
+                        Richard Nixon
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d316-f1" n="1" type="source" xml:id="d316-f1-content">
+                <p>Source: National Archives, Nixon Presidential Materials, NSC Files, Box 763, Presidential Correspondence, United Kingdom
+                    Prime Minister Wilson Corres. Top Secret;
+                    Sensitive. An enclosure is not printed.</p>
+            </note>
+            <note corresp="#d316-f2" n="2" xml:id="d316-f2-content">
+                <p>A copy of Wilson’s letter is ibid. In
+                    telegram 2714 from London, April 9, the Embassy in London reminded the
+                    Department of State that it was the practice of the British Government to seek
+                    confirmation of the U.S.–U.K. agreement with a change of administration in
+                    either country. (Ibid.) The U.S.–U.K. agreement to cooperate on nuclear weapons
+                    use and development was signed on July 3, 1968.</p>
+            </note>
+            <note corresp="#d316-f3" n="3" xml:id="d316-f3-content">
+                <p>A copy of Johnson’s letter is in the
+                    Johnson Library, National Security File, Head of State Correspondence, United
+                    Kingdom, Vol. 2, Prime Minister Wilson.
+                    See also <ref target="#d333">Document 333</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

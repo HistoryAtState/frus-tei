@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d19" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Thompson to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d19"
+                    type="canonical"/>
+                <relatedItem target="../ch7.xml" type="prev"/>
+                <relatedItem target="d19-a1.xml" type="next"/>
+                <relatedItem target="../ch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d19</bibl>
+                <bibl type="frus-division-n">19</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="24" to="27" unit="page"
+                        >24–27</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Petropolis</hi></placeName>
+                    <date calendar="gregorian" when="1903-04-16"><hi rendition="#italic">April 16,
+                            1903</hi></date>
+                    <date notAfter="1903-04-16T23:59:59-05:00" notBefore="1903-04-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d19">
+
+                <pb facs="0108" n="24" sameAs="frus:frus1903/pg24"/>
+
+                <head><hi rendition="#italic">Mr. Thompson to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Petropolis</hi></placeName>, <date calendar="gregorian"
+                            when="1903-04-16"><hi rendition="#italic">April 16,
+                        1903</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 11.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Believing that it may be of interest to the
+                    Department, I inclose herewith a copy and translation of an editorial appearing
+                    in the principal opposition newspaper of Rio, which criticises the action of the
+                    Argentine Government in regard to the Monroe doctrine, and elaborates views as
+                    to the attitude which ought to be taken by South America toward that doctrine,
+                    which are very generally held among certain classes of Brazilians.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">D. E. Thompson.</hi></signed></closer>
+
+
+                <xi:include href="d19-a1.xml" xpointer="d19-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d395" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr.
+                            von Holleben.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d395"
+                    type="canonical"/>
+                <relatedItem target="../ch134.xml" type="prev"/>
+                <relatedItem target="d395-a1.xml" type="next"/>
+                <relatedItem target="../ch134.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d395</bibl>
+                <bibl type="frus-division-n">395</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="426" to="427" unit="page"
+                        >426–27</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1902-04-05"><hi rendition="#italic">April 5,
+                            1902</hi></date>
+                    <date notAfter="1902-04-05T23:59:59-05:00" notBefore="1902-04-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d395">
+
+                <pb facs="0506" n="426" sameAs="frus:frus1902/pg426"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr.
+                            von Holleben</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1902-04-05"><hi rendition="#italic">April 5,
+                        1902</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">My Dear Mr. Ambassador</hi>: I take pleasure in
+                    communicating to you the inclosed memorandum in reply to the pro memoriâ you
+                    left with me on the 3d instant.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay</hi>.</signed></closer>
+
+
+
+                <xi:include href="d395-a1.xml" xpointer="d395-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

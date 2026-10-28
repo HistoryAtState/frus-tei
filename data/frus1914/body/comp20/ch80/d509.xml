@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d509" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d509"
+                    type="canonical"/>
+                <relatedItem target="d508.xml" type="prev"/>
+                <relatedItem target="d510.xml" type="next"/>
+                <relatedItem target="../ch80.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d509</bibl>
+                <bibl type="frus-division-n">509</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="341" to="341" unit="page"
+                        >341</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1914-03-02">
+                        <hi rendition="#italic">March 2, 1914</hi></date>
+                    <date notAfter="1914-03-02T23:59:59-05:00" notBefore="1914-03-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d509">
+
+                <pb facs="0457" n="341" sameAs="frus:frus1914/pg341"/>
+
+                <note rend="inline" type="source">File No. 838.00/864.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1914-03-02">
+                            <hi rendition="#italic">March 2, 1914</hi></date>.</dateline>
+                </opener>
+                <p>Your February 28. Referring to last statement of Minister for Foreign Affairs,
+                    you are instructed to inform him that this Government earnestly desires prompt
+                    signing of protocol of arbitration, and issuance of instructions for vise of
+                    passports of American citizens of Syrian origin naturalized prior to anti-Syrian
+                    law of 1903.<anchor n="3" xml:id="d509-f1"/>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Bryan</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d509-f1" n="3" xml:id="d509-f1-content">
+                <p>
+                    <ref target="frus1913#pg_575">For. Rel. 1913, pp. 575</ref>–<ref
+                        target="frus1913#pg_589">589</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

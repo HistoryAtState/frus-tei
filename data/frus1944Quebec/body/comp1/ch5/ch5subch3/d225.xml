@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d225" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President’s Special Assistant (Hopkins) to the President</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d225"
+                    type="canonical"/>
+                <relatedItem target="../ch5subch3.xml" type="prev"/>
+                <relatedItem target="d226.xml" type="next"/>
+                <relatedItem target="../ch5subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d225</bibl>
+                <bibl type="frus-division-n">225</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="396" to="397" unit="page"
+                        >396–97</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-11">September 11, 1944</date>
+                    <date notAfter="1944-09-11T23:59:59-05:00" notBefore="1944-09-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_MRout1">MR-out</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d225">
+
+                <pb facs="0458" n="396" sameAs="frus:frus1944Quebec/pg396"/>
+
+                <note rend="inline" type="source">Hopkins Papers: Telegram</note>
+                <head><hi rendition="#italic">The President’s Special Assistant</hi> (<hi rendition="#italic">Hopkins</hi>) <hi
+                        rendition="#italic">to the President</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-09-11">September 11, 1944</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">MR–out</hi>—385.
+                    Personal and top secret to the President from Harry Hopkins.</p>
+                <p>Have discussed all of the cables relative to Poland with the State Department and
+                    Marshall. On the basis of these conferences, would suggest that you send
+                    substantially the following messages— <list>
+                        <label>1.</label>
+                        <item>To the President of Poland:<anchor n="1" xml:id="d225-f1"/> “This will
+                            acknowledge your very urgent wire<anchor n="2" xml:id="d225-f2"/> and I
+                            want to assure you that we are taking every possible step to bring
+                            Allied assistance as speedily as possible to the Warsaw garrison. I
+                            realize fully the urgent importance of this matter.”</item>
+                        <pb facs="0459" n="397" xml:id="pg397"/>
+                        <label>2.</label>
+                        <item>That you send a message to General Marshall asking him to have Deane
+                            explore this matter fully and urgently with the British and Russian
+                            military people.</item>
+                        <label>3.</label>
+                        <item>That the State Department will reply to Harriman’s wire to you and the
+                                Secretary<anchor n="3" xml:id="d225-f3"/> coordinating whatever they
+                            may say with Marshall’s instructions to Deane.</item>
+                    </list>
+                </p>
+                <closer><signed><hi rendition="#small-caps">Harry</hi></signed><anchor n="4"
+                        xml:id="d225-f4"/></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d225-f1" n="1" xml:id="d225-f1-content">
+                <p>At the request of Charles E. Bohlen, an unnumbered telegram was sent to Quebec by
+                    the White House Map Room correcting “President of Poland” to “Prime Minister of
+                    Poland”.</p>
+            </note>
+            <note corresp="#d225-f2" n="2" xml:id="d225-f2-content">
+                <p>The reference is to one of the two messages of September 10, 1944, from Prime
+                    Minister Mikołajczyk to Roosevelt. See <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg204">pp. 204</ref>, <ref target="#pg205">205</ref>.</p>
+            </note>
+            <note corresp="#d225-f3" n="3" xml:id="d225-f3-content">
+                <p>i.e., Harriman’s telegram No. 3413 of September 10, 1944, <hi rendition="#italic"
+                        >ante</hi>, <ref target="#pg203">p. 203</ref>.</p>
+            </note>
+            <note corresp="#d225-f4" n="4" xml:id="d225-f4-content">
+                <p>The source text bears also the holograph signature “Harry L Hopkins”, but only
+                    the first name was to be transmitted.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Buchanan to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d10"
+                    type="canonical"/>
+                <relatedItem target="../ch3.xml" type="prev"/>
+                <relatedItem target="d11.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d10</bibl>
+                <bibl type="frus-division-n">10</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="5" to="5" unit="page"
+                    >5</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Buenos Ayres</hi></placeName>
+                    <date calendar="gregorian" when="1898-11-16"><hi rendition="#italic">November
+                            16, 1898</hi></date>
+                    <date notAfter="1898-11-16T23:59:59-05:00" notBefore="1898-11-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d10">
+
+                <pb facs="0101" n="5" sameAs="frus:frus1898/pg5"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Buchanan to Mr.
+                            Hay.</hi>
+                </head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Buenos Ayres</hi></placeName>, <date calendar="gregorian"
+                            when="1898-11-16"><hi rendition="#italic">November 16,
+                        1898</hi></date>.</dateline></opener>
+                <p>Hawaiian schooner <hi rendition="#italic">Americana</hi>, carrying the flag of
+                    Hawaii, has arrived from St. John, where was cleared by consul of the Hawaiian
+                    Islands. That Government was never represented here. Captain has applied the
+                    United States consul. Will you please send telegraph instructions for his
+                    guidance.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Buchanan.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

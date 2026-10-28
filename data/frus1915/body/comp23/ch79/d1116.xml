@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d1116" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d1116"
+                    type="canonical"/>
+                <relatedItem target="d1115.xml" type="prev"/>
+                <relatedItem target="d1117.xml" type="next"/>
+                <relatedItem target="../ch79.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d1116</bibl>
+                <bibl type="frus-division-n">1116</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="822" to="822" unit="page"
+                        >822</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Vera Cruz</hi></placeName>
+                    <date calendar="gregorian" when="1915-03-02">
+                        <hi rendition="#italic">March 2, 1915</hi></date>
+                    <date notAfter="1915-03-02T23:59:59-05:00" notBefore="1915-03-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1116">
+
+                <pb facs="0938" n="822" xml:id="pg822"/>
+
+                <note rend="inline" type="source">File No. 612.1123/51.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Vera Cruz</hi></placeName>, <date
+                            calendar="gregorian" when="1915-03-02">
+                            <hi rendition="#italic">March 2, 1915</hi></date>.</dateline>
+                </opener>
+                <p>Under Mexican law a port possessed by insurgents becomes automatically closed in
+                    so far as the government is concerned. Destruction of Mexican transport <hi
+                        rendition="#italic">Progreso</hi> leaves port practically open. In view of
+                    present situation Captain Rogers of Delaware states that he will tonight order
+                        <hi rendition="#italic">Des Moines</hi> to remain at [apparent omission]
+                    until Navy Department order otherwise.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Silliman.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

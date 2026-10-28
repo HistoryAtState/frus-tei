@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d550" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Russell to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d550"
+                    type="canonical"/>
+                <relatedItem target="../ch132.xml" type="prev"/>
+                <relatedItem target="d550-a1.xml" type="next"/>
+                <relatedItem target="../ch132.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d550</bibl>
+                <bibl type="frus-division-n">550</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="562" to="580" unit="page"
+                        >562–80</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Panama</hi></placeName>
+                    <date calendar="gregorian" when="1904-02-16"><hi rendition="#italic">February
+                            16, 1904</hi></date>
+                    <date notAfter="1904-02-16T23:59:59-05:00" notBefore="1904-02-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d550">
+
+                <pb facs="0650" n="562" sameAs="frus:frus1904/pg562"/>
+
+                <head><hi rendition="#italic">Mr. Russell to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                            >Panama</hi></placeName>, <date calendar="gregorian" when="1904-02-16"
+                                ><hi rendition="#italic">February 16, 1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 56.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to report that the new
+                    constitution of the Republic of Panama was promulgated this afternoon, and the
+                    election for president took place, the result of which is as follows: President,
+                    Dr. Manuel Amador Guerrero; first vice-president, Dr. Pablo Arosemena; second
+                    vice-president, Don Domingo de Obaldía; third vice-president, Dr. Carlos
+                    Mendoza.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">William W.
+                    Russell.</hi></signed></closer>
+
+
+                <xi:include href="d550-a1.xml" xpointer="d550-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

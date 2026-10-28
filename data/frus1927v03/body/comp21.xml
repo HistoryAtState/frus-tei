@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1927v03_comp21" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Russia:</title>
+            </titleStmt>
+            <xi:include href="../frus1927v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1927v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1927v03/comp21"
+                    type="canonical"/>
+                <relatedItem target="comp20/ch63/d650.xml" type="prev"/>
+                <relatedItem target="comp21/ch64.xml" type="next"/>
+                <relatedItem target="../frus1927v03.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1927v03</bibl>
+                <bibl type="frus-division-id">comp21</bibl>
+                <bibl type="frus-division-n">21</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="648" to="654" unit="page"
+                        >648–54</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1927-11-28T23:59:59-05:00" notBefore="1926-08-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp21">
+
+                <pb facs="0750" n="648" xml:id="pg648"/>
+
+                <head>Russia:</head>
+
+
+                <xi:include href="comp21/ch64.xml" xpointer="ch64"/>
+                <xi:include href="comp21/ch65.xml" xpointer="ch65"/>
+            </div>
+        </body>
+    </text>
+</TEI>

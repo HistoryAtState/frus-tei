@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Russia_d81" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appendix III to C. F. 20.—Feeding of Russia—Copy of letter from Lord Robert Cecil to Sir Maurice Hankey</title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Russia_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Russia_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Russia/d81"
+                    type="canonical"/>
+                <relatedItem target="d80.xml" type="prev"/>
+                <relatedItem target="d81-a1.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Russia</bibl>
+                <bibl type="frus-division-id">d81</bibl>
+                <bibl type="frus-division-n">81</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="115" to="117" unit="page"
+                        >115–17</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Paris</hi></placeName>
+                    <date calendar="gregorian" when="1919-05-16"><hi rendition="#italic">May 16,
+                            1919</hi></date>
+                    <date notAfter="1919-05-16T23:59:59-05:00" notBefore="1919-05-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1919Russia/persons">
+                    <term ref="frus:frus1919Russia/persons#p_CLR1">Cecil, Lord Robert</term>
+                    <term ref="frus:frus1919Russia/persons#p_CGV1">Chicherin, George V.</term>
+                    <term ref="frus:frus1919Russia/persons#p_HLCSM1">Hankey, Lt. Col. Sir
+                        Maurice</term>
+                    <term ref="frus:frus1919Russia/persons#p_HHC1">Hoover, Herbert C.</term>
+                    <term ref="frus:frus1919Russia/persons#p_LNVU1">Lenin, N. (Vladimir
+                        Ulyanov)</term>
+                    <term ref="frus:frus1919Russia/persons#p_NF1">Nansen, Fridtjof</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d81">
+
+                <pb facs="0227" n="115" sameAs="frus:frus1919Russia/pg115"/>
+
+                <note rend="inline" type="source">Paris Peace Conference 180.03401/20</note>
+                <head><hi rendition="#italic">Appendix III to C. F. 20.</hi><anchor n="88"
+                        xml:id="d81-f1"/>—<hi rendition="#italic">Feeding of Russia—Copy of letter
+                        from Lord Robert Cecil to Sir
+                            Maurice Hankey</hi></head>
+                <opener>
+                    <seg rendition="#float-left">M. 163</seg>
+                    <dateline rendition="#float-right"><hi rendition="#small-caps">British
+                            Delegation</hi>,<lb/><placeName><hi rendition="#small-caps"
+                            >Paris</hi></placeName>, <date calendar="gregorian" when="1919-05-16"
+                                ><hi rendition="#italic">May 16, 1919</hi></date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">My Dear Hankey</hi>: When the Nansen scheme was first started, I understand that Hoover, Clémentel, an Italian and I were
+                    appointed as a Committee to advise the Supreme Council as to the steps to be
+                    taken in connection therewith.</p>
+                <p>Yesterday Mr. Hoover brought to me the
+                    reply that Lenin has sent to the
+                        Nansen letter, and suggested that we
+                    should take some action upon it. I enclose a copy of Lenin’s reply.<anchor n="89" xml:id="d81-f2"
+                    /></p>
+                <p>Accordingly, a meeting was held today in the Astoria, attended by Mr. Hoover, Professor Attolico
+                    and myself. Monsieur Clémentel was invited but was prevented from coming. At
+                    that meeting it was agreed that Mr. Hoover should send immediately the following reply to Nansen’s question at the end of the Lenin telegram: <quote rend="blockquote">
+                        <p>“Please inform Nansen that until
+                            whole matter has been given further consideration by the Governments
+                            here we consider it extremely inadvisable to arrange any meeting with
+                            Bolshevik representatives.”</p>
+                    </quote></p>
+                <p>We further agreed upon the memorandum of which I also send you a copy. Will you
+                    please inform the Supreme Council.</p>
+                <p>Yours very sincerely,</p>
+                <closer><signed><hi rendition="#small-caps">Robert
+                                Cecil</hi></signed></closer>
+
+
+
+                <xi:include href="d81-a1.xml" xpointer="d81-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d81-f1" n="88" type="source" xml:id="d81-f1-content">
+                <p>The minutes of the meeting of the Council of Four (C. F. 20) of May 20, 1919, 11
+                    a.m., are printed in part, <ref target="#pg351">p. 351</ref>.</p>
+            </note>
+            <note corresp="#d81-f2" n="89" xml:id="d81-f2-content">
+                <p>The Soviet reply (signed by Chicherin) was
+                    transmitted from Copenhagen in telegram no. Crab 104, May 14, <hi
+                        rendition="#italic">supra.</hi></p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

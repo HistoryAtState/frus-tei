@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d15" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d15"
+                    type="canonical"/>
+                <relatedItem target="../ch14.xml" type="prev"/>
+                <relatedItem target="../ch15.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d15</bibl>
+                <bibl type="frus-division-n">15</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="15" to="15" unit="page"
+                        >15</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1914-07-25">
+                        <hi rendition="#italic">July 25, 1914</hi></date>
+                    <date notAfter="1914-07-25T23:59:59-05:00" notBefore="1914-07-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d15">
+
+                <pb facs="0131" n="15" sameAs="frus:frus1914/pg15"/>
+
+                <note rend="inline" type="source">File No. 811f.812/589a.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1914-07-25">
+                            <hi rendition="#italic">July 25, 1914</hi></date>.</dateline>
+                </opener>
+                <p rendition="#flush">
+                    <hi rendition="#italic">To the American Consular Officers including Consular
+                        Agents</hi>.</p>
+                <p>
+                    <hi rendition="#small-caps">Gentlemen</hi>: There is being forwarded to your
+                    office under separate cover a copy of the Executive order of July 9, 1914,
+                    prescribing the rules and regulations for the operation and navigation of the
+                    Panama Canal and approaches thereto including all waters under its
+                        jurisdiction.<anchor n="7" xml:id="d15-f1"/>
+                </p>
+                <p>You should bring the provisions of this order to the attention of all interested
+                    persons in your consular jurisdiction.</p>
+                <p>I am [etc.]</p>
+                <closer>For the Secretary of State: <lb/>
+                    <signed>
+                        <hi rendition="#small-caps">Wilbur J. Carr</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d15-f1" n="7" xml:id="d15-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

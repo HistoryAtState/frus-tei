@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d1050-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Aide-Mémoire</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d1050-a1"
+                    type="canonical"/>
+                <relatedItem target="d1050.xml" type="prev"/>
+                <relatedItem target="d1051.xml" type="next"/>
+                <relatedItem target="d1050.xml" type="parent"/>
+                <relatedItem target="d1050.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d1050-a1</bibl>
+                <bibl type="frus-division-n">1050.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1032" to="1033" unit="page"
+                        >1032–33</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/persons">
+                    <term ref="frus:frus1945Berlinv02/persons#p_BJF1">Byrnes, James F.</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_MFMSB1">Montgomery, Field Marshal
+                        Sir Bernard</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1050-a1">
+
+                <pb facs="1228" n="1032" sameAs="frus:frus1945Berlinv02/pg1032"/>
+
+                <opener>
+                    <seg rendition="#center">[Enclosure]</seg>
+                </opener>
+                <head><hi rendition="#small-caps">Aide-Mémoire</hi></head>
+                <p>His Majesty’s Government have given consideration to the revised directive to the
+                    American Commander-in-Chief in Europe,<anchor n="1" xml:id="d1050-f1"/> which
+                    was handed to this Embassy with the State Department’s <hi rendition="#italic"
+                        >Aide-Mémoire</hi> of July 11th,<anchor n="2" xml:id="d1050-f2"/> concerning
+                    coal production in Germany.</p>
+                <pb facs="1229" n="1033" xml:id="pg1033"/>
+                <p>The question has been discussed in the British Delegation at the Berlin
+                    Conference and the Foreign Secretary has now informed Mr. Byrnes<anchor n="3" xml:id="d1050-f3"/> that
+                    His Majesty’s Government are in agreement with the terms of the revised
+                    directive and will arrange for a directive in the same terms to be issued to
+                        Field Marshal Montgomery as interim
+                    instructions.</p>
+                <closer><dateline rendition="#float-left">
+                        <placeName><hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1945-07-30">July 30,
+                    1945</date>.</dateline></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1050-f1" n="1" xml:id="d1050-f1-content">
+                <p>Attachment to <ref target="#d1046">document No. 1046</ref>.</p>
+            </note>
+            <note corresp="#d1050-f2" n="2" xml:id="d1050-f2-content">
+                <p><ref target="frus1945Berlinv01#d432">Document No. 432, printed in vol. <hi
+                            rendition="#small-caps">i</hi></ref>.</p>
+            </note>
+            <note corresp="#d1050-f3" n="3" xml:id="d1050-f3-content">
+                <p>See <ref target="#d1044">document No. 1044</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

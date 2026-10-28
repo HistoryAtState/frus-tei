@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1871" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1871_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1871_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1871_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1871"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1871" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1871/covers/frus1871.jpg"/>
+                        <extent>
+                            <measure quantity="42891" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:29:08.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1871" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1871/ebook/frus1871.epub"/>
+                        <extent>
+                            <measure quantity="1854073" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:29:08.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1871" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1871/ebook/frus1871.mobi"/>
+                        <extent>
+                            <measure quantity="2667939" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:29:08.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1871 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>armistices</term>
+                    <term>asylum</term>
+                    <term>australia</term>
+                    <term>austria</term>
+                    <term>bolivia</term>
+                    <term>brazil</term>
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>colombia</term>
+                    <term>costa-rica</term>
+                    <term>cuba</term>
+                    <term>ecuador</term>
+                    <term>el-salvador</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>europe</term>
+                    <term>fish-hamilton</term>
+                    <term>foreign-aid</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>grant-ulysses-s</term>
+                    <term>greece</term>
+                    <term>guatemala</term>
+                    <term>haiti</term>
+                    <term>honduras</term>
+                    <term>hong-kong</term>
+                    <term>immigration</term>
+                    <term>japan</term>
+                    <term>mexico</term>
+                    <term>nicaragua</term>
+                    <term>norway</term>
+                    <term>peru</term>
+                    <term>portugal</term>
+                    <term>russia</term>
+                    <term>spain</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>venezuela</term>
+                    <term>war-of-1812</term>
+                    <term>american-revolutionary-war</term>
+                    <term>guadeloupe</term>
+                    <term>martinique</term>
+                    <term>midway-islands</term>
+                    <term>new-caledonia</term>
+                    <term>washburne-elihu-benjamin</term>
+                    <term>monaco</term>
+                    <term>mauritius</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1871" status="published" when="1871"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0007" n="[I]" xml:id="pg-seq-7"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Papers Relating to the Foreign Relations of the United
+                        States, Transmitted to Congress with the Annual Message of the President,
+                        December 4, 1871</titlePart>
+                    <titlePart type="subseries">1871</titlePart>
+                </docTitle>
+                <docImprint>Washington: Government Printing Office, 1871.</docImprint>
+            </titlePage>
+            <pb facs="0008" n="[II]" xml:id="pg-seq-8"/>
+            <pb facs="0009" n="[III]" xml:id="pg-seq-9"/>
+            <pb facs="0060" n="" xml:id="pg-seq1_18"/>
+            <xi:include href="front/ch1.xml" xpointer="ch1"/>
+            <pb facs="0082" n="" xml:id="pg-seq1_40"/>
+            <pb facs="0083" n="[41]" xml:id="pg-seq1_41"/>
+            <pb facs="0084" n="" xml:id="pg-seq1_42"/>
+            <xi:include href="front/ch2.xml" xpointer="ch2"/>
+            <pb facs="0100" n="" xml:id="pg-seq1_58"/>
+            <pb facs="0101" n="[59]" xml:id="pg-seq1_59"/>
+            <pb facs="0102" n="" xml:id="pg-seq1_60"/>
+            <xi:include href="front/ch3.xml" xpointer="ch3"/>
+            <pb facs="0121" n="[79]" xml:id="pg-seq1_79"/>
+            <pb facs="0122" n="" xml:id="pg-seq1_80"/>
+            <xi:include href="front/ch4.xml" xpointer="ch4"/>
+            <pb facs="0151" n="[109]" xml:id="pg-seq1_109"/>
+            <pb facs="0152" n="" xml:id="pg-seq1_110"/>
+            <xi:include href="front/ch5.xml" xpointer="ch5"/>
+            <pb facs="0184" n="" xml:id="pg-seq1_142"/>
+            <pb facs="0185" n="[143]" xml:id="pg-seq1_143"/>
+            <pb facs="0186" n="" xml:id="pg-seq1_144"/>
+            <xi:include href="front/ch6.xml" xpointer="ch6"/>
+            <xi:include href="front/message.xml" xpointer="message"/>
+            <pb facs="0214" n="" xml:id="pgXVI"/>
+            <pb facs="0215" n="[1]" xml:id="pg1"/>
+            <pb facs="0216" n="" xml:id="pg2"/>
+            <xi:include href="front/contents.xml" xpointer="contents"/>
+            <pb facs="0237" n="[23]" xml:id="pg23"/>
+        </front>
+        <body>
+            <xi:include href="body/ch7.xml" xpointer="ch7"/>
+            <xi:include href="body/ch8.xml" xpointer="ch8"/>
+            <xi:include href="body/ch9.xml" xpointer="ch9"/>
+            <xi:include href="body/ch10.xml" xpointer="ch10"/>
+            <xi:include href="body/ch11.xml" xpointer="ch11"/>
+            <xi:include href="body/ch12.xml" xpointer="ch12"/>
+            <xi:include href="body/ch13.xml" xpointer="ch13"/>
+            <xi:include href="body/ch14.xml" xpointer="ch14"/>
+            <xi:include href="body/ch15.xml" xpointer="ch15"/>
+            <xi:include href="body/ch16.xml" xpointer="ch16"/>
+            <xi:include href="body/ch17.xml" xpointer="ch17"/>
+            <xi:include href="body/ch18.xml" xpointer="ch18"/>
+            <xi:include href="body/ch19.xml" xpointer="ch19"/>
+            <xi:include href="body/ch20.xml" xpointer="ch20"/>
+            <xi:include href="body/ch21.xml" xpointer="ch21"/>
+            <xi:include href="body/ch22.xml" xpointer="ch22"/>
+            <xi:include href="body/ch23.xml" xpointer="ch23"/>
+            <xi:include href="body/ch24.xml" xpointer="ch24"/>
+            <xi:include href="body/ch25.xml" xpointer="ch25"/>
+            <xi:include href="body/ch26.xml" xpointer="ch26"/>
+            <xi:include href="body/ch27.xml" xpointer="ch27"/>
+            <xi:include href="body/ch28.xml" xpointer="ch28"/>
+            <xi:include href="body/ch29.xml" xpointer="ch29"/>
+            <xi:include href="body/ch30.xml" xpointer="ch30"/>
+            <xi:include href="body/ch31.xml" xpointer="ch31"/>
+            <xi:include href="body/ch32.xml" xpointer="ch32"/>
+            <pb facs="1126" n="" xml:id="pg-seq-1126"/>
+            <pb facs="1127" n="[913]" xml:id="pg913"/>
+        </body>
+        <back>
+            <xi:include href="back/indx1.xml" xpointer="indx1"/>
+        </back>
+    </text>
+</TEI>

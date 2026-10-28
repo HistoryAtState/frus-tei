@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d14"
+                    type="canonical"/>
+                <relatedItem target="d13.xml" type="prev"/>
+                <relatedItem target="d15.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="10" to="11" unit="page"
+                        >10–11</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-10-23">23 October 1944</date>
+                    <date notAfter="1944-10-23T23:59:59-05:00" notBefore="1944-10-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_EA1">Eden, Anthony</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d14">
+
+                <pb facs="0092" n="10" sameAs="frus:frus1945Malta/pg10"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                    </hi><anchor n="1" xml:id="d14-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1944-10-23">23 October
+                        1944</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Roosevelt
+                    Personal and Top Secret No. 804.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <p>Para 2. U. J.’s doctors do not like him flying and I suppose there would be the
+                    same difficulties in Russian warships coming out of the Black Sea as of American
+                    and British warships coming in. One way <pb facs="0093" n="11" xml:id="pg11"/>
+                    would be for Turkey to declare war, which I expect she would be very willing to
+                    do. But I am not at all sure that the Russians would welcome this at the present
+                    juncture in view of what I told you about their wish for revision of the Treaty
+                    of Montreux.<anchor n="2" xml:id="d14-f2"/> Alternatively we could ask Turkey to
+                    waive the Montreux Treaty for the passage either way of the said ships. This I
+                    expect the Russians would like. But I am not so sure about the Turks. From what
+                    I saw of the Crimea it seems much shattered and I expect all other Black Sea
+                    ports are in a similar state. We should therefore in all probability have to
+                    live on board our ships. I am inquiring about Athens from Eden who will be there in a day or two.
+                    Personally I should think it a splendid setting and here again we should have
+                    our ships handy. Cyprus is of course available where absolute secrecy, silence
+                    and security can be guaranteed together with plain comfortable accommodation for
+                    all principals. Will you telegraph to U. J. on the subject, or shall I? Or,
+                    better still, shall we send a joint message?</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d14-f1" n="1" type="source" xml:id="d14-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d14-f2" n="2" xml:id="d14-f2-content">
+                <p>For the text, in French, together with an English translation, of this convention
+                    regarding the regime of the Straits, which was signed at Montreux July 20, 1936,
+                    see League of Nations Treaty Series, vol. <hi rendition="#small-caps"
+                        >clxxiii</hi>, pp. 213–241.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

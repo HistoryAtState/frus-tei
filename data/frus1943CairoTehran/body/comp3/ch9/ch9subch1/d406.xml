@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d406" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President’s Special Assistant (Hopkins) to the President, and the President’s Reply</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d406"
+                    type="canonical"/>
+                <relatedItem target="d405.xml" type="prev"/>
+                <relatedItem target="d407.xml" type="next"/>
+                <relatedItem target="../ch9subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d406</bibl>
+                <bibl type="frus-division-n">406</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="634" to="634" unit="page"
+                        >634</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Tehran</hi></placeName>
+                    <date calendar="gregorian" when="1943-12-01">December 1, 1943</date>
+                    <date notAfter="1943-12-01T23:59:59-05:00" notBefore="1943-12-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_HHL1">Hopkins, Harry L.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SRE1">Sherwood, Robert E.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d406">
+
+                <pb facs="0738" n="634" xml:id="pg634"/>
+
+                <note rend="inline" type="source">Hopkins
+                    Papers</note>
+                <head><hi rendition="#italic">The President’s Special Assistant</hi> (<hi rendition="#italic"
+                        >Hopkins</hi>) <hi rendition="#italic">to the President, and the President’s Reply</hi><anchor n="1"
+                        xml:id="d406-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Tehran</hi></placeName>, <date calendar="gregorian"
+                            when="1943-12-01">December 1, 1943</date>.]</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Mr. President</hi>: What do you think of letting the
+                    Russians give dinner tonight—your last chance at Russian food</p>
+                <closer><signed><hi rendition="#small-caps"
+                            >Harry</hi></signed></closer>
+                <postscript>
+                    <p>OK but I have to leave <hi rendition="#italic">early</hi> as we sleep at the
+                        camp.</p>
+                    <closer><signed>FDR</signed></closer>
+                </postscript>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d406-f1" n="1" type="source" xml:id="d406-f1-content">
+                <p>According to Sherwood, p. 796, these
+                    messages were exchanged near the end of the tripartite luncheon meeting of
+                    December 1, 1943 (<hi rendition="#italic">ante</hi>, <ref target="#pg585">p.
+                        585</ref>). For a facsimile reproduction of the messages, which were
+                    handwritten, see Sherwood, p. 797.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

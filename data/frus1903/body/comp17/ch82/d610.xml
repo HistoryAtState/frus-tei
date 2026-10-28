@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d610" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr.
+                            Griscom.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d610"
+                    type="canonical"/>
+                <relatedItem target="../ch82.xml" type="prev"/>
+                <relatedItem target="d610-a1.xml" type="next"/>
+                <relatedItem target="../ch82.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d610</bibl>
+                <bibl type="frus-division-n">610</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="622" to="623" unit="page"
+                        >622–23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1903-09-02"><hi rendition="#italic">September
+                            2, 1903</hi></date>
+                    <date notAfter="1903-09-02T23:59:59-05:00" notBefore="1903-09-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d610">
+
+                <pb facs="0708" n="622" sameAs="frus:frus1903/pg622"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr.
+                            Griscom.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1903-09-02"><hi rendition="#italic">September 2,
+                        1903</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 14.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I transmit copies of a letter from the G.
+                    &amp; J. Tire Company, and its inclosure, addressed to the Imperial consulate of
+                    Japan at Chicago, protesting against the copyrighting of their trade-mark in
+                    Japan by Rikicki Sumi, a bicycle dealer of Osaka.</p>
+                <pb facs="0709" n="623" xml:id="pg623"/>
+                <p>The company expresses the hope that the Department will take some steps to
+                    protect its interests in Japan.</p>
+                <p>You are instructed to investigate the matter and to furnish the Department with a
+                    report thereon.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+
+                <xi:include href="d610-a1.xml" xpointer="d610-a1"/>
+                <xi:include href="d610-a2.xml" xpointer="d610-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

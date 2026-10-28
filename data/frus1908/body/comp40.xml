@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1908_comp40" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sweden</title>
+            </titleStmt>
+            <xi:include href="../frus1908_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1908_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1908/comp40"
+                    type="canonical"/>
+                <relatedItem target="comp39/ch132/d693.xml" type="prev"/>
+                <relatedItem target="comp40/ch133.xml" type="next"/>
+                <relatedItem target="../frus1908.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1908</bibl>
+                <bibl type="frus-division-id">comp40</bibl>
+                <bibl type="frus-division-n">40</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="730" to="733" unit="page"
+                        >730–33</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1908-09-01T23:59:59-05:00" notBefore="1908-01-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp40">
+
+                <pb facs="0832" n="730" xml:id="pg730"/>
+
+                <head>Sweden</head>
+
+
+                <xi:include href="comp40/ch133.xml" xpointer="ch133"/>
+                <xi:include href="comp40/ch134.xml" xpointer="ch134"/>
+            </div>
+        </body>
+    </text>
+</TEI>

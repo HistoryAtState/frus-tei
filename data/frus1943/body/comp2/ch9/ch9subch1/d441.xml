@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d441" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Report by an Ad Hoc Committee of the Combined Chiefs
+                        of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d441"
+                    type="canonical"/>
+                <relatedItem target="d440.xml" type="prev"/>
+                <relatedItem target="d442.xml" type="next"/>
+                <relatedItem target="../ch9subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d441</bibl>
+                <bibl type="frus-division-n">441</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1003" to="1003" unit="page"
+                        >1003</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-21">21 August 1943</date>
+                    <date notAfter="1943-08-21T23:59:59-05:00" notBefore="1943-08-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_COS1">COS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d441">
+
+                <pb facs="1117" n="1003" sameAs="frus:frus1943/pg1003"/>
+
+                <note rend="inline" type="source">
+                    J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Report by an Ad Hoc Committee of the Combined Chiefs of
+                        Staff</hi><anchor n="1" xml:id="d441-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        C.C.S. 312/1</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-21">21 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Pipeline From India to China</hi>
+                </p>
+                <p>The <hi rendition="#italic">ad hoc</hi> Committee appointed by the C.O.S. to examine administrative matters reviewed
+                        C.C.S. 312,<anchor n="2" xml:id="d441-f2"/>
+                    and recommended its approval.</p>
+                <p>Orders for the construction of these pipelines are included in the draft
+                    directive to the Supreme Commander Southeast Asia, submitted for approval of the
+                        C.C.S. under C.O.S.(Q) 36.<anchor n="3" xml:id="d441-f3"/> The tentative
+                    allocation of shipping has included the movement of these troops.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">General Sir T. S. Riddell-Webster</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">Lt. General Brehon Somervell</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">Rear Admiral</hi> O. C <hi
+                            rendition="#small-caps">Badger</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d441-f1" n="1" type="source" xml:id="d441-f1-content">
+                <p>For the action taken on this paper at the 115th Meeting of the Combined Chiefs of
+                    Staff, August 23, 1943, see <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg938">p. 938</ref>.</p>
+            </note>
+            <note corresp="#d441-f2" n="2" xml:id="d441-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg973">p. 973</ref>.</p>
+            </note>
+            <note corresp="#d441-f3" n="3" xml:id="d441-f3-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

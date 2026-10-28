@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d144" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d144"
+                    type="canonical"/>
+                <relatedItem target="d143.xml" type="prev"/>
+                <relatedItem target="d145.xml" type="next"/>
+                <relatedItem target="../ch2subch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d144</bibl>
+                <bibl type="frus-division-n">144</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="222" to="223" unit="page"
+                        >222–23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-08-30">30 August 1944</date>
+                    <date notAfter="1944-08-30T23:59:59-05:00" notBefore="1944-08-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Octagon1">Octagon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d144">
+
+                <pb facs="0278" n="222" sameAs="frus:frus1944Quebec/pg222"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt
+                        to Prime Minister Churchill</hi><anchor n="1"
+                        xml:id="d144-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-08-30">30 August 1944</date>.</dateline>
+                </opener>
+                <p>Number 611, personal and top secret, from the President for the Prime
+                    Minister.</p>
+                <p>Your 772.<anchor n="2" xml:id="d144-f2"/> I was very glad to receive your account
+                    of the way in which General Wilson has concentrated his forces in Italy and has
+                    now renewed the offensive. My Chiefs of Staff feel that a vigorous attack, <pb
+                        facs="0279" n="223" xml:id="pg223"/> using all the forces available, should
+                    force the enemy into the Po Valley. The enemy may then choose to withdraw
+                    entirely from northern Italy. Since such action on his part might enable the
+                    enemy to release divisions for other fronts, we must do our best to destroy his
+                    forces while we have them in our grasp. I am confident that General Wilson has
+                    this as his objective.</p>
+                <p>With an offensive under way and being pressed full strength in Italy, I am sure
+                    that General Eisenhower will be satisfied that everything possible is being done
+                    in the Mediterranean to assist him by mauling German divisions which might
+                    otherwise be moved against his forces in the near future. I understand all
+                    available British resources in the Mediterranean are being put into Italy. We
+                    are pressing into France all reinforcements and resources we can in order to
+                    guarantee that General Eisenhower will be able to maintain the impetus of the
+                    joint victories our forces have already won. With the smashing success of our
+                    invasion of southern France and the Russians now crumbling the enemy flank in
+                    the Balkans, I have great hopes that complete and final victory will not be long
+                    delayed.</p>
+                <p>It is my thought that we should press the German Army in Italy vigorously with
+                    every facility we have available and suspend decision on the future use of
+                    General Wilson’s armies until the results of his campaign are better known and
+                    we have better information as to what the Germans may do.</p>
+                <p>We can renew our Teheran talk about Trieste and Istria at <hi rendition="#small-caps">Octagon</hi>.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d144-f1" n="1" type="source" xml:id="d144-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+            <note corresp="#d144-f2" n="2" xml:id="d144-f2-content">
+                <p><hi rendition="#italic">Supra.</hi></p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

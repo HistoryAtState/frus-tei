@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d109" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to the Presidents Special Assistant
+                        (Hopkins)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d109"
+                    type="canonical"/>
+                <relatedItem target="d108.xml" type="prev"/>
+                <relatedItem target="d110.xml" type="next"/>
+                <relatedItem target="../ch3subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d109</bibl>
+                <bibl type="frus-division-n">109</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="298" to="299" unit="page"
+                        >298–99</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-05-21">May 21, 1943</date>
+                    <date notAfter="1943-05-21T23:59:59-05:00" notBefore="1943-05-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d109">
+
+                <pb facs="0400" n="298" sameAs="frus:frus1943/pg298"/>
+
+                <note rend="inline" type="source">Hopkins Papers</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to the Presidents Special Assistant</hi>
+                        (<hi rendition="#italic">Hopkins</hi>)</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, [<date
+                            calendar="gregorian" when="1943-05-21">May 21, 1943</date>.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Mr. Hopkins</hi>. I should be glad if you could show
+                    this to the President. <pb facs="0401" n="299" xml:id="pg299"/> I think the
+                    Chinese ought to be told to lay off this aggressive policy while they themselves
+                    are so dependent on the help of others.<anchor n="1" xml:id="d109-f1"/>
+                </p>
+                <closer>
+                    <signed>W[<hi rendition="#small-caps">inston</hi>| S C[<hi
+                            rendition="#small-caps">hurchill</hi>]</signed>
+                    <lb/> 21.5.43</closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d109-f1" n="1" xml:id="d109-f1-content">
+                <p>Regarding Churchill’s concern over Chinese policy toward Tibet, see his remarks
+                    during the meeting of the Pacific War Council, May 20, <hi rendition="#italic"
+                        >ante</hi>, <ref target="#pg138">p. 138</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p2v2_d105" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1872p2v2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1872p2v2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1872p2v2/d105"
+                    type="canonical"/>
+                <relatedItem target="d104-a1.xml" type="prev"/>
+                <relatedItem target="d105-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1872p2v2</bibl>
+                <bibl type="frus-division-id">d105</bibl>
+                <bibl type="frus-division-n">105</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="185" to="186" unit="page"
+                        >185–86</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Sandridge</hi></placeName>
+                    <date calendar="gregorian" when="1871-09-20"><hi rendition="#italic"
+                            >September</hi> 20, 1871</date>
+                    <date notAfter="1871-09-20T23:59:59-05:00" notBefore="1871-09-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d105">
+
+                <pb facs="0205" n="185" sameAs="frus:frus1872p2v2/pg185"/>
+
+                <head>A.</head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Sandridge</hi></placeName>, <date calendar="gregorian"
+                            when="1871-09-20"><hi rendition="#italic">September</hi> 20,
+                        1871</date>.</dateline>
+                </opener>
+                <p><seg type="margin">[718]</seg>
+                    <hi rendition="#small-caps">Dear Sir</hi>: Referring to the conversation I had
+                    with you in relation to the steamship Shenandoah, I must, oh second
+                    consideration, decline <pb facs="0206" n="186" xml:id="pg186"/> (for private
+                    reasons) giving *you the information I promised you.</p>
+                <p>Trusting you will not consider this refusal any want of respect to or confidence
+                    in you,</p>
+                <p>I remain, your obedient servant,</p>
+                <closer>
+                    <signed>JOHN K. COLLINS,<lb/><hi rendition="#italic">Stevedore.</hi></signed>
+                </closer>
+                <postscript>
+                    <p><hi rendition="#small-caps">Samuel P. Lord</hi>, Esq.,<lb/><hi
+                            rendition="#italic">Melbourne.</hi></p>
+                    <p>This is the exhibit, marked A, referred to in the affidavit of Samuel Perkins
+                        Lord, sworn before me this 25th day of September, 1871.</p>
+                    <closer>
+                        <signed>W. ATTENBOROUGH,<lb/><hi rendition="#italic">A Commissioner of the
+                                Supreme Court of the Colony of Victoria for taking
+                            Affidavits.</hi></signed>
+                    </closer>
+                </postscript>
+
+
+                <xi:include href="d105-a1.xml" xpointer="d105-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d300" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the British Chiefs of
+                    Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d300"
+                    type="canonical"/>
+                <relatedItem target="d299.xml" type="prev"/>
+                <relatedItem target="d301.xml" type="next"/>
+                <relatedItem target="../ch6subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d300</bibl>
+                <bibl type="frus-division-n">300</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="390" to="390" unit="page"
+                        >390</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Cairo</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-24">24 November 1943</date>
+                    <date notAfter="1943-11-24T23:59:59-05:00" notBefore="1943-11-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_CCS1">C. C. S.</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_JCS1">J. C. S.</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_Sextant1">Sextant</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d300">
+
+                <pb facs="0492" n="390" xml:id="pg390"/>
+
+                <note rend="inline" type="source">J. C. S.
+                    Files</note>
+                <head><hi rendition="#italic">Memorandum by the British Chiefs of Staff</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        C. C. S. 406/1</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Cairo</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-11-24">24 November 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Combined Chiefs of Staff—United
+                        Chiefs of Staff</hi></p>
+                <p>We have studied the question of the possible formation of a United Chiefs of
+                    Staff organization and, alternatively, of the possible representation on the
+                    Combined Chiefs of Staff of powers other than the U. S. and the British.<anchor
+                        n="1" xml:id="d300-f1"/> We appreciate, moreover, the need for us all to
+                    have our minds made up on this subject, in view of the increasing pressure that
+                    is likely in the future. Our views are as follows:</p>
+                <list>
+                    <label><hi rendition="#italic">a</hi>.</label>
+                    <item>The chief need is that the best possible coordination of our military
+                        effort with that of the Russians and of the Chinese should be ensured. We
+                        feel strongly that, whereas the integration of U. S. and British forces is
+                        complete and worldwide, this is in no way the case with regard to the
+                        Russians or the Chinese, whose outlook, indeed, is largely confined to their
+                        own particular main front. We feel, therefore, that no change whatever
+                        should be made in the present Combined Chiefs of Staff standing
+                        organization, and that it should remain essentially U. S.-British.</item>
+                    <label><hi rendition="#italic">b</hi>.</label>
+                    <item>We have considered whether there should be any other organization, such as
+                        a United Chiefs of Staff, and have come to the conclusion that it would not
+                        be desirable to establish any form of <hi rendition="#italic">standing</hi>
+                        machinery. Relations of such a body to the Combined Chiefs of Staff would be
+                        very difficult. It might even claim to be the more representative body, and
+                        therefore to exercise jurisdiction over the Combined Chiefs of Staff. The
+                        representatives of such a body would not have the authority to make big
+                        decisions, and in consequence, such an organization could serve no useful
+                        purpose, excepting as a means of improving liaison. This could be done
+                        better by improving the arrangements already existing in Washington, London,
+                        Moscow and Chungking.</item>
+                    <label><hi rendition="#italic">c</hi>.</label>
+                    <item>Our final conclusion, therefore, is that the best way of ensuring
+                        inter-Allied coordination and at the same time meeting the Russian and
+                        Chinese susceptibilities, is to ensure that whenever the Combined Chiefs of
+                        Staff meet for a big conference such as <hi
+                                rendition="#small-caps">Sextant</hi>, they should be invited
+                        to attend to discuss the military problems with which they are concerned, as
+                        has been done on the present occasion.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d300-f1" n="1" xml:id="d300-f1-content">
+                <p>See C. C. S. 406, <hi rendition="#italic"
+                        >ante</hi>, <ref target="#pg379">p. 379</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d289" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum From Lay to the NSC</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d289"
+                    type="canonical"/>
+                <relatedItem target="d288.xml" type="prev"/>
+                <relatedItem target="d289-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d289</bibl>
+                <bibl type="frus-division-n">289</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1958-01-03">January 3, 1958</date>
+                    <date notAfter="1958-01-03T23:59:59-05:00" notBefore="1958-01-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_LJS_1">Lay, James S., Jr.</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_SHE_2">Stassen, Harold E.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_JCS_1">JCS</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_RG_1">RG</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d289">
+
+                <pb facs="1338" n="1233" sameAs="frus:frus1958-60v03mSupp/pg1233"/>
+
+                <head>289. Memorandum From Lay to the NSC<anchor
+                        n="1" xml:id="d289-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1958-01-03">January 3, 1958</date></dateline>
+                </opener>
+                <pb facs="d289-1" n="1" type="facsimile" xml:id="d289-1"/>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>U.S. Policy on Control of Armaments</item>
+                </list>
+                <list type="references">
+                    <head>REFERENCE</head>
+                    <item>Memo for NSC from Executive Secretary,
+                        same subject, dated December 26, 1957</item>
+                </list>
+                <p>The enclosed views of the Joint Chiefs of Staff on Mr. Stassen’s latest
+                    disarmament proposal, transmitted by the reference memorandum, are transmitted
+                    herewith for the information of the National Security Council in connection with
+                    its preliminary consideration of this proposal at its meeting on Monday, January
+                    6, 1958.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">James S. Lay,
+                            Jr.</hi>
+                        <lb/>
+                        <hi rendition="#italic">Executive Secretary</hi>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>cc: The Secretary of the Treasury</p>
+                    <p>The Attorney General</p>
+                    <p>The Director, Bureau of the Budget</p>
+                    <p>The Chairman, Atomic Energy Commission</p>
+                    <p>The Special Assistant to the President for Disarmament</p>
+                    <p>The Chairman, Joint Chiefs of Staff</p>
+                    <p>The Director of Central Intelligence</p>
+                </postscript>
+
+
+
+                <xi:include href="d289-a1.xml" xpointer="d289-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d289-f1" n="1" type="source" xml:id="d289-f1-content">
+                <p>Source: Transmits JCS views on Stassen proposals to modify Four-power joint
+                    proposals. Secret. 3 pp. NARA, RG 273, Official
+                    Meetings Minutes File, 350th Meeting, Tab A.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

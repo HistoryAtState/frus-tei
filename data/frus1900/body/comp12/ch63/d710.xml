@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d710" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr.
+                            Choate.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d710"
+                    type="canonical"/>
+                <relatedItem target="d709.xml" type="prev"/>
+                <relatedItem target="d711.xml" type="next"/>
+                <relatedItem target="../ch63.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d710</bibl>
+                <bibl type="frus-division-n">710</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="577" to="577" unit="page"
+                        >577</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1900-01-30"><hi rendition="#small-caps"
+                            >January</hi> 30, 1900</date>
+                    <date notAfter="1900-01-30T23:59:59-05:00" notBefore="1900-01-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d710">
+
+                <pb facs="0675" n="577" sameAs="frus:frus1900/pg577"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr.
+                            Choate.</hi></head>
+                <opener><dateline rendition="#float-right"><date calendar="gregorian"
+                            when="1900-01-30"><hi rendition="#small-caps">January</hi> 30,
+                            1900</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I herewith transmit to you the manifest of
+                    the ship <hi rendition="#italic">Mashona</hi>, certified by the collector of the
+                    port of New York, as suggested by you in your cablegram of the 21th instant. A
+                    copy has been forwarded to our consul at Cape Town.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

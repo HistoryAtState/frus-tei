@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1905_comp15" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Germany</title>
+            </titleStmt>
+            <xi:include href="../frus1905_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1905_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1905/comp15"
+                    type="canonical"/>
+                <relatedItem target="comp14/ch75/d385.xml" type="prev"/>
+                <relatedItem target="comp15/ch76.xml" type="next"/>
+                <relatedItem target="../frus1905.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1905</bibl>
+                <bibl type="frus-division-id">comp15</bibl>
+                <bibl type="frus-division-n">15</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="446" to="472" unit="page"
+                        >446–72</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1905-12-15T23:59:59-05:00" notBefore="1905-03-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp15">
+
+                <pb facs="0566" n="446" xml:id="pg446"/>
+
+                <head>Germany</head>
+
+
+
+
+
+
+
+
+
+                <xi:include href="comp15/ch76.xml" xpointer="ch76"/>
+                <xi:include href="comp15/ch77.xml" xpointer="ch77"/>
+                <xi:include href="comp15/ch78.xml" xpointer="ch78"/>
+                <xi:include href="comp15/ch79.xml" xpointer="ch79"/>
+                <xi:include href="comp15/ch80.xml" xpointer="ch80"/>
+                <xi:include href="comp15/ch81.xml" xpointer="ch81"/>
+            </div>
+        </body>
+    </text>
+</TEI>

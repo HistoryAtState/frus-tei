@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d544" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d544"
+                    type="canonical"/>
+                <relatedItem target="d543.xml" type="prev"/>
+                <relatedItem target="d545.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d544</bibl>
+                <bibl type="frus-division-n">544</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1182" to="1182" unit="page"
+                        >1182</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Hyde Park</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-28">August 28, 1943</date>
+                    <date notAfter="1943-08-28T23:59:59-05:00" notBefore="1943-08-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Black1">Black</term>
+                    <term ref="frus:frus1943/terms#t_CW1">Colonel Warden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d544">
+
+                <pb facs="1296" n="1182" sameAs="frus:frus1943/pg1182"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to
+                        Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d544-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Hyde
+                                Park</hi></placeName>,] <date calendar="gregorian" when="1943-08-28"
+                            >August 28, 1943</date>.</dateline>
+                </opener>
+                <p>From the President to Colonel Warden. Personal and
+                    secret Number 348.</p>
+                <p>It is a coincidence that I was on the point of sending you a suggestion for an
+                    interim message to Uncle Joe when yours<anchor n="2" xml:id="d544-f2"/> came
+                    this morning. Therefore, I am sending the one you suggest via the Russian
+                    Embassy in Washington.<anchor n="3" xml:id="d544-f3"/>
+                </p>
+                <p>I am delighted, as Quebec papers say, you are teasing the trout, but I do not
+                    believe New York newspaper accounts that you have landed a five pounder. I shall
+                    require sworn verification.</p>
+                <p>We are looking forward to your arrival Wednesday evening.</p>
+                <p>Am checking with Dr. Conant in regard to degree<anchor n="4" xml:id="d544-f4"/>
+                    and will let you know.</p>
+                <p>We will be listening to you on the air on Tuesday.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d544-f1" n="1" type="source" xml:id="d544-f1-content">
+                <p>Sent as telegram No. 
+                        <hi rendition="#small-caps">Black</hi>
+                     16 to the White House Map Room with instructions to forward the message
+                    to Churchill via the British Embassy in Washington.</p>
+            </note>
+            <note corresp="#d544-f2" n="2" xml:id="d544-f2-content">
+                <p>
+                    <hi rendition="#italic">Supra.</hi>
+                </p>
+            </note>
+            <note corresp="#d544-f3" n="3" xml:id="d544-f3-content">
+                <p>The text suggested by Churchill was forwarded to Stalin by the White House Map
+                    Room on August 28, 1943, via the Soviet Embassy in Washington. It was received
+                    in Moscow on August 29. See <hi rendition="#italic">Stalin’s
+                    Correspondence</hi>, vol. <hi rendition="#small-caps">i</hi>, p. 151; vol. <hi
+                        rendition="#small-caps">ii</hi>, p. 87.</p>
+            </note>
+            <note corresp="#d544-f4" n="4" xml:id="d544-f4-content">
+                <p>The honorary degree to be conferred on Churchill by Harvard University.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

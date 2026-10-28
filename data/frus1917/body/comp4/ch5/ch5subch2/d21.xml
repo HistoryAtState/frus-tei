@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d21" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Gerard to
+                        the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d21"
+                    type="canonical"/>
+                <relatedItem target="../ch5subch2.xml" type="prev"/>
+                <relatedItem target="d21-a1.xml" type="next"/>
+                <relatedItem target="../ch5subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d21</bibl>
+                <bibl type="frus-division-n">21</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="12" to="13" unit="page"
+                        >12–13</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1916-08-07">
+                        <hi rendition="#italic">August 7, 1916</hi></date>
+                    <date notAfter="1916-08-07T23:59:59-05:00" notBefore="1916-08-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d21">
+
+                <pb facs="0178" n="12" sameAs="frus:frus1917/pg12"/>
+
+                <note rend="inline" type="source">File No. 711. 6221/153</note>
+                <head>
+                    <hi rendition="#italic">Ambassador Gerard to
+                        the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 3754</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Berlin</hi></placeName>, <date
+                            calendar="gregorian" when="1916-08-07">
+                            <hi rendition="#italic">August 7, 1916</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: With reference to the Department’s
+                    circular instruction of March 9, 1916,<anchor n="3" xml:id="d21-f1"/> quoting,
+                    at the request of the Acting Secretary of Commerce, for the information of this
+                    Embassy and for communication to the German Government, a circular letter
+                    addressed by the commissioner of navigation, to collectors of customs, shipping
+                    commissioners and others concerned, and forwarding a print of the Act of <pb
+                        facs="0179" n="13" xml:id="pg13"/> Congress approved March 4, 1915, known as
+                    the “Seamen’s Act,” I have the honor to transmit herewith to the Department
+                    copies and translations of a note received from the Imperial Foreign Office,
+                    dated August 3, 1916, stating that, though the advice which is provided for in
+                    Section 16 of the above-mentioned act to the effect that the Government of the
+                    United States intends to annul the articles of the valid treaties conflicting
+                    with the contents of this act, after expiration of the terms of notice, has as
+                    yet not been received by the Imperial, Government, the Foreign Office does not
+                    fail to advise the Embassy, for communication to its Government, that the
+                    Seamen’s Act contains regulations which are not consistent with agreements in
+                    the treaties concluded by the Empire and the United States.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">James W. Gerard</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d21-a1.xml" xpointer="d21-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d21-f1" n="3" xml:id="d21-f1-content">
+                <p>
+                    <ref target="frus1916#pg_5">For. Rel. 1916, p. 5</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

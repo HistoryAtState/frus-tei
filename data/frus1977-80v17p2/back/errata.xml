@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v17p2_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1977-80v17p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1977-80v17p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1977-80v17p2/errata"
+                    type="canonical"/>
+                <relatedItem target="../body/comp1/ch4/d181.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1977-80v17p2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1977-80v17p2</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="463" to="463" unit="page"
+                        >463</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1980-12-16T18:07:00-05:00" notBefore="1977-01-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0495" n="463" sameAs="frus:frus1977-80v17p2/pg463"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to <ref target="frus:frus1977-80v17p2">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1977–1980, Volume XVII, Part
+                        2</ref>, Sub-Saharan Africa. <!--Revised information is in italic.-->
+                </p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#notes">“Note on U.S. Covert
+                                Actions”</ref> (date of correction: March 26, 2019)</hi>
+                    </item>
+                    <item>After publication, it was discovered that the “Note on U.S. Covert
+                        Actions” was missing. Editors added the “Note on U.S. Covert Actions” to the
+                        print and online editions.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

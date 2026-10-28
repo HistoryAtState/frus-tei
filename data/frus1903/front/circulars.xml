@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_circulars" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Correspondence</title>
+                <title type="subtitle">Circular: Recognition of the Republic of Panama</title>
+            </titleStmt>
+            <xi:include href="../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1903/circulars"
+                    type="canonical"/>
+                <relatedItem target="papers.xml" type="prev"/>
+                <relatedItem target="circulars/d1.xml" type="next"/>
+                <relatedItem target="../frus1903.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">circulars</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="LXXXIII" to="LXXXIII" unit="page"
+                        >LXXXIII</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1904-01-18T23:59:59-05:00" notBefore="1901-10-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="circulars">
+
+                <pb facs="0083" n="LXXXIII" xml:id="pgLXXXIII"/>
+
+                <head>Correspondence<lb/>Circular: Recognition of the Republic of Panama</head>
+
+                <xi:include href="circulars/d1.xml" xpointer="d1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

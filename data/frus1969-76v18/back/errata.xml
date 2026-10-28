@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v18_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1969-76v18_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1969-76v18_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v18/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1969-76v18.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v18</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1002" to="1002" unit="page"
+                        >1002</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1976-11-03T23:59:59-05:00" notBefore="1973-01-03T22:15:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="1031" n="1002" sameAs="frus:frus1969-76v18/pg1002"/>
+
+                <head>Errata</head>
+                <p>The following changes have been made to the online version of <ref
+                        target="frus:frus1969-76v18">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1969–1976, Volume XVIII,
+                        China, 1973–1976</ref>. Please be aware that printed volumes have not been
+                    revised. Revised information is in italic.</p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. Footnote 3, Document 13. Page 148.</hi>
+                    </item>
+                    <item>The revised footnote reads: “3. <hi rendition="#italic">Hafiz Ismail was
+                            Adviser to President Sadat for National Security Affairs</hi>.”</item>
+                    <item>Footnote 3 originally read: “3. Ismail Fahmi was the Egyptian Minister for
+                        Foreign Affairs from 1973 until 1977.”</item>
+                    <lb/>
+                    <item>
+                        <hi rendition="#bold">2. Index. Page 948.</hi>
+                    </item>
+                    <item>Ismail Fahmi has been deleted from the Index.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

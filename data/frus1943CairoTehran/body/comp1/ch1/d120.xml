@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d120" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marshal Stalin to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d120"
+                    type="canonical"/>
+                <relatedItem target="d119.xml" type="prev"/>
+                <relatedItem target="d121.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d120</bibl>
+                <bibl type="frus-division-n">120</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="82" to="82" unit="page"
+                        >82</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-12">12 November 1943</date>
+                    <date notAfter="1943-11-12T23:59:59-05:00" notBefore="1943-11-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MVM1">Molotov, Vyacheslov
+                        Mikhailovich</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d120">
+
+                <pb facs="0174" n="82" sameAs="frus:frus1943CairoTehran/pg82"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">Marshal Stalin to President Roosevelt</hi><anchor n="1" xml:id="d120-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Moscow</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-11-12">12 November 1943</date>.</dateline>
+                </opener>
+                <p>As it appeared, Mr. V. M. Molotov, due to
+                    some circumstances, which are of a serious character, cannot come to Cairo by
+                    November 22nd. He will come together with me to Iran at the end of November. On
+                    the above I inform at the same time Mr. Churchill, and on this matter you will receive the
+                    information.</p>
+                <postscript>
+                    <p>P. S. Sending of the present message, unfortunately, has [been] delayed,
+                        because of the fault of some office clerks, but, I hope, it will arrive,
+                        nevertheless, in time.<anchor n="2" xml:id="d120-f2"/></p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d120-f1" n="1" type="source" xml:id="d120-f1-content">
+                <p>Channel of transmission to Washington not indicated. On November 14, 1943, the
+                    White House Map Room relayed the message to the U. S. S. <hi rendition="#italic"
+                        >Iowa</hi>, for the President, via Naval Radio. The file copy of the message
+                    as received on board the U. S. S. <hi rendition="#italic">Iowa</hi> contains the
+                    following handwritten notation: “Pres wants to answer soon as we arrive.” For
+                        Roosevelt’s reply of November 20,
+                    1943, see <hi rendition="#italic">post</hi>, <ref target="#pg101">p.
+                    101</ref>.</p>
+            </note>
+            <note corresp="#d120-f2" n="2" xml:id="d120-f2-content">
+                <p>The postscript was from Stalin; see <hi
+                        rendition="#italic">Stalin’s
+                        Correspondence</hi>, vol. <hi rendition="#small-caps">ii</hi>, p. 106.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

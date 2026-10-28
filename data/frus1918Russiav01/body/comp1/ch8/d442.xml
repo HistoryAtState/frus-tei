@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav01_d442" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Russia (Francis) to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1918Russiav01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1918Russiav01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav01/d442"
+                    type="canonical"/>
+                <relatedItem target="d441.xml" type="prev"/>
+                <relatedItem target="d442-a1.xml" type="next"/>
+                <relatedItem target="../ch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav01</bibl>
+                <bibl type="frus-division-id">d442</bibl>
+                <bibl type="frus-division-n">442</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="440" to="442" unit="page"
+                        >440–42</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Vologda</hi></placeName>
+                    <date calendar="gregorian" when="1918-04-15">
+                        <hi rendition="#italic">April 15, 1918</hi></date>
+                    <date notAfter="1918-04-15T23:59:59-05:00" notBefore="1918-04-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav01/persons">
+                    <term ref="frus:frus1918Russiav01/persons#p_FDR1">Francis, David R.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d442">
+
+                <pb facs="0514" n="440" sameAs="frus:frus1918Russiav01/pg440"/>
+
+                <note rend="inline" type="source">File No. 763.72119/1805</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Russia</hi> (<hi rendition="#italic"
+                        >Francis</hi>) <hi rendition="#italic">to the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 1107</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Vologda</hi></placeName>, <date
+                            calendar="gregorian" when="1918-04-15">
+                            <hi rendition="#italic">April 15, 1918</hi></date>. <lb/> [<hi
+                            rendition="#italic">Received July 13.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to enclose for your
+                    information copy of statement to the Russian people made by myself on the
+                    ratification of separate peace between Russia and the Central Empires by the
+                    All-Russian Soviet Congress at Moscow March 17.<anchor n="1" xml:id="d442-f1"/>
+                </p>
+                <p>It appears that this declaration was objectionable to the German Government which
+                    protested through its Minister of Foreign Affairs to the Soviet government and
+                    asked that reply be made to my declaration in accordance with the spirit of the
+                    Brest Litovsk peace treaty. I also enclose copies of the protest<anchor n="2"
+                        xml:id="d442-f2"/> and the reply of the Soviet government thereto.</p>
+                <p>As I am cabling you fully and daily concerning relations between the Soviet
+                    government and the Central Empires and about general conditions in Russia and as
+                    this despatch may not reach you within two months, as there is no prospect of
+                    sending pouch by courier, I shall not write further on the subject.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        
+                            <hi rendition="#small-caps">David R. Francis</hi>
+                        
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d442-a1.xml" xpointer="d442-a1"/>
+                <xi:include href="d442-a2.xml" xpointer="d442-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d442-f1" n="1" xml:id="d442-f1-content">
+                <p>See footnote 2, <hi rendition="#italic">ante</hi>, <ref target="#pg436">p.
+                        436</ref>.</p>
+            </note>
+            <note corresp="#d442-f2" n="2" xml:id="d442-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg439">p. 439</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

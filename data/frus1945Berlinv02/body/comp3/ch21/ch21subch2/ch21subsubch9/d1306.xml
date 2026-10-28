@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d1306" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 1306</title>
+                <title type="subtitle">Prime Minister Churchill to the Secretary of
+                        War (Stimson)</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d1306"
+                    type="canonical"/>
+                <relatedItem target="d1305-a2.xml" type="prev"/>
+                <relatedItem target="d1306-a1.xml" type="next"/>
+                <relatedItem target="../ch21subsubch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d1306</bibl>
+                <bibl type="frus-division-n">1306</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1370" to="1371" unit="page"
+                        >1370–71</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-07-18T23:59:59-05:00" notBefore="1945-07-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/persons">
+                    <term ref="frus:frus1945Berlinv02/persons#p_ASJ1">Anderson, Sir John</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_SHL2">Stimson, Henry L.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv02/terms">
+                    <term ref="frus:frus1945Berlinv02/terms#t_SAE1">S/AE</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1306">
+
+                <pb facs="1568" n="1370" sameAs="frus:frus1945Berlinv02/pg1370"/>
+
+                <note rend="inline" type="source">S/AE Files</note>
+                <head>No. 1306<lb/><hi rendition="#italic">Prime Minister Churchill to the Secretary of
+                        War</hi> (<hi rendition="#italic"
+                            >Stimson</hi>)</head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <lb/>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">and personal</hi></seg>
+                </opener>
+                <p><hi rendition="#small-caps">Mr. Secretary Stimson</hi>[:] I enclose a photostat record of the Hyde
+                    Park Agreement on T. A., for which you asked the Chancellor of the
+                        Exchequer.<anchor n="1" xml:id="d1306-f1"/></p>
+                <pb facs="1569" n="1371" xml:id="pg1371"/>
+                <p>This photograph was taken by a special photographic section of the Air Ministry,
+                    and flown out here in the charge of a trusted officer.</p>
+                <closer>
+                    <signed>
+                        W[<hi rendition="#small-caps">inston</hi>] S
+                                C[<hi rendition="#small-caps">hurchill</hi>]
+                    </signed>
+                </closer>
+                <closer>
+                    <dateline rendition="#float-left">
+                        <placeName><hi rendition="#small-caps">Berlin</hi></placeName>, <date
+                            calendar="gregorian" when="1945-07-18">18.7.45</date>.</dateline>
+                </closer>
+
+
+                <xi:include href="d1306-a1.xml" xpointer="d1306-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1306-f1" n="1" xml:id="d1306-f1-content">
+                <p>Sir John Anderson. Following the death of
+                    President Roosevelt, an authenticated
+                    text of the enclosed <hi rendition="#italic">aide-mémoire</hi> was not available
+                    to responsible American officials. Before the Berlin Conference, Stimson had asked the British Government to
+                    supply a photocopy of the <hi rendition="#italic">aide-mémoire</hi>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

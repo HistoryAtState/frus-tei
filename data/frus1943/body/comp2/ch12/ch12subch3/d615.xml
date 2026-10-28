@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d615" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        and Prime Minister Churchill to the Commander in Chief,
+                        Allied Force Headquarters (Eisenhower)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d615"
+                    type="canonical"/>
+                <relatedItem target="d614.xml" type="prev"/>
+                <relatedItem target="d616.xml" type="next"/>
+                <relatedItem target="../ch12subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d615</bibl>
+                <bibl type="frus-division-n">615</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1275" to="1275" unit="page"
+                        >1275</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-09-08">September 8, 1943</date>
+                    <date notAfter="1943-09-08T23:59:59-05:00" notBefore="1943-09-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d615">
+
+                <pb facs="1389" n="1275" sameAs="frus:frus1943/pg1275"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt and
+                        Prime Minister Churchill to the Commander in Chief,
+                        Allied Force Headquarters</hi> (<hi rendition="#italic"
+                            >Eisenhower</hi>)</head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">urgent</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-09-08">September 8, 1943</date>.</dateline>
+                </opener>
+                <p>From President and Prime Minister to General Eisenhower, Algiers.</p>
+                <p>We agree with line you are taking as indicated in your 387<anchor n="1"
+                        xml:id="d615-f1"/> and are withholding all announcements here and in London
+                    until we know what you have said and done.<anchor n="2" xml:id="d615-f2"/>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">Churchill</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d615-f1" n="1" xml:id="d615-f1-content">
+                <p>
+                    <hi rendition="#italic">Supra</hi>.</p>
+            </note>
+            <note corresp="#d615-f2" n="2" xml:id="d615-f2-content">
+                <p>Eisenhower broadcast his announcement of the armistice (see <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg1267">p. 1267</ref>) at 6:30
+                    p.m., Algiers time, September 8, 1943. See Garland and Smyth, p. 508. A draft of
+                    this telegram, in Leahy’s handwriting, signed by Roosevelt and initialed by
+                    Churchill, is in the Roosevelt Papers.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

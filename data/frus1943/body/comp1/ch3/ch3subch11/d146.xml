@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d146" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Combined Chiefs of
+                            Staff to President Roosevelt and
+                        Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d146"
+                    type="canonical"/>
+                <relatedItem target="../ch3subch11.xml" type="prev"/>
+                <relatedItem target="d146-a1.xml" type="next"/>
+                <relatedItem target="../ch3subch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d146</bibl>
+                <bibl type="frus-division-n">146</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="346" to="351" unit="page"
+                        >346–51</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-05-21">21 May 1943</date>
+                    <date notAfter="1943-05-21T23:59:59-05:00" notBefore="1943-05-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d146">
+
+                <pb facs="0448" n="346" sameAs="frus:frus1943/pg346"/>
+
+                <note rend="inline" type="source">Hopkins Papers</note>
+                <head>
+                    <hi rendition="#italic">The Combined Chiefs of Staff
+                        to President Roosevelt and Prime Minister
+                            Churchill
+                    </hi><anchor n="1" xml:id="d146-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        C.C.S. 242</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-05-21">21 May 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Draft of Agreed Decisions</hi>
+                </p>
+                <p>The attached paper sets out the agreed decisions that have been reached so far by
+                    the Combined Chiefs of Staff during the present <pb facs="0449" n="347"
+                        xml:id="pg347"/> conference regarding operations in the three main theaters.
+                    These decisions still need to be related to the resources available and
+                    particularly to the availability of shipping and landing craft. This is being
+                    done and a final report will be submitted to you on Monday, 24 May 1943.<anchor
+                        n="2" xml:id="d146-f2"/>
+                </p>
+
+
+                <xi:include href="d146-a1.xml" xpointer="d146-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d146-f1" n="1" type="source" xml:id="d146-f1-content">
+                <p>This paper was prepared by the Secretaries in pursuance of a directive by the
+                    Combined Chiefs of Staff made at their meeting on May 21; see <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg149">p. 149</ref>. The paper
+                    was considered paragraph by paragraph in the course of the meeting of Roosevelt
+                    and Churchill with the Combined Chiefs of Staff on May 21; see <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg152">p. 152</ref>. As then
+                    revised, the paper was redesignated C.C.S.
+                    242/1, May 23, 1943 (not printed). A revision of C.C.S. 242/1 was prepared by the Secretaries in the light of the
+                    most recent decisions and was designated C.C.S.
+                    242/2, May 23, 1943; that revision is printed <hi rendition="#italic"
+                        >infra.</hi>
+                </p>
+            </note>
+            <note corresp="#d146-f2" n="2" xml:id="d146-f2-content">
+                <p>See C.C.S. 242/3, May 24, 1943, <hi
+                        rendition="#italic">post</hi>, <ref target="#pg359">p. 359</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

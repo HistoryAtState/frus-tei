@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v13_d342" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Report Prepared in the National Military Command Center</title>
+            </titleStmt>
+            <xi:include href="../../../frus1981-88v13_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1981-88v13_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v13/d342"
+                    type="canonical"/>
+                <relatedItem target="d341.xml" type="prev"/>
+                <relatedItem target="../ch4.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v13</bibl>
+                <bibl type="frus-division-id">d342</bibl>
+                <bibl type="frus-division-n">342</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="703" to="703" unit="page"
+                        >703</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1982-06-15T04:30:00-04:00">June 15, 1982</date>
+                    <date notAfter="1982-06-15T03:30:00-05:00" notBefore="1982-06-15T03:30:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1981-88v13/persons">
+                    <term ref="frus:frus1981-88v13/persons#p_JDC_1">Jones, David C.</term>
+                    <term ref="frus:frus1981-88v13/persons#p_LST_1">Lewin, Sir Terence</term>
+                    <term ref="frus:frus1981-88v13/persons#p_MMB_1">Menendez, Mario B.</term>
+                    <term ref="frus:frus1981-88v13/persons#p_MJ_2">Moore, Jeremy</term>
+                    <term ref="frus:frus1981-88v13/persons#p_TMH_1">Thatcher, Margaret H.</term>
+                </keywords>
+                <keywords scheme="frus:frus1981-88v13/terms">
+                    <term ref="frus:frus1981-88v13/terms#t_Adm_1">Adm</term>
+                    <term ref="frus:frus1981-88v13/terms#t_BGEN_1">BGEN</term>
+                    <term ref="frus:frus1981-88v13/terms#t_msg_1">msg</term>
+                    <term ref="frus:frus1981-88v13/terms#t_NMCC_1">NMCC</term>
+                    <term ref="frus:frus1981-88v13/terms#t_UPI_1">UPI</term>
+                    <term ref="frus:frus1981-88v13/terms#t_USAF_1">USAF</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d342">
+
+                <pb facs="0750" n="703" xml:id="pg703"/>
+
+                <head>342. Report Prepared in the National Military Command Center<anchor n="1"
+                        xml:id="d342-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1982-06-15T04:30:00-04:00">June 15, 1982</date>
+                    </dateline>
+                </opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Argentina Forces Throughout Falklands Surrender as of: 150430 Jun
+                        82</item>
+                </list>
+                <p>(U) Prime Minister Margaret Thatcher’s
+                    office issued the following statement from BGEN. J. Moore, commander of
+                    British land forces. “In Port Stanley at 2100 hours 14 June, MGEN. Menendez surrendered to me all Argentine armed
+                    forces in East and West Falkland together with their impedimenta. Arrangements
+                    are in hand to assemble the men for return to Argentina, to gather in their arms
+                    and equipment and to mark and make safe their munitions”.<anchor n="2"
+                        xml:id="d342-f2"/>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">M.F. Tidwell</hi>
+                        <lb/>
+                        <hi rendition="#italic">Brigadier General, USAF
+                            <lb/> Deputy Director for Operations NMCC
+                        </hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d342-f1" n="1" type="source" xml:id="d342-f1-content">
+                <p>Source: National Archives, RG 218, CJCS Files, FRC 218–92–0030, 820 Argentina 22
+                    Oct 80 to 8 Jul 82. Unclassified. The report’s sources are noted as Dow Jones
+                    and UPI.</p>
+            </note>
+            <note corresp="#d342-f2" n="2" xml:id="d342-f2-content">
+                <p>The report transposes the ranks of the two referenced generals. Moore was, in fact, a Major General; Menendez was a Brigadier General. Jones wrote the following at the end
+                    of the report: “I would like to have a confidential msg to Adm
+                    Lewin sometime today.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d203" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d203"
+                    type="canonical"/>
+                <relatedItem target="d202.xml" type="prev"/>
+                <relatedItem target="d204.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d203</bibl>
+                <bibl type="frus-division-n">203</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="172" to="172" unit="page"
+                        >172</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-10">10 November 1943</date>
+                    <date notAfter="1943-11-10T23:59:59-05:00" notBefore="1943-11-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MLL1">Mountbatten, Lord
+                        Louis</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_Generalissimo1">Generalissimo</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_Quadrant1">Quadrant</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d203">
+
+                <pb facs="0264" n="172" xml:id="pg172"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Prime Minister Churchill</hi><anchor n="1" xml:id="d203-f1"
+                    /></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-11-10">10 November 1943</date>.</dateline>
+                </opener>
+                <p>Personal and secret from the President to the Former Naval Person. Number 417.</p>
+                <p>We have under development a project whereby we can strike a heavy blow at our
+                    enemy in the Pacific early next year with our new heavy bombers. Japanese
+                    military, naval and shipping strength is dependent upon the steel industry which
+                    is strained to the limit. Half of the coke for that steel can be reached and
+                    destroyed by long-range bombers operating from bases in the Chengtu area of
+                    China. The bombers can supply themselves by air, from bases to be constructed
+                    near Calcutta, without disturbing present air lift commitments as agreed at
+                        <hi rendition="#small-caps"
+                        >Quadrant</hi>.</p>
+                <p>In order to expedite this project I ask that you arrange for the Government of
+                    India to render every possible assistance in the construction of these four air
+                    bases for long-range bombers. American Aviation Engineer forces, under a capable
+                    general officer, are being prepared for movement as a matter of first priority,
+                    so that we may contribute experienced construction personnel to this enterprise
+                    without drawing on similar forces in India which are now engaged in other
+                    operations. Mountbatten is familiar with
+                    this project.</p>
+                <p>I am sending a similar message to the Generalissimo asking him to expedite construction of five advanced
+                    bases in the Chengtu area, financed by Lend-Lease funds.<anchor n="2"
+                        xml:id="d203-f2"/></p>
+                <p>This is a bold but entirely feasible project. Together by this operation, we can
+                    partially cripple the Japanese naval and military power and hasten the victory
+                    of our forces in Asia.</p>
+                <closer><signed><hi rendition="#small-caps"
+                                >Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d203-f1" n="1" type="source" xml:id="d203-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+            <note corresp="#d203-f2" n="2" xml:id="d203-f2-content">
+                <p><hi rendition="#italic">Infra.</hi></p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

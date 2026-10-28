@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d202" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d202"
+                    type="canonical"/>
+                <relatedItem target="d201.xml" type="prev"/>
+                <relatedItem target="d203.xml" type="next"/>
+                <relatedItem target="../ch34.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d202</bibl>
+                <bibl type="frus-division-n">202</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="220" to="220" unit="page"
+                        >220</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Santo Domingo</hi></placeName>
+                    <date calendar="gregorian" when="1916-01-19T17:00:00-04:40">
+                        <hi rendition="#italic">January 19, 1916, 5 p.m.</hi>
+                    </date>
+                    <date notAfter="1916-01-19T16:40:00-05:00" notBefore="1916-01-19T16:40:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d202">
+
+                <pb facs="0296" n="220" sameAs="frus:frus1916/pg220"/>
+
+                <note rend="inline" type="source">File No. 839.00/1781</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Santo Domingo</hi></placeName>, <date
+                            calendar="gregorian" when="1916-01-19T17:00:00-04:40">
+                            <hi rendition="#italic">January 19, 1916, 5 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>I think the Department should be prepared for probable difficulty in this country
+                    soon. Congress adjourned for the holidays and although due to meet on the 11th
+                    has not convened as yet.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Russell</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

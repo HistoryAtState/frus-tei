@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d207" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d207"
+                    type="canonical"/>
+                <relatedItem target="d206.xml" type="prev"/>
+                <relatedItem target="../ch5.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d207</bibl>
+                <bibl type="frus-division-n">207</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="414" to="414" unit="page"
+                        >414</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-16">16 August 1943</date>
+                    <date notAfter="1943-08-16T23:59:59-05:00" notBefore="1943-08-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_FNP1">Former Naval Person</term>
+                    <term ref="frus:frus1943/terms#t_White1">White</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d207">
+
+                <pb facs="0528" n="414" sameAs="frus:frus1943/pg414"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to
+                        Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d207-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-16">16 August 1943</date>.</dateline>
+                </opener>
+                <p>Personal and secret for the Former Naval Person.
+                    Number 345. Reference your 413.<anchor n="2" xml:id="d207-f2"/> Delighted with
+                    arrangements. Things are progressing everywhere.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d207-f1" n="1" type="source" xml:id="d207-f1-content">
+                <p>Sent via Army channels as telegram No. 
+                        <hi rendition="#small-caps">White</hi>
+                     89 to the temporary White House Map
+                    Room established at Quebec.</p>
+            </note>
+            <note corresp="#d207-f2" n="2" xml:id="d207-f2-content">
+                <p>
+                    <hi rendition="#italic">Supra.</hi>
+                </p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

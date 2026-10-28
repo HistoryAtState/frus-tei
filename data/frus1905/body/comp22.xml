@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1905_comp22" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Korea</title>
+            </titleStmt>
+            <xi:include href="../frus1905_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1905_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1905/comp22"
+                    type="canonical"/>
+                <relatedItem target="comp21/ch123.xml" type="prev"/>
+                <relatedItem target="comp22/ch124.xml" type="next"/>
+                <relatedItem target="../frus1905.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1905</bibl>
+                <bibl type="frus-division-id">comp22</bibl>
+                <bibl type="frus-division-n">22</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="625" to="634" unit="page"
+                        >625–34</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1905-12-19T23:59:59-05:00" notBefore="1905-05-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp22">
+
+                <pb facs="0745" n="625" xml:id="pg625"/>
+
+                <head>Korea</head>
+
+
+
+                <xi:include href="comp22/ch124.xml" xpointer="ch124"/>
+                <xi:include href="comp22/ch125.xml" xpointer="ch125"/>
+                <xi:include href="comp22/ch126.xml" xpointer="ch126"/>
+            </div>
+        </body>
+    </text>
+</TEI>

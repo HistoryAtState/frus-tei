@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_comp10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cuba:</title>
+            </titleStmt>
+            <xi:include href="../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/comp10"
+                    type="canonical"/>
+                <relatedItem target="comp9/ch21/d430.xml" type="prev"/>
+                <relatedItem target="comp10/ch22.xml" type="next"/>
+                <relatedItem target="../frus1917.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">comp10</bibl>
+                <bibl type="frus-division-n">10</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="350" to="456" unit="page"
+                        >350–456</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1917-10-12T11:00:00-05:00" notBefore="1915-10-12T19:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp10">
+
+                <pb facs="0516" n="350" xml:id="pg350"/>
+
+                <head>Cuba:</head>
+
+
+
+                <xi:include href="comp10/ch22.xml" xpointer="ch22"/>
+                <xi:include href="comp10/ch23.xml" xpointer="ch23"/>
+                <xi:include href="comp10/ch24.xml" xpointer="ch24"/>
+            </div>
+        </body>
+    </text>
+</TEI>

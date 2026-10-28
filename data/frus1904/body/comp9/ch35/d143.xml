@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d143" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr.
+                            Conger.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d143"
+                    type="canonical"/>
+                <relatedItem target="d142.xml" type="prev"/>
+                <relatedItem target="d143-a1.xml" type="next"/>
+                <relatedItem target="../ch35.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d143</bibl>
+                <bibl type="frus-division-n">143</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="168" to="168" unit="page"
+                        >168</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1904-06-16"><hi rendition="#italic">June 16,
+                            1904</hi></date>
+                    <date notAfter="1904-06-16T23:59:59-05:00" notBefore="1904-06-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d143">
+
+                <pb facs="0256" n="168" sameAs="frus:frus1904/pg168"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr.
+                            Conger.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1904-06-16"><hi rendition="#italic">June 16,
+                        1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 810.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose herewith a copy of a telegram
+                    from Miss Anna B. Etzel, requesting that inquiry be made into the circumstances
+                    of the death of her brother, Lewis L. Etzel, war correspondent, who was killed
+                    by Chinese soldiers at Niuchwang on the 6th instant.</p>
+                <p>You will investigate the matter and report your findings to the Department.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+                <xi:include href="d143-a1.xml" xpointer="d143-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

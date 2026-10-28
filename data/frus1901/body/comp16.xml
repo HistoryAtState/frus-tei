@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_comp16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Guatemala and Honduras</title>
+            </titleStmt>
+            <xi:include href="../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/comp16"
+                    type="canonical"/>
+                <relatedItem target="comp15/ch97/d239.xml" type="prev"/>
+                <relatedItem target="comp16/ch98.xml" type="next"/>
+                <relatedItem target="../frus1901.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">comp16</bibl>
+                <bibl type="frus-division-n">16</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="252" to="261" unit="page"
+                        >252–61</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1901-10-09T23:59:59-05:00" notBefore="1900-11-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp16">
+
+                <pb facs="0332" n="252" xml:id="pg252"/>
+
+                <head>Guatemala and Honduras</head>
+
+
+                <xi:include href="comp16/ch98.xml" xpointer="ch98"/>
+                <xi:include href="comp16/ch99.xml" xpointer="ch99"/>
+            </div>
+        </body>
+    </text>
+</TEI>

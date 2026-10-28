@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d252" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Powell to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d252"
+                    type="canonical"/>
+                <relatedItem target="d251.xml" type="prev"/>
+                <relatedItem target="d252-a1.xml" type="next"/>
+                <relatedItem target="../ch101.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d252</bibl>
+                <bibl type="frus-division-n">252</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="278" to="279" unit="page"
+                        >278–79</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Port au Prince,
+                        Haiti</hi></placeName>
+                    <date calendar="gregorian" when="1901-02-18"><hi rendition="#italic">February
+                            18, 1901</hi></date>
+                    <date notAfter="1901-02-18T23:59:59-05:00" notBefore="1901-02-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d252">
+
+                <pb facs="0358" n="278" sameAs="frus:frus1901/pg278"/>
+
+                <head><hi rendition="#italic">Mr. Powell to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Port au Prince, Haiti</hi></placeName>, <date calendar="gregorian"
+                            when="1901-02-18"><hi rendition="#italic">February 18,
+                        1901</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 883.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In reply to dispatch No. 452 I have the
+                    honor to inclose copy of a dispatch forwarded to-day to the Haitian foreign
+                    office, according to Department’s instruction.</p>
+                <p>I remain, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">W. F. Powell.</hi></signed></closer>
+
+
+
+                <xi:include href="d252-a1.xml" xpointer="d252-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

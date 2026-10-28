@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d1234" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vice Consul Bevan to
+                        the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d1234"
+                    type="canonical"/>
+                <relatedItem target="d1233.xml" type="prev"/>
+                <relatedItem target="d1234-a1.xml" type="next"/>
+                <relatedItem target="../ch85.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d1234</bibl>
+                <bibl type="frus-division-n">1234</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="873" to="874" unit="page"
+                        >873–74</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                        <hi rendition="#italic">Tamnpico</hi></placeName>
+                    <date calendar="gregorian" when="1915-01-16">
+                        <hi rendition="#italic">January 16, 1915</hi></date>
+                    <date notAfter="1915-01-16T23:59:59-05:00" notBefore="1915-01-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1234">
+
+                <pb facs="0989" n="873" sameAs="frus:frus1915/pg873"/>
+
+                <note rend="inline" type="source">File No. 812.6363/162.</note>
+                <head>
+                    <hi rendition="#italic">Vice Consul Bevan to
+                        the Secretary of State</hi>.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 1345.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                            <hi rendition="#italic">Tamnpico</hi></placeName>, <date
+                            calendar="gregorian" when="1915-01-16">
+                            <hi rendition="#italic">January 16, 1915</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Referring to my despatch No. 1344 of
+                    January 14, 1915, I have the honor to enclose herewith a copy of a telegram
+                    received <pb facs="0990" n="874" xml:id="pg874"/> by Daniel Perez, the local
+                    Inspector of Petroleum, from Pastor Rouaix, Sub-Secretary in charge of the
+                    office of the Secretary of Fomento, Colonization and Industries, giving an
+                    official interpretation of the recent oil decree ordering the companies to close
+                    down their operations.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Thomas H. Bevan.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d1234-a1.xml" xpointer="d1234-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

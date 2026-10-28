@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv13_maps" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Maps</title>
+            </titleStmt>
+            <xi:include href="../frus1919Parisv13_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1919Parisv13_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv13/maps"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1919Parisv13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv13</bibl>
+                <bibl type="frus-division-id">maps</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">map-or-chart</bibl>
+                <bibl type="frus-print-pages"><biblScope from="Map 1" to="Map 3" unit="page">Map
+                        1–Map 3</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1919-06-16T23:59:59-05:00" notBefore="1919-05-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="maps">
+
+                <pb facs="1037" n="[Map 1]" xml:id="pg-seq-1037-map-1"/>
+
+                <head>Maps</head>
+                <figure>
+                    <graphic url="figure_1037"/>
+                </figure>
+                <pb facs="1038" n="[Map 2]" xml:id="pg-seq-1038-map-2"/>
+                <figure>
+                    <graphic url="figure_1038"/>
+                </figure>
+                <pb facs="1039" n="[Map 3]" xml:id="pg-seq-1039-map-3"/>
+                <figure>
+                    <graphic url="figure_1039"/>
+                </figure>
+            </div>
+        </body>
+    </text>
+</TEI>

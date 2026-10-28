@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v05p2_d253" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Eisenhower
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1952-54v05p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1952-54v05p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v05p2/d253"
+                    type="canonical"/>
+                <relatedItem target="d252.xml" type="prev"/>
+                <relatedItem target="d253-a1.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v05p2</bibl>
+                <bibl type="frus-division-id">d253</bibl>
+                <bibl type="frus-division-n">253</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1537" to="1538" unit="page"
+                        >1537–38</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1954-12-30">December 30, 1954</date>
+                    <date notAfter="1954-12-30T23:59:59-05:00" notBefore="1954-12-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v05p2/persons">
+                    <term ref="frus:frus1952-54v05p2/persons#p_CHURCHILLWS1">Churchill, Winston
+                        S.</term>
+                    <term ref="frus:frus1952-54v05p2/persons#p_EISENHOWER1">Eisenhower, General of
+                        the Army Dwight D.</term>
+                    <term ref="frus:frus1952-54v05p2/persons#p_LYONCB1">Lyon, Cecil B.</term>
+                    <term ref="frus:frus1952-54v05p2/persons#p_MAKINSRM1">Makins, Sir Roger
+                        M.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d253">
+
+                <pb facs="0469" n="1537" sameAs="frus:frus1952-54v05p2/pg1537"/>
+
+                <note rend="inline" type="source">Presidential Correspondence, lot 66 D 204,
+                        “Churchill Correspondence
+                    with Eisenhower”</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Eisenhower
+                    </hi><anchor n="1" xml:id="d253-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1954-12-30">December 30, 1954</date>.]</dateline>
+                </opener>
+                <p>[<hi rendition="#italic">My Dear Friend</hi>:] I am very glad you are intervening
+                    personally in this major issue. But Anthony and I both feel
+                    the terms of your suggested message<anchor n="2" xml:id="d253-f2"/> might be
+                    given a less sanguine emphasis. I therefore venture to suggest a modified
+                    version (appended) in which I have followed your language but endeavored to
+                    preserve the feeling that France has more to do, and that quickly, before she is
+                    in line with her allies. Perhaps you would consider this? I should be quite
+                    ready to sign it with you, or alternatively we could issue an official statement
+                    that we were in full accord with this message.</p>
+                <closer>
+                    <signed>[<hi rendition="#small-caps"
+                                >Winston</hi>]</signed>
+                </closer>
+
+
+                <xi:include href="d253-a1.xml" xpointer="d253-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d253-f1" n="1" type="source" xml:id="d253-f1-content">
+                <p>This message was delivered to the White House on Dec. 30 by British Ambassador
+                        Makins, according to covering
+                    memoranda attached to the source text; the White House staff sent a copy to the
+                    Department of State the same day.</p>
+            </note>
+            <note corresp="#d253-f2" n="2" xml:id="d253-f2-content">
+                <p>Presumably a reference to the joint U.S.–U.K. statement which is attachment 2 to
+                    the memorandum of conversation by Lyon, Dec. 29, <ref target="#pg1534">p. 1534</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d105" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>MESSAGE FROM THE PRESIDENT OF THE UNITED STATES, TRANSMITTING A REPORT FROM
+                    THE SECRETARY OF STATE, WITH ACCOMPANYING PAPERS, CONCERNING THE CONVENTION
+                    BETWEEN THE UNITED STATES AND COLOMBIA FOR THE CONSTRUCTION OF AN INTEROCEANIC
+                    CANAL ACROSS THE ISTHMUS OF PANAMA.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d105"
+                    type="canonical"/>
+                <relatedItem target="../ch23.xml" type="prev"/>
+                <relatedItem target="d105-a1.xml" type="next"/>
+                <relatedItem target="../ch23.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d105</bibl>
+                <bibl type="frus-division-n">105</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="132" to="133" unit="page"
+                        >132–33</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1903-12-18T23:59:59-05:00" notBefore="1903-12-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d105">
+
+                <pb facs="0216" n="132" sameAs="frus:frus1903/pg132"/>
+
+                <head>MESSAGE FROM THE PRESIDENT OF THE UNITED STATES, TRANSMITTING A REPORT FROM
+                    THE SECRETARY OF STATE, WITH ACCOMPANYING PAPERS, CONCERNING THE CONVENTION
+                    BETWEEN THE UNITED STATES AND COLOMBIA FOR THE CONSTRUCTION OF AN INTEROCEANIC
+                    CANAL ACROSS THE ISTHMUS OF PANAMA.</head>
+                <p rendition="#flush"><hi rendition="#italic">To the Senate and House of
+                        Representatives:</hi></p>
+                <p>I transmit, for the information of the Congress, in connection with the
+                    correspondence already transmitted relating to the recent revolution on the
+                    Isthmus of Panama, and contained in House Document No. 8, Fifty-eighth Congress,
+                    first session, parts 1 and 2,<anchor n="a" xml:id="d105-f1"/> a report from the
+                    Secretary of State, with accompanying papers concerning the convention between
+                    the United States and Colombia for the construction of an interoceanic canal
+                    across the Isthmus of Panama.</p>
+                <closer><signed><hi rendition="#small-caps">Theodore Roosevelt.</hi></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><hi rendition="#small-caps">White
+                                House</hi>,<lb/><placeName><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1903-12-18"><hi rendition="#italic">December 18,
+                        1903</hi></date>.</dateline>
+                </closer>
+
+
+                <xi:include href="d105-a1.xml" xpointer="d105-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d105-f1" n="a" xml:id="d105-f1-content">
+                <p>Printed <ref target="#pg230">pp. 230</ref> and <ref target="#pg252"
+                    >252</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

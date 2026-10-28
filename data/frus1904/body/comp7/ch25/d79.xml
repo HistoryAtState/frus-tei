@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d79" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Wilson to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d79"
+                    type="canonical"/>
+                <relatedItem target="../ch25.xml" type="prev"/>
+                <relatedItem target="d79-a1.xml" type="next"/>
+                <relatedItem target="../ch25.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d79</bibl>
+                <bibl type="frus-division-n">79</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="112" to="113" unit="page"
+                        >112–13</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Athens</hi></placeName>
+                    <date calendar="gregorian" when="1904-04-15"><hi rendition="#italic">April 15,
+                            1904</hi></date>
+                    <date notAfter="1904-04-15T23:59:59-05:00" notBefore="1904-04-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d79">
+
+                <pb facs="0200" n="112" sameAs="frus:frus1904/pg112"/>
+
+                <head><hi rendition="#italic">Mr. Wilson to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                            >Athens</hi></placeName>, <date calendar="gregorian" when="1904-04-15"
+                                ><hi rendition="#italic">April 15, 1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 33.</seg>
+                    <lb/>
+                    <seg rendition="#float-left">Bulgarian series.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith a copy
+                    (London Times, April 11) of the Turco-Bulgarian agreement signed at
+                    Constantinople on the 8th instant. A protocol has been added, stating that both
+                    parties shall make special arrangements concerning: (1) The measures to be taken
+                    to insure the security of the frontier; (2) the regulation of the postal and
+                    telegraph service; (3) the reciprocal extradition of criminals and deserters;
+                    (4) conditions regarding military service; (5) the powers of their respective
+                    commercial agents; (6) arrangements for the future connection of railways, as
+                    the interests of the two contracting parties may require.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Charles S.
+                    Wilson.</hi></signed></closer>
+
+
+                <xi:include href="d79-a1.xml" xpointer="d79-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

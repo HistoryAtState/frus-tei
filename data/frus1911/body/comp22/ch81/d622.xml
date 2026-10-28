@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_d622" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/d622"
+                    type="canonical"/>
+                <relatedItem target="d621.xml" type="prev"/>
+                <relatedItem target="d623.xml" type="next"/>
+                <relatedItem target="../ch81.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">d622</bibl>
+                <bibl type="frus-division-n">622</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="443" to="443" unit="page"
+                        >443</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1911-03-31T23:59:59-05:00" notBefore="1911-03-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d622">
+
+                <pb facs="0525" n="443" xml:id="pg443"/>
+
+                <note rend="inline" type="source">File No. 812.00/1076.</note>
+                <head>[Untitled]</head>
+                <p>Referring to the memorandum of the Embassy of Mexico, of the 20th instant,
+                    requesting that appropriate instructions be issued to the United States attorney
+                    for Arizona concerning the hearing involving certain persons accused of having
+                    crossed the international boundary and attacked Saric and other places in
+                    Mexico, the Department of State has the honor to inform the embassy that it is
+                    advised by a letter of the 25th instant from the Department of Justice, to which
+                    the correspondence was communicated, that copies thereof have been forwarded to
+                    the United States attorney for Arizona for consideration and such action, if
+                    any, as may be practicable.</p>
+                <closer><dateline rendition="#float-left"><hi rendition="#small-caps">Department of
+                            State</hi>,<lb/><placeName><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1911-03-31"><hi rendition="#italic">March 31,
+                        1911</hi></date>.</dateline></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

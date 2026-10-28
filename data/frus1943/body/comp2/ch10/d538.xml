@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d538" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d538"
+                    type="canonical"/>
+                <relatedItem target="d537.xml" type="prev"/>
+                <relatedItem target="d539.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d538</bibl>
+                <bibl type="frus-division-n">538</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1178" to="1178" unit="page"
+                        >1178</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Hyde Park</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-26">26 August 1943</date>
+                    <date notAfter="1943-08-26T23:59:59-05:00" notBefore="1943-08-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Black1">Black</term>
+                    <term ref="frus:frus1943/terms#t_CW1">Colonel Warden</term>
+                    <term ref="frus:frus1943/terms#t_LW1">Lady Warden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d538">
+
+                <pb facs="1292" n="1178" sameAs="frus:frus1943/pg1178"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to
+                        Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d538-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Hyde
+                                Park</hi></placeName>,] <date calendar="gregorian" when="1943-08-26"
+                            >26 August 1943</date>.</dateline>
+                </opener>
+                <p>From the President to Colonel Warden, Personal and
+                    Secret.</p>
+                <p>Number 346. Your number 414.<anchor n="2" xml:id="d538-f2"/> Wednesday, the
+                    First, is all right in every way. If the Subaltern wants to go to
+                        Oglethorpe<anchor n="3" xml:id="d538-f3"/> it would give her more time in
+                    Washington if she were to come down a day or two ahead.</p>
+                <p>I hope Lady Warden<anchor n="4" xml:id="d538-f4"/>
+                    is getting a real rest and that you are too. Also I hope that you have gone to
+                    one of the lakes. Be sure to have the big one weighed and verified by
+                        Mackenzie.<anchor n="5" xml:id="d538-f5"/>
+                </p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d538-f1" n="1" type="source" xml:id="d538-f1-content">
+                <p>Sent to the White House Map Room in Washington as telegram No. 
+                        <hi rendition="#small-caps">Black</hi>
+                     14. Delivered to the British Embassy at Washington for transmission to
+                    Churchill in Canada.</p>
+            </note>
+            <note corresp="#d538-f2" n="2" xml:id="d538-f2-content">
+                <p>
+                    <hi rendition="#italic">Supra.</hi>
+                </p>
+            </note>
+            <note corresp="#d538-f3" n="3" xml:id="d538-f3-content">
+                <p>Churchii’s daughter Mary visited the Women’s Army Corps at Oglethorpe, Georgia,
+                    August 31–September 2, 1943.</p>
+            </note>
+            <note corresp="#d538-f4" n="4" xml:id="d538-f4-content">
+                <p>Mrs. Churchill.</p>
+            </note>
+            <note corresp="#d538-f5" n="5" xml:id="d538-f5-content">
+                <p>Prime Minister Mackenzie King.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

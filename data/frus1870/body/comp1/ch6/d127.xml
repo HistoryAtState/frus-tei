@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_d127" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Motley to Mr.
+                        Fish.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/d127"
+                    type="canonical"/>
+                <relatedItem target="d126.xml" type="prev"/>
+                <relatedItem target="d127-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">d127</bibl>
+                <bibl type="frus-division-n">127</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="177" to="183" unit="page"
+                        >177–83</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi><hi
+                            rendition="#italic"> London</hi></placeName>
+                    <date calendar="gregorian" when="1870-10-15"><hi rendition="#italic"
+                            >October</hi> 15, 1870</date>
+                    <date notAfter="1870-10-15T23:59:59-05:00" notBefore="1870-10-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d127">
+
+                <pb facs="0211" n="177" sameAs="frus:frus1870/pg177"/>
+
+                <note rend="inline" type="source">No. 127.</note>
+                <head>Mr. Motley to Mr.
+                        Fish.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 489.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United
+                                States,</hi><hi rendition="#italic"> London</hi></placeName>, <date
+                            calendar="gregorian" when="1870-10-15"><hi rendition="#italic"
+                                >October</hi> 15, 1870</date>. (Received October
+                    29.)</dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> Referring to my No. 482, I have the honor
+                    to send herewith the reply of Count Bernstorff to the letter of Lord Granville,
+                    extracted from the Times of the 10th instant.</p>
+                <closer>
+                    <signed>JOHN LOTHROP MOTLEY.</signed></closer>
+
+
+                <xi:include href="d127-a1.xml" xpointer="d127-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d668" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. McCormick to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d668"
+                    type="canonical"/>
+                <relatedItem target="../ch102.xml" type="prev"/>
+                <relatedItem target="d668-a1.xml" type="next"/>
+                <relatedItem target="../ch102.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d668</bibl>
+                <bibl type="frus-division-n">668</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="708" to="708" unit="page"
+                        >708</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">St. Petersburg</hi></placeName>
+                    <date calendar="gregorian" when="1903-02-04"><hi rendition="#italic">February 4,
+                            1903</hi></date>
+                    <date notAfter="1903-02-04T23:59:59-05:00" notBefore="1903-02-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d668">
+
+                <pb facs="0794" n="708" sameAs="frus:frus1903/pg708"/>
+
+                <head><hi rendition="#italic">Mr. McCormick to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic">St.
+                                Petersburg</hi></placeName>, <date calendar="gregorian"
+                            when="1903-02-04"><hi rendition="#italic">February 4,
+                        1903</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 6.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith a
+                    copy and a translation of a note received from the minister for foreign affairs
+                    relative to the establishment of foreign consuls at Dalny.</p>
+                <p>I have the honor, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Robert S.
+                    McCormick.</hi></signed></closer>
+
+
+                <xi:include href="d668-a1.xml" xpointer="d668-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v06_d14-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tab A</title>
+            </titleStmt>
+            <xi:include href="../../frus1969-76v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1969-76v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v06/d14-a1"
+                    type="canonical"/>
+                <relatedItem target="d14.xml" type="prev"/>
+                <relatedItem target="d14-a2.xml" type="next"/>
+                <relatedItem target="d14.xml" type="parent"/>
+                <relatedItem target="d14.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v06</bibl>
+                <bibl type="frus-division-id">d14-a1</bibl>
+                <bibl type="frus-division-n">14.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="48" to="49" unit="page"
+                        >48–49</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1968-12-20">December 20, 1968</date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v06/persons">
+                    <term ref="frus:frus1969-76v06/persons#p_NRM1">Nixon, Richard M.</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v06/terms">
+                    <term ref="frus:frus1969-76v06/terms#t_NODIS1">Nodis</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d14-a1">
+
+                <pb facs="0084" n="48" sameAs="frus:frus1969-76v06/pg48"/>
+
+                <head>Tab A</head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1968-12-20">December 20, 1968</date>.</dateline></opener>
+                <p rendition="#center">
+                    <hi rendition="#bold">Message From President-elect Nixon to the Government of the Democratic Republic of
+                        Vietnam</hi><anchor n="3" xml:id="d14-f1"/>
+                </p>
+                <p rendition="#center">Message to the North Vietnamese</p>
+                <list>
+                    <item>“1. The Nixon Administration is
+                        prepared to undertake serious talks.</item>
+                    <pb facs="0085" n="49" xml:id="pg49"/>
+                    <item>“2. These talks are to be based on the self respect and sense of honor of
+                        all parties.</item>
+                    <item>“3. The Nixon Administration is
+                        prepared for an honorable settlement but for nothing less.</item>
+                    <item>“4. If Hanoi wants, the Nixon
+                        Administration would be willing to discuss ultimate objectives first.</item>
+                    <item>“5. If Hanoi wishes to communicate some of their general ideas prior to
+                        January 20, they will be examined with a constructive attitude and in
+                        strictest confidence.”</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d14-f1" n="3" xml:id="d14-f1-content">
+                <p>Secret; Nodis.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

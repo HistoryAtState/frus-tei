@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1877app" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1877app_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1877app_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1877app_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1877app"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1877app" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1877app/covers/frus1877app.jpg"/>
+                        <extent>
+                            <measure quantity="47523" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:33:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1877app" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1877app/ebook/frus1877app.epub"/>
+                        <extent>
+                            <measure quantity="324652" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:33:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1877app" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1877app/ebook/frus1877app.mobi"/>
+                        <extent>
+                            <measure quantity="472784" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:33:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1877 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>agriculture</term>
+                    <term>argentina</term>
+                    <term>asylum</term>
+                    <term>austria</term>
+                    <term>belgium</term>
+                    <term>border-administration</term>
+                    <term>brazil</term>
+                    <term>bulgaria</term>
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>cuba</term>
+                    <term>denmark</term>
+                    <term>detainees</term>
+                    <term>egypt</term>
+                    <term>elections</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>evarts-william-maxwell</term>
+                    <term>fish-hamilton</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>greece</term>
+                    <term>guatemala</term>
+                    <term>haiti</term>
+                    <term>hayes-rutherford-b</term>
+                    <term>honduras</term>
+                    <term>hungary</term>
+                    <term>immigration</term>
+                    <term>israel</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>labor</term>
+                    <term>law-of-the-sea</term>
+                    <term>liberia</term>
+                    <term>mexico</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>morocco</term>
+                    <term>neutrality</term>
+                    <term>nicaragua</term>
+                    <term>norway</term>
+                    <term>paraguay</term>
+                    <term>peace</term>
+                    <term>personnel-civil-service</term>
+                    <term>peru</term>
+                    <term>philippines</term>
+                    <term>polar-affairs</term>
+                    <term>portugal</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>quarantine-blockade</term>
+                    <term>russia</term>
+                    <term>serbia</term>
+                    <term>spain</term>
+                    <term>suez-canal</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>thailand</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>tunisia</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>guernsey</term>
+                    <term>st-vincent-and-the-grenadines</term>
+                    <term>suriname</term>
+                    <term>mauritius</term>
+                    <term>grant-ulysses-s</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1877app" status="published" when="1877"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0729" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Papers relating to the Foreign Relations of the United
+                        States, Transmitted to Congress, with the Annual message of the President,
+                        December 3, 1877.</titlePart>
+                    <titlePart type="subseries">Appendix <lb/>
+                        <hi rendition="#small-caps">containing correspondence relative to the
+                            improvement of commercial intercourse between the United States and
+                            foreign countries</hi></titlePart>
+                    <titlePart type="volumeno">Preceded by a<lb/>list of papers and followed by an
+                        index of persons and subjects.</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <pubPlace>WASHINGTON:</pubPlace>
+                    <lb/>
+                    <publisher>GOVERNMENT PRINTING OFFICE.</publisher>
+                    <lb/>
+                    <docDate>1877.</docDate>
+                </docImprint>
+            </titlePage>
+            <pb facs="0730" n="[II]" xml:id="pgII"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <pb facs="0738" n="[4]" xml:id="pg4"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <pb facs="0882" n="[148]" xml:id="pg148"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

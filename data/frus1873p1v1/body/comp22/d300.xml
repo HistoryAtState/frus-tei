@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v1_d300" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 297.</title>
+                <title type="subtitle">Mr. <persName type="from"
+                            >Foster</persName> to Mr. <persName corresp="#p_HF1" type="to"
+                            >Fish</persName>.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1873p1v1/d300"
+                    type="canonical"/>
+                <relatedItem target="d299.xml" type="prev"/>
+                <relatedItem target="d300-a1.xml" type="next"/>
+                <relatedItem target="../comp22.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v1</bibl>
+                <bibl type="frus-division-id">d300</bibl>
+                <bibl type="frus-division-n">300</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="690" to="693" unit="page"
+                        >690–93</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1873-08-27"><hi rendition="#italic">August</hi>
+                        27, 1873</date>
+                    <date notAfter="1873-08-27T23:59:59-05:00" notBefore="1873-08-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d300">
+
+                <pb facs="0776" n="690" sameAs="frus:frus1873p1v1/pg690"/>
+
+                <head>No. 297.<lb/><hi rendition="#italic">Mr. <persName type="from"
+                            >Foster</persName> to Mr. <persName corresp="#p_HF1" type="to"
+                            >Fish</persName>.</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Mexico</hi></placeName>, <date calendar="gregorian"
+                            when="1873-08-27"><hi rendition="#italic">August</hi> 27, 1873</date>.
+                        (Received September 12.)</dateline>
+                    <seg rendition="#float-left">No. 36.]</seg>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In my dispatch No. 31, August 15, I noticed
+                    the complaints in the Mexican press in reference to the depredations of the
+                    Apache Indians of Arizona Territory, United States, upon the citizens of the
+                    State of Sonora, Mexico.</p>
+                <p>These complaints continue to be repeated and discussed. I inclose an article from
+                    the Two Republics of this city, containing a list of these depredations; and
+                    also an article from the Estrella de Occidente, the official organ of the State
+                    of Sonora, giving further details upon the same subject.</p>
+                <p>I am, sir, &amp;c.,</p>
+                <closer>
+                    <signed><persName corresp="#p_JWF1">JOHN W. FOSTER</persName>.</signed>
+                </closer>
+
+
+
+                <xi:include href="d300-a1.xml" xpointer="d300-a1"/>
+                <xi:include href="d300-a2.xml" xpointer="d300-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

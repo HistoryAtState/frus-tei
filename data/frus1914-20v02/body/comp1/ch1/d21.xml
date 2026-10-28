@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914-20v02_d21" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chief of the British Special Mission
+                        (Balfour) to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1914-20v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914-20v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914-20v02/d21"
+                    type="canonical"/>
+                <relatedItem target="d20.xml" type="prev"/>
+                <relatedItem target="d21-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914-20v02</bibl>
+                <bibl type="frus-division-id">d21</bibl>
+                <bibl type="frus-division-n">21</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="19" to="32" unit="page"
+                        >19–32</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1917-05-18">
+                        <hi rendition="#italic">18 May, 1917</hi>
+                    </date>
+                    <date notAfter="1917-05-18T23:59:59-05:00" notBefore="1917-05-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d21">
+
+                <pb facs="0065" n="19" sameAs="frus:frus1914-20v02/pg19"/>
+
+                <note rend="inline" type="source">763.72/5163½</note>
+                <head>
+                    <hi rendition="#italic">The Chief of the British Special Mission</hi> (<hi rendition="#italic">Balfour</hi>) <hi
+                        rendition="#italic">to the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1917-05-18">
+                            <hi rendition="#italic">18 May, 1917</hi>
+                        </date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Mr. Secretary</hi>: On that delightful
+                    Sunday which we spent in the country I promised to send you the main points of a
+                    statement which I made on foreign policy to the Imperial War Council. The
+                    proceedings of the Imperial War Council are of course absolutely secret. I feel
+                    that many of the problems dealt with are inadequately treated, but I trust that
+                    you may find it of some value.</p>
+                <p>Believe me [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Arthur James Balfour</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d21-a1.xml" xpointer="d21-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

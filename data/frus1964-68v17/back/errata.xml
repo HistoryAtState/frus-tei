@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v17_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1964-68v17_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1964-68v17_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v17/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1964-68v17.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v17</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="580" to="580" unit="page"
+                        >580</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1968-12-12T13:28:00-05:00" notBefore="1964-01-09T20:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0608" n="580" xml:id="pg580"/>
+
+                <head>Errata</head>
+                <p>The following changes have been made to the online version of <ref
+                        target="frus:frus1964-68v17">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1964–1968, Volume
+                    XVII</ref>, Eastern Europe. Please be aware that printed volumes have not been
+                    revised. Revised information is in italic.</p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. Persons. Page XXV.</hi>
+                    </item>
+                    <item>The new entry reads: <hi rendition="#bold">Birladeanu, Alexandru,</hi>
+                        Romanian Deputy Prime Minister</item>
+                    <item>The entry originally read: <hi rendition="#bold">Birladeanu,
+                            Alexandru,</hi> Bulgarian Deputy Prime Minister</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

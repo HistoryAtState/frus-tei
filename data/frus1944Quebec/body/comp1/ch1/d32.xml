@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d32" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President’s Special Assistant (Hopkins) to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d32"
+                    type="canonical"/>
+                <relatedItem target="d31.xml" type="prev"/>
+                <relatedItem target="d33.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d32</bibl>
+                <bibl type="frus-division-n">32</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="21" to="21" unit="page"
+                        >21</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-08-28">August 28, 1944</date>
+                    <date notAfter="1944-08-28T23:59:59-05:00" notBefore="1944-08-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Prof1">Prof</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d32">
+
+                <pb facs="0075" n="21" xml:id="pg21"/>
+
+                <note rend="inline" type="source">Hopkins Papers: Telegram</note>
+                <head><hi rendition="#italic">The President’s Special Assistant</hi> (<hi rendition="#italic">Hopkins</hi>) <hi
+                        rendition="#italic">to Prime Minister Churchill</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-08-28">August 28, 1944</date>.</dateline>
+                </opener>
+                <p>52. Personal and secret to the Prime Minister from Harry L. Hopkins.</p>
+                <p>The President is delighted that the Prof<anchor
+                        n="1" xml:id="d32-f1"/> is coming. He, however, has not changed his original
+                    belief that the conference should be on the Teheran scale. He thinks it would be
+                    a great mistake to take over a hotel like the Frontenac during the tourist
+                    season and, under any circumstances, is anxious to have a small, intimate staff
+                    conference along with his meeting with you. He understands, of course, that you
+                    must have a cypher staff and he, naturally, will have his own. I do hope you can
+                    agree on a conference of this size. It is necessary for us to have your final
+                    decision as to the number and composition of your party at the earliest possible
+                    date in order that we may complete our plans.</p>
+                <p>The President feels that it would be a great mistake to have news paper men all
+                    over the place. They will inevitably, no matter what they are told relative to a
+                    communiqué after the conference is over, be demanding press releases every day.
+                    The President hopes that no newspaper men will be imported into Quebec from
+                    anywhere and that the news of the conference will rest on a communiqué to be
+                    issued at the conclusion of your talks.</p>
+                <p>I think it is very important that this be fully understood in Canada.</p>
+                <closer><signed><hi rendition="#small-caps">Harry</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d32-f1" n="1" xml:id="d32-f1-content">
+                <p>Lord Cherwell.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

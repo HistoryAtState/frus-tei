@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d300" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Pro memoria.</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d300"
+                    type="canonical"/>
+                <relatedItem target="d299.xml" type="prev"/>
+                <relatedItem target="d301.xml" type="next"/>
+                <relatedItem target="../ch22subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d300</bibl>
+                <bibl type="frus-division-n">300</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="279" to="279" unit="page"
+                        >279</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Chinese Legation</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-07-18"><hi rendition="#italic">July 18,
+                            1900</hi></date>
+                    <date notAfter="1900-07-18T23:59:59-05:00" notBefore="1900-07-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d300">
+
+                <pb facs="0377" n="279" sameAs="frus:frus1900/pg279"/>
+
+                <head><hi rendition="#italic">Pro memoria.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Chinese Legation</hi>,<lb/><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-07-18"><hi rendition="#italic">July 18,
+                        1900</hi></date>.</dateline></opener>
+                <p>I have been requested by Grand Secretary Li Hung Chang to consult your Government
+                    as to the possibility of obtaining from the treaty powers either a guaranty of
+                    the territorial integrity of China or a self-denying ordinance in any action
+                    circumstances may call on them to take in the present disturbed state of the
+                    country.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

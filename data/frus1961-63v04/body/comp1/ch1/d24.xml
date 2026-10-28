@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v04_d24" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum From the Chairman of the Joint Chiefs of Staff (Taylor) to the President</title>
+            </titleStmt>
+            <xi:include href="../../../frus1961-63v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1961-63v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v04/d24"
+                    type="canonical"/>
+                <relatedItem target="d23.xml" type="prev"/>
+                <relatedItem target="d24-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v04</bibl>
+                <bibl type="frus-division-id">d24</bibl>
+                <bibl type="frus-division-n">24</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="43" to="48" unit="page"
+                        >43–48</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1963-08-30"><hi rendition="#italic">August 30,
+                            1963</hi></date>
+                    <date notAfter="1963-08-30T23:59:59-05:00" notBefore="1963-08-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v04/persons">
+                    <term ref="frus:frus1961-63v04/persons#p_KJF1">Kennedy, John F.</term>
+                    <term ref="frus:frus1961-63v04/persons#p_TGMD1">Taylor, General Maxwell
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1961-63v04/terms">
+                    <term ref="frus:frus1961-63v04/terms#t_CIA1">CIA</term>
+                    <term ref="frus:frus1961-63v04/terms#t_CM1">CM</term>
+                    <term ref="frus:frus1961-63v04/terms#t_POL1">POL</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d24">
+
+                <pb facs="0069" n="43" xml:id="pg43"/>
+
+                <head>24. Memorandum From the Chairman of the Joint Chiefs of Staff (Taylor) to the President<anchor n="1"
+                        xml:id="d24-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left">CM-856-63</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1963-08-30"><hi rendition="#italic">August 30,
+                        1963</hi></date>.</dateline>
+                </opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Probable Loyalties of Vietnamese Units and Commanders</item>
+                </list>
+                <p>The enclosure offers, in tabular form, a presentation of the probable loyalties
+                    of key military units and commanders in the event a coup d’etat is undertaken in
+                    South Vietnam in the near future. With the exception of information on the Civil
+                    Guard and Self Defense Corps, which originated in the Joint Staff, the summary
+                    is based upon a Central Intelligence Agency report received from Saigon on 29
+                        August.<anchor n="2" xml:id="d24-f2"/></p>
+                <closer><signed><hi rendition="#bold">Maxwell B.
+                            Taylor</hi><anchor n="3" xml:id="d24-f3"/></signed></closer>
+
+
+
+                <xi:include href="d24-a1.xml" xpointer="d24-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d24-f1" n="1" type="source" xml:id="d24-f1-content">
+                <p>Source: National Defense University, Taylor Papers, T-172-69. Top Secret. There is no indication on
+                    the source text that the President saw this memorandum or chart. A copy of the
+                    chart is in the Kennedy Library, National
+                    Security Files, Vietnam Country Series, Memos and Miscellaneous.</p>
+            </note>
+            <note corresp="#d24-f2" n="2" xml:id="d24-f2-content">
+                <p>CIA telegram 0441 from Saigon, August 29.
+                    (Department of State, Central Files, POL 26 S
+                    VIET)</p>
+            </note>
+            <note corresp="#d24-f3" n="3" xml:id="d24-f3-content">
+                <p>Printed from a copy that bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

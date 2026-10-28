@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1871_d7" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Foreign letters.</title>
+            </titleStmt>
+            <xi:include href="../../frus1871_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1871_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1871/d7"
+                    type="canonical"/>
+                <relatedItem target="../ch7.xml" type="prev"/>
+                <relatedItem target="d8.xml" type="next"/>
+                <relatedItem target="../ch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1871</bibl>
+                <bibl type="frus-division-id">d7</bibl>
+                <bibl type="frus-division-n">7</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="23" to="23" unit="page"
+                        >23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>, <hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1870-12-12"><hi rendition="#italic"
+                            >December</hi> 12, 1870.</date>
+                    <date notAfter="1870-12-12T23:59:59-05:00" notBefore="1870-12-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d7">
+
+                <pb facs="0237" n="[23]" sameAs="frus:frus1871/pg23"/>
+
+                <head>Foreign letters.</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Department of State</hi>, <hi
+                                rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1870-12-12"><hi rendition="#italic"
+                                >December</hi> 12, 1870.</date></dateline></opener>
+                <p>The frequent requests to the Department of State to transmit private letters
+                    through Government dispatch-bags render it necessary to give notice that no
+                    private, unofficial letters will be transmitted through such hags, except those
+                    to or from persons actually in the diplomatic or consular service of the United
+                    States, or to or from members of their families.</p>
+                <p>All other unofficial letters received at the Department, from or for any foreign
+                    country, will be sent to the General Post-Office.</p>
+                <closer>
+                    <signed>HAMILTON FISH, <hi rendition="#italic">Secretary of
+                    State</hi>.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

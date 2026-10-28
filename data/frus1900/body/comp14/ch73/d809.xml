@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d809" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hunter to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d809"
+                    type="canonical"/>
+                <relatedItem target="d808.xml" type="prev"/>
+                <relatedItem target="d809-a1.xml" type="next"/>
+                <relatedItem target="../ch73.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d809</bibl>
+                <bibl type="frus-division-n">809</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="679" to="685" unit="page"
+                        >679–85</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States,<lb/>Guatemala and Honduras</hi>,<lb/><hi rendition="#italic"
+                            >Guatemala</hi></placeName>
+                    <date calendar="gregorian" when="1899-07-22"><hi rendition="#italic">July 22,
+                            1899</hi></date>
+                    <date notAfter="1899-07-22T23:59:59-05:00" notBefore="1899-07-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d809">
+
+                <pb facs="0777" n="679" xml:id="pg679"/>
+
+                <head><hi rendition="#italic">Mr. Hunter to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States,<lb/>Guatemala and
+                                Honduras</hi>,<lb/><hi rendition="#italic"
+                            >Guatemala</hi></placeName>, <date calendar="gregorian"
+                            when="1899-07-22"><hi rendition="#italic">July 22,
+                        1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 227.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In compliance with Department’s cable
+                    instructions of this date I have the honor to transmit herewith inclosed a copy
+                    of the correspondence of this legation with the minister of foreign affairs of
+                    Honduras relative to the Pears case, as follows:</p>
+                <p>My letter to minister of foreign affairs, marked 1; the minister of foreign
+                    affairs’ reply, marked 2; the chief justice’s report, marked 3; the minister of
+                    foreign affairs’ letter, marked 4; proceedings in trial of sentinel, marked
+                        5.<anchor n="1" xml:id="d809-f1"/></p>
+                <p>I have the honor to be, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">W. Godfrey
+                    Hunter.</hi></signed></closer>
+
+
+
+
+
+                <xi:include href="d809-a1.xml" xpointer="d809-a1"/>
+                <xi:include href="d809-a2.xml" xpointer="d809-a2"/>
+                <xi:include href="d809-a3.xml" xpointer="d809-a3"/>
+                <xi:include href="d809-a4.xml" xpointer="d809-a4"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d809-f1" n="1" xml:id="d809-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

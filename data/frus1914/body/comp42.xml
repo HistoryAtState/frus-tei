@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_comp42" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>International conventions; texts:</title>
+            </titleStmt>
+            <xi:include href="../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/comp42"
+                    type="canonical"/>
+                <relatedItem target="comp41/ch145/d1862-a1.xml" type="prev"/>
+                <relatedItem target="comp42/ch146.xml" type="next"/>
+                <relatedItem target="../frus1914.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">comp42</bibl>
+                <bibl type="frus-division-n">42</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1108" to="1110" unit="page"
+                        >1108–10</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1914-07-29T23:59:59-05:00" notBefore="1914-07-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp42">
+
+                <pb facs="1224" n="1108" xml:id="pg1108"/>
+
+                <head>International conventions; texts:</head>
+
+
+
+
+
+                <xi:include href="comp42/ch146.xml" xpointer="ch146"/>
+                <xi:include href="comp42/ch147.xml" xpointer="ch147"/>
+                <xi:include href="comp42/ch148.xml" xpointer="ch148"/>
+            </div>
+        </body>
+    </text>
+</TEI>

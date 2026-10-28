@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1861_d114" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hülsemann to Mr.
+                            Seward.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1861_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1861_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1861/d114"
+                    type="canonical"/>
+                <relatedItem target="d113.xml" type="prev"/>
+                <relatedItem target="d114-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1861</bibl>
+                <bibl type="frus-division-id">d114</bibl>
+                <bibl type="frus-division-n">114</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="189" to="190" unit="page"
+                        >189–90</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#italic">Washington</hi>,</placeName>
+                    <date calendar="gregorian" when="1861-08-07"><hi rendition="#italic">August</hi>
+                        7, 1861</date>
+                    <date notAfter="1861-08-07T23:59:59-05:00" notBefore="1861-08-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d114">
+
+                <pb facs="0189" n="189" sameAs="frus:frus1861/pg189"/>
+
+                <head><hi rendition="#italic">Mr. Hülsemann to Mr.
+                            Seward</hi>.</head>
+                <opener><dateline rendition="#float-right"><hi rendition="#small-caps">Austrian
+                            Legation</hi>,<lb/><placeName><hi rendition="#italic"
+                            >Washington</hi>,</placeName>
+                        <date calendar="gregorian" when="1861-08-07"><hi rendition="#italic"
+                                >August</hi> 7, 1861</date>.</dateline></opener>
+                <p>The undersigned, in pursuance of the understanding come to this morning, has the
+                    honor to transmit to the honorable Secretary of State a copy of the instructions
+                    received from Count Rechberg concerning the maritime rights of neutrals in time
+                    of war; and he takes this opportunity to renew his offer of high consideration
+                    to the honorable Secretary of State</p>
+                <closer><signed>HULSEMANN</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward</hi>,<lb/><hi
+                            rendition="#italic">Secretary of State of the United States</hi>.</p>
+                </postscript>
+
+
+
+                <xi:include href="d114-a1.xml" xpointer="d114-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

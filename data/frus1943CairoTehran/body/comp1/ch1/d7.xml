@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d7" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marshal Stalin to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d7"
+                    type="canonical"/>
+                <relatedItem target="d6.xml" type="prev"/>
+                <relatedItem target="d8.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d7</bibl>
+                <bibl type="frus-division-n">7</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="7" to="8" unit="page"
+                    >7–8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1943-06-11">June 11, 1943</date>
+                    <date notAfter="1943-06-11T23:59:59-05:00" notBefore="1943-06-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RE1">Roosevelt, Elliott</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d7">
+
+                <pb facs="0099" n="7" sameAs="frus:frus1943CairoTehran/pg7"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">Marshal Stalin to President Roosevelt</hi><anchor n="1" xml:id="d7-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Moscow</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-06-11">June 11, 1943</date>.</dateline>
+                </opener>
+                <p>Personal and secret message of Premier J. V.
+                        Stalin to President Roosevelt</p>
+                <p>Your message in which you inform me about certain decisions on the questions of
+                    strategy made by you and Mr. Churchill I
+                    received on June 4.<anchor n="2" xml:id="d7-f2"/> I thank you for the
+                    message.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <pb facs="0100" n="8" xml:id="pg8"/>
+                <p>Is it necessary to say what painful and negative impression will be made in the
+                    Soviet Union, upon its people and its Army, by the new postponement of the
+                    second front, and by leaving our Army, which has made so many sacrifices,
+                    without expected serious support from the British-American Armies?</p>
+                <p>As to the Soviet Government, it does not find it possible to agree with this
+                    decision, made, besides, without its participation and without attempt to
+                    discuss jointly this most important question, and which decision may result in
+                    grave consequences for the future progress of the war.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d7-f1" n="1" type="source" xml:id="d7-f1-content">
+                <p>Apparently received from the Soviet Embassy, Washington. The entire document is
+                    printed in <hi rendition="#italic">Stalin’s Correspondence</hi>, vol. <hi rendition="#small-caps"
+                        >ii</hi>, p. 70.</p>
+            </note>
+            <note corresp="#d7-f2" n="2" xml:id="d7-f2-content">
+                <p>Roosevelt’s message to Stalin, June 2, 1943; <hi rendition="#italic"
+                        >ibid.</hi>, p. 67.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Jusserand to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d20"
+                    type="canonical"/>
+                <relatedItem target="d19-a2.xml" type="prev"/>
+                <relatedItem target="d21.xml" type="next"/>
+                <relatedItem target="../ch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="23" to="24" unit="page"
+                        >23–24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">French Embassy</hi></placeName>
+                    <date calendar="gregorian" when="1904-02-13"><hi rendition="#italic">February
+                            13, 1904</hi></date>
+                    <date notAfter="1904-02-13T23:59:59-05:00" notBefore="1904-02-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20">
+
+                <pb facs="0111" n="23" sameAs="frus:frus1904/pg23"/>
+
+                <head><hi rendition="#italic">Mr. Jusserand to Mr.
+                            Hay.</hi></head>
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >French Embassy</hi></placeName>,<lb/><date calendar="gregorian"
+                            when="1904-02-13"><hi rendition="#italic">February 13,
+                        1904</hi></date>.</dateline></opener>
+                <p>Mr. <hi rendition="#small-caps">Secretary of State</hi>:</p>
+                <p>My Government has just communicated to me that the Russian and Japanese
+                    Governments having officially advised it of the state of war existing between
+                    them it had decided to conform, in order to observe neutrality, to the
+                    principles set down by the circular published in the <pb facs="0112" n="24"
+                        xml:id="pg24"/> official journal of the Republic on April 27, 1898.<anchor
+                        n="a" xml:id="d20-f1"/> I consider it my duty to bring these intentions to
+                    the knowledge of your excellency and to mention that the above-named circular
+                    has been communicated by my predecessor to the Department of State on the 11th
+                    of May, 1898.</p>
+                <p>Please accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Jusserand.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d20-f1" n="a" xml:id="d20-f1-content">
+                <p>Printed in <ref target="frus1898#pg_862">Foreign Relations 1898, p.
+                    862</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

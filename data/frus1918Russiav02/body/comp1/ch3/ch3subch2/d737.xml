@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav02_d737" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Consul at Tiflis (Smith)
+                        to the Secretary of
+                        State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav02/d737"
+                    type="canonical"/>
+                <relatedItem target="d736.xml" type="prev"/>
+                <relatedItem target="d738.xml" type="next"/>
+                <relatedItem target="../ch3subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav02</bibl>
+                <bibl type="frus-division-id">d737</bibl>
+                <bibl type="frus-division-n">737</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="620" to="620" unit="page"
+                        >620</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Tiflis</hi></placeName>
+                    <date calendar="gregorian" when="1918-02-15T18:00:00+02:59"><hi
+                            rendition="#italic">February 15, 1918, 6 p.m.</hi></date>
+                    <date notAfter="1918-02-15T10:01:00-05:00" notBefore="1918-02-15T10:01:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav02/persons">
+                    <term ref="frus:frus1918Russiav02/persons#p_SFW1">Smith, F. Willoughby</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d737">
+
+                <pb facs="0710" n="620" sameAs="frus:frus1918Russiav02/pg620"/>
+
+                <note rend="inline" type="source">File No. 861.00/1102</note>
+                <head><hi rendition="#italic">The Consul at Tiflis</hi> (<hi rendition="#italic">Smith</hi>) <hi
+                        rendition="#italic">to the Secretary of
+                    State</hi></head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Tiflis</hi></placeName>, <date calendar="gregorian"
+                            when="1918-02-15T18:00:00+02:59"><hi rendition="#italic">February 15,
+                                1918, 6 p.m.</hi></date>
+                        <lb/> [<hi rendition="#italic">Received February 16, 1.56
+                        p.m.</hi>]</dateline>
+                </opener>
+                <p>Enver Pasha<anchor n="1" xml:id="d737-f1"/> telegraphs to
+                    commander in chief here informing him that in view of the Armenian raids and
+                    atrocities against Mohammedans he is constrained to resume offensive. Few
+                    Armenian troops holding front, scarcely will be able to resist an advance but
+                    have been advised to fall back in order, destroying supplies, which I believe
+                    form main object of Turkish threat.</p>
+                <closer>
+                    <signed><hi rendition="#small-caps"
+                            >Smith</hi></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d737-f1" n="1" xml:id="d737-f1-content">
+                <p>Turkish Minister of War.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

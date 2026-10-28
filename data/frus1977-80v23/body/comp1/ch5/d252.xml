@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v23_d252" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Airgram From the Embassy in Haiti to the Department of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1977-80v23_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1977-80v23_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1977-80v23/d252"
+                    type="canonical"/>
+                <relatedItem target="d251.xml" type="prev"/>
+                <relatedItem target="d252-a1.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1977-80v23</bibl>
+                <bibl type="frus-division-id">d252</bibl>
+                <bibl type="frus-division-n">252</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="591" to="599" unit="page"
+                        >591–99</biblScope></bibl>
+                <bibl type="frus-identifying-mark">A–50</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Port au Prince</placeName>
+                    <date calendar="gregorian" when="1978-07-25">July 25, 1978</date>
+                    <date notAfter="1978-07-25T23:59:59-05:00" notBefore="1978-07-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1977-80v23/persons">
+                    <term ref="frus:frus1977-80v23/persons#p_JWB_1">Jones, William Bowdoin</term>
+                </keywords>
+                <keywords scheme="frus:frus1977-80v23/terms">
+                    <term ref="frus:frus1977-80v23/terms#t_I_1">ICA</term>
+                    <term ref="frus:frus1977-80v23/terms#t_RG_1">RG</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d252">
+
+                <pb facs="0638" n="591" xml:id="pg591"/>
+
+                <head>252. Airgram From the Embassy in Haiti to the Department of State<anchor n="1"
+                        xml:id="d252-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <idno type="document-identifier">A–50</idno>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>Port au Prince</placeName>, <date calendar="gregorian"
+                            when="1978-07-25">July 25, 1978</date>
+                    </dateline>
+                </opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>A Different View on U.S. Policy Towards Haiti by Two Departing
+                        Officers</item>
+                </list>
+                <p>Enclosed for the Department’s information is a personal view on what U.S. policy
+                    should be towards Haiti as prepared by two officers departing post. These views
+                    do not reflect Embassy policy, but Ambassador Jones authorized submission of their views in this form. The
+                    Embassy will submit its comment on these views in a separate message.</p>
+                <closer>
+                    <signed><hi rendition="#bold">Meade</hi></signed>
+                </closer>
+
+
+                <xi:include href="d252-a1.xml" xpointer="d252-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d252-f1" n="1" type="source" xml:id="d252-f1-content">
+                <p>Source: National Archives, RG 59, Central Foreign
+                    Policy File, P780122–1724. Confidential. Drafted by Meade. Repeated to ICA.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

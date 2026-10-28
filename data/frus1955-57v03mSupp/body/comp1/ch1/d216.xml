@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v03mSupp_d216" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Despatch 5 from Geneva</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v03mSupp/d216"
+                    type="canonical"/>
+                <relatedItem target="d215.xml" type="prev"/>
+                <relatedItem target="d216-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v03mSupp</bibl>
+                <bibl type="frus-division-id">d216</bibl>
+                <bibl type="frus-division-n">216</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Geneva</placeName>
+                    <date calendar="gregorian" when="1955-09-21">September 21, 1955</date>
+                    <date notAfter="1955-09-21T23:59:59-05:00" notBefore="1955-09-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v03mSupp/persons">
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_FDN_1">Forman, Douglas N.</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_JUA_1">Johnson, U. Alexis</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_WP_1">Wang Ping-nan</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d216">
+
+                <pb facs="d215-3" n="3" sameAs="frus:frus1955-57v03mSupp/d215-3"/>
+
+                <head>216. Despatch 5 from Geneva<anchor n="1" xml:id="d216-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left">No. 5</seg>
+                    <dateline rendition="#float-right"><placeName>Geneva</placeName>, <date
+                            calendar="gregorian" when="1955-09-21">September 21,
+                        1955</date></dateline>
+                </opener>
+                <pb facs="d216-1" n="1" type="facsimile" xml:id="d216-1"/>
+                <list type="references">
+                    <head>REF</head>
+                    <item>Geneva’s Telegram 739, September 18, 1955</item>
+                </list>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Transmitting Letter Received from Ambassador Wang Ping-nan Regarding Implementation of the Agreed
+                        Announcement</item>
+                </list>
+                <p>There is enclosed a copy of the full text of the translation of a letter
+                    addressed to me in Chinese by Ambassador Wang
+                        Ping-nan on September 16, 1955. The signed original of the
+                    Chinese letter was accompanied by this translation which was evidently hastily
+                    done and contains some inaccuracies. However, it has been checked with the
+                    Chinese text and was found to be correct in its essential substance.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">U. Alexis
+                            Johnson</hi>
+                        <lb/>
+                        <hi rendition="#italic">American Ambassador</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d216-a1.xml" xpointer="d216-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d216-f1" n="1" type="source" xml:id="d216-f1-content">
+                <p>Source: Department of State, Central Files, 611.93/9–2155. Confidential. Drafted
+                    by Forman. Sent via air pouch.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

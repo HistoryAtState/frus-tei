@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v02_d328-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Attachment</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v02/d328-a1"
+                    type="canonical"/>
+                <relatedItem target="d328.xml" type="prev"/>
+                <relatedItem target="d329.xml" type="next"/>
+                <relatedItem target="d328.xml" type="parent"/>
+                <relatedItem target="d328.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v02</bibl>
+                <bibl type="frus-division-id">d328-a1</bibl>
+                <bibl type="frus-division-n">328.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="727" to="727" unit="page"
+                        >727</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                        calendar="gregorian" when="1970-12-29">undated</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d328-a1">
+
+                <pb facs="0758" n="727" sameAs="frus:frus1969-76v02/pg727"/>
+
+                <head>Attachment</head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            calendar="gregorian" when="1970-12-29"
+                    >undated</date>.</dateline></opener>
+                <p rendition="#center">COMPARISON OF CHIEFS OF MISSION APPOINTMENTS</p>
+                <table cols="5" rows="5">
+                    <row role="label">
+                        <cell/>
+                        <cell>
+                            <hi rendition="#italic">Career</hi>
+                        </cell>
+                        <cell>
+                            <hi rendition="#italic">Per Cent</hi>
+                        </cell>
+                        <cell>
+                            <hi rendition="#italic">Non-Career</hi>
+                        </cell>
+                        <cell>
+                            <hi rendition="#italic">Per Cent</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Eisenhower</cell>
+                        <cell role="num">146</cell>
+                        <cell role="num">68%</cell>
+                        <cell role="num">68</cell>
+                        <cell role="num">32%</cell>
+                    </row>
+                    <row>
+                        <cell>
+                            Kennedy
+                        </cell>
+                        <cell role="num">73</cell>
+                        <cell role="num">61%</cell>
+                        <cell role="num">47</cell>
+                        <cell role="num">39%</cell>
+                    </row>
+                    <row>
+                        <cell>Johnson</cell>
+                        <cell role="num">89</cell>
+                        <cell role="num">60%</cell>
+                        <cell role="num">59</cell>
+                        <cell role="num">40%</cell>
+                    </row>
+                    <row>
+                        <cell>Nixon</cell>
+                        <cell role="num">66</cell>
+                        <cell role="num">69%</cell>
+                        <cell role="num">30</cell>
+                        <cell role="num">31%</cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>

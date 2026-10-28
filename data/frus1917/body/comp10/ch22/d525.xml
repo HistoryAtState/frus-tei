@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d525" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d525"
+                    type="canonical"/>
+                <relatedItem target="d524.xml" type="prev"/>
+                <relatedItem target="d526.xml" type="next"/>
+                <relatedItem target="../ch22.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d525</bibl>
+                <bibl type="frus-division-n">525</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="394" to="394" unit="page"
+                        >394</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Habana</hi></placeName>
+                    <date calendar="gregorian" when="1917-04-04T01:00:00-05:29">
+                        <hi rendition="#italic">April 4, 1917—1 a.m.</hi>
+                    </date>
+                    <date notAfter="1917-04-04T01:29:00-05:00" notBefore="1917-04-04T01:29:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d525">
+
+                <pb facs="0560" n="394" sameAs="frus:frus1917/pg394"/>
+
+                <note rend="inline" type="source">File No. 837.00/1287</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Habana</hi></placeName>, <date
+                            calendar="gregorian" when="1917-04-04T01:00:00-05:29">
+                            <hi rendition="#italic">April 4, 1917—1 a.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Yesterday and to-day 155 rebels surrendered Guantanamo and Santiago, among them
+                    several of some importance. The fact that Fernandez and other rebel officers who
+                    fled to Haiti carried 140,000 dollars is reacting upon insurrection.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Gonzales</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

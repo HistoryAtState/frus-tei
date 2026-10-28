@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d376" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Ryan to Mr.
+                            Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d376"
+                    type="canonical"/>
+                <relatedItem target="d375-a1.xml" type="prev"/>
+                <relatedItem target="d376-a1.xml" type="next"/>
+                <relatedItem target="../comp14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d376</bibl>
+                <bibl type="frus-division-n">376</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="641" to="642" unit="page"
+                        >641–42</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1890-05-21"><hi rendition="#italic">May</hi>
+                        21, 1890</date>
+                    <date notAfter="1890-05-21T23:59:59-05:00" notBefore="1890-05-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d376">
+
+                <pb facs="0751" n="641" sameAs="frus:frus1890/pg641"/>
+
+                <head><hi rendition="#italic">Mr. Ryan to Mr.
+                            Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Mexico</hi></placeName>, <date calendar="gregorian"
+                            when="1890-05-21"><hi rendition="#italic">May</hi> 21, 1890</date>.
+                        (Received May 31.)</dateline>
+                    <seg rendition="#float-left">No. 300.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In sequence to my No. 290, dated the 2d
+                    instant, relative to the case of R. C. Work, an American citizen imprisoned upon
+                    a charge of murder at Victoria, Tamaulipas, I have the honor to forward
+                    additional correspondence touching the case.</p>
+                <p>By the note from Mr. J. H. T. King, our consular agent at Victoria, you will see
+                    that Mr. Work was on the 12th instant “sentenced<anchor n="*" xml:id="d376-f1"/>
+                    to labor on the public works for 4 years 5 months and 10 days, the sentence to
+                    commence from January, 1889.”</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Thos. Ryan.</hi></signed></closer>
+
+
+
+
+
+                <xi:include href="d376-a1.xml" xpointer="d376-a1"/>
+                <xi:include href="d376-a2.xml" xpointer="d376-a2"/>
+                <xi:include href="d376-a3.xml" xpointer="d376-a3"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d376-f1" n="*" xml:id="d376-f1-content">
+                <p>While this volume was passing through the press the Consul General at Nuevo
+                    Laredo reported the pardon of Work.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

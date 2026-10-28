@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d70" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d70"
+                    type="canonical"/>
+                <relatedItem target="d69.xml" type="prev"/>
+                <relatedItem target="d71.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d70</bibl>
+                <bibl type="frus-division-n">70</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="50" to="50" unit="page"
+                        >50</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-29">29 October 1943</date>
+                    <date notAfter="1943-10-29T23:59:59-05:00" notBefore="1943-10-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MVM1">Molotov, Vyacheslov
+                        Mikhailovich</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_Anfa1">Anfa</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_UJ1">U. J.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d70">
+
+                <pb facs="0142" n="50" sameAs="frus:frus1943CairoTehran/pg50"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Prime Minister Churchill</hi><anchor n="1" xml:id="d70-f1"
+                    /></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-10-29">29 October 1943</date>.</dateline>
+                </opener>
+                <p>To the Former Naval Person from the
+                    President, Number 400. Secret and personal.</p>
+                <p>Your 477. I must eliminate <hi rendition="#small-caps"
+                            >Anfa</hi> because I draw too much water. I want two or three
+                    days in North Africa before getting to Cairo or Alexandria on the 20th. I
+                    suggest the Combined Staffs meet you and me there at that time. If UJ is willing to come to Basra we can move on there
+                    at any date he wants. If he declines Basra I propose we go there with small
+                    staffs and meet Molotov and a small
+                    Russian Staff and plead with UJ to come there if
+                    only for one day. I still think it vital that we see him, but I simply cannot
+                    get out of constitutional communication with my Congress. I too am most anxious
+                    that you and I get away from this despatch method of talking.</p>
+                <p>As a corollary of above and in view of overloading transportation facilities, the
+                    Combined Staffs could make their headquarters in Algiers or Tunis and you and I
+                    could meet them there on the 19th. This is not so good however, because we would
+                    want the six top men with us in Egypt or Basra.</p>
+                <closer><signed><hi rendition="#small-caps"
+                                >Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d70-f1" n="1" type="source" xml:id="d70-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

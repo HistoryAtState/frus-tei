@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1875v02_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata.</title>
+            </titleStmt>
+            <xi:include href="../frus1875v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1875v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1875v02/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1875v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1875v02</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1399" to="1399" unit="page"
+                        >1399</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1875-12-30T23:59:59-05:00" notBefore="1873-12-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0745" n="1399" sameAs="frus:frus1875v02/pg1399"/>
+
+                <head>Errata.</head>
+                <list>
+                    <item>Pages <ref target="#pg762">762</ref> and <ref target="#pg763">763</ref>
+                        <hi rendition="#italic">passim</hi>, for “Garribaldi” read
+                        “Garibaldi.”</item>
+                    <item>Page <ref target="#pg844">844</ref>, forty-seventh line, for “<hi
+                            rendition="#italic">deposite</hi>” read “<hi rendition="#italic"
+                            >depositor</hi>.”</item>
+                    <item>Page <ref target="#pg946">946</ref>, date of Mr. Foster’s dispatch, No.
+                        313, for “July 12” read “July 2.”</item>
+                    <item>Page <ref target="#pg973">973</ref>, last line, for “Neuvo” read
+                        “Nuevo.”</item>
+                    <item>Page <ref target="#pg1070">1070</ref>, twentieth line, for “No. —.” read
+                        “No. 512.”</item>
+                    <item>Page <ref target="#pg1217">1217</ref>, thirty-ninth line, for “Nos. 16,
+                        17, 18, and 19” read “pages <ref target="#pg1153">1153</ref>–<ref
+                            target="#pg1213">1213</ref>.”</item>
+                    <item>Page <ref target="#pg1251">1251</ref>, twenty-third line, for “<hi
+                            rendition="#small-caps">Cushin</hi>” read “<hi rendition="#small-caps"
+                            >Cushing</hi>.”</item>
+                    <item>Page <ref target="#pg1366">1366</ref>, thirteenth line, for “Maricaibo”
+                        read “Maracaibo.”</item>
+                    <item>Page <ref target="#pg1370">1370</ref>, twelfth line, for “inmigrodo” read
+                        “inmigrado.”</item>
+                    <item>Page <ref target="#pg1371">1371</ref>, twenty-fourth line, for “cuanlos”
+                        read “cuantos.”</item>
+                    <item>On same page, twenty-fifth line, for “su han recibido” read “si han
+                        recibido.”</item>
+                    <item>On same page, twenty-sixth line, for “los” read “las.”</item>
+                    <item>Page <ref target="#pg1384">1384</ref>, last line, for “<hi
+                            rendition="#small-caps">Mablanco</hi>” read “<hi rendition="#small-caps"
+                            >Ma. Blanco</hi>.”</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

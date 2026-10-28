@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1905_d400" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Choate to
+                        the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1905_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1905_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1905/d400"
+                    type="canonical"/>
+                <relatedItem target="../ch82.xml" type="prev"/>
+                <relatedItem target="d400-a1.xml" type="next"/>
+                <relatedItem target="../ch82.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1905</bibl>
+                <bibl type="frus-division-id">d400</bibl>
+                <bibl type="frus-division-n">400</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="473" to="476" unit="page"
+                        >473–76</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1905-03-01"><hi rendition="#italic">March 1,
+                            1905</hi></date>
+                    <date notAfter="1905-03-01T23:59:59-05:00" notBefore="1905-03-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d400">
+
+                <pb facs="0593" n="473" sameAs="frus:frus1905/pg473"/>
+
+                <head><hi rendition="#italic">Ambassador Choate to
+                        the Secretary of State.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1905-03-01"
+                                ><hi rendition="#italic">March 1, 1905</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 1539.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith as of
+                    interest two copies of a parliamentary publication (Russia No. 3, 1905)
+                    containing the dispatch from the British agent, forwarding the report of the
+                    commissioners in the International Commission of Inquiry into the North Sea
+                    Incident.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+
+
+                <xi:include href="d400-a1.xml" xpointer="d400-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

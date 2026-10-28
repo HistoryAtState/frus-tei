@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1908_comp22" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honduras</title>
+            </titleStmt>
+            <xi:include href="../frus1908_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1908_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1908/comp22"
+                    type="canonical"/>
+                <relatedItem target="comp21/ch80/d413.xml" type="prev"/>
+                <relatedItem target="comp22/ch81.xml" type="next"/>
+                <relatedItem target="../frus1908.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1908</bibl>
+                <bibl type="frus-division-id">comp22</bibl>
+                <bibl type="frus-division-n">22</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="456" to="481" unit="page"
+                        >456–81</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1908-12-07T23:59:59-05:00" notBefore="1908-03-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp22">
+
+                <pb facs="0558" n="456" xml:id="pg456"/>
+
+                <head>Honduras</head>
+
+
+
+                <xi:include href="comp22/ch81.xml" xpointer="ch81"/>
+                <xi:include href="comp22/ch82.xml" xpointer="ch82"/>
+                <xi:include href="comp22/ch83.xml" xpointer="ch83"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d366" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d366"
+                    type="canonical"/>
+                <relatedItem target="d365.xml" type="prev"/>
+                <relatedItem target="d367.xml" type="next"/>
+                <relatedItem target="../ch28.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d366</bibl>
+                <bibl type="frus-division-n">366</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="256" to="257" unit="page"
+                        >256–57</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Habana</hi></placeName>
+                    <date calendar="gregorian" when="1912-06-07T11:15:00-05:29">
+                        <hi rendition="#italic">June 7, 1912—11.15 a.m.</hi>
+                    </date>
+                    <date notAfter="1912-06-07T11:44:00-05:00" notBefore="1912-06-07T11:44:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d366">
+
+                <pb facs="0372" n="256" sameAs="frus:frus1912/pg256"/>
+
+                <opener>
+                    <seg rendition="#center">[Telegrams.—Paraphrases.]</seg>
+                </opener>
+                <note rend="inline" type="source">File No. 837.00/701.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Habana</hi></placeName>, <date
+                            calendar="gregorian" when="1912-06-07T11:15:00-05:29">
+                            <hi rendition="#italic">June 7, 1912—11.15 a.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>There was a Cabinet meeting yesterday, evidently to consider representations made
+                    by me in pursuance of Department’s June 5. After the meeting Mr. Sanguily issued
+                    the following statement, <pb facs="0373" n="257" xml:id="pg257"/> ostensibly
+                    based upon a telegram received from the Cuban minister in Washington: <quote
+                        rend="blockquote">
+                        <p>I believe we Cubans are in a really critical situation, which the
+                            Government intends to overcome by extraordinary effort, being confident
+                            that the resolution and patriotism of the country will respond without
+                            hesitation, so that no one may undervalue the sacrifices of the Cuban
+                            people to avoid a foreign intervention in this international [sic]
+                            conflict, thus showing in their purpose full unity of action, their
+                            capacity for the independent life of the Republic.</p>
+                    </quote>
+                </p>
+                <p>The President then issued a manifesto calling for volunteers “to combat the
+                    present movement against civilization.” The entire press is cordially supporting
+                    the President.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Beaupré</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

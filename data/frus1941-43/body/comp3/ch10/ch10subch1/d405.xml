@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1941-43_d405" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Secretaries of the Combined Chiefs
+                        of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1941-43_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1941-43_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1941-43/d405"
+                    type="canonical"/>
+                <relatedItem target="d404.xml" type="prev"/>
+                <relatedItem target="d405-a1.xml" type="next"/>
+                <relatedItem target="../ch10subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1941-43</bibl>
+                <bibl type="frus-division-id">d405</bibl>
+                <bibl type="frus-division-n">405</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="760" to="761" unit="page"
+                        >760–61</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Casablanca</hi></placeName>
+                    <date calendar="gregorian" when="1943-01-18">January 18, 1943</date>
+                    <date notAfter="1943-01-18T23:59:59-05:00" notBefore="1943-01-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1941-43/terms">
+                    <term ref="frus:frus1941-43/terms#t_CCS1">C.C.S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d405">
+
+                <pb facs="0846" n="760" sameAs="frus:frus1941-43/pg760"/>
+
+                <note rend="inline" type="source">J.C.S. Files</note>
+                <head><hi rendition="#italic">Memorandum by the Secretaries of the Combined Chiefs
+                        of Staff</hi><anchor n="1" xml:id="d405-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        C.C.S. 155</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Casablanca</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-01-18">January 18, 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Conduct of the War in</hi>
+                    1943</p>
+                <p>In accordance with the conclusions of the Combined Chiefs of Staff at their 60th
+                        meeting,<anchor n="2" xml:id="d405-f2"/> a draft memorandum setting out the
+                    tentative agreements already reached has been prepared and is circulated
+                    herewith for consideration at the next meeting.</p>
+                <closer>
+                    <signed> V. <hi rendition="#small-caps">Dykes</hi>
+                        <lb/> J. R. <hi rendition="#small-caps">Deane</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Combined Secretariat</hi>
+                </closer>
+
+
+                <xi:include href="d405-a1.xml" xpointer="d405-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d405-f1" n="1" type="source" xml:id="d405-f1-content">
+                <p>This draft memorandum was considered by the Combined Chiefs of Staff at their
+                    morning meeting on January 19, 1943, <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg637">p. 637</ref>. As amended and approved by the Combined Chiefs
+                    of Staff, this memorandum was redesignated C.C.S. 155/1, January 19, 1943, which is printed <hi
+                        rendition="#italic">post</hi>, <ref target="#pg774">p. 774</ref>.</p>
+            </note>
+            <note corresp="#d405-f2" n="2" xml:id="d405-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg622">p. 622</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

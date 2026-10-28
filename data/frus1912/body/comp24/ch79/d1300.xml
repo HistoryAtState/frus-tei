@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d1300" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d1300"
+                    type="canonical"/>
+                <relatedItem target="d1299.xml" type="prev"/>
+                <relatedItem target="d1301.xml" type="next"/>
+                <relatedItem target="../ch79.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d1300</bibl>
+                <bibl type="frus-division-n">1300</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="918" to="919" unit="page"
+                        >918–19</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1912-04-08T21:00:00-06:36">
+                        <hi rendition="#italic">April 8, 1912—9 p.m.</hi>
+                    </date>
+                    <date notAfter="1912-04-08T22:36:00-05:00" notBefore="1912-04-08T22:36:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1300">
+
+                <pb facs="1034" n="918" sameAs="frus:frus1912/pg918"/>
+
+                <note rend="inline" type="source">File No. 812.00/3534.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Mexico</hi></placeName>, <date
+                            calendar="gregorian" when="1912-04-08T21:00:00-06:36">
+                            <hi rendition="#italic">April 8, 1912—9 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>As the Mexican National Railway refused to grant any of the demands of the
+                    American employees, these, amounting to from 700 to <pb facs="1035" n="919"
+                        xml:id="pg919"/> 800, will strike on the 15th and leave their posts. I have
+                    used all my influence with the Government, the railways, and the men to prevent
+                    the crisis and am deeply disappointed that no good result has followed.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Wilson.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

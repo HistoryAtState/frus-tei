@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d823" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Neill to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d823"
+                    type="canonical"/>
+                <relatedItem target="d822.xml" type="prev"/>
+                <relatedItem target="d823-a1.xml" type="next"/>
+                <relatedItem target="../ch232.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d823</bibl>
+                <bibl type="frus-division-n">823</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="891" to="893" unit="page"
+                        >891–93</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Lima</hi></placeName>
+                    <date calendar="gregorian" when="1902-02-18"><hi rendition="#italic">February
+                            18, 1902</hi></date>
+                    <date notAfter="1902-02-18T23:59:59-05:00" notBefore="1902-02-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d823">
+
+                <pb facs="0971" n="891" sameAs="frus:frus1902/pg891"/>
+
+                <head><hi rendition="#italic">Mr. Neill to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Lima</hi></placeName>, <date calendar="gregorian" when="1902-02-18"
+                                ><hi rendition="#italic">February 18, 1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 572.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my No. 547 of November 27
+                    last, and also to the Department’s instruction No. 278 of January 27 last, I am
+                    pleased to transmit herewith, as instructed, a copy of the protocol between Peru
+                    and Bolivia submitting to arbitration the pending questions between the two
+                    countries.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Richard R. Neill</hi></signed></closer>
+
+
+                <xi:include href="d823-a1.xml" xpointer="d823-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v03mSupp_notice" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Notice of Declassification</title>
+            </titleStmt>
+            <xi:include href="../frus1955-57v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1955-57v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v03mSupp/notice"
+                    type="canonical"/>
+                <relatedItem target="persons.xml" type="prev"/>
+                <relatedItem target="documents.xml" type="next"/>
+                <relatedItem target="../frus1955-57v03mSupp.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v03mSupp</bibl>
+                <bibl type="frus-division-id">notice</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">volume-summary</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1959-10-10T23:59:59-05:00" notBefore="1955-07-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="notice">
+
+                <pb facs="dfm-16" n="[10]" xml:id="dfm-16"/>
+
+                <head>Notice of Declassification</head>
+                <p>All the documents in this supplement were declassified by the
+                    Classification/Declassification Center of the Department of State, which
+                    reviewed them according to the guidelines and procedures by which it customarily
+                    reviews documents selected for publication in the printed volumes of the <hi
+                        rendition="#italic">Foreign Relations</hi> series. These procedures include
+                    inspection of pertinent materials by all appropriate agencies of the United
+                    States Government. Documents which were declassified with excisions appear in
+                    the supplement without the excised material.</p>
+                <gap reason="convenience" unit="pages"/>
+            </div>
+        </body>
+    </text>
+</TEI>

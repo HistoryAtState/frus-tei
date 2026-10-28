@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d221" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Count von
+                            Arco-Valley to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d221"
+                    type="canonical"/>
+                <relatedItem target="../ch3.xml" type="prev"/>
+                <relatedItem target="d221-a1.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d221</bibl>
+                <bibl type="frus-division-n">221</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="317" to="318" unit="page"
+                        >317–18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Imperial German Legation</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1890-03-02"><hi rendition="#italic">March</hi>
+                        2, 1890</date>
+                    <date notAfter="1890-03-02T23:59:59-05:00" notBefore="1890-03-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d221">
+
+                <pb facs="0421" n="317" sameAs="frus:frus1890/pg317"/>
+
+                <head><hi rendition="#italic">Count von Arco-Valley
+                        to Mr. Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Imperial German Legation</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1890-03-02"><hi rendition="#italic">March</hi> 2, 1890</date>.
+                        (Received March 3.)</dateline></opener>
+                <p>Mr. <hi rendition="#small-caps">Secretary of State</hi>: I have the honor, in
+                    obedience to instructions received, most respectfully herewith to transmit to
+                    you a copy of a memorandum relative to the execution of the Samoan general
+                    act.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Arco.</hi></signed></closer>
+
+
+                <xi:include href="d221-a1.xml" xpointer="d221-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

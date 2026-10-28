@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v12_d71" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Conversation</title>
+            </titleStmt>
+            <xi:include href="../../../frus1964-68v12_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1964-68v12_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v12/d71"
+                    type="canonical"/>
+                <relatedItem target="d70.xml" type="prev"/>
+                <relatedItem target="d72.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v12</bibl>
+                <bibl type="frus-division-id">d71</bibl>
+                <bibl type="frus-division-n">71</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="139" to="140" unit="page"
+                        >139–40</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" type="conversation-or-meeting-date" when="1967-01-09"
+                        >January 9, 1967</date>
+                    <date notAfter="1967-01-09T23:59:59-05:00" notBefore="1967-01-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v12/persons">
+                    <term ref="frus:frus1964-68v12/persons#p_AGWJ1">Anderson, George W., Jr.</term>
+                    <term ref="frus:frus1964-68v12/persons#p_AR1">Anderson, Robert</term>
+                    <term ref="frus:frus1964-68v12/persons#p_DGC1">De Gaulle, Charles</term>
+                    <term ref="frus:frus1964-68v12/persons#p_LC1">Lucet, Charles</term>
+                </keywords>
+                <keywords scheme="frus:frus1964-68v12/terms">
+                    <term ref="frus:frus1964-68v12/terms#t_POL1">POL</term>
+                    <term ref="frus:frus1964-68v12/terms#t_RG1">RG</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d71">
+
+                <pb facs="0175" n="139" sameAs="frus:frus1964-68v12/pg139"/>
+
+                <head>71. Memorandum of Conversation<anchor n="1" xml:id="d71-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            type="conversation-or-meeting-date" when="1967-01-09">January 9,
+                            1967</date>.</dateline></opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Conversation with French Ambassador</item>
+                </list>
+                <list subtype="participants" type="description">
+                    <label>PARTICIPANTS</label>
+                    <item>Ambassador Charles Lucet, French
+                        Embassy</item>
+                    <item>Mr. Robert Anderson, Director,
+                        France-Benelux Affairs</item>
+                </list>
+                <p>During a brief conversation at a French Embassy reception today, Ambassador
+                        Lucet said that he was very disturbed
+                    over the current state of Franco-American relations which, in his view, were at
+                    an all time low. He attributed this in large measure to General De Gaulle’s unfortunate and inexplicable
+                    remarks on December 31 and January 1 on the United States’ involvement in
+                        Viet-Nam.<anchor n="2" xml:id="d71-f2"/> He said that when he had read these
+                    remarks in Guadeloupe during a brief vacation, his desire <pb facs="0176"
+                        n="140" xml:id="pg140"/> for returning to Washington was, to put it mildly,
+                    less than enthusiastic.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d71-f1" n="1" type="source" xml:id="d71-f1-content">
+                <p>Source: National Archives and Records Administration, RG 59, Central Files 1967-69, POL
+                    FR-US. Confidential. Drafted by Anderson.</p>
+            </note>
+            <note corresp="#d71-f2" n="2" xml:id="d71-f2-content">
+                <p>In a December 31 television address to the French people, De Gaulle characterized the war in Vietnam as
+                    “unjust hellip; due to the armed intervention of the United States in territory
+                    of Vietnam.” For text, see De Gaulle, <hi
+                        rendition="#italic">Discours et Messages</hi>, Vol. 5, pp. 128-131. In a New
+                    Year’s day address to the diplomatic corps, De
+                        Gaulle again blamed the United States for the war.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

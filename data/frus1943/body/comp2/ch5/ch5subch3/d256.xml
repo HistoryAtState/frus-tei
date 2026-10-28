@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d256" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The British Minister (Campbell) to
+                        the Adviser on Political Relations (Dunn)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d256"
+                    type="canonical"/>
+                <relatedItem target="d255.xml" type="prev"/>
+                <relatedItem target="d256-a1.xml" type="next"/>
+                <relatedItem target="../ch5subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d256</bibl>
+                <bibl type="frus-division-n">256</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="534" to="537" unit="page"
+                        >534–37</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-03">August 3rd, 1943</date>
+                    <date notAfter="1943-08-03T23:59:59-05:00" notBefore="1943-08-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d256">
+
+                <pb facs="0648" n="534" sameAs="frus:frus1943/pg534"/>
+
+                <note rend="inline" type="source">740.00119 EW/8–343</note>
+                <head>
+                    <hi rendition="#italic">The British Minister</hi> (<hi
+                            rendition="#italic">Campbell</hi>) <hi rendition="#italic">to
+                        the Adviser on Political Relations</hi> (<hi
+                            rendition="#italic">Dunn</hi>)</head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1943-08-03">August 3rd,
+                        1943</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Jimmy</hi>, I enclose a copy of a telegram
+                    from the Foreign Office on the subject of an approach made to our Ambassador at
+                        Lisbon.<anchor n="1" xml:id="d256-f1"/> Although the peace feeler described
+                    in this telegram has been overtaken by events, the Foreign Office thought that
+                    you would be interested to have an account of it.</p>
+                <p>I also enclose a copy of a telegram received from the Ambassador in Ankara
+                    recording approaches made by the Italian Ambassador there to the Turkish
+                    Minister for Foreign Affairs. You may have received a report of this from Ankara
+                    through your own channels,<anchor n="2" xml:id="d256-f2"/> but if not you may
+                    find it interesting to have this telegram.</p>
+                <p>Yours ever,</p>
+                <closer>(for <signed>Sir R. Campbell</signed>) <lb/>
+                    <signed>W G <hi rendition="#small-caps">Hayter</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d256-a1.xml" xpointer="d256-a1"/>
+                <xi:include href="d256-a2.xml" xpointer="d256-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d256-f1" n="1" xml:id="d256-f1-content">
+                <p>Sir Ronald Hugh Campbell.</p>
+            </note>
+            <note corresp="#d256-f2" n="2" xml:id="d256-f2-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg531">p. 531</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1921v02_comp21" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Siam:</title>
+            </titleStmt>
+            <xi:include href="../frus1921v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1921v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1921v02/comp21"
+                    type="canonical"/>
+                <relatedItem target="comp20/ch79.xml" type="prev"/>
+                <relatedItem target="comp21/ch80.xml" type="next"/>
+                <relatedItem target="../frus1921v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1921v02</bibl>
+                <bibl type="frus-division-id">comp21</bibl>
+                <bibl type="frus-division-n">21</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="857" to="889" unit="page"
+                        >857–89</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1922-01-28T14:00:00-05:00" notBefore="1920-02-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp21">
+
+                <pb facs="0953" n="857" xml:id="pg857"/>
+
+                <head>Siam:</head>
+
+
+
+                <xi:include href="comp21/ch80.xml" xpointer="ch80"/>
+                <xi:include href="comp21/ch81.xml" xpointer="ch81"/>
+            </div>
+        </body>
+    </text>
+</TEI>

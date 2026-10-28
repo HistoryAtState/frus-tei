@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v11_d77" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Conversation</title>
+            </titleStmt>
+            <xi:include href="../../frus1964-68v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1964-68v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v11/d77"
+                    type="canonical"/>
+                <relatedItem target="d76.xml" type="prev"/>
+                <relatedItem target="d78.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v11</bibl>
+                <bibl type="frus-division-id">d77</bibl>
+                <bibl type="frus-division-n">77</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="202" to="203" unit="page"
+                        >202–3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" type="conversation-or-meeting-date" when="1965-05-18"
+                        >May 18, 1965</date>
+                    <date notAfter="1965-05-18T23:59:59-05:00" notBefore="1965-05-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v11/persons">
+                    <term ref="frus:frus1964-68v11/persons#p_DAF1">Dobrynin, Anatoly
+                        Fedorovich</term>
+                    <term ref="frus:frus1964-68v11/persons#p_TLET1">Thompson, Llewellyn E.</term>
+                </keywords>
+                <keywords scheme="frus:frus1964-68v11/terms">
+                    <term ref="frus:frus1964-68v11/terms#t_A1">A</term>
+                    <term ref="frus:frus1964-68v11/terms#t_Limdis1">Limdis</term>
+                    <term ref="frus:frus1964-68v11/terms#t_OSD1">OSD</term>
+                    <term ref="frus:frus1964-68v11/terms#t_RG1">RG</term>
+                    <term ref="frus:frus1964-68v11/terms#t_USSR1">USSR</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d77">
+
+                <pb facs="0238" n="202" sameAs="frus:frus1964-68v11/pg202"/>
+
+                <head>77. Memorandum of Conversation<anchor n="1" xml:id="d77-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            type="conversation-or-meeting-date" when="1965-05-18">May 18,
+                            1965</date>.</dateline></opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Palanquin Aide-Mémoire</item>
+                </list>
+                <list subtype="participants" type="description">
+                    <label>PARTICIPANTS</label>
+                    <item>Ambassador Anatoliy F. Dobrynin,
+                            USSR
+                    </item>
+                    <item>
+                        Llewellyn E. Thompson,
+                        Ambassador-at-Large, Department of State</item>
+                </list>
+                <p>I handed Dobrynin our Aide-Mémoire of
+                    today’s date<anchor n="2" xml:id="d77-f2"/> in reply to the Soviet Aide-Mémoire
+                    on the Palanquin experiment.<anchor n="3" xml:id="d77-f3"/> He queried the
+                    meaning of the sentence to the effect that we would be in a better position to
+                    believe that they had not intended a violation of the Test Ban if they had been
+                    more forthcoming with information on their experiment.</p>
+                <pb facs="0239" n="203" xml:id="pg203"/>
+                <p>I reminded him that we had asked for further information and that this had been
+                    refused. He asked if we really believed they intended to violate the Treaty. I
+                    said I did not think so, but that it would have been much easier to say so
+                    directly if we had been given more information. He shrugged and said that this
+                    was a matter for their atomic people to deal with.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d77-f1" n="1" type="source" xml:id="d77-f1-content">
+                <p>Source: Washington National Records Center, RG
+                    330, OSD Files: Lot 70 A 1266, 388.3 (2 Feb. 1965), May-June 1965. Confidential; Limdis. Drafted and approved by Thompson, May 18.</p>
+            </note>
+            <note corresp="#d77-f2" n="2" xml:id="d77-f2-content">
+                <p>
+                    <ref target="#d76">Document 76</ref>.</p>
+            </note>
+            <note corresp="#d77-f3" n="3" xml:id="d77-f3-content">
+                <p>
+                    <ref target="#d75">Document 75</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p4_d934" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Inhabitants of Fribourg</title>
+            </titleStmt>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p4/d934"
+                    type="canonical"/>
+                <relatedItem target="d933.xml" type="prev"/>
+                <relatedItem target="d935.xml" type="next"/>
+                <relatedItem target="../ch36.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p4</bibl>
+                <bibl type="frus-division-id">d934</bibl>
+                <bibl type="frus-division-n">934</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="572" to="573" unit="page"
+                        >572–73</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1865-05-24T23:59:59-05:00" notBefore="1865-05-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d934">
+
+                <pb facs="0644" n="572" sameAs="frus:frus1865p4/pg572"/>
+
+                <head>Inhabitants of Fribourg</head>
+                <note rend="inline" rendition="#center" type="source">[Translation.]</note>
+                <dateline>
+                    <placeName>
+                        <hi rendition="#small-caps">Fribourg</hi></placeName>, <date
+                        calendar="gregorian" when="1865-05-24">
+                        <hi rendition="#italic">May</hi> 24, 1865</date>.</dateline>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to transmit you the
+                    following documents: <list>
+                        <label>1.</label>
+                        <item>An address, voted by a popular assembly at Fribourg, on Saturday, the
+                            13th of May, with 411 signatures.</item>
+                        <pb facs="0645" n="573" xml:id="pg573"/>
+                        <label>2.</label>
+                        <item>A supplementary address, signed by 106 citizens of Gruyere,<anchor
+                                n="*" xml:id="d934-f1"/> most of them from the industrious and
+                            liberal little city of Bulle.</item>
+                        <label>3.</label>
+                        <item>A second declaration of assent to the address voted by the Democratic
+                            Circle of the city of Estavayer,<anchor n="†" xml:id="d934-f2"/> with 39
+                            signatures, 556 signatures in all, which the people of Fribourg beg you
+                            to accept and transmit to your American countrymen, as a token of
+                            friendship, republican confraternity and very sincere sympathy.</item>
+                    </list>
+                </p>
+                <p>Receive the assurance of our very distinguished consideration.</p>
+                <closer>
+                    <signed>AUG. MAJEUX.</signed>
+                </closer>
+                <postscript>
+                    <p>Mr. G. G. <hi rendition="#small-caps">Fogg</hi>, <lb/>
+                        <hi rendition="#italic">Minister Resident of the United States, at
+                            Berne</hi>.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d934-f1" n="*" xml:id="d934-f1-content">
+                <p>For this enclosure see Gruyere.</p>
+            </note>
+            <note corresp="#d934-f2" n="†" xml:id="d934-f2-content">
+                <p>For this enclosure see Estavayer.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

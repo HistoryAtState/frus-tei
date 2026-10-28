@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d19" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d19"
+                    type="canonical"/>
+                <relatedItem target="d18.xml" type="prev"/>
+                <relatedItem target="d20.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d19</bibl>
+                <bibl type="frus-division-n">19</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="13" unit="page"
+                        >13</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-08-05">August 5, 1944</date>
+                    <date notAfter="1944-08-05T23:59:59-05:00" notBefore="1944-08-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Octagon1">Octagon</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Red1">Red</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d19">
+
+                <pb facs="0067" n="13" sameAs="frus:frus1944Quebec/pg13"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President Roosevelt</hi><anchor n="1" xml:id="d19-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1944-08-05">August 5, 1944</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Roosevelt Personal and Top Secret number 744.</p>
+                <p>Thank you so much for your 593.<anchor n="2" xml:id="d19-f2"/> Things are
+                    everywhere approaching a climax, and almost always a climax in our favour.</p>
+                <p>Please try to give me a firm date for <hi
+                            rendition="#small-caps">Octagon</hi> as I have a lot to
+                    arrange.</p>
+                <p>I am sure your journey to the Pacific must have strengthened the already buoyant
+                    situation there. One of the most important things we have to settle when we meet
+                    is what you want us to do in the Japanese finale and how we can do it, and also,
+                    please, what we would like to do ourselves.</p>
+                <p>Am off to Normandy tomorrow morning, returning evening, and on Wednesday
+                        night<anchor n="3" xml:id="d19-f3"/> I leave for 10 days or a fortnight for
+                        [<hi rendition="#italic">with?</hi>] Wilson, Devers, and Alexander.<anchor
+                        n="4" xml:id="d19-f4"/> I shall be in full touch all the time and will
+                    communicate as usual, which is saying a lot. Every good wish.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d19-f1" n="1" type="source" xml:id="d19-f1-content">
+                <p>Sent to Washington by the United States Military Attaché, London, via Army
+                    channels; forwarded by the White House Map Room to Roosevelt, who was then in
+                    Alaska, as telegram No. <hi rendition="#small-caps"
+                            >Red</hi> 245.</p>
+            </note>
+            <note corresp="#d19-f2" n="2" xml:id="d19-f2-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d19-f3" n="3" xml:id="d19-f3-content">
+                <p>August 9, 1944; but Churchill’s departure was delayed.</p>
+            </note>
+            <note corresp="#d19-f4" n="4" xml:id="d19-f4-content">
+                <p>Concerning Churchill’s visit to Italy, August 11–28, 1944, see Churchill, <hi
+                        rendition="#italic">Triumph and Tragedy</hi>, pp. 86–127.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

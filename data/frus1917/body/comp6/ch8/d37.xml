@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d37" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Minister Jefferson
+                        to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d37"
+                    type="canonical"/>
+                <relatedItem target="../ch8.xml" type="prev"/>
+                <relatedItem target="d37-a1.xml" type="next"/>
+                <relatedItem target="../ch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d37</bibl>
+                <bibl type="frus-division-n">37</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="30" to="30" unit="page"
+                        >30</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Managua</hi></placeName>
+                    <date calendar="gregorian" when="1917-03-14">
+                        <hi rendition="#italic">March 14, 1917</hi></date>
+                    <date notAfter="1917-03-14T23:59:59-05:00" notBefore="1917-03-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d37">
+
+                <pb facs="0196" n="30" xml:id="pg30"/>
+
+                <note rend="inline" type="source">File No. 713.001/57</note>
+                <head>
+                    <hi rendition="#italic">Minister Jefferson to
+                        the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 352</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Managua</hi></placeName>, <date
+                            calendar="gregorian" when="1917-03-14">
+                            <hi rendition="#italic">March 14, 1917</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Referring to my cable of March 7, 11
+                        a.m.<anchor n="1" xml:id="d37-f1"/> relative to the withdrawal of the
+                    Nicaraguan Government from the Central American Court of Justice, I have the
+                    honor to enclose herewith for the information of the Department a copy and
+                    translation of the note from the Foreign Office of March 10, 1917, in which is
+                    transcribed the telegraphic communication of the Minister for Foreign Affairs to
+                    the Central American Governments declaring the intention of the Government of
+                    Nicaragua to withdraw from the Central American Court of Justice.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Benjamin L. Jefferson</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d37-a1.xml" xpointer="d37-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d37-f1" n="1" xml:id="d37-f1-content">
+                <p>Printed under Nicaragua, Chamorro-Bryan Canal Treaty, etc., <ref target="#pg1100"
+                        >p. 1100</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

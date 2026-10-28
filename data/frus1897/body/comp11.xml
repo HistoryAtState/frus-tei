@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1897_comp11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>France</title>
+            </titleStmt>
+            <xi:include href="../frus1897_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1897_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1897/comp11"
+                    type="canonical"/>
+                <relatedItem target="comp10/ch40/d125.xml" type="prev"/>
+                <relatedItem target="comp11/ch41.xml" type="next"/>
+                <relatedItem target="../frus1897.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1897</bibl>
+                <bibl type="frus-division-id">comp11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="128" to="174" unit="page"
+                        >128–74</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1898-01-18T23:59:59-05:00" notBefore="1896-12-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp11">
+
+                <pb facs="0162" n="128" xml:id="pg128"/>
+
+                <head>France</head>
+
+
+
+
+
+
+
+
+
+
+
+
+                <xi:include href="comp11/ch41.xml" xpointer="ch41"/>
+                <xi:include href="comp11/ch42.xml" xpointer="ch42"/>
+                <xi:include href="comp11/ch43.xml" xpointer="ch43"/>
+                <xi:include href="comp11/ch44.xml" xpointer="ch44"/>
+                <xi:include href="comp11/ch45.xml" xpointer="ch45"/>
+                <xi:include href="comp11/ch46.xml" xpointer="ch46"/>
+                <xi:include href="comp11/ch47.xml" xpointer="ch47"/>
+                <xi:include href="comp11/ch48.xml" xpointer="ch48"/>
+                <xi:include href="comp11/ch49.xml" xpointer="ch49"/>
+            </div>
+        </body>
+    </text>
+</TEI>

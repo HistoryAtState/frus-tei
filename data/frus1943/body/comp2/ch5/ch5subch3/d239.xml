@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d239" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d239"
+                    type="canonical"/>
+                <relatedItem target="d238.xml" type="prev"/>
+                <relatedItem target="d240.xml" type="next"/>
+                <relatedItem target="../ch5subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d239</bibl>
+                <bibl type="frus-division-n">239</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="521" to="521" unit="page"
+                        >521</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-07-31">31 July 1943</date>
+                    <date notAfter="1943-07-31T23:59:59-05:00" notBefore="1943-07-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Churchill1">Churchill</term>
+                    <term ref="frus:frus1943/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d239">
+
+                <pb facs="0635" n="521" sameAs="frus:frus1943/pg521"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                    </hi><anchor n="1" xml:id="d239-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1943-07-31">31 July 1943</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President personal and secret number 391.</p>
+                <p>Your 331.<anchor n="2" xml:id="d239-f2"/>
+                </p>
+                <p>I have not had time to consult my colleagues but I have no doubt whatever that
+                    our joint draft as amended<anchor n="3" xml:id="d239-f3"/> expresses in perfect
+                    harmony the minds of our 2 governments on the broad policy to be pursued. It
+                    seems to be a case of “Two hearts that beat as one”.</p>
+                <p>I suggest if you agree that in Paragraph 6 last sentence “We” should be
+                    substituted for “I” and that the document becomes a joint directive conveying
+                    the instructions of our 2 governments to all authorities charged with their
+                    execution.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d239-f1" n="1" type="source" xml:id="d239-f1-content">
+                <p>Sent to Washington by the United States Military Attaché, London, via Army
+                    channels; forwarded by the White House Map Room to Roosevelt, who was then at
+                    Hyde Park. A paraphrase was sent to Hull by the White House Map Room on August
+                    1, 1943 (740.0011 EW/8–143).</p>
+            </note>
+            <note corresp="#d239-f2" n="2" xml:id="d239-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg517">p. 517</ref>.</p>
+            </note>
+            <note corresp="#d239-f3" n="3" xml:id="d239-f3-content">
+                <p>i.e., Churchill’s “Thoughts on the Fall of
+                    Mussolini” (<ref target="frus1943v02#pg_332">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1943, vol. <hi
+                            rendition="#small-caps">ii</hi>, pp. 332</ref>–<ref
+                        target="frus1943v02#pg_335">335</ref>) as modified by Roosevelt’s telegram
+                    No. 331.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

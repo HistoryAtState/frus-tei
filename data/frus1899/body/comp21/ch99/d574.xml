@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d574" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Merry to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d574"
+                    type="canonical"/>
+                <relatedItem target="../ch99.xml" type="prev"/>
+                <relatedItem target="d574-a1.xml" type="next"/>
+                <relatedItem target="../ch99.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d574</bibl>
+                <bibl type="frus-division-n">574</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="584" to="585" unit="page"
+                        >584–85</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States of
+                            America</hi>,<lb/><hi rendition="#italic">San José, Costa
+                        Rica</hi></placeName>
+                    <date calendar="gregorian" when="1899-08-30"><hi rendition="#italic">August 30,
+                            1899</hi></date>
+                    <date notAfter="1899-08-30T23:59:59-05:00" notBefore="1899-08-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d574">
+
+                <pb facs="0680" n="584" sameAs="frus:frus1899/pg584"/>
+
+                <head><hi rendition="#italic">Mr. Merry to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States of America</hi>,<lb/><hi
+                                rendition="#italic">San José, Costa Rica</hi></placeName>, <date
+                            calendar="gregorian" when="1899-08-30"><hi rendition="#italic">August
+                                30, 1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 305.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to forward herewith decree
+                    (inclosure No. 1) to be published on September 4 by the Government of Costa
+                    Rica, establishing international copyright between the Republic and the United
+                    States. When proclamation is made at Washington will you kindly send two copies
+                    thereof to this legation. As the decree refers to the preexisting law on that
+                    subject, I also forward a copy of the Official Gazette,<anchor n="1"
+                        xml:id="d574-f1"/> dated June 30, 1896 (inclosure No. 2), for the further
+                    information of the Department of State.</p>
+                <p>With assurances, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">William Lawrence Merry</hi>,<lb/><hi
+                            rendition="#italic">United States Minister.</hi></signed></closer>
+
+
+                <xi:include href="d574-a1.xml" xpointer="d574-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d574-f1" n="1" xml:id="d574-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

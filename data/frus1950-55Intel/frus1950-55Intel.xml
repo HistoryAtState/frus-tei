@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950-55Intel" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1950-55Intel_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1950-55Intel_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1950-55Intel_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1950-55Intel"
+                    type="canonical"/>
+                <note>This publication contains 2 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1950-55Intel" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1950-55Intel/covers/frus1950-55Intel.jpg"/>
+                        <extent>
+                            <measure quantity="33957" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:04:17.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1950-55Intel" type="pdf">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1950-55Intel/pdf/frus1950-55Intel.pdf"/>
+                        <extent>
+                            <measure quantity="3300097" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:04:26.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 2007 as printed book and online at state.gov</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                    <term xml:id="admin2">eisenhower</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">retrospective</term>
+                    <term corresp="#admin2">retrospective</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>acheson-dean-gooderham</term>
+                    <term>sub-saharan-africa</term>
+                    <term>albania</term>
+                    <term>austria</term>
+                    <term>information-programs</term>
+                    <term>bulgaria</term>
+                    <term>china</term>
+                    <term>covert-actions</term>
+                    <term>dulles-john-foster</term>
+                    <term>personnel-civil-service</term>
+                    <term>ecuador</term>
+                    <term>eisenhower-dwight-d</term>
+                    <term>germany</term>
+                    <term>greece</term>
+                    <term>guatemala</term>
+                    <term>hungary</term>
+                    <term>iran</term>
+                    <term>italy</term>
+                    <term>congressional-relations</term>
+                    <term>japan</term>
+                    <term>taiwan</term>
+                    <term>poland</term>
+                    <term>korean-war</term>
+                    <term>national-security-council</term>
+                    <term>netherlands</term>
+                    <term>norway</term>
+                    <term>pakistan</term>
+                    <term>qatar</term>
+                    <term>saudi-arabia</term>
+                    <term>science-and-technology</term>
+                    <term>truman-harry-s</term>
+                    <term>turkey</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1950-55Intel" status="published" when="2007"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="I" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1950–1955</titlePart>
+                    <titlePart type="volumeno"/>
+                    <titlePart type="volume">The Intelligence Community, 1950–1955</titlePart>
+                </docTitle>
+                <docImprint>DEPARTMENT OF STATE<lb/>Washington</docImprint>
+                <byline>Editors: Douglas Keane<lb/>Michael
+                        Warner</byline>
+                <byline>General Editor: Edward C. Keefer</byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>2007</docDate>
+                    <pb facs="0002" n="II" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION
+                    11441<lb/>OFFICE OF THE HISTORIAN<lb/>BUREAU OF PUBLIC AFFAIRS<lb/>For sale by
+                    the U.S. Government Printing Office Superintendent of Documents, Mail Stop SSOP,
+                    Washington, DC 20402-9328</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

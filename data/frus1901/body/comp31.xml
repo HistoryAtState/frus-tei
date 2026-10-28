@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_comp31" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Siam</title>
+            </titleStmt>
+            <xi:include href="../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/comp31"
+                    type="canonical"/>
+                <relatedItem target="comp30/ch147/d400.xml" type="prev"/>
+                <relatedItem target="comp31/ch148.xml" type="next"/>
+                <relatedItem target="../frus1901.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">comp31</bibl>
+                <bibl type="frus-division-n">31</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="456" to="456" unit="page"
+                        >456</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1901-11-15T23:59:59-05:00" notBefore="1901-09-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp31">
+
+                <pb facs="0536" n="456" xml:id="pg456"/>
+
+                <head>Siam</head>
+
+
+                <xi:include href="comp31/ch148.xml" xpointer="ch148"/>
+                <xi:include href="comp31/ch149.xml" xpointer="ch149"/>
+            </div>
+        </body>
+    </text>
+</TEI>

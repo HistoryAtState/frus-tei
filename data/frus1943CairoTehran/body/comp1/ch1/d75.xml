@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d75" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President to the
+                            Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d75"
+                    type="canonical"/>
+                <relatedItem target="d74.xml" type="prev"/>
+                <relatedItem target="d76.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d75</bibl>
+                <bibl type="frus-division-n">75</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="53" to="54" unit="page"
+                        >53–54</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Hyde Park</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-30">30 October 1943</date>
+                    <date notAfter="1943-10-30T23:59:59-05:00" notBefore="1943-10-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_BCE2">Bohlen, Charles E.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_DJR1">Deane, John R.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HWA2">Harriman, W. Averell</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d75">
+
+                <pb facs="0145" n="53" sameAs="frus:frus1943CairoTehran/pg53"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">The President to the Secretary of State</hi><anchor n="1" xml:id="d75-f1"
+                    /></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">urgent</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Hyde
+                                Park</hi></placeName>?] <date calendar="gregorian" when="1943-10-30"
+                            >30 October 1943</date>.</dateline>
+                </opener>
+                <p>Personal and secret for the Secretary of State only from the President.</p>
+                <p>I find I can postpone departure till evening of eleventh or morning of twelfth
+                    and I think this is much better than your staying in North Africa all that time.
+                    I can probably meet you at your landing port.</p>
+                <p>I will wire Churchill to postpone
+                    everything two days.</p>
+                <pb facs="0146" n="54" xml:id="pg54"/>
+                <p>I will want Harriman and General Deane and Bohlen to join me in North Africa or Cairo.</p>
+                <p>Your work has been grand.</p>
+                <closer><signed><hi rendition="#small-caps"
+                                >Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d75-f1" n="1" type="source" xml:id="d75-f1-content">
+                <p>Sent to the United States Naval Attaché Moscow, via the White House Map Room and
+                    Navy channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d1519-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914/d1519-a1"
+                    type="canonical"/>
+                <relatedItem target="d1519.xml" type="prev"/>
+                <relatedItem target="d1520.xml" type="next"/>
+                <relatedItem target="d1519.xml" type="parent"/>
+                <relatedItem target="d1519.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d1519-a1</bibl>
+                <bibl type="frus-division-n">1519.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="863" to="863" unit="page"
+                        >863</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1519-a1">
+
+                <pb facs="0979" n="863" sameAs="frus:frus1914/pg863"/>
+
+                <opener>
+                    <seg rendition="#center">[Inclosure—Translation.]</seg>
+                </opener>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <p rendition="#flush">
+                    <hi rendition="#italic">To the Military Commander, Santa Maria de Cuevas:</hi>
+                    <quote rend="blockquote">
+                        <p>By this letter authorization is given to you in the most ample and
+                            effective manner, by the General Headquarters under my charge, to
+                            immediately proceed to the distribution of the land of the Hacienda de
+                            los Remedios among the neighbors of the town of Santa Maria de las
+                            Cuevas, with the purpose that it be cultivated the present year with the
+                            understanding that proper ownership of the property will be arranged
+                            afterwards. The administrator or person in charge that is managing the
+                            property may appear before the General Treasurer of the State to collect
+                            the value of the rents of the property referred to.</p>
+                    </quote>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Francisco Villa</hi></signed>. <lb/>
+                    <dateline rendition="#float-left">
+                        <placeName>
+                            <hi rendition="#small-caps">Chihuahua</hi>
+                        </placeName>, <date calendar="gregorian" when="1914-04-20"><hi
+                                rendition="#italic">April 20, 1914</hi></date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

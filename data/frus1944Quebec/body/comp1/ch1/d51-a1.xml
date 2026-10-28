@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d51-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Enclosure “A”</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d51-a1"
+                    type="canonical"/>
+                <relatedItem target="d51.xml" type="prev"/>
+                <relatedItem target="d51-a2.xml" type="next"/>
+                <relatedItem target="d51.xml" type="parent"/>
+                <relatedItem target="d51.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d51-a1</bibl>
+                <bibl type="frus-division-n">51.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="32" to="32" unit="page"
+                        >32</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d51-a1">
+
+                <pb facs="0086" n="32" xml:id="pg32"/>
+
+                <head>Enclosure “A”</head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Agreed Broad Headings for the
+                        Agenda for the Next United States-British Staff Conference</hi></p>
+                <list>
+                    <label>(A)</label>
+                    <item><hi rendition="#italic">The War Against Germany</hi>
+                        <list>
+                            <label>(1)</label>
+                            <item>Operations for the defeat of Axis Powers in Europe.</item>
+                            <label>(2)</label>
+                            <item>Occupation of Germany, its satellites, and Axis-occupied
+                                    countries.<anchor n="*" xml:id="d51-f1"/></item>
+                        </list></item>
+                    <label>(B)</label>
+                    <item><hi rendition="#italic">The War Against Japan</hi>
+                        <list>
+                            <label>(1)</label>
+                            <item>Operations for the Defeat of Japan.</item>
+                            <label>(2)</label>
+                            <item>British Participation in the War Against Japan.</item>
+                        </list></item>
+                    <label>(C)</label>
+                    <item><hi rendition="#italic">Redeployment of Forces Reoriented From Europe to
+                            the War Against Japan</hi>.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d51-f1" n="*" xml:id="d51-f1-content">
+                <p>Exact wording of heading still under consideration. [Footnote in the source
+                    text]</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

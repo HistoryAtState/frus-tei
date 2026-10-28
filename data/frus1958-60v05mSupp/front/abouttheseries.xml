@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v05mSupp_abouttheseries" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>About the Digital Edition</title>
+            </titleStmt>
+            <xi:include href="../frus1958-60v05mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1958-60v05mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v05mSupp/abouttheseries"
+                    type="canonical"/>
+                <relatedItem type="prev"/>
+                <relatedItem target="preface.xml" type="next"/>
+                <relatedItem target="../frus1958-60v05mSupp.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v05mSupp</bibl>
+                <bibl type="frus-division-id">abouttheseries</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">about-frus-series</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1960-12-31T23:59:59-05:00" notBefore="1958-01-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="abouttheseries">
+
+                <pb facs="0003" n="III" xml:id="pgIII"/>
+
+                <head>About the Digital Edition</head>
+                <p>In creating this digital edition, the Office of the Historian focused on
+                    maintaining the original structure of the microfiche supplement while aligning
+                    with the current standards of the <hi rendition="#italic">Foreign Relations</hi>
+                    series. Numerous documents are partially or completely illegible; those that
+                    were known to have had such problems during the preparation of the microfiche
+                    were stamped: “Best copy available” and the editors have indicated gaps in
+                    legibility by inserting “[illegible in the original].” All brackets, except
+                    those indicating illegible or redacted text, are in the original.</p>
+                <p>During review, the editors discovered the following problems with images in the
+                    microfiche edition and made the following corrections:</p>
+                <p>Documents in the <ref target="#ch12">Nicaragua chapter</ref> (<ref
+                        target="#ni_d1">NI–1</ref> to <ref target="#ni_d26">NI–26</ref>) have
+                    received the normalized prefix of “NI–” to the document identifier rather than
+                    the mix of “NI–” and “HU–” prefixes that were previously used in the microfiche
+                    version.</p>
+                <p>Documents in the <ref target="#ch3">Chile chapter</ref> (<ref target="#ch_d1"
+                        >CH–1</ref> to <ref target="#ch_d41">CH–41</ref>) have received the
+                    normalized prefix of “CH–” to the document identifier rather than the mix of
+                    “CH–” and “CI–” prefixes that were previously used in the microfiche
+                    version.</p>
+                <p>Cross-references to the <hi rendition="#italic">Foreign Relations</hi> series
+                    have been corrected and expanded throughout the footnotes.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

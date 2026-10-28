@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d168" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Editorial Note</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d168"
+                    type="canonical"/>
+                <relatedItem target="../ch3.xml" type="prev"/>
+                <relatedItem target="d169.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d168</bibl>
+                <bibl type="frus-division-n">168</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">editorial-note</bibl>
+                <bibl type="frus-print-pages"><biblScope from="279" to="279" unit="page"
+                        >279</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1944-09-26T23:59:59-05:00" notBefore="1944-03-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Octagon1">Octagon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d168">
+
+                <pb facs="0335" n="279" sameAs="frus:frus1944Quebec/pg279"/>
+
+                <head><hi rendition="#italic">Editorial Note</hi></head>
+                <p>The document referred to as the President’s Log is a booklet entitled “The
+                    President’s Log for the 1944 Quebec Conference (<hi
+                            rendition="#small-caps">Octagon</hi>), September 9–21, 1944” (14
+                    regularly numbered pages of text, seven pages at the front bearing roman
+                    numerals, an unnumbered page designated Appendix A containing the text of the
+                    Communiqué, and 20 unnumbered pages of illustrations). This booklet, which was
+                    prepared by Lieutenant (jg) William M. Rigdon and approved by Rear Admiral
+                    Wilson Brown, contains a table of contents (not printed), a list of the
+                    President’s party,<anchor n="1" xml:id="d168-f1"/> the President’s itinerary
+                    (not printed), a foreword by Lieutenant George M. Elsey, the main body of the
+                    Log, and the text of the Conference Communiqué.<anchor n="2" xml:id="d168-f2"
+                    /></p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d168-f1" n="1" xml:id="d168-f1-content">
+                <p>Not printed. A substantially similar list of the party is given (although not in
+                    the same order) in William M. Rigdon, with James Derieux, <hi
+                        rendition="#italic">White House Sailor</hi> (Garden City: Doubleday and
+                    Company, 1962), pp. 280–281. That source includes three names which do not
+                    appear in the list of the President’s party in the Log: Colonel Richard Park,
+                    Jr., Captain Boyce Price, and Lieutenant Ogden S. Collins, Jr. The Log list, on
+                    the other hand, includes seven names not mentioned on the pages cited in <hi
+                        rendition="#italic">White House Sailor:</hi> Henry Morgenthau, Jr., D. L.
+                    Moorman, Herbert Harwood, Leo DeWaard, Merriman Smith, Douglas Cornell, and
+                    Robert G. Nixon. Morgenthau was included in the Log list of the President’s
+                    party because he accompanied Roosevelt from Washington to Hyde Park; for the
+                    message in which Roosevelt later asked Morgenthau to come to Quebec, see <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg43">p. 43</ref>.</p>
+            </note>
+            <note corresp="#d168-f2" n="2" xml:id="d168-f2-content">
+                <p>See <hi rendition="#italic">post</hi>, <ref target="#pg477">p. 477</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

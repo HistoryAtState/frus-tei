@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Supp01v02_d350-a4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Supp01v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Supp01v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Supp01v02/d350-a4"
+                    type="canonical"/>
+                <relatedItem target="d350-a3.xml" type="prev"/>
+                <relatedItem target="d350-a5.xml" type="next"/>
+                <relatedItem target="d350.xml" type="parent"/>
+                <relatedItem target="d350.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Supp01v02</bibl>
+                <bibl type="frus-division-id">d350-a4</bibl>
+                <bibl type="frus-division-n">350.4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1266" to="1267" unit="page"
+                        >1266–67</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Foreign Office</hi></placeName>
+                    <date calendar="gregorian" when="1918-05-29">
+                        <hi rendition="#italic">May 29, 1918</hi></date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Supp01v01/persons">
+                    <term ref="frus:frus1918Supp01v01/persons#p_CG1">Carlsson, G.</term>
+                    <term ref="frus:frus1918Supp01v01/persons#p_WM1">Wallenberg, Marcus</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d350-a4">
+
+                <pb facs="0432" n="1266" sameAs="frus:frus1918Supp01v02/pg1266"/>
+
+                <opener>
+                    <seg rendition="#center">[<hi rendition="#small-caps">acknowledgment of covering
+                            letter</hi>]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Foreign Office</hi></placeName>, <date
+                            calendar="gregorian" when="1918-05-29">
+                            <hi rendition="#italic">May 29, 1918</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Gentlemen</hi>: We have to acknowledge the receipt
+                    of your covering letter to the Swedish agreement of this date setting out
+                    arrangements <pb facs="0433" n="1267" xml:id="pg1267"/> made between us which
+                    are not specifically included in the text of the agreement.</p>
+                <p>Yours sincerely,</p>
+                <closer>
+                    <signed>
+                        <list>
+                            <item>
+                                
+                                    <hi rendition="#small-caps">Wrangel</hi>
+                                
+                            </item>
+                            <item>
+                                
+                                    <hi rendition="#small-caps">Marc. Wallenberg</hi>
+                                
+                            </item>
+                            <item>
+                                
+                                    <hi rendition="#small-caps">G. Carlsson</hi>
+                                
+                            </item>
+                        </list>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>To the Representatives of the Associated Governments.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

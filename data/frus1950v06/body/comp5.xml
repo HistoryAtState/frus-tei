@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v06_comp5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Indochina:</title>
+            </titleStmt>
+            <xi:include href="../frus1950v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1950v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1950v06/comp5"
+                    type="canonical"/>
+                <relatedItem target="comp4/ch5/d438.xml" type="prev"/>
+                <relatedItem target="comp5/ch6.xml" type="next"/>
+                <relatedItem target="../frus1950v06.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v06</bibl>
+                <bibl type="frus-division-id">comp5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="690" to="963" unit="page"
+                        >690–963</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1950-12-29T23:59:59-05:00" notBefore="1950-01-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp5">
+
+                <pb facs="0704" n="690" xml:id="pg690"/>
+
+                <head>Indochina:</head>
+
+                <xi:include href="comp5/ch6.xml" xpointer="ch6"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d291" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Translation.]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d291"
+                    type="canonical"/>
+                <relatedItem target="d290.xml" type="prev"/>
+                <relatedItem target="d292.xml" type="next"/>
+                <relatedItem target="../ch26.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d291</bibl>
+                <bibl type="frus-division-n">291</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="249" to="249" unit="page"
+                        >249</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Colon</hi></placeName>
+                    <date calendar="gregorian" when="1903-10-15"><hi rendition="#italic">October 15,
+                            1903</hi></date>
+                    <date notAfter="1903-10-15T23:59:59-05:00" notBefore="1903-10-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d291">
+
+                <pb facs="0333" n="249" sameAs="frus:frus1903/pg249"/>
+
+                <head>[Translation.]</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Colon</hi></placeName>, <date calendar="gregorian"
+                            when="1903-10-15"><hi rendition="#italic">October 15,
+                        1903</hi></date>.</dateline></opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Secretary of the Navy</hi>, <hi
+                        rendition="#italic">Washington, D. C.:</hi></p>
+                <p>Report is current to the effect that a revolution has broken out in the State of
+                    Cauca. Everything is quiet on the Isthmus unless a change takes place. On this
+                    account there is no necessity to remain here. Do not think it necessary to visit
+                    St. Andrews Island.</p>
+                <closer><signed><hi rendition="#small-caps">Hubbard</hi>,<lb/><hi
+                            rendition="#italic">Commanding Officer U. S. S.
+                    Nashville.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

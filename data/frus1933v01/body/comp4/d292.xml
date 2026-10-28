@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1933v01_d292" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../frus1933v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1933v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1933v01/d292"
+                    type="canonical"/>
+                <relatedItem target="d291.xml" type="prev"/>
+                <relatedItem target="d292-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1933v01</bibl>
+                <bibl type="frus-division-id">d292</bibl>
+                <bibl type="frus-division-n">292</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="398" to="400" unit="page"
+                        >398–400</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1933-03-28">March 28, 1933</date>
+                    <date notAfter="1933-03-28T23:59:59-05:00" notBefore="1933-03-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d292">
+
+                <pb facs="0500" n="398" sameAs="frus:frus1933v01/pg398"/>
+
+                <note rend="inline" type="source">740.0011 Four Power Pact/17</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the Secretary of State</hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1933-03-28">March 28, 1933</date>.</dateline>
+                </opener>
+                <p>The French Ambassador<anchor n="15" xml:id="d292-f1"/> came in and handed me a
+                    memorandum of three pages containing comment and views of the French Government
+                    relative to the recent MacDonald and Mussolini peace and disarmament proposals.
+                    I stated that I was especially glad to have the benefit of the French viewpoint
+                    to this partial extent at least.</p>
+                <closer>
+                    <signed>C[<hi rendition="#small-caps">ordell</hi>] H[<hi rendition="#small-caps"
+                            >ull</hi>]</signed>
+                </closer>
+
+
+                <xi:include href="d292-a1.xml" xpointer="d292-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d292-f1" n="15" xml:id="d292-f1-content">
+                <p>Paul Claudel.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

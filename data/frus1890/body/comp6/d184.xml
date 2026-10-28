@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d184" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Abbott to Mr.
+                            Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d184"
+                    type="canonical"/>
+                <relatedItem target="d183.xml" type="prev"/>
+                <relatedItem target="d184-a1.xml" type="next"/>
+                <relatedItem target="../comp6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d184</bibl>
+                <bibl type="frus-division-n">184</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="258" to="260" unit="page"
+                        >258–60</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Bogota</hi></placeName>
+                    <date calendar="gregorian" when="1890-08-14"><hi rendition="#italic">August</hi>
+                        14, 1890</date>
+                    <date notAfter="1890-08-14T23:59:59-05:00" notBefore="1890-08-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d184">
+
+                <pb facs="0362" n="258" sameAs="frus:frus1890/pg258"/>
+
+                <head><hi rendition="#italic">Mr. Abbott to Mr.
+                            Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Bogota</hi></placeName>, <date calendar="gregorian"
+                            when="1890-08-14"><hi rendition="#italic">August</hi> 14, 1890</date>.
+                        (Received September 13.)</dateline>
+                    <seg rendition="#float-left">No. 113.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I herewith transmit a copy and translation
+                    of so much of the report of the minister of foreign affairs as relates to the
+                    claim of the Boston Ice Company against this Government.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John T. Abbott.</hi></signed></closer>
+
+
+                <xi:include href="d184-a1.xml" xpointer="d184-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

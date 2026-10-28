@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v03mSupp_d640" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegram 2099 to Geneva</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v03mSupp/d640"
+                    type="canonical"/>
+                <relatedItem target="d639.xml" type="prev"/>
+                <relatedItem target="d641.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v03mSupp</bibl>
+                <bibl type="frus-division-id">d640</bibl>
+                <bibl type="frus-division-n">640</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1956-06-06">June 6, 1956, 6:45 p.m.</date>
+                    <date notAfter="1956-06-06T23:59:59-05:00" notBefore="1956-06-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v03mSupp/persons">
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_DJF_1">Dulles, John Foster</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_JUA_1">Johnson, U. Alexis</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_MWP_1">McConaughy, Walter
+                        P.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d640">
+
+                <pb facs="d639-1" n="1" sameAs="frus:frus1955-57v03mSupp/d639-1"/>
+
+                <head>640. Telegram 2099 to Geneva<anchor n="1" xml:id="d640-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1956-06-06">June 6, 1956, 6:45
+                        p.m.</date></dateline>
+                </opener>
+                <pb facs="d640-1" n="1" type="facsimile" xml:id="d640-1"/>
+                <p>2099. For Johnson.</p>
+                <p>Following Chinese note dated June 3 transmitted for your confidential
+                    background:</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Dulles</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d640-f1" n="1" type="source" xml:id="d640-f1-content">
+                <p>Source: Department of State, Central Files, 611.93/6–656. Confidential; Limit
+                    Distribution. Drafted by McConaughy.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

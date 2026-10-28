@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1882_d310-a4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../frus1882_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1882_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1882/d310-a4"
+                    type="canonical"/>
+                <relatedItem target="d310-a3.xml" type="prev"/>
+                <relatedItem target="d310-a5.xml" type="next"/>
+                <relatedItem target="d310.xml" type="parent"/>
+                <relatedItem target="d310.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1882</bibl>
+                <bibl type="frus-division-id">d310-a4</bibl>
+                <bibl type="frus-division-n">310.4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="428" to="428" unit="page"
+                        >428</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d310-a4">
+
+                <pb facs="0500" n="428" sameAs="frus:frus1882/pg428"/>
+
+                <opener><seg rendition="#center">[Inclosure 3.—Exhibit A.]</seg></opener>
+                <p>Know all men by these presents that I, the undersigned, sheriff of Pima County,
+                    Arizona Territory, do hereby appoint W. J. Ross a deputy sheriff in and for said
+                    county.</p>
+                <closer>
+                    <dateline rendition="#float-left">Witness my hand <date calendar="gregorian"
+                            when="1882-04-29">this 29th day of April, A. D. 1882</date>.</dateline>
+                    <lb/>
+                    <signed>R. H. PAUL,<lb/><hi rendition="#italic">Sheriff.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

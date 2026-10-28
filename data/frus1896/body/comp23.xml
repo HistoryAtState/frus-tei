@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1896_comp23" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Samoa</title>
+            </titleStmt>
+            <xi:include href="../frus1896_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1896_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1896/comp23"
+                    type="canonical"/>
+                <relatedItem target="comp22/ch87/d421.xml" type="prev"/>
+                <relatedItem target="comp23/ch88.xml" type="next"/>
+                <relatedItem target="../frus1896.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1896</bibl>
+                <bibl type="frus-division-id">comp23</bibl>
+                <bibl type="frus-division-n">23</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="531" to="561" unit="page"
+                        >531–61</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1897-01-16T23:59:59-05:00" notBefore="1896-03-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp23">
+
+                <pb facs="0625" n="531" xml:id="pg531"/>
+
+                <head>Samoa</head>
+
+
+                <xi:include href="comp23/ch88.xml" xpointer="ch88"/>
+                <xi:include href="comp23/ch89.xml" xpointer="ch89"/>
+            </div>
+        </body>
+    </text>
+</TEI>

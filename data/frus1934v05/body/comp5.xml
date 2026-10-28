@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1934v05_comp5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dominican Republic:</title>
+            </titleStmt>
+            <xi:include href="../frus1934v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1934v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1934v05/comp5"
+                    type="canonical"/>
+                <relatedItem target="comp4/ch9/d173.xml" type="prev"/>
+                <relatedItem target="comp5/ch10.xml" type="next"/>
+                <relatedItem target="../frus1934v05.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1934v05</bibl>
+                <bibl type="frus-division-id">comp5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="189" to="211" unit="page"
+                        >189–211</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1934-11-17T23:59:59-05:00" notBefore="1934-01-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp5">
+
+                <pb facs="0255" n="189" xml:id="pg189"/>
+
+                <head>Dominican Republic:</head>
+
+
+                <xi:include href="comp5/ch10.xml" xpointer="ch10"/>
+                <xi:include href="comp5/ch11.xml" xpointer="ch11"/>
+            </div>
+        </body>
+    </text>
+</TEI>

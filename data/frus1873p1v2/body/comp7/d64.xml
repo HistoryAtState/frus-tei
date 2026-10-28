@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v2_d64" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 370.</title>
+                <title type="subtitle">General <persName corresp="#p_DES1"
+                            type="from">Sickles</persName> to Mr. <persName corresp="#p_HF1"
+                            type="to">Fish</persName>.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1873p1v2/d64"
+                    type="canonical"/>
+                <relatedItem target="d63.xml" type="prev"/>
+                <relatedItem target="d65.xml" type="next"/>
+                <relatedItem target="../comp7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v2</bibl>
+                <bibl type="frus-division-id">d64</bibl>
+                <bibl type="frus-division-n">64</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="842" to="842" unit="page"
+                        >842</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Madrid</hi></placeName>
+                    <date calendar="gregorian" when="1872-12-29"><hi rendition="#italic"
+                            >December</hi> 29, 1872</date>
+                    <date notAfter="1872-12-29T23:59:59-05:00" notBefore="1872-12-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d64">
+
+                <pb facs="0212" n="842" sameAs="frus:frus1873p1v2/pg842"/>
+
+                <head>No. 370.<lb/><hi rendition="#italic">General <persName corresp="#p_DES1"
+                            type="from">Sickles</persName> to Mr. <persName corresp="#p_HF1"
+                            type="to">Fish</persName>.</hi></head>
+                <opener>
+                    <seg rendition="#center">[Telegram.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Madrid</hi></placeName>, <date calendar="gregorian"
+                            when="1872-12-29"><hi rendition="#italic">December</hi> 29,
+                        1872</date>.</dateline>
+                </opener>
+                <p>Since receipt of your cable of 23d, Martos has been ill. Minister of ultramar
+                    informed me that he had sent orders by cable and post to the authorities in Cuba
+                    to hasten action in all pending cases affecting citizens of the United States.
+                    Mr. <persName>Mosquera</persName> regards these cases as within the exclusive
+                    jurisdiction of the Washington commission, and has so instructed the
+                    captain-general of Cuba, at the same time directing him to execute promptly the
+                    orders and judgments of that tribunal.</p>
+                <closer>
+                    <signed><persName corresp="#p_DES1">SICKLES</persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d217" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President to the
+                            Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d217"
+                    type="canonical"/>
+                <relatedItem target="d216.xml" type="prev"/>
+                <relatedItem target="d218.xml" type="next"/>
+                <relatedItem target="../ch5subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d217</bibl>
+                <bibl type="frus-division-n">217</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="390" to="391" unit="page"
+                        >390–91</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-15">15 September 1944</date>
+                    <date notAfter="1944-09-15T23:59:59-05:00" notBefore="1944-09-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_MRin1">MR-in</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d217">
+
+                <pb facs="0450" n="390" sameAs="frus:frus1944Quebec/pg390"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">The President to the Secretary of State</hi><anchor n="1" xml:id="d217-f1"
+                    /></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-09-15">15 September 1944</date>.</dateline>
+                </opener>
+                <p>Memorandum from the President for the Secretary of State.</p>
+                <p>After many long conversations with the Prime Minister and Lord Cherwell, the
+                    general matter of post-war plans regarding industries <pb facs="0451" n="391"
+                        xml:id="pg391"/> lias been worked out as per the following memoranda. This
+                    seems eminently satisfactory and I think you will approve the general idea of
+                    not rehabilitating the Ruhr, Saar, etc.</p>
+                <p>[Here follows the text of the memorandum on the treatment of Germany which
+                    Roosevelt and Churchill had initialed at Quebec on September 15, 1944, <hi
+                        rendition="#italic">post</hi>, <ref target="#pg466">p. 466</ref>.]</p>
+                <p>I think that I have also worked out the locations of the occupying forces.<anchor
+                        n="2" xml:id="d217-f2"/></p>
+                <p>I am going to leave here Saturday evening<anchor n="3" xml:id="d217-f3"/> and go
+                    to Hyde Park where I will be joined Monday morning by the Prime Minister and his
+                    wife for a couple of days.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d217-f1" n="1" type="source" xml:id="d217-f1-content">
+                <p>Sent to the White House Map Room, where the message was designated <hi rendition="#small-caps">MR–in</hi>–157.</p>
+            </note>
+            <note corresp="#d217-f2" n="2" xml:id="d217-f2-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg365">p. 365</ref>.</p>
+            </note>
+            <note corresp="#d217-f3" n="3" xml:id="d217-f3-content">
+                <p>September 16.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

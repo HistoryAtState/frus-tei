@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d283" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Goodnow to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d283"
+                    type="canonical"/>
+                <relatedItem target="d282.xml" type="prev"/>
+                <relatedItem target="d284.xml" type="next"/>
+                <relatedItem target="../ch20subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d283</bibl>
+                <bibl type="frus-division-n">283</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="266" to="266" unit="page"
+                        >266</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Shanghai</hi></placeName>
+                    <date calendar="gregorian" when="1900-08-29"><hi rendition="#italic">August 29,
+                            1900</hi></date>
+                    <date notAfter="1900-08-29T23:59:59-05:00" notBefore="1900-08-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d283">
+
+                <pb facs="0364" n="266" sameAs="frus:frus1900/pg266"/>
+
+                <head><hi rendition="#italic">Mr. Goodnow to Mr.
+                            Hay.</hi></head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Shanghai</hi></placeName>, <date calendar="gregorian"
+                            when="1900-08-29"><hi rendition="#italic">August 29,
+                        1900</hi></date>.</dateline></opener>
+                <p>Japanese consul-general writes me Japanese Government has landed small force Amoy
+                    solely to protect consulate and foreign residents. French, English, German
+                    cruisers gone there.</p>
+                <closer><signed><hi rendition="#small-caps">Goodnow.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

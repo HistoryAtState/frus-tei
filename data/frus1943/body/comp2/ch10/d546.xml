@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d546" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in the Soviet Union (Standley) to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d546"
+                    type="canonical"/>
+                <relatedItem target="d545.xml" type="prev"/>
+                <relatedItem target="d547.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d546</bibl>
+                <bibl type="frus-division-n">546</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1185" to="1185" unit="page"
+                        >1185</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-28">August 28, 1943</date>
+                    <date notAfter="1943-08-28T23:59:59-05:00" notBefore="1943-08-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_White1">White</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d546">
+
+                <pb facs="1299" n="1185" sameAs="frus:frus1943/pg1185"/>
+
+                <note rend="inline" type="source">740.00119 European War 1939/1620: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in the Soviet Union</hi> (<hi rendition="#italic">Standley</hi>) <hi
+                        rendition="#italic">to the Secretary of State
+                    </hi><anchor n="1" xml:id="d546-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">u.s. urgent</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Moscow</hi></placeName>, <date
+                            calendar="gregorian" when="1943-08-28">August 28,
+                        1943</date>.</dateline>
+                </opener>
+                <p>1216. Personal and secret for the Secretary.</p>
+                <p>Your 749, August 26, 7 p.m., my 1201, August 27, 5 p.m.<anchor n="2"
+                        xml:id="d546-f2"/>
+                </p>
+                <p>The British Ambassador<anchor n="3" xml:id="d546-f3"/> has received a note from
+                    Molotov dated August 27 which reads in paraphrased translation as follows:
+                        <quote rend="blockquote">
+                        <p>“The Soviet Government has acquainted itself with the Italian surrender
+                                terms<anchor n="4" xml:id="d546-f4"/> which have been approved by
+                            the American and British Governments as transmitted by Ambassador Kerr
+                            and Ambassador Standley on August 26.</p>
+                        <p>The Soviet Government approves the terms in question. It empowers General
+                            Eisenhower to sign the terms in the negotiations with Castellano on
+                            behalf of the Soviet Government.</p>
+                        <p>In the present instance, it is the opinion of the Soviet Government that
+                            a special representative of the Soviet Union is not required when the
+                            Italian terms of surrender are signed by General Eisenhower.”</p>
+                    </quote>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Standley</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d546-f1" n="1" type="source" xml:id="d546-f1-content">
+                <p>At Hull’s request the body of this message, beginning “The British Ambassador”,
+                    was sent by the White House Map Boom to Roosevelt, who was then at Hyde Park, in
+                    telegram No. 
+                        <hi rendition="#small-caps">White</hi>
+                     148, August 29, 1943.</p>
+            </note>
+            <note corresp="#d546-f2" n="2" xml:id="d546-f2-content">
+                <p>Neither printed herein. For texts, see <ref target="frus1943v02#pg_356">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1943, vol. <hi
+                            rendition="#small-caps">ii</hi>, pp. 356</ref>–<ref
+                        target="frus1943v02#pg_357">357</ref>.</p>
+            </note>
+            <note corresp="#d546-f3" n="3" xml:id="d546-f3-content">
+                <p>Sir Archibald Clark Kerr.</p>
+            </note>
+            <note corresp="#d546-f4" n="4" xml:id="d546-f4-content">
+                <p>i.e., the “long” or “comprehensive” terms. See <hi rendition="#italic">ante</hi>,
+                        <ref target="#pg1161">p. 1161</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1888p2_comp1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Italy</title>
+            </titleStmt>
+            <xi:include href="../frus1888p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1888p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1888p2/comp1"
+                    type="canonical"/>
+                <relatedItem target="../front/papers.xml" type="prev"/>
+                <relatedItem target="comp1/d1.xml" type="next"/>
+                <relatedItem target="../frus1888p2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1888p2</bibl>
+                <bibl type="frus-division-id">comp1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1037" to="1058" unit="page"
+                        >1037–58</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1888-09-28T23:59:59-05:00" notBefore="1888-02-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp1">
+
+                <pb facs="0077" n="1037" xml:id="pg1037"/>
+
+                <head>Italy</head>
+
+
+
+
+
+
+
+
+                <xi:include href="comp1/d1.xml" xpointer="d1"/>
+                <xi:include href="comp1/d2.xml" xpointer="d2"/>
+                <xi:include href="comp1/d3.xml" xpointer="d3"/>
+                <xi:include href="comp1/d4.xml" xpointer="d4"/>
+                <xi:include href="comp1/d5.xml" xpointer="d5"/>
+                <xi:include href="comp1/d6.xml" xpointer="d6"/>
+                <xi:include href="comp1/ch1.xml" xpointer="ch1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

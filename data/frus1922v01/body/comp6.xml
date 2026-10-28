@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1922v01_comp6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bolivia:</title>
+            </titleStmt>
+            <xi:include href="../frus1922v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1922v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1922v01/comp6"
+                    type="canonical"/>
+                <relatedItem target="comp5/ch18/d375.xml" type="prev"/>
+                <relatedItem target="comp6/ch19.xml" type="next"/>
+                <relatedItem target="../frus1922v01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1922v01</bibl>
+                <bibl type="frus-division-id">comp6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="640" to="650" unit="page"
+                        >640–50</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1922-05-31T23:59:59-05:00" notBefore="1922-03-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp6">
+
+                <pb facs="0760" n="640" xml:id="pg640"/>
+
+                <head>Bolivia:</head>
+
+                <xi:include href="comp6/ch19.xml" xpointer="ch19"/>
+            </div>
+        </body>
+    </text>
+</TEI>

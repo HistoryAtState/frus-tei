@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v17_d154" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note From the Secretary of State to the President</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1955-57v17_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1955-57v17_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v17/d154"
+                    type="canonical"/>
+                <relatedItem target="d153.xml" type="prev"/>
+                <relatedItem target="d154-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v17</bibl>
+                <bibl type="frus-division-id">d154</bibl>
+                <bibl type="frus-division-n">154</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="280" to="283" unit="page"
+                        >280–83</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1957-02-26"><hi rendition="#italic">February
+                            26, 1957</hi></date>
+                    <date notAfter="1957-02-26T23:59:59-05:00" notBefore="1957-02-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v17/persons">
+                    <term ref="frus:frus1955-57v17/persons#p_DJF1">Dulles, John Foster</term>
+                    <term ref="frus:frus1955-57v17/persons#p_LHCJ1">Lodge, Henry Cabot, Jr.</term>
+                    <term ref="frus:frus1955-57v17/persons#p_MG2">Mollet, Guy</term>
+                    <term ref="frus:frus1955-57v17/persons#p_PC1">Pineau, Christian</term>
+                </keywords>
+                <keywords scheme="frus:frus1955-57v17/terms">
+                    <term ref="frus:frus1955-57v17/terms#t_CF1">CF</term>
+                    <term ref="frus:frus1955-57v17/terms#t_Gadel1">Gadel</term>
+                    <term ref="frus:frus1955-57v17/terms#t_USUN1">USUN</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d154">
+
+                <pb facs="0312" n="280" xml:id="pg280"/>
+
+                <head>154. Note From the Secretary of State to the President<anchor n="1" xml:id="d154-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1957-02-26"><hi rendition="#italic">February 26,
+                        1957</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Dear Mr. President</hi>: Here is the most recent
+                    draft of resolution, which was cabled up to Lodge last night,<anchor n="2" xml:id="d154-f2"/> and also a
+                    hastily dictated memorandum indicating roughly our present position.</p>
+                <p>Faithfully yours,</p>
+                <closer><signed><hi rendition="#bold">John Foster
+                                Dulles</hi><anchor n="3" xml:id="d154-f3"
+                    /></signed></closer>
+
+
+
+                <xi:include href="d154-a1.xml" xpointer="d154-a1"/>
+                <xi:include href="d154-a2.xml" xpointer="d154-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d154-f1" n="1" type="source" xml:id="d154-f1-content">
+                <p>Source: Department of State, Central Files, 320/2–2657. Secret. A marginal
+                    notation on the source text reads: “Mollet
+                    &amp; Pineau saw”. Mollet visited Washington February 26–27.
+                    Documentation concerning his visit is <hi rendition="#italic">Ibid.</hi>,
+                    Conference Files: Lot 62 D 181, CF 833A.</p>
+            </note>
+            <note corresp="#d154-f2" n="2" xml:id="d154-f2-content">
+                <p>According to Gadel 154 to USUN, February 26, the text of the draft
+                    resolution was telephoned and not cabled to Lodge during the evening of February 25. (<hi
+                        rendition="#italic">Ibid.</hi>, 674.84A/2–2657)</p>
+            </note>
+            <note corresp="#d154-f3" n="3" xml:id="d154-f3-content">
+                <p>Printed from a copy that bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

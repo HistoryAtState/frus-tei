@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d48" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 48</title>
+                <title type="subtitle">Prime Minister Churchill to President
+                            Truman
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d48"
+                    type="canonical"/>
+                <relatedItem target="d47.xml" type="prev"/>
+                <relatedItem target="d49.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d48</bibl>
+                <bibl type="frus-division-n">48</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="91" to="91" unit="page"
+                        >91</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-06-01">1 June 1945</date>
+                    <date notAfter="1945-06-01T23:59:59-05:00" notBefore="1945-06-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d48">
+
+                <pb facs="0223" n="91" sameAs="frus:frus1945Berlinv01/pg91"/>
+
+                <note rend="inline" type="source">
+                    Leahy Papers: Telegram</note>
+                <head>No. 48 <lb/>
+                    <hi rendition="#italic">Prime Minister Churchill to President Truman
+                    </hi><anchor n="1" xml:id="d48-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Extract]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-06-01">1 June 1945</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Truman.
+                    Personal and top secret. Number 64.</p>
+                <p>1. I have been much occupied the last few days by the formation of our very
+                    complicated government, which is now completed. I have made it clear that
+                    nothing in the British election will prevent the meeting of the three major
+                    powers at the earliest possible date.</p>
+                <p rendition="#center">. . . . . . .</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d48-f1" n="1" type="source" xml:id="d48-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

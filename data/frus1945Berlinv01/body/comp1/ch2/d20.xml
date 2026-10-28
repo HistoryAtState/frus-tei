@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 20</title>
+                <title type="subtitle">President Truman to Marshal Stalin
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d20"
+                    type="canonical"/>
+                <relatedItem target="../ch2.xml" type="prev"/>
+                <relatedItem target="d21.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="21" to="22" unit="page"
+                        >21–22</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-05-19">19 May 1945</date>
+                    <date notAfter="1945-05-19T23:59:59-05:00" notBefore="1945-05-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_HK1">Harriman, Kathleen</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_HHL1">Hopkins, Harry L.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_KGF1">Kennan, George F.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_MVM1">Molotov, Vyacheslav
+                        Mikhailovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20">
+
+                <pb facs="0153" n="21" sameAs="frus:frus1945Berlinv01/pg21"/>
+
+                <note rend="inline" type="source">
+                    Truman Papers: Telegram</note>
+                <head>No. 20 <lb/>
+                    <hi rendition="#italic">President Truman to Marshal
+                            Stalin
+                    </hi><anchor n="1" xml:id="d20-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-05-19">19 May 1945</date>.</dateline>
+                </opener>
+                <p>Personal and top secret from the President for Marshal Stalin, Number 267.</p>
+                <p>I am sure you are as aware as I am of the difficulty of dealing by exchange of
+                    messages with the complicated and important questions with which we are faced.
+                    Pending the possibility of our meeting I am therefore sending Mr. Harry Hopkins with Ambassador Harriman to Moscow in order that they may have
+                    an opportunity of discussing <pb facs="0154" n="22" xml:id="pg22"/> personally
+                    with you these matters. Following these talks Mr. Hopkins will return immediately to Washington in order to report
+                    personally to me. They plan to arrive in Moscow about May 26. I would appreciate
+                    your letting me know if this time is convenient for you.</p>
+                <closer>
+                    <signed>
+                        
+                            <hi rendition="#small-caps">Truman</hi>
+                        
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d20-f1" n="1" type="source" xml:id="d20-f1-content">
+                <p>Sent to the United States Naval Attaché, Moscow, via Navy channels. Paraphrase
+                    incorporated into note No. 266 of May 20 from George
+                        F. Kennan, American Chargé d’Affaires in the Soviet Union, to
+                    Foreign Commissar Molotov for delivery to
+                        Stalin.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

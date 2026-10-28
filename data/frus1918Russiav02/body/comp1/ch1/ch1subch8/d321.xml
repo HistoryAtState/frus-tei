@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav02_d321" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Consul at Vladivostok (Caldwell) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav02/d321"
+                    type="canonical"/>
+                <relatedItem target="d320.xml" type="prev"/>
+                <relatedItem target="d321-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav02</bibl>
+                <bibl type="frus-division-id">d321</bibl>
+                <bibl type="frus-division-n">321</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="270" to="271" unit="page"
+                        >270–71</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Vladivostok</hi></placeName>
+                    <date calendar="gregorian" when="1918-07-09"><hi rendition="#italic">July 9,
+                            1918</hi></date>
+                    <date notAfter="1918-07-09T23:59:59-05:00" notBefore="1918-07-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav02/persons">
+                    <term ref="frus:frus1918Russiav02/persons#p_CJK1">Caldwell, John K.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d321">
+
+                <pb facs="0360" n="270" sameAs="frus:frus1918Russiav02/pg270"/>
+
+                <note rend="inline" type="source">File No. 861.00/2486</note>
+                <head><hi rendition="#italic">The Consul at Vladivostok</hi> (<hi rendition="#italic"
+                        >Caldwell</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#float-left">No. 254</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Vladivostok</hi></placeName>, <date calendar="gregorian"
+                            when="1918-07-09"><hi rendition="#italic">July 9, 1918</hi></date>.
+                        <lb/> [<hi rendition="#italic">Received August 12.</hi>]</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to enclose herewith a copy
+                    of a proclamation issued by the commanders of Allied forces at Vladivostok,
+                    announcing that the city and its vicinity are thereby taken under the temporary
+                        <pb facs="0361" n="271" xml:id="pg271"/> protection of the Allied powers and
+                    that all measures will be taken for its defense against dangers both external
+                    and internal.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed><hi rendition="#small-caps">John K.
+                                Caldwell</hi></signed>
+                </closer>
+
+
+                <xi:include href="d321-a1.xml" xpointer="d321-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

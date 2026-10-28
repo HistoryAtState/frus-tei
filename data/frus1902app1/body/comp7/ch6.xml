@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app1_ch6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>SECOND CASE.</title>
+            </titleStmt>
+            <xi:include href="../../frus1902app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1902app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902app1/ch6"
+                    type="canonical"/>
+                <relatedItem target="ch5/s07.xml" type="prev"/>
+                <relatedItem target="ch6/s08.xml" type="next"/>
+                <relatedItem target="../comp7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app1</bibl>
+                <bibl type="frus-division-id">ch6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">chapter</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="348" to="Map 9" unit="page">348–Map
+                        9</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1901-06-17T23:59:59-05:00" notBefore="1894-07-10T16:30:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="ch6">
+
+                <pb facs="0372" n="348" xml:id="pg348"/>
+
+                <head>SECOND CASE.</head>
+
+                <pb facs="0379" n="[Map 9]" xml:id="pg-seq-0379-map-9"/>
+                <figure>
+                    <graphic url="figure_0379"/>
+                </figure>
+                <xi:include href="ch6/s08.xml" xpointer="s08"/>
+            </div>
+        </body>
+    </text>
+</TEI>

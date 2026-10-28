@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d1010" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d1010"
+                    type="canonical"/>
+                <relatedItem target="d1009.xml" type="prev"/>
+                <relatedItem target="d1011.xml" type="next"/>
+                <relatedItem target="../ch76.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d1010</bibl>
+                <bibl type="frus-division-n">1010</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="774" to="774" unit="page"
+                        >774</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Torreon</hi></placeName>
+                    <date calendar="gregorian" when="1915-10-22T18:00:00-06:36">
+                        <hi rendition="#italic">October 22, 1915—6 p.m.</hi>
+                    </date>
+                    <date notAfter="1915-10-22T19:36:00-05:00" notBefore="1915-10-22T19:36:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1010">
+
+                <pb facs="0890" n="774" sameAs="frus:frus1915/pg774"/>
+
+                <note rend="inline" type="source">File No. 812.00/16549.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Torreon</hi></placeName>, <date
+                            calendar="gregorian" when="1915-10-22T18:00:00-06:36">
+                            <hi rendition="#italic">October 22, 1915—6 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Recognition of this Government last night and today by Argentina, Brazil,
+                    Bolivia, Colombia,<anchor n="52" xml:id="d1010-f1"/> Uruguay, Guatemala. Today
+                    upon personal invitation Generals Carranza and Obregon reviewed about 20,000
+                    troops of General Obregon. Prior to review General Obregon received news fall of
+                    Guaymas, last port held by Villa.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">J. W. Belt.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1010-f1" n="52" xml:id="d1010-f1-content">
+                <p>This is probably a mistake made in transmission, and should read “Chile”—one of
+                    the six governments represented at the conference. Colombia had already
+                    recognized the de facto Government, on October 19 (File No. 812.00/16528).</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

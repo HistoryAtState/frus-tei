@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d1111" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d1111"
+                    type="canonical"/>
+                <relatedItem target="d1110.xml" type="prev"/>
+                <relatedItem target="d1112.xml" type="next"/>
+                <relatedItem target="../ch78.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d1111</bibl>
+                <bibl type="frus-division-n">1111</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="820" to="820" unit="page"
+                        >820</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                        <hi rendition="#italic">Nogales</hi></placeName>
+                    <date calendar="gregorian" when="1915-11-26T13:00:00-07:23">
+                        <hi rendition="#italic">November 26, 1915—1 p.m.</hi>
+                    </date>
+                    <date notAfter="1915-11-26T15:23:00-05:00" notBefore="1915-11-26T15:23:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1111">
+
+                <pb facs="0936" n="820" sameAs="frus:frus1915/pg820"/>
+
+                <note rend="inline" type="source">File No. 812.00/16861.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                            <hi rendition="#italic">Nogales</hi></placeName>, <date
+                            calendar="gregorian" when="1915-11-26T13:00:00-07:23">
+                            <hi rendition="#italic">November 26, 1915—1 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Nogales occupied by Carrancistas. Order restored.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Simpich.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

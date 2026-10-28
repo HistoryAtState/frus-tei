@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d948" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d948"
+                    type="canonical"/>
+                <relatedItem target="d947.xml" type="prev"/>
+                <relatedItem target="d949.xml" type="next"/>
+                <relatedItem target="../ch72.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d948</bibl>
+                <bibl type="frus-division-n">948</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="731" to="731" unit="page"
+                        >731</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1912-03-01T22:00:00-06:36">
+                        <hi rendition="#italic">March 1, 1912—10 p.m.</hi>
+                    </date>
+                    <date notAfter="1912-03-01T23:36:00-05:00" notBefore="1912-03-01T23:36:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d948">
+
+                <pb facs="0847" n="731" sameAs="frus:frus1912/pg731"/>
+
+                <note rend="inline" type="source">File No. 812.00/2994.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Mexico</hi></placeName>, <date
+                            calendar="gregorian" when="1912-03-01T22:00:00-06:36">
+                            <hi rendition="#italic">March 1, 1912—10 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>I answered Department’s March 1, 5 p.m., in my February 29, 7 p.m.
+                    Representations were made several days ago, and the best information I have now
+                    is that a military force is at Velardena and found the Americans all well.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Wilson.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

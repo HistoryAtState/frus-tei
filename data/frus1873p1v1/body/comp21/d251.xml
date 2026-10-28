@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v1_d251" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 248.</title>
+                <title type="subtitle">Mr. <persName corresp="#p_CEDL1"
+                            type="from">De Long</persName> to Mr. <persName corresp="#p_HF1"
+                            type="to">Fish</persName>.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1873p1v1/d251"
+                    type="canonical"/>
+                <relatedItem target="d250.xml" type="prev"/>
+                <relatedItem target="d251-a1.xml" type="next"/>
+                <relatedItem target="../comp21.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v1</bibl>
+                <bibl type="frus-division-id">d251</bibl>
+                <bibl type="frus-division-n">251</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="565" to="565" unit="page"
+                        >565</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Legation</hi>,<lb/><hi
+                            rendition="#italic">Japan</hi></placeName>
+                    <date calendar="gregorian" when="1872-12-21"><hi rendition="#italic"
+                            >December</hi> 21, 1872</date>
+                    <date notAfter="1872-12-21T23:59:59-05:00" notBefore="1872-12-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d251">
+
+                <pb facs="0651" n="565" xml:id="pg565"/>
+
+                <head>No. 248.<lb/><hi rendition="#italic">Mr. <persName corresp="#p_CEDL1"
+                            type="from">De Long</persName> to Mr. <persName corresp="#p_HF1"
+                            type="to">Fish</persName>.</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps">United
+                                States Legation</hi>,<lb/><hi rendition="#italic"
+                            >Japan</hi></placeName>, <date calendar="gregorian" when="1872-12-21"
+                                ><hi rendition="#italic">December</hi> 21, 1872</date>. (Received
+                        Jan. 23, 1873.)</dateline>
+                    <seg rendition="#float-left">No. 324.]</seg>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to advise you that on
+                    yesterday I received from the minister for foreign affairs of this empire a
+                    note, (inclosure No. 1) advising me that this government has changed its
+                    calendar and adopted the system in use in America and Europe; to which I this
+                    day replied by a note (inclosure No. 2) congratulating him upon this reform.</p>
+                <p>I have, &amp;c.,</p>
+                <closer>
+                    <signed>
+                        <persName corresp="#p_CEDL1">C. E. DE LONG.</persName>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d251-a1.xml" xpointer="d251-a1"/>
+                <xi:include href="d251-a2.xml" xpointer="d251-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

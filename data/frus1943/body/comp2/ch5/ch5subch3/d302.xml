@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d302" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The British Foreign Office
+                        to the British Consul General at Tangier (Gascoigne)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d302"
+                    type="canonical"/>
+                <relatedItem target="d301.xml" type="prev"/>
+                <relatedItem target="d303.xml" type="next"/>
+                <relatedItem target="../ch5subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d302</bibl>
+                <bibl type="frus-division-n">302</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="595" to="595" unit="page"
+                        >595</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-16">August 16, 1943</date>
+                    <date notAfter="1943-08-16T23:59:59-05:00" notBefore="1943-08-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d302">
+
+                <pb facs="0709" n="595" sameAs="frus:frus1943/pg595"/>
+
+                <note rend="inline" type="source">740.00119 EW/8–1743: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The British Foreign Office to
+                        the British Consul General at Tangier</hi> (<hi
+                            rendition="#italic">Gascoigne</hi>)<anchor n="1"
+                        xml:id="d302-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">most secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1943-08-16">August 16,
+                        1943</date>.</dateline>
+                </opener>
+                <p>You should tell Berio in answer to his questions<anchor n="2" xml:id="d302-f2"/>
+                    that he must present a document offering unconditional surrender and asking to
+                    be informed of the requirements which the Italian Government will have to sign
+                    in order to give effect to their surrender. This written offer of unconditional
+                    surrender need not be published at this stage. But Berio should understand that
+                    both this offer of surrender and terms signed by the Italian Government will
+                    have to be published immediately after signature of the armistice.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d302-f1" n="1" type="source" xml:id="d302-f1-content">
+                <p>Printed from a copy made available to Hull on August 17, 1943, by the British
+                    Embassy at Washington.</p>
+            </note>
+            <note corresp="#d302-f2" n="2" xml:id="d302-f2-content">
+                <p>See paragraph 4 of the telegram of August 14, 1943, from the British Consulate
+                    General at Tangier to the Foreign Office, <hi rendition="#italic">ante</hi>,
+                        <ref target="#pg586">p. 586</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

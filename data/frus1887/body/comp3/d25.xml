@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1887_d25" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 25.</title>
+                <title type="subtitle">Mr. Tree to Mr. Bayard.</title>
+            </titleStmt>
+            <xi:include href="../../frus1887_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1887_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1887/d25"
+                    type="canonical"/>
+                <relatedItem target="d24.xml" type="prev"/>
+                <relatedItem target="d25-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1887</bibl>
+                <bibl type="frus-division-id">d25</bibl>
+                <bibl type="frus-division-n">25</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="26" to="29" unit="page"
+                        >26–29</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Brussels</hi></placeName>
+                    <date calendar="gregorian" when="1886-12-13"><hi rendition="#italic"
+                            >December</hi> 13, 1886</date>
+                    <date notAfter="1886-12-13T23:59:59-05:00" notBefore="1886-12-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d25">
+
+                <pb facs="0120" n="26" sameAs="frus:frus1887/pg26"/>
+
+                <head>No. 25.<lb/><hi rendition="#italic">Mr. Tree
+                        to Mr. Bayard</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Brussels</hi></placeName>, <date calendar="gregorian"
+                            when="1886-12-13"><hi rendition="#italic">December</hi> 13, 1886</date>.
+                        (Received December 27.)</dateline>
+                    <seg rendition="#float-left">No. 178.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inform you that I have
+                    sent you by this mail, under separate cover as printed matter, three copies of
+                    the Bulletin Officiel de l’État Indépendant du Congo, No. 11, 2d année,
+                    1886.</p>
+                <p>The instructions to the agents of the State, with reference to their relations
+                    with foreign consuls (page 195 <hi rendition="#italic">et seq.</hi>), appear to
+                    be the most important document, so far as foreign countries are concerned, which
+                    this number contains.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Lambert Tree.</hi></signed></closer>
+
+
+                <xi:include href="d25-a1.xml" xpointer="d25-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

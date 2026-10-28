@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d45" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d45"
+                    type="canonical"/>
+                <relatedItem target="d44.xml" type="prev"/>
+                <relatedItem target="d46.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d45</bibl>
+                <bibl type="frus-division-n">45</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="28" to="28" unit="page"
+                        >28</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Hyde Park</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-01">1 September 1944</date>
+                    <date notAfter="1944-09-01T23:59:59-05:00" notBefore="1944-09-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Octagon1">Octagon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d45">
+
+                <pb facs="0082" n="28" sameAs="frus:frus1944Quebec/pg28"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt
+                        to Prime Minister Churchill</hi><anchor n="1"
+                        xml:id="d45-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Hyde
+                                Park</hi></placeName>,] <date calendar="gregorian" when="1944-09-01"
+                            >1 September 1944</date>.</dateline>
+                </opener>
+                <p>Number 614, personal and top secret, from the President to the Prime
+                    Minister.</p>
+                <p>So happy your temperature is normal but this is the time to go slow. Remember I
+                    am entirely free and can go to <hi
+                            rendition="#small-caps">Octagon</hi> literally any time if the
+                    doctors suggest a postponement for a week or several weeks. I suggest you make
+                        Clemmie<anchor n="2" xml:id="d45-f2"/> the arbiter. The armies keep rolling
+                    along and a few weeks of delay on our part will not slow them up.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d45-f1" n="1" type="source" xml:id="d45-f1-content">
+                <p>Sent to the White House Map Room; forwarded to the United States Naval Attaché,
+                    London, via Navy channels.</p>
+            </note>
+            <note corresp="#d45-f2" n="2" xml:id="d45-f2-content">
+                <p>Mrs. Churchill.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d187" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d187"
+                    type="canonical"/>
+                <relatedItem target="d186.xml" type="prev"/>
+                <relatedItem target="d188.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d187</bibl>
+                <bibl type="frus-division-n">187</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="138" to="138" unit="page"
+                        >138</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1917-09-07T17:00:00+08:00">
+                        <hi rendition="#italic">September 7, 1917, 5 p.m</hi></date>
+                    <date notAfter="1917-09-07T04:00:00-05:00" notBefore="1917-09-07T04:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d187">
+
+                <pb facs="0304" n="138" sameAs="frus:frus1917/pg138"/>
+
+                <note rend="inline" type="source">File No. 893.51/1804</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Peking</hi></placeName>, <date
+                            calendar="gregorian" when="1917-09-07T17:00:00+08:00">
+                            <hi rendition="#italic">September 7, 1917, 5 p.m</hi></date>.</dateline>
+                </opener>
+                <p>Minister of Finance informs me that he will begin on Monday negotiations with the
+                    representatives of Consortium for a loan of approximately 200,000,000 Mexican
+                    dollars for the purpose of currency reform exclusively, offering as security the
+                    surplus revenues from salt and maritime customs and the Government’s profits
+                    from seigniorage on the subsidiary coinage and from smelting of copper cash.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Reinsch</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

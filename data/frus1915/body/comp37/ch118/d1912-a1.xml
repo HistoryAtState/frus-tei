@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d1912-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915/d1912-a1"
+                    type="canonical"/>
+                <relatedItem target="d1912.xml" type="prev"/>
+                <relatedItem target="d1913.xml" type="next"/>
+                <relatedItem target="d1912.xml" type="parent"/>
+                <relatedItem target="d1912.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d1912-a1</bibl>
+                <bibl type="frus-division-n">1912.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1304" to="1305" unit="page"
+                        >1304–5</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Sublime Porte</hi>, <lb/>
+                        <hi rendition="#small-caps">Ministry of Foreign Affairs</hi>, <lb/>
+                        <hi rendition="#italic">Constantinople</hi></placeName>
+                    <date calendar="gregorian" when="1915-09-04">
+                        <hi rendition="#italic">September 4, 1915</hi></date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1912-a1">
+
+                <pb facs="1420" n="1304" sameAs="frus:frus1915/pg1304"/>
+
+                <opener>
+                    <seg rendition="#center">[Inclosure—Translation.]</seg>
+                </opener>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <seg rendition="#float-left">No. 79748/183.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Sublime Porte</hi>, <lb/>
+                            <hi rendition="#small-caps">Ministry of Foreign Affairs</hi>, <lb/>
+                            <hi rendition="#italic">Constantinople</hi></placeName>, <date
+                            calendar="gregorian" when="1915-09-04">
+                            <hi rendition="#italic">September 4, 1915</hi></date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">note verbale.</hi>
+                </p>
+                <p>The Ministry of Foreign Affairs has from time to time had the honor to receive
+                    communications in which it is alleged that the Capitulations are to <pb
+                        facs="1421" n="1305" xml:id="pg1305"/> remain in force, as also notes
+                    verbales in which claims are based upon these international documents, or in
+                    which are invoked articles of old treaties and principles of a régime now
+                    abolished.</p>
+                <p>The Imperial Ministry in its note of September 9, 1914, No. 53699/89,<anchor
+                        n="3" xml:id="d1912-f1"/> has already informed the Embassy of the United
+                    States of America of the decision of the Sublime Porte to abrogate the
+                    Capitulations and has at the same time made known its reasons for it.</p>
+                <p>It has affirmed and insisted upon this point of view in many subsequent
+                    communications, among others in the one of December 5, 1914, No.
+                        58181/137.<anchor n="4" xml:id="d1912-f2"/>
+                </p>
+                <p>As it thinks that it has sufficiently enlarged upon it, it considers all
+                    discussion of this point as exhausted, that the above decision of the Imperial
+                    Government is irrevocable and that since October 1, 1914, the European
+                    international public law must govern the relations of the states and foreign
+                    subjects with the Imperial authorities and Ottoman subjects.</p>
+                <p>Therefore it has the honor to notify the Embassy of the United States that if it
+                    receives any communication of the nature above indicated it will, to its regret,
+                    find itself in the painful necessity not to give it any effect and to pay no
+                    attention to the matter to which it refers.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1912-f1" n="3" xml:id="d1912-f1-content">
+                <p>
+                    <ref target="frus1914#pg_1092">For. Rel. 1914, p. 1092</ref>.</p>
+            </note>
+            <note corresp="#d1912-f2" n="4" xml:id="d1912-f2-content">
+                <p>Ante, inclosure with Mr. Morgenthau’s No. 325 of June 7, 1915.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

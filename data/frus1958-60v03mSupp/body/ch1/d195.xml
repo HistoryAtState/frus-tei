@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d195" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cabinet Paper</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d195"
+                    type="canonical"/>
+                <relatedItem target="d194-a1.xml" type="prev"/>
+                <relatedItem target="d195-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d195</bibl>
+                <bibl type="frus-division-n">195</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1959-09-10">September 10, 1959</date>
+                    <date notAfter="1959-09-10T23:59:59-05:00" notBefore="1959-09-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d195">
+
+                <pb facs="0924" n="819" xml:id="pg819"/>
+
+                <head>195. Cabinet Paper<anchor n="1" xml:id="d195-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left">C–59–78/2</seg>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1959-09-10">September 10,
+                        1959</date></dateline>
+                </opener>
+                <pb facs="d195-1" n="1" type="facsimile" xml:id="d195-1"/>
+                <p rendition="#center"><hi rendition="#italic">Proposed Policy on Strategic
+                        Materials</hi></p>
+                <p><hi rendition="#italic">For consideration</hi> by the Cabinet, attached is a
+                    revised brief and Cabinet paper prepared by the Director of the Office of Civil
+                    and Defense Mobilization following discussions with the Director, Bureau of the
+                    Budget; the Administrator, General Services Administration; and the Civil and
+                    Defense Mobilization Board.</p>
+                <p>This paper constitutes the proposed Administration position on stockpile
+                    disposals and contains six specific recommendations.</p>
+                <p>Principal changes include rewording of Recommendation 2 and deletion of
+                    Recommendation 6 from the August 20 paper.</p>
+                <p>The Office of Civil and Defense Mobilization staff report (classified SECRET),
+                    and Defense Mobilization Order V–7, entitled “General Policies for the Stockpile
+                    of Strategic and Critical Materials,” should be removed from the August 20 paper
+                    and attached to the revised version.</p>
+                <p>In considering the attached recommendations, the attention of Cabinet members is
+                    called to CP–58–78/1.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Robert Gray</hi>
+                        <lb/>
+                        <hi rendition="#italic">Secretary to the Cabinet</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d195-a1.xml" xpointer="d195-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d195-f1" n="1" type="source" xml:id="d195-f1-content">
+                <p>Source: Proposed policy on strategic materials. R-Privileged. 8 pp. Eisenhower
+                    Library, Whitman File, Cabinet Series.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

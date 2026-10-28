@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1922v01_comp3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Argentina:</title>
+            </titleStmt>
+            <xi:include href="../frus1922v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1922v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1922v01/comp3"
+                    type="canonical"/>
+                <relatedItem target="comp2/ch14/d352.xml" type="prev"/>
+                <relatedItem target="comp3/ch15.xml" type="next"/>
+                <relatedItem target="../frus1922v01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1922v01</bibl>
+                <bibl type="frus-division-id">comp3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="610" to="612" unit="page"
+                        >610–12</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1922-10-05T16:00:00-05:00" notBefore="1922-09-26T18:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp3">
+
+                <pb facs="0730" n="610" xml:id="pg610"/>
+
+                <head>Argentina:</head>
+
+                <xi:include href="comp3/ch15.xml" xpointer="ch15"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1936v02_comp12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Latvia:</title>
+            </titleStmt>
+            <xi:include href="../frus1936v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1936v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1936v02/comp12"
+                    type="canonical"/>
+                <relatedItem target="comp11/ch31/d312.xml" type="prev"/>
+                <relatedItem target="comp12/ch32.xml" type="next"/>
+                <relatedItem target="../frus1936v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1936v02</bibl>
+                <bibl type="frus-division-id">comp12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="379" to="389" unit="page"
+                        >379–89</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1936-12-23T23:59:59-05:00" notBefore="1936-04-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp12">
+
+                <pb facs="0478" n="379" xml:id="pg379"/>
+
+                <head>Latvia:</head>
+
+                <xi:include href="comp12/ch32.xml" xpointer="ch32"/>
+            </div>
+        </body>
+    </text>
+</TEI>

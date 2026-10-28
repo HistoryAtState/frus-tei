@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_d245" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/d245"
+                    type="canonical"/>
+                <relatedItem target="d244.xml" type="prev"/>
+                <relatedItem target="d246.xml" type="next"/>
+                <relatedItem target="../ch59.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">d245</bibl>
+                <bibl type="frus-division-n">245</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="205" to="205" unit="page"
+                        >205</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1910-05-12"><hi rendition="#italic">May 12,
+                            1910</hi></date>
+                    <date notAfter="1910-05-12T23:59:59-05:00" notBefore="1910-05-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d245">
+
+                <pb facs="0287" n="205" sameAs="frus:frus1911/pg205"/>
+
+                <note rend="inline" type="source">File No. 20437/85.</note>
+                <head>[Untitled]</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Berlin</hi></placeName>, <date calendar="gregorian"
+                            when="1910-05-12"><hi rendition="#italic">May 12,
+                        1910</hi></date>.</dateline></opener>
+                <p>Have had conference with the secretary of state for foreign affairs, who assures
+                    me that the American potash contracts will in no respect be invalidate or
+                    impaired by the new law, which as finally modified puts it in the hands of the
+                    Bundesrat to fix prices so that the existing contracts will not be affected.</p>
+                <closer><signed><hi rendition="#small-caps">Hill.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

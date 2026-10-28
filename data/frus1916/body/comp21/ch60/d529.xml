@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d529" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d529"
+                    type="canonical"/>
+                <relatedItem target="d528.xml" type="prev"/>
+                <relatedItem target="d530.xml" type="next"/>
+                <relatedItem target="../ch60.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d529</bibl>
+                <bibl type="frus-division-n">529</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="445" to="446" unit="page"
+                        >445–46</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Tokyo</hi></placeName>
+                    <date calendar="gregorian" when="1916-09-13T18:00:00+09:00">
+                        <hi rendition="#italic">September 13, 1916, 6 p.m.</hi>
+                    </date>
+                    <date notAfter="1916-09-13T04:00:00-05:00" notBefore="1916-09-13T04:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d529">
+
+                <pb facs="0521" n="445" sameAs="frus:frus1916/pg445"/>
+
+                <note rend="inline" type="source">File No. 761.94/166</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Tokyo</hi></placeName>, <date
+                            calendar="gregorian" when="1916-09-13T18:00:00+09:00">
+                            <hi rendition="#italic">September 13, 1916, 6 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Department’s telegram August 6, 4 p.m. Note from Foreign Office received today
+                    reads as follows in part: <quote rend="blockquote">
+                        <p>The Imperial Government desires to assure the American Government that
+                            the new convention is in no sense designed to repeal or to modify the
+                            provisions of Article two of the convention concluded between Japan and
+                            Russia on July 31, 1907<anchor n="5" xml:id="d529-f1"/> nor have the
+                            Imperial Government entertained for a moment any intention to depart
+                            from the policy to which they have avowedly <pb facs="0522" n="446"
+                                xml:id="pg446"/> committed themselves respecting the maintenance of
+                            the independence and territorial integrity of China as well as the
+                            principle of equal opportunity for the trade of all nations in that
+                            country. On the contrary, they are as strongly convinced as ever of the
+                            usefulness of that policy in the interest of the general peace and
+                            stability in the Far East which they have always very near their
+                            heart.</p>
+                    </quote>
+                </p>
+                <p>An accompanying letter says, for your confidential information, that the
+                    supplementary provisions are still under negotiations and that the question
+                    involved does not affect the position of American Government or citizens.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Guthrie</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d529-f1" n="5" xml:id="d529-f1-content">
+                <p>
+                    <ref target="frus1907p2#pg_765">For. Rel. 1907, p. 765</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1932v05" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1932v05_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1932v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1932v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1932v05"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1932v05" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1932v05/covers/frus1932v05.jpg"/>
+                        <extent>
+                            <measure quantity="30444" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:15:05.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1932v05" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1932v05/ebook/frus1932v05.epub"/>
+                        <extent>
+                            <measure quantity="1722278" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:15:05.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1932v05" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1932v05/ebook/frus1932v05.mobi"/>
+                        <extent>
+                            <measure quantity="2278453" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:15:05.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1948 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">hoover</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>argentina</term>
+                    <term>brazil</term>
+                    <term>chile</term>
+                    <term>cuba</term>
+                    <term>costa-rica</term>
+                    <term>el-salvador</term>
+                    <term>haiti</term>
+                    <term>honduras</term>
+                    <term>mexico</term>
+                    <term>nicaragua</term>
+                    <term>panama</term>
+                    <term>peru</term>
+                    <term>bolivia</term>
+                    <term>paraguay</term>
+                    <term>league-of-nations</term>
+                    <term>arms-embargoes</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>elections</term>
+                    <term>navassa-island</term>
+                    <term>grenada</term>
+                    <term>stimson-henry-lewis</term>
+                    <term>hoover-herbert</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1932v05" status="published" when="1948"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations<lb/>of the<lb/>United
+                        States<lb/>Diplomatic Papers</titlePart>
+                    <titlePart type="subseries">1932</titlePart>
+                    <titlePart type="volumeno">(In Five Volumes)<lb/>Volume V</titlePart>
+                    <titlePart type="volumetitle">The American Republics</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <publisher>United States<lb/>Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington:</pubPlace>
+                    <docDate>1948</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE <lb/>
+                    <hi rendition="#small-caps">Publication</hi> 3210<lb/>For sale by
+                    the<lb/>Superintendent of Documents, U. S. Government Printing
+                    Office,<lb/>Washington 25, D. C. Price $3.25 (Buckram)</docImprint>
+            </titlePage>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+            <xi:include href="front/toc-papers.xml" xpointer="toc-papers"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+            <xi:include href="body/comp12.xml" xpointer="comp12"/>
+            <xi:include href="body/comp13.xml" xpointer="comp13"/>
+            <pb facs="1069" n="[965]" xml:id="pg965"/>
+            <pb facs="1070" n="[966]" xml:id="pg966"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

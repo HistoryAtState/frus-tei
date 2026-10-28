@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917-72PubDip_terms" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Abbreviations and Terms</title>
+            </titleStmt>
+            <xi:include href="../frus1917-72PubDip_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1917-72PubDip_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1917-72PubDip/terms"
+                    type="canonical"/>
+                <relatedItem target="sources.xml" type="prev"/>
+                <relatedItem target="persons.xml" type="next"/>
+                <relatedItem target="../frus1917-72PubDip.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917-72PubDip</bibl>
+                <bibl type="frus-division-id">terms</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">index</bibl>
+                <bibl type="frus-print-pages"><biblScope from="XV" to="XV" unit="page"
+                        >XV</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1919-06-01T17:59:59-05:00" notBefore="1917-08-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="terms">
+
+                <pb facs="0017" n="XV" xml:id="pgXV"/>
+
+                <head>Abbreviations and Terms</head>
+                <list type="terms">
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_AEF_1">AEF</term>,</hi> American Expeditionary
+                        Forces</item>
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_Col_1">Col.</term>,</hi> Colonel</item>
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_Compub_1">Compub</term>,</hi> Committee on Public
+                        Information</item>
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_CPI_1">CPI</term>,</hi> Committee on Public
+                        Information</item>
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_GHQ_1">GHQ</term>,</hi> general headquarters</item>
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_MIB_1">MIB</term>,</hi> Military Intelligence Branch,
+                        Department of War General Staff</item>
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_MID_1">MID</term>,</hi> Military Intelligence Division,
+                        Department of War General Staff</item>
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_PHP_1">P.H.P.</term>,</hi> Philip H. Patchin</item>
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_Rcvd_1">Rc’d</term>, <term sameAs="#t_Rcvd_2"
+                                >rec’ved</term>,</hi> received</item>
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_RG_1">RG</term>,</hi> record group</item>
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_US_1">U.S.</term>,</hi> United States</item>
+                    <item>
+                        <hi rendition="#bold">
+                            <term sameAs="#t_YMCA_1">Y.M.C.A.</term>,</hi> Young Men’s Christian
+                        Association</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <list type="frus-terms-list">
+            <item xml:id="t_AEF_1"><term>AEF</term><gloss>American Expeditionary
+                Forces</gloss></item>
+            <item xml:id="t_Col_1"><term>Col.</term><gloss>Colonel</gloss></item>
+            <item xml:id="t_Compub_1"><term>Compub</term><gloss>Committee on Public
+                    Information</gloss></item>
+            <item xml:id="t_CPI_1"><term>CPI</term><gloss>Committee on Public
+                Information</gloss></item>
+            <item xml:id="t_GHQ_1"><term>GHQ</term><gloss>general headquarters</gloss></item>
+            <item xml:id="t_MIB_1"><term>MIB</term><gloss>Military Intelligence Branch, Department
+                    of War General Staff</gloss></item>
+            <item xml:id="t_MID_1"><term>MID</term><gloss>Military Intelligence Division, Department
+                    of War General Staff</gloss></item>
+            <item xml:id="t_PHP_1"><term>P.H.P.</term><gloss>Philip H. Patchin</gloss></item>
+            <item xml:id="t_Rcvd_1"><term>Rc’d</term><gloss>received</gloss></item>
+            <item xml:id="t_Rcvd_2"><term>rec’ved</term><gloss>received</gloss></item>
+            <item xml:id="t_RG_1"><term>RG</term><gloss>record group</gloss></item>
+            <item xml:id="t_US_1"><term>U.S.</term><gloss>United States</gloss></item>
+            <item xml:id="t_YMCA_1"><term>Y.M.C.A.</term><gloss>Young Men’s Christian
+                    Association</gloss></item>
+        </list>
+    </standOff>
+</TEI>

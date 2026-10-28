@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v08" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1958-60v08_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1958-60v08_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1958-60v08_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1958-60v08"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1958-60v08" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1958-60v08/covers/frus1958-60v08.jpg"/>
+                        <extent>
+                            <measure quantity="31433" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:35:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1958-60v08" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1958-60v08/ebook/frus1958-60v08.epub"/>
+                        <extent>
+                            <measure quantity="1639649" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:35:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1958-60v08" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1958-60v08/ebook/frus1958-60v08.mobi"/>
+                        <extent>
+                            <measure quantity="2424520" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:35:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released 1993 as printed book</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">eisenhower</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>germany</term>
+                    <term>europe</term>
+                    <term>united-kingdom</term>
+                    <term>france</term>
+                    <term>alliances</term>
+                    <term>border-administration</term>
+                    <term>peace</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>united-nations</term>
+                    <term>italy</term>
+                    <term>foreign-economic-policy</term>
+                    <term>turkey</term>
+                    <term>warfare</term>
+                    <term>foreign-aid</term>
+                    <term>eisenhower-dwight-d</term>
+                    <term>poland</term>
+                    <term>czech-republic</term>
+                    <term>nuclear-weapons</term>
+                    <term>dulles-john-foster</term>
+                    <term>austria</term>
+                    <term>denmark</term>
+                    <term>netherlands</term>
+                    <term>european-economic-community</term>
+                    <term>norway</term>
+                    <term>belgium</term>
+                    <term>national-security-council</term>
+                    <term>arms-control-and-disarmament</term>
+                    <term>self-determination</term>
+                    <term>greece</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>hungary</term>
+                    <term>herter-christian-archibald</term>
+                    <term>quarantine-blockade</term>
+                    <term>russia</term>
+                    <term>european-advisory-commission</term>
+                    <term>war-of-1812</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1958-60v08" status="published" when="1993"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1958–1960</titlePart>
+                    <titlePart type="volumenumber">Volume VIII</titlePart>
+                    <titlePart type="volume">Berlin Crisis 1958–1959</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline>Editors: Charles S. Sampson</byline>
+                <byline>General Editor: Glenn W. LaFantasie</byline>
+                <docImprint>
+                    <publisher>Office of the Historian<lb/>Bureau of Public Affairs<lb/>U.S.
+                        Department of State</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1993</docDate>
+                    <pb facs="0002" n="[II]" xml:id="pgII"/> U.S. DEPARTMENT OF STATE<lb/>OFFICE OF
+                    THE HISTORIAN<lb/>BUREAU OF PUBLIC AFFAIRS<lb/>For sale by the U.S. Government
+                    Printing Office Superintendent of Documents, Mail Stop: SSOP, Washington, DC
+                    20402–9328 ISBN 0–16-038052–9</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

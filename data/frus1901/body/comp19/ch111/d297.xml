@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d297" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Buck to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d297"
+                    type="canonical"/>
+                <relatedItem target="../ch111.xml" type="prev"/>
+                <relatedItem target="d297-a1.xml" type="next"/>
+                <relatedItem target="../ch111.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d297</bibl>
+                <bibl type="frus-division-n">297</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="313" to="315" unit="page"
+                        >313–15</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Legation</hi>,<lb/><hi
+                            rendition="#italic">Tokyo, Japan</hi></placeName>
+                    <date calendar="gregorian" when="1899-07-29"><hi rendition="#italic">July 29,
+                            1899</hi></date>
+                    <date notAfter="1899-07-29T23:59:59-05:00" notBefore="1899-07-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d297">
+
+                <pb facs="0393" n="313" sameAs="frus:frus1901/pg313"/>
+
+                <head><hi rendition="#italic">Mr. Buck to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >United States Legation</hi>,<lb/><hi rendition="#italic">Tokyo,
+                                Japan</hi></placeName>, <date calendar="gregorian" when="1899-07-29"
+                                ><hi rendition="#italic">July 29, 1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 338.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith
+                    translations of various new regulations and notifications issued by the Japanese
+                    Government recently, which are of interest as relating to foreigners.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">A. E. Buck.</hi></signed></closer>
+
+
+
+                <xi:include href="d297-a1.xml" xpointer="d297-a1"/>
+                <xi:include href="d297-a2.xml" xpointer="d297-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

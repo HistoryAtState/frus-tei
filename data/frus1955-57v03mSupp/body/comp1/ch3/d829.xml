@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v03mSupp_d829" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegram 145 from Prague</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v03mSupp/d829"
+                    type="canonical"/>
+                <relatedItem target="d828-a2.xml" type="prev"/>
+                <relatedItem target="d830.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v03mSupp</bibl>
+                <bibl type="frus-division-id">d829</bibl>
+                <bibl type="frus-division-n">829</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Prague</placeName>
+                    <date calendar="gregorian" when="1957-09-17">September 17, 1957, 4 p.m.</date>
+                    <date notAfter="1957-09-17T23:59:59-05:00" notBefore="1957-09-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v03mSupp/persons">
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_JUA_1">Johnson, U. Alexis</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_MEW_1">Martin, Edwin W.</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_WP_1">Wang Ping-nan</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d829">
+
+                <pb facs="d828-5" n="5" sameAs="frus:frus1955-57v03mSupp/d828-5"/>
+
+                <head>829. Telegram 145 from Prague<anchor n="1" xml:id="d829-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Prague</placeName>, <date
+                            calendar="gregorian" when="1957-09-17">September 17, 1957, 4
+                        p.m.</date></dateline>
+                </opener>
+                <pb facs="d829-1" n="1" type="facsimile" xml:id="d829-1"/>
+                <p>145. I have now received from Geneva text Wang’s September 16 press statement which I understand has been
+                    transmitted Department by USIS Geneva. My opinion statement does not introduce
+                    any new element and requires no reply except recommend Department reply to
+                    inquiries on his charges concerning Chinese in US by referring fact no
+                    representations yet received from Indian Embassy on single case alleged
+                    obstruction.</p>
+                <p>While CHICOMS now demanding US recognition principle “equality and reciprocity”
+                    with respect this matter, his statement strengthens my belief they not
+                    necessarily insisting on one for one exchange.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Johnson</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d829-f1" n="1" type="source" xml:id="d829-f1-content">
+                <p>Source: Department of State, Central Files, 611.93/9–1757. Confidential;
+                    Priority. Repeated to London as telegram 8 to pass to Martin.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

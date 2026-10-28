@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v1_d248-a11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title><persName type="from">Oye Takee</persName> to Mr.
+                            <persName corresp="#p_CEDL1" type="to">De Long</persName>.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1873p1v1/d248-a11"
+                    type="canonical"/>
+                <relatedItem target="d248-a10.xml" type="prev"/>
+                <relatedItem target="d248-a12.xml" type="next"/>
+                <relatedItem target="d248.xml" type="parent"/>
+                <relatedItem target="d248.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v1</bibl>
+                <bibl type="frus-division-id">d248-a11</bibl>
+                <bibl type="frus-division-n">248.11</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="561" to="561" unit="page"
+                        >561</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Kanagawa Kencho</hi></placeName>
+                    <date calendar="gregorian" when="1872-11-12"><hi rendition="#italic"
+                            >November</hi> 12, 1872</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d248-a11">
+
+                <pb facs="0647" n="561" sameAs="frus:frus1873p1v1/pg561"/>
+
+                <opener>
+                    <seg rendition="#center">[Inclosure 11.—Translation.]</seg>
+                </opener>
+                <head>
+                    <hi rendition="#italic"><persName type="from">Oye Takee</persName> to Mr.
+                            <persName corresp="#p_CEDL1" type="to">De Long</persName>.</hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Kanagawa Kencho</hi></placeName>, <date calendar="gregorian"
+                            when="1872-11-12"><hi rendition="#italic">November</hi> 12,
+                        1872</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Your communication of the 11th instant,
+                    with inclosure from Captain Trask, of the bark Maria Luz, recommending the
+                    discharge and payment of the crew of that vessel, which is approved by yourself,
+                    is received and considered.</p>
+                <p>The reason given for the discharge of the crew seems to be good, and the course
+                    suggested therefore approved. You will therefore please notify Captain Trask to
+                    appear with the crew at this kencho to-day at 2 o’clock p.m., when they may,
+                    upon being paid, be discharged.</p>
+                <p>I am, &amp;c.,</p>
+                <closer>
+                    <signed><persName>OYE TAKEE</persName>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

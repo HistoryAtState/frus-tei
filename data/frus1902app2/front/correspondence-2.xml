@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app2_correspondence-2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../frus1902app2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1902app2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1902app2/correspondence-2"
+                    type="canonical"/>
+                <relatedItem target="correspondence-1.xml" type="prev"/>
+                <relatedItem target="toc.xml" type="next"/>
+                <relatedItem target="../frus1902app2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app2</bibl>
+                <bibl type="frus-division-id">correspondence-2</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="3" to="3" unit="page"
+                    >3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1902-12-06T23:59:59-05:00" notBefore="1902-12-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="correspondence-2">
+
+                <pb facs="0011" n="3" sameAs="frus:frus1902app2/pg3"/>
+
+                <head>[Untitled]</head>
+                <p rendition="#flush">The <hi rendition="#small-caps">President</hi>:</p>
+                <p>The Secretary of State, to whom was referred the resolution of the Senate of
+                    December 4, 1902, requesting the President, if not incompatible with the public
+                    interest, to send to the Senate the report and accompanying papers of the agent
+                    of the United States in the case of the United States <hi rendition="#italic"
+                        >v</hi>. Mexico before the Permanent Court of Arbitration under The Hague
+                    Convention,” has the honor to lay before the President a copy of the agent’s
+                    report with pleadings, appendix, exhibits, briefs, and record of the entire
+                    proceedings.</p>
+                <p>Respectfully submitted.</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><hi rendition="#small-caps">Department of
+                            State</hi>,<lb/><placeName><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1902-12-06"><hi rendition="#italic">December 6,
+                        1902</hi></date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

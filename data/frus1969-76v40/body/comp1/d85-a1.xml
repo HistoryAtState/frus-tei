@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v40_d85-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tab A</title>
+            </titleStmt>
+            <xi:include href="../../frus1969-76v40_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1969-76v40_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v40/d85-a1"
+                    type="canonical"/>
+                <relatedItem target="d85.xml" type="prev"/>
+                <relatedItem target="d85-a2.xml" type="next"/>
+                <relatedItem target="d85.xml" type="parent"/>
+                <relatedItem target="d85.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v40</bibl>
+                <bibl type="frus-division-id">d85-a1</bibl>
+                <bibl type="frus-division-n">85.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="236" to="237" unit="page"
+                        >236–37</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1970-06-01">June 1, 1970</date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v40/persons">
+                    <term ref="frus:frus1969-76v40/persons#p_BE1">Bahr, Egon</term>
+                    <term ref="frus:frus1969-76v40/persons#p_KHA1">Kissinger, Henry A.</term>
+                    <term ref="frus:frus1969-76v40/persons#p_NRM1">Nixon, Richard M.</term>
+                    <term ref="frus:frus1969-76v40/persons#p_SW1">Scheel, Walter</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v40/terms">
+                    <term ref="frus:frus1969-76v40/terms#t_NSC1">NSC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d85-a1">
+
+                <pb facs="0267" n="236" sameAs="frus:frus1969-76v40/pg236"/>
+
+                <head>Tab A</head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1970-06-01">June 1, 1970</date>.</dateline></opener>
+                <p>
+                    <hi rendition="#bold">Message From the President’s Assistant for National
+                        Security Affairs (Kissinger) to the
+                        German State Secretary for Foreign, Defense, and German Policy (Bahr)</hi><anchor n="6" xml:id="d85-f1"/>
+                </p>
+                <p>Thank you for your messages of May 8 and 25. As regards the former, in which you
+                    referred to the Cambodian situation, you will probably have seen the President’s
+                    recent letter to the Chancellor. We have appreciated the Chancellor’s
+                    understanding and the way in which he dealt with the pressures that developed in
+                    Germany on this subject. <pb facs="0268" n="237" xml:id="pg237"/> The military
+                    operations continue to go well and we will proceed with our plans as indicated
+                    in the President’s statements.</p>
+                <p>I was glad to have your observations on the Moscow talks, supplementing the
+                    account given by Foreign Minister Scheel
+                    in Rome. I understand that it was agreed in Rome to have the Bonn group examine
+                    more closely the implications for the Western position in Berlin and for
+                    four-power responsibilities in Germany. This is important so that we can be sure
+                    that all of us are fully aware of any problems that might arise.</p>
+                <p>I greatly appreciate your messages. Best regards.</p>
+                <closer>
+                    <signed>
+                        
+                            <hi rendition="#bold">Henry Kissinger</hi>
+                        <anchor n="7" xml:id="d85-f2"/>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d85-f1" n="6" xml:id="d85-f1-content">
+                <p>The date of the message is taken from another copy. (National Archives, Nixon Presidential Materials, NSC Files, Box 423, Backchannel Files, Backchannel
+                    Messages, 1970, Europe, Mideast, Latin America)</p>
+            </note>
+            <note corresp="#d85-f2" n="7" xml:id="d85-f2-content">
+                <p>Printed from a copy that bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1910_comp9" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Colombia</title>
+            </titleStmt>
+            <xi:include href="../frus1910_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1910_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1910/comp9"
+                    type="canonical"/>
+                <relatedItem target="comp8/ch37/d356.xml" type="prev"/>
+                <relatedItem target="comp9/ch38.xml" type="next"/>
+                <relatedItem target="../frus1910.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1910</bibl>
+                <bibl type="frus-division-id">comp9</bibl>
+                <bibl type="frus-division-n">9</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="361" to="408" unit="page"
+                        >361–408</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1910-05-13T23:59:59-05:00" notBefore="1909-01-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp9">
+
+                <pb facs="0473" n="361" xml:id="pg361"/>
+
+                <head>Colombia</head>
+
+                <xi:include href="comp9/ch38.xml" xpointer="ch38"/>
+            </div>
+        </body>
+    </text>
+</TEI>

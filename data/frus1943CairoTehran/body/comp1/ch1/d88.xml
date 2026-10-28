@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d88" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d88"
+                    type="canonical"/>
+                <relatedItem target="d87.xml" type="prev"/>
+                <relatedItem target="d89.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d88</bibl>
+                <bibl type="frus-division-n">88</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="63" to="63" unit="page"
+                        >63</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-02">2 November 1943</date>
+                    <date notAfter="1943-11-02T23:59:59-05:00" notBefore="1943-11-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CRG1">Casey, Richard
+                        Gardiner</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_KAC1">Kirk, Alexander C.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_AdmiralQ1">Admiral Q.</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_ColonelWarden1">Colonel
+                        Warden</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d88">
+
+                <pb facs="0155" n="63" xml:id="pg63"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President Roosevelt</hi><anchor n="1" xml:id="d88-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1943-11-02">2 November 1943</date>.</dateline>
+                </opener>
+                <p>Former Naval Person to President
+                        Roosevelt Number 486 personal and
+                    most secret.</p>
+                <p>As I expected, Casey proposes that Admiral Q should use United States
+                        Minister’s<anchor n="2" xml:id="d88-f2"/> villa, and Colonel Warden
+                    Casey’s villa, both handy and in the
+                    Pyramid District. There are several additional satisfactory villas for others,
+                    and I have got the option on Tutankhamen’s tomb for Celestes. Everything can be
+                    made thoroughly satisfactory and secure and we shall all be together in the
+                    Pyramid District. All arrangements are going forward to be in readiness from the
+                    twentieth onwards. Your own Minister is arranging everything for your personal
+                    convenience. All will be smooth and easy in Cairo and I doubt not excellent
+                    arrangement can be made in Malta where several palaces are undamaged.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d88-f1" n="1" type="source" xml:id="d88-f1-content">
+                <p>Apparently sent to Washington via military channels, and forwarded by the White
+                    House Map Room to Roosevelt at Hyde
+                    Park.</p>
+            </note>
+            <note corresp="#d88-f2" n="2" xml:id="d88-f2-content">
+                <p>Alexander C. Kirk.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

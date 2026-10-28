@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1886_comp23" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sweden and Norway</title>
+            </titleStmt>
+            <xi:include href="../frus1886_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1886_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1886/comp23"
+                    type="canonical"/>
+                <relatedItem target="comp22/ch14/d435-a1.xml" type="prev"/>
+                <relatedItem target="comp23/d436.xml" type="next"/>
+                <relatedItem target="../frus1886.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1886</bibl>
+                <bibl type="frus-division-id">comp23</bibl>
+                <bibl type="frus-division-n">23</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="838" to="845" unit="page"
+                        >838–45</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1886-11-01T23:59:59-05:00" notBefore="1885-12-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp23">
+
+                <pb facs="0922" n="838" sameAs="frus:frus1886/pg838"/>
+
+                <head>Sweden and Norway</head>
+
+
+
+
+
+
+
+
+                <xi:include href="comp23/d436.xml" xpointer="d436"/>
+                <xi:include href="comp23/d437.xml" xpointer="d437"/>
+                <xi:include href="comp23/d438.xml" xpointer="d438"/>
+                <xi:include href="comp23/d439.xml" xpointer="d439"/>
+                <xi:include href="comp23/d440.xml" xpointer="d440"/>
+                <xi:include href="comp23/d441.xml" xpointer="d441"/>
+                <xi:include href="comp23/d442.xml" xpointer="d442"/>
+            </div>
+        </body>
+    </text>
+</TEI>

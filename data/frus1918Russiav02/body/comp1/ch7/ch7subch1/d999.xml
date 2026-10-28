@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav02_d999" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Russia (Francis) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav02/d999"
+                    type="canonical"/>
+                <relatedItem target="d998.xml" type="prev"/>
+                <relatedItem target="d999-a1.xml" type="next"/>
+                <relatedItem target="../ch7subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav02</bibl>
+                <bibl type="frus-division-id">d999</bibl>
+                <bibl type="frus-division-n">999</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="833" to="835" unit="page"
+                        >833–35</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Archangel</hi></placeName>
+                    <date calendar="gregorian" when="1918-09-02"><hi rendition="#italic">September
+                            2, 1918</hi></date>
+                    <date notAfter="1918-09-02T23:59:59-05:00" notBefore="1918-09-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav02/persons">
+                    <term ref="frus:frus1918Russiav02/persons#p_FDR1">Francis, David R.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d999">
+
+                <pb facs="0923" n="833" sameAs="frus:frus1918Russiav02/pg833"/>
+
+                <note rend="inline" type="source">File No. 861.00/2972</note>
+                <head><hi rendition="#italic">The Ambassador in Russia</hi> (<hi rendition="#italic"
+                        >Francis</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Archangel</hi></placeName>, <date calendar="gregorian"
+                            when="1918-09-02"><hi rendition="#italic">September 2, 1918</hi></date>.
+                        <lb/> [<hi rendition="#italic">Received October 15.</hi>]</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to enclose herewith at the
+                    request of the Lettish Provisional National Committee, Department of Internal
+                    [Foreign?] Affairs, at Petrograd the following documents: <list>
+                        <label>(1)</label>
+                        <item>Protestation du Conseil National Letton;</item>
+                        <label>(2)</label>
+                        <item>Politique allemande générale en Lettonie et Conseil National Letton,
+                            with one appendix;<anchor n="1" xml:id="d999-f1"/></item>
+                        <label>(3)</label>
+                        <item>Situation économique de la Lettonie, with two appendixes.<anchor n="1"
+                                xml:id="d999-f2"/></item>
+                    </list></p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed><hi rendition="#small-caps">David R.
+                                Francis</hi></signed>
+                </closer>
+
+
+                <xi:include href="d999-a1.xml" xpointer="d999-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d999-f1" n="1" xml:id="d999-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d999-f2" n="1" xml:id="d999-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

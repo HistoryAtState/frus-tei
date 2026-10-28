@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1929v03_comp14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Netherlands:</title>
+            </titleStmt>
+            <xi:include href="../frus1929v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1929v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1929v03/comp14"
+                    type="canonical"/>
+                <relatedItem target="comp13/ch42/d612.xml" type="prev"/>
+                <relatedItem target="comp14/ch43.xml" type="next"/>
+                <relatedItem target="../frus1929v03.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1929v03</bibl>
+                <bibl type="frus-division-id">comp14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="539" to="548" unit="page"
+                        >539–48</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1929-11-26T23:59:59-05:00" notBefore="1929-02-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp14">
+
+                <pb facs="0657" n="539" xml:id="pg539"/>
+
+                <head>Netherlands:</head>
+
+
+                <xi:include href="comp14/ch43.xml" xpointer="ch43"/>
+                <xi:include href="comp14/ch44.xml" xpointer="ch44"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1952-54v16_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1952-54v16_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1952-54v16_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1952-54v16"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1952-54v16" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54v16/covers/frus1952-54v16.jpg"/>
+                        <extent>
+                            <measure quantity="32241" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:24:12.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1952-54v16" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54v16/ebook/frus1952-54v16.epub"/>
+                        <extent>
+                            <measure quantity="2695563" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:24:12.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1952-54v16" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54v16/ebook/frus1952-54v16.mobi"/>
+                        <extent>
+                            <measure quantity="3762148" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:24:12.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released 1981 as printed book</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                    <term xml:id="admin2">eisenhower</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>dulles-john-foster</term>
+                    <term>eisenhower-dwight-d</term>
+                    <term>nuclear-weapons</term>
+                    <term>australia</term>
+                    <term>burma</term>
+                    <term>cambodia</term>
+                    <term>self-determination</term>
+                    <term>china</term>
+                    <term>france</term>
+                    <term>india</term>
+                    <term>armistices</term>
+                    <term>prisoners-of-war</term>
+                    <term>japan</term>
+                    <term>north-korea</term>
+                    <term>laos</term>
+                    <term>new-zealand</term>
+                    <term>philippines</term>
+                    <term>south-africa</term>
+                    <term>thailand</term>
+                    <term>united-kingdom</term>
+                    <term>united-nations</term>
+                    <term>vietnam</term>
+                    <term>russia</term>
+                    <term>civil-rights-foreign</term>
+                    <term>truman-harry-s</term>
+                    <term>acheson-dean-gooderham</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1952-54v16" status="published" when="1981"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">Foreign Relations of the United States,
+                        1952–1954</titlePart>
+                    <titlePart type="volumenumber">Volume XVI</titlePart>
+                    <titlePart type="volume">The Geneva Conference</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline>
+                    <hi rendition="#italic">Editor in Chief</hi>
+                    John P. Glennon</byline>
+                <byline><hi rendition="#italic">Editors</hi>
+                    Allen H. Kitchens<lb/>Neal H.
+                    Petersen</byline>
+                <docImprint>
+                    <publisher>United States<lb/>Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1981</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION
+                        9167<lb/><hi rendition="#small-caps">Office of the Historian<lb/>Bureau of
+                        Public Affairs</hi><lb/>For sale by the<lb/>U.S. Government Book
+                    Store<lb/>Department of State</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+        </body>
+        <back>
+            <pb facs="1595" n="[1569]" xml:id="pg1569"/>
+            <pb facs="1596" n="[1570]" xml:id="pg1570"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

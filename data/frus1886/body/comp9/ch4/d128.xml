@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1886_d128" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 124.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1886_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1886_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1886/d128"
+                    type="canonical"/>
+                <relatedItem target="d127.xml" type="prev"/>
+                <relatedItem target="d128-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1886</bibl>
+                <bibl type="frus-division-id">d128</bibl>
+                <bibl type="frus-division-n">128</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="272" to="272" unit="page"
+                        >272</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1885-05-15">May 15, 1885</date>
+                    <date notAfter="1885-05-15T23:59:59-05:00" notBefore="1885-05-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d128">
+
+                <pb facs="0356" n="272" sameAs="frus:frus1886/pg272"/>
+
+                <head>No. 124.</head>
+                <opener><dateline rendition="#center">[Telegram handed to Mr. Bayard by Señor
+                        Flores, <date calendar="gregorian" when="1885-05-15">May 15, 1885</date>,
+                        and sent on the same day, by agreement between them, to President Caamaño;
+                        delivered May 21.]</dateline></opener>
+                <p rendition="#flush">Presidente <hi rendition="#small-caps">Caamaño</hi>, <hi
+                        rendition="#italic">Guayaquil:</hi></p>
+                <p>Dé usted permiso á Santos por solicitud mia para venir Estados Unidos por próximo
+                    vapor comprometièndose él á no conspirar y dando él certificado escrito de que
+                    nunca ha conspirado sin tocar cuestion nacionalidad. Conteste “Convenido,” y
+                    cuestion arreglada.</p>
+                <closer><signed>FLORES.</signed></closer>
+
+
+                <xi:include href="d128-a1.xml" xpointer="d128-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1876_d121" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 111.</title>
+                <title type="subtitle">Mr. Fish to Mr. Hoffman.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1876_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1876_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1876/d121"
+                    type="canonical"/>
+                <relatedItem target="d120.xml" type="prev"/>
+                <relatedItem target="d122.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1876</bibl>
+                <bibl type="frus-division-id">d121</bibl>
+                <bibl type="frus-division-n">121</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="218" to="218" unit="page"
+                        >218</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1876-04-05"><hi rendition="#italic">April</hi>
+                        5, 1876</date>
+                    <date notAfter="1876-04-05T23:59:59-05:00" notBefore="1876-04-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d121">
+
+                <pb facs="0274" n="218" sameAs="frus:frus1876/pg218"/>
+
+                <head>No. 111.<lb/><hi rendition="#italic">Mr. Fish
+                        to Mr. Hoffman.</hi></head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1876-04-05"><hi rendition="#italic">April</hi> 5,
+                        1876</date>.</dateline></opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Hoffman</hi>,<lb/><hi
+                        rendition="#italic">Chargé, London:</hi></p>
+                <p rendition="#center">* * * * * * *</p>
+                <p>A full reply to your thirty-nine is on the way. It may be advisable to receive it
+                    before question is decided; especially if adverse.</p>
+                <closer><signed>FISH, <hi rendition="#italic">Secretary</hi>.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

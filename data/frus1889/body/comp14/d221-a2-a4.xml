@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1889_d221-a2-a4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../frus1889_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1889_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1889/d221-a2-a4"
+                    type="canonical"/>
+                <relatedItem target="d221-a2-a3.xml" type="prev"/>
+                <relatedItem target="d221-a2-a4-a1.xml" type="next"/>
+                <relatedItem target="d221-a2.xml" type="parent"/>
+                <relatedItem target="d221-a2.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1889</bibl>
+                <bibl type="frus-division-id">d221-a2-a4</bibl>
+                <bibl type="frus-division-n">221.2.4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="533" to="535" unit="page"
+                        >533–35</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#italic">Nagasaki</hi></placeName>
+                    <date calendar="gregorian" when="1888-11-27">November 27, 1888</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d221-a2-a4">
+
+                <pb facs="0655" n="533" sameAs="frus:frus1889/pg533"/>
+
+                <head>[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right"><hi rendition="#small-caps">Government
+                            Office</hi>,<lb/><placeName><hi rendition="#italic"
+                            >Nagasaki</hi></placeName>, <date calendar="gregorian" when="1888-11-27"
+                            >November 27, 1888</date>.</dateline>
+                    <seg rendition="#float-left">No. 126.]</seg>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In answer to your communication of the 10th
+                    July last, I now have the honor to forward to you a copy of a letter I received
+                    from Governor Watanabe of Kagoshima <pb facs="0656" n="534" xml:id="pg534"/>
+                    Ken, furnishing me his views as to the disbursement of the money intended by the
+                    Government of the United. States to be presented to the inhabitants of the
+                    Tanegashima Island.</p>
+                <p>I trust that the letter of Governor Watanabe will explain itself to you.</p>
+                <p>I have, etc.</p>
+                <closer><signed><hi rendition="#small-caps">Y. Kusaka</hi></signed>,<lb/><hi
+                        rendition="#italic">Governor of Nagasaki Ken.</hi></closer>
+
+
+                <xi:include href="d221-a2-a4-a1.xml" xpointer="d221-a2-a4-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

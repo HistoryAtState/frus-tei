@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d465" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note by the Secretaries of the Combined Chiefs of
+                        Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d465"
+                    type="canonical"/>
+                <relatedItem target="d464.xml" type="prev"/>
+                <relatedItem target="d466.xml" type="next"/>
+                <relatedItem target="../ch9subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d465</bibl>
+                <bibl type="frus-division-n">465</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1049" to="1049" unit="page"
+                        >1049</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-22">22 August 1943</date>
+                    <date notAfter="1943-08-22T23:59:59-05:00" notBefore="1943-08-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d465">
+
+                <pb facs="1163" n="1049" xml:id="pg1049"/>
+
+                <note rend="inline" type="source">
+                    J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Note by the Secretaries of the Combined Chiefs of
+                        Staff</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        C.C.S. 317/2</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-22">22 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Equipping Allies, Liberated Forces and Friendly
+                        Neutrals</hi>
+                </p>
+                <p>Action on C.C.S. 317<anchor n="1"
+                        xml:id="d465-f1"/> has been deferred pending further study of the subject by
+                    the British Chiefs of Staff.</p>
+                <p>The United States Chiefs of Staff, however, recommend that immediate decision be
+                    rendered on the recommendations contained in paragraph 10 <hi
+                        rendition="#italic">a</hi> and <hi rendition="#italic">b</hi> of that paper.
+                    These paragraphs pertain to the equipment of French forces in North Africa. A
+                    decision at this time is necessary because of certain administrative
+                    arrangements which should be carried out at once in the event that the
+                    recommendations are to be approved.</p>
+                <closer>
+                    <signed> H. <hi rendition="#small-caps">Redman</hi>
+                        <lb/> J. K. <hi rendition="#small-caps">Deane</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Combined Secretariat</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d465-f1" n="1" xml:id="d465-f1-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg1029">p. 1029</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

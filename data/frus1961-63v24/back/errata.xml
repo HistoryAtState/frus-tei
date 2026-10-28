@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v24_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1961-63v24_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1961-63v24_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v24/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1961-63v24.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v24</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1096" to="1096" unit="page"
+                        >1096</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1963-12-11T23:59:59-05:00" notBefore="1961-01-02T11:15:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="1120" n="1096" xml:id="pg1096"/>
+
+                <head>Errata</head>
+                <p>The following error has been identified in <hi rendition="#italic">Foreign
+                        Relations of the United States, 1961–1963, Volume XXIV, Laos Crisis</hi>.
+                    Please be aware that printed volumes have not been revised.</p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#d83">Document 83</ref>, Page 184
+                            (date of errata entry: March 29, 2019)</hi>
+                    </item>
+                    <item>The location in the dateline of Document 83 has been corrected from “Olso”
+                        to “Oslo”.</item>
+                    <item>
+                        <hi rendition="#bold">2. <ref target="#d466-f2">Document 466, Footnote
+                                1</ref>, Page 1001 (date of errata entry: September 23, 2021)</hi>
+                    </item>
+                    <item>The reference to <ref target="frus:frus1961-63v06/d94">Document 94</ref>
+                        is in error. Telegram 2273 is <ref target="frus:frus1961-63v06/d97">Document
+                            97</ref>.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

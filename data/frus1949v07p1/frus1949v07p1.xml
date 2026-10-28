@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v07p1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1949v07p1_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1949v07p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1949v07p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1949v07p1"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1949v07p1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1949v07p1/covers/frus1949v07p1.jpg"/>
+                        <extent>
+                            <measure quantity="32563" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:02:47.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1949v07p1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1949v07p1/ebook/frus1949v07p1.epub"/>
+                        <extent>
+                            <measure quantity="1099288" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:02:47.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1949v07p1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1949v07p1/ebook/frus1949v07p1.mobi"/>
+                        <extent>
+                            <measure quantity="1611353" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:02:47.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1975 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>australia</term>
+                    <term>new-zealand</term>
+                    <term>china</term>
+                    <term>indonesia</term>
+                    <term>philippines</term>
+                    <term>acheson-dean-gooderham</term>
+                    <term>hong-kong</term>
+                    <term>truman-harry-s</term>
+                    <term>burma</term>
+                    <term>cambodia</term>
+                    <term>vietnam</term>
+                    <term>foreign-aid</term>
+                    <term>netherlands</term>
+                    <term>france</term>
+                    <term>united-nations</term>
+                    <term>international-monetary-fund</term>
+                    <term>thailand</term>
+                    <term>far-eastern-commission</term>
+                    <term>universal-postal-union</term>
+                    <term>suriname</term>
+                    <term>marshall-george-catlett</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1949v07p1" status="published" when="1975"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1949</titlePart>
+                    <titlePart type="volumeno">Volume VII, Part 1</titlePart>
+                    <titlePart type="volumetitle">The Near East<lb/>and Australasia</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1975</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication 8797 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the<lb/>U.S. Government Book Store<lb/>Department of
+                    State<lb/>Washington, D.C. 20520 - Price $8.75 (Buckram)<lb/>Stock Number
+                    044–000–01571</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0010" n="[VI]" xml:id="pgVI"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+        </body>
+        <back>
+            <pb facs="0615" n="[i]" xml:id="pgi"/>
+            <pb facs="0616" n="ii" xml:id="pgii"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+            <pb facs="0628" n="xiv" xml:id="pgxiv"/>
+            <pb facs="0629" n="xv" xml:id="pgxv"/>
+            <pb facs="0630" n="xvi" xml:id="pgxvi"/>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d338" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d338"
+                    type="canonical"/>
+                <relatedItem target="d337.xml" type="prev"/>
+                <relatedItem target="d338-a1.xml" type="next"/>
+                <relatedItem target="../ch28.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d338</bibl>
+                <bibl type="frus-division-n">338</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="244" to="244" unit="page"
+                        >244</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1912-03-23">
+                        <hi rendition="#small-caps">March</hi> 23, 1912</date>
+                    <date notAfter="1912-03-23T23:59:59-05:00" notBefore="1912-03-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d338">
+
+                <pb facs="0360" n="244" sameAs="frus:frus1912/pg244"/>
+
+                <note rend="inline" type="source">File No. 837.00/578.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <seg rendition="#center">[Extract]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">No. 173.]</seg>
+                    <dateline rendition="#float-right">
+                        <date calendar="gregorian" when="1912-03-23">
+                            <hi rendition="#small-caps">March</hi> 23, 1912</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Referring to previous correspondence
+                    concerning the “Independent Colored Party” I have the honor to transmit herewith
+                    a copy and translation of a telegram received by me this morning from certain
+                    members of that party, complaining of the action of the Cuban authorities in
+                    breaking up a meeting at Cruces in Santa Clara Province.</p>
+                <p>This continual agitation of the “Independientes de Color” carries with it an
+                    element of considerable danger to public order, for while only a small
+                    proportion of the negro population is affected by the Estenoz movement his
+                    followers are sufficiently numerous to form the nucleus of a revolt that in any
+                    case, even were the Government able to cope with it, would be extremely harmful,
+                    and if ably led and financed by other discontented elements might result in a
+                    repetition of the events of 1906.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">A. M. Beaupré</hi>.</signed>
+                </closer>
+
+
+                <xi:include href="d338-a1.xml" xpointer="d338-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

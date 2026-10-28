@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_comp6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chile</title>
+            </titleStmt>
+            <xi:include href="../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/comp6"
+                    type="canonical"/>
+                <relatedItem target="comp5/ch18/d43.xml" type="prev"/>
+                <relatedItem target="comp6/ch19.xml" type="next"/>
+                <relatedItem target="../frus1901.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">comp6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="32" to="38" unit="page"
+                        >32–38</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1902-01-11T23:59:59-05:00" notBefore="1901-03-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp6">
+
+                <pb facs="0112" n="32" xml:id="pg32"/>
+
+                <head>Chile</head>
+
+
+
+
+
+                <xi:include href="comp6/ch19.xml" xpointer="ch19"/>
+                <xi:include href="comp6/ch20.xml" xpointer="ch20"/>
+                <xi:include href="comp6/ch21.xml" xpointer="ch21"/>
+                <xi:include href="comp6/ch22.xml" xpointer="ch22"/>
+                <xi:include href="comp6/ch23.xml" xpointer="ch23"/>
+            </div>
+        </body>
+    </text>
+</TEI>

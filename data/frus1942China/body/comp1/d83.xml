@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1942China_d83" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in China (Gauss) to the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../frus1942China_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1942China_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1942China/d83"
+                    type="canonical"/>
+                <relatedItem target="d82.xml" type="prev"/>
+                <relatedItem target="d83-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1942China</bibl>
+                <bibl type="frus-division-id">d83</bibl>
+                <bibl type="frus-division-n">83</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="82" to="84" unit="page"
+                        >82–84</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Chungking</hi></placeName>
+                    <date calendar="gregorian" when="1942-06-19">June 19, 1942</date>
+                    <date notAfter="1942-06-19T23:59:59-05:00" notBefore="1942-06-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d83">
+
+                <pb facs="0092" n="82" sameAs="frus:frus1942China/pg82"/>
+
+                <note rend="inline" type="source">761.94/1411</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in China</hi> (<hi
+                            rendition="#italic">Gauss</hi>) <hi rendition="#italic">to
+                        the Secretary of State
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 475</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Chungking</hi></placeName>, <date
+                            calendar="gregorian" when="1942-06-19">June 19,
+                        1942</date>.<lb/>[Received July 23.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to transmit a copy of a
+                    memorandum of a conversation between a member of this Embassy and Mr. C. C.
+                    Chien, Vice Chairman of the National Resources Commission, regarding Mr. Chien’s
+                    views on the desirability from China’s standpoint of Russo-Japanese
+                    hostilities.</p>
+                <pb facs="0093" n="83" xml:id="pg83"/>
+                <p>Although as far as is known Mr. Chien was not voicing the Government’s attitude,
+                    it is believed that his views are shared by the majority of Chinese
+                    officials.</p>
+                <p>Respectfully yours,</p>
+                <closer>
+                    <signed>C. E. <hi rendition="#small-caps">Gauss</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d83-a1.xml" xpointer="d83-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

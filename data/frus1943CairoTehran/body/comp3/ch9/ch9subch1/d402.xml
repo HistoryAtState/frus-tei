@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d402" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d402"
+                    type="canonical"/>
+                <relatedItem target="d401.xml" type="prev"/>
+                <relatedItem target="d403.xml" type="next"/>
+                <relatedItem target="../ch9subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d402</bibl>
+                <bibl type="frus-division-n">402</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="631" to="632" unit="page"
+                        >631–32</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Tehran</hi></placeName>
+                    <date calendar="gregorian" when="1943-12-01">1 December 1943</date>
+                    <date notAfter="1943-12-01T23:59:59-05:00" notBefore="1943-12-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d402">
+
+                <pb facs="0735" n="631" sameAs="frus:frus1943CairoTehran/pg631"/>
+
+                <note rend="inline" type="source">Roosevelt
+                    Papers</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President Roosevelt</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Tehran</hi></placeName>, <date calendar="gregorian"
+                            when="1943-12-01">1 December 1943</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">My Dear Franklin</hi>, I was indeed touched by your kind
+                        present.<anchor n="1" xml:id="d402-f1"/> It is a beautiful bowl, and I shall
+                    always treasure it as a reminder <pb facs="0736" n="632" xml:id="pg632"/> of our
+                    sunlit days in Tehran and of the most memorable of my Birthdays.</p>
+                <p>I cannot thank you enough for all your friendship and support in the years in
+                    which we have worked together, and I am glad of this occasion to send you a
+                    message of sincere affection and gratitude.</p>
+                <p>Yours always,</p>
+                <closer><signed><hi rendition="#small-caps">Winston S.
+                                Churchill</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d402-f1" n="1" xml:id="d402-f1-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg469">p. 469</ref>.
+                    According to Iranian Ministry of Foreign Affairs, <hi rendition="#italic">The
+                        Tehran Conference</hi>, p. 176, Roosevelt had sent the following signed message to accompany the
+                    bowl: “my affection, may we be together for many years”.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

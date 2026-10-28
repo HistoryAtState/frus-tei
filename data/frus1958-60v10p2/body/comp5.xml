@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v10p2_comp5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Finland</title>
+            </titleStmt>
+            <xi:include href="../frus1958-60v10p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1958-60v10p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v10p2/comp5"
+                    type="canonical"/>
+                <relatedItem target="comp4/ch4/d178.xml" type="prev"/>
+                <relatedItem target="comp5/ch5.xml" type="next"/>
+                <relatedItem target="../frus1958-60v10p2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v10p2</bibl>
+                <bibl type="frus-division-id">comp5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="478" to="600" unit="page"
+                        >478–600</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1960-12-30T23:59:59-05:00" notBefore="1958-05-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp5">
+
+                <pb facs="0510" n="478" xml:id="pg478"/>
+
+                <head>Finland</head>
+
+                <xi:include href="comp5/ch5.xml" xpointer="ch5"/>
+            </div>
+        </body>
+    </text>
+</TEI>

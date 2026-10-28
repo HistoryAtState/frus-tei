@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v06p1_d191" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 191</title>
+                <title type="subtitle">The Director of the Foreign
+                        Operations Administration (Stassen) to the Secretary of
+                        State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1952-54v06p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1952-54v06p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v06p1/d191"
+                    type="canonical"/>
+                <relatedItem target="d190.xml" type="prev"/>
+                <relatedItem target="d191-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v06p1</bibl>
+                <bibl type="frus-division-id">d191</bibl>
+                <bibl type="frus-division-n">191</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="349" to="351" unit="page"
+                        >349–51</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1954-01-05">January 5, 1954</date>
+                    <date notAfter="1954-01-05T23:59:59-05:00" notBefore="1954-01-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v06p1/persons">
+                    <term ref="frus:frus1952-54v06p1/persons#p_DULLESJF1">Dulles, John Foster</term>
+                    <term ref="frus:frus1952-54v06p1/persons#p_EISENHOWER1">Eisenhower, General of
+                        the Army Dwight D.</term>
+                    <term ref="frus:frus1952-54v06p1/persons#p_MONNETJ1">Monnet, Jean</term>
+                    <term ref="frus:frus1952-54v06p1/persons#p_STASSENHE1">Stassen, Harold E.</term>
+                </keywords>
+                <keywords scheme="frus:frus1952-54v06p1/terms">
+                    <term ref="frus:frus1952-54v06p1/terms#t_CSC1">CSC</term>
+                    <term ref="frus:frus1952-54v06p1/terms#t_NATO1">NAT(O)</term>
+                    <term ref="frus:frus1952-54v06p1/terms#t_RA1">RA</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d191">
+
+                <pb facs="0397" n="349" sameAs="frus:frus1952-54v06p1/pg349"/>
+
+                <note rend="inline" type="source">RA files, lot 58 D
+                    374, “CSC Loan Negotiations”</note>
+                <head>No. 191<lb/><hi rendition="#italic">The Director of the Foreign Operations
+                        Administration (Stassen) to the Secretary of
+                        State</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1954-01-05">January 5, 1954</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Dear Foster</hi>: You will recall the background of the
+                    President’s conference with Jean
+                        Monnet of the European Coal and Steel Community on June 3, 1953,
+                    and his subsequent letter of June 15.<anchor n="1" xml:id="d191-f1"/></p>
+                <p>The follow-up conferences with Mr. Monnet in Paris during the NATO
+                        meetings<anchor n="2" xml:id="d191-f2"/> lead me to make the recommendation
+                    reflected in the attached memorandum.</p>
+                <p>I would appreciate your preliminary comments prior to firming up the proposal for
+                    the President’s action.</p>
+                <p>Sincerely,</p>
+                <closer><signed><hi rendition="#small-caps">Harold
+                                E. Stassen</hi></signed></closer>
+
+
+
+                <xi:include href="d191-a1.xml" xpointer="d191-a1"/>
+                <xi:include href="d191-a2.xml" xpointer="d191-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d191-f1" n="1" xml:id="d191-f1-content">
+                <p>For information concerning Monnet’s
+                    visit to Washington June 3–4, and the exchange of correspondence between
+                    President Eisenhower and Senator
+                        Wiley and Representative
+                        Chiperfield concerning Monnet’s visit, see <ref target="#d169">Documents 169</ref> and
+                        <ref target="#d172">172</ref>.</p>
+            </note>
+            <note corresp="#d191-f2" n="2" xml:id="d191-f2-content">
+                <p>Concerning these conversations in Paris, Dec. 13–15, see <ref target="#d187"
+                        >Document 187</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p1_d201" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 201.</title>
+                <title type="subtitle">Mr. Francis to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1872p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1872p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1872p1/d201"
+                    type="canonical"/>
+                <relatedItem target="d200.xml" type="prev"/>
+                <relatedItem target="d201-a1.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1872p1</bibl>
+                <bibl type="frus-division-id">d201</bibl>
+                <bibl type="frus-division-n">201</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="250" to="251" unit="page"
+                        >250–51</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Athens</hi></placeName>
+                    <date calendar="gregorian" when="1872-06-29"><hi rendition="#italic">June</hi>
+                        29, 1872</date>
+                    <date notAfter="1872-06-29T23:59:59-05:00" notBefore="1872-06-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d201">
+
+                <pb facs="0346" n="250" sameAs="frus:frus1872p1/pg250"/>
+
+                <head>No. 201.<lb/><hi rendition="#italic">Mr. Francis to Mr. Fish.</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Athens</hi></placeName>, <date calendar="gregorian"
+                            when="1872-06-29"><hi rendition="#italic">June</hi> 29, 1872</date>.
+                        (Received July 22.)</dateline>
+                    <seg rendition="#float-left">No. 64.]</seg>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith a
+                    copy of a letter addressed by me to Mr. Mélétopoulo, secretary-general of the
+                    minister of foreign affairs, under date of the 18th instant, inclosing documents
+                    on civil-service reform in the United States. And I also transmit a copy of the
+                    reply of Mr. Mélétopoulo, under date of June 14–26, which gives expression to
+                    the high appreciation by the Greek government of the measures inaugurated for
+                    civil-service reform in the United, States.</p>
+                <p>I am, &amp;c,</p>
+                <closer>
+                    <signed>JOHN M. FRANCIS.</signed>
+                </closer>
+
+
+
+                <xi:include href="d201-a1.xml" xpointer="d201-a1"/>
+                <xi:include href="d201-a2.xml" xpointer="d201-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

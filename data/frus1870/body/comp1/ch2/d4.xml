@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_d4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Jay to Mr.
+                        Fish.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/d4"
+                    type="canonical"/>
+                <relatedItem target="d3.xml" type="prev"/>
+                <relatedItem target="d5.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">d4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="50" to="50" unit="page"
+                        >50</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1870-08-21"><hi rendition="#small-caps"
+                            >August</hi> 21, 1870.</date>
+                    <date notAfter="1870-08-21T23:59:59-05:00" notBefore="1870-08-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d4">
+
+                <pb facs="0084" n="50" xml:id="pg50"/>
+
+                <note rend="inline" type="source">No. 4.</note>
+                <opener><seg rendition="#center">[Telegram.—Received at Washington August
+                    22.]</seg></opener>
+                <head>Mr. Jay to Mr.
+                        Fish.</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <date calendar="gregorian" when="1870-08-21"><hi rendition="#small-caps"
+                                >August</hi> 21, 1870.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Fish,</hi>
+                    <hi rendition="#italic">Secretary, Washington:</hi></p>
+                <p>England, Italy, and Russia have mutually agreed to rest neutral, and not to
+                    change their position without notice and statement of reasons. Austria, asked to
+                    join neutral league, will consent with the additional understanding that efforts
+                    for mediation shall be made, not separately but jointly.</p>
+                <closer>
+                    <signed>JAY.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

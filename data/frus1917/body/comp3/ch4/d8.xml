@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d8" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d8"
+                    type="canonical"/>
+                <relatedItem target="d7.xml" type="prev"/>
+                <relatedItem target="d9.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d8</bibl>
+                <bibl type="frus-division-n">8</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="6" to="6" unit="page"
+                    >6</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Buenos Aires</hi></placeName>
+                    <date calendar="gregorian" when="1917-07-15T12:00:00-04:16">
+                        <hi rendition="#italic">July 15, 1917, noon</hi></date>
+                    <date notAfter="1917-07-15T11:16:00-05:00" notBefore="1917-07-15T11:16:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d8">
+
+                <pb facs="0172" n="6" sameAs="frus:frus1917/pg6"/>
+
+                <note rend="inline" type="source">File No. 811.3335/21</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Buenos Aires</hi></placeName>, <date
+                            calendar="gregorian" when="1917-07-15T12:00:00-04:16">
+                            <hi rendition="#italic">July 15, 1917, noon</hi></date>.</dateline>
+                </opener>
+                <p>The note signed by Minister for Foreign Affairs has been received and is as we
+                    agreed yesterday morning: First, a note which is as follows: <quote
+                        rend="blockquote">
+                        <p>Informed that the Government of United States would be pleased to improve
+                            the opportunity of the coming of its squadron to the River Plate to make
+                            a visit of courtesy to our country, I have a real pleasure in sending
+                            your excellency the invitation adjoined.</p>
+                    </quote>
+                </p>
+                <p>Enclosing the note as quoted in my July 11, 8 p.m. I presume I should accept
+                    substantially in the words of your telegram July 13, 5 p.m. The President sends
+                    word that he desires to receive the fleet with the greatest possible honors
+                    meaning an escort by the Argentine Navy and would therefore, I think, prefer
+                    having one ship come to Buenos Aires or as near as possible.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Stimson</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

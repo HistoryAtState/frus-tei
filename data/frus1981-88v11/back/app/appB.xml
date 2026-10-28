@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v11_appB" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Notes of a National Security Council Meeting</title>
+            </titleStmt>
+            <xi:include href="../../frus1981-88v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1981-88v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v11/appB"
+                    type="canonical"/>
+                <relatedItem target="appA.xml" type="prev"/>
+                <relatedItem target="appC.xml" type="next"/>
+                <relatedItem target="../app.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v11</bibl>
+                <bibl type="frus-division-id">appB</bibl>
+                <bibl type="frus-division-n">B</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1552" to="1557" unit="page"
+                        >1552–57</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1982-05-21T23:59:59-05:00" notBefore="1982-05-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1981-88v11/terms">
+                    <term ref="frus:frus1981-88v11/terms#t_NSC_1">NSC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="appB">
+
+                <pb facs="1579" n="1552" xml:id="pg1552"/>
+
+                <head>B. Notes of a National Security Council Meeting<anchor n="1" xml:id="appB-f1"
+                    /></head>
+                <dateline rendition="#float-right">
+                    <placeName>Washington</placeName>, <date calendar="gregorian" when="1982-05-21"
+                        >May 21, 1982, 9:43 a.m.</date>
+                </dateline>
+                <figure>
+                    <graphic url="frus40033_AppxB_p1552"/>
+                </figure>
+                <pb facs="1580" n="1553" xml:id="pg1553"/>
+                <figure>
+                    <graphic url="frus40033_AppxB_p1553"/>
+                </figure>
+                <pb facs="1581" n="1554" xml:id="pg1554"/>
+                <figure>
+                    <graphic url="frus40033_AppxB_p1554"/>
+                </figure>
+                <pb facs="1582" n="1555" xml:id="pg1555"/>
+                <figure>
+                    <graphic url="frus40033_AppxB_p1555"/>
+                </figure>
+                <pb facs="1583" n="1556" xml:id="pg1556"/>
+                <figure>
+                    <graphic url="frus40033_AppxB_p1556"/>
+                </figure>
+                <pb facs="1584" n="1557" xml:id="pg1557"/>
+                <figure>
+                    <graphic url="frus40033_AppxB_p1557"/>
+                </figure>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#appB-f1" n="1" type="source" xml:id="appB-f1-content">
+                <p>Source: National Security Council, National Security Council Institutional Files,
+                    Box SR—101, NSC 49A. Secret. For the
+                    transcribed text of these notes, see <ref target="#d21">Document 21</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1942v03_comp11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vatican:</title>
+            </titleStmt>
+            <xi:include href="../frus1942v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1942v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1942v03/comp11"
+                    type="canonical"/>
+                <relatedItem target="comp10/ch25/d654.xml" type="prev"/>
+                <relatedItem target="comp11/ch26.xml" type="next"/>
+                <relatedItem target="../frus1942v03.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1942v03</bibl>
+                <bibl type="frus-division-id">comp11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="772" to="800" unit="page"
+                        >772–800</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1942-12-29T17:00:00-05:00" notBefore="1942-02-09T13:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp11">
+
+                <pb facs="0778" n="772" xml:id="pg772"/>
+
+                <head>Vatican:</head>
+
+
+
+                <xi:include href="comp11/ch26.xml" xpointer="ch26"/>
+                <xi:include href="comp11/ch27.xml" xpointer="ch27"/>
+                <xi:include href="comp11/ch28.xml" xpointer="ch28"/>
+            </div>
+        </body>
+    </text>
+</TEI>

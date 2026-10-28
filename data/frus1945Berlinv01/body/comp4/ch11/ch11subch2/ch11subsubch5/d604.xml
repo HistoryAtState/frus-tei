@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d604" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 604</title>
+                <title type="subtitle">Memorandum by the Representatives of
+                        the British Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d604"
+                    type="canonical"/>
+                <relatedItem target="d603.xml" type="prev"/>
+                <relatedItem target="d604-a1.xml" type="next"/>
+                <relatedItem target="../ch11subsubch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d604</bibl>
+                <bibl type="frus-division-n">604</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="921" to="924" unit="page"
+                        >921–24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-09">9 July 1945</date>
+                    <date notAfter="1945-07-09T23:59:59-05:00" notBefore="1945-07-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_J1">Japan, The Emperor of</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv01/terms">
+                    <term ref="frus:frus1945Berlinv01/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1945Berlinv01/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d604">
+
+                <pb facs="1055" n="921" sameAs="frus:frus1945Berlinv01/pg921"/>
+
+                <note rend="inline" type="source">
+                    J. C. S. Files</note>
+                <head>No. 604<lb/><hi rendition="#italic">Memorandum by the Representatives of the
+                        British Chiefs of Staff</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        C. C. S. 890</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-07-09">9 July 1945</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Control and Command in the War Against Japan
+                    </hi>
+                </p>
+                <list>
+                    <label>1.</label>
+                    <item>We have been instructed to present the attached memorandum on command and
+                        control in the war against Japan which
+                        the British Chiefs of Staff have prepared for discussion at the next
+                        conference.</item>
+                    <label>2.</label>
+                    <item>The views of the Australian and New Zealand Governments on the proposals
+                        formulated have been requested but have not yet been received.<anchor n="1"
+                            xml:id="d604-f1"/>
+                    </item>
+                </list>
+
+
+                <xi:include href="d604-a1.xml" xpointer="d604-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d604-f1" n="1" xml:id="d604-f1-content">
+                <p>Concerning the Australian views on the enclosed memorandum and on <ref
+                        target="#d615">document No. 615</ref>, see John Ehrman,
+                        <hi rendition="#italic">Grand Strategy</hi>, vol. <hi
+                        rendition="#small-caps">vi</hi> (London, Her Majesty’s Stationery Office,
+                    1956), p. 268. The New Zealand views were not received prior to the conclusion
+                    of the meetings of the Combined Chiefs of Staff held in connection with the
+                    Berlin Conference. See <hi rendition="#italic">ibid.</hi>, p. 269.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

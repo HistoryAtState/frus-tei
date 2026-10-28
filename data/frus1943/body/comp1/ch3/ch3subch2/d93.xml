@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d93" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Chief of Staff, Allied Force
+                        Headquarters (Smith)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d93"
+                    type="canonical"/>
+                <relatedItem target="d92-a2.xml" type="prev"/>
+                <relatedItem target="d93-a1.xml" type="next"/>
+                <relatedItem target="../ch3subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d93</bibl>
+                <bibl type="frus-division-n">93</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="253" to="257" unit="page"
+                        >253–57</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Algiers</hi></placeName>
+                    <date calendar="gregorian" when="1943-05-14">14 May 1943</date>
+                    <date notAfter="1943-05-14T23:59:59-05:00" notBefore="1943-05-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_Husky1">Husky</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d93">
+
+                <pb facs="0355" n="253" sameAs="frus:frus1943/pg253"/>
+
+                <note rend="inline" type="source">
+                    J. C. S. Files</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the Chief of Staff, Allied Force
+                        Headquarters</hi> (<hi rendition="#italic">Smith</hi>)<anchor n="1"
+                        xml:id="d93-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        C.C.S. 223</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Algiers</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-05-14">14 May 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Operations After Husky
+                    </hi>
+                </p>
+                <p>The attached paper (Enclosure “A”) prepared by the Operations Division, Allied
+                    Force Headquarters, represents the views of General Eisenhower and Admiral
+                    Cunningham with respect to operations after 
+                        <hi rendition="#small-caps">Husky</hi>. It is not concurred in by
+                    Air Chief Marshal Tedder whose comments are attached (Enclosure “B”). It is
+                    requested that both papers be submitted for the information of the Combined
+                    Chiefs of Staff as representative of the opinion of the Commander in Chief,
+                    Allied Force, from the local viewpoint only.</p>
+
+
+
+                <xi:include href="d93-a1.xml" xpointer="d93-a1"/>
+                <xi:include href="d93-a2.xml" xpointer="d93-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d93-f1" n="1" type="source" xml:id="d93-f1-content">
+                <p>This memorandum was circulated on May 14, 1943 for the information of the
+                    Combined Chiefs of Staff. The views of Eisenhower and Tedder regarding
+                    operations to be undertaken after 
+                        <hi rendition="#small-caps">Husky</hi>, which are set forth in the
+                    enclosures to this memorandum, were considered in the course of the meeting of
+                    Roosevelt and Churchill with the Combined Chiefs of Staff on May 24, 1943, <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg194">p. 194</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

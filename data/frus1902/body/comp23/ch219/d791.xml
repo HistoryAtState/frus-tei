@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d791" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Clayton to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d791"
+                    type="canonical"/>
+                <relatedItem target="../ch219.xml" type="prev"/>
+                <relatedItem target="d791-a1.xml" type="next"/>
+                <relatedItem target="../ch219.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d791</bibl>
+                <bibl type="frus-division-n">791</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="832" to="833" unit="page"
+                        >832–33</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1902-11-04"><hi rendition="#italic">November 4,
+                            1902</hi></date>
+                    <date notAfter="1902-11-04T23:59:59-05:00" notBefore="1902-11-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d791">
+
+                <pb facs="0912" n="832" sameAs="frus:frus1902/pg832"/>
+
+                <head><hi rendition="#italic">Mr. Clayton to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Mexico</hi></placeName>, <date calendar="gregorian"
+                            when="1902-11-04"><hi rendition="#italic">November 4,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 1618.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inform you that on the
+                    30th ultimo the President of the Republic received General Carlos Garcia Velez
+                    as envoy extraordinary and minister plenipotentiary of the Republic of Cuba.</p>
+                <p>I inclose herewith copy and translation of the addresses delivered on that
+                    occasion.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Powell Clayton.</hi></signed></closer>
+
+
+
+                <xi:include href="d791-a1.xml" xpointer="d791-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

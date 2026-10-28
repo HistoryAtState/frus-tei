@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_comp4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Brazil</title>
+            </titleStmt>
+            <xi:include href="../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/comp4"
+                    type="canonical"/>
+                <relatedItem target="comp3/ch6/d18-a2.xml" type="prev"/>
+                <relatedItem target="comp4/ch7.xml" type="next"/>
+                <relatedItem target="../frus1903.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">comp4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="24" to="43" unit="page"
+                        >24–43</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1903-05-08T23:59:59-05:00" notBefore="1902-08-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp4">
+
+                <pb facs="0108" n="24" xml:id="pg24"/>
+
+                <head>Brazil</head>
+
+
+
+
+                <xi:include href="comp4/ch7.xml" xpointer="ch7"/>
+                <xi:include href="comp4/ch8.xml" xpointer="ch8"/>
+                <xi:include href="comp4/ch9.xml" xpointer="ch9"/>
+                <xi:include href="comp4/ch10.xml" xpointer="ch10"/>
+            </div>
+        </body>
+    </text>
+</TEI>

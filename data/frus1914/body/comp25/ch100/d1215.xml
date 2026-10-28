@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d1215" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d1215"
+                    type="canonical"/>
+                <relatedItem target="d1214.xml" type="prev"/>
+                <relatedItem target="d1216.xml" type="next"/>
+                <relatedItem target="../ch100.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d1215</bibl>
+                <bibl type="frus-division-n">1215</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="741" to="741" unit="page"
+                        >741</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Tampico</hi></placeName>
+                    <date calendar="gregorian" when="1914-06-03T20:00:00-06:41">
+                        <hi rendition="#italic">June 3, 1914, 8 p.m.</hi>
+                    </date>
+                    <date notAfter="1914-06-03T21:41:00-05:00" notBefore="1914-06-03T21:41:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1215">
+
+                <pb facs="0857" n="741" sameAs="frus:frus1914/pg741"/>
+
+                <note rend="inline" type="source">File No. 812.6363/92.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Tampico</hi></placeName>, <date
+                            calendar="gregorian" when="1914-06-03T20:00:00-06:41">
+                            <hi rendition="#italic">June 3, 1914, 8 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Since sending my June 3, 2 p.m., re new decree collection customs Charges, I have
+                    conferred with Sr. F. Villareal, Secretary Communications of Constitutionalists
+                    and he informs me that decree applies only to export Charges, bar Charges, and
+                    oil production taxes, and will not be applied to import duties. Rule is based on
+                    theory that all exports are sold abroad on gold basis.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Miller</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

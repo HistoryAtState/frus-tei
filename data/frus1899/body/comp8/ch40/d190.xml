@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d190" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hart to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d190"
+                    type="canonical"/>
+                <relatedItem target="d189.xml" type="prev"/>
+                <relatedItem target="d191.xml" type="next"/>
+                <relatedItem target="../ch40.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d190</bibl>
+                <bibl type="frus-division-n">190</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="239" to="239" unit="page"
+                        >239</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Bogotá</hi></placeName>
+                    <date calendar="gregorian" when="1899-01-21"><hi rendition="#italic">January 21,
+                            1899</hi> (January 23, 1899)</date>
+                    <date notAfter="1899-01-21T23:59:59-05:00" notBefore="1899-01-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d190">
+
+                <pb facs="0331" n="239" sameAs="frus:frus1899/pg239"/>
+
+                <head><hi rendition="#italic">Mr. Hart to Mr.
+                            Hay</hi>.</head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Bogotá</hi></placeName>, <date calendar="gregorian"
+                            when="1899-01-21"><hi rendition="#italic">January 21, 1899</hi> (January
+                            23, 1899)</date>.</dateline></opener>
+                <p>Referring to the Panama claim, have accepted offer to pay $30,000 in three equal
+                    installments, February 10, April 10, and June 10, in drafts at sixty days. Best
+                    that could be done in desperate financial situation.</p>
+                <closer><signed><hi rendition="#small-caps">Hart.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

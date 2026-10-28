@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1906p2_d424" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Meyer to
+                        the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1906p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1906p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1906p2/d424"
+                    type="canonical"/>
+                <relatedItem target="../ch125.xml" type="prev"/>
+                <relatedItem target="d424-a1.xml" type="next"/>
+                <relatedItem target="../ch125.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1906p2</bibl>
+                <bibl type="frus-division-id">d424</bibl>
+                <bibl type="frus-division-n">424</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1335" to="1336" unit="page"
+                        >1335–36</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">St. Petersburg</hi></placeName>
+                    <date calendar="gregorian" when="1906-02-09"><hi rendition="#italic">February 9,
+                            1906</hi>.</date>
+                    <date notAfter="1906-02-09T23:59:59-05:00" notBefore="1906-02-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d424">
+
+                <pb facs="1493" n="1335" sameAs="frus:frus1906p2/pg1335"/>
+
+                <head><hi rendition="#italic">Ambassador Meyer to
+                        the Secretary of State</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic">St.
+                                Petersburg</hi></placeName>, <date calendar="gregorian"
+                            when="1906-02-09"><hi rendition="#italic">February 9,
+                        1906</hi>.</date></dateline>
+                    <seg rendition="#float-left">No. 435.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to confirm my two cipher
+                    cablegrams sent on January 30<anchor n="a" xml:id="d424-f1"/> and February
+                        2,<anchor n="a" xml:id="d424-f2"/> respectively, regarding the exchange of
+                    Japanese prisoners of war in the Far East. True readings of the cablegrams will
+                    be found inclosed.</p>
+                <p>In this connection I beg leave to inclose copy of a note, dated January 25,
+                    February 5, from the ministry for foreign affairs, bearing upon the matter.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">G. von L. Meyer.</hi></signed></closer>
+
+
+
+                <xi:include href="d424-a1.xml" xpointer="d424-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d424-f1" n="a" xml:id="d424-f1-content">
+                <p>See correspondence with Japan, <ref target="#pg1086">p. 1086</ref>.</p>
+            </note>
+            <note corresp="#d424-f2" n="a" xml:id="d424-f2-content">
+                <p>See correspondence with Japan, <ref target="#pg1086">p. 1086</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv02_d301" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Embassy in France to
+                        the Commission to Negotiate Peace
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv02/d301"
+                    type="canonical"/>
+                <relatedItem target="d300.xml" type="prev"/>
+                <relatedItem target="d301-a1.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv02</bibl>
+                <bibl type="frus-division-id">d301</bibl>
+                <bibl type="frus-division-n">301</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="375" to="375" unit="page"
+                        >375</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Paris</hi>
+                    </placeName>
+                    <date calendar="gregorian" when="1919-01-09">January 9, 1919</date>
+                    <date notAfter="1919-01-09T23:59:59-05:00" notBefore="1919-01-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d301">
+
+                <pb facs="0463" n="375" sameAs="frus:frus1919Parisv02/pg375"/>
+
+                <note rend="inline" type="source">Paris Peace Conf. 875.00/32</note>
+                <head>
+                    <hi rendition="#italic">The Embassy in France to the
+                            Commission to Negotiate Peace
+                    </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Paris</hi>
+                        </placeName>, <date calendar="gregorian" when="1919-01-09">January 9,
+                            1919</date>.</dateline>
+                </opener>
+                <p>The American Embassy in Paris presents its compliments to the American Commission
+                    to Negotiate Peace, and has the honor to transmit herewith copy and translation
+                    of a note of December 30th 1918 from the Italian Embassy concerning the present
+                    situation in Albania.</p>
+
+
+                <xi:include href="d301-a1.xml" xpointer="d301-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1922v02_d808" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Spanish Ambassador (Riaño) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1922v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1922v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1922v02/d808"
+                    type="canonical"/>
+                <relatedItem target="d807-a1.xml" type="prev"/>
+                <relatedItem target="d808-a1.xml" type="next"/>
+                <relatedItem target="../ch80.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1922v02</bibl>
+                <bibl type="frus-division-id">d808</bibl>
+                <bibl type="frus-division-n">808</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="915" to="916" unit="page"
+                        >915–16</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1922-06-15"><hi rendition="#italic">June 15,
+                            1922</hi></date>
+                    <date notAfter="1922-06-15T23:59:59-05:00" notBefore="1922-06-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d808">
+
+                <pb facs="1029" n="915" sameAs="frus:frus1922v02/pg915"/>
+
+                <note rend="inline" type="source">703.5200/6</note>
+                <head><hi rendition="#italic">The Spanish Ambassador</hi> (<hi
+                            rendition="#italic">Riaño</hi>) <hi rendition="#italic">to
+                        the Secretary of State</hi></head>
+                <opener><seg rendition="#center">[Translation<anchor n="2" xml:id="d808-f1"
+                    />]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1922-06-15"><hi rendition="#italic">June 15,
+                        1922</hi></date>.</dateline>
+                    <seg rendition="#float-left">37–03</seg></opener>
+                <p><hi rendition="#small-caps">Mr. Secretary</hi>: I have the honor to forward to
+                    Your Excellency, together with the usual office copy and with a request that you
+                    kindly cause it to reach its high destination, the letter which His Majesty the
+                    King, my August Sovereign, sends to the President of the Republic of the United
+                    States in reply to that expressing the gratefulness of the North American people
+                    and Government for the mission assumed by Spain during the late war.</p>
+                <p>I avail myself [etc.]</p>
+                <closer><signed><hi rendition="#small-caps">Juan Riaño</hi></signed></closer>
+
+
+
+                <xi:include href="d808-a1.xml" xpointer="d808-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d808-f1" n="2" xml:id="d808-f1-content">
+                <p>File translation revised.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

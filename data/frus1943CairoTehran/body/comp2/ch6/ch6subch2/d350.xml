@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d350" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Presidents Secretary (Early)
+                        to the Presidents Special Assistant (Hopkins)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d350"
+                    type="canonical"/>
+                <relatedItem target="d349.xml" type="prev"/>
+                <relatedItem target="d351.xml" type="next"/>
+                <relatedItem target="../ch6subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d350</bibl>
+                <bibl type="frus-division-n">350</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="453" to="453" unit="page"
+                        >453</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-12-02">2 December 1943.</date>
+                    <date notAfter="1943-12-02T23:59:59-05:00" notBefore="1943-12-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_ES1">Early, Stephen</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HHL1">Hopkins, Harry L.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d350">
+
+                <pb facs="0555" n="453" sameAs="frus:frus1943CairoTehran/pg453"/>
+
+                <note rend="inline" type="source">Hopkins
+                    Papers: Telegram</note>
+                <head><hi rendition="#italic">The Presidents Secretary</hi> (<hi rendition="#italic">Early</hi>)
+                        <hi rendition="#italic">to the Presidents Special Assistant</hi> (<hi rendition="#italic"
+                        >Hopkins</hi>)<anchor n="1" xml:id="d350-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-12-02">2 December 1943.</date></dateline>
+                </opener>
+                <p>For Harry Hopkins from Mr. Early</p>
+                <p>Cairo communiqué enthusiastically received throughout country. Great praise
+                    jubilation prevails all quarters. This despite premature release by Reuters in
+                    dispatch under Lisbon dateline of virtually complete story of Cairo conferences
+                    almost twenty-four hours before official communiqué was released thus most
+                    unfortunately discounting communiqué and enabling German Japanese propagandists
+                    meanwhile to broadcast to world their versions of conference. Urge reduction of
+                    time interval between distribution and publication should other official
+                    communiqués be issued. Also suggest strict prohibition against export of
+                    contents of future communiqués prior to release date.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d350-f1" n="1" type="source" xml:id="d350-f1-content">
+                <p>Sent via military channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

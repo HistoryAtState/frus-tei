@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v13p1_d411" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Secretary of State to
+                        the President</title>
+            </titleStmt>
+            <xi:include href="../../frus1952-54v13p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1952-54v13p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v13p1/d411"
+                    type="canonical"/>
+                <relatedItem target="d410.xml" type="prev"/>
+                <relatedItem target="d411-a1.xml" type="next"/>
+                <relatedItem target="../comp2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v13p1</bibl>
+                <bibl type="frus-division-id">d411</bibl>
+                <bibl type="frus-division-n">411</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="810" to="812" unit="page"
+                        >810–12</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1953-09-29">September 29, 1953</date>
+                    <date notAfter="1953-09-29T23:59:59-05:00" notBefore="1953-09-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v13p1/persons">
+                    <term ref="frus:frus1952-54v13p1/persons#p_DJF1">Dulles, John Foster</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d411">
+
+                <pb facs="0842" n="810" sameAs="frus:frus1952-54v13p1/pg810"/>
+
+                <note rend="inline" type="source">Secretary’s Letters, lot 56 D 459.
+                    “President”</note>
+                <head><hi rendition="#italic">The Secretary of State to
+                        the President</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1953-09-29">September 29, 1953</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Memorandum For The
+                    President</hi></p>
+                <p>All of the understandings we sought with the French regarding Indochina have now
+                    been concluded and it is expected that the Exchange of Notes, or
+                        Agreements,<anchor n="1" xml:id="d411-f1"/> will be signed at 6 p.m. Paris
+                    time today. An agreed communiqué will be issued at 6 p.m. Paris time tomorrow
+                    (noon, Washington time).</p>
+                <p>I attach a copy of the communiqué.</p>
+                <closer><signed><hi rendition="#small-caps">John Foster
+                                Dulles</hi></signed></closer>
+
+
+
+                <xi:include href="d411-a1.xml" xpointer="d411-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d411-f1" n="1" xml:id="d411-f1-content">
+                <p><ref target="#d412"><hi rendition="#italic">Infra</hi></ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

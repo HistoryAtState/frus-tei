@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d256" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d256"
+                    type="canonical"/>
+                <relatedItem target="d255.xml" type="prev"/>
+                <relatedItem target="d257.xml" type="next"/>
+                <relatedItem target="../ch34.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d256</bibl>
+                <bibl type="frus-division-n">256</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="239" to="239" unit="page"
+                        >239</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Santo Domingo</hi></placeName>
+                    <date calendar="gregorian" when="1916-10-30T16:00:00-04:40">
+                        <hi rendition="#italic">October 30, 1916, 4 p.m.</hi>
+                    </date>
+                    <date notAfter="1916-10-30T15:40:00-05:00" notBefore="1916-10-30T15:40:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d256">
+
+                <pb facs="0315" n="239" sameAs="frus:frus1916/pg239"/>
+
+                <note rend="inline" type="source">File No. 839.00/1939</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Santo Domingo</hi></placeName>, <date
+                            calendar="gregorian" when="1916-10-30T16:00:00-04:40">
+                            <hi rendition="#italic">October 30, 1916, 4 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Your October 28, 6 p.m., received today. Consulted on <hi rendition="#italic"
+                        >Prairie</hi> Admiral Pond, Colonel Pendleton; I think forces ample thirty
+                    days. Situation sufficiently under control not to require martial law and its
+                    immediate declaration would not have satisfactory effect under present
+                    conditions. Disturbances last week sporadic and martial law could hardly
+                    entirely prevent similar outbreaks, although if in force would prove
+                    advantageous many ways and I respectfully suggest that future necessity might be
+                    question of serious consideration. Death of Captain Low probably due to absence
+                    of impressive force.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Brewer</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

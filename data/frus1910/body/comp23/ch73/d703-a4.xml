@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1910_d703-a4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Translation.]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1910_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1910_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1910/d703-a4"
+                    type="canonical"/>
+                <relatedItem target="d703-a3.xml" type="prev"/>
+                <relatedItem target="d703-a5.xml" type="next"/>
+                <relatedItem target="d703.xml" type="parent"/>
+                <relatedItem target="d703.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1910</bibl>
+                <bibl type="frus-division-id">d703-a4</bibl>
+                <bibl type="frus-division-n">703.4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="680" to="680" unit="page"
+                        >680</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d703-a4">
+
+                <pb facs="0792" n="680" sameAs="frus:frus1910/pg680"/>
+
+                <head>[Translation.]</head>
+                <p rendition="#center">[Official Gazette, June 29, 1910.]</p>
+                <p>We hereby sanction and cause to be promulgated the regulations relating to the
+                    appointment, standing, and pay of Korean subjects constituting the staffs of the
+                    police offices of the residency general, regarding which the privy council has
+                    been consulted.</p>
+                <closer><signed>
+                        <list>
+                            <item><hi rendition="#small-caps">Sign Manual.</hi></item>
+                            <item><hi rendition="#small-caps">Privy Seal.</hi></item>
+                        </list></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><date calendar="gregorian" when="1910-06-29"
+                                ><hi rendition="#small-caps">June</hi> 29,
+                    1910</date>.</dateline></closer>
+                <postscript>
+                    <p>(Countersigned.) <hi rendition="#small-caps">Marquis Taro
+                            Katsura</hi>,<lb/><hi rendition="#italic">Prime Minister.</hi></p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

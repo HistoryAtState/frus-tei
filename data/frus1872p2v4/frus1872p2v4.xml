@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p2v4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1872p2v4_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1872p2v4_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1872p2v4_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1872p2v4"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1872p2v4" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v4/covers/frus1872p2v4.jpg"/>
+                        <extent>
+                            <measure quantity="44929" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1872p2v4" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v4/ebook/frus1872p2v4.epub"/>
+                        <extent>
+                            <measure quantity="915934" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1872p2v4" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v4/ebook/frus1872p2v4.mobi"/>
+                        <extent>
+                            <measure quantity="1532810" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:45.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1873 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>belgium</term>
+                    <term>brazil</term>
+                    <term>cuba</term>
+                    <term>denmark</term>
+                    <term>france</term>
+                    <term>italy</term>
+                    <term>mexico</term>
+                    <term>netherlands</term>
+                    <term>portugal</term>
+                    <term>russia</term>
+                    <term>spain</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>american-revolutionary-war</term>
+                    <term>isle-of-man</term>
+                    <term>martinique</term>
+                    <term>guernsey</term>
+                    <term>st-vincent-and-the-grenadines</term>
+                    <term>mauritius</term>
+                    <term>the-bahamas</term>
+                    <term>barbados</term>
+                    <term>fish-hamilton</term>
+                    <term>grant-ulysses-s</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1872p2v4" status="published" when="1873"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[I]" xml:id="pg-seq-1"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">PAPERS RELATING TO THE FOREIGN RELATIONS OF THE UNITED
+                        STATES,</titlePart>
+                    <titlePart type="subseries">TRANSMITTED TO CONGRESS WITH THE ANNUAL MESSAGE OF
+                        THE PRESIDENT.<lb/>DECEMBER 2, 1872,</titlePart>
+                    <titlePart type="volumeno">PRECEDED BY A SYNOPTICAL LIST OF PAPERS AND FOLLOWED
+                        BY AN ALPHABETICAL INDEX OF PERSONS AND SUBJECTS.</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <pubPlace>WASHINGTON:</pubPlace>
+                    <lb/>
+                    <publisher>GOVERNMENT PRINTING OFFICE.</publisher>
+                    <lb/>
+                    <docDate>1873.</docDate>
+                </docImprint>
+            </titlePage>
+            <pb facs="0002" n="[II]" xml:id="pg-seq-2"/>
+            <p>Exchange Dartmouth College</p>
+            <xi:include href="front/abstract.xml" xpointer="abstract"/>
+            <pb facs="0004" n="[IV]" xml:id="pgIV"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0012" n="[XII]" xml:id="pgXII"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <pb facs="0580" n="[568]" xml:id="pg568"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

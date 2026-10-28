@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1896_d9" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Tripp to Mr.
+                            Olney.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1896_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1896_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1896/d9"
+                    type="canonical"/>
+                <relatedItem target="../ch5.xml" type="prev"/>
+                <relatedItem target="d9-a1.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1896</bibl>
+                <bibl type="frus-division-id">d9</bibl>
+                <bibl type="frus-division-n">9</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="16" to="18" unit="page"
+                        >16–18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Legation</hi>,<lb/><hi
+                            rendition="#italic">Vienna</hi></placeName>
+                    <date calendar="gregorian" when="1896-12-18"><hi rendition="#italic">December
+                            18, 1896</hi></date>
+                    <date notAfter="1896-12-18T23:59:59-05:00" notBefore="1896-12-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d9">
+
+                <pb facs="0110" n="16" sameAs="frus:frus1896/pg16"/>
+
+                <head><hi rendition="#italic">Mr. Tripp to Mr.
+                            Olney.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >United States Legation</hi>,<lb/><hi rendition="#italic"
+                                >Vienna</hi></placeName>, <date calendar="gregorian"
+                            when="1896-12-18"><hi rendition="#italic">December 18, 1896</hi></date>.
+                        (Received Jan. 4, 1897.)</dateline>
+                    <seg rendition="#float-left">No. 220.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to herewith submit for
+                    your consideration copies of the correspondence between this legation and the
+                    Imperial and Royal ministry for foreign affairs of Austria-Hungary in reference
+                    to the case of Franz Holasek, a native of Bohemia, who, having served four years
+                    in the Austrian army, and while his name yet remained upon the retired list,
+                    emigrated to America, and became a naturalized citizen of the United States, and
+                    who, upon his return to his native country, was arrested upon the charge of
+                    desertion.</p>
+                <p>The case was submitted to the Imperial and Royal ministry for foreign affairs by
+                    this legation as coming within the rule established in the case of Ladislao
+                    Sedivy, reported to you in my dispatch No. 208,<anchor n="1" xml:id="d9-f1"/> of
+                    date October 1 last; and in accordance with the precedent established in that
+                    case Mr. Holasek has been discharged from arrest and his name stricken from the
+                    rolls of the Austrian army.</p>
+                <p>I am further pleased to inform you that the other cases of arrest made about the
+                    same time with that of Sedivy and Holasek, based upon the theory that a soldier
+                    of the Austro-Hungarian army, who has performed the three years of active
+                    service required, but whose name still remains upon the retired list, and who
+                    remains liable to be called at any time into active service, and who, during
+                    such existing liability, emigrates to and becomes a citizen of the United
+                    States, is liable to arrest and punishment as a deserter upon his return to his
+                    native country, have been all of them discharged without further application to
+                    or correspondence with the foreign office of Austria Hungary; so that the rule
+                    laid down in the case of Sedivy may be regarded as the admitted interpretation
+                    of the treaty of 1870 as to the question therein involved, and which must govern
+                    all future cases coming within its terms.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Bartlett Tripp.</hi></signed></closer>
+
+
+
+
+
+
+                <xi:include href="d9-a1.xml" xpointer="d9-a1"/>
+                <xi:include href="d9-a2.xml" xpointer="d9-a2"/>
+                <xi:include href="d9-a3.xml" xpointer="d9-a3"/>
+                <xi:include href="d9-a4.xml" xpointer="d9-a4"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d9-f1" n="1" xml:id="d9-f1-content">
+                <p>Printed <hi rendition="#italic">ante</hi>, <ref target="#pg6">page 6</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

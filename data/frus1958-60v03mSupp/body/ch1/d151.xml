@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d151" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum From Lay to the NSC</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d151"
+                    type="canonical"/>
+                <relatedItem target="d150.xml" type="prev"/>
+                <relatedItem target="d151-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d151</bibl>
+                <bibl type="frus-division-n">151</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1959-04-21">April 21, 1959</date>
+                    <date notAfter="1959-04-21T23:59:59-05:00" notBefore="1959-04-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_LJS_1">Lay, James S., Jr.</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_QDA_1">Quarles, Donald A.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_RG_1">RG</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_SP_1">S/P</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d151">
+
+                <pb facs="d150-2" n="2" sameAs="frus:frus1958-60v03mSupp/d150-2"/>
+
+                <head>151. Memorandum From Lay to the NSC<anchor
+                        n="1" xml:id="d151-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1959-04-21">April 21, 1959</date></dateline>
+                </opener>
+                <pb facs="d151-1" n="1" type="facsimile" xml:id="d151-1"/>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Status of Military Mobilization Base Program</item>
+                </list>
+                <list type="references">
+                    <head>REFERENCES</head>
+                    <item>A. NSC 5810/1</item>
+                    <item>B. NSC Action No. 2019</item>
+                </list>
+                <p>The enclosed memorandum on the subject from the Deputy Secretary of Defense,
+                    prepared pursuant to NSC Action No. 2019–<hi
+                        rendition="#italic">b</hi>–(1) <pb facs="0799" n="694" type="typeset"
+                        xml:id="pg694"/> and –(2), is transmitted herewith for the information of
+                    the National Security Council.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">James S. Lay,
+                            Jr.</hi>
+                        <lb/>
+                        <hi rendition="#italic">Executive Secretary</hi>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>cc: The Secretary of the Treasury</p>
+                    <p>The Director, Bureau of the Budget</p>
+                    <p>The Chairman, Joint Chiefs of Staff</p>
+                    <p>The Director of Central Intelligence</p>
+                </postscript>
+
+
+                <xi:include href="d151-a1.xml" xpointer="d151-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d151-f1" n="1" type="source" xml:id="d151-f1-content">
+                <p>Source: Transmits a memorandum from Quarles to the NSC on “Status
+                    of Military Mobilization Base Program.” Secret. 2 pp. NARA, RG 59, S/P–NSC Files: Lot 62 D 1, NSC 5810, 5906.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

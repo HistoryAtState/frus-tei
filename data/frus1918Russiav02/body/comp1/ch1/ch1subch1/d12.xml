@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav02_d12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Japan (Morris) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav02/d12"
+                    type="canonical"/>
+                <relatedItem target="d11.xml" type="prev"/>
+                <relatedItem target="d13.xml" type="next"/>
+                <relatedItem target="../ch1subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav02</bibl>
+                <bibl type="frus-division-id">d12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="8" to="8" unit="page"
+                    >8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Tokyo</hi></placeName>
+                    <date calendar="gregorian" when="1917-12-15T16:00:00+09:00"><hi
+                            rendition="#italic">December 15, 1917, 4 p.m.</hi></date>
+                    <date notAfter="1917-12-15T02:00:00-05:00" notBefore="1917-12-15T02:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav02/persons">
+                    <term ref="frus:frus1918Russiav02/persons#p_BK1">Baldwin, Capt. (later Maj.)
+                        Karl</term>
+                    <term ref="frus:frus1918Russiav02/persons#p_MRS1">Morris, Roland S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d12">
+
+                <pb facs="0098" n="8" sameAs="frus:frus1918Russiav02/pg8"/>
+
+                <note rend="inline" type="source">File No. 861.00/825</note>
+                <head><hi rendition="#italic">The Ambassador in Japan</hi> (<hi rendition="#italic"
+                    >Morris</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Tokyo</hi></placeName>, <date calendar="gregorian"
+                            when="1917-12-15T16:00:00+09:00"><hi rendition="#italic">December 15,
+                                1917, 4 p.m.</hi></date>
+                        <lb/> [<hi rendition="#italic">Received 6 p.m.</hi>]</dateline>
+                </opener>
+                <p>Colonel Ninamiya, secretary of the Minister of War, in his
+                    speech to-day with Captain Baldwin<anchor
+                        n="1" xml:id="d12-f1"/> made following statement: <quote rend="blockquote">
+                        <p>Sending troops to Russia will depend upon circumstances entirely. We are
+                            making some preparations but troops if sent either Harbin or Vladivostok
+                            will be only sufficient number to protect Japanese interests and at
+                            present we do not expect to send them.</p></quote></p>
+                <closer>
+                    <signed><hi rendition="#small-caps"
+                            >Morris</hi></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d12-f1" n="1" xml:id="d12-f1-content">
+                <p>Capt. Karl F. Baldwin, Military Attaché at
+                    Tokyo.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

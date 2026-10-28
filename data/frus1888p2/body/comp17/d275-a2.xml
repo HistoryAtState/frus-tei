@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1888p2_d275-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Protocol.</title>
+            </titleStmt>
+            <xi:include href="../../frus1888p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1888p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1888p2/d275-a2"
+                    type="canonical"/>
+                <relatedItem target="d275-a1.xml" type="prev"/>
+                <relatedItem target="d276.xml" type="next"/>
+                <relatedItem target="d275.xml" type="parent"/>
+                <relatedItem target="d275.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1888p2</bibl>
+                <bibl type="frus-division-id">d275-a2</bibl>
+                <bibl type="frus-division-n">275.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1466" to="1467" unit="page"
+                        >1466–67</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d275-a2">
+
+                <pb facs="0506" n="1466" sameAs="frus:frus1888p2/pg1466"/>
+
+                <opener><seg rendition="#center">[Inclosure 2 in No. 324.]</seg></opener>
+                <head><hi rendition="#italic">Protocol.</hi></head>
+                <p>The undersigned, in the name of the Governments of Spain and the United States,
+                    respectively, have agreed as follows: <list>
+                        <item>First. The agreement in force between Spain and the United States of
+                            America signed at Madrid on the 21st of December, 1887, is
+                            prorogued.</item>
+                        <pb facs="0507" n="1467" xml:id="pg1467"/>
+                        <item>Second. This agreement, which was to terminate on June 30 of this
+                            year, shall continue in force, by virtue of this prorogation, until the
+                            conclusion of a more extended treaty of commerce between the two parties
+                            interested, or until one of them shall give notice to the other of its
+                            desire to terminate the agreement two months before the date on which it
+                            desires such termination.</item>
+                    </list></p>
+                <p>In witness whereof his excellency Don Segismundo Moret, minister of state, and
+                    Mr. J. L. M. Curry, envoy extraordinary and minister plenipotentiary of the
+                    United States of America in Madrid, have placed their hands and seals to the
+                    present document.</p>
+                <closer>
+                    <dateline rendition="#float-left">Done in duplicate at
+                            <placeName>Madrid</placeName>
+                        <date calendar="gregorian" when="1888-05-26">this 26th day of May,
+                            1888</date>.</dateline>
+                    <lb/> [<hi rendition="#small-caps">seal.</hi>] <signed><hi
+                            rendition="#small-caps">J. L. M. Curry</hi>.</signed><lb/>[<hi
+                        rendition="#small-caps">seal.</hi>] <signed><hi rendition="#small-caps">S.
+                            Moret.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

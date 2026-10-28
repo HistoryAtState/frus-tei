@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d353" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr.
+                            de Margerie.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d353"
+                    type="canonical"/>
+                <relatedItem target="d352-a1.xml" type="prev"/>
+                <relatedItem target="d353-a1.xml" type="next"/>
+                <relatedItem target="../ch121.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d353</bibl>
+                <bibl type="frus-division-n">353</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="399" to="400" unit="page"
+                        >399–400</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1902-02-04"><hi rendition="#italic">February 4,
+                            1902</hi></date>
+                    <date notAfter="1902-02-04T23:59:59-05:00" notBefore="1902-02-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d353">
+
+                <pb facs="0479" n="399" sameAs="frus:frus1902/pg399"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr.
+                            de Margerie.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1902-02-04"><hi rendition="#italic">February 4,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 444.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring again to your notes of November
+                    24 and December 22 last, I have now the honor to inclose a copy of the report
+                    from the district attorney of the United States for the district of Washington,
+                    relative to the complaint of the violation of the consular convention of 1853
+                    between the United States and France.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay</hi>.</signed></closer>
+
+
+                <xi:include href="d353-a1.xml" xpointer="d353-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

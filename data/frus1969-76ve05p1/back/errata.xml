@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76ve05p1_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1969-76ve05p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1969-76ve05p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76ve05p1/errata"
+                    type="canonical"/>
+                <relatedItem target="../body/comp1/ch6/d333.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1969-76ve05p1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76ve05p1</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1972-11-03T23:59:59-05:00" notBefore="1969-01-03T22:15:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="d333-03" n="3" sameAs="frus:frus1969-76ve05p1/d333-03"/>
+
+                <head>Errata</head>
+                <p>The following changes have been made to the online version of <ref
+                        target="frus:frus1969-76ve05p1">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1969–1976, Volume E–5, Part
+                        1, Documents on Sub-Saharan Africa, 1969–1972</ref>.</p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#d213">Document 213</ref>. </hi>
+                    </item>
+                    <item>After publication, it was discovered that the text and facsimile page
+                        images for Document 213 were in error and were a duplication of <ref
+                            target="#d216">Document 216</ref>. Editors supplied the correct text and
+                        page images. (Date of correction: October 11, 2019)</item>
+                    <item>
+                        <hi rendition="#bold">2. <ref target="#d289">Document 289</ref>. </hi>
+                    </item>
+                    <item>After publication, it was discovered that the text and facsimile page
+                        images for Document 289 were in error and were a duplication of <ref
+                            target="#d288">Document 288</ref>. Editors supplied the correct text and
+                        page images. (Date of correction: November 5, 2019)</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

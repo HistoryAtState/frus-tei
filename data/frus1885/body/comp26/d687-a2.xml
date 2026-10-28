@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1885_d687-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../frus1885_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1885_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1885/d687-a2"
+                    type="canonical"/>
+                <relatedItem target="d687-a1.xml" type="prev"/>
+                <relatedItem target="d687-a2-a1.xml" type="next"/>
+                <relatedItem target="d687.xml" type="parent"/>
+                <relatedItem target="d687.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1885</bibl>
+                <bibl type="frus-division-id">d687-a2</bibl>
+                <bibl type="frus-division-n">687.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="908" to="909" unit="page"
+                        >908–9</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">La Guayra, Venezuela</hi></placeName>
+                    <date calendar="gregorian" when="1885-02-23"><hi rendition="#italic"
+                            >February</hi> 23, 1885</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d687-a2">
+
+                <pb facs="1036" n="908" sameAs="frus:frus1885/pg908"/>
+
+                <opener><seg rendition="#center">[Inclosure 2 in No. 56.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps">La
+                                Guayra, Venezuela</hi></placeName>, <date calendar="gregorian"
+                            when="1885-02-23"><hi rendition="#italic">February</hi> 23,
+                        1885</date>.</dateline>
+                    <seg rendition="#float-left">No. 1.]</seg></opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Winfield S. Bird</hi>,
+                        Esq.,<lb/><hi rendition="#italic">United States Consul at La
+                    Guayra:</hi></p>
+                <p><hi rendition="#small-caps">Sir</hi>: The schooner Lanie Cobb, under my command,
+                    arrived at this port on the 15th instant from Savannah, Ga., laden with lumber,
+                    and in consequence of damages sustained by being run into on the 21st instant by
+                    the Venezuelan schooner Ana Eulogia, I have to request that you will please call
+                    a survey upon the said schooner to ascertain her present state and condition,
+                    and what had best be done for the interest of the parties concerned.</p>
+                <closer><signed>C. H. COBB, <hi rendition="#italic">Master.</hi></signed></closer>
+
+
+
+
+                <xi:include href="d687-a2-a1.xml" xpointer="d687-a2-a1"/>
+                <xi:include href="d687-a2-a2.xml" xpointer="d687-a2-a2"/>
+                <xi:include href="d687-a2-a3.xml" xpointer="d687-a2-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

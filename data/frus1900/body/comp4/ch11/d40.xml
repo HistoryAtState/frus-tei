@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d40" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hill to Mr.
+                            Bryan.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d40"
+                    type="canonical"/>
+                <relatedItem target="d39-a2.xml" type="prev"/>
+                <relatedItem target="d40-a1.xml" type="next"/>
+                <relatedItem target="../ch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d40</bibl>
+                <bibl type="frus-division-n">40</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="55" to="56" unit="page"
+                        >55–56</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-05-25"><hi rendition="#italic">May 25,
+                            1900</hi></date>
+                    <date notAfter="1900-05-25T23:59:59-05:00" notBefore="1900-05-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d40">
+
+                <pb facs="0151" n="55" sameAs="frus:frus1900/pg55"/>
+
+                <head><hi rendition="#italic">Mr. Hill to Mr.
+                            Bryan.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-05-25"><hi rendition="#italic">May 25,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 195.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In connection with the Department’s No. 194
+                    of the 23d instant, in regard to Brazilian law, either enacted or in
+                    contemplation, providing that “the importation of articles made abroad and
+                    bearing labels partly or wholly in the Portuguese language, is not permitted
+                    except when imported from Portugal, or when manufactured for factories,” I
+                    inclose a copy of the correspondence with the Humphreys Homeopathic Medicine
+                    Company in the matter.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">David J. Hill.</hi></signed></closer>
+
+
+
+
+                <xi:include href="d40-a1.xml" xpointer="d40-a1"/>
+                <xi:include href="d40-a2.xml" xpointer="d40-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

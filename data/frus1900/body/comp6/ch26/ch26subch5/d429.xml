@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d429" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d429"
+                    type="canonical"/>
+                <relatedItem target="d428.xml" type="prev"/>
+                <relatedItem target="d429-a1.xml" type="next"/>
+                <relatedItem target="../ch26subch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d429</bibl>
+                <bibl type="frus-division-n">429</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="345" to="346" unit="page"
+                        >345–46</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1900-07-25"><hi rendition="#italic">July 25,
+                            1900</hi></date>
+                    <date notAfter="1900-07-25T23:59:59-05:00" notBefore="1900-07-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d429">
+
+                <pb facs="0443" n="345" sameAs="frus:frus1900/pg345"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1900-07-25"
+                                ><hi rendition="#italic">July 25, 1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 361 A.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to report that I received
+                    on the evening of the 18th<anchor n="3" xml:id="d429-f1"/> your cipher dispatch,
+                    of which I inclose a copy. On the 20th, at 10.30 p.m., I received your open
+                    cable conveying the Conger dispatch. The same evening I waited upon the
+                    permanent under secretary for foreign affairs, in the absence of Lord Salisbury
+                    at Hatfield, and communicated to him the Conger dispatch at your request for
+                    suggestion as stated in the cable. He asked leave to make a copy of the cable
+                    for immediate transmission to Lord Salisbury, which I was glad to have him do,
+                    and it was at once dispatched. * * *</p>
+                <p>On Sunday, the 22d, I received your open cable,<anchor n="2" xml:id="d429-f2"/>
+                    which reached the embassy late on Saturday night, relating to the Emperor’s
+                    telegram to the President, and as it seemed urgent, I sent a special messenger
+                    to Hatfield with a note for Lord Salisbury. * * *</p>
+                <pb facs="0444" n="346" xml:id="pg346"/>
+                <p>On Tuesday, the 24th, I saw Lord Salisbury, who talked fully over the Conger
+                    message and that of the Emperor, but seemed not to be at all impressed by
+                    either, although he expressed the most cordial and earnest desire to cooperate
+                    in any way to get further intelligence and into communication with the
+                    legations, but he said very frankly he had nothing to suggest. His Government
+                    had done and would continue to do everything possible in that direction, but he
+                    could see no sufficient evidence for believing that Conger’s dispatch was of so
+                    late a date as the 18th. * * *</p>
+                <p>I have the honor to be, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+
+
+                <xi:include href="d429-a1.xml" xpointer="d429-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d429-f1" n="3" xml:id="d429-f1-content">
+                <p>Printed ante.</p>
+            </note>
+            <note corresp="#d429-f2" n="2" xml:id="d429-f2-content">
+                <p>Also sent to Berlin, Paris, and St. Petersburg.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

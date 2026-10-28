@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v2_title-page1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appendix.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1873p1v2/title-page1"
+                    type="canonical"/>
+                <relatedItem target="comp12/ch9/ch9subch40/d323-a1.xml" type="prev"/>
+                <relatedItem target="title-page1/comp13.xml" type="next"/>
+                <relatedItem target="../title-page.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v2</bibl>
+                <bibl type="frus-division-id">title-page1</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1439" to="1442" unit="page"
+                        >1439–42</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1873-11-22T23:59:59-05:00" notBefore="1873-11-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="title-page1">
+
+                <pb facs="0809" n="[1439]" xml:id="pg1439"/>
+
+                <head>Appendix.</head>
+                <pb facs="0810" n="[1440]" xml:id="pg1440"/>
+
+
+                <xi:include href="title-page1/comp13.xml" xpointer="comp13"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1874_d203-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../frus1874_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1874_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1874/d203-a1"
+                    type="canonical"/>
+                <relatedItem target="d203.xml" type="prev"/>
+                <relatedItem target="d203-a2.xml" type="next"/>
+                <relatedItem target="d203.xml" type="parent"/>
+                <relatedItem target="d203.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1874</bibl>
+                <bibl type="frus-division-id">d203-a1</bibl>
+                <bibl type="frus-division-n">203.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="386" to="386" unit="page"
+                        >386</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d203-a1">
+
+                <pb facs="0482" n="386" sameAs="frus:frus1874/pg386"/>
+
+                <opener><seg rendition="#center">[Inclosure 2 in No. 326.]</seg></opener>
+                <p rendition="#center">$100 REWARD.</p>
+                <p>We, the undersigned, offer a reward of $100 to the person who delivers to us the
+                    authors of the exhumation and robbery of the grave of the deceased North
+                    American, William Doval, in the Protestant cemetary of the Ejido, leaving his
+                    nude body upon the ground.</p>
+                <p>Any information that can be given, will be received at the house of the North
+                    American minister.</p>
+                <closer><signed><list>
+                            <item>CARLOS KAISER,</item>
+                            <item>DR. WILSON,</item>
+                            <item>FRANCISCO SCHMIDT,</item>
+                            <item>WILLIAM SAEGER,</item>
+                            <item>ARTHUR ROGERS,</item>
+                            <item>FREDERICK WOODHOUSE,</item>
+                            <item>FREDERICK FULLER,</item>
+                            <item>S. A. <hi rendition="#small-caps">De</hi> FOREST,</item>
+                        </list></signed></closer>
+                <postscript>
+                    <p rendition="#flush">and all the North American residents of this city.</p>
+                    <closer><dateline rendition="#float-left"><placeName><hi rendition="#small-caps"
+                                    >Quito</hi></placeName>, <date calendar="gregorian"
+                                when="1873-07-25"><hi rendition="#italic">July</hi> 25,
+                            1873</date>.</dateline></closer>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

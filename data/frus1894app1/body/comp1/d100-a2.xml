@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894app1_d100-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../frus1894app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1894app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1894app1/d100-a2"
+                    type="canonical"/>
+                <relatedItem target="d100-a1.xml" type="prev"/>
+                <relatedItem target="d100-a3.xml" type="next"/>
+                <relatedItem target="d100.xml" type="parent"/>
+                <relatedItem target="d100.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1894app1</bibl>
+                <bibl type="frus-division-id">d100-a2</bibl>
+                <bibl type="frus-division-n">100.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="100" to="100" unit="page"
+                        >100</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d100-a2">
+
+                <pb facs="0106" n="100" sameAs="frus:frus1894app1/pg100"/>
+
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <p>The undersigned, His Imperial Majesty’s plenipotentiaries, have the honour to
+                    acquaint their excellencies the plenipotentiaries of His Majesty the Emperor of
+                    China that the meeting of the plenipotentiaries of the two powers is appointed
+                    to take place at the Hiroshima Kencho on the 1st day of the 2nd month of the
+                    28th year of Meiji, at 11 o’clock a.m.</p>
+                <p>The undersigned will on that occasion be prepared to make with the Chinese
+                    plenipotentiaries a reciprocal exchange of full powers.</p>
+                <closer><signed>
+                        <list>
+                            <item>Count <hi rendition="#small-caps">Ito Hirobumi</hi>,</item>
+                            <item>Viscount <hi rendition="#small-caps">Mutsu Munemitsu</hi>,<lb/><hi
+                                    rendition="#italic">H. I. M’s Plenipotentiaries.</hi></item>
+                        </list>
+                    </signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><placeName>Hiroshima</placeName>, <date
+                            calendar="japanese-nengō" when="1895-01-31">the 31st day of the 1st
+                            month of the 28th year of Meiji</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v10-12mSupp_d129" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Airgram A–142 from Guatemala City, September 11</title>
+            </titleStmt>
+            <xi:include href="../../../frus1961-63v10-12mSupp_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1961-63v10-12mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v10-12mSupp/d129"
+                    type="canonical"/>
+                <relatedItem target="d128.xml" type="prev"/>
+                <relatedItem target="d129-a1.xml" type="next"/>
+                <relatedItem target="../ch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v10-12mSupp</bibl>
+                <bibl type="frus-division-id">d129</bibl>
+                <bibl type="frus-division-n">129</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Guatemala City</placeName>
+                    <date calendar="gregorian" when="1962-09-11T15:17:00-06:00">September 11, 1962,
+                        3:17 p.m.</date>
+                    <date notAfter="1962-09-11T16:17:00-05:00" notBefore="1962-09-11T16:17:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v10-12mSupp/persons">
+                    <term ref="frus:frus1961-63v10-12mSupp/persons#p_BJO_1">Bell, John O.</term>
+                </keywords>
+                <keywords scheme="frus:frus1961-63v10-12mSupp/terms">
+                    <term ref="frus:frus1961-63v10-12mSupp/terms#t_CF_1">CF</term>
+                    <term ref="frus:frus1961-63v10-12mSupp/terms#t_DOS_1">DOS</term>
+                    <term ref="frus:frus1961-63v10-12mSupp/terms#t_SS_1">S/S</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d129">
+
+                <pb facs="0485" n="310" xml:id="pg310"/>
+
+                <head>129. Airgram A–142 from Guatemala City, September 11<anchor n="1"
+                        xml:id="d129-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>Guatemala City</placeName>, <date calendar="gregorian"
+                            when="1962-09-11T15:17:00-06:00">September 11, 1962, 3:17 p.m.</date>
+                    </dateline>
+                </opener>
+                <pb facs="d129-1" n="1" type="facsimile" xml:id="d129-1"/>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Guidelines for Policy and Operations: Guatemala</item>
+                </list>
+                <p><hi rendition="#italic">Policy—Limit Distribution—S/S</hi></p>
+                <p>The attached paper was prepared prior to the receipt today of a revised draft of
+                    “Guidelines of United States Policy and Operations Towards Guatemala.” While
+                    comment on that draft will be forwarded as requested, this paper, it is
+                    requested, should be distributed on a limited basis to those concerned with U.S.
+                    policy towards Guatemala.</p>
+                <closer>
+                    <signed corresp="#p_BJO_1">John O.
+                        Bell</signed>
+                </closer>
+
+
+
+                <xi:include href="d129-a1.xml" xpointer="d129-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d129-f1" n="1" type="source" xml:id="d129-f1-content">
+                <p>Transmits guidelines for policy and operations in Guatemala. Secret. 10 pp.
+                        DOS, CF,
+                    611.14/9–1162.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

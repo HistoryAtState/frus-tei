@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d254-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Proclamation.</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d254-a1"
+                    type="canonical"/>
+                <relatedItem target="d254.xml" type="prev"/>
+                <relatedItem target="d255.xml" type="next"/>
+                <relatedItem target="d254.xml" type="parent"/>
+                <relatedItem target="d254.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d254-a1</bibl>
+                <bibl type="frus-division-n">254.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="251" to="252" unit="page"
+                        >251–52</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Taku</hi></placeName>
+                    <date calendar="gregorian" when="1900-06-20"><hi rendition="#italic">June 20,
+                            1900</hi></date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d254-a1">
+
+                <pb facs="0349" n="251" sameAs="frus:frus1900/pg251"/>
+
+                <opener><seg rendition="#center">[Inclosure.]</seg></opener>
+                <head><hi rendition="#italic">Proclamation.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Taku</hi></placeName>, <date calendar="gregorian" when="1900-06-20"
+                                ><hi rendition="#italic">June 20,
+                    1900</hi></date>.</dateline></opener>
+                <p>The admirals and senior officers of the allied powers in China desire to let it
+                    be known to all viceroys and authorities on* coast, river provinces, and cities
+                    in China <pb facs="0350" n="252" xml:id="pg252"/> that they intend use of their
+                    arms only against the Boxers and those people who oppose them in their march to
+                    Pekin for the rescue of their fellow countrymen.</p>
+                <p>Published by request of the senior admiral at Taku.</p>
+                <closer><signed><hi rendition="#small-caps">Joaquim Maria Travassos
+                            Valdez</hi>,<lb/><hi rendition="#italic">Consul-General for Portugal and
+                            Senior Consul.</hi></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><hi rendition="#small-caps">Senior
+                            Consulate</hi>, <placeName><hi rendition="#italic"
+                            >Shanghai</hi></placeName>, <date calendar="gregorian" when="1900-06-23"
+                                ><hi rendition="#italic">June 23,
+                    1900</hi></date>.</dateline></closer>
+                <postscript>
+                    <p><hi rendition="#small-caps">United States Consulate-General</hi>,<lb/><hi
+                            rendition="#italic">Shanghai, China, July 3, 1900.</hi></p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

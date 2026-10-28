@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v40_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1969-76v40_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1969-76v40_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v40/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1969-76v40.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v40</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1142" to="1142" unit="page"
+                        >1142</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1972-12-20T23:59:59-05:00" notBefore="1968-10-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="1172" n="1142" sameAs="frus:frus1969-76v40/pg1142"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to <ref target="frus:frus1969-76v40">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1969–1976, Volume XL</ref>,
+                    Germany and Berlin, 1969–1972. Please be aware that printed volumes have not
+                    been revised. <!--Revised information is in italic.-->
+                </p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#d263-f3">Footnote 3, Document
+                                263</ref>, Page 765 (date of correction: January 3, 2013)</hi>
+                    </item>
+                    <item>The citation to “footnote 7” of Document 250 has been corrected as
+                        “footnote 4.”</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

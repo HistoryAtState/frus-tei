@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d291" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Day to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d291"
+                    type="canonical"/>
+                <relatedItem target="../ch43.xml" type="prev"/>
+                <relatedItem target="d291-a1.xml" type="next"/>
+                <relatedItem target="../ch43.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d291</bibl>
+                <bibl type="frus-division-n">291</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="370" to="370" unit="page"
+                        >370</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1898-05-21"><hi rendition="#italic">May 21,
+                            1898</hi></date>
+                    <date notAfter="1898-05-21T23:59:59-05:00" notBefore="1898-05-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d291">
+
+                <pb facs="0466" n="370" sameAs="frus:frus1898/pg370"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Day to Mr.
+                            Hay.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1898-05-21"><hi rendition="#italic">May 21,
+                        1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 643.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I append on the overleaf copy of my
+                    telegram of the 19th instant, directing you to express to his family, through
+                    the proper channel, the sympathy of the American people, in view of the death of
+                    Mr. Gladstone.</p>
+                <p>Respectfully, yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">William R. Day.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d291-a1.xml" xpointer="d291-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

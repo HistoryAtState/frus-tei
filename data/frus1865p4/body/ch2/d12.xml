@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p4_d12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President of the Congress</title>
+            </titleStmt>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p4/d12"
+                    type="canonical"/>
+                <relatedItem target="d11.xml" type="prev"/>
+                <relatedItem target="d13.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p4</bibl>
+                <bibl type="frus-division-id">d12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="8" to="9" unit="page"
+                    >8–9</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1865-06-03T23:59:59-05:00" notBefore="1865-06-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d12">
+
+                <pb facs="0080" n="8" sameAs="frus:frus1865p4/pg8"/>
+
+                <head>President of the Congress</head>
+                <note rend="inline" rendition="#center" type="source">[Translation.]</note>
+                <dateline>
+                    <hi rendition="#small-caps">Legislative Congress of the Argentine Nation</hi>, <placeName>
+                        <hi rendition="#italic">Buenos Ayres</hi></placeName>, <date
+                        calendar="gregorian" when="1865-06-03">
+                        <hi rendition="#italic">June</hi> 3, 1865</date>.</dateline>
+                <p rendition="#flush">Marcos Paz, president of the congress of the Argentine nation,
+                    to the president of the Congress of the United States of America, greeting:</p>
+                <p>Conscious of the loss that liberty and democracy have suffered by the death of
+                    Abraham Lincoln, the great republican, the Argentine congress joins the <pb
+                        facs="0081" n="9" xml:id="pg9"/> people of the United States in their
+                    mourning, by a resolution that its members shall wear mourning for three days,
+                    as you will see by the accompanying authentic copy of the resolution, which you
+                    will please transmit to the Congress of the Union.</p>
+                <closer>
+                    <signed>MARCOS PAZ.</signed>
+                </closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">President</hi>
+                        <hi rendition="#italic">of the Congress of the United States of
+                        America</hi>.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

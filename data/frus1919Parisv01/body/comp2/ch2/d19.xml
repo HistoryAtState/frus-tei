@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv01_d19" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>
+                        Colonel E. M. House to
+                        the Secretary of State
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv01/d19"
+                    type="canonical"/>
+                <relatedItem target="d18.xml" type="prev"/>
+                <relatedItem target="d20.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv01</bibl>
+                <bibl type="frus-division-id">d19</bibl>
+                <bibl type="frus-division-n">19</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="12" to="12" unit="page"
+                        >12</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1917-09-20T23:59:59-05:00" notBefore="1917-09-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1919Parisv01/persons">
+                    <term ref="frus:frus1919Parisv01/persons#p_HCEM1">House, Colonel Edward
+                        M.</term>
+                    <term ref="frus:frus1919Parisv01/persons#p_LR1">Lansing, Robert</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d19">
+
+                <pb facs="0082" n="12" sameAs="frus:frus1919Parisv01/pg12"/>
+
+                <note rend="inline" type="source">Paris Peace Conf. 182/2</note>
+                <head>
+                    <hi rendition="#italic">
+                        Colonel E. M. House to
+                        the Secretary of State
+                    </hi>
+                </head>
+                <p>
+                    <hi rendition="#small-caps">Dear Mr. Lansing</hi>: The President tells me of your conference with
+                    him yesterday as far as it related to me, and the work which you both have in
+                    mind for me to do.</p>
+                <p>I expect to be in Washington next week and I hope we may have an opportunity to
+                    talk it out, so I may have the benefit of your views and wide experience.</p>
+                <p>The memorandum which you gave the President, and which he in turn sent me, is in
+                    every way admirable and will be helpful in planning an organization.<anchor
+                        n="3" xml:id="d19-f1"/>
+                </p>
+                <p>Sincerely yours,</p>
+                <closer>
+                    <signed>
+                        
+                            <hi rendition="#small-caps">E. M. House</hi>
+                        
+                    </signed>
+                    <dateline rendition="#float-left">
+                        <placeName>
+                            <hi rendition="#small-caps">New York</hi>
+                        </placeName>, <date calendar="gregorian" when="1917-09-20">September 20,
+                            1917</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d19-f1" n="3" xml:id="d19-f1-content">
+                <p>See footnote 1a, <ref target="#pg10">p. 10</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

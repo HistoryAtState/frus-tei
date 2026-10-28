@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1922v02_comp29" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Uruguay:</title>
+            </titleStmt>
+            <xi:include href="../frus1922v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1922v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1922v02/comp29"
+                    type="canonical"/>
+                <relatedItem target="comp28/ch83/d872.xml" type="prev"/>
+                <relatedItem target="comp29/ch84.xml" type="next"/>
+                <relatedItem target="../frus1922v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1922v02</bibl>
+                <bibl type="frus-division-id">comp29</bibl>
+                <bibl type="frus-division-n">29</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="984" to="986" unit="page"
+                        >984–86</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1922-09-06T18:00:00-05:00" notBefore="1922-08-02T16:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp29">
+
+                <pb facs="1098" n="984" xml:id="pg984"/>
+
+                <head>Uruguay:</head>
+
+                <xi:include href="comp29/ch84.xml" xpointer="ch84"/>
+            </div>
+        </body>
+    </text>
+</TEI>

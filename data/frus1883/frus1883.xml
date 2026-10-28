@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1883" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1883_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1883_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1883_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1883"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1883" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1883/covers/frus1883.jpg"/>
+                        <extent>
+                            <measure quantity="47540" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:35:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1883" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1883/ebook/frus1883.epub"/>
+                        <extent>
+                            <measure quantity="1907193" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:35:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1883" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1883/ebook/frus1883.mobi"/>
+                        <extent>
+                            <measure quantity="2584428" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:35:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1884 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">arthur</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>argentina</term>
+                    <term>arthur-chester-a</term>
+                    <term>austria</term>
+                    <term>bolivia</term>
+                    <term>bulgaria</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>colombia</term>
+                    <term>costa-rica</term>
+                    <term>cuba</term>
+                    <term>denmark</term>
+                    <term>el-salvador</term>
+                    <term>france</term>
+                    <term>gabon</term>
+                    <term>germany</term>
+                    <term>greece</term>
+                    <term>guatemala</term>
+                    <term>haiti</term>
+                    <term>honduras</term>
+                    <term>hungary</term>
+                    <term>iran</term>
+                    <term>ireland</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>liberia</term>
+                    <term>mexico</term>
+                    <term>nicaragua</term>
+                    <term>peru</term>
+                    <term>portugal</term>
+                    <term>russia</term>
+                    <term>spain</term>
+                    <term>switzerland</term>
+                    <term>thailand</term>
+                    <term>tunisia</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>venezuela</term>
+                    <term>solomon-islands</term>
+                    <term>tonga</term>
+                    <term>new-caledonia</term>
+                    <term>frelinghuysen-frederick-theodore</term>
+                    <term>andorra</term>
+                    <term>curacao</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1883" status="published" when="1884"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Papers Relating to the Foreign Relations of the United
+                        States.</titlePart>
+                    <titlePart type="subseries">Transmitted to Congress, with the Annual Message of
+                        the President, <hi rendition="#small-caps">December</hi> 4,
+                        1883.</titlePart>
+                    <titlePart type="volumeno">Preceded by a<lb/>List of Papers and Followed by an
+                        Index of Persons and Subjects.</titlePart>
+                    <titlePart type="volumetitle"/>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <pubPlace>WASHINGTON:</pubPlace><lb/><publisher>GOVERNMENT PRINTING
+                        OFFICE.</publisher><lb/><docDate>1884.</docDate>
+                </docImprint>
+            </titlePage>
+            <pb facs="0002" n="[II]" xml:id="pgII"/>
+            <xi:include href="front/message-of-the-president.xml"
+                xpointer="message-of-the-president"/>
+            <pb facs="0022" n="[XXII]" xml:id="pgXXII"/>
+            <xi:include href="front/foreign-relations.xml" xpointer="foreign-relations"/>
+            <pb facs="0024" n="[XXIV]" xml:id="pgXXIV"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+            <xi:include href="body/comp12.xml" xpointer="comp12"/>
+            <xi:include href="body/comp13.xml" xpointer="comp13"/>
+            <xi:include href="body/comp14.xml" xpointer="comp14"/>
+            <xi:include href="body/comp15.xml" xpointer="comp15"/>
+            <xi:include href="body/comp16.xml" xpointer="comp16"/>
+            <xi:include href="body/comp17.xml" xpointer="comp17"/>
+            <xi:include href="body/comp18.xml" xpointer="comp18"/>
+            <pb facs="0771" n="[701]" xml:id="pg701"/>
+            <pb facs="0772" n="[702]" xml:id="pg702"/>
+            <pb facs="0773" n="[703]" xml:id="pg703"/>
+            <pb facs="0774" n="[704]" xml:id="pg704"/>
+            <pb facs="0775" n="[705]" xml:id="pg705"/>
+            <pb facs="0776" n="[706]" xml:id="pg706"/>
+            <xi:include href="body/comp19.xml" xpointer="comp19"/>
+            <xi:include href="body/comp20.xml" xpointer="comp20"/>
+            <xi:include href="body/comp21.xml" xpointer="comp21"/>
+            <xi:include href="body/comp22.xml" xpointer="comp22"/>
+            <xi:include href="body/comp23.xml" xpointer="comp23"/>
+            <xi:include href="body/comp24.xml" xpointer="comp24"/>
+            <xi:include href="body/comp25.xml" xpointer="comp25"/>
+            <xi:include href="body/comp26.xml" xpointer="comp26"/>
+            <xi:include href="body/comp27.xml" xpointer="comp27"/>
+        </body>
+        <back>
+            <pb facs="1004" n="[934]" xml:id="pg934"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

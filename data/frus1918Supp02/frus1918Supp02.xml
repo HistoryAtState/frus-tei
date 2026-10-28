@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Supp02" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1918Supp02_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1918Supp02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1918Supp02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1918Supp02"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1918Supp02" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1918Supp02/covers/frus1918Supp02.jpg"/>
+                        <extent>
+                            <measure quantity="30269" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:57:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1918Supp02" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1918Supp02/ebook/frus1918Supp02.epub"/>
+                        <extent>
+                            <measure quantity="1638490" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:57:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1918Supp02" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1918Supp02/ebook/frus1918Supp02.mobi"/>
+                        <extent>
+                            <measure quantity="2075221" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:57:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1933 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml"
+                    xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">wilson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>austria</term>
+                    <term>hungary</term>
+                    <term>belgium</term>
+                    <term>non-governmental-organizations</term>
+                    <term>brazil</term>
+                    <term>canada</term>
+                    <term>bulgaria</term>
+                    <term>prisoners-of-war</term>
+                    <term>china</term>
+                    <term>cuba</term>
+                    <term>ecuador</term>
+                    <term>germany</term>
+                    <term>honduras</term>
+                    <term>france</term>
+                    <term>united-kingdom</term>
+                    <term>greece</term>
+                    <term>guatemala</term>
+                    <term>haiti</term>
+                    <term>italy</term>
+                    <term>panama</term>
+                    <term>refugees</term>
+                    <term>russia</term>
+                    <term>poland</term>
+                    <term>spain</term>
+                    <term>wilson-woodrow</term>
+                    <term>wake-island</term>
+                    <term>lansing-robert</term>
+                    <term>virgin-islands-u-s</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1918Supp02" status="published" when="1933"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">PAPERS RELATING TO THE <lb/> FOREIGN RELATIONS <lb/> OF
+                        THE UNITED STATES</titlePart>
+                    <titlePart type="subseries">1918 <lb/> SUPPLEMENT 2</titlePart>
+                    <titlePart type="volumeno"/>
+                    <titlePart type="volumetitle">THE WORLD WAR</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <publisher>UNITED STATES <lb/> GOVERNMENT PRINTING OFFICE</publisher>
+                    <lb/>
+                    <pubPlace>WASHINGTON:</pubPlace>
+                    <lb/>
+                    <docDate>1933</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/>
+                    <hi rendition="#small-caps">Publication No</hi>. 476</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0008" n="[IV]" xml:id="pgIV"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+            <pb facs="0084" n="[LXXX]" xml:id="pgLXXX"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <pb facs="0934" n="[850]" xml:id="pg850"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

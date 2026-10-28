@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p1_d339-a4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../frus1872p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1872p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1872p1/d339-a4"
+                    type="canonical"/>
+                <relatedItem target="d339-a3.xml" type="prev"/>
+                <relatedItem target="d339-a4-a1.xml" type="next"/>
+                <relatedItem target="d339.xml" type="parent"/>
+                <relatedItem target="d339.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1872p1</bibl>
+                <bibl type="frus-division-id">d339-a4</bibl>
+                <bibl type="frus-division-n">339.4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="451" to="451" unit="page"
+                        >451</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Headquarters, Department of
+                            Texas</hi>,<lb/><hi rendition="#italic">San Antonio</hi></placeName>
+                    <date calendar="gregorian" when="1872-07-19"><hi rendition="#italic">July</hi>
+                        19, 1872</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d339-a4">
+
+                <pb facs="0547" n="451" sameAs="frus:frus1872p1/pg451"/>
+
+                <opener>
+                    <seg rendition="#center">[Indorsements.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Headquarters, Department of Texas</hi>,<lb/><hi rendition="#italic"
+                                >San Antonio</hi></placeName>, <date calendar="gregorian"
+                            when="1872-07-19"><hi rendition="#italic">July</hi> 19,
+                        1872</date>.</dateline>
+                </opener>
+                <p>Respectfully forwarded to headquarters Military Division of the Missouri, for the
+                    information of the Lieutenant-General commanding.</p>
+                <closer>
+                    <signed>C. C. AUGUR,<lb/><hi rendition="#italic">Brigadier-General
+                            Commanding.</hi></signed>
+                </closer>
+
+
+
+                <xi:include href="d339-a4-a1.xml" xpointer="d339-a4-a1"/>
+                <xi:include href="d339-a4-a2.xml" xpointer="d339-a4-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

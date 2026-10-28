@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1910_d16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Minister Sherrill to
+                        the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1910_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1910_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1910/d16"
+                    type="canonical"/>
+                <relatedItem target="d15.xml" type="prev"/>
+                <relatedItem target="d16-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1910</bibl>
+                <bibl type="frus-division-id">d16</bibl>
+                <bibl type="frus-division-n">16</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="9" to="10" unit="page"
+                        >9–10</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Buenos Aires</hi></placeName>
+                    <date calendar="gregorian" when="1910-06-18"><hi rendition="#italic">June 18,
+                            1910</hi></date>
+                    <date notAfter="1910-06-18T23:59:59-05:00" notBefore="1910-06-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d16">
+
+                <pb facs="0121" n="9" sameAs="frus:frus1910/pg9"/>
+
+                <note rend="inline" type="source">File No. 14503/85.</note>
+                <head><hi rendition="#italic">Minister Sherrill to
+                        the Secretary of State.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic">Buenos
+                                Aires</hi></placeName>, <date calendar="gregorian" when="1910-06-18"
+                                ><hi rendition="#italic">June 18, 1910</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 428.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to report, supplementing
+                    my No. 387 of the 25th ultimo,<anchor n="1" xml:id="d16-f1"/> that I have to-day
+                    received from the minister for foreign affairs an acknowledgment of the
+                    congratulations, transmitted through this legation from the President and from
+                    yourself upon the occasion of the centenary anniversary of Argentine
+                    independence. A copy and translation of the minister’s note are inclosed
+                    herewith in duplicate.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">C. H. Sherrill.</hi></signed></closer>
+
+
+                <xi:include href="d16-a1.xml" xpointer="d16-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d16-f1" n="1" xml:id="d16-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

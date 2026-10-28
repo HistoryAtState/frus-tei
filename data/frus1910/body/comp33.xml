@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1910_comp33" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Portugal</title>
+            </titleStmt>
+            <xi:include href="../frus1910_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1910_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1910/comp33"
+                    type="canonical"/>
+                <relatedItem target="comp32/ch88/d901.xml" type="prev"/>
+                <relatedItem target="comp33/ch89.xml" type="next"/>
+                <relatedItem target="../frus1910.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1910</bibl>
+                <bibl type="frus-division-id">comp33</bibl>
+                <bibl type="frus-division-n">33</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="825" to="834" unit="page"
+                        >825–34</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1910-10-12T23:59:59-05:00" notBefore="1909-12-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp33">
+
+                <pb facs="0937" n="825" xml:id="pg825"/>
+
+                <head>Portugal</head>
+
+
+
+                <xi:include href="comp33/ch89.xml" xpointer="ch89"/>
+                <xi:include href="comp33/ch90.xml" xpointer="ch90"/>
+                <xi:include href="comp33/ch91.xml" xpointer="ch91"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1886_d7" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 7.</title>
+                <title type="subtitle">Mr. Tree to Mr. Bayard.</title>
+            </titleStmt>
+            <xi:include href="../../frus1886_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1886_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1886/d7"
+                    type="canonical"/>
+                <relatedItem target="../comp3.xml" type="prev"/>
+                <relatedItem target="d8.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1886</bibl>
+                <bibl type="frus-division-id">d7</bibl>
+                <bibl type="frus-division-n">7</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="14" unit="page"
+                        >13–14</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Brussels</hi></placeName>
+                    <date calendar="gregorian" when="1885-11-24"><hi rendition="#italic"
+                            >November</hi> 24, 1885</date>
+                    <date notAfter="1885-11-24T23:59:59-05:00" notBefore="1885-11-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d7">
+
+                <pb facs="0097" n="13" sameAs="frus:frus1886/pg13"/>
+
+                <head>No. 7.<lb/><hi rendition="#italic">Mr. Tree
+                        to Mr. Bayard.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Brussels</hi></placeName>, <date calendar="gregorian"
+                            when="1885-11-24"><hi rendition="#italic">November</hi> 24, 1885</date>.
+                        (Received December 7.)</dateline>
+                    <seg rendition="#float-left">No. 20.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Mr. Edward van Eetvelde,
+                    administrator-general of the department of foreign affairs of the Independent
+                    Free State of the Congo, presented me to-day with a few specimens of postal
+                    cards and international letter stamps, which his Government is about to issue,
+                    and which I have the honor to inclose herewith.<anchor n="*" xml:id="d7-f1"
+                    /></p>
+                <p>He informed me at the same time that the postal service of the Independent Free
+                    State of the Congo would be in operation by the 1st of January next. He also
+                    said that his Government intended to immediately <pb facs="0098" n="14"
+                        xml:id="pg14"/> establish a registry of births and deaths at four points in
+                    the country, namely, at Banana, Vivi, Leopoldville, and Stanley Pool, and that a
+                    decree to that effect had been already signed by Leopold, the Sovereign of that
+                    State.</p>
+                <p>I have, &amp;c.,</p>
+                <closer><signed>LAMBERT TREE</signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d7-f1" n="*" xml:id="d7-f1-content">
+                <p>Originals sent to Postmaster-General.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

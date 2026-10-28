@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d902" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d902"
+                    type="canonical"/>
+                <relatedItem target="d901.xml" type="prev"/>
+                <relatedItem target="d903.xml" type="next"/>
+                <relatedItem target="../ch91.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d902</bibl>
+                <bibl type="frus-division-n">902</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="596" to="596" unit="page"
+                        >596</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1914-09-12T13:00:00-06:36">
+                        <hi rendition="#italic">September 12, 1914, 1 p.m.</hi>
+                    </date>
+                    <date notAfter="1914-09-12T14:36:00-05:00" notBefore="1914-09-12T14:36:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d902">
+
+                <pb facs="0712" n="596" sameAs="frus:frus1914/pg596"/>
+
+                <note rend="inline" type="source">File No. 812.00/13171.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Mexico</hi></placeName>, <date
+                            calendar="gregorian" when="1914-09-12T13:00:00-06:36">
+                            <hi rendition="#italic">September 12, 1914, 1 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Following is reply of Villa to Obregón’s telegram, translation of which was
+                    transmitted to the Department September 11: <quote rend="blockquote">
+                        <p rendition="#right">
+                            <hi rendition="#small-caps">Headquarters in Chihuahua</hi>, <hi
+                                rendition="#italic">September 9, 1914</hi>.</p>
+                        <p>I have received with satisfaction your message of yesterday,<anchor
+                                n="60" xml:id="d902-f1"/> in which you are pleased to communicate to
+                            me that you have found the majority of the revolutionary leaders who
+                            have arrived at the capital entirely willing to support and sustain the
+                            ideas and aspirations which we have and which I sincerely believe will
+                            save the Mexican people. I accept with enthusiasm your patriotic idea
+                            that we should all together approach the President of the Republic to
+                            ask how to take up the matter of the departure of the American forces
+                            which are in Vera Cruz; for it is really humiliating and shameful for
+                            our beloved country that invading forces still remain in Vera Cruz when
+                            there exists no justification for it. You are fully authorized to
+                            address said note in such terms as you may judge appropriate, having the
+                            goodness to sign my name.</p>
+                        <p>Cordially,</p>
+                        <p rendition="#right">The General in Chief, <lb/>
+                            <hi rendition="#small-caps">Francisco Villa</hi>.</p>
+                    </quote>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Silliman</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d902-f1" n="60" xml:id="d902-f1-content">
+                <p>Dated, as transmitted, September 9.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

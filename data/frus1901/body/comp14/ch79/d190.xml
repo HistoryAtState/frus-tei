@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d190" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr.
+                            Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d190"
+                    type="canonical"/>
+                <relatedItem target="d189.xml" type="prev"/>
+                <relatedItem target="d190-a1.xml" type="next"/>
+                <relatedItem target="../ch79.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d190</bibl>
+                <bibl type="frus-division-n">190</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="205" to="205" unit="page"
+                        >205</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1901-02-08"><hi rendition="#italic">February 8,
+                            1901</hi></date>
+                    <date notAfter="1901-02-08T23:59:59-05:00" notBefore="1901-02-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d190">
+
+                <pb facs="0285" n="205" sameAs="frus:frus1901/pg205"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr.
+                            Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1901-02-08"
+                                ><hi rendition="#italic">February 8, 1901</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 503.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to your instruction No. 526
+                    of the 7th ultimo, I have the honor to inclose herewith the copy of a note from
+                    Lord Lansdowne, in which it is stated that His Majesty’s Government will have
+                    pleasure in acceding to the wish of our Government that His Majesty’s consul at
+                    Boma may be authorized to take charge of American interests in the Kongo Free
+                    State until such time as consular representatives can be provided for by action
+                    of the Congress of the United States.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+
+
+                <xi:include href="d190-a1.xml" xpointer="d190-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

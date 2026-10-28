@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d715" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d715"
+                    type="canonical"/>
+                <relatedItem target="d714.xml" type="prev"/>
+                <relatedItem target="d716.xml" type="next"/>
+                <relatedItem target="../ch56.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d715</bibl>
+                <bibl type="frus-division-n">715</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="538" to="538" unit="page"
+                        >538</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Port au Prince</hi></placeName>
+                    <date calendar="gregorian" when="1912-05-29">
+                        <hi rendition="#italic">May 29, 1912</hi></date>
+                    <date notAfter="1912-05-29T23:59:59-05:00" notBefore="1912-05-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d715">
+
+                <pb facs="0654" n="538" sameAs="frus:frus1912/pg538"/>
+
+                <note rend="inline" type="source">File No. 838.111/76.]</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Port au Prince</hi></placeName>, <date
+                            calendar="gregorian" when="1912-05-29">
+                            <hi rendition="#italic">May 29, 1912</hi></date>.</dateline>
+                </opener>
+                <p>Some of the thirty-one Syrian firms here are unimportant retailers who could
+                    easily liquidate, but others have stocks which could not be disposed of within
+                    the time set, extension of which is refused by the Haitian Government.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Furniss</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

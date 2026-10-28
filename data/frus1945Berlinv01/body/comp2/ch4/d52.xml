@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d52" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 52</title>
+                <title type="subtitle">
+                        Marshal Stalin to Prime
+                        Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d52"
+                    type="canonical"/>
+                <relatedItem target="d51.xml" type="prev"/>
+                <relatedItem target="d53.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d52</bibl>
+                <bibl type="frus-division-n">52</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="93" to="93" unit="page"
+                        >93</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1945-06-05">June 5, 1945</date>
+                    <date notAfter="1945-06-05T23:59:59-05:00" notBefore="1945-06-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d52">
+
+                <pb facs="0225" n="93" sameAs="frus:frus1945Berlinv01/pg93"/>
+
+                <note rend="inline" type="source">740.00119 Potsdam/6–645</note>
+                <head>No. 52 <lb/>
+                    <hi rendition="#italic">
+                        Marshal Stalin to Prime
+                        Minister Churchill
+                    </hi><anchor n="1" xml:id="d52-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Translation?]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">personal</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Moscow</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-06-05">June 5, 1945</date>.</dateline>
+                </opener>
+                <p>Arising from your message<anchor n="2" xml:id="d52-f2"/> on the desirability of
+                    transferring meeting of the Three to an earlier date than July 15th, I should
+                    like to say once again that the date of July 15th was proposed by President
+                        Truman; and I expressed agreement
+                    with that date. Inasmuch as correspondence is taking place between you and
+                    President Truman on this subject at the
+                    moment, I shall refrain from making any new proposals about the date of our
+                    meeting.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d52-f1" n="1" type="source" xml:id="d52-f1-content">
+                <p>Printed from a copy of a courtesy copy received by the American Embassy at
+                    Moscow.</p>
+            </note>
+            <note corresp="#d52-f2" n="2" xml:id="d52-f2-content">
+                <p>See <ref target="#d47">document No. 47</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

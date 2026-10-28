@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d70" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in the United Kingdom (Winant) to the Secretary of
+                    State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d70"
+                    type="canonical"/>
+                <relatedItem target="d69.xml" type="prev"/>
+                <relatedItem target="d71.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d70</bibl>
+                <bibl type="frus-division-n">70</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="46" to="46" unit="page"
+                        >46</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-14">September 14, 1944</date>
+                    <date notAfter="1944-09-14T23:59:59-05:00" notBefore="1944-09-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_EW1">EW</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Niact1">Niact</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d70">
+
+                <pb facs="0100" n="46" xml:id="pg46"/>
+
+                <note rend="inline" type="source">740.0011 EW/9–1444:
+                    Telegram</note>
+                <head><hi rendition="#italic">The Ambassador in the United Kingdom</hi> (<hi rendition="#italic">Winant</hi>) <hi
+                        rendition="#italic">to the Secretary of
+                    State</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">us urgent</hi>
+                        <lb/>
+                        <hi rendition="#small-caps"
+                        >niact</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1944-09-14">September 14, 1944</date>.</dateline>
+                </opener>
+                <p>7558. Personal for the Secretary.</p>
+                <p>Eden left last night for Quebec Conference by air. I understand he is going more
+                    in his capacity as unofficial Deputy Defense Minister than as Foreign
+                    Secretary.</p>
+                <closer><signed><hi rendition="#small-caps">Winant</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

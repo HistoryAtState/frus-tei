@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76ve01_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1969-76ve01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1969-76ve01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76ve01/errata"
+                    type="canonical"/>
+                <relatedItem target="../body/comp1/ch6/d444.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1969-76ve01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76ve01</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1973-02-13T23:59:59-05:00" notBefore="1968-12-31T21:02:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="d444-02" n="2" sameAs="frus:frus1969-76ve01/d444-02"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to <hi rendition="#italic">Foreign
+                        Relations</hi>, 1969–1976, Volume E–1, Documents on Global Issues,
+                    1969–1972. <!--Revised information is in italic.-->
+                </p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. Documents 248, 249, and 250. (Date of correction:
+                            January 18, 2017)</hi>
+                    </item>
+                    <item>After publication, it was discovered that the text for Document 248 was
+                        missing and that the above documents were published in the wrong order.
+                        Editors added the text for Document 248 and revised the document numbers,
+                        correcting Document 248 to Document 249, Document 249 to Document 250, and
+                        Document 250 to Document 248.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

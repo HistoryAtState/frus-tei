@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d60" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 60</title>
+                <title type="subtitle">The Ambassador in the Soviet
+                        Union (Harriman) to the President
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d60"
+                    type="canonical"/>
+                <relatedItem target="d59.xml" type="prev"/>
+                <relatedItem target="d61.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d60</bibl>
+                <bibl type="frus-division-n">60</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="97" to="97" unit="page"
+                        >97</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1945-06-14">14 June 1945</date>
+                    <date notAfter="1945-06-14T23:59:59-05:00" notBefore="1945-06-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_EGADD1">Eisenhower, General of the
+                        Army Dwight D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_HK1">Harriman, Kathleen</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_ZMGK1">Zhukov, Marshal of the Soviet
+                        Union Georgy Konstantinovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d60">
+
+                <pb facs="0229" n="97" sameAs="frus:frus1945Berlinv01/pg97"/>
+
+                <note rend="inline" type="source">
+                    Leahy Papers: Telegram</note>
+                <head>No. 60 <lb/>
+                    <hi rendition="#italic">The Ambassador in the Soviet Union</hi> (<hi rendition="#italic"
+                        >Harriman</hi>) <hi rendition="#italic">to the President
+                    </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Moscow</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-06-14">14 June 1945</date>.</dateline>
+                </opener>
+                <p>Personal and top secret for the President from Harriman.</p>
+                <p>I am wondering whether there is anything you wish me to take up with Marshal Stalin in regard to the arrangements
+                    for your forthcoming meeting. I had assumed that General Eisenhower would be instructed to work out the
+                    arrangements in Berlin with Marshal
+                        Zhukov, on the other hand there will undoubtedly be some matters
+                    which will have to be discussed in Moscow in order that appropriate instructions
+                    may be sent Zhukov.</p>
+                <p>From my experience with the last two meetings,<anchor n="1" xml:id="d60-f1"/> the
+                    Russians will probably be asking me shortly for information as to your plans.
+                    They will also wish to know who[m] you intend to bring so that they may select
+                    the members of their party[.]</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d60-f1" n="1" xml:id="d60-f1-content">
+                <p>i. e., the conferences at Tehran and Yalta.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

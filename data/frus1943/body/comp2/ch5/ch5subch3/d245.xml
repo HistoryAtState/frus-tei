@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d245" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt
+                        to Prime Minister Churchill
+                    </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d245"
+                    type="canonical"/>
+                <relatedItem target="d244.xml" type="prev"/>
+                <relatedItem target="d246.xml" type="next"/>
+                <relatedItem target="../ch5subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d245</bibl>
+                <bibl type="frus-division-n">245</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="525" to="525" unit="page"
+                        >525</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Birch Island, Ontario</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-01">August 1, 1943</date>
+                    <date notAfter="1943-08-01T23:59:59-05:00" notBefore="1943-08-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Churchill1">Churchill</term>
+                    <term ref="frus:frus1943/terms#t_EW1">EW</term>
+                    <term ref="frus:frus1943/terms#t_FNP1">Former Naval Person</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d245">
+
+                <pb facs="0639" n="525" sameAs="frus:frus1943/pg525"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to
+                        Prime Minister Churchill
+                    </hi><anchor n="1" xml:id="d245-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">operational priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Birch
+                                Island, Ontario</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-01">August 1, 1943</date>.</dateline>
+                </opener>
+                <p>President to Former Naval Person. Personal and
+                    secret. Number 338.</p>
+                <p>Referring to your 393 of 31 July,<anchor n="2" xml:id="d245-f2"/> I have
+                    authorized Eisenhower to prescribe the conditions of armistice exactly as stated
+                    by you in 393 and in the event of a request from the Italian Government.</p>
+                <p>Referring to your proposed “Instrument of Surrender”<anchor n="3"
+                        xml:id="d245-f3"/> which is now being studied by the Combined Chiefs of
+                    Staff and the Department of State in Washington, I am in general agreement
+                    therewith but must have further advice from the above mentioned agencies of this
+                    Government before acting thereon. I am directing the Joint Staff and the State
+                    Department to report to me on this document at the earliest possible
+                        date.<anchor n="4" xml:id="d245-f4"/>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d245-f1" n="1" type="source" xml:id="d245-f1-content">
+                <p>Sent to the White House Map Room, Washington, and forwarded to the United States
+                    Naval Attaché, London, via Navy channels.</p>
+            </note>
+            <note corresp="#d245-f2" n="2" xml:id="d245-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg522">p. 522</ref>.</p>
+            </note>
+            <note corresp="#d245-f3" n="3" xml:id="d245-f3-content">
+                <p>i.e., the British draft of the “long” or “comprehensive” terms of surrender which
+                        Churchill had referred to in his
+                    telegram No. 393 to Roosevelt.</p>
+            </note>
+            <note corresp="#d245-f4" n="4" xml:id="d245-f4-content">
+                <p>The following message from Leahy was forwarded to Hull by the White House Map
+                    Room on August 1, 1943: “Please inform the Joint Chiefs of Staff and the State
+                    Department that the President desires their advice by telegram at the earliest
+                    practicable date on the draft instrument of surrender of Italy, proposed by the
+                    British Chiefs of Staff.” (740.00119 EW/8–143)</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>
