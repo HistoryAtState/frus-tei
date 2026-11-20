@@ -25,7 +25,7 @@ The repository builds an eXist-db package, `frus-tei`, installed at `/db/apps/fr
 
 ```shell
 ant            # build/frus-tei.xar: the curated volume subset (see build.xml)
-ant xar-full   # build/frus-tei.xar: the entire corpus, not installable in one step
+ant xar-full   # build/frus-tei.xar: the entire corpus
 ```
 
 Since releases are automated, a local build can be given its own version, e.g. `ant -Dapp.version=X.X.X`. During a release, `-Drelease=true` regenerates `expath-pkg.xml` and `repo.xml` from their `.tmpl` files.
