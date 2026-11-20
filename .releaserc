@@ -11,7 +11,7 @@
       "preset": "conventionalcommits"
     }],
     ["@semantic-release/exec", {
-      "prepareCmd": "ant -Dapp.version=${nextRelease.version} -Drelease=true"
+      "prepareCmd": "ant -Dapp.version=${nextRelease.version} -Drelease=true xar-full"
     }],
     ["@semantic-release/git", {
       "assets": ["expath-pkg.xml", "repo.xml"],
@@ -22,7 +22,7 @@
         {
           "path": "build/frus-tei.xar",
           "name": "frus-tei.xar",
-          "label": "Expath package, curated volume subset (frus-tei.xar)"
+          "label": "Expath package, entire corpus (frus-tei.xar)"
         }
       ]
     }]
