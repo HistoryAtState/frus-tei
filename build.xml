@@ -10,10 +10,9 @@
     </condition>
 
     <!--
-        The default xar packages a CURATED SUBSET of the volumes, not the whole
-        corpus: the full corpus (694 volumes, ~5.6 GB) cannot be installed as a
-        single xar, as eXist's deploy and indexing step does not finish and a
-        partial install leaves the instance unusable.
+        The default xar packages a CURATED SUBSET of the volumes, for
+        development and CI; "ant xar-full" packages the whole corpus (694
+        volumes, ~5.6 GB).
 
         REQUIRED volumes: every volume the hsg-jinks landing page links, so those
         links resolve. These lists live in other repositories; keep this one in
@@ -29,7 +28,7 @@
                 frus1981-88v41   (second sample of the per-document model)
 
         To add a volume, add an include line below. Its .last-modified entries
-        are packaged with it. "ant xar-full" packages the entire corpus.
+        are packaged with it.
     -->
     <patternset id="curated-volumes">
         <include name="data/frus1861/**" />
@@ -98,7 +97,7 @@
         <mkdir dir="${build.dir}" />
     </target>
 
-    <target name="xar" depends="prepare" description="Package the curated volume subset (installable)">
+    <target name="xar" depends="prepare" description="Package the curated volume subset">
         <zip destfile="${build.dir}/${app.name}.xar">
             <fileset dir="${basedir}">
                 <patternset refid="package-files" />
@@ -111,7 +110,7 @@
         <echo>Version: ${app.version}</echo>
     </target>
 
-    <target name="xar-full" depends="prepare" description="Package the entire corpus (not installable in one step)">
+    <target name="xar-full" depends="prepare" description="Package the entire corpus">
         <zip destfile="${build.dir}/${app.name}.xar">
             <fileset dir="${basedir}">
                 <patternset refid="package-files" />
