@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v07-09mSupp_d269" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from Kennan to Rostow, May 15</title>
+            </titleStmt>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v07-09mSupp/d269"
+                    type="canonical"/>
+                <relatedItem target="../ch50.xml" type="prev"/>
+                <relatedItem target="d269-a1.xml" type="next"/>
+                <relatedItem target="../ch50.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v07-09mSupp</bibl>
+                <bibl type="frus-division-id">d269</bibl>
+                <bibl type="frus-division-n">269</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Belgrade</placeName>
+                    <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                        when="1962-05-15">May 15, 1962</date>
+                    <date notAfter="1962-05-15T23:59:59-05:00" notBefore="1962-05-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v07-09mSupp/persons">
+                    <term ref="frus:frus1961-63v07-09mSupp/persons#p_RWW_1">Rostow, Walt W.</term>
+                </keywords>
+                <keywords scheme="frus:frus1961-63v07-09mSupp/terms">
+                    <term ref="frus:frus1961-63v07-09mSupp/terms#t_BNSP_1">BNSP</term>
+                    <term ref="frus:frus1961-63v07-09mSupp/terms#t_NATO_1">NATO</term>
+                    <term ref="frus:frus1961-63v07-09mSupp/terms#t_SP_1">S/P</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d269">
+
+                <pb facs="1136" n="985" sameAs="frus:frus1961-63v07-09mSupp/pg985"/>
+
+                <head>269. Letter from Kennan to Rostow, May 15<anchor n="1" xml:id="d269-f1"/>
+                </head>
+                <opener>
+                    <dateline><placeName>Belgrade</placeName>, <date
+                            ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            when="1962-05-15">May 15, 1962</date>
+                    </dateline>
+                    <pb facs="d269-1" n="1" type="facsimile" xml:id="d269-1"/>
+                    <salute>Dear Walt:</salute>
+                </opener>
+                <p>In dictating the original draft of my letter to you about your general paper, I
+                    included some purple prose on the subject of disengagement which I later struck
+                    out, as not essential to the purpose of the letter. Unwilling, however, that any
+                    literary flower should blush unseen, I send you this excerpt, from which you
+                    will observe the obdurate and unregenerate state of my mind.</p>
+                <p>Sincerely yours,</p>
+                <closer><signed>George F. Kennan</signed></closer>
+
+
+
+                <xi:include href="d269-a1.xml" xpointer="d269-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d269-f1" n="1" type="source" xml:id="d269-f1-content">
+                <p>Encloses his comments on U.S. military policy in Europe as it affects NATO, West
+                    Germany and the Warsaw Pact. Unclassified. 3 pp. Department of State, S/P Files:
+                    Lot 69 D 121, BNSP Draft, 3/26/62.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

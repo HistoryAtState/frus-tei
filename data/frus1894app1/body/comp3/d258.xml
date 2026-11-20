@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894app1_d258" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Guzman to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../frus1894app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1894app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1894app1/d258"
+                    type="canonical"/>
+                <relatedItem target="d257-a1.xml" type="prev"/>
+                <relatedItem target="d258-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1894app1</bibl>
+                <bibl type="frus-division-id">d258</bibl>
+                <bibl type="frus-division-n">258</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="239" to="239" unit="page"
+                        >239</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the Republic of
+                            Nicaragua</hi>,<lb/><hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1894-03-05"><hi rendition="#italic">March 5,
+                            1894</hi></date>
+                    <date notAfter="1894-03-05T23:59:59-05:00" notBefore="1894-03-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d258">
+
+                <pb facs="0245" n="239" sameAs="frus:frus1894app1/pg239"/>
+
+                <head><hi rendition="#italic">Mr. Guzman to Mr. Gresham.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the Republic of Nicaragua</hi>,<lb/><hi
+                                rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1894-03-05"><hi rendition="#italic">March 5,
+                                1894</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Appended to the present communication I
+                    have the honor to send to Your Excellency copy of a telegram addressed to me by
+                    the vice-consul of Nicaragua at New York.</p>
+                <p>The report contained in this dispatch has been already published in the American
+                    daily papers, as Your Excellency may have seen.</p>
+                <p>With all consideration, I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">H. Guzman.</hi></signed></closer>
+
+
+                <xi:include href="d258-a1.xml" xpointer="d258-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

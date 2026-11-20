@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1885_d82" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hall to Mr. Bayard.</title>
+            </titleStmt>
+            <xi:include href="../../frus1885_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1885_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1885/d82"
+                    type="canonical"/>
+                <relatedItem target="d81.xml" type="prev"/>
+                <relatedItem target="d82-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1885</bibl>
+                <bibl type="frus-division-id">d82</bibl>
+                <bibl type="frus-division-n">82</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="117" to="118" unit="page"
+                        >117–18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States in Central
+                            America</hi>,<lb/><hi rendition="#italic">Guatemala</hi></placeName>
+                    <date calendar="gregorian" when="1885-04-24"><hi rendition="#italic">April</hi>
+                        24, 1885</date>
+                    <date notAfter="1885-04-24T23:59:59-05:00" notBefore="1885-04-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d82">
+
+                <pb facs="0245" n="117" sameAs="frus:frus1885/pg117"/>
+
+                <opener><seg rendition="#center">No. 82.</seg></opener>
+                <head><hi rendition="#italic">Mr. Hall to Mr. Bayard</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States in Central America</hi>,<lb/><hi
+                                rendition="#italic">Guatemala</hi></placeName>, <date
+                            calendar="gregorian" when="1885-04-24"><hi rendition="#italic"
+                                >April</hi> 24, 1885</date>. (Received May 18.)</dateline>
+                    <seg rendition="#float-left">No. 342.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to my dispatches, numbered
+                    337 and 338, dated the 15th and 17th instant, I have the honor to inclose
+                    herewith a copy and translation of a resolution of the Legislative Assembly of
+                    Guatemala, relative to a vote of thanks to the ministers of the United States,
+                    Great Britain, Germany, and Spain, and to the chargés d’affaires of France and
+                    Italy, for their friendly mediation, which, it is understood, contributed
+                    efficiently towards securing an honorable peace between Guatemala and Salvador,
+                    and the allies of the latter, Nicaragua and Costa Rica.</p>
+                <p>I have, &amp;c.,</p>
+                <closer><signed>HENRY C. HALL.</signed></closer>
+
+
+                <xi:include href="d82-a1.xml" xpointer="d82-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

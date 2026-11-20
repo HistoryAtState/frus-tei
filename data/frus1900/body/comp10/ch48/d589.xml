@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d589" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adee to Mr. Thiébaut.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d589"
+                    type="canonical"/>
+                <relatedItem target="d588.xml" type="prev"/>
+                <relatedItem target="d589-a1.xml" type="next"/>
+                <relatedItem target="../ch48.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d589</bibl>
+                <bibl type="frus-division-n">589</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="484" to="484" unit="page"
+                        >484</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-09-18"><hi rendition="#italic">September
+                            18, 1900</hi></date>
+                    <date notAfter="1900-09-18T23:59:59-05:00" notBefore="1900-09-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d589">
+
+                <pb facs="0582" n="484" sameAs="frus:frus1900/pg484"/>
+
+                <head><hi rendition="#italic">Mr. Adee to Mr. Thiébaut.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-09-18"><hi rendition="#italic">September 18,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 350.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Upon its receipt, on the 13th instant, I
+                    repeated to the governor of Texas the touching and highly appreciated message of
+                    condolence from His Excellency the President of France on account of the
+                    disaster at Galveston.</p>
+                <p>I have the honor to inclose copy of a telegram which I have received from the
+                    governor, indicating his wish that, through you, his thanks may be conveyed to
+                    the Government of France for its expression of sympathy.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Alvey A. Adee</hi>,<lb/><hi
+                            rendition="#italic">Acting Secretary.</hi></signed></closer>
+
+
+                <xi:include href="d589-a1.xml" xpointer="d589-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

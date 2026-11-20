@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1878_comp30" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Turkish Empire.</title>
+            </titleStmt>
+            <xi:include href="../frus1878_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1878_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1878/comp30"
+                    type="canonical"/>
+                <relatedItem target="comp29/d505.xml" type="prev"/>
+                <relatedItem target="comp30/ch1.xml" type="next"/>
+                <relatedItem target="../frus1878.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1878</bibl>
+                <bibl type="frus-division-id">comp30</bibl>
+                <bibl type="frus-division-n">30</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="847" to="914" unit="page"
+                        >847–914</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1878-10-21T23:59:59-05:00" notBefore="1877-10-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp30">
+
+                <pb facs="0909" n="847" sameAs="frus:frus1878/pg847"/>
+
+                <head>Turkish Empire.</head>
+
+                <xi:include href="comp30/ch1.xml" xpointer="ch1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

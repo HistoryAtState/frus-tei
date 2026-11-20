@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1924v01_d613" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lee, Higginson &amp; Company to the Department of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1924v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1924v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1924v01/d613"
+                    type="canonical"/>
+                <relatedItem target="d612.xml" type="prev"/>
+                <relatedItem target="d613-a1.xml" type="next"/>
+                <relatedItem target="../ch49.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1924v01</bibl>
+                <bibl type="frus-division-id">d613</bibl>
+                <bibl type="frus-division-n">613</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="657" to="662" unit="page"
+                        >657–62</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">New York</hi></placeName>
+                    <date calendar="gregorian" when="1924-10-30"><hi rendition="#italic">October 30,
+                            1924</hi></date>
+                    <date notAfter="1924-10-30T23:59:59-05:00" notBefore="1924-10-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d613">
+
+                <pb facs="0771" n="657" sameAs="frus:frus1924v01/pg657"/>
+
+                <note rend="inline" type="source">839.51/2482</note>
+                <head><hi rendition="#italic">Lee, Higginson &amp; Company to the Department of
+                        State</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >New York</hi></placeName>, <date calendar="gregorian"
+                            when="1924-10-30"><hi rendition="#italic">October 30,
+                        1924</hi></date>.<lb/>[Received October 31.]</dateline></opener>
+                <p><hi rendition="#small-caps">Sirs</hi>: At Mr. Greene’s<anchor n="29"
+                        xml:id="d613-f1"/> request, we take pleasure in enclosing copy of a contract
+                    with the Dominican Republic dated September 25, 1924, regarding the issue of
+                    $2,500,000 Dominican Republic Two-Year 5½% Collateral Trust Gold Notes. Very
+                    truly yours,</p>
+                <closer><hi rendition="#small-caps">Lee, Higginson</hi> &amp; Co.</closer>
+
+
+                <xi:include href="d613-a1.xml" xpointer="d613-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d613-f1" n="29" xml:id="d613-f1-content">
+                <p>Jerome D. Greene, a partner in the firm of Lee, Higginson &amp; Co.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

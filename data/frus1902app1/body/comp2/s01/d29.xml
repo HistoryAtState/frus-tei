@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app1_d29" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EXHIBIT V.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902app1/d29"
+                    type="canonical"/>
+                <relatedItem target="d28-a1.xml" type="prev"/>
+                <relatedItem target="d29-a1.xml" type="next"/>
+                <relatedItem target="../s01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app1</bibl>
+                <bibl type="frus-division-id">d29</bibl>
+                <bibl type="frus-division-n">29</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="53" to="56" unit="page"
+                        >53–56</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                        type="content-date" when="1892-09-10">September 10, 1892</date>
+                    <date notAfter="1892-09-10T23:59:59-05:00" notBefore="1892-09-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d29">
+
+                <pb facs="0063" n="53" sameAs="frus:frus1902app1/pg53"/>
+
+                <head>EXHIBIT V.</head>
+                <opener>
+                    <dateline rendition="#float-right">[<date
+                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                            type="content-date" when="1892-09-10">September 10,
+                        1892</date>]</dateline>
+                </opener>
+                <p rendition="#flush">In the matter of the claim of the United States of America
+                    against the Empire of Russia on account of the claim of J. and W. R. Wing,
+                    agents and managing owners of the bark <hi rendition="#italic">Cape Horn
+                        Pigeon</hi>, for damages arising out of the seizure of said bark in the
+                    Okhotsk Sea by an officer of the Russian navy on the 10th day of September,
+                    1892.</p>
+
+
+
+                <xi:include href="d29-a1.xml" xpointer="d29-a1"/>
+                <xi:include href="d29-a2.xml" xpointer="d29-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

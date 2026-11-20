@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d231" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note by the Secretaries of the Combined Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d231"
+                    type="canonical"/>
+                <relatedItem target="d230.xml" type="prev"/>
+                <relatedItem target="d231-a1.xml" type="next"/>
+                <relatedItem target="../ch5subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d231</bibl>
+                <bibl type="frus-division-n">231</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="403" to="404" unit="page"
+                        >403–4</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-12">12 September 1944</date>
+                    <date notAfter="1944-09-12T23:59:59-05:00" notBefore="1944-09-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1944Quebec/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d231">
+
+                <pb facs="0465" n="403" sameAs="frus:frus1944Quebec/pg403"/>
+
+                <note rend="inline" type="source">J.C.S. Files</note>
+                <head><hi rendition="#italic">Note by the Secretaries of the Combined Chiefs of
+                        Staff</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/> C.C.S. 618/4</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-09-12">12 September 1944</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Machinery for Coordination of
+                        United States-Soviet-British Military Effort</hi></p>
+                <p>In accordance with the instructions of the Combined Chiefs of Staff in the C.C.S.
+                    172d Meeting,<anchor n="1" xml:id="d231-f1"/> the Secretaries propose that the
+                    British Chiefs of Staff and the United States Chiefs of Staff send the messages
+                    attached hereto as Enclosures “A” and “B” to Generals Burrows and Deane
+                        respectively.<anchor n="2" xml:id="d231-f2"/></p>
+                <closer><signed>
+                        <hi rendition="#small-caps">A. J. McFarland</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">A. T. Cornwall-Jones</hi>
+                    </signed><lb/>
+                    <hi rendition="#italic">Combined Secretariat</hi></closer>
+
+
+
+                <xi:include href="d231-a1.xml" xpointer="d231-a1"/>
+                <xi:include href="d231-a2.xml" xpointer="d231-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d231-f1" n="1" xml:id="d231-f1-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg308">p. 308</ref>.</p>
+            </note>
+            <note corresp="#d231-f2" n="2" xml:id="d231-f2-content">
+                <p>At their 173d Meeting, September 13, 1944, the Combined Chiefs of Staff agreed to
+                    the dispatch of the enclosed messages to Burrows and Deane. See <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg320">p. 320</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

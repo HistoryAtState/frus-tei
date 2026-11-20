@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d1306" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d1306"
+                    type="canonical"/>
+                <relatedItem target="d1305.xml" type="prev"/>
+                <relatedItem target="d1306-a1.xml" type="next"/>
+                <relatedItem target="../ch79.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d1306</bibl>
+                <bibl type="frus-division-n">1306</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="921" to="922" unit="page"
+                        >921–22</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1912-04-19">
+                        <hi rendition="#italic">April 19, 1912</hi></date>
+                    <date notAfter="1912-04-19T23:59:59-05:00" notBefore="1912-04-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1306">
+
+                <pb facs="1037" n="921" sameAs="frus:frus1912/pg921"/>
+
+                <note rend="inline" type="source">File No. 812.77/127.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <seg rendition="#float-left">No. 1369.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Mexico</hi></placeName>, <date
+                            calendar="gregorian" when="1912-04-19">
+                            <hi rendition="#italic">April 19, 1912</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith
+                    without comment and for the information of the Department or such other
+                    Departments as may be interested therein a copy of a letter from Mr. T. K.
+                    Eccles and <pb facs="1038" n="922" xml:id="pg922"/> Mr. J. F. Ealy,
+                    representatives respectively of the Order of Railway Conductors and of the
+                    Brotherhood of Locomotive Engineers.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Henry Lane Wilson.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d1306-a1.xml" xpointer="d1306-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

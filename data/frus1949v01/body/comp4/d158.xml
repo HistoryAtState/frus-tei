@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v01_d158" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Report by the Policy Planning Staff</title>
+            </titleStmt>
+            <xi:include href="../../frus1949v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1949v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1949v01/d158"
+                    type="canonical"/>
+                <relatedItem target="../comp4.xml" type="prev"/>
+                <relatedItem target="d158-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1949v01</bibl>
+                <bibl type="frus-division-id">d158</bibl>
+                <bibl type="frus-division-n">158</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="419" to="428" unit="page"
+                        >419–28</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1949-02-07">February 7, 1949</date>
+                    <date notAfter="1949-02-07T23:59:59-05:00" notBefore="1949-02-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1949v01/terms">
+                    <term ref="frus:frus1949v01/terms#t_PPS1">PPS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d158">
+
+                <pb facs="0449" n="419" sameAs="frus:frus1949v01/pg419"/>
+
+                <note rend="inline" type="source">Policy Planning Staff Files<anchor n="2"
+                        xml:id="d158-f1"/>
+                </note>
+                <head>
+                    <hi rendition="#italic">Report by the Policy Planning Staff</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1949-02-07">February 7, 1949</date>.</dateline>
+                </opener>
+                <p rendition="#flush"> PPS/48</p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Atomic Energy Policy vis-à-vis</hi> U.K. <hi
+                        rendition="#small-caps">and Canada</hi>
+                </p>
+                <p>The two attached documents—the memorandum of February 3, 1949 and the notes of
+                    January 28, 1949—are not Policy Planning Staff papers, but they were prepared
+                    with the active participation of Messrs, Kennan<anchor n="3" xml:id="d158-f2"/>
+                    and Butler.<anchor n="4" xml:id="d158-f3"/> Consequently, they have been given a
+                    PPS number and included with the regular folders of Planning Staff papers.</p>
+
+
+
+                <xi:include href="d158-a1.xml" xpointer="d158-a1"/>
+                <xi:include href="d158-a2.xml" xpointer="d158-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d158-f1" n="2" xml:id="d158-f1-content">
+                <p>Lot 64D563, files of the Policy Planning Staff of the Department of State,
+                    1947–1953.</p>
+            </note>
+            <note corresp="#d158-f2" n="3" xml:id="d158-f2-content">
+                <p>George F. Kennan, Director of the Policy Planning Staff.</p>
+            </note>
+            <note corresp="#d158-f3" n="4" xml:id="d158-f3-content">
+                <p>George H. Butler, Deputy Director of the Policy Planning Staff.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v01_d282" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chairman of the United States Delegation (Willoughby) to the Secretary of
+                    State </title>
+            </titleStmt>
+            <xi:include href="../../frus1949v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1949v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1949v01/d282"
+                    type="canonical"/>
+                <relatedItem target="d281.xml" type="prev"/>
+                <relatedItem target="d282-a1.xml" type="next"/>
+                <relatedItem target="../comp6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1949v01</bibl>
+                <bibl type="frus-division-id">d282</bibl>
+                <bibl type="frus-division-n">282</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="705" to="708" unit="page"
+                        >705–8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Annecy</hi></placeName>
+                    <date calendar="gregorian" when="1949-08-25">August 25, 1949</date>
+                    <date notAfter="1949-08-25T23:59:59-05:00" notBefore="1949-08-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1949v01/terms">
+                    <term ref="frus:frus1949v01/terms#t_A1">A–</term>
+                    <term ref="frus:frus1949v01/terms#t_USDel1">USDel</term>
+                    <term ref="frus:frus1949v01/terms#t_USPolAd1">USPolAd</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d282">
+
+                <pb facs="0735" n="705" sameAs="frus:frus1949v01/pg705"/>
+
+                <note rend="inline" type="source">560.AL/8–2549: Airgram</note>
+                <head>
+                    <hi rendition="#italic">The Chairman of the United States Delegation</hi> (<hi
+                        rendition="#italic">Willoughby</hi>) <hi rendition="#italic">to the
+                        Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">confidential</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Annecy</hi></placeName>, <date
+                            calendar="gregorian" when="1949-08-25">August 25,
+                        1949</date>.</dateline>
+                </opener>
+                <p> A-34. There is attached a copy of the Confidential Record of certain statements
+                    reported in USDel’s 12 to USPolAd, Berlin,<anchor n="1" xml:id="d282-f1"/>
+                    together with its two Annexes.</p>
+                <p>The Confidential Record has been noted without objection by the Military
+                    Governors, and has been formally given to the signatory countries in Annecy.</p>
+                <p>The text of the statement of the Military Governors as received by the US, UK,
+                    and French differed slightly, presumably because of errors in transmission, and
+                    the text was issued as it appeared likely to have been sent, and was noted
+                    without objection by the Military Governors,<anchor n="2" xml:id="d282-f2"/>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Willoughby</hi>
+                    </signed>
+                </closer>
+
+
+
+
+
+                <xi:include href="d282-a1.xml" xpointer="d282-a1"/>
+                <xi:include href="d282-a2.xml" xpointer="d282-a2"/>
+                <xi:include href="d282-a3.xml" xpointer="d282-a3"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d282-f1" n="1" xml:id="d282-f1-content">
+                <p>Not printed; sent to the Department as telegram 418, July 26.</p>
+            </note>
+            <note corresp="#d282-f2" n="2" xml:id="d282-f2-content">
+                <p>This was reported in Frankfurt telegram 1854, August 18, 5 p. m. (repeated to
+                    Annecy as 15 and to Berlin as 139): “Military governors at meeting today noted
+                    without objection statement on tariff policy as formally read at July 26 [<hi
+                        rendition="#italic">25</hi>] meeting at Annecy.” (560.AL/8–1849)</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

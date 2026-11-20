@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v12_d4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>National Security Study Memorandum 9</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v12_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v12_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v12/d4"
+                    type="canonical"/>
+                <relatedItem target="d3.xml" type="prev"/>
+                <relatedItem target="d4-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v12</bibl>
+                <bibl type="frus-division-id">d4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="12" to="15" unit="page"
+                        >12–15</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1969-01-23">January 23, 1969</date>
+                    <date notAfter="1969-01-23T23:59:59-05:00" notBefore="1969-01-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v12/persons">
+                    <term ref="frus:frus1969-76v12/persons#p_KHA1">Kissinger, Henry A.</term>
+                    <term ref="frus:frus1969-76v12/persons#p_NRM1">Nixon, Richard M.</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v12/terms">
+                    <term ref="frus:frus1969-76v12/terms#t_HAK1">HAK</term>
+                    <term ref="frus:frus1969-76v12/terms#t_NSC1">NSC</term>
+                    <term ref="frus:frus1969-76v12/terms#t_NSSM1">NSSM</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d4">
+
+                <pb facs="0045" n="12" xml:id="pg12"/>
+
+                <head>4. National Security Study Memorandum 9<anchor n="1" xml:id="d4-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1969-01-23">January 23, 1969</date>.</dateline></opener>
+                <list type="to">
+                    <head>TO</head>
+                    <item>The Secretary of State</item>
+                    <item>The Secretary of Defense</item>
+                    <item>The Secretary of the Treasury</item>
+                    <item>The Director of Central Intelligence</item>
+                </list>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Review of the International Situation</item>
+                </list>
+                <p>The President has directed the preparation of an “inventory” of the international
+                    situation as of January 20, 1969. He wishes the review to provide a current
+                    assessment of the political, economic and security situation and the major
+                    problems relevant to U.S. security interests and U.S. bilateral and multilateral
+                    relations. In order to put this review into effect he wishes to consider
+                    responses to the attached set of questions along with other material considered
+                    relevant. The review should include a discussion, where appropriate, of the data
+                    upon which judgments are based, uncertainties regarding the data, and
+                    alternative possible interpretations of the data.</p>
+                <p>The responses should be forwarded to the President by February 20, 1969.<anchor
+                        n="2" xml:id="d4-f2"/>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Henry A. Kissinger</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d4-a1.xml" xpointer="d4-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d4-f1" n="1" type="source" xml:id="d4-f1-content">
+                <p>Source: National Archives, Nixon Presidential Materials, NSC Files, NSC
+                    Institutional Files (H-Files), Box H–129, NSSMs, NSSM 9. Secret. Also ibid., NSC
+                    Files, Box 364, NSSMs 1–42. Secret.</p>
+            </note>
+            <note corresp="#d4-f2" n="2" xml:id="d4-f2-content">
+                <p>The eight-volume response dated February 19, 1969, which was based on papers
+                    generated by multiple agencies and included 150 pages on the Soviet Union and
+                    Eastern Europe in volume I, is in the National Archives, Nixon Presidential
+                    Materials, NSC Files, NSC Institutional Files (H-Files), Box H–129, NSSM 9. On
+                    March 6, Halperin sent Kissinger a memorandum outlining how NSSM 9 should be
+                    used. Halperin suggested having the NSC staff review the eight-volume response
+                    for the purposes of “NSSMs to the bureaucracy requesting additional policy and
+                    information studies” and “a Presidential review of the international scene later
+                    this spring.” Kissinger initialed his approval to “HAK will outline at staff
+                    meeting.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

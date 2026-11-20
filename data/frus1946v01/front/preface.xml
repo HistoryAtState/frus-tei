@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1946v01_preface" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Preface</title>
+            </titleStmt>
+            <xi:include href="../frus1946v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1946v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1946v01/preface"
+                    type="canonical"/>
+                <relatedItem type="prev"/>
+                <relatedItem target="preface-a1.xml" type="next"/>
+                <relatedItem target="../frus1946v01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1946v01</bibl>
+                <bibl type="frus-division-id">preface</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">preface</bibl>
+                <bibl type="frus-print-pages"><biblScope from="III" to="IV" unit="page"
+                        >III–IV</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1946-12-31T23:59:59-05:00" notBefore="1945-06-15T09:10:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="preface">
+
+                <pb facs="0007" n="III" xml:id="pgIII"/>
+
+                <head>Preface</head>
+                <p>This volume was prepared under the direct supervision of S. Everett Gleason,
+                    Chief of the Foreign Relations Division, with the assistance of Ralph R. Goodwin
+                    in its planning and direction.</p>
+                <p>All the documentation on the relations of the United States with the United
+                    Nations was compiled by Mr. Goodwin, except the compilation on United States
+                    policy at the United Nations with respect to the regulation of armaments and
+                    collective security which was the work of Neal H. Petersen. Mr. Petersen also
+                    compiled the documentation on United States national security policy and on the
+                    foreign policy aspects of United States development of atomic energy.</p>
+                <p>The compilations on foreign economic policy, relief and refugee problems, and
+                    international civil aviation policy were the responsibility of Mr. Goodwin.</p>
+                <p>Marvin W. Kranz, a former member of the staff, compiled the documentation on
+                    United States foreign financial policy, on the United States response to the
+                    world food shortage, and related problems.</p>
+                <p>The compilation on Antarctica was the work of William Slany.</p>
+                <p>The Publishing and Reproduction Services Division (Jerome H. Perlmutter, Chief)
+                    was responsible for the technical editing of this volume.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">William</hi> M. <hi rendition="#small-caps"
+                            >Franklin</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Director, Historical Office Bureau of Public
+                        Affairs</hi>
+                    <lb/><dateline rendition="#float-left">
+                        <date calendar="gregorian" when="1971-02-18"><hi rendition="#small-caps"
+                                >February</hi> 18, 1971</date></dateline></closer>
+
+
+                <xi:include href="preface-a1.xml" xpointer="preface-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

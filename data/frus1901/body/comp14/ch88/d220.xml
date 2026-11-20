@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d220" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d220"
+                    type="canonical"/>
+                <relatedItem target="d219.xml" type="prev"/>
+                <relatedItem target="d220-a1.xml" type="next"/>
+                <relatedItem target="../ch88.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d220</bibl>
+                <bibl type="frus-division-n">220</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="224" to="225" unit="page"
+                        >224–25</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1901-06-22"><hi rendition="#italic">June 22,
+                            1901</hi></date>
+                    <date notAfter="1901-06-22T23:59:59-05:00" notBefore="1901-06-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d220">
+
+                <pb facs="0304" n="224" sameAs="frus:frus1901/pg224"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1901-06-22"
+                                ><hi rendition="#italic">June 22, 1901</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 598.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to your instruction No. 644,
+                    of the 29th ultimo, relating to the action of Mr. Pickerell, our consul at St.
+                    Michaels, Azores, in taking charge of the British consulate during the proposed
+                    absence of the British consul, I have the honor to inclose herewith a copy of a
+                    note from the foreign office, dated the 19th instant, conveying the thanks of
+                    His Majesty’s Government for the courtesy of the United States Government in the
+                    matter.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+
+
+
+                <xi:include href="d220-a1.xml" xpointer="d220-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

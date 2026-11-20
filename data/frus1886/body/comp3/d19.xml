@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1886_d19" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 19.</title>
+                <title type="subtitle">Mr. Tree to Mr. Bayard.</title>
+            </titleStmt>
+            <xi:include href="../../frus1886_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1886_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1886/d19"
+                    type="canonical"/>
+                <relatedItem target="d18.xml" type="prev"/>
+                <relatedItem target="d19-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1886</bibl>
+                <bibl type="frus-division-id">d19</bibl>
+                <bibl type="frus-division-n">19</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="30" to="32" unit="page"
+                        >30–32</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Brussels</hi></placeName>
+                    <date calendar="gregorian" when="1886-05-05"><hi rendition="#italic">May</hi> 5,
+                        1886</date>
+                    <date notAfter="1886-05-05T23:59:59-05:00" notBefore="1886-05-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d19">
+
+                <pb facs="0114" n="30" sameAs="frus:frus1886/pg30"/>
+
+                <head>No. 19.<lb/><hi rendition="#italic">Mr. Tree to Mr. Bayard.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Brussels</hi></placeName>, <date calendar="gregorian"
+                            when="1886-05-05"><hi rendition="#italic">May</hi> 5, 1886</date>.
+                        (Received May 17.)</dateline>
+                    <seg rendition="#float-left">No. 88.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inform you that I have
+                    to-day transmitted to you, under separate cover, as printed matter, two copies
+                    each of numbers 3 and 4 (1886) of the “Bulletin Offciel de l’État Indépendent
+                        <pb facs="0115" n="31" xml:id="pg31"/> du Congo.” They contain a number of
+                    decrees and ordinances with reference to the Government of the State, the most
+                    important of which seems to be the decree found in No. 3, at page 46 <hi
+                        rendition="#italic">et seq.</hi>, concerning the extradition of
+                    criminals.</p>
+                <p>I have, &amp;c.,</p>
+                <closer><signed>LAMBERT TREE.</signed></closer>
+
+
+                <xi:include href="d19-a1.xml" xpointer="d19-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

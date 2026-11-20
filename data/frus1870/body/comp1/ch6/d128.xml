@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_d128" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Motley to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/d128"
+                    type="canonical"/>
+                <relatedItem target="d127-a1.xml" type="prev"/>
+                <relatedItem target="d129.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">d128</bibl>
+                <bibl type="frus-division-n">128</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="183" to="183" unit="page"
+                        >183</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington,</hi> D. C.</placeName>
+                    <date calendar="gregorian" when="1870-10-23"><hi rendition="#italic"
+                            >October</hi> 23, 1870</date>
+                    <date notAfter="1870-10-23T23:59:59-05:00" notBefore="1870-10-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d128">
+
+                <pb facs="0217" n="183" sameAs="frus:frus1870/pg183"/>
+
+                <note rend="inline" type="source">No. 128.</note>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <head>Mr. Motley to Mr. Fish.</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Washington,</hi> D. C.</placeName>,
+                            <date calendar="gregorian" when="1870-10-23"><hi rendition="#italic"
+                                >October</hi> 23, 1870</date>. (Received at 1.30 p.
+                    m.)</dateline></opener>
+                <p>To <hi rendition="#small-caps">Fish,</hi>
+                    <hi rendition="#italic">Secretary of State, Washington City</hi>:</p>
+                <p>Lord Granville has just informed me that her Majesty’s government have urged
+                    France and Prussia to agree to an armistice with the view to the constituent
+                    assembly and an eventual peace.</p>
+                <closer>
+                    <signed>MOTLEY, <hi rendition="#italic">London.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

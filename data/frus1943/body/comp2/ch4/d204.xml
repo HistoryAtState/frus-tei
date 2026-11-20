@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d204" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d204"
+                    type="canonical"/>
+                <relatedItem target="d203.xml" type="prev"/>
+                <relatedItem target="d205.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d204</bibl>
+                <bibl type="frus-division-n">204</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="412" to="412" unit="page"
+                        >412</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Hyde Park</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-13">13 August [1943]</date>
+                    <date notAfter="1943-08-13T23:59:59-05:00" notBefore="1943-08-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Churchill1">Churchill</term>
+                    <term ref="frus:frus1943/terms#t_White1">White</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d204">
+
+                <pb facs="0526" n="412" xml:id="pg412"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d204-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Hyde
+                                Park</hi></placeName>,] <date calendar="gregorian" when="1943-08-13"
+                            >13 August [1943]</date>.<lb/>(Blenheim Day)!</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Franklin</hi>, Thinking things over w[oul]d
+                    it not be better to go straight from here to the Citadel &amp; let us
+                        (Clemmie<anchor n="2" xml:id="d204-f2"/> &amp; I) come back here &amp; to
+                    the White House <hi rendition="#italic">after</hi> the Conference? The eyes of
+                    the world are upon the Conference &amp; I doubt if much progress will be made
+                    till we are on the spot—w[hic]h I think sh[oul]d be by Sunday or Monday. I do
+                    not know of course how important or urgent is y[ou]r business in
+                        Washington,<anchor n="3" xml:id="d204-f3"/> but I am quite sure that the
+                    sooner we are up in the North the better. Will you think this over.</p>
+                <p>Yours always,</p>
+                <closer>
+                    <signed>W[<hi rendition="#small-caps">inston</hi> S. <hi rendition="#small-caps"
+                            >Churchill</hi>]</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d204-f1" n="1" type="source" xml:id="d204-f1-content">
+                <p>This letter, on 10 Downing Street stationery, was handwritten by Churchill and
+                    given or delivered to Roosevelt, although both Roosevelt and Churchill were
+                    staying in Roosevelt’s home at Hyde Park from August 12 to August 14, 1943.</p>
+            </note>
+            <note corresp="#d204-f2" n="2" xml:id="d204-f2-content">
+                <p>Mrs. Churchill.</p>
+            </note>
+            <note corresp="#d204-f3" n="3" xml:id="d204-f3-content">
+                <p>No written reply has been found to explain why Roosevelt preferred to return to
+                    Washington before proceeding to Quebec. Churchill left Hyde Park on the evening
+                    of August 14, and went to Quebec by train. See <hi rendition="#italic"
+                    >post</hi>, <ref target="#pg833">p. 833</ref>, fn. 3. Roosevelt remained at Hyde
+                    Park until the evening of August 15; traveled by train to Washington, where he
+                    arrived at 7:45 a.m., August 16; spent the day at the White House; and then left
+                    Washington by train at 8:20 p.m., August 16, to go to Quebec, where he arrived
+                    at 6 p.m., August 17. See <hi rendition="#italic">post</hi>, <ref
+                        target="#pg837">p. 837</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

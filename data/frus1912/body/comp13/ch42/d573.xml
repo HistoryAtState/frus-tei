@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d573" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d573"
+                    type="canonical"/>
+                <relatedItem target="d572.xml" type="prev"/>
+                <relatedItem target="d574.xml" type="next"/>
+                <relatedItem target="../ch42.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d573</bibl>
+                <bibl type="frus-division-n">573</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="393" to="393" unit="page"
+                        >393</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Quito</hi></placeName>
+                    <date calendar="gregorian" when="1912-01-13">
+                        <hi rendition="#italic">January 13</hi>
+                    </date>
+                    <date notAfter="1912-01-13T23:59:59-05:00" notBefore="1912-01-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d573">
+
+                <pb facs="0509" n="393" sameAs="frus:frus1912/pg393"/>
+
+                <note rend="inline" type="source">File No. 822.00/197.]</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Quito</hi></placeName>, <date
+                            calendar="gregorian" when="1912-01-13">
+                            <hi rendition="#italic">January 13</hi>
+                        </date>
+                        <hi rendition="#italic">; received January 15, 1912</hi>.</dateline>
+                </opener>
+                <p>Confirmation received of report of Government victory at Huigra. As
+                    counter-revolution may break out at any time at Guayaquil, I have advised the
+                    Consul General and the <hi rendition="#italic">Yorktown</hi> to refuse to
+                    receive political refugees. In my opinion asylum should under no circumstances
+                    be given to either Eloy Alfaro or Montero. I am reliably informed that the
+                    former will seek refuge on the <hi rendition="#italic">Yorktown</hi> if the
+                    revolution fail. I urge that instructions in the above sense be sent by the
+                    Department to the Consul General and to the <hi rendition="#italic"
+                        >Yorktown</hi>, in view of bad telegraphic service from Quito.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Young</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

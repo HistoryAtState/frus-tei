@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d1392" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 1392</title>
+                <title type="subtitle">Diary Entry by the Polish Deputy Prime Minister
+                    (Mikołajczyk)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d1392"
+                    type="canonical"/>
+                <relatedItem target="d1391.xml" type="prev"/>
+                <relatedItem target="d1393.xml" type="next"/>
+                <relatedItem target="../ch25.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d1392</bibl>
+                <bibl type="frus-division-n">1392</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1539" to="1539" unit="page"
+                        >1539</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Babelsberg</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-30">July 30, 1945</date>
+                    <date notAfter="1945-07-30T23:59:59-05:00" notBefore="1945-07-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/persons">
+                    <term ref="frus:frus1945Berlinv02/persons#p_LAB1">Lane, Arthur Bliss</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_MS1">Mikołajczyk, Stanislaw</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1392">
+
+                <pb facs="1739" n="1539" sameAs="frus:frus1945Berlinv02/pg1539"/>
+
+                <note rend="inline" type="source">Mikołajczyk Papers</note>
+                <head>No. 1392<lb/><hi rendition="#italic">Diary Entry by the Polish Deputy Prime
+                        Minister</hi> (<hi rendition="#italic">Mikołajczyk</hi>)<anchor n="1"
+                        xml:id="d1392-f1"/></head>
+                <opener>
+                    <seg rendition="#center">[Translation]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Babelsberg</hi></placeName>, <date calendar="gregorian"
+                            when="1945-07-30">July 30, 1945</date>.]</dateline>
+                </opener>
+                <p>A Polish-American conference was held at the headquarters of the Polish
+                        Delegation<anchor n="2" xml:id="d1392-f2"/> concerning a transaction with
+                    regard to 2,500 tons of coal to be delivered to the American occupation sector
+                    in Berlin. The transaction was based on a payment in dollars, but the Polish
+                    side retained the right to accept oil or gasoline in payment for the supply of
+                    coal. The Americans would provide railroad freight cars for the coal and would
+                    send them to the place of loading.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1392-f1" n="1" type="source" xml:id="d1392-f1-content">
+                <p>Cf. <hi rendition="#italic">ante</hi>, <ref target="#pg480">p. 480</ref>.</p>
+            </note>
+            <note corresp="#d1392-f2" n="2" xml:id="d1392-f2-content">
+                <p>At 10 Domgasse, Babelsberg. See Lane, <hi rendition="#italic">I Saw Poland
+                        Betrayed</hi>, p. 130.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1866p1_d10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Seward to Mr. Adams.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1866p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1866p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1866p1/d10"
+                    type="canonical"/>
+                <relatedItem target="d9.xml" type="prev"/>
+                <relatedItem target="d10-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1866p1</bibl>
+                <bibl type="frus-division-id">d10</bibl>
+                <bibl type="frus-division-n">10</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="29" to="30" unit="page"
+                        >29–30</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>, <hi
+                            rendition="#italic">Washington,</hi></placeName>
+                    <date calendar="gregorian" when="1865-12-11"><hi rendition="#italic"
+                            >December</hi> 11, 1865.</date>
+                    <date notAfter="1865-12-11T23:59:59-05:00" notBefore="1865-12-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d10">
+
+                <pb facs="0103" n="29" sameAs="frus:frus1866p1/pg29"/>
+
+                <head>Mr. Seward to Mr. Adams.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 1621.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Department of State</hi>, <hi
+                                rendition="#italic">Washington,</hi></placeName>
+                        <date calendar="gregorian" when="1865-12-11"><hi rendition="#italic"
+                                >December</hi> 11, 1865.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> You will receive herewith a copy of a
+                    communication of the 11th of November, addressed to this department by Mr. John
+                    Fanning, late an officer in the volunteer service of the United States. I will
+                    thank you to present to her Majesty’s government a statement of the facts
+                    therein represented, and request that an early investigation of the
+                    circumstances attending this case may be made.</p>
+                <p>I am, sir, your obedient servant,</p>
+                <closer>
+                    <signed>WILLIAM H. SEWARD.</signed></closer>
+                <postscript>
+                    <p><hi rendition="#small-caps">Charles Francis Adams</hi>, Esq., <hi
+                            rendition="#italic">&amp;c., &amp;c., &amp;c.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d10-a1.xml" xpointer="d10-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1891_d301" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Señor Jorge Montt to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1891_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1891_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1891/d301"
+                    type="canonical"/>
+                <relatedItem target="d300.xml" type="prev"/>
+                <relatedItem target="d302.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1891</bibl>
+                <bibl type="frus-division-id">d301</bibl>
+                <bibl type="frus-division-n">301</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="316" to="316" unit="page"
+                        >316</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Iquique</hi></placeName>
+                    <date calendar="gregorian" when="1891-05-16"><hi rendition="#italic">May 16,
+                            1891</hi></date>
+                    <date notAfter="1891-05-16T23:59:59-05:00" notBefore="1891-05-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d301">
+
+                <pb facs="0422" n="316" sameAs="frus:frus1891/pg316"/>
+
+                <head><hi rendition="#italic">Señor Jorge Montt to Mr. Blaine</hi>.</head>
+                <opener><seg rendition="#center">[Telegram.—Translation.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Iquique</hi></placeName>, <date calendar="gregorian"
+                            when="1891-05-16"><hi rendition="#italic">May 16,
+                        1891</hi></date>.</dateline></opener>
+                <p>We have the honor to inform your excellency that Mr. Richard L. Trumbull, a
+                    representative in the Chilean Congress, has powers from the Governmental Junta
+                    to represent us in the United States in the capacity of confidential agent.</p>
+                <p>Be pleased, your excellency, to accept him in that capacity.</p>
+                <closer><signed>
+                        <list>
+                            <item><hi rendition="#small-caps">Montt</hi>,<lb/><hi
+                                    rendition="#italic">President of the Governmental
+                                Junta</hi>.</item>
+                            <item><hi rendition="#small-caps">Isidoro Errazuriz</hi>,<lb/><hi
+                                    rendition="#italic">Secretary Foreign Relations</hi>.</item>
+                        </list>
+                    </signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

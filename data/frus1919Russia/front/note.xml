@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Russia_note" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>PREFATORY NOTE</title>
+            </titleStmt>
+            <xi:include href="../frus1919Russia_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1919Russia_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Russia/note"
+                    type="canonical"/>
+                <relatedItem type="prev"/>
+                <relatedItem target="toc.xml" type="next"/>
+                <relatedItem target="../frus1919Russia.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Russia</bibl>
+                <bibl type="frus-division-id">note</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">preface</bibl>
+                <bibl type="frus-print-pages"><biblScope from="III" to="III" unit="page"
+                        >III</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1920-01-28T16:00:00-05:00" notBefore="1918-12-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="note">
+
+                <pb facs="0009" n="III" xml:id="pgIII"/>
+
+                <head>PREFATORY NOTE</head>
+                <p>The present volume is a continuation of <ref target="frus:frus1918Russiav01"><hi
+                            rendition="#italic">Foreign Relations</hi>, 1918, Russia, volumes
+                        I</ref>, <ref target="frus:frus1918Russiav02">II</ref>, and <ref
+                        target="frus:frus1918Russiav03">III</ref>.</p>
+                <p>Brackets, [], occurring in the text enclose editorial insertions. These are of
+                    two main types: (1) words or phrases, in ordinary type, supplied to fill in
+                    omissions; and (2) suggested corrections, in italics, following words or phrases
+                    which appear to be incorrect.</p>
+                <p>Brackets have also been used to show differences in sources in the case of
+                    documents emanating from the Commission to Negotiate Peace, Paris. For such
+                    documents there are two sources: the files of that commission (now in the
+                    Department of State), showing the message as sent; and the files of the
+                    Department of State, showing the message as received. The source of the text
+                    printed is given by the file number; divergencies brought to light by the other
+                    source are noted in brackets. The same use has been made of brackets in the case
+                    of telegrams sent from some foreign post both to the Commission to Negotiate
+                    Peace, Paris, and to the Department of State.</p>
+                <p>There has been no attempt in the present volume to harmonize the spelling of
+                    Russian proper names.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

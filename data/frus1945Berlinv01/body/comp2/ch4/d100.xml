@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d100" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 100</title>
+                <title type="subtitle">The Acting Head of the British Joint Staff Mission (Colyer)
+                    to the President’s Chief of Staff (Leahy)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d100"
+                    type="canonical"/>
+                <relatedItem target="d99.xml" type="prev"/>
+                <relatedItem target="d101.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d100</bibl>
+                <bibl type="frus-division-n">100</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="129" to="129" unit="page"
+                        >129</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-06-25">25th June, 1945</date>
+                    <date notAfter="1945-06-25T23:59:59-05:00" notBefore="1945-06-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CAMD1">Colyer, Air Marshal
+                        Douglas</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SFMJC1">Smuts, Field Marshal Jan
+                        Christian</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv01/terms">
+                    <term ref="frus:frus1945Berlinv01/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d100">
+
+                <pb facs="0261" n="129" sameAs="frus:frus1945Berlinv01/pg129"/>
+
+                <note rend="inline" type="source"> J. C. S. Files</note>
+                <head>No. 100 <lb/>
+                    <hi rendition="#italic">The Acting Head of the British Joint Staff Mission</hi>
+                        (<hi rendition="#italic">Colyer</hi>) <hi rendition="#italic">to the
+                        President’s Chief of Staff</hi> (<hi rendition="#italic">Leahy</hi>)</head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1945-06-25">25th June,
+                        1945</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Admiral</hi>, In a letter dated 15th
+                        June<anchor n="1" xml:id="d100-f1"/> you communicated to Field Marshal
+                    Wilson the views of the United States Chiefs of Staff on the next meeting of the
+                    Combined Chiefs of Staff. You explained that you all felt it inadvisable for the
+                    Combined Chiefs of Staff to meet in London prior to the meeting of the Heads of
+                    State but said that you would be quite agreeable to stop there after the
+                    completion of <hi rendition="#small-caps">Terminal</hi> if at that time a
+                    meeting of the Combined Chiefs of Staff appeared to be required.</p>
+                <p>In the absence of the Field Marshal I am now writing to tell you a reply to the
+                    above has come in from London in which the British Chiefs of Staff make it clear
+                    that they have dropped the idea of a meeting in London and would like to
+                    suggest, with the Prime Minister’s approval, that the Combined Chiefs of Staff
+                    hold their next meeting during the conference of the three Heads of State at <hi
+                        rendition="#small-caps">Terminal</hi>. They propose to arrive at <hi
+                        rendition="#small-caps">Terminal</hi> 15th July and hope that the United
+                    States Chiefs of Staff will also be arriving at the same time.</p>
+                <p>The Field Marshal has gone away on tour for four days. I should be glad therefore
+                    if you would let me know whether the above proposal is agreeable to the United
+                    States Chiefs of Staff.</p>
+                <p>Yours sincerely,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Douglas Colyer</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d100-f1" n="1" xml:id="d100-f1-content">
+                <p>
+                    <ref target="#d65">Document No. 65</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

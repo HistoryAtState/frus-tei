@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1877app_ch12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Italy</title>
+            </titleStmt>
+            <xi:include href="../../frus1877app_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1877app_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1877app/ch12"
+                    type="canonical"/>
+                <relatedItem target="ch11/d32.xml" type="prev"/>
+                <relatedItem target="ch12/d33.xml" type="next"/>
+                <relatedItem target="../comp2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1877app</bibl>
+                <bibl type="frus-division-id">ch12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">chapter</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="105" to="110" unit="page"
+                        >105–10</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1877-12-17T23:59:59-05:00" notBefore="1877-11-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="ch12">
+
+                <pb facs="0839" n="105" sameAs="frus:frus1877app/pg105"/>
+
+                <head>Italy</head>
+
+
+                <xi:include href="ch12/d33.xml" xpointer="d33"/>
+                <xi:include href="ch12/d34.xml" xpointer="d34"/>
+            </div>
+        </body>
+    </text>
+</TEI>

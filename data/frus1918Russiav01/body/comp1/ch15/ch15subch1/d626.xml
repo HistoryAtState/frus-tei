@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav01_d626" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Consul at Moscow (Poole) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav01/d626"
+                    type="canonical"/>
+                <relatedItem target="d625.xml" type="prev"/>
+                <relatedItem target="d626-a1.xml" type="next"/>
+                <relatedItem target="../ch15subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav01</bibl>
+                <bibl type="frus-division-id">d626</bibl>
+                <bibl type="frus-division-n">626</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="682" to="683" unit="page"
+                        >682–83</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1918-09-04">
+                        <hi rendition="#italic">September 4, 1918</hi></date>
+                    <date notAfter="1918-09-04T23:59:59-05:00" notBefore="1918-09-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav01/persons">
+                    <term ref="frus:frus1918Russiav01/persons#p_PDC1">Poole, DeWitt C.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d626">
+
+                <pb facs="0756" n="682" sameAs="frus:frus1918Russiav01/pg682"/>
+
+                <note rend="inline" type="source">File No. 861.00/2980</note>
+                <head>
+                    <hi rendition="#italic">The Consul at Moscow</hi> (<hi rendition="#italic"
+                        >Poole</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Moscow</hi></placeName>, <date
+                            calendar="gregorian" when="1918-09-04">
+                            <hi rendition="#italic">September 4, 1918</hi></date>. <lb/> [<hi
+                            rendition="#italic">Received October 16.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to report that under date
+                    of September 4, I sent a personal note to the Commissar for Foreign Affairs
+                    through the Minister of the Netherlands, who was in Moscow at the time
+                    negotiating on behalf of the neutrals respecting the several questions <pb
+                        facs="0757" n="683" xml:id="pg683"/> which had arisen between the Entente
+                    powers and the Bolshevik government. A copy is enclosed.</p>
+                <p>I also enclose copies of the telegrams which accompanied the note to the
+                        Commissar.<anchor n="1" xml:id="d626-f1"/> The Department will observe that
+                    in No. 2 the last three sentences of the text as sent to the Department were
+                    suppressed. The reason is obvious. In the copy of this telegram furnished to the
+                    Commissar the next to the last sentence of the third [fourth] paragraph was also
+                    altered, reading: “An irresponsible government is venting its desperation in the
+                    daily massacre of untold innocents.”</p>
+                <p>This step was taken with the approval of my Allied colleagues and the Minister of
+                    the Netherlands. I felt that it was a desperate situation justifying any measure
+                    which might conceivably restrain the Bolsheviki in their lawless and inhuman
+                    career.</p>
+                <p>In connection with telegram No. 1, I invite the Department’s attention to the
+                    enclosed excerpt from the report of the Commissar for Foreign Affairs before the
+                    meeting of the All-Russian Central Executive Committee on September 2.<anchor
+                        n="2" xml:id="d626-f2"/>
+                </p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">DeWitt C. Poole</hi>, Jr. </signed>
+                </closer>
+
+
+                <xi:include href="d626-a1.xml" xpointer="d626-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d626-f1" n="1" xml:id="d626-f1-content">
+                <p>No. 1, <hi rendition="#italic">ante</hi>, <ref target="#pg662">p. 662</ref>; No.
+                    2, <hi rendition="#italic">ante</hi>, <ref target="#pg681">p. 681</ref>.</p>
+            </note>
+            <note corresp="#d626-f2" n="2" xml:id="d626-f2-content">
+                <p>See enclosure to despatch of Sept. 5, <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg581">p. 581</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

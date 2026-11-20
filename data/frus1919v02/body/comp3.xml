@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919v02_comp3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Danzig:</title>
+            </titleStmt>
+            <xi:include href="../frus1919v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1919v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919v02/comp3"
+                    type="canonical"/>
+                <relatedItem target="comp2/ch2/ch2subch1/d44.xml" type="prev"/>
+                <relatedItem target="comp3/ch3.xml" type="next"/>
+                <relatedItem target="../frus1919v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919v02</bibl>
+                <bibl type="frus-division-id">comp3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="94" to="97" unit="page"
+                        >94–97</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1920-03-29T17:00:00-05:00" notBefore="1919-10-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp3">
+
+                <pb facs="0179" n="94" xml:id="pg94"/>
+
+                <head>Danzig:</head>
+
+                <xi:include href="comp3/ch3.xml" xpointer="ch3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

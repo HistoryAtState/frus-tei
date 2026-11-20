@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914-20v01_d23" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Wilson to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1914-20v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914-20v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914-20v01/d23"
+                    type="canonical"/>
+                <relatedItem target="d22.xml" type="prev"/>
+                <relatedItem target="d23-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914-20v01</bibl>
+                <bibl type="frus-division-id">d23</bibl>
+                <bibl type="frus-division-n">23</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="22" to="24" unit="page"
+                        >22–24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1917-02-09">
+                        <hi rendition="#italic">9 February, 1917</hi>.</date>
+                    <date notAfter="1917-02-09T23:59:59-05:00" notBefore="1917-02-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d23">
+
+                <pb facs="0090" n="22" sameAs="frus:frus1914-20v01/pg22"/>
+
+                <note rend="inline" type="source">763.72/3261½</note>
+                <head>
+                    <hi rendition="#italic">President Wilson to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1917-02-09">
+                            <hi rendition="#italic">9 February, 1917</hi>.</date>
+                    </dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Mr. Secretary</hi>: The Swiss Minister is
+                    pressing for a reply to the suggestion of his government.<anchor n="18"
+                        xml:id="d23-f1"/> He is a very diligent and pressing gentleman!</p>
+                <p>What would you think of replying to him in the sense of the enclosed
+                    memorandum?</p>
+                <p>I have tried my hand at a restatement of the bases. What do you think of the
+                    result? All that we can hope for is to agree upon definite things and rely on
+                    experience and subsequent exchanges of treaty agreement to develop and remove
+                    the practical difficulties.</p>
+                <p>Faithfully Yours,</p>
+                <closer>
+                    <signed>W. W.</signed>
+                </closer>
+
+
+                <xi:include href="d23-a1.xml" xpointer="d23-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d23-f1" n="18" xml:id="d23-f1-content">
+                <p>See <ref target="frus1916Supp#pg_112">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1916, supp., pp. 112</ref>,
+                        <ref target="frus1916Supp#pg_117">117</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

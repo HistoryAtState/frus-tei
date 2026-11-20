@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1864p1_d8" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adams to Mr. Seward.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1864p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1864p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1864p1/d8"
+                    type="canonical"/>
+                <relatedItem target="d7-a1-a6.xml" type="prev"/>
+                <relatedItem target="d8-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1864p1</bibl>
+                <bibl type="frus-division-id">d8</bibl>
+                <bibl type="frus-division-n">8</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="20" to="34" unit="page"
+                        >20–34</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                        <hi rendition="#italic">London,</hi></placeName>
+                    <date calendar="gregorian" when="1863-12-11"><hi rendition="#italic"
+                            >December</hi> 11, 1863.</date>
+                    <date notAfter="1863-12-11T23:59:59-05:00" notBefore="1863-12-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d8">
+
+                <pb facs="0030" n="20" sameAs="frus:frus1864p1/pg20"/>
+
+                <head>Mr. Adams to Mr. Seward.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 555.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                            <hi rendition="#italic">London,</hi></placeName>
+                        <date calendar="gregorian" when="1863-12-11"><hi rendition="#italic"
+                                >December</hi> 11, 1863.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> Mr. Dudley, the consul at Liverpool, has
+                    sent me several depositions of men who have been engaged and paid by a
+                    commercial house in Liverpool to <pb facs="0031" n="21" xml:id="pg21"/> make war
+                    on the United States. I have sent copies to Lord Russell, with a note dated the
+                    7th instant. His lordship has acknowledged the reception of it. Copies of all
+                    these papers are transmitted herewith.</p>
+                <p>I have the honor to be, sir, your obedient servant,</p>
+                <closer>
+                    <signed>CHARLES FRANCIS ADAMS.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward</hi>
+                        <hi rendition="#italic">Secretary of State, Washington, D. C.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d8-a1.xml" xpointer="d8-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

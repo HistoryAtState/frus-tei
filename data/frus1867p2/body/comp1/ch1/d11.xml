@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1867p2_d11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Seward to Mr. Morris</title>
+            </titleStmt>
+            <xi:include href="../../../frus1867p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1867p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1867p2/d11"
+                    type="canonical"/>
+                <relatedItem target="d10.xml" type="prev"/>
+                <relatedItem target="d11-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1867p2</bibl>
+                <bibl type="frus-division-id">d11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="14" to="15" unit="page"
+                        >14–15</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State,</hi>
+                        <hi rendition="#italic">Washington,</hi>
+                    </placeName>
+                    <date calendar="gregorian" when="1867-05-22"><hi rendition="#italic">May</hi>
+                        22, 1867</date>
+                    <date notAfter="1867-05-22T23:59:59-05:00" notBefore="1867-05-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d11">
+
+                <pb facs="0084" n="14" sameAs="frus:frus1867p2/pg14"/>
+
+                <head>Mr. Seward to Mr. Morris</head>
+                <opener>
+                    <seg rendition="#float-left">No. 151.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State,</hi>
+                            <hi rendition="#italic">Washington,</hi>
+                        </placeName>
+                        <date calendar="gregorian" when="1867-05-22"><hi rendition="#italic"
+                                >May</hi> 22, 1867</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Herewith I enclose a transcript of a
+                    resolution of the Congress of the United States, declaring sympathy with the
+                    suffering people of Crete. Upon its receipt you are instructed to seek an
+                    interview with the Ottoman minister for foreign affairs and to read to him the
+                    resolution. You are also instructed to leave with him a copy of the same if he
+                    shall desire it.</p>
+                <p>I am, sir, your obedient servant,</p>
+                <closer>
+                    <signed>WILLIAM H. SEWARD.</signed>
+                </closer>
+                <postscript>
+                    <p><hi rendition="#small-caps">E. Joy Morris,</hi> Esq., <hi rendition="#italic"
+                            >&amp;c., &amp;c., &amp;c.</hi></p>
+                </postscript>
+
+
+
+                <xi:include href="d11-a1.xml" xpointer="d11-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

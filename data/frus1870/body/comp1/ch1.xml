@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_ch1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Papers relating to the Franco-German War.]</title>
+            </titleStmt>
+            <xi:include href="../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/ch1"
+                    type="canonical"/>
+                <relatedItem target="../comp1.xml" type="prev"/>
+                <relatedItem target="ch1/d1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">ch1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">chapter</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="45" to="49" unit="page"
+                        >45–49</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1870-10-08T23:59:59-05:00" notBefore="1870-08-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="ch1">
+
+                <pb facs="0079" n="[45]" sameAs="frus:frus1870/pg45"/>
+
+                <head ana="#head_untitled-inferred-from-chapter-head">[Papers relating to the
+                    Franco-German War.]</head>
+
+
+
+                <xi:include href="ch1/d1.xml" xpointer="d1"/>
+                <xi:include href="ch1/d2.xml" xpointer="d2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945-50Intel_d3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum From the Director of the Office of Strategic Services (Donovan) to
+                    President Truman</title>
+            </titleStmt>
+            <xi:include href="../../frus1945-50Intel_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1945-50Intel_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945-50Intel/d3"
+                    type="canonical"/>
+                <relatedItem target="d2.xml" type="prev"/>
+                <relatedItem target="d3-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945-50Intel</bibl>
+                <bibl type="frus-division-id">d3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="17" to="21" unit="page"
+                        >17–21</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-08-25T23:59:59-05:00" notBefore="1945-08-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945-50Intel/persons">
+                    <term ref="frus:frus1945-50Intel/persons#p_DWJ1">Donovan, William J.</term>
+                    <term ref="frus:frus1945-50Intel/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945-50Intel/terms">
+                    <term ref="frus:frus1945-50Intel/terms#t_OSS1">OSS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d3">
+
+                <pb facs="0045" n="17" sameAs="frus:frus1945-50Intel/pg17"/>
+
+                <head>3. Memorandum From the Director of the Office of Strategic Services (Donovan)
+                    to President Truman<anchor n="0" xml:id="d3-f1"/></head>
+                <dateline><placeName>Washington</placeName>, <date calendar="gregorian"
+                        when="1945-08-25">August 25, 1945</date>.</dateline>
+                <p>I enclose copy of letter I have sent to the Director of the Budget, advising him
+                    that the liquidation of OSS should be complete about January <pb facs="0046"
+                        n="18" xml:id="pg18"/> 1, 1946, and pointing out the necessity of
+                    designating an agency to take over its functions and its assets.</p>
+                <p>Also, I enclose a Statement of Principles which I believe should govern the
+                    establishment of a central intelligence agency.</p>
+                <p>This matter you have stated you wished to explore with me before coming to a
+                    decision. I hope you may find time to discuss it before I leave for Germany on
+                    the War Crimes Case within the next two weeks.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Donovan</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d3-a1.xml" xpointer="d3-a1"/>
+                <xi:include href="d3-a2.xml" xpointer="d3-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d3-f1" n="0" type="source" xml:id="d3-f1-content">
+                <p>Source: Truman Library, Miscellaneous Material Filed by the Administrative Asst.
+                    in the President’s Office, Office of Strategic Services. Secret.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

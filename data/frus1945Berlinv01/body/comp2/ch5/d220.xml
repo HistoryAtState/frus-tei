@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d220" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 220</title>
+                <title type="subtitle">Memorandum by the British Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d220"
+                    type="canonical"/>
+                <relatedItem target="d219.xml" type="prev"/>
+                <relatedItem target="d220-a1.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d220</bibl>
+                <bibl type="frus-division-n">220</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="243" to="245" unit="page"
+                        >243–45</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Babelsberg</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-15">15 July 1945</date>
+                    <date notAfter="1945-07-15T23:59:59-05:00" notBefore="1945-07-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/terms">
+                    <term ref="frus:frus1945Berlinv01/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1945Berlinv01/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d220">
+
+                <pb facs="0375" n="243" sameAs="frus:frus1945Berlinv01/pg243"/>
+
+                <note rend="inline" type="source"> J. C. S. Files</note>
+                <head>No. 220 <lb/>
+                    <hi rendition="#italic">Memorandum by the British Chiefs of Staff</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/> C. C. S. 880/9</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Babelsberg</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-07-15">15 July 1945</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Program and Procedure for the Conference</hi>
+                </p>
+                <list>
+                    <label>1.</label>
+                    <item>We suggest that in accordance with the procedure we have adopted at
+                        previous conferences, the United States and British Chiefs <pb facs="0376"
+                            n="244" xml:id="pg244"/> of Staff should hold their domestic meetings in
+                        the morning and the Combined Chiefs of Staff should meet in the afternoon at
+                            1430.<anchor n="1" xml:id="d220-f1"/>
+                    </item>
+                    <label>2.</label>
+                    <item>We suggest also that we should aim to work to the attached
+                        programme.</item>
+                </list>
+
+
+                <xi:include href="d220-a1.xml" xpointer="d220-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d220-f1" n="1" xml:id="d220-f1-content">
+                <p>i. e., at 2:30 p.m.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

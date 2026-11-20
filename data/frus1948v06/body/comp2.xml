@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1948v06_comp2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Southeast Asia:</title>
+            </titleStmt>
+            <xi:include href="../frus1948v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1948v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1948v06/comp2"
+                    type="canonical"/>
+                <relatedItem target="comp1/ch3/ch3subch1/d4-a1.xml" type="prev"/>
+                <relatedItem target="comp2/ch4.xml" type="next"/>
+                <relatedItem target="../frus1948v06.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1948v06</bibl>
+                <bibl type="frus-division-id">comp2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="19" to="645" unit="page"
+                        >19–645</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1948-12-31T18:00:00-05:00" notBefore="1948-01-05T12:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp2">
+
+                <pb facs="0033" n="19" xml:id="pg19"/>
+
+                <head>Southeast Asia:</head>
+
+
+
+
+
+
+
+                <xi:include href="comp2/ch4.xml" xpointer="ch4"/>
+                <xi:include href="comp2/ch5.xml" xpointer="ch5"/>
+                <xi:include href="comp2/ch6.xml" xpointer="ch6"/>
+                <xi:include href="comp2/ch7.xml" xpointer="ch7"/>
+            </div>
+        </body>
+    </text>
+</TEI>

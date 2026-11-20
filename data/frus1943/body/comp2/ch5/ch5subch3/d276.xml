@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d276" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Assistant to the President’s Military Aide (Hammond) to the Secretary of
+                    State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d276"
+                    type="canonical"/>
+                <relatedItem target="d275.xml" type="prev"/>
+                <relatedItem target="d277.xml" type="next"/>
+                <relatedItem target="../ch5subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d276</bibl>
+                <bibl type="frus-division-n">276</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="565" to="565" unit="page"
+                        >565</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-06">August 6, 1943</date>
+                    <date notAfter="1943-08-06T23:59:59-05:00" notBefore="1943-08-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d276">
+
+                <pb facs="0679" n="565" sameAs="frus:frus1943/pg565"/>
+
+                <note rend="inline" type="source">740.0011 EW/8–643</note>
+                <head>
+                    <hi rendition="#italic">The Assistant to the President’s Military Aide</hi> (<hi
+                        rendition="#italic">Hammond</hi>) <hi rendition="#italic">to the Secretary
+                        of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1943-08-06">August 6, 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Memorandum for the Secretary of State</hi>
+                </p>
+                <p>The following message from the President was received in the White House Map Room
+                    this date: <quote rend="blockquote">
+                        <p>“Please inform the Secretary of State and General Marshall that I approve
+                            in principle the report of the Joint Chiefs of Staff regarding the
+                            recognition of Rome as an open city.”<anchor n="1" xml:id="d276-f1"/>
+                        </p>
+                    </quote>
+                </p>
+                <p>General Marshall has been informed of the above message.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Chester Hammond</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Lt. Colonel General Staff<lb/>Assistant to the Military
+                        Aide</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d276-f1" n="1" xml:id="d276-f1-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg561">p. 561</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

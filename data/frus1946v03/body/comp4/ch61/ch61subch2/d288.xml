@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1946v03_d288" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>United States Delegation Journal</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1946v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1946v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1946v03/d288"
+                    type="canonical"/>
+                <relatedItem target="../ch61subch2.xml" type="prev"/>
+                <relatedItem target="../ch61subch3.xml" type="next"/>
+                <relatedItem target="../ch61subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1946v03</bibl>
+                <bibl type="frus-division-id">d288</bibl>
+                <bibl type="frus-division-n">288</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="638" to="638" unit="page"
+                        >638</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1946-10-03T04:00:00-05:00" notBefore="1946-10-03T04:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1946v03/terms">
+                    <term ref="frus:frus1946v03/terms#t_CFM1">CFM</term>
+                    <term ref="frus:frus1946v03/terms#t_USDel1">USDel</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d288">
+
+                <pb facs="0682" n="638" sameAs="frus:frus1946v03/pg638"/>
+
+                <note rend="inline" type="source">CFM Files</note>
+                <head><hi rendition="#italic">United States Delegation Journal</hi></head>
+                <dateline>
+                    <date ana="#date_undated-inferred-from-chapter-heading" calendar="gregorian"
+                        when="1946-10-03T10:00:00+01:00">October 3, 1946, 10 a.m.</date>
+                </dateline>
+                <p rendition="#flush">USDel (PC) (Journal) 60</p>
+                <p>The text of the report on the military clauses of the draft treaty with Rumania
+                    was provisionally adopted.<anchor n="74" xml:id="d288-f1"/> The footnote to the
+                    conclusion in the original text was deleted and an insertion made after Article
+                    14 in the report. The insertion was made on a proposal by General Balmer and
+                    stated that the resolution, originally proposed by the U.S. Delegation, which
+                    stated that the articles on limitations in the Balkan and Finnish treaties
+                    should be identical, was accepted unanimously.<anchor n="75" xml:id="d288-f2"
+                    /></p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d288-f1" n="74" xml:id="d288-f1-content">
+                <p>For text of the report, C.P. (Plen) Doc. 18, October 5, see <ref
+                        target="frus1946v04#pg_476">vol. <hi rendition="#small-caps">iv</hi>, p.
+                        476</ref>.</p>
+            </note>
+            <note corresp="#d288-f2" n="75" xml:id="d288-f2-content">
+                <p>Debate centered around the Soviet Delegate’s contention that article 14 of the
+                    Rumanian treaty was based on article 44 of the Italian treaty. General Balmer
+                    stated that it was based on article 12 of the Bulgarian treaty. See the United
+                    States Delegation Journal accounts of the 14th Meeting, September 11, and the
+                    28th Meeting, September 28, <ref target="#pg420">pp. 420</ref> and <ref
+                        target="#pg584">584</ref>, respectively.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

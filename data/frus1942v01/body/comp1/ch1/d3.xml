@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1942v01_d3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Secretary of State to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1942v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1942v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1942v01/d3"
+                    type="canonical"/>
+                <relatedItem target="d2.xml" type="prev"/>
+                <relatedItem target="d3-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1942v01</bibl>
+                <bibl type="frus-division-id">d3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="3" to="6" unit="page"
+                    >3–6</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1941-12-19">December 19, 1941</date>
+                    <date notAfter="1941-12-19T23:59:59-05:00" notBefore="1941-12-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d3">
+
+                <pb facs="0015" n="3" sameAs="frus:frus1942v01/pg3"/>
+
+                <note rend="inline" type="source">740.0011 (European War 1939)/12–1941</note>
+                <head><hi rendition="#italic">Memorandum by the Secretary of State to President
+                        Roosevelt</hi></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1941-12-19">December 19, 1941</date>.</dateline>
+                </opener>
+                <p>Herewith I send you two documents, viz: (1) a draft joint declaration based on
+                    the Atlantic Charter<anchor n="17" xml:id="d3-f1"/> predicated on the assumption
+                    that the declaring governments have subscribed to its principles; (2) a draft
+                    memorandum agreement constituting a supreme war council.</p>
+                <p>The four chief nations now fighting together, as well as any others who will join
+                    with them, should forthwith sign a common declaration of principle, which should
+                    embody a pledge to employ their entire resources and their full military effort
+                    to defeat the common enemy, and should include a pledge to coordinate these
+                    efforts, and should include also a pledge by all of them not to cease
+                    hostilities nor conclude a separate armistice with the common enemies or any of
+                    them until these enemies are finally defeated.</p>
+                <pb facs="0016" n="4" xml:id="pg4"/>
+                <p>Second, it seems essential to provide machinery which will effectively coordinate
+                    the use of resources and the military effort, making suitable allocation between
+                    theatres of war, keeping continuous check on the execution of war plans and, if
+                    possible, achieving unified command in theatres where this is feasible.</p>
+
+
+
+                <xi:include href="d3-a1.xml" xpointer="d3-a1"/>
+                <xi:include href="d3-a2.xml" xpointer="d3-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d3-f1" n="17" xml:id="d3-f1-content">
+                <p>Joint statement by President Roosevelt and British Prime Minister Churchill,
+                    August 14, 1941, <ref target="frus1941v01#pg_367"><hi rendition="#italic"
+                            >Foreign Relations</hi>, 1941, vol. <hi rendition="#small-caps">i</hi>,
+                        p. 367</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

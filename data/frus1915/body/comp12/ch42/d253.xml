@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d253" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d253"
+                    type="canonical"/>
+                <relatedItem target="d252.xml" type="prev"/>
+                <relatedItem target="d254.xml" type="next"/>
+                <relatedItem target="../ch42.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d253</bibl>
+                <bibl type="frus-division-n">253</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="285" to="285" unit="page"
+                        >285</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Santo Domingo</hi></placeName>
+                    <date calendar="gregorian" when="1915-05-06T10:00:00-04:40">
+                        <hi rendition="#italic">May 6, 1915—10 a.m.</hi>
+                    </date>
+                    <date notAfter="1915-05-06T09:40:00-05:00" notBefore="1915-05-06T09:40:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d253">
+
+                <pb facs="0401" n="285" sameAs="frus:frus1915/pg285"/>
+
+                <note rend="inline" type="source">File No. 839.00/1698.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Santo Domingo</hi></placeName>, <date
+                            calendar="gregorian" when="1915-05-06T10:00:00-04:40">
+                            <hi rendition="#italic">May 6, 1915—10 a.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Ovendo leading small body against Government in Macoris. Trouble as yet
+                    local.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Sullivan.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

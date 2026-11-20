@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1897_d13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hengelmüller to Mr. Olney.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1897_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1897_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1897/d13"
+                    type="canonical"/>
+                <relatedItem target="d12.xml" type="prev"/>
+                <relatedItem target="d13-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1897</bibl>
+                <bibl type="frus-division-id">d13</bibl>
+                <bibl type="frus-division-n">13</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="10" to="11" unit="page"
+                        >10–11</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Austro-Hungarian Legation</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1896-11-04"><hi rendition="#italic">November 4,
+                            1896</hi></date>
+                    <date notAfter="1896-11-04T23:59:59-05:00" notBefore="1896-11-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d13">
+
+                <pb facs="0044" n="10" sameAs="frus:frus1897/pg10"/>
+
+                <head><hi rendition="#italic">Mr. Hengelmüller to Mr. Olney.</hi></head>
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Austro-Hungarian Legation</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1896-11-04"><hi rendition="#italic">November 4,
+                        1896</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Mr. Secretary of State</hi>: As will be seen by the
+                    accompanying report of the director of the general hospital of Vienna, which has
+                    been transmitted to this legation by the Imperial and Royal statthalter in that
+                    city, Albert Levy, an American citizen, who has been in the psychiatric
+                    department of that institution since August 24, 1896, appears, owing to chronic
+                    insanity, not to be a fit person to be left in the aforesaid hospital, and the
+                    director therefore desires that Albert Levy, who is well enough to be removed,
+                    may be taken to a hospital in his own country.</p>
+                <p>In having the honor to apprise your excellency of the foregoing I take the
+                    liberty—inclosing Albert Levy’s passport,<anchor n="1" xml:id="d13-f1"/> bearing
+                    date of June 29, 1896, No. 14630, and his certificate of naturalization,<anchor
+                        n="1" xml:id="d13-f2"/> which is dated San Francisco, June 6, 1887, both of
+                    which documents leave not the slightest doubt as to his American citizenship—to
+                    request your excellency’s kind mediation to the end that proper steps may be
+                    taken to secure the removal of the above named person to a hospital for the
+                    insane in the United States. I beg, furthermore, to be informed of the <pb
+                        facs="0045" n="11" xml:id="pg11"/> result of the action taken by your
+                    excellency, and of the time and the place where the American authorities will
+                    take charge of Albert Levy. Finally, I beg that the inclosures may be returned
+                    to me.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Hengelmüller.</hi></signed></closer>
+
+
+                <xi:include href="d13-a1.xml" xpointer="d13-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d13-f1" n="1" xml:id="d13-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d13-f2" n="1" xml:id="d13-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

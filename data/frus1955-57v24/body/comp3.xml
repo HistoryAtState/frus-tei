@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v24_comp3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cyprus</title>
+            </titleStmt>
+            <xi:include href="../frus1955-57v24_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1955-57v24_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v24/comp3"
+                    type="canonical"/>
+                <relatedItem target="comp2/ch2/d114.xml" type="prev"/>
+                <relatedItem target="comp3/ch3.xml" type="next"/>
+                <relatedItem target="../frus1955-57v24.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v24</bibl>
+                <bibl type="frus-division-id">comp3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="269" to="526" unit="page"
+                        >269–526</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1957-12-19T15:15:00-05:00" notBefore="1955-01-27T18:40:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp3">
+
+                <pb facs="0299" n="269" xml:id="pg269"/>
+
+                <head>Cyprus</head>
+
+                <xi:include href="comp3/ch3.xml" xpointer="ch3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

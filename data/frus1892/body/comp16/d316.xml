@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1892_d316" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Wharton to Mr. Smith.</title>
+            </titleStmt>
+            <xi:include href="../../frus1892_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1892_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1892/d316"
+                    type="canonical"/>
+                <relatedItem target="d315.xml" type="prev"/>
+                <relatedItem target="d316-a1.xml" type="next"/>
+                <relatedItem target="../comp16.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1892</bibl>
+                <bibl type="frus-division-id">d316</bibl>
+                <bibl type="frus-division-n">316</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="373" to="373" unit="page"
+                        >373</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1892-03-17"><hi rendition="#italic">March 17,
+                            1892</hi></date>
+                    <date notAfter="1892-03-17T23:59:59-05:00" notBefore="1892-03-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d316">
+
+                <pb facs="0461" n="373" xml:id="pg373"/>
+
+                <head><hi rendition="#italic">Mr. Wharton to Mr. Smith.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1892-03-17"><hi rendition="#italic">March 17,
+                        1892</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 146.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose copies of two letters as follows:
+                    From the News and Courier, of Charleston, S. C., elated March 7, and from the
+                    secretary of the Merchants’ Exchange of the same city, dated March 9. The former
+                    covers a check for $885.34, the latter, $110, the proceeds of which are to be
+                    applied to the relief of the Russian sufferers, as directed by my telegram of
+                    even date herewith. I append a copy of the telegram on the overleaf.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">William F. Wharton</hi>,<lb/><hi
+                            rendition="#italic">Acting Secretary.</hi></signed></closer>
+
+
+
+                <xi:include href="d316-a1.xml" xpointer="d316-a1"/>
+                <xi:include href="d316-a2.xml" xpointer="d316-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1895p1_comp7" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Colombia</title>
+            </titleStmt>
+            <xi:include href="../frus1895p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1895p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1895p1/comp7"
+                    type="canonical"/>
+                <relatedItem target="comp6/ch30/d204.xml" type="prev"/>
+                <relatedItem target="comp7/ch31.xml" type="next"/>
+                <relatedItem target="../frus1895p1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1895p1</bibl>
+                <bibl type="frus-division-id">comp7</bibl>
+                <bibl type="frus-division-n">7</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype">referral</bibl>
+                <bibl type="frus-print-pages"><biblScope from="204" to="204" unit="page"
+                        >204</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1896-02-03T23:59:59-05:00" notBefore="1895-02-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp7">
+
+                <pb facs="0264" n="204" xml:id="pg204"/>
+
+                <head>Colombia</head>
+
+                <xi:include href="comp7/ch31.xml" xpointer="ch31"/>
+            </div>
+        </body>
+    </text>
+</TEI>

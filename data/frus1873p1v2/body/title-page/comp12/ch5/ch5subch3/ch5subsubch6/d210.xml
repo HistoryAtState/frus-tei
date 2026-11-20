@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v2_d210" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Würtemberg]</title>
+            </titleStmt>
+            <xi:include href="../../../../../../frus1873p1v2_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../../frus1873p1v2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1873p1v2/d210"
+                    type="canonical"/>
+                <relatedItem target="../ch5subsubch6.xml" type="prev"/>
+                <relatedItem target="../ch5subsubch7.xml" type="next"/>
+                <relatedItem target="../ch5subsubch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v2</bibl>
+                <bibl type="frus-division-id">d210</bibl>
+                <bibl type="frus-division-n">210</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1287" to="1287" unit="page"
+                        >1287</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date ana="#date_undated-inferred-from-volume-rules" calendar="gregorian"
+                        notAfter="1873-12-01T23:59:59-04:56" notBefore="1873-01-01T00:00:00-04:56"
+                        >undated</date>
+                    <date notAfter="1873-12-01T23:55:59-05:00" notBefore="1872-12-31T23:56:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d210">
+
+                <pb facs="0657" n="1287" sameAs="frus:frus1873p1v2/pg1287"/>
+
+                <head ana="#head_untitled-inferred-from-chapter-head">[Würtemberg]</head>
+                <opener>
+                    <dateline rendition="#float-right">[<date
+                            ana="#date_undated-inferred-from-volume-rules" calendar="gregorian"
+                            notAfter="1873-12-01T23:59:59-04:56"
+                            notBefore="1873-01-01T00:00:00-04:56">undated</date>.]</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">naturalization</hi>.</p>
+                <p>An alien must belong to a commune in order to have the rights of citizenship,
+                    unless he has been named to some public employment.<anchor n="4"
+                        xml:id="d210-f1"/></p>
+                <p rendition="#center"><hi rendition="#small-caps">expatriation</hi>.</p>
+                <p>The rights of citizenship are lost by emigration under the authority of
+                    government and by accepting foreign service.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d210-f1" n="4" xml:id="d210-f1-content">
+                <p>Fœlix, vol. 1, p. 99.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

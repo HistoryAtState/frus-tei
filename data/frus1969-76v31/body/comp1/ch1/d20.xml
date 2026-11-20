@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v31_d20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Message From President Nixon to Japanese Prime Minister Tanaka</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v31_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v31_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v31/d20"
+                    type="canonical"/>
+                <relatedItem target="d19.xml" type="prev"/>
+                <relatedItem target="d21.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v31</bibl>
+                <bibl type="frus-division-id">d20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="94" to="94" unit="page"
+                        >94</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1973-03-03">March 3, 1973</date>
+                    <date notAfter="1973-03-03T23:59:59-05:00" notBefore="1973-03-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v31/persons">
+                    <term ref="frus:frus1969-76v31/persons#p_BW1">Brandt, Willy</term>
+                    <term ref="frus:frus1969-76v31/persons#p_HE1">Heath, Edward</term>
+                    <term ref="frus:frus1969-76v31/persons#p_KHA1">Kissinger, Henry A.</term>
+                    <term ref="frus:frus1969-76v31/persons#p_NRM1">Nixon, Richard M.</term>
+                    <term ref="frus:frus1969-76v31/persons#p_TK1">Tanaka Kakeui</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20">
+
+                <pb facs="0125" n="94" xml:id="pg94"/>
+
+                <head>20. Message From President Nixon to Japanese Prime Minister Tanaka<anchor
+                        n="1" xml:id="d20-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1973-03-03">March 3, 1973</date>.</dateline></opener>
+                <p rendition="#flush">Dear Mr. Prime Minister:</p>
+                <p>I have today received a letter from Chancellor Brandt informing me that the
+                    European countries are planning to develop a proposal to deal with the current
+                    currency crisis.<anchor n="2" xml:id="d20-f2"/> I want you to know that I have
+                    replied to Chancellor Brandt and have also written to Prime Minister Heath
+                    saying that any solution to the currency crisis should be developed through full
+                    consultations with the United States and with Japan<anchor n="3" xml:id="d20-f3"
+                    />—a point we had previously made orally to Prime Minister Heath.</p>
+                <p>We will be prepared to exchange views with you on this subject.</p>
+                <p>With kind regards.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Richard Nixon</hi>
+                    </signed><anchor n="4" xml:id="d20-f4"/>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d20-f1" n="1" type="source" xml:id="d20-f1-content">
+                <p>Source: National Archives, Nixon Presidential Materials, NSC Files, Kissinger
+                    Office Files, Box 53, Country Files, Europe, Monetary Crisis, March 1973. Top
+                    Secret.</p>
+            </note>
+            <note corresp="#d20-f2" n="2" xml:id="d20-f2-content">
+                <p>
+                    <ref target="#d15">Document 15.</ref>
+                </p>
+            </note>
+            <note corresp="#d20-f3" n="3" xml:id="d20-f3-content">
+                <p>
+                    <ref target="#d18">Documents 18</ref> and <ref target="#d19">19</ref>.</p>
+            </note>
+            <note corresp="#d20-f4" n="4" xml:id="d20-f4-content">
+                <p>Printed from a copy that bears Nixon’s typed signature with an indication that he
+                    signed the original.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

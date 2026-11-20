@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d502" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d502"
+                    type="canonical"/>
+                <relatedItem target="d501.xml" type="prev"/>
+                <relatedItem target="d503.xml" type="next"/>
+                <relatedItem target="../ch62.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d502</bibl>
+                <bibl type="frus-division-n">502</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="465" to="465" unit="page"
+                        >465</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Port au Prince</hi></placeName>
+                    <date calendar="gregorian" when="1915-02-24T10:00:00-04:49">
+                        <hi rendition="#italic">February 24, 1915—10 a.m.</hi>
+                    </date>
+                    <date notAfter="1915-02-24T09:49:00-05:00" notBefore="1915-02-24T09:49:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d502">
+
+                <pb facs="0581" n="465" sameAs="frus:frus1915/pg465"/>
+
+                <note rend="inline" type="source">File No. 838.00/1118.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Port au Prince</hi></placeName>, <date
+                            calendar="gregorian" when="1915-02-24T10:00:00-04:49">
+                            <hi rendition="#italic">February 24, 1915—10 a.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>My February 19 and February 22. General Hilaire and all other revolutionary
+                    chiefs have recognized Vilbrun Guillaume Sam as Chief of the Executive Power.
+                    Part of his army entered Port au Prince yesterday and returned to outskirts of
+                    city. Generals Augustin and Milford in command of arrondissement and palace.
+                    Order being perfectly maintained. Water restored and market supplies coming in.
+                    President Theodore sailed for Curaçao Monday; Vilbrun Guillaume Sam due to
+                    arrive to-morrow. City quiet.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Blanchard</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

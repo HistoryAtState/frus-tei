@@ -1,0 +1,2566 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalog xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+    <!-- both URI forms per division: the canonical https URL and the
+                 compact frus: form itself. Catalog resolution is SINGLE-PASS,
+                 so the compact form must map directly to the file for editors
+                 (oXygen ctrl-click) to traverse prefixed refs offline. -->
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03"
+        uri="frus1969-76v03.xml"/>
+    <uri name="frus:frus1969-76v03" uri="frus1969-76v03.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/pressrelease"
+        uri="front/pressrelease.xml"/>
+    <uri name="frus:frus1969-76v03/pressrelease" uri="front/pressrelease.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/summary"
+        uri="front/summary.xml"/>
+    <uri name="frus:frus1969-76v03/summary" uri="front/summary.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/preface"
+        uri="front/preface.xml"/>
+    <uri name="frus:frus1969-76v03/preface" uri="front/preface.xml"/>
+    <uri name="frus:frus1969-76v03/pgIII" uri="front/preface.xml"/>
+    <uri name="frus:frus1969-76v03/pgIV" uri="front/preface.xml"/>
+    <uri name="frus:frus1969-76v03/pgV" uri="front/preface.xml"/>
+    <uri name="frus:frus1969-76v03/pgVI" uri="front/preface.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/toc" uri="front/toc.xml"/>
+    <uri name="frus:frus1969-76v03/toc" uri="front/toc.xml"/>
+    <uri name="frus:frus1969-76v03/pgIX" uri="front/toc.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/sources"
+        uri="front/sources.xml"/>
+    <uri name="frus:frus1969-76v03/sources" uri="front/sources.xml"/>
+    <uri name="frus:frus1969-76v03/pgXI" uri="front/sources.xml"/>
+    <uri name="frus:frus1969-76v03/pgXII" uri="front/sources.xml"/>
+    <uri name="frus:frus1969-76v03/pgXIII" uri="front/sources.xml"/>
+    <uri name="frus:frus1969-76v03/pgXIV" uri="front/sources.xml"/>
+    <uri name="frus:frus1969-76v03/pgXV" uri="front/sources.xml"/>
+    <uri name="frus:frus1969-76v03/pgXVI" uri="front/sources.xml"/>
+    <uri name="frus:frus1969-76v03/pgXVII" uri="front/sources.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/terms"
+        uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/terms" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/pgXIX" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/pgXX" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/pgXXI" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_ADB1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_AF1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_AFDB1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_AID1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_ARA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_ASP1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_BIS1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_BOB1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_BOP1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_C1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_C201" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_CAP1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_CEA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_CECLA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_CESC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_CIA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_CIEP1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_CIEPDM1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_CIEPSM1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_COCOM1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_CY1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_D1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_DAC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_DCI1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_DISC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_DOC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_DOD1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_E1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_EA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_EC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_ECONCOM1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_EDIP1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_EEC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_EFTA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_EUR1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_FDIP1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_FMS1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_FOB1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_FONOFF1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_FRB1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_FRC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_FRG1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_FSO1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_FY1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_G101" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_GAB1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_GATT1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_GNP1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_GOJ1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_GSA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_H1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_HFAC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_IAECOSOC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_IADB1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_IBRD1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_IDA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_IDB1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_IET1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_IFI1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_IMF1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_IO1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_IPC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_J1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_JCS1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_L1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_LDC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_LDX1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_LOS1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_MAP1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_MBFR1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_MITI1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_MOFA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_NAC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_NEA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_NSC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_NSDM1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_NSSM1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_NTB1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_OAS1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_OASIA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_OECD1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_OEP1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_OFID1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_OIN1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_OMB1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_OPEC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_OPIC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_OPRED1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_PADM1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_PAHO1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_PARA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_PASM1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_PL1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_REDCOSTE1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_RG1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_RG2" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_SACEUR1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_SCCN1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_SDP1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_SDR1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_SFRC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_SOFA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_SRG1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_SPCC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_SS1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_STR1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_TFID1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_U1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_UN1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_UNCTAD1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_UNGA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_UR1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_USC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_USDA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_USIA1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_USEC1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_USOECD1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_USUN1" uri="front/terms.xml"/>
+    <uri name="frus:frus1969-76v03/t_VFCR1" uri="front/terms.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/persons"
+        uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/persons" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/pgXXIII" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/pgXXIV" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/pgXXV" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/pgXXVI" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/pgXXVII" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/pgXXVIII" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_AST1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_AK1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_ARV1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_AWH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_AWCJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_AALRJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_BR2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_BJF1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_BCF1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_BLH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_BPH3" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_BWHF1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_BWG2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_BCG1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_BAF1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_BEL1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_CG2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_CES1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_CJC1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_CE1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_CJBJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_CRN1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_DJD2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_DRG1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_DWB1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_DKW1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_DJW1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_DGC1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_DM4" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_EWD1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_EJD1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_ETLJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_EO1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_ETO1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_FPM1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_FJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_FT1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_GCJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_GdEV1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_GJA2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HBMJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HHR1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HCM1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HBN1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HAA4" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HERG1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HRM1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HMJA1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HDR1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HR3" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HJD1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HJH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HRD1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_HH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_IRS1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_IJNII1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_JR3" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_JLB1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_JUA1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_JE2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_JAJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_KA6" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_KJL1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_KH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_KDM1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_KKG1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_KHA1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_LMR2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_LR1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_LCE1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MLBK1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MFM1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MSL2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MWMCJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MRP1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MCPW1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MGJJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MAH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MM4" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MTH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MJ3" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_MDP1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_NRM1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_OM2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_PCD1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_PR8" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_PWR2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_PRF3" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_PPG1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_PJR1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_PG5" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_RBH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_RHS1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_RJ8" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_REL1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_RAE1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_RPW1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_RWP1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_RKW1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SND1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SE3" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SJR3" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SPP1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SK6" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SM2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SPP2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SHB1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SWM1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_ST5" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SGP1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SRC2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SE2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SHH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SGSJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SMH3" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SH3" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_SFJ1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_TK2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_TRE1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_TPH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_TPE2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_UN1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_VLE1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_VPA1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_WCE1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_WMA1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_WDA1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_WCW1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_WS2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_WEG1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_WJC1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_WGH1" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_WJH2" uri="front/persons.xml"/>
+    <uri name="frus:frus1969-76v03/p_ZJ1" uri="front/persons.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/ch1" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/ch1" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg1" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg9" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg22" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg29" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg37" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg42" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg44" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg51" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg56" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg60" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg63" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg65" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg76" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg80" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg85" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg88" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg91" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg93" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg96" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg102" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg106" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg108" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg112" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg119" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg127" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg133" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg141" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg142" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg144" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg146" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg151" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg155" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg157" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg160" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg163" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg166" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg169" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg171" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg173" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg177" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg197" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg198" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg201" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg209" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg213" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg215" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg219" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg222" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg235" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg237" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg250" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg270" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg275" uri="body/ch1.xml"/>
+    <uri name="frus:frus1969-76v03/pg283" uri="body/ch1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d1"
+        uri="body/ch1/d1.xml"/>
+    <uri name="frus:frus1969-76v03/d1" uri="body/ch1/d1.xml"/>
+    <uri name="frus:frus1969-76v03/d1#d1-f1" uri="body/ch1/d1.xml"/>
+    <uri name="frus:frus1969-76v03/pg2" uri="body/ch1/d1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d2"
+        uri="body/ch1/d2.xml"/>
+    <uri name="frus:frus1969-76v03/d2" uri="body/ch1/d2.xml"/>
+    <uri name="frus:frus1969-76v03/pg3" uri="body/ch1/d2.xml"/>
+    <uri name="frus:frus1969-76v03/pg4" uri="body/ch1/d2.xml"/>
+    <uri name="frus:frus1969-76v03/pg5" uri="body/ch1/d2.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d3"
+        uri="body/ch1/d3.xml"/>
+    <uri name="frus:frus1969-76v03/d3" uri="body/ch1/d3.xml"/>
+    <uri name="frus:frus1969-76v03/d3#d3-f1" uri="body/ch1/d3.xml"/>
+    <uri name="frus:frus1969-76v03/d3#d3-f2" uri="body/ch1/d3.xml"/>
+    <uri name="frus:frus1969-76v03/d3#d3-f3" uri="body/ch1/d3.xml"/>
+    <uri name="frus:frus1969-76v03/d3#d3-f4" uri="body/ch1/d3.xml"/>
+    <uri name="frus:frus1969-76v03/d3#d3-f5" uri="body/ch1/d3.xml"/>
+    <uri name="frus:frus1969-76v03/pg6" uri="body/ch1/d3.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d4"
+        uri="body/ch1/d4.xml"/>
+    <uri name="frus:frus1969-76v03/d4" uri="body/ch1/d4.xml"/>
+    <uri name="frus:frus1969-76v03/d4#d4-f1" uri="body/ch1/d4.xml"/>
+    <uri name="frus:frus1969-76v03/d4#d4-f2" uri="body/ch1/d4.xml"/>
+    <uri name="frus:frus1969-76v03/d4#d4-f3" uri="body/ch1/d4.xml"/>
+    <uri name="frus:frus1969-76v03/pg7" uri="body/ch1/d4.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d5"
+        uri="body/ch1/d5.xml"/>
+    <uri name="frus:frus1969-76v03/d5" uri="body/ch1/d5.xml"/>
+    <uri name="frus:frus1969-76v03/d5#d5-f1" uri="body/ch1/d5.xml"/>
+    <uri name="frus:frus1969-76v03/d5#d5-f2" uri="body/ch1/d5.xml"/>
+    <uri name="frus:frus1969-76v03/d5#d5-f3" uri="body/ch1/d5.xml"/>
+    <uri name="frus:frus1969-76v03/d5#d5-f4" uri="body/ch1/d5.xml"/>
+    <uri name="frus:frus1969-76v03/d5#d5-f5" uri="body/ch1/d5.xml"/>
+    <uri name="frus:frus1969-76v03/pg8" uri="body/ch1/d5.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d6"
+        uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/d6" uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/d6#d6-f1" uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/d6#d6-f2" uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/d6#d6-f3" uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/pg9" uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/pg10" uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/pg11" uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/pg12" uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/pg13" uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/pg14" uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/pg15" uri="body/ch1/d6.xml"/>
+    <uri name="frus:frus1969-76v03/pg16" uri="body/ch1/d6.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d7"
+        uri="body/ch1/d7.xml"/>
+    <uri name="frus:frus1969-76v03/d7" uri="body/ch1/d7.xml"/>
+    <uri name="frus:frus1969-76v03/d7#d7-f1" uri="body/ch1/d7.xml"/>
+    <uri name="frus:frus1969-76v03/d7#d7-f2" uri="body/ch1/d7.xml"/>
+    <uri name="frus:frus1969-76v03/pg17" uri="body/ch1/d7.xml"/>
+    <uri name="frus:frus1969-76v03/pg18" uri="body/ch1/d7.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d8"
+        uri="body/ch1/d8.xml"/>
+    <uri name="frus:frus1969-76v03/d8" uri="body/ch1/d8.xml"/>
+    <uri name="frus:frus1969-76v03/d8#d8-f1" uri="body/ch1/d8.xml"/>
+    <uri name="frus:frus1969-76v03/d8#d8-f2" uri="body/ch1/d8.xml"/>
+    <uri name="frus:frus1969-76v03/d8#d8-f3" uri="body/ch1/d8.xml"/>
+    <uri name="frus:frus1969-76v03/d8#d8-f4" uri="body/ch1/d8.xml"/>
+    <uri name="frus:frus1969-76v03/pg19" uri="body/ch1/d8.xml"/>
+    <uri name="frus:frus1969-76v03/pg20" uri="body/ch1/d8.xml"/>
+    <uri name="frus:frus1969-76v03/pg21" uri="body/ch1/d8.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d9"
+        uri="body/ch1/d9.xml"/>
+    <uri name="frus:frus1969-76v03/d9" uri="body/ch1/d9.xml"/>
+    <uri name="frus:frus1969-76v03/pg22" uri="body/ch1/d9.xml"/>
+    <uri name="frus:frus1969-76v03/pg23" uri="body/ch1/d9.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d10"
+        uri="body/ch1/d10.xml"/>
+    <uri name="frus:frus1969-76v03/d10" uri="body/ch1/d10.xml"/>
+    <uri name="frus:frus1969-76v03/d10#d10-f1" uri="body/ch1/d10.xml"/>
+    <uri name="frus:frus1969-76v03/pg24" uri="body/ch1/d10.xml"/>
+    <uri name="frus:frus1969-76v03/pg25" uri="body/ch1/d10.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d11"
+        uri="body/ch1/d11.xml"/>
+    <uri name="frus:frus1969-76v03/d11" uri="body/ch1/d11.xml"/>
+    <uri name="frus:frus1969-76v03/d11#d11-f1" uri="body/ch1/d11.xml"/>
+    <uri name="frus:frus1969-76v03/d11#d11-f2" uri="body/ch1/d11.xml"/>
+    <uri name="frus:frus1969-76v03/pg26" uri="body/ch1/d11.xml"/>
+    <uri name="frus:frus1969-76v03/pg27" uri="body/ch1/d11.xml"/>
+    <uri name="frus:frus1969-76v03/pg28" uri="body/ch1/d11.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d12"
+        uri="body/ch1/d12.xml"/>
+    <uri name="frus:frus1969-76v03/d12" uri="body/ch1/d12.xml"/>
+    <uri name="frus:frus1969-76v03/d12#d12-f1" uri="body/ch1/d12.xml"/>
+    <uri name="frus:frus1969-76v03/d12#d12-f2" uri="body/ch1/d12.xml"/>
+    <uri name="frus:frus1969-76v03/d12#d12-f3" uri="body/ch1/d12.xml"/>
+    <uri name="frus:frus1969-76v03/pg29" uri="body/ch1/d12.xml"/>
+    <uri name="frus:frus1969-76v03/pg30" uri="body/ch1/d12.xml"/>
+    <uri name="frus:frus1969-76v03/pg31" uri="body/ch1/d12.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d13"
+        uri="body/ch1/d13.xml"/>
+    <uri name="frus:frus1969-76v03/d13" uri="body/ch1/d13.xml"/>
+    <uri name="frus:frus1969-76v03/d13#d13-f1" uri="body/ch1/d13.xml"/>
+    <uri name="frus:frus1969-76v03/d13#d13-f2" uri="body/ch1/d13.xml"/>
+    <uri name="frus:frus1969-76v03/pg32" uri="body/ch1/d13.xml"/>
+    <uri name="frus:frus1969-76v03/pg33" uri="body/ch1/d13.xml"/>
+    <uri name="frus:frus1969-76v03/pg34" uri="body/ch1/d13.xml"/>
+    <uri name="frus:frus1969-76v03/pg35" uri="body/ch1/d13.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d14"
+        uri="body/ch1/d14.xml"/>
+    <uri name="frus:frus1969-76v03/d14" uri="body/ch1/d14.xml"/>
+    <uri name="frus:frus1969-76v03/d14#d14-f1" uri="body/ch1/d14.xml"/>
+    <uri name="frus:frus1969-76v03/d14#d14-f2" uri="body/ch1/d14.xml"/>
+    <uri name="frus:frus1969-76v03/pg36" uri="body/ch1/d14.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d15"
+        uri="body/ch1/d15.xml"/>
+    <uri name="frus:frus1969-76v03/d15" uri="body/ch1/d15.xml"/>
+    <uri name="frus:frus1969-76v03/d15#d15-f1" uri="body/ch1/d15.xml"/>
+    <uri name="frus:frus1969-76v03/d15#d15-f2" uri="body/ch1/d15.xml"/>
+    <uri name="frus:frus1969-76v03/d15#d15-f3" uri="body/ch1/d15.xml"/>
+    <uri name="frus:frus1969-76v03/d15#d15-f4" uri="body/ch1/d15.xml"/>
+    <uri name="frus:frus1969-76v03/d15#d15-f5" uri="body/ch1/d15.xml"/>
+    <uri name="frus:frus1969-76v03/pg37" uri="body/ch1/d15.xml"/>
+    <uri name="frus:frus1969-76v03/pg38" uri="body/ch1/d15.xml"/>
+    <uri name="frus:frus1969-76v03/pg39" uri="body/ch1/d15.xml"/>
+    <uri name="frus:frus1969-76v03/pg40" uri="body/ch1/d15.xml"/>
+    <uri name="frus:frus1969-76v03/pg41" uri="body/ch1/d15.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d16"
+        uri="body/ch1/d16.xml"/>
+    <uri name="frus:frus1969-76v03/d16" uri="body/ch1/d16.xml"/>
+    <uri name="frus:frus1969-76v03/d16#d16-f1" uri="body/ch1/d16.xml"/>
+    <uri name="frus:frus1969-76v03/d16#d16-f2" uri="body/ch1/d16.xml"/>
+    <uri name="frus:frus1969-76v03/d16#d16-f3" uri="body/ch1/d16.xml"/>
+    <uri name="frus:frus1969-76v03/d16#d16-f4" uri="body/ch1/d16.xml"/>
+    <uri name="frus:frus1969-76v03/d16#d16-f5" uri="body/ch1/d16.xml"/>
+    <uri name="frus:frus1969-76v03/d16#d16-f6" uri="body/ch1/d16.xml"/>
+    <uri name="frus:frus1969-76v03/pg42" uri="body/ch1/d16.xml"/>
+    <uri name="frus:frus1969-76v03/pg43" uri="body/ch1/d16.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d17"
+        uri="body/ch1/d17.xml"/>
+    <uri name="frus:frus1969-76v03/d17" uri="body/ch1/d17.xml"/>
+    <uri name="frus:frus1969-76v03/d17#d17-f1" uri="body/ch1/d17.xml"/>
+    <uri name="frus:frus1969-76v03/d17#d17-f2" uri="body/ch1/d17.xml"/>
+    <uri name="frus:frus1969-76v03/d17#d17-f3" uri="body/ch1/d17.xml"/>
+    <uri name="frus:frus1969-76v03/d17#d17-f4" uri="body/ch1/d17.xml"/>
+    <uri name="frus:frus1969-76v03/d17#d17-f5" uri="body/ch1/d17.xml"/>
+    <uri name="frus:frus1969-76v03/d17#d17-f6" uri="body/ch1/d17.xml"/>
+    <uri name="frus:frus1969-76v03/pg44" uri="body/ch1/d17.xml"/>
+    <uri name="frus:frus1969-76v03/pg45" uri="body/ch1/d17.xml"/>
+    <uri name="frus:frus1969-76v03/pg46" uri="body/ch1/d17.xml"/>
+    <uri name="frus:frus1969-76v03/pg47" uri="body/ch1/d17.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d17-a1"
+        uri="body/ch1/d17-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d17-a1" uri="body/ch1/d17-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d17-a1#d17-f1" uri="body/ch1/d17-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d17-a1#d17-f2" uri="body/ch1/d17-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg47" uri="body/ch1/d17-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg48" uri="body/ch1/d17-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d18"
+        uri="body/ch1/d18.xml"/>
+    <uri name="frus:frus1969-76v03/d18" uri="body/ch1/d18.xml"/>
+    <uri name="frus:frus1969-76v03/pg49" uri="body/ch1/d18.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d19"
+        uri="body/ch1/d19.xml"/>
+    <uri name="frus:frus1969-76v03/d19" uri="body/ch1/d19.xml"/>
+    <uri name="frus:frus1969-76v03/d19#d19-f1" uri="body/ch1/d19.xml"/>
+    <uri name="frus:frus1969-76v03/d19#d19-f2" uri="body/ch1/d19.xml"/>
+    <uri name="frus:frus1969-76v03/d19#d19-f3" uri="body/ch1/d19.xml"/>
+    <uri name="frus:frus1969-76v03/d19#d19-f4" uri="body/ch1/d19.xml"/>
+    <uri name="frus:frus1969-76v03/pg50" uri="body/ch1/d19.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d20"
+        uri="body/ch1/d20.xml"/>
+    <uri name="frus:frus1969-76v03/d20" uri="body/ch1/d20.xml"/>
+    <uri name="frus:frus1969-76v03/pg51" uri="body/ch1/d20.xml"/>
+    <uri name="frus:frus1969-76v03/pg52" uri="body/ch1/d20.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d21"
+        uri="body/ch1/d21.xml"/>
+    <uri name="frus:frus1969-76v03/d21" uri="body/ch1/d21.xml"/>
+    <uri name="frus:frus1969-76v03/d21#d21-f1" uri="body/ch1/d21.xml"/>
+    <uri name="frus:frus1969-76v03/d21#d21-f2" uri="body/ch1/d21.xml"/>
+    <uri name="frus:frus1969-76v03/d21#d21-f3" uri="body/ch1/d21.xml"/>
+    <uri name="frus:frus1969-76v03/d21#d21-f4" uri="body/ch1/d21.xml"/>
+    <uri name="frus:frus1969-76v03/pg53" uri="body/ch1/d21.xml"/>
+    <uri name="frus:frus1969-76v03/pg54" uri="body/ch1/d21.xml"/>
+    <uri name="frus:frus1969-76v03/pg55" uri="body/ch1/d21.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d22"
+        uri="body/ch1/d22.xml"/>
+    <uri name="frus:frus1969-76v03/d22" uri="body/ch1/d22.xml"/>
+    <uri name="frus:frus1969-76v03/d22#d22-f1" uri="body/ch1/d22.xml"/>
+    <uri name="frus:frus1969-76v03/d22#d22-f2" uri="body/ch1/d22.xml"/>
+    <uri name="frus:frus1969-76v03/d22#d22-f3" uri="body/ch1/d22.xml"/>
+    <uri name="frus:frus1969-76v03/d22#d22-f4" uri="body/ch1/d22.xml"/>
+    <uri name="frus:frus1969-76v03/pg56" uri="body/ch1/d22.xml"/>
+    <uri name="frus:frus1969-76v03/pg57" uri="body/ch1/d22.xml"/>
+    <uri name="frus:frus1969-76v03/pg58" uri="body/ch1/d22.xml"/>
+    <uri name="frus:frus1969-76v03/pg59" uri="body/ch1/d22.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d23"
+        uri="body/ch1/d23.xml"/>
+    <uri name="frus:frus1969-76v03/d23" uri="body/ch1/d23.xml"/>
+    <uri name="frus:frus1969-76v03/pg60" uri="body/ch1/d23.xml"/>
+    <uri name="frus:frus1969-76v03/pg61" uri="body/ch1/d23.xml"/>
+    <uri name="frus:frus1969-76v03/pg62" uri="body/ch1/d23.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d24"
+        uri="body/ch1/d24.xml"/>
+    <uri name="frus:frus1969-76v03/d24" uri="body/ch1/d24.xml"/>
+    <uri name="frus:frus1969-76v03/pg63" uri="body/ch1/d24.xml"/>
+    <uri name="frus:frus1969-76v03/pg64" uri="body/ch1/d24.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d25"
+        uri="body/ch1/d25.xml"/>
+    <uri name="frus:frus1969-76v03/d25" uri="body/ch1/d25.xml"/>
+    <uri name="frus:frus1969-76v03/d25#d25-f1" uri="body/ch1/d25.xml"/>
+    <uri name="frus:frus1969-76v03/d25#d25-f2" uri="body/ch1/d25.xml"/>
+    <uri name="frus:frus1969-76v03/pg65" uri="body/ch1/d25.xml"/>
+    <uri name="frus:frus1969-76v03/pg66" uri="body/ch1/d25.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d26"
+        uri="body/ch1/d26.xml"/>
+    <uri name="frus:frus1969-76v03/d26" uri="body/ch1/d26.xml"/>
+    <uri name="frus:frus1969-76v03/d26#d26-f1" uri="body/ch1/d26.xml"/>
+    <uri name="frus:frus1969-76v03/pg67" uri="body/ch1/d26.xml"/>
+    <uri name="frus:frus1969-76v03/pg68" uri="body/ch1/d26.xml"/>
+    <uri name="frus:frus1969-76v03/pg69" uri="body/ch1/d26.xml"/>
+    <uri name="frus:frus1969-76v03/pg70" uri="body/ch1/d26.xml"/>
+    <uri name="frus:frus1969-76v03/pg71" uri="body/ch1/d26.xml"/>
+    <uri name="frus:frus1969-76v03/pg72" uri="body/ch1/d26.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d27"
+        uri="body/ch1/d27.xml"/>
+    <uri name="frus:frus1969-76v03/d27" uri="body/ch1/d27.xml"/>
+    <uri name="frus:frus1969-76v03/d27#d27-f1" uri="body/ch1/d27.xml"/>
+    <uri name="frus:frus1969-76v03/d27#d27-f2" uri="body/ch1/d27.xml"/>
+    <uri name="frus:frus1969-76v03/d27#d27-f3" uri="body/ch1/d27.xml"/>
+    <uri name="frus:frus1969-76v03/pg73" uri="body/ch1/d27.xml"/>
+    <uri name="frus:frus1969-76v03/pg74" uri="body/ch1/d27.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d28"
+        uri="body/ch1/d28.xml"/>
+    <uri name="frus:frus1969-76v03/d28" uri="body/ch1/d28.xml"/>
+    <uri name="frus:frus1969-76v03/d28#d28-f1" uri="body/ch1/d28.xml"/>
+    <uri name="frus:frus1969-76v03/d28#d28-f2" uri="body/ch1/d28.xml"/>
+    <uri name="frus:frus1969-76v03/pg75" uri="body/ch1/d28.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d29"
+        uri="body/ch1/d29.xml"/>
+    <uri name="frus:frus1969-76v03/d29" uri="body/ch1/d29.xml"/>
+    <uri name="frus:frus1969-76v03/d29#d29-f1" uri="body/ch1/d29.xml"/>
+    <uri name="frus:frus1969-76v03/d29#d29-f2" uri="body/ch1/d29.xml"/>
+    <uri name="frus:frus1969-76v03/pg76" uri="body/ch1/d29.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d29-a1"
+        uri="body/ch1/d29-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d29-a1" uri="body/ch1/d29-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg77" uri="body/ch1/d29-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg78" uri="body/ch1/d29-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d30"
+        uri="body/ch1/d30.xml"/>
+    <uri name="frus:frus1969-76v03/d30" uri="body/ch1/d30.xml"/>
+    <uri name="frus:frus1969-76v03/pg79" uri="body/ch1/d30.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d31"
+        uri="body/ch1/d31.xml"/>
+    <uri name="frus:frus1969-76v03/d31" uri="body/ch1/d31.xml"/>
+    <uri name="frus:frus1969-76v03/d31#d31-f1" uri="body/ch1/d31.xml"/>
+    <uri name="frus:frus1969-76v03/d31#d31-f2" uri="body/ch1/d31.xml"/>
+    <uri name="frus:frus1969-76v03/d31#d31-f3" uri="body/ch1/d31.xml"/>
+    <uri name="frus:frus1969-76v03/d31#d31-f4" uri="body/ch1/d31.xml"/>
+    <uri name="frus:frus1969-76v03/d31#d31-f5" uri="body/ch1/d31.xml"/>
+    <uri name="frus:frus1969-76v03/d31#d31-f6" uri="body/ch1/d31.xml"/>
+    <uri name="frus:frus1969-76v03/pg80" uri="body/ch1/d31.xml"/>
+    <uri name="frus:frus1969-76v03/pg81" uri="body/ch1/d31.xml"/>
+    <uri name="frus:frus1969-76v03/pg82" uri="body/ch1/d31.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d32"
+        uri="body/ch1/d32.xml"/>
+    <uri name="frus:frus1969-76v03/d32" uri="body/ch1/d32.xml"/>
+    <uri name="frus:frus1969-76v03/d32#d32-f1" uri="body/ch1/d32.xml"/>
+    <uri name="frus:frus1969-76v03/d32#d32-f2" uri="body/ch1/d32.xml"/>
+    <uri name="frus:frus1969-76v03/pg83" uri="body/ch1/d32.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d33"
+        uri="body/ch1/d33.xml"/>
+    <uri name="frus:frus1969-76v03/d33" uri="body/ch1/d33.xml"/>
+    <uri name="frus:frus1969-76v03/d33#d33-f1" uri="body/ch1/d33.xml"/>
+    <uri name="frus:frus1969-76v03/d33#d33-f2" uri="body/ch1/d33.xml"/>
+    <uri name="frus:frus1969-76v03/d33#d33-f3" uri="body/ch1/d33.xml"/>
+    <uri name="frus:frus1969-76v03/d33#d33-f4" uri="body/ch1/d33.xml"/>
+    <uri name="frus:frus1969-76v03/pg84" uri="body/ch1/d33.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d34"
+        uri="body/ch1/d34.xml"/>
+    <uri name="frus:frus1969-76v03/d34" uri="body/ch1/d34.xml"/>
+    <uri name="frus:frus1969-76v03/d34#d34-f1" uri="body/ch1/d34.xml"/>
+    <uri name="frus:frus1969-76v03/d34#d34-f2" uri="body/ch1/d34.xml"/>
+    <uri name="frus:frus1969-76v03/d34#d34-f3" uri="body/ch1/d34.xml"/>
+    <uri name="frus:frus1969-76v03/d34#d34-f4" uri="body/ch1/d34.xml"/>
+    <uri name="frus:frus1969-76v03/pg85" uri="body/ch1/d34.xml"/>
+    <uri name="frus:frus1969-76v03/pg86" uri="body/ch1/d34.xml"/>
+    <uri name="frus:frus1969-76v03/pg87" uri="body/ch1/d34.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d35"
+        uri="body/ch1/d35.xml"/>
+    <uri name="frus:frus1969-76v03/d35" uri="body/ch1/d35.xml"/>
+    <uri name="frus:frus1969-76v03/d35#d35-f1" uri="body/ch1/d35.xml"/>
+    <uri name="frus:frus1969-76v03/d35#d35-f2" uri="body/ch1/d35.xml"/>
+    <uri name="frus:frus1969-76v03/pg88" uri="body/ch1/d35.xml"/>
+    <uri name="frus:frus1969-76v03/pg89" uri="body/ch1/d35.xml"/>
+    <uri name="frus:frus1969-76v03/pg90" uri="body/ch1/d35.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d36"
+        uri="body/ch1/d36.xml"/>
+    <uri name="frus:frus1969-76v03/d36" uri="body/ch1/d36.xml"/>
+    <uri name="frus:frus1969-76v03/d36#d36-f1" uri="body/ch1/d36.xml"/>
+    <uri name="frus:frus1969-76v03/d36#d36-f2" uri="body/ch1/d36.xml"/>
+    <uri name="frus:frus1969-76v03/d36#d36-f3" uri="body/ch1/d36.xml"/>
+    <uri name="frus:frus1969-76v03/d36#d36-f4" uri="body/ch1/d36.xml"/>
+    <uri name="frus:frus1969-76v03/pg91" uri="body/ch1/d36.xml"/>
+    <uri name="frus:frus1969-76v03/pg92" uri="body/ch1/d36.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d37"
+        uri="body/ch1/d37.xml"/>
+    <uri name="frus:frus1969-76v03/d37" uri="body/ch1/d37.xml"/>
+    <uri name="frus:frus1969-76v03/d37#d37-f1" uri="body/ch1/d37.xml"/>
+    <uri name="frus:frus1969-76v03/d37#d37-f2" uri="body/ch1/d37.xml"/>
+    <uri name="frus:frus1969-76v03/d37#d37-f3" uri="body/ch1/d37.xml"/>
+    <uri name="frus:frus1969-76v03/d37#d37-f4" uri="body/ch1/d37.xml"/>
+    <uri name="frus:frus1969-76v03/pg93" uri="body/ch1/d37.xml"/>
+    <uri name="frus:frus1969-76v03/pg94" uri="body/ch1/d37.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d38"
+        uri="body/ch1/d38.xml"/>
+    <uri name="frus:frus1969-76v03/d38" uri="body/ch1/d38.xml"/>
+    <uri name="frus:frus1969-76v03/pg95" uri="body/ch1/d38.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d39"
+        uri="body/ch1/d39.xml"/>
+    <uri name="frus:frus1969-76v03/d39" uri="body/ch1/d39.xml"/>
+    <uri name="frus:frus1969-76v03/d39#d39-f1" uri="body/ch1/d39.xml"/>
+    <uri name="frus:frus1969-76v03/d39#d39-f2" uri="body/ch1/d39.xml"/>
+    <uri name="frus:frus1969-76v03/pg96" uri="body/ch1/d39.xml"/>
+    <uri name="frus:frus1969-76v03/pg97" uri="body/ch1/d39.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d40"
+        uri="body/ch1/d40.xml"/>
+    <uri name="frus:frus1969-76v03/d40" uri="body/ch1/d40.xml"/>
+    <uri name="frus:frus1969-76v03/d40#d40-f1" uri="body/ch1/d40.xml"/>
+    <uri name="frus:frus1969-76v03/d40#d40-f2" uri="body/ch1/d40.xml"/>
+    <uri name="frus:frus1969-76v03/d40#d40-f3" uri="body/ch1/d40.xml"/>
+    <uri name="frus:frus1969-76v03/d40#d40-f4" uri="body/ch1/d40.xml"/>
+    <uri name="frus:frus1969-76v03/pg98" uri="body/ch1/d40.xml"/>
+    <uri name="frus:frus1969-76v03/pg99" uri="body/ch1/d40.xml"/>
+    <uri name="frus:frus1969-76v03/pg100" uri="body/ch1/d40.xml"/>
+    <uri name="frus:frus1969-76v03/pg101" uri="body/ch1/d40.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d41"
+        uri="body/ch1/d41.xml"/>
+    <uri name="frus:frus1969-76v03/d41" uri="body/ch1/d41.xml"/>
+    <uri name="frus:frus1969-76v03/d41#d41-f1" uri="body/ch1/d41.xml"/>
+    <uri name="frus:frus1969-76v03/d41#d41-f2" uri="body/ch1/d41.xml"/>
+    <uri name="frus:frus1969-76v03/d41#d41-f3" uri="body/ch1/d41.xml"/>
+    <uri name="frus:frus1969-76v03/d41#d41-f4" uri="body/ch1/d41.xml"/>
+    <uri name="frus:frus1969-76v03/d41#d41-f5" uri="body/ch1/d41.xml"/>
+    <uri name="frus:frus1969-76v03/d41#d41-f6" uri="body/ch1/d41.xml"/>
+    <uri name="frus:frus1969-76v03/pg102" uri="body/ch1/d41.xml"/>
+    <uri name="frus:frus1969-76v03/pg103" uri="body/ch1/d41.xml"/>
+    <uri name="frus:frus1969-76v03/pg104" uri="body/ch1/d41.xml"/>
+    <uri name="frus:frus1969-76v03/pg105" uri="body/ch1/d41.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d42"
+        uri="body/ch1/d42.xml"/>
+    <uri name="frus:frus1969-76v03/d42" uri="body/ch1/d42.xml"/>
+    <uri name="frus:frus1969-76v03/d42#d42-f1" uri="body/ch1/d42.xml"/>
+    <uri name="frus:frus1969-76v03/d42#d42-f2" uri="body/ch1/d42.xml"/>
+    <uri name="frus:frus1969-76v03/d42#d42-f3" uri="body/ch1/d42.xml"/>
+    <uri name="frus:frus1969-76v03/pg106" uri="body/ch1/d42.xml"/>
+    <uri name="frus:frus1969-76v03/pg107" uri="body/ch1/d42.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d43"
+        uri="body/ch1/d43.xml"/>
+    <uri name="frus:frus1969-76v03/d43" uri="body/ch1/d43.xml"/>
+    <uri name="frus:frus1969-76v03/d43#d43-f1" uri="body/ch1/d43.xml"/>
+    <uri name="frus:frus1969-76v03/d43#d43-f2" uri="body/ch1/d43.xml"/>
+    <uri name="frus:frus1969-76v03/d43#d43-f3" uri="body/ch1/d43.xml"/>
+    <uri name="frus:frus1969-76v03/d43#d43-f4" uri="body/ch1/d43.xml"/>
+    <uri name="frus:frus1969-76v03/pg108" uri="body/ch1/d43.xml"/>
+    <uri name="frus:frus1969-76v03/pg109" uri="body/ch1/d43.xml"/>
+    <uri name="frus:frus1969-76v03/pg110" uri="body/ch1/d43.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d44"
+        uri="body/ch1/d44.xml"/>
+    <uri name="frus:frus1969-76v03/d44" uri="body/ch1/d44.xml"/>
+    <uri name="frus:frus1969-76v03/pg111" uri="body/ch1/d44.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d45"
+        uri="body/ch1/d45.xml"/>
+    <uri name="frus:frus1969-76v03/d45" uri="body/ch1/d45.xml"/>
+    <uri name="frus:frus1969-76v03/pg112" uri="body/ch1/d45.xml"/>
+    <uri name="frus:frus1969-76v03/pg113" uri="body/ch1/d45.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d46"
+        uri="body/ch1/d46.xml"/>
+    <uri name="frus:frus1969-76v03/d46" uri="body/ch1/d46.xml"/>
+    <uri name="frus:frus1969-76v03/d46#d46-f1" uri="body/ch1/d46.xml"/>
+    <uri name="frus:frus1969-76v03/d46#d46-f2" uri="body/ch1/d46.xml"/>
+    <uri name="frus:frus1969-76v03/d46#d46-f3" uri="body/ch1/d46.xml"/>
+    <uri name="frus:frus1969-76v03/d46#d46-f4" uri="body/ch1/d46.xml"/>
+    <uri name="frus:frus1969-76v03/d46#d46-f5" uri="body/ch1/d46.xml"/>
+    <uri name="frus:frus1969-76v03/pg114" uri="body/ch1/d46.xml"/>
+    <uri name="frus:frus1969-76v03/pg115" uri="body/ch1/d46.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d47"
+        uri="body/ch1/d47.xml"/>
+    <uri name="frus:frus1969-76v03/d47" uri="body/ch1/d47.xml"/>
+    <uri name="frus:frus1969-76v03/d47#d47-f1" uri="body/ch1/d47.xml"/>
+    <uri name="frus:frus1969-76v03/d47#d47-f2" uri="body/ch1/d47.xml"/>
+    <uri name="frus:frus1969-76v03/d47#d47-f3" uri="body/ch1/d47.xml"/>
+    <uri name="frus:frus1969-76v03/pg116" uri="body/ch1/d47.xml"/>
+    <uri name="frus:frus1969-76v03/pg117" uri="body/ch1/d47.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d47-a1"
+        uri="body/ch1/d47-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d47-a1" uri="body/ch1/d47-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg117" uri="body/ch1/d47-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg118" uri="body/ch1/d47-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d48"
+        uri="body/ch1/d48.xml"/>
+    <uri name="frus:frus1969-76v03/d48" uri="body/ch1/d48.xml"/>
+    <uri name="frus:frus1969-76v03/d48#d48-f1" uri="body/ch1/d48.xml"/>
+    <uri name="frus:frus1969-76v03/d48#d48-f2" uri="body/ch1/d48.xml"/>
+    <uri name="frus:frus1969-76v03/d48#d48-f3" uri="body/ch1/d48.xml"/>
+    <uri name="frus:frus1969-76v03/pg119" uri="body/ch1/d48.xml"/>
+    <uri name="frus:frus1969-76v03/pg120" uri="body/ch1/d48.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d49"
+        uri="body/ch1/d49.xml"/>
+    <uri name="frus:frus1969-76v03/d49" uri="body/ch1/d49.xml"/>
+    <uri name="frus:frus1969-76v03/pg121" uri="body/ch1/d49.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d50"
+        uri="body/ch1/d50.xml"/>
+    <uri name="frus:frus1969-76v03/d50" uri="body/ch1/d50.xml"/>
+    <uri name="frus:frus1969-76v03/pg122" uri="body/ch1/d50.xml"/>
+    <uri name="frus:frus1969-76v03/pg123" uri="body/ch1/d50.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d51"
+        uri="body/ch1/d51.xml"/>
+    <uri name="frus:frus1969-76v03/d51" uri="body/ch1/d51.xml"/>
+    <uri name="frus:frus1969-76v03/d51#d51-f1" uri="body/ch1/d51.xml"/>
+    <uri name="frus:frus1969-76v03/d51#d51-f2" uri="body/ch1/d51.xml"/>
+    <uri name="frus:frus1969-76v03/d51#d51-f3" uri="body/ch1/d51.xml"/>
+    <uri name="frus:frus1969-76v03/pg124" uri="body/ch1/d51.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d52"
+        uri="body/ch1/d52.xml"/>
+    <uri name="frus:frus1969-76v03/d52" uri="body/ch1/d52.xml"/>
+    <uri name="frus:frus1969-76v03/pg125" uri="body/ch1/d52.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d53"
+        uri="body/ch1/d53.xml"/>
+    <uri name="frus:frus1969-76v03/d53" uri="body/ch1/d53.xml"/>
+    <uri name="frus:frus1969-76v03/d53#d53-f1" uri="body/ch1/d53.xml"/>
+    <uri name="frus:frus1969-76v03/d53#d53-f2" uri="body/ch1/d53.xml"/>
+    <uri name="frus:frus1969-76v03/d53#d53-f3" uri="body/ch1/d53.xml"/>
+    <uri name="frus:frus1969-76v03/d53#d53-f4" uri="body/ch1/d53.xml"/>
+    <uri name="frus:frus1969-76v03/d53#d53-f5" uri="body/ch1/d53.xml"/>
+    <uri name="frus:frus1969-76v03/pg126" uri="body/ch1/d53.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d54"
+        uri="body/ch1/d54.xml"/>
+    <uri name="frus:frus1969-76v03/d54" uri="body/ch1/d54.xml"/>
+    <uri name="frus:frus1969-76v03/d54#d54-f1" uri="body/ch1/d54.xml"/>
+    <uri name="frus:frus1969-76v03/pg127" uri="body/ch1/d54.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d54-a1"
+        uri="body/ch1/d54-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d54-a1" uri="body/ch1/d54-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d54-a1#d54-f1" uri="body/ch1/d54-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d54-a1#d54-f2" uri="body/ch1/d54-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d54-a1#d54-f3" uri="body/ch1/d54-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg128" uri="body/ch1/d54-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg129" uri="body/ch1/d54-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg130" uri="body/ch1/d54-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg131" uri="body/ch1/d54-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d55"
+        uri="body/ch1/d55.xml"/>
+    <uri name="frus:frus1969-76v03/d55" uri="body/ch1/d55.xml"/>
+    <uri name="frus:frus1969-76v03/d55#d55-f1" uri="body/ch1/d55.xml"/>
+    <uri name="frus:frus1969-76v03/d55#d55-f2" uri="body/ch1/d55.xml"/>
+    <uri name="frus:frus1969-76v03/d55#d55-f3" uri="body/ch1/d55.xml"/>
+    <uri name="frus:frus1969-76v03/pg132" uri="body/ch1/d55.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d56"
+        uri="body/ch1/d56.xml"/>
+    <uri name="frus:frus1969-76v03/d56" uri="body/ch1/d56.xml"/>
+    <uri name="frus:frus1969-76v03/d56#d56-f1" uri="body/ch1/d56.xml"/>
+    <uri name="frus:frus1969-76v03/pg133" uri="body/ch1/d56.xml"/>
+    <uri name="frus:frus1969-76v03/pg134" uri="body/ch1/d56.xml"/>
+    <uri name="frus:frus1969-76v03/pg135" uri="body/ch1/d56.xml"/>
+    <uri name="frus:frus1969-76v03/pg136" uri="body/ch1/d56.xml"/>
+    <uri name="frus:frus1969-76v03/pg137" uri="body/ch1/d56.xml"/>
+    <uri name="frus:frus1969-76v03/pg138" uri="body/ch1/d56.xml"/>
+    <uri name="frus:frus1969-76v03/pg139" uri="body/ch1/d56.xml"/>
+    <uri name="frus:frus1969-76v03/pg140" uri="body/ch1/d56.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d57"
+        uri="body/ch1/d57.xml"/>
+    <uri name="frus:frus1969-76v03/d57" uri="body/ch1/d57.xml"/>
+    <uri name="frus:frus1969-76v03/d57#d57-f1" uri="body/ch1/d57.xml"/>
+    <uri name="frus:frus1969-76v03/d57#d57-f2" uri="body/ch1/d57.xml"/>
+    <uri name="frus:frus1969-76v03/d57#d57-f3" uri="body/ch1/d57.xml"/>
+    <uri name="frus:frus1969-76v03/pg141" uri="body/ch1/d57.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d58"
+        uri="body/ch1/d58.xml"/>
+    <uri name="frus:frus1969-76v03/d58" uri="body/ch1/d58.xml"/>
+    <uri name="frus:frus1969-76v03/d58#d58-f1" uri="body/ch1/d58.xml"/>
+    <uri name="frus:frus1969-76v03/d58#d58-f2" uri="body/ch1/d58.xml"/>
+    <uri name="frus:frus1969-76v03/d58#d58-f3" uri="body/ch1/d58.xml"/>
+    <uri name="frus:frus1969-76v03/d58#d58-f4" uri="body/ch1/d58.xml"/>
+    <uri name="frus:frus1969-76v03/pg142" uri="body/ch1/d58.xml"/>
+    <uri name="frus:frus1969-76v03/pg143" uri="body/ch1/d58.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d59"
+        uri="body/ch1/d59.xml"/>
+    <uri name="frus:frus1969-76v03/d59" uri="body/ch1/d59.xml"/>
+    <uri name="frus:frus1969-76v03/d59#d59-f1" uri="body/ch1/d59.xml"/>
+    <uri name="frus:frus1969-76v03/d59#d59-f2" uri="body/ch1/d59.xml"/>
+    <uri name="frus:frus1969-76v03/d59#d59-f3" uri="body/ch1/d59.xml"/>
+    <uri name="frus:frus1969-76v03/d59#d59-f4" uri="body/ch1/d59.xml"/>
+    <uri name="frus:frus1969-76v03/pg144" uri="body/ch1/d59.xml"/>
+    <uri name="frus:frus1969-76v03/pg145" uri="body/ch1/d59.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d59-a1"
+        uri="body/ch1/d59-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d59-a1" uri="body/ch1/d59-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg145" uri="body/ch1/d59-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d60"
+        uri="body/ch1/d60.xml"/>
+    <uri name="frus:frus1969-76v03/d60" uri="body/ch1/d60.xml"/>
+    <uri name="frus:frus1969-76v03/d60#d60-f1" uri="body/ch1/d60.xml"/>
+    <uri name="frus:frus1969-76v03/d60#d60-f2" uri="body/ch1/d60.xml"/>
+    <uri name="frus:frus1969-76v03/d60#d60-f3" uri="body/ch1/d60.xml"/>
+    <uri name="frus:frus1969-76v03/d60#d60-f4" uri="body/ch1/d60.xml"/>
+    <uri name="frus:frus1969-76v03/pg146" uri="body/ch1/d60.xml"/>
+    <uri name="frus:frus1969-76v03/pg147" uri="body/ch1/d60.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d61"
+        uri="body/ch1/d61.xml"/>
+    <uri name="frus:frus1969-76v03/d61" uri="body/ch1/d61.xml"/>
+    <uri name="frus:frus1969-76v03/d61#d61-f1" uri="body/ch1/d61.xml"/>
+    <uri name="frus:frus1969-76v03/d61#d61-f2" uri="body/ch1/d61.xml"/>
+    <uri name="frus:frus1969-76v03/pg148" uri="body/ch1/d61.xml"/>
+    <uri name="frus:frus1969-76v03/pg149" uri="body/ch1/d61.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d62"
+        uri="body/ch1/d62.xml"/>
+    <uri name="frus:frus1969-76v03/d62" uri="body/ch1/d62.xml"/>
+    <uri name="frus:frus1969-76v03/d62#d62-f1" uri="body/ch1/d62.xml"/>
+    <uri name="frus:frus1969-76v03/d62#d62-f2" uri="body/ch1/d62.xml"/>
+    <uri name="frus:frus1969-76v03/pg150" uri="body/ch1/d62.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d63"
+        uri="body/ch1/d63.xml"/>
+    <uri name="frus:frus1969-76v03/d63" uri="body/ch1/d63.xml"/>
+    <uri name="frus:frus1969-76v03/d63#d63-f1" uri="body/ch1/d63.xml"/>
+    <uri name="frus:frus1969-76v03/d63#d63-f2" uri="body/ch1/d63.xml"/>
+    <uri name="frus:frus1969-76v03/pg151" uri="body/ch1/d63.xml"/>
+    <uri name="frus:frus1969-76v03/pg152" uri="body/ch1/d63.xml"/>
+    <uri name="frus:frus1969-76v03/pg153" uri="body/ch1/d63.xml"/>
+    <uri name="frus:frus1969-76v03/pg154" uri="body/ch1/d63.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d64"
+        uri="body/ch1/d64.xml"/>
+    <uri name="frus:frus1969-76v03/d64" uri="body/ch1/d64.xml"/>
+    <uri name="frus:frus1969-76v03/d64#d64-f1" uri="body/ch1/d64.xml"/>
+    <uri name="frus:frus1969-76v03/d64#d64-f2" uri="body/ch1/d64.xml"/>
+    <uri name="frus:frus1969-76v03/pg155" uri="body/ch1/d64.xml"/>
+    <uri name="frus:frus1969-76v03/pg156" uri="body/ch1/d64.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d65"
+        uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/d65" uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/d65#d65-f1" uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/d65#d65-f2" uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/d65#d65-f3" uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/d65#d65-f4" uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/d65#d65-f5" uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/d65#d65-f6" uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/d65#d65-f7" uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/d65#d65-f8" uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/pg157" uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/pg158" uri="body/ch1/d65.xml"/>
+    <uri name="frus:frus1969-76v03/pg159" uri="body/ch1/d65.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d66"
+        uri="body/ch1/d66.xml"/>
+    <uri name="frus:frus1969-76v03/d66" uri="body/ch1/d66.xml"/>
+    <uri name="frus:frus1969-76v03/d66#d66-f1" uri="body/ch1/d66.xml"/>
+    <uri name="frus:frus1969-76v03/d66#d66-f2" uri="body/ch1/d66.xml"/>
+    <uri name="frus:frus1969-76v03/d66#d66-f3" uri="body/ch1/d66.xml"/>
+    <uri name="frus:frus1969-76v03/d66#d66-f4" uri="body/ch1/d66.xml"/>
+    <uri name="frus:frus1969-76v03/d66#d66-f5" uri="body/ch1/d66.xml"/>
+    <uri name="frus:frus1969-76v03/d66#d66-f6" uri="body/ch1/d66.xml"/>
+    <uri name="frus:frus1969-76v03/pg160" uri="body/ch1/d66.xml"/>
+    <uri name="frus:frus1969-76v03/pg161" uri="body/ch1/d66.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d67"
+        uri="body/ch1/d67.xml"/>
+    <uri name="frus:frus1969-76v03/d67" uri="body/ch1/d67.xml"/>
+    <uri name="frus:frus1969-76v03/pg162" uri="body/ch1/d67.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d68"
+        uri="body/ch1/d68.xml"/>
+    <uri name="frus:frus1969-76v03/d68" uri="body/ch1/d68.xml"/>
+    <uri name="frus:frus1969-76v03/d68#d68-f1" uri="body/ch1/d68.xml"/>
+    <uri name="frus:frus1969-76v03/d68#d68-f2" uri="body/ch1/d68.xml"/>
+    <uri name="frus:frus1969-76v03/d68#d68-f3" uri="body/ch1/d68.xml"/>
+    <uri name="frus:frus1969-76v03/d68#d68-f4" uri="body/ch1/d68.xml"/>
+    <uri name="frus:frus1969-76v03/d68#d68-f5" uri="body/ch1/d68.xml"/>
+    <uri name="frus:frus1969-76v03/d68#d68-f6" uri="body/ch1/d68.xml"/>
+    <uri name="frus:frus1969-76v03/pg163" uri="body/ch1/d68.xml"/>
+    <uri name="frus:frus1969-76v03/pg164" uri="body/ch1/d68.xml"/>
+    <uri name="frus:frus1969-76v03/pg165" uri="body/ch1/d68.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d69"
+        uri="body/ch1/d69.xml"/>
+    <uri name="frus:frus1969-76v03/d69" uri="body/ch1/d69.xml"/>
+    <uri name="frus:frus1969-76v03/pg166" uri="body/ch1/d69.xml"/>
+    <uri name="frus:frus1969-76v03/pg167" uri="body/ch1/d69.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d70"
+        uri="body/ch1/d70.xml"/>
+    <uri name="frus:frus1969-76v03/d70" uri="body/ch1/d70.xml"/>
+    <uri name="frus:frus1969-76v03/d70#d70-f1" uri="body/ch1/d70.xml"/>
+    <uri name="frus:frus1969-76v03/pg168" uri="body/ch1/d70.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d71"
+        uri="body/ch1/d71.xml"/>
+    <uri name="frus:frus1969-76v03/d71" uri="body/ch1/d71.xml"/>
+    <uri name="frus:frus1969-76v03/pg169" uri="body/ch1/d71.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d72"
+        uri="body/ch1/d72.xml"/>
+    <uri name="frus:frus1969-76v03/d72" uri="body/ch1/d72.xml"/>
+    <uri name="frus:frus1969-76v03/d72#d72-f1" uri="body/ch1/d72.xml"/>
+    <uri name="frus:frus1969-76v03/d72#d72-f2" uri="body/ch1/d72.xml"/>
+    <uri name="frus:frus1969-76v03/d72#d72-f3" uri="body/ch1/d72.xml"/>
+    <uri name="frus:frus1969-76v03/pg170" uri="body/ch1/d72.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d73"
+        uri="body/ch1/d73.xml"/>
+    <uri name="frus:frus1969-76v03/d73" uri="body/ch1/d73.xml"/>
+    <uri name="frus:frus1969-76v03/pg171" uri="body/ch1/d73.xml"/>
+    <uri name="frus:frus1969-76v03/pg172" uri="body/ch1/d73.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d74"
+        uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/d74" uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/d74#d74-f1" uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/d74#d74-f2" uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/d74#d74-f3" uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/d74#d74-f4" uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/d74#d74-f5" uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/d74#d74-f6" uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/d74#d74-f7" uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/pg173" uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/pg174" uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/pg175" uri="body/ch1/d74.xml"/>
+    <uri name="frus:frus1969-76v03/pg176" uri="body/ch1/d74.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d75"
+        uri="body/ch1/d75.xml"/>
+    <uri name="frus:frus1969-76v03/d75" uri="body/ch1/d75.xml"/>
+    <uri name="frus:frus1969-76v03/d75#d75-f1" uri="body/ch1/d75.xml"/>
+    <uri name="frus:frus1969-76v03/d75#d75-f2" uri="body/ch1/d75.xml"/>
+    <uri name="frus:frus1969-76v03/d75#d75-f3" uri="body/ch1/d75.xml"/>
+    <uri name="frus:frus1969-76v03/d75#d75-f4" uri="body/ch1/d75.xml"/>
+    <uri name="frus:frus1969-76v03/d75#d75-f5" uri="body/ch1/d75.xml"/>
+    <uri name="frus:frus1969-76v03/pg177" uri="body/ch1/d75.xml"/>
+    <uri name="frus:frus1969-76v03/pg178" uri="body/ch1/d75.xml"/>
+    <uri name="frus:frus1969-76v03/pg179" uri="body/ch1/d75.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d76"
+        uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/d76" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/d76#d76-f1" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/d76#d76-f2" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/d76#d76-f3" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/d76#d76-f4" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/d76#d76-f5" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/d76#d76-f6" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/pg180" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/pg181" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/pg182" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/pg183" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/pg184" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/pg185" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/pg186" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/pg187" uri="body/ch1/d76.xml"/>
+    <uri name="frus:frus1969-76v03/pg188" uri="body/ch1/d76.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d77"
+        uri="body/ch1/d77.xml"/>
+    <uri name="frus:frus1969-76v03/d77" uri="body/ch1/d77.xml"/>
+    <uri name="frus:frus1969-76v03/d77#d77-f1" uri="body/ch1/d77.xml"/>
+    <uri name="frus:frus1969-76v03/d77#d77-f2" uri="body/ch1/d77.xml"/>
+    <uri name="frus:frus1969-76v03/d77#d77-f3" uri="body/ch1/d77.xml"/>
+    <uri name="frus:frus1969-76v03/d77#d77-f4" uri="body/ch1/d77.xml"/>
+    <uri name="frus:frus1969-76v03/pg189" uri="body/ch1/d77.xml"/>
+    <uri name="frus:frus1969-76v03/pg190" uri="body/ch1/d77.xml"/>
+    <uri name="frus:frus1969-76v03/pg191" uri="body/ch1/d77.xml"/>
+    <uri name="frus:frus1969-76v03/pg192" uri="body/ch1/d77.xml"/>
+    <uri name="frus:frus1969-76v03/pg193" uri="body/ch1/d77.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d78"
+        uri="body/ch1/d78.xml"/>
+    <uri name="frus:frus1969-76v03/d78" uri="body/ch1/d78.xml"/>
+    <uri name="frus:frus1969-76v03/pg194" uri="body/ch1/d78.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d79"
+        uri="body/ch1/d79.xml"/>
+    <uri name="frus:frus1969-76v03/d79" uri="body/ch1/d79.xml"/>
+    <uri name="frus:frus1969-76v03/d79#d79-f1" uri="body/ch1/d79.xml"/>
+    <uri name="frus:frus1969-76v03/d79#d79-f2" uri="body/ch1/d79.xml"/>
+    <uri name="frus:frus1969-76v03/d79#d79-f3" uri="body/ch1/d79.xml"/>
+    <uri name="frus:frus1969-76v03/pg195" uri="body/ch1/d79.xml"/>
+    <uri name="frus:frus1969-76v03/pg196" uri="body/ch1/d79.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d80"
+        uri="body/ch1/d80.xml"/>
+    <uri name="frus:frus1969-76v03/d80" uri="body/ch1/d80.xml"/>
+    <uri name="frus:frus1969-76v03/pg197" uri="body/ch1/d80.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d81"
+        uri="body/ch1/d81.xml"/>
+    <uri name="frus:frus1969-76v03/d81" uri="body/ch1/d81.xml"/>
+    <uri name="frus:frus1969-76v03/d81#d81-f1" uri="body/ch1/d81.xml"/>
+    <uri name="frus:frus1969-76v03/d81#d81-f2" uri="body/ch1/d81.xml"/>
+    <uri name="frus:frus1969-76v03/d81#d81-f3" uri="body/ch1/d81.xml"/>
+    <uri name="frus:frus1969-76v03/pg198" uri="body/ch1/d81.xml"/>
+    <uri name="frus:frus1969-76v03/pg199" uri="body/ch1/d81.xml"/>
+    <uri name="frus:frus1969-76v03/pg200" uri="body/ch1/d81.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d82"
+        uri="body/ch1/d82.xml"/>
+    <uri name="frus:frus1969-76v03/d82" uri="body/ch1/d82.xml"/>
+    <uri name="frus:frus1969-76v03/d82#d82-f1" uri="body/ch1/d82.xml"/>
+    <uri name="frus:frus1969-76v03/d82#d82-f2" uri="body/ch1/d82.xml"/>
+    <uri name="frus:frus1969-76v03/pg201" uri="body/ch1/d82.xml"/>
+    <uri name="frus:frus1969-76v03/pg202" uri="body/ch1/d82.xml"/>
+    <uri name="frus:frus1969-76v03/pg203" uri="body/ch1/d82.xml"/>
+    <uri name="frus:frus1969-76v03/pg204" uri="body/ch1/d82.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d83"
+        uri="body/ch1/d83.xml"/>
+    <uri name="frus:frus1969-76v03/d83" uri="body/ch1/d83.xml"/>
+    <uri name="frus:frus1969-76v03/d83#d83-f1" uri="body/ch1/d83.xml"/>
+    <uri name="frus:frus1969-76v03/d83#d83-f2" uri="body/ch1/d83.xml"/>
+    <uri name="frus:frus1969-76v03/d83#d83-f3" uri="body/ch1/d83.xml"/>
+    <uri name="frus:frus1969-76v03/d83#d83-f4" uri="body/ch1/d83.xml"/>
+    <uri name="frus:frus1969-76v03/pg205" uri="body/ch1/d83.xml"/>
+    <uri name="frus:frus1969-76v03/pg206" uri="body/ch1/d83.xml"/>
+    <uri name="frus:frus1969-76v03/pg207" uri="body/ch1/d83.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d84"
+        uri="body/ch1/d84.xml"/>
+    <uri name="frus:frus1969-76v03/d84" uri="body/ch1/d84.xml"/>
+    <uri name="frus:frus1969-76v03/d84#d84-f1" uri="body/ch1/d84.xml"/>
+    <uri name="frus:frus1969-76v03/d84#d84-f2" uri="body/ch1/d84.xml"/>
+    <uri name="frus:frus1969-76v03/d84#d84-f3" uri="body/ch1/d84.xml"/>
+    <uri name="frus:frus1969-76v03/d84#d84-f4" uri="body/ch1/d84.xml"/>
+    <uri name="frus:frus1969-76v03/pg208" uri="body/ch1/d84.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d85"
+        uri="body/ch1/d85.xml"/>
+    <uri name="frus:frus1969-76v03/d85" uri="body/ch1/d85.xml"/>
+    <uri name="frus:frus1969-76v03/d85#d85-f1" uri="body/ch1/d85.xml"/>
+    <uri name="frus:frus1969-76v03/d85#d85-f2" uri="body/ch1/d85.xml"/>
+    <uri name="frus:frus1969-76v03/d85#d85-f3" uri="body/ch1/d85.xml"/>
+    <uri name="frus:frus1969-76v03/pg209" uri="body/ch1/d85.xml"/>
+    <uri name="frus:frus1969-76v03/pg210" uri="body/ch1/d85.xml"/>
+    <uri name="frus:frus1969-76v03/pg211" uri="body/ch1/d85.xml"/>
+    <uri name="frus:frus1969-76v03/pg212" uri="body/ch1/d85.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d86"
+        uri="body/ch1/d86.xml"/>
+    <uri name="frus:frus1969-76v03/d86" uri="body/ch1/d86.xml"/>
+    <uri name="frus:frus1969-76v03/d86#d86-f1" uri="body/ch1/d86.xml"/>
+    <uri name="frus:frus1969-76v03/pg213" uri="body/ch1/d86.xml"/>
+    <uri name="frus:frus1969-76v03/pg214" uri="body/ch1/d86.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d87"
+        uri="body/ch1/d87.xml"/>
+    <uri name="frus:frus1969-76v03/d87" uri="body/ch1/d87.xml"/>
+    <uri name="frus:frus1969-76v03/pg215" uri="body/ch1/d87.xml"/>
+    <uri name="frus:frus1969-76v03/pg216" uri="body/ch1/d87.xml"/>
+    <uri name="frus:frus1969-76v03/pg217" uri="body/ch1/d87.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d88"
+        uri="body/ch1/d88.xml"/>
+    <uri name="frus:frus1969-76v03/d88" uri="body/ch1/d88.xml"/>
+    <uri name="frus:frus1969-76v03/pg218" uri="body/ch1/d88.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d89"
+        uri="body/ch1/d89.xml"/>
+    <uri name="frus:frus1969-76v03/d89" uri="body/ch1/d89.xml"/>
+    <uri name="frus:frus1969-76v03/d89#d89-f1" uri="body/ch1/d89.xml"/>
+    <uri name="frus:frus1969-76v03/d89#d89-f2" uri="body/ch1/d89.xml"/>
+    <uri name="frus:frus1969-76v03/d89#d89-f3" uri="body/ch1/d89.xml"/>
+    <uri name="frus:frus1969-76v03/d89#d89-f4" uri="body/ch1/d89.xml"/>
+    <uri name="frus:frus1969-76v03/d89#d89-f5" uri="body/ch1/d89.xml"/>
+    <uri name="frus:frus1969-76v03/pg219" uri="body/ch1/d89.xml"/>
+    <uri name="frus:frus1969-76v03/pg220" uri="body/ch1/d89.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d90"
+        uri="body/ch1/d90.xml"/>
+    <uri name="frus:frus1969-76v03/d90" uri="body/ch1/d90.xml"/>
+    <uri name="frus:frus1969-76v03/pg221" uri="body/ch1/d90.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d91"
+        uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/d91" uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/d91#d91-f1" uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/d91#d91-f2" uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/d91#d91-f3" uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/d91#d91-f4" uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/pg222" uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/pg223" uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/pg224" uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/pg225" uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/pg226" uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/pg227" uri="body/ch1/d91.xml"/>
+    <uri name="frus:frus1969-76v03/pg228" uri="body/ch1/d91.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d91-a1"
+        uri="body/ch1/d91-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d91-a1" uri="body/ch1/d91-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d91-a1#d91-f1" uri="body/ch1/d91-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg228" uri="body/ch1/d91-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg229" uri="body/ch1/d91-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg230" uri="body/ch1/d91-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg231" uri="body/ch1/d91-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d92"
+        uri="body/ch1/d92.xml"/>
+    <uri name="frus:frus1969-76v03/d92" uri="body/ch1/d92.xml"/>
+    <uri name="frus:frus1969-76v03/d92#d92-f1" uri="body/ch1/d92.xml"/>
+    <uri name="frus:frus1969-76v03/d92#d92-f2" uri="body/ch1/d92.xml"/>
+    <uri name="frus:frus1969-76v03/d92#d92-f3" uri="body/ch1/d92.xml"/>
+    <uri name="frus:frus1969-76v03/d92#d92-f4" uri="body/ch1/d92.xml"/>
+    <uri name="frus:frus1969-76v03/d92#d92-f5" uri="body/ch1/d92.xml"/>
+    <uri name="frus:frus1969-76v03/pg232" uri="body/ch1/d92.xml"/>
+    <uri name="frus:frus1969-76v03/pg233" uri="body/ch1/d92.xml"/>
+    <uri name="frus:frus1969-76v03/pg234" uri="body/ch1/d92.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d93"
+        uri="body/ch1/d93.xml"/>
+    <uri name="frus:frus1969-76v03/d93" uri="body/ch1/d93.xml"/>
+    <uri name="frus:frus1969-76v03/pg235" uri="body/ch1/d93.xml"/>
+    <uri name="frus:frus1969-76v03/pg236" uri="body/ch1/d93.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d94"
+        uri="body/ch1/d94.xml"/>
+    <uri name="frus:frus1969-76v03/d94" uri="body/ch1/d94.xml"/>
+    <uri name="frus:frus1969-76v03/d94#d94-f1" uri="body/ch1/d94.xml"/>
+    <uri name="frus:frus1969-76v03/d94#d94-f2" uri="body/ch1/d94.xml"/>
+    <uri name="frus:frus1969-76v03/pg237" uri="body/ch1/d94.xml"/>
+    <uri name="frus:frus1969-76v03/pg238" uri="body/ch1/d94.xml"/>
+    <uri name="frus:frus1969-76v03/pg239" uri="body/ch1/d94.xml"/>
+    <uri name="frus:frus1969-76v03/pg240" uri="body/ch1/d94.xml"/>
+    <uri name="frus:frus1969-76v03/pg241" uri="body/ch1/d94.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d95"
+        uri="body/ch1/d95.xml"/>
+    <uri name="frus:frus1969-76v03/d95" uri="body/ch1/d95.xml"/>
+    <uri name="frus:frus1969-76v03/d95#d95-f1" uri="body/ch1/d95.xml"/>
+    <uri name="frus:frus1969-76v03/pg242" uri="body/ch1/d95.xml"/>
+    <uri name="frus:frus1969-76v03/pg243" uri="body/ch1/d95.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d96"
+        uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/d96" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/d96#d96-f1" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/d96#d96-f2" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/d96#d96-f3" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/d96#d96-f4" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/d96#d96-f5" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/d96#d96-f6" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/pg244" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/pg245" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/pg246" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/pg247" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/pg248" uri="body/ch1/d96.xml"/>
+    <uri name="frus:frus1969-76v03/pg249" uri="body/ch1/d96.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d97"
+        uri="body/ch1/d97.xml"/>
+    <uri name="frus:frus1969-76v03/d97" uri="body/ch1/d97.xml"/>
+    <uri name="frus:frus1969-76v03/d97#d97-f1" uri="body/ch1/d97.xml"/>
+    <uri name="frus:frus1969-76v03/pg250" uri="body/ch1/d97.xml"/>
+    <uri name="frus:frus1969-76v03/pg251" uri="body/ch1/d97.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d98"
+        uri="body/ch1/d98.xml"/>
+    <uri name="frus:frus1969-76v03/d98" uri="body/ch1/d98.xml"/>
+    <uri name="frus:frus1969-76v03/d98#d98-f1" uri="body/ch1/d98.xml"/>
+    <uri name="frus:frus1969-76v03/pg252" uri="body/ch1/d98.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d98-a1"
+        uri="body/ch1/d98-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d98-a1" uri="body/ch1/d98-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d98-a1#d98-f1" uri="body/ch1/d98-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d98-a1#d98-f2" uri="body/ch1/d98-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d98-a1#d98-f3" uri="body/ch1/d98-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d98-a1#d98-f4" uri="body/ch1/d98-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d98-a1#d98-f5" uri="body/ch1/d98-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d98-a1#d98-f6" uri="body/ch1/d98-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d98-a1#d98-f7" uri="body/ch1/d98-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg253" uri="body/ch1/d98-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg254" uri="body/ch1/d98-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg255" uri="body/ch1/d98-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d99"
+        uri="body/ch1/d99.xml"/>
+    <uri name="frus:frus1969-76v03/d99" uri="body/ch1/d99.xml"/>
+    <uri name="frus:frus1969-76v03/d99#d99-f1" uri="body/ch1/d99.xml"/>
+    <uri name="frus:frus1969-76v03/d99#d99-f2" uri="body/ch1/d99.xml"/>
+    <uri name="frus:frus1969-76v03/d99#d99-f3" uri="body/ch1/d99.xml"/>
+    <uri name="frus:frus1969-76v03/pg256" uri="body/ch1/d99.xml"/>
+    <uri name="frus:frus1969-76v03/pg257" uri="body/ch1/d99.xml"/>
+    <uri name="frus:frus1969-76v03/pg258" uri="body/ch1/d99.xml"/>
+    <uri name="frus:frus1969-76v03/pg259" uri="body/ch1/d99.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d100"
+        uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/d100" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/d100#d100-f1" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/d100#d100-f2" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/d100#d100-f3" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/d100#d100-f4" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/d100#d100-f5" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/d100#d100-f6" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/pg260" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/pg261" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/pg262" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/pg263" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/pg264" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/pg265" uri="body/ch1/d100.xml"/>
+    <uri name="frus:frus1969-76v03/pg266" uri="body/ch1/d100.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d101"
+        uri="body/ch1/d101.xml"/>
+    <uri name="frus:frus1969-76v03/d101" uri="body/ch1/d101.xml"/>
+    <uri name="frus:frus1969-76v03/d101#d101-f1" uri="body/ch1/d101.xml"/>
+    <uri name="frus:frus1969-76v03/d101#d101-f2" uri="body/ch1/d101.xml"/>
+    <uri name="frus:frus1969-76v03/d101#d101-f3" uri="body/ch1/d101.xml"/>
+    <uri name="frus:frus1969-76v03/pg267" uri="body/ch1/d101.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d102"
+        uri="body/ch1/d102.xml"/>
+    <uri name="frus:frus1969-76v03/d102" uri="body/ch1/d102.xml"/>
+    <uri name="frus:frus1969-76v03/d102#d102-f1" uri="body/ch1/d102.xml"/>
+    <uri name="frus:frus1969-76v03/d102#d102-f2" uri="body/ch1/d102.xml"/>
+    <uri name="frus:frus1969-76v03/d102#d102-f3" uri="body/ch1/d102.xml"/>
+    <uri name="frus:frus1969-76v03/d102#d102-f4" uri="body/ch1/d102.xml"/>
+    <uri name="frus:frus1969-76v03/pg268" uri="body/ch1/d102.xml"/>
+    <uri name="frus:frus1969-76v03/pg269" uri="body/ch1/d102.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d103"
+        uri="body/ch1/d103.xml"/>
+    <uri name="frus:frus1969-76v03/d103" uri="body/ch1/d103.xml"/>
+    <uri name="frus:frus1969-76v03/d103#d103-f1" uri="body/ch1/d103.xml"/>
+    <uri name="frus:frus1969-76v03/d103#d103-f2" uri="body/ch1/d103.xml"/>
+    <uri name="frus:frus1969-76v03/d103#d103-f3" uri="body/ch1/d103.xml"/>
+    <uri name="frus:frus1969-76v03/d103#d103-f4" uri="body/ch1/d103.xml"/>
+    <uri name="frus:frus1969-76v03/pg270" uri="body/ch1/d103.xml"/>
+    <uri name="frus:frus1969-76v03/pg271" uri="body/ch1/d103.xml"/>
+    <uri name="frus:frus1969-76v03/pg272" uri="body/ch1/d103.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d104"
+        uri="body/ch1/d104.xml"/>
+    <uri name="frus:frus1969-76v03/d104" uri="body/ch1/d104.xml"/>
+    <uri name="frus:frus1969-76v03/d104#d104-f1" uri="body/ch1/d104.xml"/>
+    <uri name="frus:frus1969-76v03/d104#d104-f2" uri="body/ch1/d104.xml"/>
+    <uri name="frus:frus1969-76v03/d104#d104-f3" uri="body/ch1/d104.xml"/>
+    <uri name="frus:frus1969-76v03/d104#d104-f4" uri="body/ch1/d104.xml"/>
+    <uri name="frus:frus1969-76v03/d104#d104-f5" uri="body/ch1/d104.xml"/>
+    <uri name="frus:frus1969-76v03/d104#d104-f6" uri="body/ch1/d104.xml"/>
+    <uri name="frus:frus1969-76v03/pg273" uri="body/ch1/d104.xml"/>
+    <uri name="frus:frus1969-76v03/pg274" uri="body/ch1/d104.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d105"
+        uri="body/ch1/d105.xml"/>
+    <uri name="frus:frus1969-76v03/d105" uri="body/ch1/d105.xml"/>
+    <uri name="frus:frus1969-76v03/d105#d105-f1" uri="body/ch1/d105.xml"/>
+    <uri name="frus:frus1969-76v03/d105#d105-f2" uri="body/ch1/d105.xml"/>
+    <uri name="frus:frus1969-76v03/pg275" uri="body/ch1/d105.xml"/>
+    <uri name="frus:frus1969-76v03/pg276" uri="body/ch1/d105.xml"/>
+    <uri name="frus:frus1969-76v03/pg277" uri="body/ch1/d105.xml"/>
+    <uri name="frus:frus1969-76v03/pg278" uri="body/ch1/d105.xml"/>
+    <uri name="frus:frus1969-76v03/pg279" uri="body/ch1/d105.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d106"
+        uri="body/ch1/d106.xml"/>
+    <uri name="frus:frus1969-76v03/d106" uri="body/ch1/d106.xml"/>
+    <uri name="frus:frus1969-76v03/pg280" uri="body/ch1/d106.xml"/>
+    <uri name="frus:frus1969-76v03/pg281" uri="body/ch1/d106.xml"/>
+    <uri name="frus:frus1969-76v03/pg282" uri="body/ch1/d106.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d107"
+        uri="body/ch1/d107.xml"/>
+    <uri name="frus:frus1969-76v03/d107" uri="body/ch1/d107.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d108"
+        uri="body/ch1/d108.xml"/>
+    <uri name="frus:frus1969-76v03/d108" uri="body/ch1/d108.xml"/>
+    <uri name="frus:frus1969-76v03/d108#d108-f1" uri="body/ch1/d108.xml"/>
+    <uri name="frus:frus1969-76v03/pg283" uri="body/ch1/d108.xml"/>
+    <uri name="frus:frus1969-76v03/pg284" uri="body/ch1/d108.xml"/>
+    <uri name="frus:frus1969-76v03/pg285" uri="body/ch1/d108.xml"/>
+    <uri name="frus:frus1969-76v03/pg286" uri="body/ch1/d108.xml"/>
+    <uri name="frus:frus1969-76v03/pg287" uri="body/ch1/d108.xml"/>
+    <uri name="frus:frus1969-76v03/pg288" uri="body/ch1/d108.xml"/>
+    <uri name="frus:frus1969-76v03/pg289" uri="body/ch1/d108.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/ch2" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/ch2" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg290" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg301" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg303" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg308" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg309" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg310" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg317" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg319" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg331" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg332" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg337" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg345" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg363" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg366" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg375" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg377" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg379" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg386" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg387" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg389" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg416" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg419" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg433" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg434" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg438" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg440" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg446" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg452" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg457" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg468" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg479" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg486" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg488" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg492" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg494" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg499" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg501" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg512" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg525" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg528" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg529" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg531" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg538" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg544" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg551" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg555" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg569" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg571" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg572" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg574" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg576" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg580" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg582" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg585" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg593" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg597" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg604" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg608" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg615" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg618" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg619" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg624" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg631" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg639" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg646" uri="body/ch2.xml"/>
+    <uri name="frus:frus1969-76v03/pg651" uri="body/ch2.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d109"
+        uri="body/ch2/d109.xml"/>
+    <uri name="frus:frus1969-76v03/d109" uri="body/ch2/d109.xml"/>
+    <uri name="frus:frus1969-76v03/d109#d109-f1" uri="body/ch2/d109.xml"/>
+    <uri name="frus:frus1969-76v03/d109#d109-f2" uri="body/ch2/d109.xml"/>
+    <uri name="frus:frus1969-76v03/pg291" uri="body/ch2/d109.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d110"
+        uri="body/ch2/d110.xml"/>
+    <uri name="frus:frus1969-76v03/d110" uri="body/ch2/d110.xml"/>
+    <uri name="frus:frus1969-76v03/pg292" uri="body/ch2/d110.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d111"
+        uri="body/ch2/d111.xml"/>
+    <uri name="frus:frus1969-76v03/d111" uri="body/ch2/d111.xml"/>
+    <uri name="frus:frus1969-76v03/d111#d111-f1" uri="body/ch2/d111.xml"/>
+    <uri name="frus:frus1969-76v03/d111#d111-f2" uri="body/ch2/d111.xml"/>
+    <uri name="frus:frus1969-76v03/pg293" uri="body/ch2/d111.xml"/>
+    <uri name="frus:frus1969-76v03/pg294" uri="body/ch2/d111.xml"/>
+    <uri name="frus:frus1969-76v03/pg295" uri="body/ch2/d111.xml"/>
+    <uri name="frus:frus1969-76v03/pg296" uri="body/ch2/d111.xml"/>
+    <uri name="frus:frus1969-76v03/pg297" uri="body/ch2/d111.xml"/>
+    <uri name="frus:frus1969-76v03/pg298" uri="body/ch2/d111.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d112"
+        uri="body/ch2/d112.xml"/>
+    <uri name="frus:frus1969-76v03/d112" uri="body/ch2/d112.xml"/>
+    <uri name="frus:frus1969-76v03/d112#d112-f1" uri="body/ch2/d112.xml"/>
+    <uri name="frus:frus1969-76v03/d112#d112-f2" uri="body/ch2/d112.xml"/>
+    <uri name="frus:frus1969-76v03/pg299" uri="body/ch2/d112.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d113"
+        uri="body/ch2/d113.xml"/>
+    <uri name="frus:frus1969-76v03/d113" uri="body/ch2/d113.xml"/>
+    <uri name="frus:frus1969-76v03/d113#d113-f1" uri="body/ch2/d113.xml"/>
+    <uri name="frus:frus1969-76v03/d113#d113-f2" uri="body/ch2/d113.xml"/>
+    <uri name="frus:frus1969-76v03/d113#d113-f3" uri="body/ch2/d113.xml"/>
+    <uri name="frus:frus1969-76v03/pg300" uri="body/ch2/d113.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d114"
+        uri="body/ch2/d114.xml"/>
+    <uri name="frus:frus1969-76v03/d114" uri="body/ch2/d114.xml"/>
+    <uri name="frus:frus1969-76v03/d114#d114-f1" uri="body/ch2/d114.xml"/>
+    <uri name="frus:frus1969-76v03/d114#d114-f2" uri="body/ch2/d114.xml"/>
+    <uri name="frus:frus1969-76v03/d114#d114-f3" uri="body/ch2/d114.xml"/>
+    <uri name="frus:frus1969-76v03/d114#d114-f4" uri="body/ch2/d114.xml"/>
+    <uri name="frus:frus1969-76v03/d114#d114-f5" uri="body/ch2/d114.xml"/>
+    <uri name="frus:frus1969-76v03/pg301" uri="body/ch2/d114.xml"/>
+    <uri name="frus:frus1969-76v03/pg302" uri="body/ch2/d114.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d115"
+        uri="body/ch2/d115.xml"/>
+    <uri name="frus:frus1969-76v03/d115" uri="body/ch2/d115.xml"/>
+    <uri name="frus:frus1969-76v03/d115#d115-f1" uri="body/ch2/d115.xml"/>
+    <uri name="frus:frus1969-76v03/d115#d115-f2" uri="body/ch2/d115.xml"/>
+    <uri name="frus:frus1969-76v03/pg303" uri="body/ch2/d115.xml"/>
+    <uri name="frus:frus1969-76v03/pg304" uri="body/ch2/d115.xml"/>
+    <uri name="frus:frus1969-76v03/pg305" uri="body/ch2/d115.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d116"
+        uri="body/ch2/d116.xml"/>
+    <uri name="frus:frus1969-76v03/d116" uri="body/ch2/d116.xml"/>
+    <uri name="frus:frus1969-76v03/d116#d116-f1" uri="body/ch2/d116.xml"/>
+    <uri name="frus:frus1969-76v03/d116#d116-f2" uri="body/ch2/d116.xml"/>
+    <uri name="frus:frus1969-76v03/d116#d116-f3" uri="body/ch2/d116.xml"/>
+    <uri name="frus:frus1969-76v03/pg306" uri="body/ch2/d116.xml"/>
+    <uri name="frus:frus1969-76v03/pg307" uri="body/ch2/d116.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d117"
+        uri="body/ch2/d117.xml"/>
+    <uri name="frus:frus1969-76v03/d117" uri="body/ch2/d117.xml"/>
+    <uri name="frus:frus1969-76v03/d117#d117-f1" uri="body/ch2/d117.xml"/>
+    <uri name="frus:frus1969-76v03/d117#d117-f2" uri="body/ch2/d117.xml"/>
+    <uri name="frus:frus1969-76v03/pg308" uri="body/ch2/d117.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d118"
+        uri="body/ch2/d118.xml"/>
+    <uri name="frus:frus1969-76v03/d118" uri="body/ch2/d118.xml"/>
+    <uri name="frus:frus1969-76v03/pg309" uri="body/ch2/d118.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d119"
+        uri="body/ch2/d119.xml"/>
+    <uri name="frus:frus1969-76v03/d119" uri="body/ch2/d119.xml"/>
+    <uri name="frus:frus1969-76v03/d119#d119-f1" uri="body/ch2/d119.xml"/>
+    <uri name="frus:frus1969-76v03/d119#d119-f2" uri="body/ch2/d119.xml"/>
+    <uri name="frus:frus1969-76v03/pg310" uri="body/ch2/d119.xml"/>
+    <uri name="frus:frus1969-76v03/pg311" uri="body/ch2/d119.xml"/>
+    <uri name="frus:frus1969-76v03/pg312" uri="body/ch2/d119.xml"/>
+    <uri name="frus:frus1969-76v03/pg313" uri="body/ch2/d119.xml"/>
+    <uri name="frus:frus1969-76v03/pg314" uri="body/ch2/d119.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d120"
+        uri="body/ch2/d120.xml"/>
+    <uri name="frus:frus1969-76v03/d120" uri="body/ch2/d120.xml"/>
+    <uri name="frus:frus1969-76v03/d120#d120-f1" uri="body/ch2/d120.xml"/>
+    <uri name="frus:frus1969-76v03/d120#d120-f2" uri="body/ch2/d120.xml"/>
+    <uri name="frus:frus1969-76v03/d120#d120-f3" uri="body/ch2/d120.xml"/>
+    <uri name="frus:frus1969-76v03/pg315" uri="body/ch2/d120.xml"/>
+    <uri name="frus:frus1969-76v03/pg316" uri="body/ch2/d120.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d121"
+        uri="body/ch2/d121.xml"/>
+    <uri name="frus:frus1969-76v03/d121" uri="body/ch2/d121.xml"/>
+    <uri name="frus:frus1969-76v03/d121#d121-f1" uri="body/ch2/d121.xml"/>
+    <uri name="frus:frus1969-76v03/d121#d121-f2" uri="body/ch2/d121.xml"/>
+    <uri name="frus:frus1969-76v03/d121#d121-f3" uri="body/ch2/d121.xml"/>
+    <uri name="frus:frus1969-76v03/d121#d121-f4" uri="body/ch2/d121.xml"/>
+    <uri name="frus:frus1969-76v03/pg317" uri="body/ch2/d121.xml"/>
+    <uri name="frus:frus1969-76v03/pg318" uri="body/ch2/d121.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d122"
+        uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/d122" uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/d122#d122-f1" uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/d122#d122-f2" uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/d122#d122-f3" uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/d122#d122-f4" uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/d122#d122-f5" uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/pg319" uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/pg320" uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/pg321" uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/pg322" uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/pg323" uri="body/ch2/d122.xml"/>
+    <uri name="frus:frus1969-76v03/pg324" uri="body/ch2/d122.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d123"
+        uri="body/ch2/d123.xml"/>
+    <uri name="frus:frus1969-76v03/d123" uri="body/ch2/d123.xml"/>
+    <uri name="frus:frus1969-76v03/d123#d123-f1" uri="body/ch2/d123.xml"/>
+    <uri name="frus:frus1969-76v03/d123#d123-f2" uri="body/ch2/d123.xml"/>
+    <uri name="frus:frus1969-76v03/d123#d123-f3" uri="body/ch2/d123.xml"/>
+    <uri name="frus:frus1969-76v03/d123#d123-f4" uri="body/ch2/d123.xml"/>
+    <uri name="frus:frus1969-76v03/pg325" uri="body/ch2/d123.xml"/>
+    <uri name="frus:frus1969-76v03/pg326" uri="body/ch2/d123.xml"/>
+    <uri name="frus:frus1969-76v03/pg327" uri="body/ch2/d123.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d123-a1"
+        uri="body/ch2/d123-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d123-a1" uri="body/ch2/d123-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d123-a1#d123-f1" uri="body/ch2/d123-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d123-a1#d123-f2" uri="body/ch2/d123-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg327" uri="body/ch2/d123-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg328" uri="body/ch2/d123-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d124"
+        uri="body/ch2/d124.xml"/>
+    <uri name="frus:frus1969-76v03/d124" uri="body/ch2/d124.xml"/>
+    <uri name="frus:frus1969-76v03/d124#d124-f1" uri="body/ch2/d124.xml"/>
+    <uri name="frus:frus1969-76v03/d124#d124-f2" uri="body/ch2/d124.xml"/>
+    <uri name="frus:frus1969-76v03/d124#d124-f3" uri="body/ch2/d124.xml"/>
+    <uri name="frus:frus1969-76v03/d124#d124-f4" uri="body/ch2/d124.xml"/>
+    <uri name="frus:frus1969-76v03/d124#d124-f5" uri="body/ch2/d124.xml"/>
+    <uri name="frus:frus1969-76v03/pg329" uri="body/ch2/d124.xml"/>
+    <uri name="frus:frus1969-76v03/pg330" uri="body/ch2/d124.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d125"
+        uri="body/ch2/d125.xml"/>
+    <uri name="frus:frus1969-76v03/d125" uri="body/ch2/d125.xml"/>
+    <uri name="frus:frus1969-76v03/pg331" uri="body/ch2/d125.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d126"
+        uri="body/ch2/d126.xml"/>
+    <uri name="frus:frus1969-76v03/d126" uri="body/ch2/d126.xml"/>
+    <uri name="frus:frus1969-76v03/d126#d126-f1" uri="body/ch2/d126.xml"/>
+    <uri name="frus:frus1969-76v03/d126#d126-f2" uri="body/ch2/d126.xml"/>
+    <uri name="frus:frus1969-76v03/pg332" uri="body/ch2/d126.xml"/>
+    <uri name="frus:frus1969-76v03/pg333" uri="body/ch2/d126.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d127"
+        uri="body/ch2/d127.xml"/>
+    <uri name="frus:frus1969-76v03/d127" uri="body/ch2/d127.xml"/>
+    <uri name="frus:frus1969-76v03/pg334" uri="body/ch2/d127.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d128"
+        uri="body/ch2/d128.xml"/>
+    <uri name="frus:frus1969-76v03/d128" uri="body/ch2/d128.xml"/>
+    <uri name="frus:frus1969-76v03/d128#d128-f1" uri="body/ch2/d128.xml"/>
+    <uri name="frus:frus1969-76v03/d128#d128-f2" uri="body/ch2/d128.xml"/>
+    <uri name="frus:frus1969-76v03/d128#d128-f3" uri="body/ch2/d128.xml"/>
+    <uri name="frus:frus1969-76v03/d128#d128-f4" uri="body/ch2/d128.xml"/>
+    <uri name="frus:frus1969-76v03/pg335" uri="body/ch2/d128.xml"/>
+    <uri name="frus:frus1969-76v03/pg336" uri="body/ch2/d128.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d129"
+        uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/d129" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/d129#d129-f1" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/d129#d129-f2" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/d129#d129-f3" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/d129#d129-f4" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/d129#d129-f5" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/d129#d129-f6" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/d129#d129-f7" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/pg337" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/pg338" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/pg339" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/pg340" uri="body/ch2/d129.xml"/>
+    <uri name="frus:frus1969-76v03/pg341" uri="body/ch2/d129.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d130"
+        uri="body/ch2/d130.xml"/>
+    <uri name="frus:frus1969-76v03/d130" uri="body/ch2/d130.xml"/>
+    <uri name="frus:frus1969-76v03/d130#d130-f1" uri="body/ch2/d130.xml"/>
+    <uri name="frus:frus1969-76v03/d130#d130-f2" uri="body/ch2/d130.xml"/>
+    <uri name="frus:frus1969-76v03/d130#d130-f3" uri="body/ch2/d130.xml"/>
+    <uri name="frus:frus1969-76v03/d130#d130-f4" uri="body/ch2/d130.xml"/>
+    <uri name="frus:frus1969-76v03/pg342" uri="body/ch2/d130.xml"/>
+    <uri name="frus:frus1969-76v03/pg343" uri="body/ch2/d130.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d130-a1"
+        uri="body/ch2/d130-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d130-a1" uri="body/ch2/d130-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d130-a1#d130-f1" uri="body/ch2/d130-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d130-a1#d130-f2" uri="body/ch2/d130-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg344" uri="body/ch2/d130-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d131"
+        uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/d131" uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/d131#d131-f1" uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/d131#d131-f2" uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/d131#d131-f3" uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/d131#d131-f4" uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/pg345" uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/pg346" uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/pg347" uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/pg348" uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/pg349" uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/pg350" uri="body/ch2/d131.xml"/>
+    <uri name="frus:frus1969-76v03/pg351" uri="body/ch2/d131.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d131-a1"
+        uri="body/ch2/d131-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d131-a1" uri="body/ch2/d131-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d131-a1#d131-f1" uri="body/ch2/d131-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d131-a1#d131-f2" uri="body/ch2/d131-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg352" uri="body/ch2/d131-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg353" uri="body/ch2/d131-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d132"
+        uri="body/ch2/d132.xml"/>
+    <uri name="frus:frus1969-76v03/d132" uri="body/ch2/d132.xml"/>
+    <uri name="frus:frus1969-76v03/d132#d132-f1" uri="body/ch2/d132.xml"/>
+    <uri name="frus:frus1969-76v03/d132#d132-f2" uri="body/ch2/d132.xml"/>
+    <uri name="frus:frus1969-76v03/d132#d132-f3" uri="body/ch2/d132.xml"/>
+    <uri name="frus:frus1969-76v03/pg354" uri="body/ch2/d132.xml"/>
+    <uri name="frus:frus1969-76v03/pg355" uri="body/ch2/d132.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d133"
+        uri="body/ch2/d133.xml"/>
+    <uri name="frus:frus1969-76v03/d133" uri="body/ch2/d133.xml"/>
+    <uri name="frus:frus1969-76v03/d133#d133-f1" uri="body/ch2/d133.xml"/>
+    <uri name="frus:frus1969-76v03/d133#d133-f2" uri="body/ch2/d133.xml"/>
+    <uri name="frus:frus1969-76v03/pg356" uri="body/ch2/d133.xml"/>
+    <uri name="frus:frus1969-76v03/pg357" uri="body/ch2/d133.xml"/>
+    <uri name="frus:frus1969-76v03/pg358" uri="body/ch2/d133.xml"/>
+    <uri name="frus:frus1969-76v03/pg359" uri="body/ch2/d133.xml"/>
+    <uri name="frus:frus1969-76v03/pg360" uri="body/ch2/d133.xml"/>
+    <uri name="frus:frus1969-76v03/pg361" uri="body/ch2/d133.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d134"
+        uri="body/ch2/d134.xml"/>
+    <uri name="frus:frus1969-76v03/d134" uri="body/ch2/d134.xml"/>
+    <uri name="frus:frus1969-76v03/d134#d134-f1" uri="body/ch2/d134.xml"/>
+    <uri name="frus:frus1969-76v03/d134#d134-f2" uri="body/ch2/d134.xml"/>
+    <uri name="frus:frus1969-76v03/pg362" uri="body/ch2/d134.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d135"
+        uri="body/ch2/d135.xml"/>
+    <uri name="frus:frus1969-76v03/d135" uri="body/ch2/d135.xml"/>
+    <uri name="frus:frus1969-76v03/d135#d135-f1" uri="body/ch2/d135.xml"/>
+    <uri name="frus:frus1969-76v03/d135#d135-f2" uri="body/ch2/d135.xml"/>
+    <uri name="frus:frus1969-76v03/d135#d135-f3" uri="body/ch2/d135.xml"/>
+    <uri name="frus:frus1969-76v03/pg363" uri="body/ch2/d135.xml"/>
+    <uri name="frus:frus1969-76v03/pg364" uri="body/ch2/d135.xml"/>
+    <uri name="frus:frus1969-76v03/pg365" uri="body/ch2/d135.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d136"
+        uri="body/ch2/d136.xml"/>
+    <uri name="frus:frus1969-76v03/d136" uri="body/ch2/d136.xml"/>
+    <uri name="frus:frus1969-76v03/pg366" uri="body/ch2/d136.xml"/>
+    <uri name="frus:frus1969-76v03/pg367" uri="body/ch2/d136.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d137"
+        uri="body/ch2/d137.xml"/>
+    <uri name="frus:frus1969-76v03/d137" uri="body/ch2/d137.xml"/>
+    <uri name="frus:frus1969-76v03/d137#d137-f1" uri="body/ch2/d137.xml"/>
+    <uri name="frus:frus1969-76v03/d137#d137-f2" uri="body/ch2/d137.xml"/>
+    <uri name="frus:frus1969-76v03/d137#d137-f3" uri="body/ch2/d137.xml"/>
+    <uri name="frus:frus1969-76v03/d137#d137-f4" uri="body/ch2/d137.xml"/>
+    <uri name="frus:frus1969-76v03/pg368" uri="body/ch2/d137.xml"/>
+    <uri name="frus:frus1969-76v03/pg369" uri="body/ch2/d137.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d138"
+        uri="body/ch2/d138.xml"/>
+    <uri name="frus:frus1969-76v03/d138" uri="body/ch2/d138.xml"/>
+    <uri name="frus:frus1969-76v03/d138#d138-f1" uri="body/ch2/d138.xml"/>
+    <uri name="frus:frus1969-76v03/d138#d138-f2" uri="body/ch2/d138.xml"/>
+    <uri name="frus:frus1969-76v03/d138#d138-f3" uri="body/ch2/d138.xml"/>
+    <uri name="frus:frus1969-76v03/pg370" uri="body/ch2/d138.xml"/>
+    <uri name="frus:frus1969-76v03/pg371" uri="body/ch2/d138.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d138-a1"
+        uri="body/ch2/d138-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d138-a1" uri="body/ch2/d138-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg371" uri="body/ch2/d138-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d139"
+        uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/d139" uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/d139#d139-f1" uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/d139#d139-f2" uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/d139#d139-f3" uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/d139#d139-f4" uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/d139#d139-f5" uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/d139#d139-f6" uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/d139#d139-f7" uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/d139#d139-f8" uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/pg372" uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/pg373" uri="body/ch2/d139.xml"/>
+    <uri name="frus:frus1969-76v03/pg374" uri="body/ch2/d139.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d140"
+        uri="body/ch2/d140.xml"/>
+    <uri name="frus:frus1969-76v03/d140" uri="body/ch2/d140.xml"/>
+    <uri name="frus:frus1969-76v03/d140#d140-f1" uri="body/ch2/d140.xml"/>
+    <uri name="frus:frus1969-76v03/d140#d140-f2" uri="body/ch2/d140.xml"/>
+    <uri name="frus:frus1969-76v03/d140#d140-f3" uri="body/ch2/d140.xml"/>
+    <uri name="frus:frus1969-76v03/d140#d140-f4" uri="body/ch2/d140.xml"/>
+    <uri name="frus:frus1969-76v03/d140#d140-f5" uri="body/ch2/d140.xml"/>
+    <uri name="frus:frus1969-76v03/d140#d140-f6" uri="body/ch2/d140.xml"/>
+    <uri name="frus:frus1969-76v03/d140#d140-f7" uri="body/ch2/d140.xml"/>
+    <uri name="frus:frus1969-76v03/pg375" uri="body/ch2/d140.xml"/>
+    <uri name="frus:frus1969-76v03/pg376" uri="body/ch2/d140.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d141"
+        uri="body/ch2/d141.xml"/>
+    <uri name="frus:frus1969-76v03/d141" uri="body/ch2/d141.xml"/>
+    <uri name="frus:frus1969-76v03/d141#d141-f1" uri="body/ch2/d141.xml"/>
+    <uri name="frus:frus1969-76v03/d141#d141-f2" uri="body/ch2/d141.xml"/>
+    <uri name="frus:frus1969-76v03/pg377" uri="body/ch2/d141.xml"/>
+    <uri name="frus:frus1969-76v03/pg378" uri="body/ch2/d141.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d142"
+        uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/d142" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/d142#d142-f1" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/d142#d142-f2" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/d142#d142-f3" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/d142#d142-f4" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/d142#d142-f5" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/d142#d142-f6" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/pg379" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/pg380" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/pg381" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/pg382" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/pg383" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/pg384" uri="body/ch2/d142.xml"/>
+    <uri name="frus:frus1969-76v03/pg385" uri="body/ch2/d142.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d143"
+        uri="body/ch2/d143.xml"/>
+    <uri name="frus:frus1969-76v03/d143" uri="body/ch2/d143.xml"/>
+    <uri name="frus:frus1969-76v03/d143#d143-f1" uri="body/ch2/d143.xml"/>
+    <uri name="frus:frus1969-76v03/d143#d143-f2" uri="body/ch2/d143.xml"/>
+    <uri name="frus:frus1969-76v03/d143#d143-f3" uri="body/ch2/d143.xml"/>
+    <uri name="frus:frus1969-76v03/d143#d143-f4" uri="body/ch2/d143.xml"/>
+    <uri name="frus:frus1969-76v03/pg386" uri="body/ch2/d143.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d144"
+        uri="body/ch2/d144.xml"/>
+    <uri name="frus:frus1969-76v03/d144" uri="body/ch2/d144.xml"/>
+    <uri name="frus:frus1969-76v03/d144#d144-f1" uri="body/ch2/d144.xml"/>
+    <uri name="frus:frus1969-76v03/d144#d144-f2" uri="body/ch2/d144.xml"/>
+    <uri name="frus:frus1969-76v03/d144#d144-f3" uri="body/ch2/d144.xml"/>
+    <uri name="frus:frus1969-76v03/d144#d144-f4" uri="body/ch2/d144.xml"/>
+    <uri name="frus:frus1969-76v03/pg387" uri="body/ch2/d144.xml"/>
+    <uri name="frus:frus1969-76v03/pg388" uri="body/ch2/d144.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d145"
+        uri="body/ch2/d145.xml"/>
+    <uri name="frus:frus1969-76v03/d145" uri="body/ch2/d145.xml"/>
+    <uri name="frus:frus1969-76v03/pg389" uri="body/ch2/d145.xml"/>
+    <uri name="frus:frus1969-76v03/pg390" uri="body/ch2/d145.xml"/>
+    <uri name="frus:frus1969-76v03/pg391" uri="body/ch2/d145.xml"/>
+    <uri name="frus:frus1969-76v03/pg392" uri="body/ch2/d145.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d146"
+        uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/d146" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/d146#d146-f1" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg393" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg394" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg395" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg396" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg397" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg398" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg399" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg400" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg401" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg402" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg403" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg404" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg405" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg406" uri="body/ch2/d146.xml"/>
+    <uri name="frus:frus1969-76v03/pg407" uri="body/ch2/d146.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d147"
+        uri="body/ch2/d147.xml"/>
+    <uri name="frus:frus1969-76v03/d147" uri="body/ch2/d147.xml"/>
+    <uri name="frus:frus1969-76v03/pg408" uri="body/ch2/d147.xml"/>
+    <uri name="frus:frus1969-76v03/pg409" uri="body/ch2/d147.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d148"
+        uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/d148" uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/d148#d148-f1" uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/d148#d148-f2" uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/d148#d148-f3" uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/d148#d148-f4" uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/d148#d148-f5" uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/pg410" uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/pg411" uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/pg412" uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/pg413" uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/pg414" uri="body/ch2/d148.xml"/>
+    <uri name="frus:frus1969-76v03/pg415" uri="body/ch2/d148.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d149"
+        uri="body/ch2/d149.xml"/>
+    <uri name="frus:frus1969-76v03/d149" uri="body/ch2/d149.xml"/>
+    <uri name="frus:frus1969-76v03/d149#d149-f1" uri="body/ch2/d149.xml"/>
+    <uri name="frus:frus1969-76v03/d149#d149-f2" uri="body/ch2/d149.xml"/>
+    <uri name="frus:frus1969-76v03/d149#d149-f3" uri="body/ch2/d149.xml"/>
+    <uri name="frus:frus1969-76v03/pg416" uri="body/ch2/d149.xml"/>
+    <uri name="frus:frus1969-76v03/pg417" uri="body/ch2/d149.xml"/>
+    <uri name="frus:frus1969-76v03/pg418" uri="body/ch2/d149.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d150"
+        uri="body/ch2/d150.xml"/>
+    <uri name="frus:frus1969-76v03/d150" uri="body/ch2/d150.xml"/>
+    <uri name="frus:frus1969-76v03/d150#d150-f1" uri="body/ch2/d150.xml"/>
+    <uri name="frus:frus1969-76v03/d150#d150-f2" uri="body/ch2/d150.xml"/>
+    <uri name="frus:frus1969-76v03/pg419" uri="body/ch2/d150.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d150-a1"
+        uri="body/ch2/d150-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d150-a1" uri="body/ch2/d150-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d150-a1#d150-f1" uri="body/ch2/d150-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d150-a1#d150-f2" uri="body/ch2/d150-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg420" uri="body/ch2/d150-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg421" uri="body/ch2/d150-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d151"
+        uri="body/ch2/d151.xml"/>
+    <uri name="frus:frus1969-76v03/d151" uri="body/ch2/d151.xml"/>
+    <uri name="frus:frus1969-76v03/pg422" uri="body/ch2/d151.xml"/>
+    <uri name="frus:frus1969-76v03/pg423" uri="body/ch2/d151.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d152"
+        uri="body/ch2/d152.xml"/>
+    <uri name="frus:frus1969-76v03/d152" uri="body/ch2/d152.xml"/>
+    <uri name="frus:frus1969-76v03/d152#d152-f1" uri="body/ch2/d152.xml"/>
+    <uri name="frus:frus1969-76v03/d152#d152-f2" uri="body/ch2/d152.xml"/>
+    <uri name="frus:frus1969-76v03/d152#d152-f3" uri="body/ch2/d152.xml"/>
+    <uri name="frus:frus1969-76v03/d152#d152-f4" uri="body/ch2/d152.xml"/>
+    <uri name="frus:frus1969-76v03/d152#d152-f5" uri="body/ch2/d152.xml"/>
+    <uri name="frus:frus1969-76v03/d152#d152-f6" uri="body/ch2/d152.xml"/>
+    <uri name="frus:frus1969-76v03/pg424" uri="body/ch2/d152.xml"/>
+    <uri name="frus:frus1969-76v03/pg425" uri="body/ch2/d152.xml"/>
+    <uri name="frus:frus1969-76v03/pg426" uri="body/ch2/d152.xml"/>
+    <uri name="frus:frus1969-76v03/pg427" uri="body/ch2/d152.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d153"
+        uri="body/ch2/d153.xml"/>
+    <uri name="frus:frus1969-76v03/d153" uri="body/ch2/d153.xml"/>
+    <uri name="frus:frus1969-76v03/d153#d153-f1" uri="body/ch2/d153.xml"/>
+    <uri name="frus:frus1969-76v03/d153#d153-f2" uri="body/ch2/d153.xml"/>
+    <uri name="frus:frus1969-76v03/pg428" uri="body/ch2/d153.xml"/>
+    <uri name="frus:frus1969-76v03/pg429" uri="body/ch2/d153.xml"/>
+    <uri name="frus:frus1969-76v03/pg430" uri="body/ch2/d153.xml"/>
+    <uri name="frus:frus1969-76v03/pg431" uri="body/ch2/d153.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d154"
+        uri="body/ch2/d154.xml"/>
+    <uri name="frus:frus1969-76v03/d154" uri="body/ch2/d154.xml"/>
+    <uri name="frus:frus1969-76v03/d154#d154-f1" uri="body/ch2/d154.xml"/>
+    <uri name="frus:frus1969-76v03/d154#d154-f2" uri="body/ch2/d154.xml"/>
+    <uri name="frus:frus1969-76v03/pg432" uri="body/ch2/d154.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d155"
+        uri="body/ch2/d155.xml"/>
+    <uri name="frus:frus1969-76v03/d155" uri="body/ch2/d155.xml"/>
+    <uri name="frus:frus1969-76v03/pg433" uri="body/ch2/d155.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d156"
+        uri="body/ch2/d156.xml"/>
+    <uri name="frus:frus1969-76v03/d156" uri="body/ch2/d156.xml"/>
+    <uri name="frus:frus1969-76v03/d156#d156-f1" uri="body/ch2/d156.xml"/>
+    <uri name="frus:frus1969-76v03/d156#d156-f2" uri="body/ch2/d156.xml"/>
+    <uri name="frus:frus1969-76v03/d156#d156-f3" uri="body/ch2/d156.xml"/>
+    <uri name="frus:frus1969-76v03/d156#d156-f4" uri="body/ch2/d156.xml"/>
+    <uri name="frus:frus1969-76v03/pg434" uri="body/ch2/d156.xml"/>
+    <uri name="frus:frus1969-76v03/pg435" uri="body/ch2/d156.xml"/>
+    <uri name="frus:frus1969-76v03/pg436" uri="body/ch2/d156.xml"/>
+    <uri name="frus:frus1969-76v03/pg437" uri="body/ch2/d156.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d157"
+        uri="body/ch2/d157.xml"/>
+    <uri name="frus:frus1969-76v03/d157" uri="body/ch2/d157.xml"/>
+    <uri name="frus:frus1969-76v03/d157#d157-f1" uri="body/ch2/d157.xml"/>
+    <uri name="frus:frus1969-76v03/d157#d157-f2" uri="body/ch2/d157.xml"/>
+    <uri name="frus:frus1969-76v03/d157#d157-f3" uri="body/ch2/d157.xml"/>
+    <uri name="frus:frus1969-76v03/d157#d157-f4" uri="body/ch2/d157.xml"/>
+    <uri name="frus:frus1969-76v03/d157#d157-f5" uri="body/ch2/d157.xml"/>
+    <uri name="frus:frus1969-76v03/d157#d157-f6" uri="body/ch2/d157.xml"/>
+    <uri name="frus:frus1969-76v03/pg438" uri="body/ch2/d157.xml"/>
+    <uri name="frus:frus1969-76v03/pg439" uri="body/ch2/d157.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d158"
+        uri="body/ch2/d158.xml"/>
+    <uri name="frus:frus1969-76v03/d158" uri="body/ch2/d158.xml"/>
+    <uri name="frus:frus1969-76v03/d158#d158-f1" uri="body/ch2/d158.xml"/>
+    <uri name="frus:frus1969-76v03/d158#d158-f2" uri="body/ch2/d158.xml"/>
+    <uri name="frus:frus1969-76v03/d158#d158-f3" uri="body/ch2/d158.xml"/>
+    <uri name="frus:frus1969-76v03/d158#d158-f4" uri="body/ch2/d158.xml"/>
+    <uri name="frus:frus1969-76v03/pg440" uri="body/ch2/d158.xml"/>
+    <uri name="frus:frus1969-76v03/pg441" uri="body/ch2/d158.xml"/>
+    <uri name="frus:frus1969-76v03/pg442" uri="body/ch2/d158.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d159"
+        uri="body/ch2/d159.xml"/>
+    <uri name="frus:frus1969-76v03/d159" uri="body/ch2/d159.xml"/>
+    <uri name="frus:frus1969-76v03/d159#d159-f1" uri="body/ch2/d159.xml"/>
+    <uri name="frus:frus1969-76v03/d159#d159-f2" uri="body/ch2/d159.xml"/>
+    <uri name="frus:frus1969-76v03/d159#d159-f3" uri="body/ch2/d159.xml"/>
+    <uri name="frus:frus1969-76v03/d159#d159-f4" uri="body/ch2/d159.xml"/>
+    <uri name="frus:frus1969-76v03/pg443" uri="body/ch2/d159.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d160"
+        uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/d160" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/d160#d160-f1" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/d160#d160-f2" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/d160#d160-f3" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/d160#d160-f4" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/d160#d160-f5" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/d160#d160-f6" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/d160#d160-f7" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/d160#d160-f8" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/d160#d160-f9" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/d160#d160-f10" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/pg444" uri="body/ch2/d160.xml"/>
+    <uri name="frus:frus1969-76v03/pg445" uri="body/ch2/d160.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d161"
+        uri="body/ch2/d161.xml"/>
+    <uri name="frus:frus1969-76v03/d161" uri="body/ch2/d161.xml"/>
+    <uri name="frus:frus1969-76v03/d161#d161-f1" uri="body/ch2/d161.xml"/>
+    <uri name="frus:frus1969-76v03/d161#d161-f2" uri="body/ch2/d161.xml"/>
+    <uri name="frus:frus1969-76v03/d161#d161-f3" uri="body/ch2/d161.xml"/>
+    <uri name="frus:frus1969-76v03/pg446" uri="body/ch2/d161.xml"/>
+    <uri name="frus:frus1969-76v03/pg447" uri="body/ch2/d161.xml"/>
+    <uri name="frus:frus1969-76v03/pg448" uri="body/ch2/d161.xml"/>
+    <uri name="frus:frus1969-76v03/pg449" uri="body/ch2/d161.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d162"
+        uri="body/ch2/d162.xml"/>
+    <uri name="frus:frus1969-76v03/d162" uri="body/ch2/d162.xml"/>
+    <uri name="frus:frus1969-76v03/d162#d162-f1" uri="body/ch2/d162.xml"/>
+    <uri name="frus:frus1969-76v03/d162#d162-f2" uri="body/ch2/d162.xml"/>
+    <uri name="frus:frus1969-76v03/d162#d162-f3" uri="body/ch2/d162.xml"/>
+    <uri name="frus:frus1969-76v03/d162#d162-f4" uri="body/ch2/d162.xml"/>
+    <uri name="frus:frus1969-76v03/pg450" uri="body/ch2/d162.xml"/>
+    <uri name="frus:frus1969-76v03/pg451" uri="body/ch2/d162.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d163"
+        uri="body/ch2/d163.xml"/>
+    <uri name="frus:frus1969-76v03/d163" uri="body/ch2/d163.xml"/>
+    <uri name="frus:frus1969-76v03/d163#d163-f1" uri="body/ch2/d163.xml"/>
+    <uri name="frus:frus1969-76v03/d163#d163-f2" uri="body/ch2/d163.xml"/>
+    <uri name="frus:frus1969-76v03/d163#d163-f3" uri="body/ch2/d163.xml"/>
+    <uri name="frus:frus1969-76v03/pg452" uri="body/ch2/d163.xml"/>
+    <uri name="frus:frus1969-76v03/pg453" uri="body/ch2/d163.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d164"
+        uri="body/ch2/d164.xml"/>
+    <uri name="frus:frus1969-76v03/d164" uri="body/ch2/d164.xml"/>
+    <uri name="frus:frus1969-76v03/pg454" uri="body/ch2/d164.xml"/>
+    <uri name="frus:frus1969-76v03/pg455" uri="body/ch2/d164.xml"/>
+    <uri name="frus:frus1969-76v03/pg456" uri="body/ch2/d164.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d165"
+        uri="body/ch2/d165.xml"/>
+    <uri name="frus:frus1969-76v03/d165" uri="body/ch2/d165.xml"/>
+    <uri name="frus:frus1969-76v03/pg457" uri="body/ch2/d165.xml"/>
+    <uri name="frus:frus1969-76v03/pg458" uri="body/ch2/d165.xml"/>
+    <uri name="frus:frus1969-76v03/pg459" uri="body/ch2/d165.xml"/>
+    <uri name="frus:frus1969-76v03/pg460" uri="body/ch2/d165.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d166"
+        uri="body/ch2/d166.xml"/>
+    <uri name="frus:frus1969-76v03/d166" uri="body/ch2/d166.xml"/>
+    <uri name="frus:frus1969-76v03/d166#d166-f1" uri="body/ch2/d166.xml"/>
+    <uri name="frus:frus1969-76v03/d166#d166-f2" uri="body/ch2/d166.xml"/>
+    <uri name="frus:frus1969-76v03/d166#d166-f3" uri="body/ch2/d166.xml"/>
+    <uri name="frus:frus1969-76v03/d166#d166-f4" uri="body/ch2/d166.xml"/>
+    <uri name="frus:frus1969-76v03/pg461" uri="body/ch2/d166.xml"/>
+    <uri name="frus:frus1969-76v03/pg462" uri="body/ch2/d166.xml"/>
+    <uri name="frus:frus1969-76v03/pg463" uri="body/ch2/d166.xml"/>
+    <uri name="frus:frus1969-76v03/pg464" uri="body/ch2/d166.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d167"
+        uri="body/ch2/d167.xml"/>
+    <uri name="frus:frus1969-76v03/d167" uri="body/ch2/d167.xml"/>
+    <uri name="frus:frus1969-76v03/d167#d167-f1" uri="body/ch2/d167.xml"/>
+    <uri name="frus:frus1969-76v03/pg465" uri="body/ch2/d167.xml"/>
+    <uri name="frus:frus1969-76v03/pg466" uri="body/ch2/d167.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d168"
+        uri="body/ch2/d168.xml"/>
+    <uri name="frus:frus1969-76v03/d168" uri="body/ch2/d168.xml"/>
+    <uri name="frus:frus1969-76v03/pg467" uri="body/ch2/d168.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d169"
+        uri="body/ch2/d169.xml"/>
+    <uri name="frus:frus1969-76v03/d169" uri="body/ch2/d169.xml"/>
+    <uri name="frus:frus1969-76v03/d169#d169-f1" uri="body/ch2/d169.xml"/>
+    <uri name="frus:frus1969-76v03/d169#d169-f2" uri="body/ch2/d169.xml"/>
+    <uri name="frus:frus1969-76v03/pg468" uri="body/ch2/d169.xml"/>
+    <uri name="frus:frus1969-76v03/pg469" uri="body/ch2/d169.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d170"
+        uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/d170" uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/d170#d170-f1" uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/d170#d170-f2" uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/pg470" uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/pg471" uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/pg472" uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/pg473" uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/pg474" uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/pg475" uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/pg476" uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/pg477" uri="body/ch2/d170.xml"/>
+    <uri name="frus:frus1969-76v03/pg478" uri="body/ch2/d170.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d171"
+        uri="body/ch2/d171.xml"/>
+    <uri name="frus:frus1969-76v03/d171" uri="body/ch2/d171.xml"/>
+    <uri name="frus:frus1969-76v03/d171#d171-f1" uri="body/ch2/d171.xml"/>
+    <uri name="frus:frus1969-76v03/d171#d171-f2" uri="body/ch2/d171.xml"/>
+    <uri name="frus:frus1969-76v03/pg479" uri="body/ch2/d171.xml"/>
+    <uri name="frus:frus1969-76v03/pg480" uri="body/ch2/d171.xml"/>
+    <uri name="frus:frus1969-76v03/pg481" uri="body/ch2/d171.xml"/>
+    <uri name="frus:frus1969-76v03/pg482" uri="body/ch2/d171.xml"/>
+    <uri name="frus:frus1969-76v03/pg483" uri="body/ch2/d171.xml"/>
+    <uri name="frus:frus1969-76v03/pg484" uri="body/ch2/d171.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d172"
+        uri="body/ch2/d172.xml"/>
+    <uri name="frus:frus1969-76v03/d172" uri="body/ch2/d172.xml"/>
+    <uri name="frus:frus1969-76v03/pg485" uri="body/ch2/d172.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d173"
+        uri="body/ch2/d173.xml"/>
+    <uri name="frus:frus1969-76v03/d173" uri="body/ch2/d173.xml"/>
+    <uri name="frus:frus1969-76v03/d173#d173-f1" uri="body/ch2/d173.xml"/>
+    <uri name="frus:frus1969-76v03/d173#d173-f2" uri="body/ch2/d173.xml"/>
+    <uri name="frus:frus1969-76v03/d173#d173-f3" uri="body/ch2/d173.xml"/>
+    <uri name="frus:frus1969-76v03/d173#d173-f4" uri="body/ch2/d173.xml"/>
+    <uri name="frus:frus1969-76v03/d173#d173-f5" uri="body/ch2/d173.xml"/>
+    <uri name="frus:frus1969-76v03/d173#d173-f6" uri="body/ch2/d173.xml"/>
+    <uri name="frus:frus1969-76v03/d173#d173-f7" uri="body/ch2/d173.xml"/>
+    <uri name="frus:frus1969-76v03/d173#d173-f8" uri="body/ch2/d173.xml"/>
+    <uri name="frus:frus1969-76v03/pg486" uri="body/ch2/d173.xml"/>
+    <uri name="frus:frus1969-76v03/pg487" uri="body/ch2/d173.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d174"
+        uri="body/ch2/d174.xml"/>
+    <uri name="frus:frus1969-76v03/d174" uri="body/ch2/d174.xml"/>
+    <uri name="frus:frus1969-76v03/d174#d174-f1" uri="body/ch2/d174.xml"/>
+    <uri name="frus:frus1969-76v03/d174#d174-f2" uri="body/ch2/d174.xml"/>
+    <uri name="frus:frus1969-76v03/d174#d174-f3" uri="body/ch2/d174.xml"/>
+    <uri name="frus:frus1969-76v03/d174#d174-f4" uri="body/ch2/d174.xml"/>
+    <uri name="frus:frus1969-76v03/pg488" uri="body/ch2/d174.xml"/>
+    <uri name="frus:frus1969-76v03/pg489" uri="body/ch2/d174.xml"/>
+    <uri name="frus:frus1969-76v03/pg490" uri="body/ch2/d174.xml"/>
+    <uri name="frus:frus1969-76v03/pg491" uri="body/ch2/d174.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d175"
+        uri="body/ch2/d175.xml"/>
+    <uri name="frus:frus1969-76v03/d175" uri="body/ch2/d175.xml"/>
+    <uri name="frus:frus1969-76v03/d175#d175-f1" uri="body/ch2/d175.xml"/>
+    <uri name="frus:frus1969-76v03/d175#d175-f2" uri="body/ch2/d175.xml"/>
+    <uri name="frus:frus1969-76v03/d175#d175-f3" uri="body/ch2/d175.xml"/>
+    <uri name="frus:frus1969-76v03/pg492" uri="body/ch2/d175.xml"/>
+    <uri name="frus:frus1969-76v03/pg493" uri="body/ch2/d175.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d176"
+        uri="body/ch2/d176.xml"/>
+    <uri name="frus:frus1969-76v03/d176" uri="body/ch2/d176.xml"/>
+    <uri name="frus:frus1969-76v03/d176#d176-f1" uri="body/ch2/d176.xml"/>
+    <uri name="frus:frus1969-76v03/d176#d176-f2" uri="body/ch2/d176.xml"/>
+    <uri name="frus:frus1969-76v03/pg494" uri="body/ch2/d176.xml"/>
+    <uri name="frus:frus1969-76v03/pg495" uri="body/ch2/d176.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d177"
+        uri="body/ch2/d177.xml"/>
+    <uri name="frus:frus1969-76v03/d177" uri="body/ch2/d177.xml"/>
+    <uri name="frus:frus1969-76v03/d177#d177-f1" uri="body/ch2/d177.xml"/>
+    <uri name="frus:frus1969-76v03/pg496" uri="body/ch2/d177.xml"/>
+    <uri name="frus:frus1969-76v03/pg497" uri="body/ch2/d177.xml"/>
+    <uri name="frus:frus1969-76v03/pg498" uri="body/ch2/d177.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d178"
+        uri="body/ch2/d178.xml"/>
+    <uri name="frus:frus1969-76v03/d178" uri="body/ch2/d178.xml"/>
+    <uri name="frus:frus1969-76v03/d178#d178-f1" uri="body/ch2/d178.xml"/>
+    <uri name="frus:frus1969-76v03/d178#d178-f2" uri="body/ch2/d178.xml"/>
+    <uri name="frus:frus1969-76v03/d178#d178-f3" uri="body/ch2/d178.xml"/>
+    <uri name="frus:frus1969-76v03/pg499" uri="body/ch2/d178.xml"/>
+    <uri name="frus:frus1969-76v03/pg500" uri="body/ch2/d178.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d179"
+        uri="body/ch2/d179.xml"/>
+    <uri name="frus:frus1969-76v03/d179" uri="body/ch2/d179.xml"/>
+    <uri name="frus:frus1969-76v03/d179#d179-f1" uri="body/ch2/d179.xml"/>
+    <uri name="frus:frus1969-76v03/d179#d179-f2" uri="body/ch2/d179.xml"/>
+    <uri name="frus:frus1969-76v03/d179#d179-f3" uri="body/ch2/d179.xml"/>
+    <uri name="frus:frus1969-76v03/d179#d179-f4" uri="body/ch2/d179.xml"/>
+    <uri name="frus:frus1969-76v03/pg501" uri="body/ch2/d179.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d179-a1"
+        uri="body/ch2/d179-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d179-a1" uri="body/ch2/d179-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d179-a1#d179-f1" uri="body/ch2/d179-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg502" uri="body/ch2/d179-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg503" uri="body/ch2/d179-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg504" uri="body/ch2/d179-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d180"
+        uri="body/ch2/d180.xml"/>
+    <uri name="frus:frus1969-76v03/d180" uri="body/ch2/d180.xml"/>
+    <uri name="frus:frus1969-76v03/d180#d180-f1" uri="body/ch2/d180.xml"/>
+    <uri name="frus:frus1969-76v03/d180#d180-f2" uri="body/ch2/d180.xml"/>
+    <uri name="frus:frus1969-76v03/pg505" uri="body/ch2/d180.xml"/>
+    <uri name="frus:frus1969-76v03/pg506" uri="body/ch2/d180.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d181"
+        uri="body/ch2/d181.xml"/>
+    <uri name="frus:frus1969-76v03/d181" uri="body/ch2/d181.xml"/>
+    <uri name="frus:frus1969-76v03/d181#d181-f1" uri="body/ch2/d181.xml"/>
+    <uri name="frus:frus1969-76v03/d181#d181-f2" uri="body/ch2/d181.xml"/>
+    <uri name="frus:frus1969-76v03/d181#d181-f3" uri="body/ch2/d181.xml"/>
+    <uri name="frus:frus1969-76v03/d181#d181-f4" uri="body/ch2/d181.xml"/>
+    <uri name="frus:frus1969-76v03/d181#d181-f5" uri="body/ch2/d181.xml"/>
+    <uri name="frus:frus1969-76v03/pg507" uri="body/ch2/d181.xml"/>
+    <uri name="frus:frus1969-76v03/pg508" uri="body/ch2/d181.xml"/>
+    <uri name="frus:frus1969-76v03/pg509" uri="body/ch2/d181.xml"/>
+    <uri name="frus:frus1969-76v03/pg510" uri="body/ch2/d181.xml"/>
+    <uri name="frus:frus1969-76v03/pg511" uri="body/ch2/d181.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d182"
+        uri="body/ch2/d182.xml"/>
+    <uri name="frus:frus1969-76v03/d182" uri="body/ch2/d182.xml"/>
+    <uri name="frus:frus1969-76v03/d182#d182-f1" uri="body/ch2/d182.xml"/>
+    <uri name="frus:frus1969-76v03/d182#d182-f2" uri="body/ch2/d182.xml"/>
+    <uri name="frus:frus1969-76v03/d182#d182-f3" uri="body/ch2/d182.xml"/>
+    <uri name="frus:frus1969-76v03/d182#d182-f4" uri="body/ch2/d182.xml"/>
+    <uri name="frus:frus1969-76v03/d182#d182-f5" uri="body/ch2/d182.xml"/>
+    <uri name="frus:frus1969-76v03/d182#d182-f6" uri="body/ch2/d182.xml"/>
+    <uri name="frus:frus1969-76v03/pg512" uri="body/ch2/d182.xml"/>
+    <uri name="frus:frus1969-76v03/pg513" uri="body/ch2/d182.xml"/>
+    <uri name="frus:frus1969-76v03/pg514" uri="body/ch2/d182.xml"/>
+    <uri name="frus:frus1969-76v03/pg515" uri="body/ch2/d182.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d183"
+        uri="body/ch2/d183.xml"/>
+    <uri name="frus:frus1969-76v03/d183" uri="body/ch2/d183.xml"/>
+    <uri name="frus:frus1969-76v03/d183#d183-f1" uri="body/ch2/d183.xml"/>
+    <uri name="frus:frus1969-76v03/d183#d183-f2" uri="body/ch2/d183.xml"/>
+    <uri name="frus:frus1969-76v03/pg516" uri="body/ch2/d183.xml"/>
+    <uri name="frus:frus1969-76v03/pg517" uri="body/ch2/d183.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d184"
+        uri="body/ch2/d184.xml"/>
+    <uri name="frus:frus1969-76v03/d184" uri="body/ch2/d184.xml"/>
+    <uri name="frus:frus1969-76v03/d184#d184-f1" uri="body/ch2/d184.xml"/>
+    <uri name="frus:frus1969-76v03/d184#d184-f2" uri="body/ch2/d184.xml"/>
+    <uri name="frus:frus1969-76v03/d184#d184-f3" uri="body/ch2/d184.xml"/>
+    <uri name="frus:frus1969-76v03/pg518" uri="body/ch2/d184.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d185"
+        uri="body/ch2/d185.xml"/>
+    <uri name="frus:frus1969-76v03/d185" uri="body/ch2/d185.xml"/>
+    <uri name="frus:frus1969-76v03/d185#d185-f1" uri="body/ch2/d185.xml"/>
+    <uri name="frus:frus1969-76v03/d185#d185-f2" uri="body/ch2/d185.xml"/>
+    <uri name="frus:frus1969-76v03/d185#d185-f3" uri="body/ch2/d185.xml"/>
+    <uri name="frus:frus1969-76v03/d185#d185-f4" uri="body/ch2/d185.xml"/>
+    <uri name="frus:frus1969-76v03/d185#d185-f5" uri="body/ch2/d185.xml"/>
+    <uri name="frus:frus1969-76v03/pg519" uri="body/ch2/d185.xml"/>
+    <uri name="frus:frus1969-76v03/pg520" uri="body/ch2/d185.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d186"
+        uri="body/ch2/d186.xml"/>
+    <uri name="frus:frus1969-76v03/d186" uri="body/ch2/d186.xml"/>
+    <uri name="frus:frus1969-76v03/pg521" uri="body/ch2/d186.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d187"
+        uri="body/ch2/d187.xml"/>
+    <uri name="frus:frus1969-76v03/d187" uri="body/ch2/d187.xml"/>
+    <uri name="frus:frus1969-76v03/pg522" uri="body/ch2/d187.xml"/>
+    <uri name="frus:frus1969-76v03/pg523" uri="body/ch2/d187.xml"/>
+    <uri name="frus:frus1969-76v03/pg524" uri="body/ch2/d187.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d188"
+        uri="body/ch2/d188.xml"/>
+    <uri name="frus:frus1969-76v03/d188" uri="body/ch2/d188.xml"/>
+    <uri name="frus:frus1969-76v03/d188#d188-f1" uri="body/ch2/d188.xml"/>
+    <uri name="frus:frus1969-76v03/d188#d188-f2" uri="body/ch2/d188.xml"/>
+    <uri name="frus:frus1969-76v03/d188#d188-f3" uri="body/ch2/d188.xml"/>
+    <uri name="frus:frus1969-76v03/d188#d188-f4" uri="body/ch2/d188.xml"/>
+    <uri name="frus:frus1969-76v03/d188#d188-f5" uri="body/ch2/d188.xml"/>
+    <uri name="frus:frus1969-76v03/d188#d188-f6" uri="body/ch2/d188.xml"/>
+    <uri name="frus:frus1969-76v03/pg525" uri="body/ch2/d188.xml"/>
+    <uri name="frus:frus1969-76v03/pg526" uri="body/ch2/d188.xml"/>
+    <uri name="frus:frus1969-76v03/pg527" uri="body/ch2/d188.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d189"
+        uri="body/ch2/d189.xml"/>
+    <uri name="frus:frus1969-76v03/d189" uri="body/ch2/d189.xml"/>
+    <uri name="frus:frus1969-76v03/d189#d189-f1" uri="body/ch2/d189.xml"/>
+    <uri name="frus:frus1969-76v03/d189#d189-f2" uri="body/ch2/d189.xml"/>
+    <uri name="frus:frus1969-76v03/d189#d189-f3" uri="body/ch2/d189.xml"/>
+    <uri name="frus:frus1969-76v03/pg528" uri="body/ch2/d189.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d190"
+        uri="body/ch2/d190.xml"/>
+    <uri name="frus:frus1969-76v03/d190" uri="body/ch2/d190.xml"/>
+    <uri name="frus:frus1969-76v03/d190#d190-f1" uri="body/ch2/d190.xml"/>
+    <uri name="frus:frus1969-76v03/d190#d190-f2" uri="body/ch2/d190.xml"/>
+    <uri name="frus:frus1969-76v03/d190#d190-f3" uri="body/ch2/d190.xml"/>
+    <uri name="frus:frus1969-76v03/d190#d190-f4" uri="body/ch2/d190.xml"/>
+    <uri name="frus:frus1969-76v03/d190#d190-f5" uri="body/ch2/d190.xml"/>
+    <uri name="frus:frus1969-76v03/d190#d190-f6" uri="body/ch2/d190.xml"/>
+    <uri name="frus:frus1969-76v03/pg529" uri="body/ch2/d190.xml"/>
+    <uri name="frus:frus1969-76v03/pg530" uri="body/ch2/d190.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d191"
+        uri="body/ch2/d191.xml"/>
+    <uri name="frus:frus1969-76v03/d191" uri="body/ch2/d191.xml"/>
+    <uri name="frus:frus1969-76v03/pg531" uri="body/ch2/d191.xml"/>
+    <uri name="frus:frus1969-76v03/pg532" uri="body/ch2/d191.xml"/>
+    <uri name="frus:frus1969-76v03/pg533" uri="body/ch2/d191.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d192"
+        uri="body/ch2/d192.xml"/>
+    <uri name="frus:frus1969-76v03/d192" uri="body/ch2/d192.xml"/>
+    <uri name="frus:frus1969-76v03/d192#d192-f1" uri="body/ch2/d192.xml"/>
+    <uri name="frus:frus1969-76v03/pg534" uri="body/ch2/d192.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d192-a1"
+        uri="body/ch2/d192-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d192-a1" uri="body/ch2/d192-a1.xml"/>
+    <uri name="frus:frus1969-76v03/d192-a1#d192-f1" uri="body/ch2/d192-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg534" uri="body/ch2/d192-a1.xml"/>
+    <uri name="frus:frus1969-76v03/pg535" uri="body/ch2/d192-a1.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d193"
+        uri="body/ch2/d193.xml"/>
+    <uri name="frus:frus1969-76v03/d193" uri="body/ch2/d193.xml"/>
+    <uri name="frus:frus1969-76v03/d193#d193-f1" uri="body/ch2/d193.xml"/>
+    <uri name="frus:frus1969-76v03/d193#d193-f2" uri="body/ch2/d193.xml"/>
+    <uri name="frus:frus1969-76v03/d193#d193-f3" uri="body/ch2/d193.xml"/>
+    <uri name="frus:frus1969-76v03/d193#d193-f4" uri="body/ch2/d193.xml"/>
+    <uri name="frus:frus1969-76v03/d193#d193-f5" uri="body/ch2/d193.xml"/>
+    <uri name="frus:frus1969-76v03/pg536" uri="body/ch2/d193.xml"/>
+    <uri name="frus:frus1969-76v03/pg537" uri="body/ch2/d193.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d194"
+        uri="body/ch2/d194.xml"/>
+    <uri name="frus:frus1969-76v03/d194" uri="body/ch2/d194.xml"/>
+    <uri name="frus:frus1969-76v03/d194#d194-f1" uri="body/ch2/d194.xml"/>
+    <uri name="frus:frus1969-76v03/d194#d194-f2" uri="body/ch2/d194.xml"/>
+    <uri name="frus:frus1969-76v03/d194#d194-f3" uri="body/ch2/d194.xml"/>
+    <uri name="frus:frus1969-76v03/pg538" uri="body/ch2/d194.xml"/>
+    <uri name="frus:frus1969-76v03/pg539" uri="body/ch2/d194.xml"/>
+    <uri name="frus:frus1969-76v03/pg540" uri="body/ch2/d194.xml"/>
+    <uri name="frus:frus1969-76v03/pg541" uri="body/ch2/d194.xml"/>
+    <uri name="frus:frus1969-76v03/pg542" uri="body/ch2/d194.xml"/>
+    <uri name="frus:frus1969-76v03/pg543" uri="body/ch2/d194.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d195"
+        uri="body/ch2/d195.xml"/>
+    <uri name="frus:frus1969-76v03/d195" uri="body/ch2/d195.xml"/>
+    <uri name="frus:frus1969-76v03/d195#d195-f1" uri="body/ch2/d195.xml"/>
+    <uri name="frus:frus1969-76v03/d195#d195-f2" uri="body/ch2/d195.xml"/>
+    <uri name="frus:frus1969-76v03/d195#d195-f3" uri="body/ch2/d195.xml"/>
+    <uri name="frus:frus1969-76v03/d195#d195-f4" uri="body/ch2/d195.xml"/>
+    <uri name="frus:frus1969-76v03/d195#d195-f5" uri="body/ch2/d195.xml"/>
+    <uri name="frus:frus1969-76v03/d195#d195-f6" uri="body/ch2/d195.xml"/>
+    <uri name="frus:frus1969-76v03/d195#d195-f7" uri="body/ch2/d195.xml"/>
+    <uri name="frus:frus1969-76v03/pg544" uri="body/ch2/d195.xml"/>
+    <uri name="frus:frus1969-76v03/pg545" uri="body/ch2/d195.xml"/>
+    <uri name="frus:frus1969-76v03/pg546" uri="body/ch2/d195.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d196"
+        uri="body/ch2/d196.xml"/>
+    <uri name="frus:frus1969-76v03/d196" uri="body/ch2/d196.xml"/>
+    <uri name="frus:frus1969-76v03/d196#d196-f1" uri="body/ch2/d196.xml"/>
+    <uri name="frus:frus1969-76v03/pg547" uri="body/ch2/d196.xml"/>
+    <uri name="frus:frus1969-76v03/pg548" uri="body/ch2/d196.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d197"
+        uri="body/ch2/d197.xml"/>
+    <uri name="frus:frus1969-76v03/d197" uri="body/ch2/d197.xml"/>
+    <uri name="frus:frus1969-76v03/d197#d197-f1" uri="body/ch2/d197.xml"/>
+    <uri name="frus:frus1969-76v03/d197#d197-f2" uri="body/ch2/d197.xml"/>
+    <uri name="frus:frus1969-76v03/pg549" uri="body/ch2/d197.xml"/>
+    <uri name="frus:frus1969-76v03/pg550" uri="body/ch2/d197.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d198"
+        uri="body/ch2/d198.xml"/>
+    <uri name="frus:frus1969-76v03/d198" uri="body/ch2/d198.xml"/>
+    <uri name="frus:frus1969-76v03/d198#d198-f1" uri="body/ch2/d198.xml"/>
+    <uri name="frus:frus1969-76v03/pg551" uri="body/ch2/d198.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d199"
+        uri="body/ch2/d199.xml"/>
+    <uri name="frus:frus1969-76v03/d199" uri="body/ch2/d199.xml"/>
+    <uri name="frus:frus1969-76v03/d199#d199-f1" uri="body/ch2/d199.xml"/>
+    <uri name="frus:frus1969-76v03/pg552" uri="body/ch2/d199.xml"/>
+    <uri name="frus:frus1969-76v03/pg553" uri="body/ch2/d199.xml"/>
+    <uri name="frus:frus1969-76v03/pg554" uri="body/ch2/d199.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d200"
+        uri="body/ch2/d200.xml"/>
+    <uri name="frus:frus1969-76v03/d200" uri="body/ch2/d200.xml"/>
+    <uri name="frus:frus1969-76v03/pg555" uri="body/ch2/d200.xml"/>
+    <uri name="frus:frus1969-76v03/pg556" uri="body/ch2/d200.xml"/>
+    <uri name="frus:frus1969-76v03/pg557" uri="body/ch2/d200.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d201"
+        uri="body/ch2/d201.xml"/>
+    <uri name="frus:frus1969-76v03/d201" uri="body/ch2/d201.xml"/>
+    <uri name="frus:frus1969-76v03/d201#d201-f1" uri="body/ch2/d201.xml"/>
+    <uri name="frus:frus1969-76v03/d201#d201-f2" uri="body/ch2/d201.xml"/>
+    <uri name="frus:frus1969-76v03/d201#d201-f3" uri="body/ch2/d201.xml"/>
+    <uri name="frus:frus1969-76v03/pg558" uri="body/ch2/d201.xml"/>
+    <uri name="frus:frus1969-76v03/pg559" uri="body/ch2/d201.xml"/>
+    <uri name="frus:frus1969-76v03/pg560" uri="body/ch2/d201.xml"/>
+    <uri name="frus:frus1969-76v03/pg561" uri="body/ch2/d201.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d202"
+        uri="body/ch2/d202.xml"/>
+    <uri name="frus:frus1969-76v03/d202" uri="body/ch2/d202.xml"/>
+    <uri name="frus:frus1969-76v03/d202#d202-f1" uri="body/ch2/d202.xml"/>
+    <uri name="frus:frus1969-76v03/d202#d202-f2" uri="body/ch2/d202.xml"/>
+    <uri name="frus:frus1969-76v03/pg562" uri="body/ch2/d202.xml"/>
+    <uri name="frus:frus1969-76v03/pg563" uri="body/ch2/d202.xml"/>
+    <uri name="frus:frus1969-76v03/pg564" uri="body/ch2/d202.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d203"
+        uri="body/ch2/d203.xml"/>
+    <uri name="frus:frus1969-76v03/d203" uri="body/ch2/d203.xml"/>
+    <uri name="frus:frus1969-76v03/pg565" uri="body/ch2/d203.xml"/>
+    <uri name="frus:frus1969-76v03/pg566" uri="body/ch2/d203.xml"/>
+    <uri name="frus:frus1969-76v03/pg567" uri="body/ch2/d203.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d204"
+        uri="body/ch2/d204.xml"/>
+    <uri name="frus:frus1969-76v03/d204" uri="body/ch2/d204.xml"/>
+    <uri name="frus:frus1969-76v03/d204#d204-f1" uri="body/ch2/d204.xml"/>
+    <uri name="frus:frus1969-76v03/d204#d204-f2" uri="body/ch2/d204.xml"/>
+    <uri name="frus:frus1969-76v03/pg568" uri="body/ch2/d204.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d205"
+        uri="body/ch2/d205.xml"/>
+    <uri name="frus:frus1969-76v03/d205" uri="body/ch2/d205.xml"/>
+    <uri name="frus:frus1969-76v03/d205#d205-f1" uri="body/ch2/d205.xml"/>
+    <uri name="frus:frus1969-76v03/pg569" uri="body/ch2/d205.xml"/>
+    <uri name="frus:frus1969-76v03/pg570" uri="body/ch2/d205.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d206"
+        uri="body/ch2/d206.xml"/>
+    <uri name="frus:frus1969-76v03/d206" uri="body/ch2/d206.xml"/>
+    <uri name="frus:frus1969-76v03/d206#d206-f1" uri="body/ch2/d206.xml"/>
+    <uri name="frus:frus1969-76v03/d206#d206-f2" uri="body/ch2/d206.xml"/>
+    <uri name="frus:frus1969-76v03/pg571" uri="body/ch2/d206.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d207"
+        uri="body/ch2/d207.xml"/>
+    <uri name="frus:frus1969-76v03/d207" uri="body/ch2/d207.xml"/>
+    <uri name="frus:frus1969-76v03/d207#d207-f1" uri="body/ch2/d207.xml"/>
+    <uri name="frus:frus1969-76v03/pg572" uri="body/ch2/d207.xml"/>
+    <uri name="frus:frus1969-76v03/pg573" uri="body/ch2/d207.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d208"
+        uri="body/ch2/d208.xml"/>
+    <uri name="frus:frus1969-76v03/d208" uri="body/ch2/d208.xml"/>
+    <uri name="frus:frus1969-76v03/d208#d208-f1" uri="body/ch2/d208.xml"/>
+    <uri name="frus:frus1969-76v03/d208#d208-f2" uri="body/ch2/d208.xml"/>
+    <uri name="frus:frus1969-76v03/pg574" uri="body/ch2/d208.xml"/>
+    <uri name="frus:frus1969-76v03/pg575" uri="body/ch2/d208.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d209"
+        uri="body/ch2/d209.xml"/>
+    <uri name="frus:frus1969-76v03/d209" uri="body/ch2/d209.xml"/>
+    <uri name="frus:frus1969-76v03/d209#d209-f1" uri="body/ch2/d209.xml"/>
+    <uri name="frus:frus1969-76v03/d209#d209-f2" uri="body/ch2/d209.xml"/>
+    <uri name="frus:frus1969-76v03/d209#d209-f3" uri="body/ch2/d209.xml"/>
+    <uri name="frus:frus1969-76v03/pg576" uri="body/ch2/d209.xml"/>
+    <uri name="frus:frus1969-76v03/pg577" uri="body/ch2/d209.xml"/>
+    <uri name="frus:frus1969-76v03/pg578" uri="body/ch2/d209.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d210"
+        uri="body/ch2/d210.xml"/>
+    <uri name="frus:frus1969-76v03/d210" uri="body/ch2/d210.xml"/>
+    <uri name="frus:frus1969-76v03/pg579" uri="body/ch2/d210.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d211"
+        uri="body/ch2/d211.xml"/>
+    <uri name="frus:frus1969-76v03/d211" uri="body/ch2/d211.xml"/>
+    <uri name="frus:frus1969-76v03/d211#d211-f1" uri="body/ch2/d211.xml"/>
+    <uri name="frus:frus1969-76v03/d211#d211-f2" uri="body/ch2/d211.xml"/>
+    <uri name="frus:frus1969-76v03/d211#d211-f3" uri="body/ch2/d211.xml"/>
+    <uri name="frus:frus1969-76v03/pg580" uri="body/ch2/d211.xml"/>
+    <uri name="frus:frus1969-76v03/pg581" uri="body/ch2/d211.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d212"
+        uri="body/ch2/d212.xml"/>
+    <uri name="frus:frus1969-76v03/d212" uri="body/ch2/d212.xml"/>
+    <uri name="frus:frus1969-76v03/pg582" uri="body/ch2/d212.xml"/>
+    <uri name="frus:frus1969-76v03/pg583" uri="body/ch2/d212.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d213"
+        uri="body/ch2/d213.xml"/>
+    <uri name="frus:frus1969-76v03/d213" uri="body/ch2/d213.xml"/>
+    <uri name="frus:frus1969-76v03/d213#d213-f1" uri="body/ch2/d213.xml"/>
+    <uri name="frus:frus1969-76v03/d213#d213-f2" uri="body/ch2/d213.xml"/>
+    <uri name="frus:frus1969-76v03/d213#d213-f3" uri="body/ch2/d213.xml"/>
+    <uri name="frus:frus1969-76v03/d213#d213-f4" uri="body/ch2/d213.xml"/>
+    <uri name="frus:frus1969-76v03/pg584" uri="body/ch2/d213.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d214"
+        uri="body/ch2/d214.xml"/>
+    <uri name="frus:frus1969-76v03/d214" uri="body/ch2/d214.xml"/>
+    <uri name="frus:frus1969-76v03/d214#d214-f1" uri="body/ch2/d214.xml"/>
+    <uri name="frus:frus1969-76v03/d214#d214-f2" uri="body/ch2/d214.xml"/>
+    <uri name="frus:frus1969-76v03/d214#d214-f3" uri="body/ch2/d214.xml"/>
+    <uri name="frus:frus1969-76v03/pg585" uri="body/ch2/d214.xml"/>
+    <uri name="frus:frus1969-76v03/pg586" uri="body/ch2/d214.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d215"
+        uri="body/ch2/d215.xml"/>
+    <uri name="frus:frus1969-76v03/d215" uri="body/ch2/d215.xml"/>
+    <uri name="frus:frus1969-76v03/d215#d215-f1" uri="body/ch2/d215.xml"/>
+    <uri name="frus:frus1969-76v03/d215#d215-f2" uri="body/ch2/d215.xml"/>
+    <uri name="frus:frus1969-76v03/d215#d215-f3" uri="body/ch2/d215.xml"/>
+    <uri name="frus:frus1969-76v03/pg587" uri="body/ch2/d215.xml"/>
+    <uri name="frus:frus1969-76v03/pg588" uri="body/ch2/d215.xml"/>
+    <uri name="frus:frus1969-76v03/pg589" uri="body/ch2/d215.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d216"
+        uri="body/ch2/d216.xml"/>
+    <uri name="frus:frus1969-76v03/d216" uri="body/ch2/d216.xml"/>
+    <uri name="frus:frus1969-76v03/d216#d216-f1" uri="body/ch2/d216.xml"/>
+    <uri name="frus:frus1969-76v03/d216#d216-f2" uri="body/ch2/d216.xml"/>
+    <uri name="frus:frus1969-76v03/d216#d216-f3" uri="body/ch2/d216.xml"/>
+    <uri name="frus:frus1969-76v03/pg590" uri="body/ch2/d216.xml"/>
+    <uri name="frus:frus1969-76v03/pg591" uri="body/ch2/d216.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d217"
+        uri="body/ch2/d217.xml"/>
+    <uri name="frus:frus1969-76v03/d217" uri="body/ch2/d217.xml"/>
+    <uri name="frus:frus1969-76v03/d217#d217-f1" uri="body/ch2/d217.xml"/>
+    <uri name="frus:frus1969-76v03/d217#d217-f2" uri="body/ch2/d217.xml"/>
+    <uri name="frus:frus1969-76v03/d217#d217-f3" uri="body/ch2/d217.xml"/>
+    <uri name="frus:frus1969-76v03/pg592" uri="body/ch2/d217.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d218"
+        uri="body/ch2/d218.xml"/>
+    <uri name="frus:frus1969-76v03/d218" uri="body/ch2/d218.xml"/>
+    <uri name="frus:frus1969-76v03/d218#d218-f1" uri="body/ch2/d218.xml"/>
+    <uri name="frus:frus1969-76v03/pg593" uri="body/ch2/d218.xml"/>
+    <uri name="frus:frus1969-76v03/pg594" uri="body/ch2/d218.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d219"
+        uri="body/ch2/d219.xml"/>
+    <uri name="frus:frus1969-76v03/d219" uri="body/ch2/d219.xml"/>
+    <uri name="frus:frus1969-76v03/pg595" uri="body/ch2/d219.xml"/>
+    <uri name="frus:frus1969-76v03/pg596" uri="body/ch2/d219.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d220"
+        uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/d220" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/d220#d220-f1" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/d220#d220-f2" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/d220#d220-f3" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/d220#d220-f4" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/d220#d220-f5" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/d220#d220-f6" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/d220#d220-f7" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/d220#d220-f8" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/d220#d220-f9" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/d220#d220-f10" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/pg597" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/pg598" uri="body/ch2/d220.xml"/>
+    <uri name="frus:frus1969-76v03/pg599" uri="body/ch2/d220.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d221"
+        uri="body/ch2/d221.xml"/>
+    <uri name="frus:frus1969-76v03/d221" uri="body/ch2/d221.xml"/>
+    <uri name="frus:frus1969-76v03/pg600" uri="body/ch2/d221.xml"/>
+    <uri name="frus:frus1969-76v03/pg601" uri="body/ch2/d221.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d222"
+        uri="body/ch2/d222.xml"/>
+    <uri name="frus:frus1969-76v03/d222" uri="body/ch2/d222.xml"/>
+    <uri name="frus:frus1969-76v03/d222#d222-f1" uri="body/ch2/d222.xml"/>
+    <uri name="frus:frus1969-76v03/d222#d222-f2" uri="body/ch2/d222.xml"/>
+    <uri name="frus:frus1969-76v03/d222#d222-f3" uri="body/ch2/d222.xml"/>
+    <uri name="frus:frus1969-76v03/d222#d222-f4" uri="body/ch2/d222.xml"/>
+    <uri name="frus:frus1969-76v03/pg602" uri="body/ch2/d222.xml"/>
+    <uri name="frus:frus1969-76v03/pg603" uri="body/ch2/d222.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d223"
+        uri="body/ch2/d223.xml"/>
+    <uri name="frus:frus1969-76v03/d223" uri="body/ch2/d223.xml"/>
+    <uri name="frus:frus1969-76v03/d223#d223-f1" uri="body/ch2/d223.xml"/>
+    <uri name="frus:frus1969-76v03/d223#d223-f2" uri="body/ch2/d223.xml"/>
+    <uri name="frus:frus1969-76v03/d223#d223-f3" uri="body/ch2/d223.xml"/>
+    <uri name="frus:frus1969-76v03/d223#d223-f4" uri="body/ch2/d223.xml"/>
+    <uri name="frus:frus1969-76v03/d223#d223-f5" uri="body/ch2/d223.xml"/>
+    <uri name="frus:frus1969-76v03/d223#d223-f6" uri="body/ch2/d223.xml"/>
+    <uri name="frus:frus1969-76v03/pg604" uri="body/ch2/d223.xml"/>
+    <uri name="frus:frus1969-76v03/pg605" uri="body/ch2/d223.xml"/>
+    <uri name="frus:frus1969-76v03/pg606" uri="body/ch2/d223.xml"/>
+    <uri name="frus:frus1969-76v03/pg607" uri="body/ch2/d223.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d224"
+        uri="body/ch2/d224.xml"/>
+    <uri name="frus:frus1969-76v03/d224" uri="body/ch2/d224.xml"/>
+    <uri name="frus:frus1969-76v03/d224#d224-f1" uri="body/ch2/d224.xml"/>
+    <uri name="frus:frus1969-76v03/d224#d224-f2" uri="body/ch2/d224.xml"/>
+    <uri name="frus:frus1969-76v03/d224#d224-f3" uri="body/ch2/d224.xml"/>
+    <uri name="frus:frus1969-76v03/d224#d224-f4" uri="body/ch2/d224.xml"/>
+    <uri name="frus:frus1969-76v03/d224#d224-f5" uri="body/ch2/d224.xml"/>
+    <uri name="frus:frus1969-76v03/pg608" uri="body/ch2/d224.xml"/>
+    <uri name="frus:frus1969-76v03/pg609" uri="body/ch2/d224.xml"/>
+    <uri name="frus:frus1969-76v03/pg610" uri="body/ch2/d224.xml"/>
+    <uri name="frus:frus1969-76v03/pg611" uri="body/ch2/d224.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d225"
+        uri="body/ch2/d225.xml"/>
+    <uri name="frus:frus1969-76v03/d225" uri="body/ch2/d225.xml"/>
+    <uri name="frus:frus1969-76v03/pg612" uri="body/ch2/d225.xml"/>
+    <uri name="frus:frus1969-76v03/pg613" uri="body/ch2/d225.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d226"
+        uri="body/ch2/d226.xml"/>
+    <uri name="frus:frus1969-76v03/d226" uri="body/ch2/d226.xml"/>
+    <uri name="frus:frus1969-76v03/pg614" uri="body/ch2/d226.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d227"
+        uri="body/ch2/d227.xml"/>
+    <uri name="frus:frus1969-76v03/d227" uri="body/ch2/d227.xml"/>
+    <uri name="frus:frus1969-76v03/d227#d227-f1" uri="body/ch2/d227.xml"/>
+    <uri name="frus:frus1969-76v03/d227#d227-f2" uri="body/ch2/d227.xml"/>
+    <uri name="frus:frus1969-76v03/d227#d227-f3" uri="body/ch2/d227.xml"/>
+    <uri name="frus:frus1969-76v03/d227#d227-f4" uri="body/ch2/d227.xml"/>
+    <uri name="frus:frus1969-76v03/d227#d227-f5" uri="body/ch2/d227.xml"/>
+    <uri name="frus:frus1969-76v03/pg615" uri="body/ch2/d227.xml"/>
+    <uri name="frus:frus1969-76v03/pg616" uri="body/ch2/d227.xml"/>
+    <uri name="frus:frus1969-76v03/pg617" uri="body/ch2/d227.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d228"
+        uri="body/ch2/d228.xml"/>
+    <uri name="frus:frus1969-76v03/d228" uri="body/ch2/d228.xml"/>
+    <uri name="frus:frus1969-76v03/d228#d228-f1" uri="body/ch2/d228.xml"/>
+    <uri name="frus:frus1969-76v03/pg618" uri="body/ch2/d228.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d229"
+        uri="body/ch2/d229.xml"/>
+    <uri name="frus:frus1969-76v03/d229" uri="body/ch2/d229.xml"/>
+    <uri name="frus:frus1969-76v03/d229#d229-f1" uri="body/ch2/d229.xml"/>
+    <uri name="frus:frus1969-76v03/d229#d229-f2" uri="body/ch2/d229.xml"/>
+    <uri name="frus:frus1969-76v03/pg619" uri="body/ch2/d229.xml"/>
+    <uri name="frus:frus1969-76v03/pg620" uri="body/ch2/d229.xml"/>
+    <uri name="frus:frus1969-76v03/pg621" uri="body/ch2/d229.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d230"
+        uri="body/ch2/d230.xml"/>
+    <uri name="frus:frus1969-76v03/d230" uri="body/ch2/d230.xml"/>
+    <uri name="frus:frus1969-76v03/d230#d230-f1" uri="body/ch2/d230.xml"/>
+    <uri name="frus:frus1969-76v03/d230#d230-f2" uri="body/ch2/d230.xml"/>
+    <uri name="frus:frus1969-76v03/pg622" uri="body/ch2/d230.xml"/>
+    <uri name="frus:frus1969-76v03/pg623" uri="body/ch2/d230.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d231"
+        uri="body/ch2/d231.xml"/>
+    <uri name="frus:frus1969-76v03/d231" uri="body/ch2/d231.xml"/>
+    <uri name="frus:frus1969-76v03/d231#d231-f1" uri="body/ch2/d231.xml"/>
+    <uri name="frus:frus1969-76v03/pg624" uri="body/ch2/d231.xml"/>
+    <uri name="frus:frus1969-76v03/pg625" uri="body/ch2/d231.xml"/>
+    <uri name="frus:frus1969-76v03/pg626" uri="body/ch2/d231.xml"/>
+    <uri name="frus:frus1969-76v03/pg627" uri="body/ch2/d231.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d232"
+        uri="body/ch2/d232.xml"/>
+    <uri name="frus:frus1969-76v03/d232" uri="body/ch2/d232.xml"/>
+    <uri name="frus:frus1969-76v03/d232#d232-f1" uri="body/ch2/d232.xml"/>
+    <uri name="frus:frus1969-76v03/d232#d232-f2" uri="body/ch2/d232.xml"/>
+    <uri name="frus:frus1969-76v03/d232#d232-f3" uri="body/ch2/d232.xml"/>
+    <uri name="frus:frus1969-76v03/d232#d232-f4" uri="body/ch2/d232.xml"/>
+    <uri name="frus:frus1969-76v03/pg628" uri="body/ch2/d232.xml"/>
+    <uri name="frus:frus1969-76v03/pg629" uri="body/ch2/d232.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d233"
+        uri="body/ch2/d233.xml"/>
+    <uri name="frus:frus1969-76v03/d233" uri="body/ch2/d233.xml"/>
+    <uri name="frus:frus1969-76v03/d233#d233-f1" uri="body/ch2/d233.xml"/>
+    <uri name="frus:frus1969-76v03/d233#d233-f2" uri="body/ch2/d233.xml"/>
+    <uri name="frus:frus1969-76v03/pg630" uri="body/ch2/d233.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d234"
+        uri="body/ch2/d234.xml"/>
+    <uri name="frus:frus1969-76v03/d234" uri="body/ch2/d234.xml"/>
+    <uri name="frus:frus1969-76v03/d234#d234-f1" uri="body/ch2/d234.xml"/>
+    <uri name="frus:frus1969-76v03/d234#d234-f2" uri="body/ch2/d234.xml"/>
+    <uri name="frus:frus1969-76v03/d234#d234-f3" uri="body/ch2/d234.xml"/>
+    <uri name="frus:frus1969-76v03/d234#d234-f4" uri="body/ch2/d234.xml"/>
+    <uri name="frus:frus1969-76v03/pg631" uri="body/ch2/d234.xml"/>
+    <uri name="frus:frus1969-76v03/pg632" uri="body/ch2/d234.xml"/>
+    <uri name="frus:frus1969-76v03/pg633" uri="body/ch2/d234.xml"/>
+    <uri name="frus:frus1969-76v03/pg634" uri="body/ch2/d234.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d235"
+        uri="body/ch2/d235.xml"/>
+    <uri name="frus:frus1969-76v03/d235" uri="body/ch2/d235.xml"/>
+    <uri name="frus:frus1969-76v03/d235#d235-f1" uri="body/ch2/d235.xml"/>
+    <uri name="frus:frus1969-76v03/d235#d235-f2" uri="body/ch2/d235.xml"/>
+    <uri name="frus:frus1969-76v03/pg635" uri="body/ch2/d235.xml"/>
+    <uri name="frus:frus1969-76v03/pg636" uri="body/ch2/d235.xml"/>
+    <uri name="frus:frus1969-76v03/pg637" uri="body/ch2/d235.xml"/>
+    <uri name="frus:frus1969-76v03/pg638" uri="body/ch2/d235.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d236"
+        uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/d236" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/d236#d236-f1" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/d236#d236-f2" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/d236#d236-f3" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/d236#d236-f4" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/d236#d236-f5" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/d236#d236-f6" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/d236#d236-f7" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/d236#d236-f8" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/d236#d236-f9" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/pg639" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/pg640" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/pg641" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/pg642" uri="body/ch2/d236.xml"/>
+    <uri name="frus:frus1969-76v03/pg643" uri="body/ch2/d236.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d237"
+        uri="body/ch2/d237.xml"/>
+    <uri name="frus:frus1969-76v03/d237" uri="body/ch2/d237.xml"/>
+    <uri name="frus:frus1969-76v03/pg644" uri="body/ch2/d237.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d238"
+        uri="body/ch2/d238.xml"/>
+    <uri name="frus:frus1969-76v03/d238" uri="body/ch2/d238.xml"/>
+    <uri name="frus:frus1969-76v03/d238#d238-f1" uri="body/ch2/d238.xml"/>
+    <uri name="frus:frus1969-76v03/d238#d238-f2" uri="body/ch2/d238.xml"/>
+    <uri name="frus:frus1969-76v03/pg645" uri="body/ch2/d238.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d239"
+        uri="body/ch2/d239.xml"/>
+    <uri name="frus:frus1969-76v03/d239" uri="body/ch2/d239.xml"/>
+    <uri name="frus:frus1969-76v03/d239#d239-f1" uri="body/ch2/d239.xml"/>
+    <uri name="frus:frus1969-76v03/pg646" uri="body/ch2/d239.xml"/>
+    <uri name="frus:frus1969-76v03/pg647" uri="body/ch2/d239.xml"/>
+    <uri name="frus:frus1969-76v03/pg648" uri="body/ch2/d239.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d240"
+        uri="body/ch2/d240.xml"/>
+    <uri name="frus:frus1969-76v03/d240" uri="body/ch2/d240.xml"/>
+    <uri name="frus:frus1969-76v03/d240#d240-f1" uri="body/ch2/d240.xml"/>
+    <uri name="frus:frus1969-76v03/d240#d240-f2" uri="body/ch2/d240.xml"/>
+    <uri name="frus:frus1969-76v03/pg649" uri="body/ch2/d240.xml"/>
+    <uri name="frus:frus1969-76v03/pg650" uri="body/ch2/d240.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d241"
+        uri="body/ch2/d241.xml"/>
+    <uri name="frus:frus1969-76v03/d241" uri="body/ch2/d241.xml"/>
+    <uri name="frus:frus1969-76v03/d241#d241-f1" uri="body/ch2/d241.xml"/>
+    <uri name="frus:frus1969-76v03/d241#d241-f2" uri="body/ch2/d241.xml"/>
+    <uri name="frus:frus1969-76v03/d241#d241-f3" uri="body/ch2/d241.xml"/>
+    <uri name="frus:frus1969-76v03/d241#d241-f4" uri="body/ch2/d241.xml"/>
+    <uri name="frus:frus1969-76v03/pg651" uri="body/ch2/d241.xml"/>
+    <uri name="frus:frus1969-76v03/pg652" uri="body/ch2/d241.xml"/>
+    <uri name="frus:frus1969-76v03/pg653" uri="body/ch2/d241.xml"/>
+    <uri name="frus:frus1969-76v03/pg654" uri="body/ch2/d241.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d242"
+        uri="body/ch2/d242.xml"/>
+    <uri name="frus:frus1969-76v03/d242" uri="body/ch2/d242.xml"/>
+    <uri name="frus:frus1969-76v03/pg655" uri="body/ch2/d242.xml"/>
+    <uri name="frus:frus1969-76v03/pg656" uri="body/ch2/d242.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d243"
+        uri="body/ch2/d243.xml"/>
+    <uri name="frus:frus1969-76v03/d243" uri="body/ch2/d243.xml"/>
+    <uri name="frus:frus1969-76v03/d243#d243-f1" uri="body/ch2/d243.xml"/>
+    <uri name="frus:frus1969-76v03/d243#d243-f2" uri="body/ch2/d243.xml"/>
+    <uri name="frus:frus1969-76v03/d243#d243-f3" uri="body/ch2/d243.xml"/>
+    <uri name="frus:frus1969-76v03/d243#d243-f4" uri="body/ch2/d243.xml"/>
+    <uri name="frus:frus1969-76v03/pg657" uri="body/ch2/d243.xml"/>
+    <uri name="frus:frus1969-76v03/pg658" uri="body/ch2/d243.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/d244"
+        uri="body/ch2/d244.xml"/>
+    <uri name="frus:frus1969-76v03/d244" uri="body/ch2/d244.xml"/>
+    <uri name="https://history.state.gov/historicaldocuments/frus1969-76v03/index"
+        uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/index" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg659" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg660" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg661" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg662" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg663" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg664" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg665" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg666" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg667" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg668" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg669" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg670" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg671" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg672" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg673" uri="back/index.xml"/>
+    <uri name="frus:frus1969-76v03/pg674" uri="back/index.xml"/>
+</catalog>

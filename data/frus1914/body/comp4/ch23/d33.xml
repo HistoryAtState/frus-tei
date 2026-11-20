@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d33" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d33"
+                    type="canonical"/>
+                <relatedItem target="d32.xml" type="prev"/>
+                <relatedItem target="d34.xml" type="next"/>
+                <relatedItem target="../ch23.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d33</bibl>
+                <bibl type="frus-division-n">33</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="25" to="26" unit="page"
+                        >25–26</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1914-08-02T23:59:59-05:00" notBefore="1914-08-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d33">
+
+                <pb facs="0141" n="25" sameAs="frus:frus1914/pg25"/>
+
+                <note rend="inline" type="source">File No. 863.0011/17.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <p>Great and Good Friend: Bowed down and with deeply afflicted heart, I inform you
+                    that my dearly beloved nephew, His Serene, Imperial and Royal Highness, Archduke
+                    Franz Ferdinand of Austria-Este, in the midst of the earnest performance of his
+                    duty, together with his nobleminded wife, Her Highness the Duchess of Hohenberg,
+                    who in the hour of danger remained faithfully by his side, on June 28 of this
+                    year at Sarajevo, fell as victims of a horrible crime.</p>
+                <p>With the friendly interest that you take in all the happenings concerning me and
+                    my House, I cherish the assured hope that you will also take a sympathetic
+                    interest in the above information and thereby lessen in some measure my grief
+                    over this loss, which has touched me so severely.</p>
+                <pb facs="0142" n="26" xml:id="pg26"/>
+                <p>I take advantage of this sorrowful occasion for the renewed assurance of my
+                    highest esteem.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Franz Joseph</hi></signed>. <lb/>
+                    <dateline rendition="#float-left">
+                        <placeName>
+                            <hi rendition="#small-caps">Vienna</hi>
+                        </placeName>, <date calendar="gregorian" when="1914-08-02"><hi
+                                rendition="#italic">August 2, 1914</hi></date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

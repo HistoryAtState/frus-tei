@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d425" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Editorial Note</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d425"
+                    type="canonical"/>
+                <relatedItem target="../ch8subsubch52.xml" type="prev"/>
+                <relatedItem target="../ch8subsubch53.xml" type="next"/>
+                <relatedItem target="../ch8subsubch52.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d425</bibl>
+                <bibl type="frus-division-n">425</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">editorial-note</bibl>
+                <bibl type="frus-print-pages"><biblScope from="965" to="966" unit="page"
+                        >965–66</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1943-09-16T23:59:59-05:00" notBefore="1943-02-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_PM1">PM</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d425">
+
+                <pb facs="1079" n="965" sameAs="frus:frus1943/pg965"/>
+
+                <head>
+                    <hi rendition="#italic">Editorial Note</hi>
+                </head>
+                <p>The list of persons present is taken from the Log, <hi rendition="#italic"
+                        >ante</hi>, <ref target="#pg846">p. 846</ref>, except for Mary Churchill,
+                    whose presence is noted in an informal <pb facs="1080" n="966" xml:id="pg966"/>
+                    memorandum by Harriman, which also contains the following information concerning
+                    the discussion at dinner: <quote rend="blockquote">
+                        <p>“The President came into the room first after some of us already had
+                            arrived, saying ‘We are both mad.’ He referred to the Prime Minister’s
+                            and his annoyance over the most recent cable from ‘Uncle Jo’.<anchor
+                                n="1" xml:id="d425-f1"/> His anger took the form of making him gayer
+                            than usual both before and after dinner. The ‘PM’, however, arrived with
+                            a scowl and never really got out of his ill humor all evening—up to
+                            three A.M. when I left.<anchor n="2" xml:id="d425-f2"/>
+                        </p>
+                        <p>“I asked the President if he recalled the sentence in a cable that went
+                            to Jo from the ‘PM’ in which he said ‘I am entirely unmoved by your
+                                statement.’<anchor n="3" xml:id="d425-f3"/> I said the Prime
+                            Minister had shown me this cable and asked for comments. My only comment
+                            had been asking him whether this sentence was entirely accurate. The
+                            President roared with laughter and much to my embarrassment proceeded to
+                            tell the story to the ‘PM’ when he came in. Needless to say it not only
+                            fell flat but bounced in my direction. With a scowl he said
+                            ‘impudence’.” (Harriman Papers)</p>
+                    </quote>
+                </p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d425-f1" n="1" xml:id="d425-f1-content">
+                <p>
+                    <hi rendition="#italic">Post</hi>, <ref target="#pg1086">p. 1086</ref>.</p>
+            </note>
+            <note corresp="#d425-f2" n="2" xml:id="d425-f2-content">
+                <p>According to the Log, <hi rendition="#italic">ante</hi>, <ref target="#pg846">p.
+                        846</ref>, Roosevelt and his party had left Quebec for Ottawa at 11 p.m.,
+                    August 24, 1943 and Churchill had accompanied him to the train.</p>
+            </note>
+            <note corresp="#d425-f3" n="3" xml:id="d425-f3-content">
+                <p>The reference is to a message from Churchill to Stalin dated June 27, 1943. See
+                        <hi rendition="#italic">Stalin’s Correspondence</hi>, vol. <hi
+                        rendition="#small-caps">i</hi>, p. 140.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

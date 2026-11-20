@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d211" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum From Lay to Holders of NSC 5912</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d211"
+                    type="canonical"/>
+                <relatedItem target="d210.xml" type="prev"/>
+                <relatedItem target="d211-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d211</bibl>
+                <bibl type="frus-division-n">211</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1959-10-30">October 30, 1959</date>
+                    <date notAfter="1959-10-30T23:59:59-05:00" notBefore="1959-10-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_LJS_1">Lay, James S., Jr.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_RG_1">RG</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_SS_1">S/S</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d211">
+
+                <pb facs="d210-7" n="7" sameAs="frus:frus1958-60v03mSupp/d210-7"/>
+
+                <head>211. Memorandum From Lay to Holders of NSC 5912<anchor n="1" xml:id="d211-f1"
+                    /></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1959-10-30">October 30,
+                        1959</date></dateline>
+                </opener>
+                <pb facs="d211-1" n="1" type="facsimile" xml:id="d211-1"/>
+                <p>The enclosed Part 1 (The Military Program) is transmitted herewith for insertion
+                    in NSC 5912.</p>
+                <p><hi rendition="#italic">Part 1 has been given a special limited distribution, and
+                        access to it should be on a strict need-to-know basis.</hi></p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">James S. Lay, Jr.</hi>
+                        <lb/>
+                        <hi rendition="#italic">Executive Secretary</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d211-a1.xml" xpointer="d211-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d211-f1" n="1" type="source" xml:id="d211-f1-content">
+                <p>Source: Transmits Part 1 of NSC 5912, Defense Department report on “Status of
+                    United States Military Programs as of 30 June 1959.” Top Secret; Restricted
+                    Data. Extracts—12 pp. NARA, RG 59, S/S–RD Files: Lot 71 D 171, NSC 5912.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

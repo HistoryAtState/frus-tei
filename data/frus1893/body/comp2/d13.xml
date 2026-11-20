@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1893_d13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Markell to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../frus1893_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1893_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1893/d13"
+                    type="canonical"/>
+                <relatedItem target="d12-a3.xml" type="prev"/>
+                <relatedItem target="d13-a1.xml" type="next"/>
+                <relatedItem target="../comp2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1893</bibl>
+                <bibl type="frus-division-id">d13</bibl>
+                <bibl type="frus-division-n">13</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="29" to="30" unit="page"
+                        >29–30</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Petropolis</hi></placeName>
+                    <date calendar="gregorian" when="1893-03-13"><hi rendition="#italic">March 13,
+                            1893</hi></date>
+                    <date notAfter="1893-03-13T23:59:59-05:00" notBefore="1893-03-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d13">
+
+                <pb facs="0137" n="29" sameAs="frus:frus1893/pg29"/>
+
+                <head><hi rendition="#italic">Mr. Markell to Mr. Gresham.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Petropolis</hi></placeName>, <date calendar="gregorian"
+                            when="1893-03-13"><hi rendition="#italic">March 13, 1893</hi></date>.
+                        (Received April 27.)</dateline>
+                    <seg rendition="#float-left">No. 408.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Touching the subject-matter of my dispatch
+                    No. 390 of February 10 last, I have, in addition thereto, the honor to report
+                    that as advised by the Government of Brazil, copy and translation of said <pb
+                        facs="0138" n="30" xml:id="pg30"/> advice herewith inclosed, the State of
+                    Bahia is willing to reimburse the export merchants for the erroneous taxes paid
+                    upon skins, as soon as the amounts of said payments are properly ascertained and
+                    presented.</p>
+                <p>The same claims against Pernambuco will shortly be presented by the Federal
+                    Government to the legislative assembly of that State now in session.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">C. F. Markell</hi>,<lb/><hi
+                            rendition="#italic">Chargé d’Affaires ad interim.</hi></signed></closer>
+
+
+                <xi:include href="d13-a1.xml" xpointer="d13-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

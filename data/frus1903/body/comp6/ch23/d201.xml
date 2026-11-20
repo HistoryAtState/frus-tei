@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d201" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Beaupré to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d201"
+                    type="canonical"/>
+                <relatedItem target="d200.xml" type="prev"/>
+                <relatedItem target="d202.xml" type="next"/>
+                <relatedItem target="../ch23.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d201</bibl>
+                <bibl type="frus-division-n">201</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="213" to="214" unit="page"
+                        >213–14</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Bogotá</hi></placeName>
+                    <date calendar="gregorian" when="1903-10-19"><hi rendition="#italic">October 19,
+                            1903</hi></date>
+                    <date notAfter="1903-10-19T23:59:59-05:00" notBefore="1903-10-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d201">
+
+                <pb facs="0297" n="213" sameAs="frus:frus1903/pg213"/>
+
+                <head><hi rendition="#italic">Mr. Beaupré to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Bogotá</hi></placeName>, <date calendar="gregorian"
+                            when="1903-10-19"><hi rendition="#italic">October 19,
+                        1903</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 183.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inform you that during
+                    the evening of the fateful 12th of August last, on which day the Hay-Herran
+                    treaty was rejected by the Colombian senate, I sent the Department three
+                    telegrams concerning the matter. Two of these reached the Department with an
+                    interval of about a week between them, but the third, the one of most timely
+                    import of all, was never received, or at least has <pb facs="0298" n="214"
+                        xml:id="pg214"/> not been acknowledged. This telegram was sent at 10 o’clock
+                    p.m. of that day and was confirmed in my No. 104 of that date.</p>
+                <p>I beg that the Department will accept the cipher dates of my telegrams as in all
+                    cases correct. The open date given by the telegraph office is made to suit its
+                    convenience.</p>
+                <p>I am, sir, your obedient servant,</p>
+                <closer><signed><hi rendition="#small-caps">A. M. Beaupré.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

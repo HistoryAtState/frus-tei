@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d949" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Day.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d949"
+                    type="canonical"/>
+                <relatedItem target="../ch107.xml" type="prev"/>
+                <relatedItem target="../ch108.xml" type="next"/>
+                <relatedItem target="../ch107.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d949</bibl>
+                <bibl type="frus-division-n">949</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1002" to="1002" unit="page"
+                        >1002</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1898-08-05"><hi rendition="#italic">August 5,
+                            1898</hi></date>
+                    <date notAfter="1898-08-05T23:59:59-05:00" notBefore="1898-08-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d949">
+
+                <pb facs="1098" n="1002" sameAs="frus:frus1898/pg1002"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Hay to Mr. Day.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1898-08-05"
+                                ><hi rendition="#italic">August 5, 1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 483.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit my check for
+                    $1,100, being the amount of the contributions of a few Americans and friends of
+                    American residents in this country to the funds of the Red Cross Society of
+                    America, for the relief of the sick and wounded of the present war. I beg you
+                    will have the kindness to give this check the proper destination.</p>
+                <p>I am, etc.,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">John Hay.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d859" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d859"
+                    type="canonical"/>
+                <relatedItem target="d858.xml" type="prev"/>
+                <relatedItem target="d860.xml" type="next"/>
+                <relatedItem target="../ch91.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d859</bibl>
+                <bibl type="frus-division-n">859</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="580" to="580" unit="page"
+                        >580</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Saltillo</hi></placeName>
+                    <date calendar="gregorian" when="1914-08-03T12:00:00-06:41">
+                        <hi rendition="#italic">August 3, 1914, noon</hi></date>
+                    <date notAfter="1914-08-03T13:41:00-05:00" notBefore="1914-08-03T13:41:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d859">
+
+                <pb facs="0696" n="580" sameAs="frus:frus1914/pg580"/>
+
+                <note rend="inline" type="source">File No. 812.00/12727.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Saltillo</hi></placeName>, <date
+                            calendar="gregorian" when="1914-08-03T12:00:00-06:41">
+                            <hi rendition="#italic">August 3, 1914, noon</hi></date>.</dateline>
+                </opener>
+                <p>At the preliminary meeting yesterday the [Carbajal] envoys manifested surprise
+                    that they were expected to make an unconditional surrender.<anchor n="57"
+                        xml:id="d859-f1"/> When advised that nothing else had ever been contemplated
+                    they requested permission to consult their Government by telegraph, which was
+                    granted. Pending reply no further meeting is announced and no suspension of
+                    military operations has been ordered.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Silliman</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d859-f1" n="57" xml:id="d859-f1-content">
+                <p>See inclosure with Mr. Silliman’s last despatch of July 31.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

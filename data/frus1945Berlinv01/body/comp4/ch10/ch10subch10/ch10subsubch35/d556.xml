@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d556" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 556</title>
+                <title type="subtitle">The Chief of the Division of Southern European Affairs
+                    (Huston) to Mr. Walworth Barbour, of the Division of Southern European
+                    Affairs</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d556"
+                    type="canonical"/>
+                <relatedItem target="d555.xml" type="prev"/>
+                <relatedItem target="d556-a1.xml" type="next"/>
+                <relatedItem target="../ch10subsubch35.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d556</bibl>
+                <bibl type="frus-division-n">556</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="831" to="839" unit="page"
+                        >831–39</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-11">July 11, 1945</date>
+                    <date notAfter="1945-07-11T23:59:59-05:00" notBefore="1945-07-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_BW1">Barbour, Walworth</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_FI1">Frangeš, Ivan</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_HCK1">Huston, Cloyce K.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d556">
+
+                <pb facs="0965" n="831" xml:id="pg831"/>
+
+                <note rend="inline" type="source">860b.00/7–1145</note>
+                <head>No. 556<lb/><hi rendition="#italic">The Chief of the Division of Southern
+                        European Affairs</hi> (<hi rendition="#italic">Huston</hi>) <hi
+                        rendition="#italic">to Mr. Walworth Barbour, of the Division of Southern
+                        European Affairs</hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Extract]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-07-11">July 11, 1945</date>.</dateline>
+                </opener>
+                <p> Frangeš called yesterday and brought up the following:</p>
+                <p>1. A memorandum which he said CWC<anchor n="1" xml:id="d556-f1"/> had asked for.
+                    I have sent a copy to CWC.</p>
+                <p rendition="#center">. . . . . . .</p>
+                <closer>
+                    <signed> C[<hi rendition="#small-caps">loyce</hi>] K H[<hi
+                            rendition="#small-caps">uston</hi>] </signed>
+                </closer>
+
+
+                <xi:include href="d556-a1.xml" xpointer="d556-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d556-f1" n="1" xml:id="d556-f1-content">
+                <p>Cavendish W. Cannon, a member of the United States Delegation at the Berlin
+                    Conference.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

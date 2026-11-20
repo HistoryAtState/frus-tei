@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d865" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Moore to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d865"
+                    type="canonical"/>
+                <relatedItem target="d864.xml" type="prev"/>
+                <relatedItem target="../ch92.xml" type="next"/>
+                <relatedItem target="../ch91.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d865</bibl>
+                <bibl type="frus-division-n">865</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="966" to="966" unit="page"
+                        >966</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Paris</hi></placeName>
+                    <date calendar="gregorian" when="1898-12-16"><hi rendition="#italic">December
+                            16, 1898</hi></date>
+                    <date notAfter="1898-12-16T23:59:59-05:00" notBefore="1898-12-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d865">
+
+                <pb facs="1062" n="966" xml:id="pg966"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Moore to Mr. Hay.</hi>
+                </head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Paris</hi></placeName>, <date calendar="gregorian"
+                            when="1898-12-16"><hi rendition="#italic">December 16,
+                        1898</hi></date>.</dateline></opener>
+                <p>Peace Commission sails by the <hi rendition="#italic">St. Louis</hi> from
+                    Southampton Saturday and desires, on arrival at New York, to go immediately by
+                    the Pennsylvania road, by special train if necessary, to Washington. The
+                    Commission hopes to present the treaty to the President December 24.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Moore.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

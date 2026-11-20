@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1878_comp4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Belgium.</title>
+            </titleStmt>
+            <xi:include href="../frus1878_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1878_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1878/comp4"
+                    type="canonical"/>
+                <relatedItem target="comp3/d48.xml" type="prev"/>
+                <relatedItem target="comp4/d49.xml" type="next"/>
+                <relatedItem target="../frus1878.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1878</bibl>
+                <bibl type="frus-division-id">comp4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="54" to="60" unit="page"
+                        >54–60</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1878-07-12T23:59:59-05:00" notBefore="1878-04-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp4">
+
+                <pb facs="0116" n="54" sameAs="frus:frus1878/pg54"/>
+
+                <head>Belgium.</head>
+
+
+
+
+
+
+
+
+                <xi:include href="comp4/d49.xml" xpointer="d49"/>
+                <xi:include href="comp4/d50.xml" xpointer="d50"/>
+                <xi:include href="comp4/d51.xml" xpointer="d51"/>
+                <xi:include href="comp4/d52.xml" xpointer="d52"/>
+                <xi:include href="comp4/d53.xml" xpointer="d53"/>
+                <xi:include href="comp4/d54.xml" xpointer="d54"/>
+                <xi:include href="comp4/d55.xml" xpointer="d55"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918_d60" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Brazil (Morgan) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1918_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1918_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1918/d60"
+                    type="canonical"/>
+                <relatedItem target="d59.xml" type="prev"/>
+                <relatedItem target="d60-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918</bibl>
+                <bibl type="frus-division-id">d60</bibl>
+                <bibl type="frus-division-n">60</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="49" to="50" unit="page"
+                        >49–50</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Rio de Janeiro</hi></placeName>
+                    <date calendar="gregorian" when="1917-08-16">
+                        <hi rendition="#italic">August 16, 1917</hi></date>
+                    <date notAfter="1917-08-16T23:59:59-05:00" notBefore="1917-08-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d60">
+
+                <pb facs="0161" n="49" sameAs="frus:frus1918/pg49"/>
+
+                <note rend="inline" type="source">File No. 832.73/115</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Brazil</hi> (<hi rendition="#italic"
+                        >Morgan</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Extract]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">No. 998</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Rio de Janeiro</hi></placeName>, <date
+                            calendar="gregorian" when="1917-08-16">
+                            <hi rendition="#italic">August 16, 1917</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: In amplification of the Embassy’s telegram
+                    of August 13 last, reporting that the President of Brazil and the Minister of
+                    Public Works had signed the concession which gave to the Central &amp; South
+                    American Telegraph Co., “without monopoly of whatsoever nature and without
+                    subsidy from the (Brazilian) Government,” the right to lay submarine cables—one
+                    between Rio de Janeiro and Buenos Aires, and another between Santos and Buenos
+                    Aires, I have the honor to enclose herewith a translation of the presidential
+                    decree relating thereto which was signed on the 11th<anchor n="1"
+                        xml:id="d60-f1"/> and announced on the 13th instant, and which will soon be
+                    published in the <hi rendition="#italic">Official Gazette</hi>. The full text of
+                    the concession will be forwarded to the Department when it is made public.</p>
+                <p>The establishment of all-American cable communication between the United States
+                    and Brazil, even though messages must pass through Argentine and Chilean
+                    territory, will be an event of considerable international importance, both
+                    because it will break the British monopoly which has been exercised for many
+                    years by the Western Telegraph Co., and because it is the beginning of that free
+                    telegraphic interchange between Brazil and the United States which it is hoped
+                    will be extended and developed in the future.</p>
+                <p>The Department’s telegram of August 3, announcing that Mr. Nelson O’Shaughnessy
+                    was about to visit South America as the representative of the Western Union
+                    Telegraph Co., indicates that the latter company is interested in this phase of
+                    the matter and contemplates laying a submarine cable between Brazil and the
+                    United States under the Atlantic Ocean. Since the Central &amp; South American
+                    Telegraph Co. has secured its concession, the Embassy is in a position to give
+                    the same assistance to the Western Union Co. that it has given to the Central
+                    &amp; South American. The moment for Mr. O’Shaughnessy’s visit appears opportune
+                    and I shall be glad if the Department will communicate that fact to Mr. Newcomb
+                    Carlton, the president of the Western Union Telegraph Co. …</p>
+                <p>I enclose a memorandum containing a <hi rendition="#italic">résumé</hi> of the
+                    negotiations between the United States and the Brazilian Governments in behalf
+                    of the Central &amp; South American Telegraph Co., as well as an
+                        editorial<anchor n="2" xml:id="d60-f2"/> from the <hi rendition="#italic"
+                        >Correio da Manhã</hi> of this city, of August 14, 1917, advocating a direct
+                    Atlantic submarine cable between the United States and Brazil, via Porto
+                    Rico.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Edwin V. Morgan</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d60-a1.xml" xpointer="d60-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d60-f1" n="1" xml:id="d60-f1-content">
+                <p>
+                    <hi rendition="#italic">Post</hi>, <ref target="#pg52">p. 52</ref>.</p>
+            </note>
+            <note corresp="#d60-f2" n="2" xml:id="d60-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

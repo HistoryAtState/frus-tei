@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76ve04_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1969-76ve04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1969-76ve04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76ve04/errata"
+                    type="canonical"/>
+                <relatedItem target="../body/comp1/ch6/d330.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1969-76ve04.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76ve04</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1972-12-16T18:07:00-05:00" notBefore="1969-01-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="d330-15" n="15" sameAs="frus:frus1969-76ve04/d330-15"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to <ref target="frus:frus1969-76ve04">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1969–1976, Volume E–4</ref>,
+                    Documents on Iran and Iraq, 1969–1972. <!--Revised information is in italic.-->
+                </p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#d163">Document 163</ref> (date of
+                            correction: February 5, 2019)</hi>
+                    </item>
+                    <item>After publication, it was discovered that the text for Document 163 was a
+                        duplication of the text for Document 164. Editors added the correct text and
+                        page images for Document 163.</item>
+                    <item>
+                        <hi rendition="#bold">2. <ref target="#d188">Document 188</ref> (date of
+                            correction: February 19, 2019)</hi>
+                    </item>
+                    <item>After publication, it was discovered that the text for the second page of
+                        the telegram at Document 188 was missing. Editors added the correct text and
+                        page images for Document 188.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

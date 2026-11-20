@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1866p3_d20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Romero to Mr. Seward</title>
+            </titleStmt>
+            <xi:include href="../../../frus1866p3_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1866p3_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1866p3/d20"
+                    type="canonical"/>
+                <relatedItem target="../ch2.xml" type="prev"/>
+                <relatedItem target="d20-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1866p3</bibl>
+                <bibl type="frus-division-id">d20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="15" to="17" unit="page"
+                        >15–17</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington,</hi></placeName>
+                    <date calendar="gregorian" when="1865-12-07"><hi rendition="#italic"
+                            >December</hi> 7, 1865.</date>
+                    <date notAfter="1865-12-07T23:59:59-05:00" notBefore="1865-12-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20">
+
+                <pb facs="0073" n="15" sameAs="frus:frus1866p3/pg15"/>
+
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <head>Mr. Romero to Mr. Seward</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Washington,</hi></placeName>
+                        <date calendar="gregorian" when="1865-12-07"><hi rendition="#italic"
+                                >December</hi> 7, 1865.</date></dateline></opener>
+                <p><hi rendition="#small-caps">My Dear Sir:</hi> I have the honor of transmitting to
+                    you an extract from the Messager Franco-American, of the 4th instant, a French
+                    paper published in New York, which contains a letter from its correspondent in
+                    the city of Mexico, dated 17th November last, giving a summary of the situation.
+                    The circumstance that this correspondent views the occurrences in my country
+                    from a French point of view, and that even thus it appears that the situation is
+                    untenable, induces me to send you the letter and call your especial attention to
+                    it. I will send an English translation of it in a few days for the use of your
+                    department.</p>
+                <p>I am, sir, very respectfully, your very obedient servant,</p>
+                <closer>
+                    <signed>M. ROMERO.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William</hi> H. <hi rendition="#small-caps"
+                            >Seward, &amp;c., &amp;c., &amp;c</hi>.</p>
+                </postscript>
+
+
+                <xi:include href="d20-a1.xml" xpointer="d20-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54Guat_d26" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum for the Record</title>
+            </titleStmt>
+            <xi:include href="../../frus1952-54Guat_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1952-54Guat_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54Guat/d26"
+                    type="canonical"/>
+                <relatedItem target="d25.xml" type="prev"/>
+                <relatedItem target="d27.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54Guat</bibl>
+                <bibl type="frus-division-id">d26</bibl>
+                <bibl type="frus-division-n">26</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="38" to="38" unit="page"
+                        >38</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1952-10-10T23:59:59-05:00" notBefore="1952-10-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54Guat/persons">
+                    <term ref="frus:frus1952-54Guat/persons#p_KCJC1">King, Colonel J.C.</term>
+                    <term ref="frus:frus1952-54Guat/persons#p_MEGJ1">Miller, Edward G., Jr.</term>
+                    <term ref="frus:frus1952-54Guat/persons#p_SGA1">Somoza García, Anastasio</term>
+                </keywords>
+                <keywords scheme="frus:frus1952-54Guat/terms">
+                    <term ref="frus:frus1952-54Guat/terms#t_CWH1">C/WH</term>
+                    <term ref="frus:frus1952-54Guat/terms#t_RUFUS1">RUFUS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d26">
+
+                <pb facs="0068" n="38" xml:id="pg38"/>
+
+                <head>26. Memorandum for the Record<anchor n="1" xml:id="d26-f1"/></head>
+                <dateline><placeName>Washington</placeName>, <date calendar="gregorian"
+                        when="1952-10-10">October 10, 1952</date>.</dateline>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Central American Situation</item>
+                </list>
+                <p>1. The following message is to be delivered by KARL to RUFUS:</p>
+                <p>Because of the indiscretions of Somoza, the approach made by his son to a member
+                    of the State Department<anchor n="2" xml:id="d26-f2"/> in Panama, and the visit
+                    of his Ambassador and the Dominican Ambassador to the State Department, the
+                    United States Government was alerted to the shipment of hardware that was being
+                    arranged and has consequently taken steps to prevent the export of this
+                    material. We know that many Government officials in positions of importance are
+                    sympathetic with your movement, but Government policy is based on international
+                    agreements which force the Government to take this action. Our group is now
+                    considering the next step.</p>
+                <closer><signed><hi rendition="#bold">J.C. King</hi><anchor n="3" xml:id="d26-f3"
+                        /></signed><lb/><hi rendition="#italic">CWH</hi></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d26-f1" n="1" type="source" xml:id="d26-f1-content">
+                <p>Source: Central Intelligence Agency, Job 79–01025A, Box 69, Folder 2. Secret;
+                    Eyes Only.</p>
+            </note>
+            <note corresp="#d26-f2" n="2" xml:id="d26-f2-content">
+                <p>Assistant Secretary of State for Inter-American Affairs Edward G. Miller.</p>
+            </note>
+            <note corresp="#d26-f3" n="3" xml:id="d26-f3-content">
+                <p>Printed from a copy that bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

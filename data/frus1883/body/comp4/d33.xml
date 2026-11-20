@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1883_d33" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 33.</title>
+                <title type="subtitle">Mr. Logan to Mr. Frelinghuysen.</title>
+            </titleStmt>
+            <xi:include href="../../frus1883_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1883_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1883/d33"
+                    type="canonical"/>
+                <relatedItem target="d32.xml" type="prev"/>
+                <relatedItem target="d33-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1883</bibl>
+                <bibl type="frus-division-id">d33</bibl>
+                <bibl type="frus-division-n">33</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="77" to="79" unit="page"
+                        >77–79</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Santiago</hi></placeName>
+                    <date calendar="gregorian" when="1882-10-26"><hi rendition="#italic"
+                            >October</hi> 26, 1882</date>
+                    <date notAfter="1882-10-26T23:59:59-05:00" notBefore="1882-10-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d33">
+
+                <pb facs="0147" n="77" sameAs="frus:frus1883/pg77"/>
+
+                <head>No. 33.<lb/><hi rendition="#italic">Mr. Logan to Mr.
+                    Frelinghuysen</hi>.</head>
+                <opener><seg rendition="#center">[Extract.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Santiago</hi></placeName>, <date calendar="gregorian"
+                            when="1882-10-26"><hi rendition="#italic">October</hi> 26, 1882</date>.
+                        (Received December 6.)</dateline>
+                    <seg rendition="#float-left">No. 15.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Under cover of this dispatch I inclose the
+                    copy of a note addressed by myself to the minister of foreign affairs, covering
+                    in a brief and compact form the history of the recent peace negotiations with
+                    Señor Garcia Calderon. My previous dispatches to you embrace the same subject in
+                    a much more detailed and extended form.</p>
+                <p rendition="#center">* * * * * * *</p>
+                <p>I have, &amp;c.,</p>
+                <closer><signed>C. A. LOGAN.</signed></closer>
+
+
+                <xi:include href="d33-a1.xml" xpointer="d33-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

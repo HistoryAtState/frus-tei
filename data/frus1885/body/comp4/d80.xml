@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1885_d80" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Whitehouse to Mr. Bayard.</title>
+            </titleStmt>
+            <xi:include href="../../frus1885_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1885_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1885/d80"
+                    type="canonical"/>
+                <relatedItem target="d79-a1.xml" type="prev"/>
+                <relatedItem target="d80-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1885</bibl>
+                <bibl type="frus-division-id">d80</bibl>
+                <bibl type="frus-division-n">80</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="115" to="116" unit="page"
+                        >115–16</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States in Central
+                            America</hi>,<lb/><hi rendition="#italic">La Libertad</hi></placeName>
+                    <date calendar="gregorian" when="1885-04-18"><hi rendition="#italic">April</hi>
+                        18, 1885</date>
+                    <date notAfter="1885-04-18T23:59:59-05:00" notBefore="1885-04-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d80">
+
+                <pb facs="0243" n="115" sameAs="frus:frus1885/pg115"/>
+
+                <opener><seg rendition="#center">No. 80.</seg></opener>
+                <head><hi rendition="#italic">Mr. Whitehouse to Mr. Bayard</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States in Central America</hi>,<lb/><hi
+                                rendition="#italic">La Libertad</hi></placeName>, <date
+                            calendar="gregorian" when="1885-04-18"><hi rendition="#italic"
+                                >April</hi> 18, 1885</date>. (Received May 16.)</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: On the 17th instant I sent you the
+                    following cablegram: <quote rend="blockquote">
+                        <p>Government of Salvador decrees national vote of thanks to diplomatic
+                            corps for efficacious intervention to promote peace.</p></quote></p>
+                <p>I am now able to inclose a copy of the decree, from article 4 of which I quoted
+                    in the above-mentioned cablegram.</p>
+                <p>I am, &amp;c.,</p>
+                <closer><signed>H. REMSEN WHITEHOUSE.</signed></closer>
+
+
+
+
+                <xi:include href="d80-a1.xml" xpointer="d80-a1"/>
+                <xi:include href="d80-a2.xml" xpointer="d80-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

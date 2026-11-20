@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d148" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Marshal Stalin</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d148"
+                    type="canonical"/>
+                <relatedItem target="d147.xml" type="prev"/>
+                <relatedItem target="d149.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d148</bibl>
+                <bibl type="frus-division-n">148</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="101" to="101" unit="page"
+                        >101</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Tunis</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-20">20 November 1943</date>
+                    <date notAfter="1943-11-20T23:59:59-05:00" notBefore="1943-11-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HMM1">Hamilton, Maxwell M.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MVM1">Molotov, Vyacheslov
+                        Mikhailovich</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d148">
+
+                <pb facs="0193" n="101" sameAs="frus:frus1943CairoTehran/pg101"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Marshal Stalin</hi><anchor
+                        n="1" xml:id="d148-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Tunis</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-11-20">20 November 1943</date>.</dateline>
+                </opener>
+                <p>For Marshal Stalin personal and secret from the President.</p>
+                <p>I have just landed. I am sorry about Mr. Molotov and hope he is all well
+                        again.<anchor n="2" xml:id="d148-f2"/> I will be glad to see him with you in
+                    Teheran. Let me know when you expect to get there. I will be in Cairo from
+                    tomorrow on and Mr. Churchill will be nearby.</p>
+                <p>I am sincerely happy about the fine continuance of your gains.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d148-f1" n="1" type="source" xml:id="d148-f1-content">
+                <p>Sent to the White House, apparently via military channels; forwarded to the
+                    Department of State; and forwarded further by the Department to the Embassy,
+                    Moscow, in telegram 1248, November 20, 1943, 7 p.m. Telegram 1248 was marked “US
+                    Urgent” and “Secret for the Ambassador or Hamilton”, and began “Please have the
+                    following message from the President delivered immediately.”</p>
+            </note>
+            <note corresp="#d148-f2" n="2" xml:id="d148-f2-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg87">p. 87</ref>, footnote
+                    5.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d45" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d45"
+                    type="canonical"/>
+                <relatedItem target="d44.xml" type="prev"/>
+                <relatedItem target="d46.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d45</bibl>
+                <bibl type="frus-division-n">45</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="32" to="32" unit="page"
+                        >32</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-16">October 16, 1943</date>
+                    <date notAfter="1943-10-16T23:59:59-05:00" notBefore="1943-10-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_PII1">Peter II</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RE1">Roosevelt, Elliott</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_Eureka1">Eureka</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_Joe1">Joe</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d45">
+
+                <pb facs="0124" n="32" sameAs="frus:frus1943CairoTehran/pg32"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President
+                        Roosevelt</hi><anchor n="1" xml:id="d45-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1943-10-16">October 16, 1943</date>.</dateline>
+                </opener>
+                <p>No. 459. Prime Minister to President Roosevelt</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <list>
+                    <label>3.</label>
+                    <item>I entirely agree with the telegram you have sent to Uncle Joe about <hi
+                            rendition="#small-caps">Eureka</hi>. Let me know what he replies.</item>
+                    <label>4.</label>
+                    <item>Please also see Saint Mark 9 verses 5 and 6 especially sixth verse.<anchor
+                            n="2" xml:id="d45-f2"/>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d45-f1" n="1" type="source" xml:id="d45-f1-content">
+                <p>Apparently sent via military channels.</p>
+            </note>
+            <note corresp="#d45-f2" n="2" xml:id="d45-f2-content">
+                <p>The following footnote was typed on the source text by the White House Map
+                    Room:</p>
+                <p>“Saint Mark 9</p>
+                <list>
+                    <item>“5. And Peter answered and said to Jesus, Master, it is good for us to be
+                        here: and let us make three tabernacles; one for thee, and one for Moses,
+                        and one for Elias.</item>
+                    <item>“6. For he wist not what to say; for they were sore afraid.”</item>
+                </list>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

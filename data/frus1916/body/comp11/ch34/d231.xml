@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d231" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d231"
+                    type="canonical"/>
+                <relatedItem target="d230.xml" type="prev"/>
+                <relatedItem target="d232.xml" type="next"/>
+                <relatedItem target="../ch34.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d231</bibl>
+                <bibl type="frus-division-n">231</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="230" to="230" unit="page"
+                        >230</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Santo Domingo</hi></placeName>
+                    <date calendar="gregorian" when="1916-06-04T16:00:00-04:40">
+                        <hi rendition="#italic">June 4, 1916, 4 p.m.</hi>
+                    </date>
+                    <date notAfter="1916-06-04T15:40:00-05:00" notBefore="1916-06-04T15:40:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d231">
+
+                <pb facs="0306" n="230" sameAs="frus:frus1916/pg230"/>
+
+                <note rend="inline" type="source">File No. 839.00/1851</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Santo Domingo</hi></placeName>, <date
+                            calendar="gregorian" when="1916-06-04T16:00:00-04:40">
+                            <hi rendition="#italic">June 4, 1916, 4 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>In view of the probable insistence of the Senate to meet to-morrow and proceed
+                    with election Henríquez, Council of Ministers has decided to arrest and imprison
+                    four of the Arias Senators to-night. This will probably bring about trouble in
+                    the city.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Russell</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

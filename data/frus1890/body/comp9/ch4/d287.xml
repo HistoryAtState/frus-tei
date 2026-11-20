@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d287" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sir Julian Pauncefote to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d287"
+                    type="canonical"/>
+                <relatedItem target="d286.xml" type="prev"/>
+                <relatedItem target="d287-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d287</bibl>
+                <bibl type="frus-division-n">287</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="449" to="451" unit="page"
+                        >449–51</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1890-06-30"><hi rendition="#italic">June</hi>
+                        30, 1890</date>
+                    <date notAfter="1890-06-30T23:59:59-05:00" notBefore="1890-06-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d287">
+
+                <pb facs="0555" n="449" xml:id="pg449"/>
+
+                <head><hi rendition="#italic">Sir Julian Pauncefote to Mr. Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1890-06-30"><hi rendition="#italic">June</hi> 30,
+                        1890</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In your note of the 29th of May last, which
+                    I duly transmitted to the Marquis of Salisbury, there are several references to
+                    communciations which passed between the two Governments in the time of your
+                    predecessor.</p>
+                <p>I have now received a dispatch from Lord Salisbury, copy of which I have the
+                    honor to inclose, pointing out that there is some error in the impressions which
+                    you have gathered from the records in the State Department with respect to those
+                    communications.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Julian
+                    Pauncefote.</hi></signed></closer>
+
+
+                <xi:include href="d287-a1.xml" xpointer="d287-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

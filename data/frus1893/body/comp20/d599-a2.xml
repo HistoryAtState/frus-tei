@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1893_d599-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Statement of loss from the burning of the girls’ school building.</title>
+            </titleStmt>
+            <xi:include href="../../frus1893_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1893_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1893/d599-a2"
+                    type="canonical"/>
+                <relatedItem target="d599-a1.xml" type="prev"/>
+                <relatedItem target="d599-a3.xml" type="next"/>
+                <relatedItem target="d599.xml" type="parent"/>
+                <relatedItem target="d599.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1893</bibl>
+                <bibl type="frus-division-id">d599-a2</bibl>
+                <bibl type="frus-division-n">599.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="629" to="629" unit="page"
+                        >629</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d599-a2">
+
+                <pb facs="0737" n="629" sameAs="frus:frus1893/pg629"/>
+
+                <opener><seg rendition="#center">[Inclosure 2 in No. 78.]</seg></opener>
+                <head><hi rendition="#italic">Statement of loss from the burning of the girls’
+                        school building.</hi></head>
+                <table cols="2" rows="3">
+                    <row role="label">
+                        <cell>Total expenditure for the building</cell>
+                        <cell rendition="#nowrap #bottom">£Т. 586</cell>
+                    </row>
+                    <row>
+                        <cell>Salvage—estimated value of foundation, timber, and other material not
+                            consumed</cell>
+                        <cell rendition="#border-bottom #bottom" role="num">86</cell>
+                    </row>
+                    <row>
+                        <cell>Loss</cell>
+                        <cell rendition="#bottom" role="num">500</cell>
+                    </row>
+                </table>
+                <p>This does not include any charge for a large amount of time spent by Mr. Riggs
+                    and myself in the purchase of material, superintending the work, and taking the
+                    accounts.</p>
+                <closer><signed><hi rendition="#small-caps">J. F. Smith</hi>,<lb/><hi
+                            rendition="#italic">Treasurer.</hi></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><placeName><hi rendition="#small-caps"
+                                >Marsovan</hi></placeName>, <date calendar="gregorian"
+                            when="1893-04-03"><hi rendition="#italic">April 3,
+                        1893</hi></date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d18" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Generalissimo Chiang to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d18"
+                    type="canonical"/>
+                <relatedItem target="d17.xml" type="prev"/>
+                <relatedItem target="d19.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d18</bibl>
+                <bibl type="frus-division-n">18</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="16" to="16" unit="page"
+                        >16</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Chungking</hi></placeName>
+                    <date ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                        calendar="gregorian" notAfter="1943-07-09T23:59:59+07:00"
+                        notBefore="1943-07-05T00:00:00+07:00">undated (?)</date>
+                    <date notAfter="1943-07-09T11:59:59-05:00" notBefore="1943-07-04T12:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CKS1">Chiang Kai-shek</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CMlS1">Chiang, May-ling
+                        (Soong)</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MGC1">Marshall, George C.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RE1">Roosevelt, Elliott</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SJW1">Stilwell, Joseph W.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_Generalissimo1">Generalissimo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d18">
+
+                <pb facs="0108" n="16" xml:id="pg16"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Generalissimo Chiang to President
+                        Roosevelt</hi><anchor n="1" xml:id="d18-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Chungking</hi></placeName>, <date
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            calendar="gregorian" notAfter="1943-07-09T23:59:59+07:00"
+                            notBefore="1943-07-05T00:00:00+07:00">undated (?)</date>.]<anchor n="2"
+                            xml:id="d18-f2"/></dateline>
+                </opener>
+                <p>President Roosevelt Washington DC. Your telegram of 4th July<anchor n="3"
+                        xml:id="d18-f3"/> has been received. And I am in full accord with your
+                    suggestions. Madame Chiang has informed me in detail of her conversations with
+                    you. I am delighted with the results and that we see eye to eye on many
+                    questions. I anticipate with pleasure our meeting in the near future. For many
+                    years I have been wishing that we could discuss together in person various
+                    problems of mutual interest. I venture to suggest that any time after September
+                    [which?] would be most convenient and suitable to you would be possible for me.
+                    Should necessity arise, however, for our meeting before then, I should
+                    appreciate your letting me know at least a fortnight in advance of my
+                    departure.</p>
+                <closer><signed><hi rendition="#small-caps">Chiang Kai-shek</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d18-f1" n="1" type="source" xml:id="d18-f1-content">
+                <p>Sent by Stilwell, via Army channels, in a secret and urgent message, numbered
+                    630, “for the eyes of Gen Marshall alone”.</p>
+            </note>
+            <note corresp="#d18-f2" n="2" xml:id="d18-f2-content">
+                <p>Stilwell’s message is dated at Chungking, July 9, 1943.</p>
+            </note>
+            <note corresp="#d18-f3" n="3" xml:id="d18-f3-content">
+                <p>Presumably the message of June 30, 1943, <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg13">p. 13</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d234" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Conger to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d234"
+                    type="canonical"/>
+                <relatedItem target="d233-a1.xml" type="prev"/>
+                <relatedItem target="d234-a1.xml" type="next"/>
+                <relatedItem target="../ch79.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d234</bibl>
+                <bibl type="frus-division-n">234</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="282" to="283" unit="page"
+                        >282–83</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1902-10-30"><hi rendition="#italic">October 30,
+                            1902</hi></date>
+                    <date notAfter="1902-10-30T23:59:59-05:00" notBefore="1902-10-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d234">
+
+                <pb facs="0362" n="282" sameAs="frus:frus1902/pg282"/>
+
+                <head><hi rendition="#italic">Mr. Conger to Mr. Hay</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Peking</hi></placeName>, <date calendar="gregorian"
+                            when="1902-10-30"><hi rendition="#italic">October 30,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 1135.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith a note
+                    from the foreign office communicating information of the withdrawal of the
+                    Russian forces from that portion of the province of Shengking lying southwest of
+                    the Liao River and the return to China of all the railways therein, in
+                    accordance with the terms of the convention between the Russian and Chinese
+                    Governments regarding the evacuation of Manchuria.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">E. H. Conger.</hi></signed></closer>
+
+
+                <xi:include href="d234-a1.xml" xpointer="d234-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

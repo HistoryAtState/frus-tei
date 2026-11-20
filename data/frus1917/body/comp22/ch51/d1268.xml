@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d1268" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Fletcher to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d1268"
+                    type="canonical"/>
+                <relatedItem target="d1267-a1.xml" type="prev"/>
+                <relatedItem target="d1268-a1.xml" type="next"/>
+                <relatedItem target="../ch51.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d1268</bibl>
+                <bibl type="frus-division-n">1268</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1065" to="1067" unit="page"
+                        >1065–67</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Mexico City</hi></placeName>
+                    <date calendar="gregorian" when="1917-04-19">
+                        <hi rendition="#italic">April 19, 1917</hi></date>
+                    <date notAfter="1917-04-19T23:59:59-05:00" notBefore="1917-04-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1268">
+
+                <pb facs="1231" n="1065" sameAs="frus:frus1917/pg1065"/>
+
+                <note rend="inline" type="source">File No. 812.6363/275</note>
+                <head>
+                    <hi rendition="#italic">Ambassador Fletcher to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 81</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Mexico City</hi></placeName>, <date
+                            calendar="gregorian" when="1917-04-19">
+                            <hi rendition="#italic">April 19, 1917</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Supplementing my telegram No. 106 of April
+                    17, 6 p.m.,<anchor n="2" xml:id="d1268-f1"/> I have the honor to enclose the
+                    text and translation of the decree establishing the rates of taxation for
+                    petroleum and its products, issued April 13, 1917, by First Chief Carranza of
+                    the Constitutionalist Army, to go into effect May 1, 1917.</p>
+                <p>This decree has not yet been published in the <hi rendition="#italic">Diario
+                        Oficial</hi> and this text has been copied from a local paper.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Henry P. Fletcher</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d1268-a1.xml" xpointer="d1268-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1268-f1" n="2" xml:id="d1268-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

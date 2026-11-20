@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d557" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The British Minister Resident at Allied Force Headquarters (Macmillan) to the
+                    British Foreign Office </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d557"
+                    type="canonical"/>
+                <relatedItem target="d556.xml" type="prev"/>
+                <relatedItem target="d558.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d557</bibl>
+                <bibl type="frus-division-n">557</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1191" to="1192" unit="page"
+                        >1191–92</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Algiers</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-31">August 31, 1943</date>
+                    <date notAfter="1943-08-31T23:59:59-05:00" notBefore="1943-08-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d557">
+
+                <pb facs="1305" n="1191" sameAs="frus:frus1943/pg1191"/>
+
+                <note rend="inline" type="source">740.00119 EW/9–143: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The British Minister Resident at Allied Force
+                        Headquarters</hi> (<hi rendition="#italic">Macmillan</hi>) <hi
+                        rendition="#italic">to the British Foreign Office </hi><anchor n="1"
+                        xml:id="d557-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">most secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Algiers</hi></placeName>, <date
+                            calendar="gregorian" when="1943-08-31">August 31,
+                        1943</date>.</dateline>
+                </opener>
+                <p>I have informed General Eisenhower.</p>
+                <list>
+                    <label>2.</label>
+                    <item>It is impossible to foretell the circumstances in which signature if any
+                        is likely to take place and no arrangements can yet be made. I <pb
+                            facs="1306" n="1192" xml:id="pg1192"/> therefore trust that the Greek
+                        Government will not send an officer from the Middle East or anyone else for
+                        the present.</item>
+                    <label>3.</label>
+                    <item>In case of need I will telegraph direct to Leeper as you suggest.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d557-f1" n="1" type="source" xml:id="d557-f1-content">
+                <p>Printed from a copy made available to the Department of State on September 1,
+                    1943, by the British Embassy at Washington.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

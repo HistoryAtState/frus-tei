@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d143" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d143"
+                    type="canonical"/>
+                <relatedItem target="d142.xml" type="prev"/>
+                <relatedItem target="d144.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d143</bibl>
+                <bibl type="frus-division-n">143</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="99" to="99" unit="page"
+                        >99</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Aboard the</hi> U. S. S. “<hi
+                            rendition="#small-caps">Iowa</hi>”</placeName>
+                    <date calendar="gregorian" when="1943-11-19">November 19, 1943</date>
+                    <date notAfter="1943-11-19T23:59:59-05:00" notBefore="1943-11-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CSA2">Cunningham, Sir
+                        Andrew</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_EDD1">Eisenhower, Dwight D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_AdmiralQ1">Admiral Q.</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d143">
+
+                <pb facs="0191" n="99" sameAs="frus:frus1943CairoTehran/pg99"/>
+
+                <note rend="inline" type="source">Defense Files: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Prime Minister
+                        Churchill</hi><anchor n="1" xml:id="d143-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">most
+                        immediate</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Aboard the</hi> U. S. S. “<hi rendition="#small-caps"
+                            >Iowa</hi>”</placeName>, <date calendar="gregorian" when="1943-11-19"
+                            >November 19, 1943</date>.]</dateline>
+                </opener>
+                <p>Following for Former Naval Person from Admiral Q begins</p>
+                <p>I agree with your recommendation. Will proceed to Cairo as planned. Ends.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d143-f1" n="1" type="source" xml:id="d143-f1-content">
+                <p>Sent to Malta via Navy channels, in a telegram which began “Personal for First
+                    Sea Lord” (Admiral Sir Andrew Cunningham) and ended “Message has been given to
+                    General Eisenhower.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

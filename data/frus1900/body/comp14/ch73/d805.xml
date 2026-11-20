@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d805" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hunter to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d805"
+                    type="canonical"/>
+                <relatedItem target="d804.xml" type="prev"/>
+                <relatedItem target="d805-a1.xml" type="next"/>
+                <relatedItem target="../ch73.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d805</bibl>
+                <bibl type="frus-division-n">805</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="677" to="678" unit="page"
+                        >677–78</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States,<lb/>Guatemala and Honduras</hi>,<lb/><hi rendition="#italic"
+                            >Guatemala</hi></placeName>
+                    <date calendar="gregorian" when="1899-05-13"><hi rendition="#italic">May 13,
+                            1899</hi></date>
+                    <date notAfter="1899-05-13T23:59:59-05:00" notBefore="1899-05-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d805">
+
+                <pb facs="0775" n="677" xml:id="pg677"/>
+
+                <head><hi rendition="#italic">Mr. Hunter to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States,<lb/>Guatemala and
+                                Honduras</hi>,<lb/><hi rendition="#italic"
+                            >Guatemala</hi></placeName>, <date calendar="gregorian"
+                            when="1899-05-13"><hi rendition="#italic">May 13,
+                        1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 186.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to the Frank Pears case in
+                    Honduras, I have the honor to transmit herewith inclosed copy of a letter sent
+                    to this legation by the Honorable Angel Ugarte, the diplomatic representative of
+                    Honduras to Guatemala, in which is embodied a telegraphic communication from
+                    President Terencia Sierra on the Pears affair.</p>
+                <p>You will observe that the President expresses great surprise at our Government’s
+                    refusal to submit the case to arbitration.</p>
+                <p>On April 25 last I made demand for reparation on the Government of Honduras, in
+                    accordance with Department’s instructions No. 131, of March 16, 1899, to which
+                    no reply has yet been received. I shall push the demand and keep the Department
+                    advised of the progress of the case.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">W. Godfrey
+                    Hunter.</hi></signed></closer>
+
+
+                <xi:include href="d805-a1.xml" xpointer="d805-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

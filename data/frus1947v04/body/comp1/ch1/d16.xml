@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1947v04_d16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note by the Secretaries of the State–War–Navy Coordinating Committee</title>
+            </titleStmt>
+            <xi:include href="../../../frus1947v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1947v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1947v04/d16"
+                    type="canonical"/>
+                <relatedItem target="d15.xml" type="prev"/>
+                <relatedItem target="d16-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1947v04</bibl>
+                <bibl type="frus-division-id">d16</bibl>
+                <bibl type="frus-division-n">16</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="21" to="28" unit="page"
+                        >21–28</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1947-09-10">10 September 1947</date>
+                    <date notAfter="1947-09-10T23:59:59-05:00" notBefore="1947-09-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d16">
+
+                <pb facs="0035" n="21" xml:id="pg21"/>
+
+                <note rend="inline" type="source">SWNCC Files: 244 Series</note>
+                <head>
+                    <hi rendition="#italic">Note by the Secretaries of the State–War–Navy
+                        Coordinating Committee</hi><anchor n="1" xml:id="d16-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/> SWNCC 244/7</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1947-09-10">10 September 1947</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Enforcement of Military Clauses of Satellite
+                        Treaties</hi>
+                    <list>
+                        <label>1.</label>
+                        <item>The enclosure, a report by an <hi rendition="#italic">ad hoc</hi>
+                            Committee, is circulated for consideration by the Committee as a matter
+                            of urgency.</item>
+                        <label>2.</label>
+                        <item>A copy of this paper has been forwarded to the Joint Chiefs of Staff
+                            for comment from a military point of view.<anchor n="2" xml:id="d16-f2"
+                            /> These comments will be circulated to the Committee upon receipt
+                            thereof from the Secretary, Joint Chiefs of Staff.</item>
+                    </list>
+                </p>
+                <closer>
+                    <signed> H. W. <hi rendition="#small-caps">Moseley</hi>
+                        <lb/> W. A. <hi rendition="#small-caps">Schulgen</hi>
+                        <lb/> V. L. <hi rendition="#small-caps">Lowrance</hi>
+                        <lb/>
+                        <hi rendition="#italic">Secretariat</hi>
+                    </signed>
+                </closer>
+
+
+
+
+
+
+                <xi:include href="d16-a1.xml" xpointer="d16-a1"/>
+                <xi:include href="d16-a2.xml" xpointer="d16-a2"/>
+                <xi:include href="d16-a3.xml" xpointer="d16-a3"/>
+                <xi:include href="d16-a4.xml" xpointer="d16-a4"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d16-f1" n="1" type="source" xml:id="d16-f1-content">
+                <p>This paper was approved by the State–War–Navy Coordinating Committee by informal
+                    action on September 16.</p>
+            </note>
+            <note corresp="#d16-f2" n="2" xml:id="d16-f2-content">
+                <p>In a memorandum dated September 12, not printed, the Joint Chiefs of Staff
+                    informed the State–War–Navy Coordinating Committee that they could perceive no
+                    objection, from a military point of view, to such of the context of SWNCC 244/7
+                    as was within their purview (SWNCC Files: 244 Series).</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

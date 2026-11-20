@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1941-43_d327" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill </title>
+            </titleStmt>
+            <xi:include href="../../../frus1941-43_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1941-43_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1941-43/d327"
+                    type="canonical"/>
+                <relatedItem target="d326.xml" type="prev"/>
+                <relatedItem target="d328.xml" type="next"/>
+                <relatedItem target="../ch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1941-43</bibl>
+                <bibl type="frus-division-id">d327</bibl>
+                <bibl type="frus-division-n">327</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="504" to="504" unit="page"
+                        >504</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-01-02">January 2, 1943</date>
+                    <date notAfter="1943-01-02T23:59:59-05:00" notBefore="1943-01-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1941-43/terms">
+                    <term ref="frus:frus1941-43/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                    <term ref="frus:frus1941-43/terms#t_Symbol1">Symbol</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d327">
+
+                <pb facs="0590" n="504" sameAs="frus:frus1941-43/pg504"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to Prime Minister Churchill
+                        </hi><anchor n="1" xml:id="d327-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">urgent-priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-01-02">January 2, 1943</date>.</dateline>
+                </opener>
+                <p>Personal and secret for the Former Naval Person from the President No. 252. Your
+                    251: <list>
+                        <label>1.</label>
+                        <item>I heartily approve your Paragraph One.</item>
+                        <label>2.</label>
+                        <item>The aliases from this end will be (<hi rendition="#italic">a</hi>) Don
+                            Quixote and (<hi rendition="#italic">b</hi>) Sancho Panza.</item>
+                        <label>3.</label>
+                        <item>No press correspondents. I will bring one Navy Photographer and we can
+                            join in joint release.</item>
+                        <label>4.</label>
+                        <item>I honestly think de Gaulle would feel happier if he postponed visit
+                            until after “<hi rendition="#small-caps">Symbol</hi>”. Also I would find
+                            great difficulty in giving him any time even if he were to leave at
+                            once.</item>
+                    </list>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d327-f1" n="1" type="source" xml:id="d327-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v03_d610" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The French Embassy to the Department of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1950v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1950v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1950v03/d610"
+                    type="canonical"/>
+                <relatedItem target="d609.xml" type="prev"/>
+                <relatedItem target="d610-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v03</bibl>
+                <bibl type="frus-division-id">d610</bibl>
+                <bibl type="frus-division-n">610</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1335" to="1337" unit="page"
+                        >1335–37</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1950-09-09">September 9, 1950</date>
+                    <date notAfter="1950-09-09T23:59:59-05:00" notBefore="1950-09-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d610">
+
+                <pb facs="1359" n="1335" xml:id="pg1335"/>
+
+                <note rend="inline" type="source">750G.00/9–950</note>
+                <head>
+                    <hi rendition="#italic">The French Embassy to the Department of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">Translation</seg>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1950-09-09">September 9,
+                        1950</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Aide-Mémoire</hi>
+                </p>
+                <p>By an <hi rendition="#italic">aide-mémoire</hi> dated August 9 last,<anchor n="1"
+                        xml:id="d610-f1"/> the Department of State was so good as to transmit to the
+                    French Embassy a study made by its legal services concerning the method of
+                    implementing an arrangement which might be concluded between Italy and
+                    Yugoslavia respecting Trieste.</p>
+                <p>This study was received with much interest by the French Minister of Foreign
+                        Affairs.<anchor n="2" xml:id="d610-f2"/> He, for his part, is having the
+                    question studied by his legal adviser.</p>
+                <p>The Embassy has the honor to transmit herewith to the Department of State a note
+                    summarizing briefly the conclusions of the study which has been made at
+                    Paris.</p>
+                <p>It would be happy to learn the observations to which this document may give rise
+                    on the part of the American authorities.</p>
+
+
+                <xi:include href="d610-a1.xml" xpointer="d610-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d610-f1" n="1" xml:id="d610-f1-content">
+                <p>Not printed; see footnote 1 to the <hi rendition="#italic">aide-mémoire</hi> from
+                    the Department of State to the British Embassy, <hi rendition="#italic"
+                        >supra</hi>.</p>
+            </note>
+            <note corresp="#d610-f2" n="2" xml:id="d610-f2-content">
+                <p>Robert Schuman.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

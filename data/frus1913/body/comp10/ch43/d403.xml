@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_d403" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/d403"
+                    type="canonical"/>
+                <relatedItem target="d402.xml" type="prev"/>
+                <relatedItem target="d404.xml" type="next"/>
+                <relatedItem target="../ch43.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">d403</bibl>
+                <bibl type="frus-division-n">403</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="423" to="423" unit="page"
+                        >423</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Santo Domingo</hi></placeName>
+                    <date calendar="gregorian" when="1913-04-11">
+                        <hi rendition="#italic">April 11, 1913</hi></date>
+                    <date notAfter="1913-04-11T23:59:59-05:00" notBefore="1913-04-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d403">
+
+                <pb facs="0527" n="423" sameAs="frus:frus1913/pg423"/>
+
+                <note rend="inline" type="source">File No. 839.00/831.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Santo Domingo</hi></placeName>, <date
+                            calendar="gregorian" when="1913-04-11">
+                            <hi rendition="#italic">April 11, 1913</hi></date>.</dateline>
+                </opener>
+                <p>The Senate elected Bordas yesterday for the third time. Today the House rejected
+                    him, 15 to 9, and later voted Jiménez, 8; Vásquez, 8; Velásquez, 5.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Curtis</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

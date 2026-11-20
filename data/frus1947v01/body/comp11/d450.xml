@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1947v01_d450" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Director of Central Intelligence (Hillenkoetter)</title>
+            </titleStmt>
+            <xi:include href="../../frus1947v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1947v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1947v01/d450"
+                    type="canonical"/>
+                <relatedItem target="d449.xml" type="prev"/>
+                <relatedItem target="d450-a1.xml" type="next"/>
+                <relatedItem target="../comp11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1947v01</bibl>
+                <bibl type="frus-division-id">d450</bibl>
+                <bibl type="frus-division-n">450</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="903" to="905" unit="page"
+                        >903–5</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1947-12-15">15 December 1947</date>
+                    <date notAfter="1947-12-15T23:59:59-05:00" notBefore="1947-12-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1947v01/terms">
+                    <term ref="frus:frus1947v01/terms#t_AEC1">AEC</term>
+                    <term ref="frus:frus1947v01/terms#t_MID1">MID</term>
+                    <term ref="frus:frus1947v01/terms#t_ONI1">ONI</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d450">
+
+                <pb facs="0933" n="903" sameAs="frus:frus1947v01/pg903"/>
+
+                <note rend="inline" type="source">Department of State Atomic Energy Files</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the Director of Central Intelligence</hi>
+                        (<hi rendition="#italic">Hillenkoetter</hi>)</head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1947-12-15">15 December 1947</date>.</dateline>
+                </opener>
+                <table>
+                    <row role="label">
+                        <cell>Memorandum to:</cell>
+                        <cell>Senator B. B. Hickenlooper</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Mr. Robert A. Lovett</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Rear Admiral Thomas B. Inglis<anchor n="1" xml:id="d450-f1"/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Major General S. J. Chamberlin<anchor n="2" xml:id="d450-f2"/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Major General George C. McDonald<anchor n="3" xml:id="d450-f3"/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Major General L. R. Groves</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Dr. Vannevar Bush</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Admiral John Gingrich<anchor n="4" xml:id="d450-f4"/>
+                        </cell>
+                    </row>
+                </table>
+                <pb facs="0934" n="904" xml:id="pg904"/>
+                <p rendition="#flush">Subject: Status of Russian Atomic Energy Project.</p>
+                <list>
+                    <label>1.</label>
+                    <item>There is attached hereto the latest study on the Russian atomic energy
+                        project prepared and coordinated with Scientific Branch—ONI, Scientific
+                        Branch—MID, and Director of Intelligence—AEC.</item>
+                    <label>2.</label>
+                    <item>The study contains many items of sensitive intelligence information and it
+                        is strongly urged that its circulation be under appropriate
+                        safeguards.</item>
+                </list>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">R. H. Hillenkoetter</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d450-a1.xml" xpointer="d450-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d450-f1" n="1" xml:id="d450-f1-content">
+                <p>Chief of Naval Intelligence.</p>
+            </note>
+            <note corresp="#d450-f2" n="2" xml:id="d450-f2-content">
+                <p>Director of Intelligence, United States Army.</p>
+            </note>
+            <note corresp="#d450-f3" n="3" xml:id="d450-f3-content">
+                <p>Assistant Chief of Air Staff, Intelligence.</p>
+            </note>
+            <note corresp="#d450-f4" n="4" xml:id="d450-f4-content">
+                <p>Director of Security, United States Atomic Energy Commission.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

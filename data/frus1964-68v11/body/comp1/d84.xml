@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v11_d84" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>National Security Action Memorandum No. 335</title>
+            </titleStmt>
+            <xi:include href="../../frus1964-68v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1964-68v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v11/d84"
+                    type="canonical"/>
+                <relatedItem target="d83.xml" type="prev"/>
+                <relatedItem target="d85.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v11</bibl>
+                <bibl type="frus-division-id">d84</bibl>
+                <bibl type="frus-division-n">84</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="216" to="217" unit="page"
+                        >216–17</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1965-06-28">June 28, 1965</date>
+                    <date notAfter="1965-06-28T23:59:59-05:00" notBefore="1965-06-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v11/persons">
+                    <term ref="frus:frus1964-68v11/persons#p_BMG2">Bundy, McGeorge</term>
+                    <term ref="frus:frus1964-68v11/persons#p_JLB1">Johnson, Lyndon B.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d84">
+
+                <pb facs="0252" n="216" sameAs="frus:frus1964-68v11/pg216"/>
+
+                <head>84. National Security Action Memorandum No. 335<anchor n="1" xml:id="d84-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1965-06-28">June 28, 1965</date>.</dateline></opener>
+                <list type="to">
+                    <head>TO</head>
+                    <item>Secretary of State</item>
+                    <item>Secretary of Defense</item>
+                    <item>Director, U.S. Arms Control and Disarmament Agency</item>
+                    <item>Chairman, Joint Chiefs of Staff</item>
+                    <item>Chairman, U.S. Atomic Energy Commission</item>
+                    <item>Director of Central Intelligence</item>
+                    <item>Director, United States Information Agency</item>
+                    <item>Administrator, National Aeronautics and Space Agency</item>
+                    <item>Special Assistant to the President for Science and Technology</item>
+                </list>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Preparation of Arms Control Program</item>
+                </list>
+                <p>In his speech at the Twentieth Anniversary of the United Nations, President
+                    Johnson stated: <quote rend="blockquote">
+                        <p>“We of the United States would hope that others will join with us in
+                            coming to our next negotiations with proposals for effective attack upon
+                            these deadly dangers to mankind.”<anchor n="2" xml:id="d84-f2"/>
+                        </p>
+                    </quote>
+                </p>
+                <p>The President has directed the U.S. Arms Control and Disarmament Agency to
+                    prepare for submission to him a proposed new program of arms control and
+                    disarmament, including a proposed program for preventing the further spread of
+                    nuclear weapons. The initiative in preparing this program should be with the
+                    U.S. Arms Control and Disarmament Agency. Its proposals should be presented to
+                    the President together with preliminary comments from other interested agencies
+                    of government. The purpose of this procedure is to assure that the issues and
+                    the points of view of the interested agencies of the Government are <pb
+                        facs="0253" n="217" xml:id="pg217"/> brought to the attention of the
+                    President in a timely and orderly manner in order to permit a decision by him at
+                    the appropriate time.</p>
+                <p>The timing of this procedure will be determined by this office, in consultation
+                    with the U.S. Arms Control and Disarmament Agency, in the light of the prospects
+                    for international negotiations.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">McGeorge Bundy</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d84-f1" n="1" type="source" xml:id="d84-f1-content">
+                <p>Source: Johnson Library, National Security File, Subject File, Disarmament,
+                    Eighteen-Nation Disarmament Committee, Vol. I, Box 13. Confidential.</p>
+            </note>
+            <note corresp="#d84-f2" n="2" xml:id="d84-f2-content">
+                <p>The text of the address by President Johnson at the 20th Anniversary
+                    Commemorative Session of the United Nations in San Francisco, June 25, 1965, is
+                    in <hi rendition="#italic">Public Papers of the Presidents of the United States:
+                        Lyndon B. Johnson, 1965</hi>, Book II, pp. 703-706.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

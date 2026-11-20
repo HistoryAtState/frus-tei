@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d1247" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Fletcher to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d1247"
+                    type="canonical"/>
+                <relatedItem target="d1246.xml" type="prev"/>
+                <relatedItem target="d1247-a1.xml" type="next"/>
+                <relatedItem target="../ch50.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d1247</bibl>
+                <bibl type="frus-division-n">1247</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1053" to="1054" unit="page"
+                        >1053–54</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Mexico City</hi></placeName>
+                    <date calendar="gregorian" when="1917-04-10">
+                        <hi rendition="#italic">April 10, 1917</hi></date>
+                    <date notAfter="1917-04-10T23:59:59-05:00" notBefore="1917-04-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1247">
+
+                <pb facs="1219" n="1053" sameAs="frus:frus1917/pg1053"/>
+
+                <note rend="inline" type="source">File No. 812.63/451</note>
+                <head>
+                    <hi rendition="#italic">Ambassador Fletcher to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 63</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Mexico City</hi></placeName>, <date
+                            calendar="gregorian" when="1917-04-10">
+                            <hi rendition="#italic">April 10, 1917</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith a
+                    copy and translation of a decree, issued by First Chief Carranza March 31, 1917,
+                    prescribing the method of obtaining title to mining properties for which the
+                    original concessions have been canceled. This decree has not yet been published
+                    in the <hi rendition="#italic">Diario Oficial</hi>, and this translation was
+                    made from a copy that appeared in a local paper.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Henry P. Fletcher</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d1247-a1.xml" xpointer="d1247-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

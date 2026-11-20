@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d386" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note From Gray to Goodpaster</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d386"
+                    type="canonical"/>
+                <relatedItem target="d385.xml" type="prev"/>
+                <relatedItem target="d386-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d386</bibl>
+                <bibl type="frus-division-n">386</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1958-10-11">October 11, 1958</date>
+                    <date notAfter="1958-10-11T23:59:59-05:00" notBefore="1958-10-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_GG_1">Gray, Gordon</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_TE_1">Teller, Edward</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d386">
+
+                <pb facs="1561" n="1456" sameAs="frus:frus1958-60v03mSupp/pg1456"/>
+
+                <head>386. Note From Gray to Goodpaster<anchor n="1" xml:id="d386-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1958-10-11">October 11,
+                        1958</date></dateline>
+                </opener>
+                <pb facs="d386-1" n="1" type="facsimile" xml:id="d386-1"/>
+                <p>GENERAL GOODPASTER:</p>
+                <p>I thought you might like for your files a copy of the Memorandum of Conversation
+                    with Dr. Edward Teller, which has been reworked a little further since you saw
+                    it. I have sought to incorporate your <pb facs="1562" n="1457" type="typeset"
+                        xml:id="pg1457"/> suggestions. Also attached is a copy of the Memorandum of
+                    Conversation with Dr. Bradbury.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Gordon Gray</hi>
+                    </signed>
+                </closer>
+
+
+
+
+
+
+                <xi:include href="d386-a1.xml" xpointer="d386-a1"/>
+                <xi:include href="d386-a2.xml" xpointer="d386-a2"/>
+                <xi:include href="d386-a3.xml" xpointer="d386-a3"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d386-f1" n="1" type="source" xml:id="d386-f1-content">
+                <p>Source: Conveys memoranda of conversation between the President and Teller and
+                    Bradbury, dealing with detecting nuclear tests. Top Secret enclosures. 11 pp.
+                    Eisenhower Library, White House Office Files, Records of the Office of the Staff
+                    Secretary, Nuclear Testing.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

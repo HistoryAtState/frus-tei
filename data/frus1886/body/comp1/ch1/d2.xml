@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1886_d2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 2.</title>
+                <title type="subtitle">Mr. Quesada to Mr. Bayard.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1886_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1886_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1886/d2"
+                    type="canonical"/>
+                <relatedItem target="../ch1.xml" type="prev"/>
+                <relatedItem target="d2-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1886</bibl>
+                <bibl type="frus-division-id">d2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="4" to="7" unit="page"
+                    >4–7</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the Argentine
+                            Republic</hi>,<lb/><hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1885-11-05"><hi rendition="#italic"
+                            >November</hi> 5, 1885</date>
+                    <date notAfter="1885-11-05T23:59:59-05:00" notBefore="1885-11-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d2">
+
+                <pb facs="0088" n="4" sameAs="frus:frus1886/pg4"/>
+
+                <head>No. 2.<lb/><hi rendition="#italic">Mr. Quesada to Mr. Bayard.</hi></head>
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the Argentine Republic</hi>,<lb/><hi
+                                rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1885-11-05"><hi rendition="#italic"
+                                >November</hi> 5, 1885</date>.</dateline></opener>
+                <p>I have received instructions from the Argentine Government to send your
+                    excellency a printed copy of the extradition law promulgated on the 25th of
+                    August last, although one has already been transmitted to the United States
+                    minister at Buenos Ayres.</p>
+                <p>The minister of foreign relations instructs me to state to your excellency that
+                    this law does away with the necessity of special conventions, the clauses and
+                    provisions of which it is difficult to make uniform; it also establishes a
+                    general rule according to which any extradition cases that may arise are to be
+                    decided.</p>
+                <p>It is proper for me to add that all the copies that I have received contain the
+                    corrections which are found in Articles IV, XV, and XXXI.</p>
+                <p>I have the honor to reiterate to your excellency the assurances of my highest
+                    consideration.</p>
+                <closer><signed>VICENTE G. QUESADA.</signed></closer>
+
+
+                <xi:include href="d2-a1.xml" xpointer="d2-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

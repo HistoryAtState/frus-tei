@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d1314" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d1314"
+                    type="canonical"/>
+                <relatedItem target="d1313.xml" type="prev"/>
+                <relatedItem target="d1315.xml" type="next"/>
+                <relatedItem target="../ch101.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d1314</bibl>
+                <bibl type="frus-division-n">1314</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="774" to="774" unit="page"
+                        >774</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                        <hi rendition="#italic">Hermosillo</hi></placeName>
+                    <date calendar="gregorian" when="1914-03-19">
+                        <hi rendition="#italic">March 19, 1914</hi></date>
+                    <date notAfter="1914-03-19T23:59:59-05:00" notBefore="1914-03-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1314">
+
+                <pb facs="0890" n="774" sameAs="frus:frus1914/pg774"/>
+
+                <note rend="inline" type="source">File No. 312.115/76.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                            <hi rendition="#italic">Hermosillo</hi></placeName>, <date
+                            calendar="gregorian" when="1914-03-19">
+                            <hi rendition="#italic">March 19, 1914</hi></date>.</dateline>
+                </opener>
+                <p>Department’s March 13. Governor Riveros informs me that there is no doubt about
+                    the Navolato Sugar Refineries being returned to their original owners, the
+                    Almadas, some time before the capture of Culiacan and that Mr. Nelson Rhodes
+                    Jr., who is at present in the United States can give the Department full
+                    particulars regarding the same.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Hostetter</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

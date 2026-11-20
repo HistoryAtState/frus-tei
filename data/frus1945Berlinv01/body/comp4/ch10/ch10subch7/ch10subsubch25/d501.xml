@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d501" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 501</title>
+                <title type="subtitle"> White House Press Release</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d501"
+                    type="canonical"/>
+                <relatedItem target="d500.xml" type="prev"/>
+                <relatedItem target="d502.xml" type="next"/>
+                <relatedItem target="../ch10subsubch25.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d501</bibl>
+                <bibl type="frus-division-n">501</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="735" to="735" unit="page"
+                        >735</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-07-05T23:59:59-05:00" notBefore="1945-07-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_LAB1">Lane, Arthur Bliss</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_WHD1">White, Harry Dexter</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d501">
+
+                <pb facs="0867" n="735" sameAs="frus:frus1945Berlinv01/pg735"/>
+
+                <head>No. 501 <lb/>
+                    <hi rendition="#italic">White</hi>
+                    <hi rendition="#italic">House Press Release</hi><anchor n="1" xml:id="d501-f1"/>
+                </head>
+                <dateline>
+                    <date ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                        when="1945-07-05">July 5, 1945</date>
+                </dateline>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Statement by the President</hi>
+                </p>
+                <p>It is with great satisfaction that I announce that effective today as of 7 p.m.,
+                    Eastern War Time, the Government of the United States has established diplomatic
+                    relations with the newly formed Polish Provisional Government of National Unity
+                    now established at Warsaw. The establishment of this Government is an important
+                    and positive step in fulfilling the decisions regarding Poland reached at Yalta
+                    and signed on February 11, 1945.</p>
+                <p>The new Polish Provisional Government of National Unity has informed me in a
+                    written communication<anchor n="2" xml:id="d501-f2"/> that it has recognized in
+                    their entirety the decisions of the Crimea Conference on the Polish question.
+                    The new Government has thereby confirmed its intention to carry out the
+                    provisions of the Crimea decision with respect to the holding of elections.</p>
+                <p>Mr. Arthur Bliss Lane, whom I have chosen as United States Ambassador to Poland,
+                    will proceed to Warsaw as soon as possible, accompanied by his staff.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d501-f1" n="1" type="source" xml:id="d501-f1-content">
+                <p>Issued July 5; reprinted from Department of State <hi rendition="#italic"
+                        >Bulletin</hi>, vol. <hi rendition="#small-caps">xiii</hi>, p. 47.</p>
+            </note>
+            <note corresp="#d501-f2" n="2" xml:id="d501-f2-content">
+                <p>Text printed <hi rendition="#italic">ibid.</hi>
+                </p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

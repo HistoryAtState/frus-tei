@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d114" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Blaine to Mr. Mizner.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d114"
+                    type="canonical"/>
+                <relatedItem target="d113.xml" type="prev"/>
+                <relatedItem target="d114-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d114</bibl>
+                <bibl type="frus-division-n">114</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="123" to="123" unit="page"
+                        >123</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1890-11-14"><hi rendition="#italic"
+                            >November</hi> 14, 1890</date>
+                    <date notAfter="1890-11-14T23:59:59-05:00" notBefore="1890-11-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d114">
+
+                <pb facs="0227" n="123" xml:id="pg123"/>
+
+                <head><hi rendition="#italic">Mr. Blaine to Mr. Mizner</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1890-11-14"><hi rendition="#italic">November</hi> 14,
+                        1890</date>.</dateline>
+                    <seg rendition="#float-left">No. 203.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In response to a part of your No. 187 of
+                    the 18th ultimo, I transmit a copy of Gen. Molina Guirola’s telegram to this
+                    Department of August 6, 1890, stating that messages to you were not detained in
+                    Salvador. As the telegram<anchor n="*" xml:id="d114-f1"/> of Minister Ryan,
+                    dated at Mexico, July 28, 1890, is also pertinent, I inclose a copy.</p>
+                <p>Referring at the same time to the telegram of this Department sent you on the 7th
+                    of August and to instruction No. 151 of August 11, 1890.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">James G. Blaine.</hi></signed></closer>
+
+
+                <xi:include href="d114-a1.xml" xpointer="d114-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d114-f1" n="*" xml:id="d114-f1-content">
+                <p>For this inclosure see under Mexico.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

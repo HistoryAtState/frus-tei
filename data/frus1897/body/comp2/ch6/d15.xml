@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1897_d15" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hengelmüller to Mr. Olney.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1897_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1897_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1897/d15"
+                    type="canonical"/>
+                <relatedItem target="d14.xml" type="prev"/>
+                <relatedItem target="d16.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1897</bibl>
+                <bibl type="frus-division-id">d15</bibl>
+                <bibl type="frus-division-n">15</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="12" to="12" unit="page"
+                        >12</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Austro-Hungarian legation</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1896-12-23"><hi rendition="#italic">December
+                            23, 1896</hi></date>
+                    <date notAfter="1896-12-23T23:59:59-05:00" notBefore="1896-12-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d15">
+
+                <pb facs="0046" n="12" sameAs="frus:frus1897/pg12"/>
+
+                <head><hi rendition="#italic">Mr. Hengelmüller to Mr. Olney.</hi></head>
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Austro-Hungarian legation</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1896-12-23"><hi rendition="#italic">December 23,
+                        1896</hi></date>.</dateline></opener>
+                <p>Mr. <hi rendition="#small-caps">Secretary of State</hi>: Pursuant to reports of
+                    the administration of the general hospital of Vienna, transmitted hither by the
+                    Statthalterei in Vienna, it is no longer found convenient for that hospital to
+                    continue the charge of Boris Adler, an American citizen, who has been an inmate
+                    of the psychiatric department thereof since November 6 last, under treatment for
+                    protracted insanity. The board of directors of the above-mentioned hospital
+                    accordingly request that Boris Adler, who is able to undergo transportation, be
+                    received in some institution in his own country.</p>
+                <p>I have the honor to communicate the above facts to your excellency, and to
+                    inclose Boris Adler’s passport,<anchor n="2" xml:id="d15-f1"/> issued April 24,
+                    1895, and his naturalization certificate,<anchor n="2" xml:id="d15-f2"/> dated
+                    February 25, 1895, which two documents leave no doubt concerning his American
+                    citizenship.</p>
+                <p>I accordingly beg to claim your kind intermediation with a view to cause the
+                    necessary measures to be taken in order that the above-mentioned patient may be
+                    accepted in an insane asylum of his own country, and to advise me at the proper
+                    time of the result thereof with respect to indicating the time and place when
+                    and where the American authorities will receive him.</p>
+                <p>Requesting the return of inclosures, accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Hengelmüller.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d15-f1" n="2" xml:id="d15-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d15-f2" n="2" xml:id="d15-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1889_d9" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Pitkin to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1889_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1889_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1889/d9"
+                    type="canonical"/>
+                <relatedItem target="d8-a1.xml" type="prev"/>
+                <relatedItem target="d9-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1889</bibl>
+                <bibl type="frus-division-id">d9</bibl>
+                <bibl type="frus-division-n">9</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="18" to="19" unit="page"
+                        >18–19</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Buenos Ayres</hi></placeName>
+                    <date calendar="gregorian" when="1889-11-20"><hi rendition="#italic"
+                            >November</hi> 20, 1889</date>
+                    <date notAfter="1889-11-20T23:59:59-05:00" notBefore="1889-11-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d9">
+
+                <pb facs="0136" n="18" sameAs="frus:frus1889/pg18"/>
+
+                <head><hi rendition="#italic">Mr. Pitkin to Mr. Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Buenos Ayres</hi></placeName>, <date calendar="gregorian"
+                            when="1889-11-20"><hi rendition="#italic">November</hi> 20, 1889</date>.
+                        (Received December 31.)</dateline>
+                    <seg rendition="#float-left">No. 12.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to Minister Hanna’s No. 235, May
+                    20, 1889, reciting certain embarrassments to citizens of the United States
+                    contemplating marriage here and inclosing translation of the civil marriage law
+                    of this country of November 12, 1888, I have the honor to invite your attention
+                    to a new enactment herewith inclosed on the subject-matter, involving certain
+                    repeals and amendments whereby it will be seen that a certificate <pb
+                        facs="0137" n="19" xml:id="pg19"/> of birth or baptism, and in case of
+                    previous marriage a certificate of death, are no longer required and that a
+                    certificate of civil status is likewise dispensed with.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John R. G.
+                    Pitkin.</hi></signed></closer>
+
+
+                <xi:include href="d9-a1.xml" xpointer="d9-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

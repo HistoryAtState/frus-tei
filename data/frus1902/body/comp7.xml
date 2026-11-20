@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_comp7" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chile</title>
+            </titleStmt>
+            <xi:include href="../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/comp7"
+                    type="canonical"/>
+                <relatedItem target="comp6/ch45/d103.xml" type="prev"/>
+                <relatedItem target="comp7/ch46.xml" type="next"/>
+                <relatedItem target="../frus1902.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">comp7</bibl>
+                <bibl type="frus-division-n">7</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="116" to="128" unit="page"
+                        >116–28</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1902-11-13T23:59:59-05:00" notBefore="1902-01-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp7">
+
+                <pb facs="0196" n="116" xml:id="pg116"/>
+
+                <head>Chile</head>
+
+
+
+
+
+
+
+                <xi:include href="comp7/ch46.xml" xpointer="ch46"/>
+                <xi:include href="comp7/ch47.xml" xpointer="ch47"/>
+                <xi:include href="comp7/ch48.xml" xpointer="ch48"/>
+                <xi:include href="comp7/ch49.xml" xpointer="ch49"/>
+                <xi:include href="comp7/ch50.xml" xpointer="ch50"/>
+            </div>
+        </body>
+    </text>
+</TEI>

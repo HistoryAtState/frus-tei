@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prince Ferdinand to President Roosevelt.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d16"
+                    type="canonical"/>
+                <relatedItem target="d15.xml" type="prev"/>
+                <relatedItem target="d17.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d16</bibl>
+                <bibl type="frus-division-n">16</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="21" to="21" unit="page"
+                        >21</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Sofia</hi></placeName>
+                    <date calendar="gregorian" when="1903-09-19"><hi rendition="#italic">September
+                            19, 1903</hi></date>
+                    <date notAfter="1903-09-19T23:59:59-05:00" notBefore="1903-09-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d16">
+
+                <pb facs="0105" n="21" sameAs="frus:frus1903/pg21"/>
+
+                <head><hi rendition="#italic">Prince Ferdinand to President Roosevelt.</hi></head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Sofia</hi></placeName>, <date calendar="gregorian"
+                            when="1903-09-19"><hi rendition="#italic">September 19,
+                        1903</hi></date>.</dateline></opener>
+                <p>It was with a real pleasure, especially in these sad times, that I received
+                    to-day from Mr. John Brinckerhoff Jackson your autograph letter. I am very
+                    content at the friendly and cordial feelings you transmit by him to myself and
+                    to my Government, and I hope that the good relations between the two countries
+                    shall still be more strengthened in the future.</p>
+                <closer><signed><hi rendition="#small-caps">Ferdinand.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

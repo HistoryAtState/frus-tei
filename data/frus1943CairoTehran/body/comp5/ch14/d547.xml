@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d547" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in the United Kingdom (Winant) to the President</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d547"
+                    type="canonical"/>
+                <relatedItem target="d546.xml" type="prev"/>
+                <relatedItem target="d548.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d547</bibl>
+                <bibl type="frus-division-n">547</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="870" to="871" unit="page"
+                        >870–71</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-01-14">14 January 1944</date>
+                    <date notAfter="1944-01-14T23:59:59-05:00" notBefore="1944-01-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_EA1">Eden, Anthony</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HA4">Hughes, Arthur</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_KLSML1">Killearn, Lord (Sir Miles
+                        Lampson)</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_WJG1">Winant, John G.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d547">
+
+                <pb facs="0974" n="870" sameAs="frus:frus1943CairoTehran/pg870"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">The Ambassador in the United Kingdom</hi> (<hi
+                        rendition="#italic">Winant</hi>) <hi rendition="#italic">to the
+                        President</hi><anchor n="1" xml:id="d547-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1944-01-14">14 January 1944</date>.</dateline>
+                </opener>
+                <p>For the President from Ambassador Winant.</p>
+                <p>1. I have just received the following confidential communication dated January
+                    13th from Mr. Eden regarding a matter which you discussed with him at your
+                    recent meeting in Egypt: <pb facs="0975" n="871" xml:id="pg871"/>
+                    <quote rend="blockquote">
+                        <p>“13th January, 1944. My dear Ambassador,</p>
+                        <p>“1. Before I left Egypt the President mentioned to me that Father Hughes,
+                            an English priest who is at present in charge of the Apostolic
+                            Delegation in Cairo, had complained to him of the treatment by the
+                            authorities concerned of Italian priests and nuns who had been arrested
+                            or interned.<anchor n="2" xml:id="d547-f2"/> I told the President at the
+                            time that I was sure that there was another side to this question, and
+                            informed Lord Killearn of the conversation. I have now in front of me
+                            several reports from Lord Killearn which show that I was right, and that
+                            Father Hughes, in making these complaints, had, to say the least,
+                            allowed his heart to rule his head.[”]</p>
+                    </quote></p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d547-f1" n="1" type="source" xml:id="d547-f1-content">
+                <p>Presumably sent via military channels.</p>
+            </note>
+            <note corresp="#d547-f2" n="2" xml:id="d547-f2-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg739">pp. 739</ref>, <ref
+                        target="#pg750">750</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

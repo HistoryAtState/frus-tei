@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1885_d221" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Becerra to Mr. Bayard.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1885_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1885_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1885/d221"
+                    type="canonical"/>
+                <relatedItem target="d220.xml" type="prev"/>
+                <relatedItem target="d222.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1885</bibl>
+                <bibl type="frus-division-id">d221</bibl>
+                <bibl type="frus-division-n">221</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="280" to="280" unit="page"
+                        >280</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Cape May, N. J.</hi></placeName>
+                    <date calendar="gregorian" when="1885-08-28"><hi rendition="#italic">August</hi>
+                        28, 1885</date>
+                    <date notAfter="1885-08-28T23:59:59-05:00" notBefore="1885-08-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d221">
+
+                <pb facs="0408" n="280" sameAs="frus:frus1885/pg280"/>
+
+                <opener><seg rendition="#center">No. 221.</seg></opener>
+                <head><hi rendition="#italic">Mr. Becerra to Mr. Bayard</hi>.</head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Cape May, N. J.</hi></placeName>, <date calendar="gregorian"
+                            when="1885-08-28"><hi rendition="#italic">August</hi> 28,
+                        1885</date>.</dateline></opener>
+                <p>Peace in Colombia. Prestan hanged to-day in Colon.</p>
+                <closer><signed>BECERRA.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

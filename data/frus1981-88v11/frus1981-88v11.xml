@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1981-88v11_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1981-88v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1981-88v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1981-88v11"
+                    type="canonical"/>
+                <note>This publication contains 4 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1981-88v11" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1981-88v11/covers/frus1981-88v11.jpg"/>
+                        <extent>
+                            <measure quantity="27980" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:33:00.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1981-88v11" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1981-88v11/ebook/frus1981-88v11.epub"/>
+                        <extent>
+                            <measure quantity="1729945" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2021-04-22T19:30:52.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1981-88v11" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1981-88v11/ebook/frus1981-88v11.mobi"/>
+                        <extent>
+                            <measure quantity="2559912" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2021-04-22T19:33:31.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1981-88v11" type="pdf">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1981-88v11/pdf/frus1981-88v11.pdf"/>
+                        <extent>
+                            <measure quantity="8524053" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2022-01-21T15:00:24.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 2021 as printed book.</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">reagan</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>reagan-ronald</term>
+                    <term>shultz-george-pratt</term>
+                    <term>russia</term>
+                    <term>switzerland</term>
+                    <term>iceland</term>
+                    <term>arms-control-and-disarmament</term>
+                    <term>nuclear-weapons</term>
+                    <term>nuclear-nonproliferation</term>
+                    <term>confidence-building-measures</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1981-88v11" status="published" when="2021-04-22"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0002" n="I" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1981–1988</titlePart>
+                    <titlePart type="volumetitle">Volume XI, START I</titlePart>
+                </docTitle>
+                <byline><hi rendition="#italic">Editor</hi>: <name>James Graham
+                    Wilson</name></byline>
+                <byline><hi rendition="#italic">General Editor</hi>: <name>Kathleen B.
+                        Rasmussen</name></byline>
+                <docImprint>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>2021</docDate>
+                    <pb facs="0003" n="II" xml:id="pgII"/> DEPARTMENT OF STATE O<hi
+                        rendition="#small-caps">ffice of the</hi> H<hi rendition="#small-caps"
+                        >istorian</hi> F<hi rendition="#small-caps">oreign</hi> S<hi
+                        rendition="#small-caps">ervice</hi> I<hi rendition="#small-caps"
+                        >nstitute</hi> For sale by the Superintendent of Documents, U.S. Government
+                    Publishing Office Internet: bookstore.gpo.gov Phone: toll free (866) 512-1800;
+                    DC area (202) 512-1800 Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
+                    20402-0001</docImprint>
+            </titlePage>
+            <xi:include href="front/pressrelease.xml" xpointer="pressrelease"/>
+            <xi:include href="front/abouttheseries.xml" xpointer="abouttheseries"/>
+            <pb facs="0009" n="VIII" xml:id="pgVIII"/>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0013" n="XII" xml:id="pgXII"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0015" n="XIV" xml:id="pgXIV"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <pb facs="0019" n="XVIII" xml:id="pgXVIII"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <xi:include href="back/app.xml" xpointer="app"/>
+        </back>
+    </text>
+</TEI>

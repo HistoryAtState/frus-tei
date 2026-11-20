@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d358" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Minister of Haiti to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d358"
+                    type="canonical"/>
+                <relatedItem target="../ch51.xml" type="prev"/>
+                <relatedItem target="d358-a1.xml" type="next"/>
+                <relatedItem target="../ch51.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d358</bibl>
+                <bibl type="frus-division-n">358</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="322" to="325" unit="page"
+                        >322–25</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Legation of Haiti</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1916-03-15">
+                        <hi rendition="#italic">March 15, 1916</hi></date>
+                    <date notAfter="1916-03-15T23:59:59-05:00" notBefore="1916-03-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d358">
+
+                <pb facs="0398" n="322" sameAs="frus:frus1916/pg322"/>
+
+                <note rend="inline" type="source">File No. 711.38/71</note>
+                <head>
+                    <hi rendition="#italic">The Minister of Haiti to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Translation]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Legation of Haiti</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1916-03-15">
+                            <hi rendition="#italic">March 15, 1916</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Mr. Secretary of State</hi>: I have the honor to
+                    inform your excellency that my Government has vested me with special authority
+                    to proceed with the exchange of ratifications of the Convention of September 16,
+                    1915, and has forwarded to me to that effect: <list>
+                        <label>1.</label>
+                        <item>The instrument of ratification of the convention by the President of
+                                Haiti.<anchor n="2" xml:id="d358-f1"/>
+                        </item>
+                        <label>2.</label>
+                        <item>A certified copy of the convention;<anchor n="3" xml:id="d358-f2"/>
+                        </item>
+                        <label>3.</label>
+                        <item>A certified copy of the decree of the Legislative Body of Haiti
+                            sanctioning the ratification of the convention by the President;<anchor
+                                n="4" xml:id="d358-f3"/> and</item>
+                        <label>4.</label>
+                        <item>A copy of the interpretative commentary of the committee of the
+                            Chamber of Deputies referred to in the decree.<anchor n="5"
+                                xml:id="d358-f4"/>
+                        </item>
+                    </list>
+                </p>
+                <p>I am therefore at your excellency’s disposal regarding the said exchange of
+                    ratifications.</p>
+                <p>Be pleased to accept [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Solon Ménos</hi>
+                    </signed>
+                </closer>
+
+
+
+
+
+                <xi:include href="d358-a1.xml" xpointer="d358-a1"/>
+                <xi:include href="d358-a2.xml" xpointer="d358-a2"/>
+                <xi:include href="d358-a3.xml" xpointer="d358-a3"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d358-f1" n="2" xml:id="d358-f1-content">
+                <p>Inclosure 1.</p>
+            </note>
+            <note corresp="#d358-f2" n="3" xml:id="d358-f2-content">
+                <p>Printed <ref target="#pg328">p. 328</ref>, post.</p>
+            </note>
+            <note corresp="#d358-f3" n="4" xml:id="d358-f3-content">
+                <p>Inclosure 2.</p>
+            </note>
+            <note corresp="#d358-f4" n="5" xml:id="d358-f4-content">
+                <p>Inclosure 3.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

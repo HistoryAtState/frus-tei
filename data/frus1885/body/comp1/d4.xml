@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1885_d4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Bayard to Mr. Osborn.</title>
+            </titleStmt>
+            <xi:include href="../../frus1885_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1885_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1885/d4"
+                    type="canonical"/>
+                <relatedItem target="d3.xml" type="prev"/>
+                <relatedItem target="d4-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1885</bibl>
+                <bibl type="frus-division-id">d4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="4" to="5" unit="page"
+                    >4–5</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1885-05-25"><hi rendition="#italic">May</hi>
+                        25, 1885</date>
+                    <date notAfter="1885-05-25T23:59:59-05:00" notBefore="1885-05-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d4">
+
+                <pb facs="0132" n="4" sameAs="frus:frus1885/pg4"/>
+
+                <opener><seg rendition="#center">No. 4.</seg></opener>
+                <head><hi rendition="#italic">Mr. Bayard to Mr. Osborn</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1885-05-25"><hi rendition="#italic">May</hi> 25,
+                        1885</date>.</dateline>
+                    <seg rendition="#float-left">No. 227.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose a copy of the material portion of
+                    a letter from Mr. Scrymser, president of the Central and South American
+                    Telegraph Company, 37 Wall street, New York, in continuation of the subject of
+                    the proposed extension of the telegraphic lines now existing to Brazil,
+                    presented in a recent telegram to you.</p>
+                <p>Please investigate the entire matter of the scheme and report. You can properly
+                    make known to the Argentine Government the general desire in this country and
+                    the wish of the Government for full and unimpeded telegraphic communication
+                    between the United States and the Argentine Republic.</p>
+                <p>I am, &amp;c.,</p>
+                <closer><signed>T. F. BAYARD.</signed></closer>
+
+
+                <xi:include href="d4-a1.xml" xpointer="d4-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

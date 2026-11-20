@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1931-41v01" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1931-41v01_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1931-41v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1931-41v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1931-41v01"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1931-41v01" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1931-41v01/covers/frus1931-41v01.jpg"/>
+                        <extent>
+                            <measure quantity="30364" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:11:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1931-41v01" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1931-41v01/ebook/frus1931-41v01.epub"/>
+                        <extent>
+                            <measure quantity="1607502" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:11:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1931-41v01" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1931-41v01/ebook/frus1931-41v01.mobi"/>
+                        <extent>
+                            <measure quantity="2152984" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:11:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1943 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">hoover</term>
+                    <term xml:id="admin3">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                    <term corresp="#admin3">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>japan</term>
+                    <term>china</term>
+                    <term>foreign-investment</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>quarantine-blockade</term>
+                    <term>war-crimes-and-war-criminals</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>hull-cordell</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>stimson-henry-lewis</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>spanish-american-war</term>
+                    <term>hoover-herbert</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1931-41v01" status="published" when="1943"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Papers Relating to the Foreign Relations of the United
+                        States Japan: 1931–1941</titlePart>
+                    <titlePart type="subseries">1931–1941</titlePart>
+                    <titlePart type="volumeno">(In Two Volumes)<lb/>Volume I</titlePart>
+                    <titlePart type="volumetitle"/>
+                </docTitle>
+                <docImprint>United States Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office<lb/>Washington</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1943</docDate>
+                    <pb facs="0006" n="II" xml:id="pgII"/> DEPARTMENT OF STATE<lb/><hi
+                        rendition="#small-caps">Publication</hi> 2008<lb/>For sale by
+                    the<lb/>Superintendent of Documents, U. S. Government Printing
+                    Office<lb/>Washington, D. C.<lb/>Price $2.25 (Buckram)</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0008" n="[IV]" xml:id="pgIV"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/directory.xml" xpointer="directory"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+        </front>
+        <body>
+            <pb facs="0095" n="[]" xml:id="pg-seq-0095"/>
+            <pb facs="0096" n="[]" xml:id="pg-seq-0096"/>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <pb facs="0254" n="[158]" xml:id="pg158"/>
+            <pb facs="0255" n="[159]" xml:id="pg159"/>
+            <pb facs="0256" n="[160]" xml:id="pg160"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <pb facs="0317" n="[221]" xml:id="pg221"/>
+            <pb facs="0318" n="[222]" xml:id="pg222"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <pb facs="0406" n="[310]" xml:id="pg310"/>
+            <pb facs="0407" n="[311]" xml:id="pg311"/>
+            <pb facs="0408" n="[312]" xml:id="pg312"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <pb facs="0580" n="[484]" xml:id="pg484"/>
+            <pb facs="0581" n="[485]" xml:id="pg485"/>
+            <pb facs="0582" n="[486]" xml:id="pg486"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <pb facs="0823" n="[727]" xml:id="pg727"/>
+            <pb facs="0824" n="[728]" xml:id="pg728"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <pb facs="0851" n="[755]" xml:id="pg755"/>
+            <pb facs="0852" n="[756]" xml:id="pg756"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <pb facs="1021" n="[925]" xml:id="pg925"/>
+            <pb facs="1022" n="[926]" xml:id="pg926"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+        </body>
+        <back>
+            <pb facs="1027" n="[931]" xml:id="pg931"/>
+            <pb facs="1028" n="[932]" xml:id="pg932"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+            <pb facs="1044" n="[]" xml:id="pg-seq-1044"/>
+            <pb facs="1045" n="[map 1]" xml:id="pg-seq-1045-map-1"/>
+            <pb facs="1046" n="[map 2]" xml:id="pg-seq-1046-map-2"/>
+        </back>
+    </text>
+</TEI>

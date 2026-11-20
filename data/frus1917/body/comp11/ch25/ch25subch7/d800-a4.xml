@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d800-a4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d800-a4"
+                    type="canonical"/>
+                <relatedItem target="d800-a3.xml" type="prev"/>
+                <relatedItem target="d800-a5.xml" type="next"/>
+                <relatedItem target="d800.xml" type="parent"/>
+                <relatedItem target="d800.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d800-a4</bibl>
+                <bibl type="frus-division-n">800.4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="634" to="634" unit="page"
+                        >634</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d800-a4">
+
+                <pb facs="0800" n="634" xml:id="pg634"/>
+
+                <opener>
+                    <seg rendition="#center">[Inclosure 4—Translation]</seg>
+                </opener>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <p rendition="#flush">
+                    <hi rendition="#italic">Notification concerning the cancellation of a
+                        concession, granted through supreme resolution of July 7, 1912, to a
+                        consortium for the drainage and deepening of a certain area within the
+                        harbor on the Danish West India Island of St. Thomas</hi>.</p>
+                <p>The Consortium for the drainage and deepening of an area within the harbor on the
+                    Danish West India Island of St. Thomas having relinquished and delivered back
+                    the concession granted by supreme resolution of July 7, 1912, for the drainage
+                    and deepening of an area within the harbor on the Danish West India Island of
+                    St. Thomas, it has pleased His Majesty the King, on the recommendation of the
+                    Ministry of Finance, to annul said concession by means of the supreme resolution
+                    of the 23d instant.</p>
+                <p>All of which is hereby brought to public knowledge.</p>
+                <closer>
+                    <dateline rendition="#float-left">
+                        <hi rendition="#small-caps">Ministry of Finance</hi>, <date
+                            calendar="gregorian" when="1913-01-31"><hi rendition="#italic">January
+                                31, 1913</hi></date>.</dateline>
+                    <lb/>
+                    <signed>
+                        <list>
+                            <item>
+                                <hi rendition="#small-caps">N. Neergaard</hi>
+                            </item>
+                            <item>
+                                <hi rendition="#small-caps">C. Dines Hansen</hi>
+                            </item>
+                        </list>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

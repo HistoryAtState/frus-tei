@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d812" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d812"
+                    type="canonical"/>
+                <relatedItem target="d811.xml" type="prev"/>
+                <relatedItem target="d813.xml" type="next"/>
+                <relatedItem target="../ch25subch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d812</bibl>
+                <bibl type="frus-division-n">812</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="645" to="645" unit="page"
+                        >645</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Copenhagen</hi></placeName>
+                    <date calendar="gregorian" when="1916-08-07T17:00:00+02:00">
+                        <hi rendition="#italic">August 7, 1916, 5 p.m.</hi>
+                    </date>
+                    <date notAfter="1916-08-07T10:00:00-05:00" notBefore="1916-08-07T10:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d812">
+
+                <pb facs="0811" n="645" sameAs="frus:frus1917/pg645"/>
+
+                <note rend="inline" type="source">File No. 711.5914/79</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Copenhagen</hi></placeName>, <date
+                            calendar="gregorian" when="1916-08-07T17:00:00+02:00">
+                            <hi rendition="#italic">August 7, 1916, 5 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>289. Referring to the Legation’s number 287, August 7, 3 p.m. Foreign Office
+                    informs me that first publicity came to Copenhagen in a despatch from Ambassador
+                    Jusserand to Bapst, French Minister here. Bapst is the only one of my colleagues
+                    who openly finds our policy of buying Danish West Indies objectionable. He tells
+                    Foreign Office that it may lead to buying of Martinique.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Egan</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

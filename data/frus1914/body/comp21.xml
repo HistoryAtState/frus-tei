@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_comp21" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honduras:</title>
+            </titleStmt>
+            <xi:include href="../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/comp21"
+                    type="canonical"/>
+                <relatedItem target="comp20/ch83/d599.xml" type="prev"/>
+                <relatedItem target="comp21/ch84.xml" type="next"/>
+                <relatedItem target="../frus1914.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">comp21</bibl>
+                <bibl type="frus-division-n">21</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="387" to="387" unit="page"
+                        >387</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1914-01-24T23:59:59-05:00" notBefore="1914-01-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp21">
+
+                <pb facs="0503" n="387" xml:id="pg387"/>
+
+                <head>Honduras:</head>
+
+                <xi:include href="comp21/ch84.xml" xpointer="ch84"/>
+            </div>
+        </body>
+    </text>
+</TEI>

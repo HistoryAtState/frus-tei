@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1889_comp3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Belgium</title>
+            </titleStmt>
+            <xi:include href="../frus1889_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1889_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1889/comp3"
+                    type="canonical"/>
+                <relatedItem target="comp2/ch1/d25.xml" type="prev"/>
+                <relatedItem target="comp3/d26.xml" type="next"/>
+                <relatedItem target="../frus1889.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1889</bibl>
+                <bibl type="frus-division-id">comp3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="46" to="56" unit="page"
+                        >46–56</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1889-02-12T23:59:59-05:00" notBefore="1888-10-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp3">
+
+                <pb facs="0164" n="46" xml:id="pg46"/>
+
+                <head>Belgium</head>
+
+
+
+
+
+
+
+                <xi:include href="comp3/d26.xml" xpointer="d26"/>
+                <xi:include href="comp3/d27.xml" xpointer="d27"/>
+                <xi:include href="comp3/d28.xml" xpointer="d28"/>
+                <xi:include href="comp3/d29.xml" xpointer="d29"/>
+                <xi:include href="comp3/d30.xml" xpointer="d30"/>
+                <xi:include href="comp3/d31.xml" xpointer="d31"/>
+                <xi:include href="comp3/d32.xml" xpointer="d32"/>
+            </div>
+        </body>
+    </text>
+</TEI>

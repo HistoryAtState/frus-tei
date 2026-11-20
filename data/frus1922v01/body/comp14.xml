@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1922v01_comp14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Cuba:</title>
+            </titleStmt>
+            <xi:include href="../frus1922v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1922v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1922v01/comp14"
+                    type="canonical"/>
+                <relatedItem target="comp13/ch46/d827.xml" type="prev"/>
+                <relatedItem target="comp14/ch47.xml" type="next"/>
+                <relatedItem target="../frus1922v01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1922v01</bibl>
+                <bibl type="frus-division-id">comp14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1004" to="1053" unit="page"
+                        >1004–53</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1923-01-13T14:00:00-05:00" notBefore="1921-12-09T18:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp14">
+
+                <pb facs="1124" n="1004" xml:id="pg1004"/>
+
+                <head>Cuba:</head>
+
+
+                <xi:include href="comp14/ch47.xml" xpointer="ch47"/>
+                <xi:include href="comp14/ch48.xml" xpointer="ch48"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d201" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marshal Stalin to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d201"
+                    type="canonical"/>
+                <relatedItem target="d200.xml" type="prev"/>
+                <relatedItem target="d202.xml" type="next"/>
+                <relatedItem target="../ch2subch12.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d201</bibl>
+                <bibl type="frus-division-n">201</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="288" to="289" unit="page"
+                        >288–89</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1944-12-03T23:59:59-05:00" notBefore="1944-12-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_DG1">De Gaulle, General Charles</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d201">
+
+                <pb facs="0374" n="288" sameAs="frus:frus1945Malta/pg288"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head>
+                    <hi rendition="#italic">Marshal Stalin to President Roosevelt </hi><anchor n="1"
+                        xml:id="d201-f1"/>
+                </head>
+                <p>Secret and Personal from Premier J. V. Stalin to President Franklin
+                    Roosevelt.</p>
+                <p>The meeting with General De-Gaulle gave the possibility for the friendly exchange
+                    of opinions on the questions of Franco-Soviet relations. In the course of the
+                    conversation, as I had supposed, General De-Gaulle touched two main questions:
+                    about the frontier of <pb facs="0375" n="289" xml:id="pg289"/> France on the
+                    Rhine and about the conclusion of Franco-Soviet pact of mutual assistance
+                    similar to the Anglo-Soviet Treaty.</p>
+                <p>As to the frontier of France on the Rhine I expressed the idea that this question
+                    cannot be solved without knowledge and consent of our main Allies, whose forces
+                    are carrying on the struggle for liberation against the Germans on the French
+                    territory. I stressed the complexity of the solution of this question.</p>
+                <p>In connection with the proposal of Franco-Soviet pact I pointed out the necessity
+                    of close study of this question, the necessity of clarification of juridical
+                    nature of such pact, in particular such question as who will ratify this pact in
+                    France under the present conditions. Thus the Frenchmen should still give some
+                    explanations which we have not yet received from them.</p>
+                <p>In sending you this message I would appreciate your reply and your comments on
+                    these questions.</p>
+                <p>Similar message I sent to Mr. Churchill.<anchor n="2" xml:id="d201-f2"/>
+                </p>
+                <p>I send you my best wishes.</p>
+                <closer>
+                    <dateline rendition="#float-left">
+                        <date calendar="gregorian" when="1944-12-03"><hi rendition="#small-caps"
+                                >December</hi> 3, 1944</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d201-f1" n="1" type="source" xml:id="d201-f1-content">
+                <p>Apparently transmitted by the Soviet Embassy, Washington.</p>
+            </note>
+            <note corresp="#d201-f2" n="2" xml:id="d201-f2-content">
+                <p>Printed in Churchill, <ref target="#pg257">p. 257</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

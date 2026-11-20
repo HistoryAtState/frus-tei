@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945v01_d105" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to the British Prime Minister (Churchill)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1945v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1945v01/d105"
+                    type="canonical"/>
+                <relatedItem target="d104.xml" type="prev"/>
+                <relatedItem target="d106.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945v01</bibl>
+                <bibl type="frus-division-id">d105</bibl>
+                <bibl type="frus-division-n">105</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="165" to="165" unit="page"
+                        >165</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washinton</hi></placeName>
+                    <date calendar="gregorian" when="1945-03-29">29 March, 1945</date>
+                    <date notAfter="1945-03-29T23:59:59-05:00" notBefore="1945-03-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945v01/persons">
+                    <term ref="frus:frus1945v01/persons#p_GAA1">Gromyko, Andrey Andreyevich</term>
+                    <term ref="frus:frus1945v01/persons#p_MVM1">Molotov, Vyacheslav
+                        Mikhailovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d105">
+
+                <pb facs="0227" n="165" xml:id="pg165"/>
+
+                <head>
+                    <hi rendition="#italic">President Roosevelt to the British Prime Minister</hi>
+                        (<hi rendition="#italic">Churchill</hi>)<anchor n="47" xml:id="d105-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washinton</hi></placeName>, <date
+                            calendar="gregorian" when="1945-03-29">29 March, 1945</date>.</dateline>
+                </opener>
+                <p>727. The following interchange of messages between Marshal Stalin and myself is
+                    quoted for your information.<anchor n="48" xml:id="d105-f2"/>
+                </p>
+                <p>[Here follows text of telegram from President Roosevelt to Marshal Stalin, March
+                    24, printed on <ref target="#pg156">page 156</ref>.]</p>
+                <quote rend="blockquote">
+                    <p>“Marshal Stalin to President, 27 March.</p>
+                    <p>We extremely value and attach great importance to the forthcoming Conference
+                        at San Francisco, called to found the international organization of peace
+                        and security for peoples but circumstances have developed in such a way that
+                        Mr. V. M. Molotov, really, is not able td participate in the Conference. I
+                        and Mr. Molotov regret it extremely but the convening, on request of the
+                        deputies of the Supreme Soviet, in April, of a session of the Supreme.
+                        Soviet of the USSR where the presence of Mr. Molotov is absolutely
+                        necessary, is excluding the possibility of his participation even in the
+                        first Meetings of the Conference.</p>
+                    <p>You also know that Ambassador Gromyko has quite successfully accomplished his
+                        task in Dumbarton Oaks and we are confident that he will with great success
+                        head the Soviet delegation in San Francisco.</p>
+                    <p>As regards various interpretations, you understand, this cannot determine the
+                        decisions which are to be made”</p>
+                </quote>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d105-f1" n="47" type="source" xml:id="d105-f1-content">
+                <p>Transmitted by the White House Map Room Via Navy channels. Copy of telegram
+                    obtained from the Franklin D. Roosevelt Library, Hyde Park, N.Y.</p>
+            </note>
+            <note corresp="#d105-f2" n="48" xml:id="d105-f2-content">
+                <p>Marshal Stalin’s reply to, the President was quoted also in telegram 741, March
+                    30, 3 p.m., to Moscow, not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

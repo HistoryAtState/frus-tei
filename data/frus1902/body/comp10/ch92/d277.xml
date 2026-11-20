@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d277" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Señor Quesada to Mr. Say.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d277"
+                    type="canonical"/>
+                <relatedItem target="../ch92.xml" type="prev"/>
+                <relatedItem target="d277-a1.xml" type="next"/>
+                <relatedItem target="../ch92.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d277</bibl>
+                <bibl type="frus-division-n">277</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="325" to="326" unit="page"
+                        >325–26</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of Cuba</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1902-06-17"><hi rendition="#italic">June 17,
+                            1902</hi></date>
+                    <date notAfter="1902-06-17T23:59:59-05:00" notBefore="1902-06-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d277">
+
+                <pb facs="0405" n="325" sameAs="frus:frus1902/pg325"/>
+
+                <head><hi rendition="#italic">Señor Quesada to Mr. Say</hi>.</head>
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of Cuba</hi>,<lb/><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1902-06-17"><hi rendition="#italic">June 17,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 3.]</seg></opener>
+                <p><hi rendition="#small-caps">Excellency</hi>: In compliance with instructions of
+                    my Government, I have the honor to send you a resolution of the House of
+                    Representatives of the Republic of Cuba of the 23d of May last, and sent to the
+                    honorable President of Cuba for transmission to the honorable President of the
+                    United States.</p>
+                <p>I avail, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Gonzalo de
+                    Quesada.</hi></signed></closer>
+
+
+                <xi:include href="d277-a1.xml" xpointer="d277-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

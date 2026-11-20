@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1989-92v07" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1989-92v07_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1989-92v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1989-92v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1989-92v07"
+                    type="canonical"/>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1989-92v07"
+                    type="canonical"/>
+            </notesStmt>
+            <sourceDesc>
+                <p>Born digital</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">bush-ghw</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="being-cleared">
+            <change corresp="#frus1989-92v07" status="being-cleared"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <p>For the current status of this publication, see the “revisionDesc” block above, or
+                visit the <ref
+                    target="https://history.state.gov/historicaldocuments/status-of-the-series"
+                    >Status of the Series</ref> page.</p>
+        </body>
+    </text>
+</TEI>

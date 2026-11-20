@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d432" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the British Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d432"
+                    type="canonical"/>
+                <relatedItem target="d431-a1.xml" type="prev"/>
+                <relatedItem target="d433.xml" type="next"/>
+                <relatedItem target="../ch9subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d432</bibl>
+                <bibl type="frus-division-n">432</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="989" to="989" unit="page"
+                        >989</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-18">18 August 1943</date>
+                    <date notAfter="1943-08-18T23:59:59-05:00" notBefore="1943-08-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                    <term ref="frus:frus1943/terms#t_Overlord1">Overlord</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d432">
+
+                <pb facs="1103" n="989" xml:id="pg989"/>
+
+                <note rend="inline" type="source"> J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the British Chiefs of Staff</hi><anchor
+                        n="1" xml:id="d432-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">most secret</hi>
+                        <lb/> Enclosure to C.C.S. 314/1</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-18">18 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Allocation of Landing Ships and Craft—American
+                        Production</hi>
+                </p>
+                <p>It will be remembered that in April 1943, the Combined Chiefs of Staff agreed
+                    (C.C.S. 105/4<anchor n="2" xml:id="d432-f2"/>) that future allocations of
+                    additional landing craft from U.S. production to the United Kingdom, as could be
+                    made available and as would be needed for specific employment and specifically
+                    projected operations, be accomplished by arrangement between the United States
+                    and British Naval Staffs, and formally processed through the Munitions
+                    Assignments Committee, Navy, subject to the approval of the Munitions
+                    Assignments Board in Washington.</p>
+                <list>
+                    <label>2.</label>
+                    <item>No specific operations for the War against Germany, after <hi
+                            rendition="#small-caps">Overlord</hi>, have yet been decided upon. For
+                        the War against Japan, it is hoped that decisions will shortly be taken on
+                        the scope and extent of British participation. In order to prepare the
+                        British Assault Fleet and to estimate British manning commitments for
+                        1944/45, the British Chiefs of Staff wish to formulate their programme
+                        without waiting for specific operational decisions.</item>
+                    <label>3.</label>
+                    <item>We, therefore, recommend that the Combined Chiefs of Staff should agree: <list>
+                            <label>
+                                <hi rendition="#italic">a</hi>.</label>
+                            <item>To modify the policy previously accepted.</item>
+                            <label>
+                                <hi rendition="#italic">b</hi>.</label>
+                            <item>That the British should now work out and submit requests for a
+                                share of U.S. production in 1944–45.</item>
+                        </list>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d432-f1" n="1" type="source" xml:id="d432-f1-content">
+                <p>Circulated under cover of the following note by the Secretaries of the Combined
+                    Chiefs of Staff (C.C.S. 314/1), August 18, 1943: “In order to save delay, the
+                    enclosure prepared by the Chief of Combined Operations [Vice Admiral
+                    Mountbatten], in consultation with the British Joint Planning Staff, is
+                    presented direct to the Combined Chiefs of Staff for their consideration.”</p>
+                <p>For the discussion of this paper at the 112th Meeting of the Combined Chiefs of
+                    Staff, August 19, 1943, see <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg892">p. 892</ref>.</p>
+            </note>
+            <note corresp="#d432-f2" n="2" xml:id="d432-f2-content">
+                <p>“Transportation of Landing Craft”, April 9, 1943; not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

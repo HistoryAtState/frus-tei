@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916Supp_d464" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Great Britain (Page) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1916Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1916Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1916Supp/d464"
+                    type="canonical"/>
+                <relatedItem target="../subch17.xml" type="prev"/>
+                <relatedItem target="d464-a1.xml" type="next"/>
+                <relatedItem target="../subch17.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916Supp</bibl>
+                <bibl type="frus-division-id">d464</bibl>
+                <bibl type="frus-division-n">464</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="352" to="353" unit="page"
+                        >352–53</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1916-02-19">
+                        <hi rendition="#italic">February 19, 1916</hi>
+                    </date>
+                    <date notAfter="1916-02-19T23:59:59-05:00" notBefore="1916-02-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1916Supp/persons">
+                    <term ref="frus:frus1916Supp/persons#p_PWH1">Page, Walter Hines</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d464">
+
+                <pb facs="0638" n="352" sameAs="frus:frus1916Supp/pg352"/>
+
+                <note rend="inline" type="source">File No. 763.72112/2303</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Great Britain</hi> (<hi
+                        rendition="#italic">Page</hi>) <hi rendition="#italic">to the Secretary of
+                        State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 3092</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1916-02-19">
+                            <hi rendition="#italic">February 19, 1916</hi>
+                        </date>.<lb/>[<hi rendition="#italic">Received March 6</hi>.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: With reference to the Department’s
+                    cablegram No. 2774<anchor n="1" xml:id="d464-f1"/> of January 25, and my
+                    telegraphic reply No. 3913 of the 18th instant,<anchor n="2" xml:id="d464-f2"
+                    />relative to the possible effects of the Trading with the Enemy (Extension of
+                    Powers) Act, 1915, on the commerce of the United States, I have the honor to
+                    transmit herewith, for the information of the Department, a copy of the note,
+                    dated the 16th instant, which has been addressed to the Embassy by the Foreign
+                    Trade Department of the Foreign Office in this connection.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Walter Hines Page</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d464-a1.xml" xpointer="d464-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d464-f1" n="1" xml:id="d464-f1-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg339">p. 339</ref>.</p>
+            </note>
+            <note corresp="#d464-f2" n="2" xml:id="d464-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

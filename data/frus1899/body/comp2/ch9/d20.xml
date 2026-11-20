@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Tower.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d20"
+                    type="canonical"/>
+                <relatedItem target="../ch9.xml" type="prev"/>
+                <relatedItem target="d20-a1.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="40" to="41" unit="page"
+                        >40–41</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1899-01-25"><hi rendition="#italic">January 25,
+                            1899</hi></date>
+                    <date notAfter="1899-01-25T23:59:59-05:00" notBefore="1899-01-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20">
+
+                <pb facs="0132" n="40" sameAs="frus:frus1899/pg40"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. Tower.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1899-01-25"><hi rendition="#italic">January 25,
+                        1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 199.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose for your information copy of a
+                    letter from the Secretary of Agriculture relative to the complaint of the Cudahy
+                    Packing Company, of South Omaha, Nebr., that the Austrian Government is
+                    enforcing a new ministerial decree which exacts the payment of duty on the salt
+                    in which meats are packed in addition to the duty collected on the meats
+                    themselves.</p>
+                <p>You are instructed to investigate the matter promptly and to report the result to
+                    the Department.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+
+                <xi:include href="d20-a1.xml" xpointer="d20-a1"/>
+                <xi:include href="d20-a2.xml" xpointer="d20-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

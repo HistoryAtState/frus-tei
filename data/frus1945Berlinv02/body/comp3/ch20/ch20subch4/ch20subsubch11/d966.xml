@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d966" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 966</title>
+                <title type="subtitle">Proposal by the United States Delegation</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d966"
+                    type="canonical"/>
+                <relatedItem target="d965.xml" type="prev"/>
+                <relatedItem target="d967.xml" type="next"/>
+                <relatedItem target="../ch20subsubch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d966</bibl>
+                <bibl type="frus-division-n">966</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="926" to="927" unit="page"
+                        >926–27</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Babelsberg</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-31">July 31, 1945</date>
+                    <date notAfter="1945-07-31T23:59:59-05:00" notBefore="1945-07-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/persons">
+                    <term ref="frus:frus1945Berlinv02/persons#p_PEW1">Pauley, Edwin W.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d966">
+
+                <pb facs="1120" n="926" sameAs="frus:frus1945Berlinv02/pg926"/>
+
+                <note rend="inline" type="source">Pauley Files</note>
+                <head>No. 966<lb/><hi rendition="#italic">Proposal by the United States
+                        Delegation</hi><anchor n="1" xml:id="d966-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Babelsberg</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-07-31">July 31, 1945</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Restatement of United States
+                        Proposal on German Reparations</hi></p>
+                <list>
+                    <label>1.</label>
+                    <item>Reparations claims of Russia and Poland to be satisfied from the Russian
+                        zone plus <list>
+                            <label>(<hi rendition="#italic">a</hi>)</label>
+                            <item>25% of such industrial capital equipment as is determined is not
+                                necessary for a peace economy and should be removed from the Ruhr on
+                                condition that there would be exchanged an equivalent value in food,
+                                coal, potash, zinc, timber, clay products and oil products, to be
+                                made available to us by the Soviets.</item>
+                        </list></item>
+                </list>
+                <pb facs="1121" n="[Map 4]" xml:id="pg-seq-1120-map-4"/>
+                <figure>
+                    <graphic url="figure_1121"/>
+                </figure>
+                <pb facs="1122" n="[]" xml:id="pg-seq-1121"/>
+                <pb facs="1123" n="927" xml:id="pg927"/>
+                <list>
+                    <label/>
+                    <item>
+                        <list>
+                            <label>(<hi rendition="#italic">b</hi>)</label>
+                            <item>An additional 15% of such industrial capital equipment as is
+                                determined unnecessary for a peace economy should be transferred
+                                from the Ruhr to the Soviet government without payment or exchange
+                                of any kind in return.</item>
+                        </list></item>
+                    <label>2.</label>
+                    <item>Removals of capital equipment in accordance with Paragraph 1. above shall
+                        be completed by May 10, 1947. Commodities shipped in exchange under (<hi
+                            rendition="#italic">a</hi>) above shall be completed not later than May
+                        10, 1951.</item>
+                    <label>3.</label>
+                    <item>For purposes of the above agreement the Ruhr is defined in accordance with
+                        the attached map.<anchor n="2" xml:id="d966-f2"/></item>
+                    <label>4.</label>
+                    <item>The determination of the amount and character of the industrial capital
+                        equipment unnecessary for a peace economy and therefore available for
+                        reparation would be made by the Allied Commission on Reparations with France
+                        added working in consultation with the Control Council subject to the final
+                        approval of the zone commander in the zone from which the equipment is to be
+                        removed. Further details shall be determined by the Allied Commission on
+                        Reparations with France added.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d966-f1" n="1" type="source" xml:id="d966-f1-content">
+                <p>This may have been the paper before the Eleventh Plenary Meeting, July 31. See
+                        <hi rendition="#italic">ante</hi>, <ref target="#pg512">p. 512</ref>. For a
+                    subsequent modification of this paper, see <ref target="#d980">document No.
+                        980</ref>.</p>
+            </note>
+            <note corresp="#d966-f2" n="2" xml:id="d966-f2-content">
+                <p>Facing <ref target="#pg926">p. 926</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

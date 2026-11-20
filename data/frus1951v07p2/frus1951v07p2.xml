@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1951v07p2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1951v07p2_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1951v07p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1951v07p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1951v07p2"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1951v07p2" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1951v07p2/covers/frus1951v07p2.jpg"/>
+                        <extent>
+                            <measure quantity="30184" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:14:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1951v07p2" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1951v07p2/ebook/frus1951v07p2.epub"/>
+                        <extent>
+                            <measure quantity="1034083" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:14:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1951v07p2" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1951v07p2/ebook/frus1951v07p2.mobi"/>
+                        <extent>
+                            <measure quantity="1699381" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:14:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1983 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>china</term>
+                    <term>asylum</term>
+                    <term>italy</term>
+                    <term>macau</term>
+                    <term>portugal</term>
+                    <term>foreign-aid</term>
+                    <term>acheson-dean-gooderham</term>
+                    <term>truman-harry-s</term>
+                    <term>australia</term>
+                    <term>belgium</term>
+                    <term>burma</term>
+                    <term>canada</term>
+                    <term>united-nations</term>
+                    <term>united-kingdom</term>
+                    <term>france</term>
+                    <term>quarantine-blockade</term>
+                    <term>denmark</term>
+                    <term>india</term>
+                    <term>indonesia</term>
+                    <term>israel</term>
+                    <term>japan</term>
+                    <term>taiwan</term>
+                    <term>national-security-council</term>
+                    <term>philippines</term>
+                    <term>south-africa</term>
+                    <term>thailand</term>
+                    <term>wake-island</term>
+                    <term>bhutan</term>
+                    <term>paracel-islands</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1951v07p2" status="published" when="1983"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1951</titlePart>
+                    <titlePart type="volumeno">Volume VII, Part 2</titlePart>
+                    <titlePart type="volumetitle">Korea and China</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline>
+                    <hi rendition="#italic">General Editor</hi> Fredrick Aandahl </byline>
+                <byline>
+                    <hi rendition="#italic">Editors</hi> Jhon P. Glennon <lb/> Harriet D. Schwar
+                    <lb/> Paul Claussen </byline>
+                <lb/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1983</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication 9271 <lb/>
+                    <hi rendition="#small-caps">Office of the Historian</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the<lb/>U.S. Government Book Store<lb/>Department of
+                    State<lb/>Washington, D.C. 20520 </docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0015" n="XI" xml:id="pgXI"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <pb facs="0598" n="2056" xml:id="pg2056"/>
+            <pb facs="0599" n="[2057]" xml:id="pg2057"/>
+            <pb facs="0600" n="2058" xml:id="pg2058"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

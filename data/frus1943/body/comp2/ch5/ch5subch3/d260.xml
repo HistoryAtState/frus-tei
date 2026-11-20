@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d260" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Assistant to the President’s Military Aide (Hammond) to the President’s
+                    Naval Aide (Brown)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d260"
+                    type="canonical"/>
+                <relatedItem target="d259.xml" type="prev"/>
+                <relatedItem target="d261.xml" type="next"/>
+                <relatedItem target="../ch5subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d260</bibl>
+                <bibl type="frus-division-n">260</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="550" to="550" unit="page"
+                        >550</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-03">3 August 1943</date>
+                    <date notAfter="1943-08-03T23:59:59-05:00" notBefore="1943-08-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_White1">White</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d260">
+
+                <pb facs="0664" n="550" sameAs="frus:frus1943/pg550"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The Assistant to the President’s Military Aide</hi> (<hi
+                        rendition="#italic">Hammond</hi>) <hi rendition="#italic">to the President’s
+                        Naval Aide</hi> (<hi rendition="#italic">Brown</hi>)<anchor n="1"
+                        xml:id="d260-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-03">3 August 1943</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">White</hi> 30. In our telephone conversation at
+                    11:10 a.m. August 3 we decided if you did not call me back in 15 minutes I could
+                    assume the President had approved the conditions to make Rome an open city as
+                    set out in <hi rendition="#small-caps">White</hi> 25.<anchor n="2"
+                        xml:id="d260-f2"/> When you did not call by 11:30 a.m. in accordance with
+                    the above agreement I notified General Marshall the President had approved the
+                    conditions.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d260-f1" n="1" type="source" xml:id="d260-f1-content">
+                <p>Brown was with Roosevelt at Birch Island.</p>
+            </note>
+            <note corresp="#d260-f2" n="2" xml:id="d260-f2-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg530">p. 530</ref>, fn.
+                    1.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v13p1_d65" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Secretary of Defense (Lovett) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../frus1952-54v13p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1952-54v13p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v13p1/d65"
+                    type="canonical"/>
+                <relatedItem target="d64.xml" type="prev"/>
+                <relatedItem target="d65-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v13p1</bibl>
+                <bibl type="frus-division-id">d65</bibl>
+                <bibl type="frus-division-n">65</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="147" to="150" unit="page"
+                        >147–50</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1952-05-20">20 May 1952</date>
+                    <date notAfter="1952-05-20T23:59:59-05:00" notBefore="1952-05-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v13p1/persons">
+                    <term ref="frus:frus1952-54v13p1/persons#p_AD1">Acheson, Dean</term>
+                    <term ref="frus:frus1952-54v13p1/persons#p_LR1">Lovett, Robert A.</term>
+                </keywords>
+                <keywords scheme="frus:frus1952-54v13p1/terms">
+                    <term ref="frus:frus1952-54v13p1/terms#t_NSC1">NSC</term>
+                    <term ref="frus:frus1952-54v13p1/terms#t_SCEM1">SCEM</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d65">
+
+                <pb facs="0179" n="147" sameAs="frus:frus1952-54v13p1/pg147"/>
+
+                <note rend="inline" type="source">611.51G/5–2052</note>
+                <head><hi rendition="#italic">The Secretary of Defense</hi> (<hi rendition="#italic"
+                        >Lovett</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1952-05-20">20 May 1952</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Dear Mr. Secretary</hi>: There is inclosed a
+                    memorandum by the Joint Chiefs of Staff which sets forth their views and
+                    comments on the State Department Draft “Postion Paper on Indochina for
+                    Discussions With the French and the British”, dated 15 May 1952<anchor n="1"
+                        xml:id="d65-f1"/></p>
+                <p>I concur with the views of the Joint Chiefs of Staff. However, I should like to
+                    make it explicit that the concurrence of the Department of Defense in Paragraph
+                    8 of the basic paper is without prejudice to the further development in the
+                    National Security Council, in connection with NSC 124,<anchor n="2"
+                        xml:id="d65-f2"/> of a more constructive long-range United States policy
+                    toward Indochina.</p>
+                <p>Sincerely yours,</p>
+                <closer><signed><hi rendition="#small-caps">Robert A. Lovett</hi></signed></closer>
+
+
+                <xi:include href="d65-a1.xml" xpointer="d65-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d65-f1" n="1" xml:id="d65-f1-content">
+                <p>The draft of May 15 is described in <ref target="#d63-f1">footnote 1, p.
+                        144</ref>.</p>
+                <p>The modifications proposed in the attached memorandum were incorporated into the
+                    interdepartmentally approved version of the position paper, SCEM D–6/11, May 21
+                        (<ref target="#d66"><hi rendition="#italic">infra</hi></ref>), with one
+                    exception. In a letter of May 23, Secretary of State Acheson informed Secretary
+                    Lovett that the Department of State found acceptable the comments of the Joint
+                    Chiefs of Staff with the exception of point 2<hi rendition="#italic">a</hi> of
+                    their memorandum. Acheson pointed out that informal interdepartmental
+                    discussions had already resulted in agreed changes in paragraph 7 of the draft
+                    position paper. (611.51G/5–2052) These agreed changes are reflected in
+                    interdepartmentally approved paper SCEM D–6/11.</p>
+            </note>
+            <note corresp="#d65-f2" n="2" xml:id="d65-f2-content">
+                <p>Reports in the NSC 124 series concerning United States objectives and courses of
+                    action in Southeast Asia and related documentation are included in material on
+                    general U.S. policies with respect to the East Asian-Pacific area in <ref
+                        target="frus1952-54v12p1">volume <hi rendition="#small-caps"
+                    >xii</hi></ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914-20v02_d401" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>General Carranza to Mr. Arredondo </title>
+            </titleStmt>
+            <xi:include href="../../../frus1914-20v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914-20v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914-20v02/d401"
+                    type="canonical"/>
+                <relatedItem target="d400.xml" type="prev"/>
+                <relatedItem target="d402.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914-20v02</bibl>
+                <bibl type="frus-division-id">d401</bibl>
+                <bibl type="frus-division-n">401</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="556" to="557" unit="page"
+                        >556–57</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Mexico City</hi></placeName>
+                    <date calendar="gregorian" when="1916-05-08">
+                        <hi rendition="#italic">May 8, 1916</hi>
+                    </date>
+                    <date notAfter="1916-05-08T23:59:59-05:00" notBefore="1916-05-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d401">
+
+                <pb facs="0602" n="556" sameAs="frus:frus1914-20v02/pg556"/>
+
+                <note rend="inline" type="source">812.00/18145½: Telegram</note>
+                <head>
+                    <hi rendition="#italic">General Carranza to Mr. Arredondo </hi><anchor n="28"
+                        xml:id="d401-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Translation]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Mexico City</hi></placeName>, <date
+                            calendar="gregorian" when="1916-05-08">
+                            <hi rendition="#italic">May 8, 1916</hi>
+                        </date>.</dateline>
+                </opener>
+                <p>Our enemies, having knowledge of the contents of the projected memorandum of
+                    agreement between Generals Obregon and Scott<anchor n="29" xml:id="d401-f2"/>
+                    have continued to organize bands on both sides of the boundary line for the
+                    purpose of attacking American detachments and towns in an endeavor to provoke an
+                    international conflict. It is urgent that you should speak with His Excellency
+                    Mr. Lansing in order to see whether it is possible that a quick agreement may be
+                    reached for the vigilance of the boundary and the reciprocal crossing of forces
+                    in pursuit of these bands, or at least that Generals Scott and Obregon could
+                    come to an agreement with regard to the location and adequate distribution of
+                    the forces of one and the other country in their respective territory on both
+                    sides of the boundary line in order to keep a watch over it. Please explain to
+                    the Washington Government that one Government and the other are equally obliged
+                    to prevent the organization of these bands and to endeavor to secure an
+                    effective vigilance as incidents such as the one occurring in Boquillas cannot
+                    be exclusively charged to the Government of Mexico because it is in <pb
+                        facs="0603" n="557" xml:id="pg557"/> American territory that these bands are
+                    organized and are causing depredations in one country as well as in the
+                    other.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">V. Carranza</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d401-f1" n="28" type="source" xml:id="d401-f1-content">
+                <p>This paper bears the notation: “Handed me by Mr. Arredondo May 9/16 am. RL.”</p>
+            </note>
+            <note corresp="#d401-f2" n="29" xml:id="d401-f2-content">
+                <p>See <ref target="frus1916#pg_527">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1916, pp. 527</ref>—<ref
+                        target="frus1916#pg_547">547</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

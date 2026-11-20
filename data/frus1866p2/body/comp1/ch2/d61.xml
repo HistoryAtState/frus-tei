@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1866p2_d61" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Sanford to Mr. Seward.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1866p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1866p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1866p2/d61"
+                    type="canonical"/>
+                <relatedItem target="d60.xml" type="prev"/>
+                <relatedItem target="d61-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1866p2</bibl>
+                <bibl type="frus-division-id">d61</bibl>
+                <bibl type="frus-division-n">61</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="60" to="61" unit="page"
+                        >60–61</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                        <hi rendition="#italic">Brussels,</hi></placeName>
+                    <date calendar="gregorian" when="1866-01-23"><hi rendition="#italic"
+                            >January</hi> 23, 1866</date>
+                    <date notAfter="1866-01-23T23:59:59-05:00" notBefore="1866-01-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d61">
+
+                <pb facs="0134" n="60" sameAs="frus:frus1866p2/pg60"/>
+
+                <head>Mr. Sanford to Mr. Seward.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 337.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                            <hi rendition="#italic">Brussels,</hi></placeName>
+                        <date calendar="gregorian" when="1866-01-23"><hi rendition="#italic"
+                                >January</hi> 23, 1866</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith, in
+                    translation, as interesting in connection with our own legislation upon the
+                    subject, the provisions of a bill for preventing the introduction and spread of
+                    the cattle plague, which was presented in the house of representatives yesterday
+                    by the minister of the interior.</p>
+                <p>I have asked our consul at Ghent to collect and send over to you a complete
+                    collection of the laws, ordinances, and regulations bearing on this subject.</p>
+                <p>I have the honor to be, with great respect, your most obedient servant,</p>
+                <closer>
+                    <signed>H. J. SANFORD.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward,</hi>
+                        <hi rendition="#italic">Secretary of State, Washington, D. C.</hi></p>
+                </postscript>
+
+
+
+                <xi:include href="d61-a1.xml" xpointer="d61-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

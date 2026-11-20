@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d805" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Consul General at Seoul to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d805"
+                    type="canonical"/>
+                <relatedItem target="d804.xml" type="prev"/>
+                <relatedItem target="d805-a1.xml" type="next"/>
+                <relatedItem target="../ch64.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d805</bibl>
+                <bibl type="frus-division-n">805</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="646" to="647" unit="page"
+                        >646–47</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Consulate General</hi>, <lb/>
+                        <hi rendition="#italic">Seoul</hi></placeName>
+                    <date calendar="gregorian" when="1912-11-02">
+                        <hi rendition="#italic">November 2, 1912</hi></date>
+                    <date notAfter="1912-11-02T23:59:59-05:00" notBefore="1912-11-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d805">
+
+                <pb facs="0762" n="646" sameAs="frus:frus1912/pg646"/>
+
+                <note rend="inline" type="source">File No. 895.52/14.</note>
+                <head>
+                    <hi rendition="#italic">The American Consul General at Seoul to the Secretary of
+                        State</hi>.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 382.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Consulate General</hi>, <lb/>
+                            <hi rendition="#italic">Seoul</hi></placeName>, <date
+                            calendar="gregorian" when="1912-11-02">
+                            <hi rendition="#italic">November 2, 1912</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to enclose herewith a
+                    clipping from this morning’s edition of the semi-official “Seoul Press,”
+                    entitled “Suspension of Issue of Land Title Deeds,” in which it is stated that
+                    the issue of title deeds or land certificates will be unnecessary under present
+                    arrangements, “the ownership of land in Chosen being fully ensured by means of
+                    the registration by owners in the official land ledger,” and that “copies of the
+                    land ledger will, on application, be given to land owners, after the
+                    investigation work has been concluded.”</p>
+                <p>Article X of Korean Law No. 7, promulgated August 24, 1910, a translation of
+                    which was forwarded from this office through the <pb facs="0763" n="647"
+                        xml:id="pg647"/> American Embassy at Tokio under date of December 9,
+                        1910,<anchor n="1" xml:id="d805-f1"/> provides:</p>
+                <p>“The Government shall provide registers of lands and maps, record affairs
+                    concerning lands, and issue title deeds for lands.”</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Geo. H. Scidmore.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d805-a1.xml" xpointer="d805-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d805-f1" n="1" xml:id="d805-f1-content">
+                <p>
+                    <ref target="frus1911#pg_328">For. Rel. 1911, p. 328</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

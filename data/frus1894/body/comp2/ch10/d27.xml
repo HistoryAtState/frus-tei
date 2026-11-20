@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894_d27" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Tripp to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1894_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1894_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1894/d27"
+                    type="canonical"/>
+                <relatedItem target="../ch10.xml" type="prev"/>
+                <relatedItem target="d27-a1.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1894</bibl>
+                <bibl type="frus-division-id">d27</bibl>
+                <bibl type="frus-division-n">27</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="47" to="48" unit="page"
+                        >47–48</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Legation</hi>,<lb/><hi
+                            rendition="#italic">Vienna</hi></placeName>
+                    <date calendar="gregorian" when="1894-10-19"><hi rendition="#italic">October 19,
+                            1894</hi></date>
+                    <date notAfter="1894-10-19T23:59:59-05:00" notBefore="1894-10-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d27">
+
+                <pb facs="0097" n="47" sameAs="frus:frus1894/pg47"/>
+
+                <head><hi rendition="#italic">Mr. Tripp to Mr. Gresham.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >United States Legation</hi>,<lb/><hi rendition="#italic"
+                                >Vienna</hi></placeName>, <date calendar="gregorian"
+                            when="1894-10-19"><hi rendition="#italic">October 19, 1894</hi></date>.
+                        (Received November 2.)</dateline>
+                    <seg rendition="#float-left">No. 102.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor of submitting herewith the
+                    translation of a note just received from the imperial and royal ministry of
+                    foreign affairs of Austria-Hungary, making favorable response to my note of
+                    September 20, 1894, in which was presented the earnest request of the United
+                    States that Austria-Hungary would, if it had not already done so, adopt
+                    regulations similar to those already adopted by the United States, Great
+                    Britain, and France for the prevention of collisions at sea, in accordance with
+                    the recommendations of the International Marine Congress held at Washington in
+                    1889.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Bartlett Tripp.</hi></signed></closer>
+
+
+
+                <xi:include href="d27-a1.xml" xpointer="d27-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

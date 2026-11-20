@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1902app1_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1902app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1902app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902app1"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1902app1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1902app1/covers/frus1902app1.jpg"/>
+                        <extent>
+                            <measure quantity="46864" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:45:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1902app1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1902app1/ebook/frus1902app1.epub"/>
+                        <extent>
+                            <measure quantity="6149800" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:45:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1902app1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1902app1/ebook/frus1902app1.mobi"/>
+                        <extent>
+                            <measure quantity="1249752" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:45:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1903 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">harrison</term>
+                    <term xml:id="admin3">cleveland-24</term>
+                    <term xml:id="admin4">mckinley</term>
+                    <term xml:id="admin5">roosevelt-t</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>brazil</term>
+                    <term>costa-rica</term>
+                    <term>france</term>
+                    <term>japan</term>
+                    <term>mexico</term>
+                    <term>netherlands</term>
+                    <term>russia</term>
+                    <term>hay-john-milton</term>
+                    <term>madagascar</term>
+                    <term>roosevelt-theodore</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1902app1" status="published" when="1903"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0007" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Appendix I. FOREIGN RELATIONS OF THE UNITED STATES,
+                        1902.</titlePart>
+                    <titlePart type="volumetitle">WHALING AND SEALING CLAIMS AGAINST RUSSIA. ON
+                        ACCOUNT OF ARREST AND SEIZURE OF THE AMERICAN VESSELS “CAPE HORN PIGEON,”
+                        “JAMES HAMILTON LEWIS,” “C. H. WHITE,” AND “KATE AND ANNA.”</titlePart>
+                </docTitle>
+                <byline>Herbert H. D. Peirce</byline>
+                <docImprint>
+                    <pubPlace>WASHINGTON:</pubPlace><lb/><publisher>GOVERNMENT PRINTING
+                        OFFICE.</publisher><lb/><docDate>1903.</docDate></docImprint>
+            </titlePage>
+            <pb facs="0008" n="[II]" xml:id="pgII"/>
+            <p rendition="#center">442305</p>
+            <xi:include href="front/translation-of-the-memorandum.xml"
+                xpointer="translation-of-the-memorandum"/>
+            <pb facs="0010" n="[IV]" xml:id="pgIV"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <pb facs="0114" n="[98]" xml:id="pg98"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <pb facs="0276" n="[254]" xml:id="pg254"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <pb facs="0304" n="[282]" xml:id="pg282"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <pb facs="0388" n="[362]" xml:id="pg362"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

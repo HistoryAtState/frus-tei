@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_ch24" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mexico.</title>
+            </titleStmt>
+            <xi:include href="../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/ch24"
+                    type="canonical"/>
+                <relatedItem target="ch23/d290.xml" type="prev"/>
+                <relatedItem target="ch24/d291.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">ch24</bibl>
+                <bibl type="frus-division-n">24</bibl>
+                <bibl type="frus-division-type">chapter</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="486" to="502" unit="page"
+                        >486–502</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1870-11-10T23:59:59-05:00" notBefore="1870-11-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="ch24">
+
+                <pb facs="0520" n="486" sameAs="frus:frus1870/pg486"/>
+
+                <head>Mexico.</head>
+
+
+                <xi:include href="ch24/d291.xml" xpointer="d291"/>
+                <xi:include href="ch24/d292.xml" xpointer="d292"/>
+            </div>
+        </body>
+    </text>
+</TEI>

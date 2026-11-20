@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d430" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Soviet Amendment to the Draft Declaration on Liberated Europe</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d430"
+                    type="canonical"/>
+                <relatedItem target="d429.xml" type="prev"/>
+                <relatedItem target="../ch8subch38.xml" type="next"/>
+                <relatedItem target="../ch8subch37.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d430</bibl>
+                <bibl type="frus-division-n">430</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="863" to="863" unit="page"
+                        >863</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-02-09T08:00:00-05:00" notBefore="1945-02-09T08:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_HA1">Hiss, Alger</term>
+                    <term ref="frus:frus1945Malta/persons#p_MVM1">Molotov, Vyacheslav
+                        Mikhailovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d430">
+
+                <pb facs="0959" n="863" sameAs="frus:frus1945Malta/pg863"/>
+
+                <note rend="inline" type="source">Bohlen Collection</note>
+                <head>
+                    <hi rendition="#italic">Soviet Amendment to the Draft Declaration on Liberated
+                        Europe</hi><anchor n="1" xml:id="d430-f1"/>
+                </head>
+                <dateline>
+                    <placeName>Leningrad</placeName>, <date
+                        ana="#date_undated-inferred-from-chapter-heading" calendar="gregorian"
+                        when="1945-02-09T16:00:00+03:00">February 9, 1945, 4 p.m.</date>
+                </dateline>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                </opener>
+                <p>Amendment proposed by Mr. Molotov at Plenary Session of Feb. 9: At the end of the
+                    fourth paragraph, omit the period, insert a comma, and add the following:</p>
+                <p>“and strong support will be given to those people in these countries who took an
+                    active part in the struggle against German occupation.”</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d430-f1" n="1" type="source" xml:id="d430-f1-content">
+                <p>Attached to the Page minutes of the Foreign Ministers’ meeting on February 10,
+                    1945. See <hi rendition="#italic">ante</hi>, <ref target="#pg848">p. 848</ref>.
+                    Copies are also in the Matthews Files and the Hiss Collection.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

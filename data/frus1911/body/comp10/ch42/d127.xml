@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_d127" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/d127"
+                    type="canonical"/>
+                <relatedItem target="d126-a1.xml" type="prev"/>
+                <relatedItem target="d127-a1.xml" type="next"/>
+                <relatedItem target="../ch42.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">d127</bibl>
+                <bibl type="frus-division-n">127</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="122" to="123" unit="page"
+                        >122–23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Habana</hi></placeName>
+                    <date calendar="gregorian" when="1911-06-01"><hi rendition="#italic">June 1,
+                            1911</hi></date>
+                    <date notAfter="1911-06-01T23:59:59-05:00" notBefore="1911-06-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d127">
+
+                <pb facs="0204" n="122" sameAs="frus:frus1911/pg122"/>
+
+                <note rend="inline" type="source">File No. 811.34537/58.</note>
+                <head>[Untitled]</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                            >Habana</hi></placeName>, <date calendar="gregorian" when="1911-06-01"
+                                ><hi rendition="#italic">June 1, 1911</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 884.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my dispatch No. 758, I have
+                    the honor to inclose herewith a copy (with translation) of a draft of an
+                    agreement in regard to the desired exchange of additional land for our naval
+                    station at Guantánamo in return for the Bahía Honda release, which I have just
+                    received from the Cuban department of state. In this draft the lines of the
+                    agreement of February 16/23, 1903, have been followed. The proposed boundaries
+                    for the Guantánamo station are those mentioned in my note of January 21, 1911
+                    (dispatch No. 594), which were copied from the letter of the joint board of
+                    March 25, 1907, to the Secretary of the Navy, of which a copy accompanied the
+                    Department’s instruction No. 265 (to Mr. Morgan), of July 17, 1909.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John B. Jackson.</hi></signed></closer>
+
+
+                <xi:include href="d127-a1.xml" xpointer="d127-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d240" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President’s Special Assistant (Hopkins) to the President</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d240"
+                    type="canonical"/>
+                <relatedItem target="d239.xml" type="prev"/>
+                <relatedItem target="d240-a1.xml" type="next"/>
+                <relatedItem target="../ch5subch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d240</bibl>
+                <bibl type="frus-division-n">240</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="412" to="415" unit="page"
+                        >412–15</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-13">September 13, 1944</date>
+                    <date notAfter="1944-09-13T23:59:59-05:00" notBefore="1944-09-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d240">
+
+                <pb facs="0474" n="412" sameAs="frus:frus1944Quebec/pg412"/>
+
+                <note rend="inline" type="source">Hopkins Papers</note>
+                <head><hi rendition="#italic">The President’s Special Assistant</hi> (<hi
+                        rendition="#italic">Hopkins</hi>) <hi rendition="#italic">to the
+                        President</hi><anchor n="1" xml:id="d240-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-09-13">September 13, 1944</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Memorandum for the
+                    President</hi></p>
+                <p><hi rendition="#small-caps">Dear Mr. President</hi>: I have had several talks
+                    with General O’Dwyer, Crowley and the State Department relative to the Italian
+                    business. The attached memo supplements the statement which you have with you on
+                        Italy.<anchor n="2" xml:id="d240-f2"/></p>
+                <p>It seems to me that there are great advantages to be accrued to us if you can
+                    take the initiative and get Churchill’s approval to a course of action which you
+                    would announce publicly.</p>
+                <p>The machinery for getting quick action relative to immediate relief and the
+                    purchase of material for economic rehabilitation is available. The Italians can
+                    pay for all of the goods to be bought in this country, other than emergency
+                    relief supplies, out of funds which would accrue to them from our soldiers’
+                    pay.</p>
+                <p>The Prisoner of War business, I think, should be cleared up just as soon as
+                    possible and, of equal importance, is the obvious necessity of amending the
+                    Armistice terms.</p>
+                <closer><signed>H[<hi rendition="#small-caps">arry</hi>] L. H[<hi
+                            rendition="#small-caps">opkins</hi>]</signed></closer>
+
+
+                <xi:include href="d240-a1.xml" xpointer="d240-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d240-f1" n="1" type="source" xml:id="d240-f1-content">
+                <p>Sent to Quebec by pouch.</p>
+            </note>
+            <note corresp="#d240-f2" n="2" xml:id="d240-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg207">p. 207</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

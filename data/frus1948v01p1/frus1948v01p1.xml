@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1948v01p1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1948v01p1_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1948v01p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1948v01p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1948v01p1"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1948v01p1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1948v01p1/covers/frus1948v01p1.jpg"/>
+                        <extent>
+                            <measure quantity="34257" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:56:08.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1948v01p1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1948v01p1/ebook/frus1948v01p1.epub"/>
+                        <extent>
+                            <measure quantity="830650" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:56:08.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1948v01p1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1948v01p1/ebook/frus1948v01p1.mobi"/>
+                        <extent>
+                            <measure quantity="1343119" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:56:08.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1975 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>marshall-george-catlett</term>
+                    <term>truman-harry-s</term>
+                    <term>atomic-energy</term>
+                    <term>human-rights</term>
+                    <term>united-nations</term>
+                    <term>australia</term>
+                    <term>belgium</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>ireland</term>
+                    <term>israel</term>
+                    <term>quarantine-blockade</term>
+                    <term>elections</term>
+                    <term>genocide</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1948v01p1" status="published" when="1975"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1948</titlePart>
+                    <titlePart type="volumeno">Volume I</titlePart>
+                    <titlePart type="volumetitle">General;<lb/>The United Nations<lb/>(in two
+                        parts)<lb/>Part 1</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1975</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication 8805 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the<lb/>U.S. Government Book Store<lb/>Department of
+                    State<lb/>Washington, D.C. 20520 - Price $8.10 (Buckram)<lb/>Stock Number
+                    044–000–01581-1</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0010" n="[VI]" xml:id="pgVI"/>
+            <xi:include href="front/introduction.xml" xpointer="introduction"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <pb facs="0526" n="[506]" xml:id="pg506"/>
+        </body>
+        <back>
+            <pb facs="0527" n="[i]" xml:id="pgi"/>
+            <pb facs="0528" n="[ii]" xml:id="pgii"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

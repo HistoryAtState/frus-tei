@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1879_comp5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bolivia.</title>
+            </titleStmt>
+            <xi:include href="../frus1879_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1879_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1879/comp5"
+                    type="canonical"/>
+                <relatedItem target="comp4/d73-a2.xml" type="prev"/>
+                <relatedItem target="comp5/d74.xml" type="next"/>
+                <relatedItem target="../frus1879.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1879</bibl>
+                <bibl type="frus-division-id">comp5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="125" to="128" unit="page"
+                        >125–28</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1879-08-25T23:59:59-05:00" notBefore="1879-06-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp5">
+
+                <pb facs="0221" n="125" sameAs="frus:frus1879/pg125"/>
+
+                <head>Bolivia.</head>
+
+
+
+
+
+
+                <xi:include href="comp5/d74.xml" xpointer="d74"/>
+                <xi:include href="comp5/d75.xml" xpointer="d75"/>
+                <xi:include href="comp5/d76.xml" xpointer="d76"/>
+                <xi:include href="comp5/d77.xml" xpointer="d77"/>
+                <xi:include href="comp5/d78.xml" xpointer="d78"/>
+                <xi:include href="comp5/d79.xml" xpointer="d79"/>
+            </div>
+        </body>
+    </text>
+</TEI>

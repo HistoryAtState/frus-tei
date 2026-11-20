@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1889_d20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Bayard to the Chevalier de Tavera.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1889_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1889_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1889/d20"
+                    type="canonical"/>
+                <relatedItem target="../ch1.xml" type="prev"/>
+                <relatedItem target="d21.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1889</bibl>
+                <bibl type="frus-division-id">d20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="41" to="41" unit="page"
+                        >41</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1889-01-30"><hi rendition="#italic"
+                            >January</hi> 30, 1889</date>
+                    <date notAfter="1889-01-30T23:59:59-05:00" notBefore="1889-01-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20">
+
+                <pb facs="0159" n="41" sameAs="frus:frus1889/pg41"/>
+
+                <head><hi rendition="#italic">Mr. Bayard to the Chevalier de Tavera.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1889-01-30"><hi rendition="#italic">January</hi> 30,
+                        1889</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: It is my sad office to inform you that upon
+                    the receipt of telegraphic dispatch, dated this day, from our minister at
+                    Vienna, announcing the sudden death early this morning of His Imperial Highness
+                    the Archduke Rudolph, Crown Prince of Austria, I at once sent a cable
+                        instruction,<anchor n="*" xml:id="d20-f1"/> a copy of which I inclose, to
+                    the United States minister at Vienna, instructing him to express the condolence
+                    of the President and people of the United States in this sudden bereavement of
+                    His Majesty the Emperor and the nation of Austria-Hungary.</p>
+                <p>I hasten to reiterate to you, as their representative, the official and personal
+                    sympathy which is felt here for the imperial family in this sudden and severe
+                    loss of the heir to the throne, whose many noble qualities of mind and heart
+                    gave promise of so brilliant a future, and who will long be lamented.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">T. F. Bayard.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d20-f1" n="*" xml:id="d20-f1-content">
+                <p>For inclosure see dispatch No. 114 from United States minister at Vienna.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d921" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Finch to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d921"
+                    type="canonical"/>
+                <relatedItem target="d920-a5.xml" type="prev"/>
+                <relatedItem target="d921-a1.xml" type="next"/>
+                <relatedItem target="../ch183.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d921</bibl>
+                <bibl type="frus-division-n">921</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="856" to="857" unit="page"
+                        >856–57</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Montevideo, Uruguay</hi></placeName>
+                    <date calendar="gregorian" when="1904-03-04"><hi rendition="#italic">March 4,
+                            1904</hi></date>
+                    <date notAfter="1904-03-04T23:59:59-05:00" notBefore="1904-03-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d921">
+
+                <pb facs="0944" n="856" xml:id="pg856"/>
+
+                <head><hi rendition="#italic">Mr. Finch to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic">Montevideo,
+                                Uruguay</hi></placeName>, <date calendar="gregorian"
+                            when="1904-03-04"><hi rendition="#italic">March 4,
+                        1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 734.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose copy and translation of a
+                    communication, with accompanying certificate,<anchor n="a" xml:id="d921-f1"/>
+                    from the minister of foreign affairs of this Republic, in relation to the recent
+                    detention and discharge of Louis E. Hufnagel by the Uruguayan military commander
+                    at Paysandu, Uruguay. Mr. Hufnagel is the bearer of passport No. 19, issued
+                    February 3, 1904, in renewal of passport No. 8, issued March 11, 1902, the
+                    latter in compliance with your No. 188, dated June 28, 1901, signed Hill,
+                    acting.</p>
+                <p>Mr. Louis E. Hufnagel is the son of John G. Hufnagel, of Paysandu, a naturalized
+                    citizen of the United States, but, now and for many years previously a regular
+                    resident of this Republic. Louis E. Hufnagel was born at Paysandu, and at the
+                    age of 17 was enrolled as a member of the national guard. This guard has been
+                    called out to assist in suppressing the impending insurrection, and, not
+                    reporting for duty, he was arrested and held in the cuartel for a short time.
+                    His release was ordered by the Government, but it does not concede his claim to
+                    exemption on the ground that he is a bona fide citizen of the United States.</p>
+                <p>According to the constitution and laws of Uruguay Mr. Hufnagel, having been born
+                    in the country, is a citizen thereof, and as such is subject to military duty
+                    and any and all other duties legally imposed on Uruguayan citizens.</p>
+                <p>Respectfully,</p>
+                <closer><signed><hi rendition="#small-caps">William R. Finch.</hi></signed></closer>
+
+
+                <xi:include href="d921-a1.xml" xpointer="d921-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d921-f1" n="a" xml:id="d921-f1-content">
+                <p>Certificate not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

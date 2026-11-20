@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1882_d297" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Señor Mariscal to Señor Romero.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1882_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1882_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1882/d297"
+                    type="canonical"/>
+                <relatedItem target="d296.xml" type="prev"/>
+                <relatedItem target="d298.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1882</bibl>
+                <bibl type="frus-division-id">d297</bibl>
+                <bibl type="frus-division-n">297</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="420" to="420" unit="page"
+                        >420</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">City of Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1882-05-11"><hi rendition="#italic">May</hi>
+                        11, 1882</date>
+                    <date notAfter="1882-05-11T23:59:59-05:00" notBefore="1882-05-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d297">
+
+                <pb facs="0492" n="420" xml:id="pg420"/>
+
+                <head><hi rendition="#italic">Señor Mariscal to Señor Romero</hi>.</head>
+                <opener><seg rendition="#center">[Translation.—Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >City of Mexico</hi></placeName>, <date calendar="gregorian"
+                            when="1882-05-11"><hi rendition="#italic">May</hi> 11,
+                        1882</date>.</dateline></opener>
+                <p rendition="#flush"><hi rendition="#small-caps">To Mexican Minister</hi>,<lb/><hi
+                        rendition="#italic">Washington:</hi></p>
+                <p>The Senate has authorized the Executive to allow crossing of troops on conditions
+                    communicated United States Government in November, 1880.</p>
+                <closer><signed>MARISCAL.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d108" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Conger.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d108"
+                    type="canonical"/>
+                <relatedItem target="d107.xml" type="prev"/>
+                <relatedItem target="d108-a1.xml" type="next"/>
+                <relatedItem target="../ch31.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d108</bibl>
+                <bibl type="frus-division-n">108</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="144" to="144" unit="page"
+                        >144</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1898-12-23"><hi rendition="#italic">December
+                            23, 1898</hi></date>
+                    <date notAfter="1898-12-23T23:59:59-05:00" notBefore="1898-12-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d108">
+
+                <pb facs="0236" n="144" sameAs="frus:frus1899/pg144"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. Conger</hi>.</head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1898-12-23"><hi rendition="#italic">December 23,
+                        1898</hi></date>.</dateline></opener>
+                <p>Protest French extension if against American interests.</p>
+                <closer><signed><hi rendition="#small-caps">Hay</hi>.</signed></closer>
+
+
+                <xi:include href="d108-a1.xml" xpointer="d108-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

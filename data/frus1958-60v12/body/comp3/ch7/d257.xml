@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v12_d257" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>National Security Council Report</title>
+            </titleStmt>
+            <xi:include href="../../../frus1958-60v12_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1958-60v12_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v12/d257"
+                    type="canonical"/>
+                <relatedItem target="d256.xml" type="prev"/>
+                <relatedItem target="d257-a1.xml" type="next"/>
+                <relatedItem target="../ch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v12</bibl>
+                <bibl type="frus-division-id">d257</bibl>
+                <bibl type="frus-division-n">257</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="604" to="615" unit="page"
+                        >604–15</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1958-11-15">November 15, 1958</date>
+                    <date notAfter="1958-11-15T23:59:59-05:00" notBefore="1958-11-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v12/persons">
+                    <term ref="frus:frus1958-60v12/persons#p_LJSJ1">Lay, James S., Jr.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v12/terms">
+                    <term ref="frus:frus1958-60v12/terms#t_NSC1">NSC</term>
+                    <term ref="frus:frus1958-60v12/terms#t_SS1">S/S</term>
+                    <term ref="frus:frus1958-60v12/terms#t_SNIE1">SNIE</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d257">
+
+                <pb facs="0638" n="604" sameAs="frus:frus1958-60v12/pg604"/>
+
+                <head>257. National Security Council Report<anchor n="0" xml:id="d257-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left">NSC 5821/1</seg>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1958-11-15">November 15,
+                        1958</date>.</dateline>
+                </opener>
+                <list type="references">
+                    <head>REFERENCES</head>
+                    <item>A. NSC 5703/1</item>
+                    <item>B. NSC Action No. 1998</item>
+                    <item>C. SNIE 34–58</item>
+                    <item>D. NSC 5821</item>
+                    <item>E. NSC Action No. 2006<anchor n="1" xml:id="d257-f2"/></item>
+                </list>
+                <pb facs="0639" n="605" xml:id="pg605"/>
+                <p>The National Security Council, the Secretary of the Treasury, and the Director,
+                    Bureau of the Budget, at the 386th NSC Meeting on November 13, 1958, adopted the
+                    statement of policy contained in NSC 5821, prepared by the NSC Planning Board
+                    pursuant to NSC Action No. 1998–b.</p>
+                <p>The President has this date approved the statement of policy in NSC 5821, as
+                    adopted by the Council and enclosed herewith as NSC 5821/1; directs its
+                    implementation by all appropriate Executive departments and agencies of the U.S.
+                    Government; and designates the Operations Coordinating Board as the coordinating
+                    agency.</p>
+                <p>Also enclosed, for the information of the Council, is a Financial Appendix.</p>
+                <p>The enclosed statement of policy, as adopted and approved, supersedes NSC
+                    5703/1.</p>
+                <closer><signed><hi rendition="#bold">James S. Lay, Jr.</hi><anchor n="2"
+                            xml:id="d257-f3"/><lb/><hi rendition="#italic">Executive
+                        Secretary</hi></signed></closer>
+                <postscript>
+                    <p>[Here follows a table of contents.]</p>
+                </postscript>
+
+
+                <xi:include href="d257-a1.xml" xpointer="d257-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d257-f1" n="0" type="source" xml:id="d257-f1-content">
+                <p>Source: Department of State, S/S–NSC Files: Lot 63 D 351, NSC 5821 Memoranda. Top
+                    Secret.</p>
+            </note>
+            <note corresp="#d257-f2" n="1" xml:id="d257-f2-content">
+                <p>See <ref target="#d256-f2">footnotes 1</ref>–<ref target="#d256-f4">3</ref> and
+                        <ref target="#d256-f7">6, Document 256</ref>.</p>
+            </note>
+            <note corresp="#d257-f3" n="2" xml:id="d257-f3-content">
+                <p>Printed from a copy that bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

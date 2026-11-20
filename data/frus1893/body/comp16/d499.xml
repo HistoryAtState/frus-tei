@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1893_d499" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hicks to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../frus1893_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1893_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1893/d499"
+                    type="canonical"/>
+                <relatedItem target="d498-a1.xml" type="prev"/>
+                <relatedItem target="d499-a1.xml" type="next"/>
+                <relatedItem target="../comp16.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1893</bibl>
+                <bibl type="frus-division-id">d499</bibl>
+                <bibl type="frus-division-n">499</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="516" to="516" unit="page"
+                        >516</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Lima</hi></placeName>
+                    <date calendar="gregorian" when="1893-04-29"><hi rendition="#italic">April 29,
+                            1893</hi></date>
+                    <date notAfter="1893-04-29T23:59:59-05:00" notBefore="1893-04-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d499">
+
+                <pb facs="0624" n="516" xml:id="pg516"/>
+
+                <head><hi rendition="#italic">Mr. Hicks to Mr. Gresham.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Lima</hi></placeName>, <date calendar="gregorian" when="1893-04-29"
+                                ><hi rendition="#italic">April 29, 1893</hi></date>. (Received May
+                        19.)</dateline>
+                    <seg rendition="#float-left">No. 493.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my No. 482 of April 3, 1803,
+                    No. 485 of April 10, 1893, and No. 486 of April 15, 1893, I have the honor
+                    herewith to inclose<anchor n="*" xml:id="d499-f1"/> a copy of the claim for
+                    damages against the Peruvian Government, submitted through Mr. A. J. Daugherty,
+                    consul at Callao, by Mr. Henry or (Enrique) Meier, acting consular agent,
+                    growing out of the attack upon the consular agency of the United States at
+                    Mollendo, March 25, 1893. This claim I at once forwarded to the foreign office
+                    and also had an interview personally with the minister of foreign affairs,
+                    urging a prompt settlement of the same.</p>
+                <p>I append also a copy of my note to the minister of foreign affairs, transmitting
+                    Mr. Meier’s claim.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hicks.</hi></signed></closer>
+
+
+                <xi:include href="d499-a1.xml" xpointer="d499-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d499-f1" n="*" xml:id="d499-f1-content">
+                <p>Inclosure omitted.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

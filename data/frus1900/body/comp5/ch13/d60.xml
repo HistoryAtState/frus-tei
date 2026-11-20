@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d60" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Señor Morla Vicuña.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d60"
+                    type="canonical"/>
+                <relatedItem target="d59.xml" type="prev"/>
+                <relatedItem target="d61.xml" type="next"/>
+                <relatedItem target="../ch13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d60</bibl>
+                <bibl type="frus-division-n">60</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="68" to="69" unit="page"
+                        >68–69</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1899-01-25"><hi rendition="#italic">January 25,
+                            1899</hi></date>
+                    <date notAfter="1899-01-25T23:59:59-05:00" notBefore="1899-01-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d60">
+
+                <pb facs="0164" n="68" sameAs="frus:frus1900/pg68"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Señor Morla Vicuña.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1899-01-25"><hi rendition="#italic">January 25,
+                        1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 8.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to call your attention to
+                    the protocol, signed at this city on May 24, 1897, between the Secretary of
+                    State of the <pb facs="0165" n="69" xml:id="pg69"/> United States and the
+                    minister of Chile at this capital, providing that the Government of Chile
+                    should, four months from the date thereof, pay to this Department the sum of
+                    $3,500 as compensation to the heirs of Patrick Shields, deceased.</p>
+                <p>I have the honor to express the hope that this agreement will be fulfilled at an
+                    early date by your Government.</p>
+                <p>Copy of the protocol is inclosed.<anchor n="1" xml:id="d60-f1"/></p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hat.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d60-f1" n="1" xml:id="d60-f1-content">
+                <p>Printed, <ref target="#pg68">page 68</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

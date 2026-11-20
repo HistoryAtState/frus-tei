@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_ch28" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Indemnity payments</title>
+            </titleStmt>
+            <xi:include href="../../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/ch28"
+                    type="canonical"/>
+                <relatedItem target="ch27.xml" type="prev"/>
+                <relatedItem target="ch28/d211.xml" type="next"/>
+                <relatedItem target="../comp6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">ch28</bibl>
+                <bibl type="frus-division-n">28</bibl>
+                <bibl type="frus-division-type">chapter</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="202" to="204" unit="page"
+                        >202–4</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1913-01-27T23:59:59-05:00" notBefore="1913-01-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="ch28">
+
+                <pb facs="0306" n="202" sameAs="frus:frus1913/pg202"/>
+
+                <head>Indemnity payments<anchor n="1" xml:id="ch28-f1"/>
+                </head>
+
+                <xi:include href="ch28/d211.xml" xpointer="d211"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894app1_d100-a4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../frus1894app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1894app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1894app1/d100-a4"
+                    type="canonical"/>
+                <relatedItem target="d100-a3.xml" type="prev"/>
+                <relatedItem target="d100-a5.xml" type="next"/>
+                <relatedItem target="d100.xml" type="parent"/>
+                <relatedItem target="d100.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1894app1</bibl>
+                <bibl type="frus-division-id">d100-a4</bibl>
+                <bibl type="frus-division-n">100.4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="100" to="101" unit="page"
+                        >100–101</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d100-a4">
+
+                <pb facs="0106" n="100" sameAs="frus:frus1894app1/pg100"/>
+
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <p rendition="#flush">Mutsuhito, by the grace of heaven, Emperor of Japan and seated
+                    on the throne occupied by the same dynasty from time immemorial. To all to whom
+                    these presents shall come, greeting:</p>
+                <p>With a view to the restoration of peace between our Empire and that of China in
+                    order to maintain the peace of the Orient:</p>
+                <p>We, reposing special trust and confidence in Count Ito Hirobumi, Junii, grand
+                    cross of the Imperial Order of Paullownia, our minister president of state, and
+                    Viscount Mutsu Munemitsu, Junii, first class of the Imperial Order of the Sacred
+                    Treassure, <pb facs="0107" n="101" xml:id="pg101"/> our minister of state for
+                    foreign affairs, and having fall knowledge of their wisdom and ability, do
+                    hereby name them as our plenipotentiaries.</p>
+                <p>We have given to our plenipotentiaries full powers to meet and treat, either
+                    separately or conjointly, with the plenipotentiaries of China, and to conclude
+                    and sign preliminaries of peace.</p>
+                <p>We shall examine all stipulations which our said plenipotentiaries may agree upon
+                    and, finding such stipulations proper and in good and due form, we shall ratify
+                    them.</p>
+                <p>In witness whereof we have hereunto set our signature and caused the great seal
+                    of the Empire to be affixed.</p>
+                <closer>
+                    <dateline rendition="#float-left">Done at <placeName>Hiroshima</placeName>,
+                            <date calendar="japanese-nengō" when="1895-01-31">this thirty-first day
+                            of the month of the twenty-eighth year of Meiji, corresponding to the
+                            two thousand five hundred and fifty-fifth year from the coronation of
+                            the Emperor Jimmu</date>.</dateline>
+                    <lb/> (Seal of the Empire.) (Sign Manual.)<lb/>(Countersigned) <signed>Count <hi
+                            rendition="#small-caps">Ito Hirobumi</hi>,<lb/><hi rendition="#italic"
+                            >Minister President of State.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

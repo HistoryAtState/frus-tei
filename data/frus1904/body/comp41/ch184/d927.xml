@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d927" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Finch to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d927"
+                    type="canonical"/>
+                <relatedItem target="d926.xml" type="prev"/>
+                <relatedItem target="d927-a1.xml" type="next"/>
+                <relatedItem target="../ch184.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d927</bibl>
+                <bibl type="frus-division-n">927</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="860" to="861" unit="page"
+                        >860–61</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Montevideo, Uruguay</hi></placeName>
+                    <date calendar="gregorian" when="1904-12-26"><hi rendition="#italic">December
+                            26, 1904</hi></date>
+                    <date notAfter="1904-12-26T23:59:59-05:00" notBefore="1904-12-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d927">
+
+                <pb facs="0948" n="860" sameAs="frus:frus1904/pg860"/>
+
+                <head><hi rendition="#italic">Mr. Finch to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic">Montevideo,
+                                Uruguay</hi></placeName>, <date calendar="gregorian"
+                            when="1904-12-26"><hi rendition="#italic">December 26,
+                        1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 799.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Peace in Paraguay. The revolutionists have
+                    triumphed. The agreement entered into at Formosa, Argentina, has finally been
+                    signed by the revolutionary leaders and the Government’s representatives,
+                    General Ferreyra, the military leader of the revolution, being the last one to
+                    sign, and on account of his unexplained hesitation it was feared, for a few
+                    days, that the agreement would fail.</p>
+                <p>I inclose translation of the agreement or treaty of peace. * * *</p>
+                <p>Respectfully,</p>
+                <closer><signed><hi rendition="#small-caps">William R. Finch.</hi></signed></closer>
+
+
+
+                <xi:include href="d927-a1.xml" xpointer="d927-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

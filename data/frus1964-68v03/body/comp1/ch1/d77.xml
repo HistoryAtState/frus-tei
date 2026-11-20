@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v03_d77" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Meeting Agenda</title>
+            </titleStmt>
+            <xi:include href="../../../frus1964-68v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1964-68v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v03/d77"
+                    type="canonical"/>
+                <relatedItem target="d76.xml" type="prev"/>
+                <relatedItem target="d78.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v03</bibl>
+                <bibl type="frus-division-id">d77</bibl>
+                <bibl type="frus-division-n">77</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="217" to="218" unit="page"
+                        >217–18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                        calendar="gregorian" notAfter="1965-07-22T15:00:00-04:00"
+                        notBefore="1965-07-22T14:15:00-04:00" when="1965-07-22">undated</date>
+                    <date notAfter="1965-07-22T14:00:00-05:00" notBefore="1965-07-22T13:15:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v03/persons">
+                    <term ref="frus:frus1964-68v03/persons#p_LWS1">Lippmann, Walter S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d77">
+
+                <pb facs="0249" n="217" sameAs="frus:frus1964-68v03/pg217"/>
+
+                <head>77. Meeting Agenda<anchor n="1" xml:id="d77-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            calendar="gregorian" notAfter="1965-07-22T15:00:00-04:00"
+                            notBefore="1965-07-22T14:15:00-04:00" when="1965-07-22"
+                        >undated</date>.</dateline></opener>
+                <p rendition="#center">Possible Items for Discussion</p>
+                <p rendition="#center">July 22, 2:30 P.M.</p>
+                <list>
+                    <label>1.</label>
+                    <item>How big a change in policy is this and how do we explain it—in political
+                        and military terms?</item>
+                    <label>2.</label>
+                    <item>How do we inhibit Chinese and North Vietnamese response by both carrot and
+                        stick?</item>
+                    <label>3.</label>
+                    <item>How do we combine a peace offensive with stepped-up military
+                        action?</item>
+                    <pb facs="0250" n="218" xml:id="pg218"/>
+                    <label>4.</label>
+                    <item>Is this policy justified in terms of Vietnam, Asia or U.S. national
+                        interests—or all three?</item>
+                    <label>5.</label>
+                    <item>How do we get a political and social effort within Vietnam that is equal
+                        in strength to the military effort?</item>
+                    <label>6.</label>
+                    <item>What are our war aims? What is the answer to Walter Lippmann’s question on
+                        this point?<anchor n="2" xml:id="d77-f2"/></item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d77-f1" n="1" type="source" xml:id="d77-f1-content">
+                <p>Source: Johnson Library, National Security File, Memos to the President, McGeorge
+                    Bundy, Vol. XII. No classification marking. The source text bears no drafting
+                    information, but the agenda was apparently drafted by McGeorge Bundy between the
+                    noon and 3 p.m. meetings; see <ref target="#d76">Documents 76</ref> and <ref
+                        target="#d78">78</ref>.</p>
+            </note>
+            <note corresp="#d77-f2" n="2" xml:id="d77-f2-content">
+                <p>Walter Lippmann’s question is not further identified.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Ames to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d5"
+                    type="canonical"/>
+                <relatedItem target="../ch2.xml" type="prev"/>
+                <relatedItem target="d5-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="7" to="13" unit="page"
+                        >7–13</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Buenos Aires</hi></placeName>
+                    <date calendar="gregorian" when="1903-05-06"><hi rendition="#italic">May 6,
+                            1903</hi>.</date>
+                    <date notAfter="1903-05-06T23:59:59-05:00" notBefore="1903-05-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d5">
+
+                <pb facs="0091" n="7" sameAs="frus:frus1903/pg7"/>
+
+                <head><hi rendition="#italic">Mr. Ames to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Buenos Aires</hi></placeName>, <date calendar="gregorian"
+                            when="1903-05-06"><hi rendition="#italic">May 6,
+                        1903</hi>.</date></dateline>
+                    <seg rendition="#float-left">No. 257.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit under separate
+                    cover three copies of the message<anchor n="a" xml:id="d5-f1"/> read on the 4th
+                    instant, at the opening of the Argentine Congress, by the President of the
+                    Republic. The translations, or rather resumes, in English, which are inclosed
+                    herewith, are from the Standard and the Herald. The Standard’s résumé is in most
+                    respects the better, and its rendering of the paragraphs anent the Monroe
+                    doctrine and the Argentine note I can commend as a particularly accurate
+                    translation. Such portions of the Herald’s resume as complete or amplify the
+                    Standard’s version are printed in italics. These passages and the whole Standard
+                    excerpt taken together give an adequate rendering of the entire message.</p>
+                <p>The comments of the local press on the message are generally unfavorable. It is
+                    contended that the internal questions, such as proper currency legislation,
+                    repeal of unconstitutional laws and taxes, the better administration of justice,
+                    the better ordering of provincial governments, etc.—questions of vital
+                    importance to the people—have been scarcely touched upon, while much stress has
+                    been laid on the extraordinary success and prosperity of the country externally,
+                    the establishment of peace with Chile, the tremendous crops, the greatly
+                    increased balance of trade in the country’s favor, and all the other conditions,
+                    a knowledge of which is likely to improve Argentine credit abroad. On the other
+                    hand, and apparently for this very reason, the opinions of the European press,
+                    as quoted in the Buenos Aires papers, are for the most part complimentary.
+                    Unquestionably the message has strengthened Argentine credit abroad.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Edward Winslow Ames</hi>,<lb/><hi
+                            rendition="#italic">Chargé d’Affaires ad interim.</hi></signed></closer>
+
+
+
+                <xi:include href="d5-a1.xml" xpointer="d5-a1"/>
+                <xi:include href="d5-a2.xml" xpointer="d5-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d5-f1" n="a" xml:id="d5-f1-content">
+                <p>Spanish text not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

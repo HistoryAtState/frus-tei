@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1941-43_d9" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1941-43_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1941-43_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1941-43/d9"
+                    type="canonical"/>
+                <relatedItem target="d8.xml" type="prev"/>
+                <relatedItem target="d10.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1941-43</bibl>
+                <bibl type="frus-division-id">d9</bibl>
+                <bibl type="frus-division-n">9</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="8" to="8" unit="page"
+                    >8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1941-12-12">December 12, 1941</date>
+                    <date notAfter="1941-12-12T23:59:59-05:00" notBefore="1941-12-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d9">
+
+                <pb facs="0082" n="8" sameAs="frus:frus1941-43/pg8"/>
+
+                <note rend="inline" type="source">740.0011 EW 1939/17466½: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d9-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">triple priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1941-12-12">December 12,
+                        1941</date>.</dateline>
+                </opener>
+                <p>Most secret and personal from the Prime Minister to the President.</p>
+                <list>
+                    <label>1.</label>
+                    <item>We feel it necessary to divert Eighteenth Division now rounding the Cape
+                        in your transports to Bombay to reinforce army we are forming against
+                        Japanese invasion of Burma and Malay. I hope you will allow your ships to
+                        take them there instead of to Suez. Route is both shorter and safer.<anchor
+                            n="2" xml:id="d9-f2"/>
+                    </item>
+                    <label>2.</label>
+                    <item>Our previous telegrams. Thank you so much. Hope rendezvous will be about
+                        21st. I am enormously relieved at turn world events have taken.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d9-f1" n="1" type="source" xml:id="d9-f1-content">
+                <p>Sent as telegram 6012 over Winant’s signature to the Secretary of State.</p>
+            </note>
+            <note corresp="#d9-f2" n="2" xml:id="d9-f2-content">
+                <p>The convoy was rerouted as requested; see Churchill’s remark at the meeting of
+                    December 23, <hi rendition="#italic">post</hi>, <ref target="#pg74">p.
+                    74</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

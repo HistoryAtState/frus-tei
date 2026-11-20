@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv01_d344" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Warrington Dawson to the Chargé in France (Bliss)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv01/d344"
+                    type="canonical"/>
+                <relatedItem target="d343-a1.xml" type="prev"/>
+                <relatedItem target="d344-a1.xml" type="next"/>
+                <relatedItem target="../ch22.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv01</bibl>
+                <bibl type="frus-division-id">d344</bibl>
+                <bibl type="frus-division-n">344</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="380" to="385" unit="page"
+                        >380–85</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1919-01-09">
+                        <hi rendition="#small-caps">January</hi> 9, 1919</date>
+                    <date notAfter="1919-01-09T23:59:59-05:00" notBefore="1919-01-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1919Parisv01/persons">
+                    <term ref="frus:frus1919Parisv01/persons#p_BRW1">Bliss, Robert Woods</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d344">
+
+                <pb facs="0450" n="380" sameAs="frus:frus1919Parisv01/pg380"/>
+
+                <note rend="inline" type="source">Paris Peace Conf. 851.00/2</note>
+                <head>
+                    <hi rendition="#italic">Mr. Warrington Dawson </hi><anchor n="22"
+                        xml:id="d344-f1"/>
+                    <hi rendition="#italic">to the Chargé in France</hi> (<hi rendition="#italic"
+                        >Bliss</hi>)</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <date calendar="gregorian" when="1919-01-09">
+                            <hi rendition="#small-caps">January</hi> 9, 1919</date>.</dateline>
+                </opener>
+                <p>Yesterday afternoon I went by appointment to call on Marshal Joffre,<anchor
+                        n="23" xml:id="d344-f2"/> and I repeated to him a remark the Secretary of
+                    State had made in conversation with me concerning the Marshal’s popularity in
+                    America and America’s opinion of his services in the war. I told him that I had
+                    asked the Secretary’s permission to repeat this.</p>
+                <p>The Marshal’s eyes filled with tears, and he asked me to express to the Secretary
+                    of State his deep gratitude and to say that such a tribute from America,
+                    conveyed by the lips of the Secretary, atoned to him for the hours during which
+                    he had seemed to be overlooked and forgotten.</p>
+                <p>He then spoke to me at length on conditions in France and in Germany. At the end
+                    of this conversation, which lasted more than an hour, I asked his permission to
+                    inform the Secretary of all he had said. He replied that he would be happy to
+                    have me do so. He asked me to present his respects to the Secretary and say he
+                    would be much honored if he could have a personal interview with him; but that
+                    in any event he begged permission to remain in contact with the Secretary
+                    through me.</p>
+                <p>Appended is a report of the Marshal’s conversation, as written out by me from
+                    memory immediately after leaving him. A long intimacy having made me familiar
+                    with the Marshal’s opinions, train of thought, and usual phraseology, I can say
+                    that this is an accurate rendering in condensed form of his words on this
+                    occasion.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Warrington Dawson</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d344-a1.xml" xpointer="d344-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d344-f1" n="22" type="source" xml:id="d344-f1-content">
+                <p>Confidential adviser and special assistant to the American Embassy in France.</p>
+            </note>
+            <note corresp="#d344-f2" n="23" xml:id="d344-f2-content">
+                <p> Joseph J. C. Joffre, Marshal of France; Commander in Chief of the French Armies,
+                    1914–16.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

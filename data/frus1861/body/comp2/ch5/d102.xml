@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1861_d102" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lord Lyons to Mr. Seward.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1861_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1861_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1861/d102"
+                    type="canonical"/>
+                <relatedItem target="d101.xml" type="prev"/>
+                <relatedItem target="d102-a1.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1861</bibl>
+                <bibl type="frus-division-id">d102</bibl>
+                <bibl type="frus-division-n">102</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="174" to="175" unit="page"
+                        >174–75</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi>,</placeName>
+                    <date calendar="gregorian" when="1861-10-23"><hi rendition="#italic"
+                            >October</hi> 23, 1861</date>
+                    <date notAfter="1861-10-23T23:59:59-05:00" notBefore="1861-10-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d102">
+
+                <pb facs="0174" n="174" sameAs="frus:frus1861/pg174"/>
+
+                <head><hi rendition="#italic">Lord Lyons to Mr. Seward</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi>,</placeName>
+                        <date calendar="gregorian" when="1861-10-23"><hi rendition="#italic"
+                                >October</hi> 23, 1861</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Having received information that a bag of
+                    despatches addressed by her Majesty’s acting consul at Richmond, in Virginia, to
+                    her Majesty’s consul at New York had been taken from a gentleman of the name of
+                    Crosse, at Baltimore, and sent to General Dix, I directed Mr. Bernal, her
+                    Majesty’s consul at the latter place, to make inquiries of the general on the
+                    subject. You will perceive by the enclosed copy of a despatch from Mr. Bernal
+                    that the general referred him to you. I therefore do myself the honor to ask you
+                    to be so kind as to favor me with such information as it seems proper that I
+                    should receive with regard to the seizure of the despatches in question.</p>
+                <p>I have the honor to be, with high consideration, sir, your most obedient, humble
+                    servant,</p>
+                <closer><signed>LYONS.</signed></closer>
+
+
+                <xi:include href="d102-a1.xml" xpointer="d102-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

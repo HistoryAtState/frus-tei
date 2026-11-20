@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d14"
+                    type="canonical"/>
+                <relatedItem target="d13-a1.xml" type="prev"/>
+                <relatedItem target="d15.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="10" to="10" unit="page"
+                        >10</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-07-16">16 July 1944</date>
+                    <date notAfter="1944-07-16T23:59:59-05:00" notBefore="1944-07-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_EurekaII1">Eureka II</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Mosquito1">Mosquito</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Red1">Red</term>
+                    <term ref="frus:frus1944Quebec/terms#t_UJ1">UJ</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d14">
+
+                <pb facs="0064" n="10" sameAs="frus:frus1944Quebec/pg10"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President
+                        Roosevelt</hi><anchor n="1" xml:id="d14-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1944-07-16">16 July 1944</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Personal and Top Secret No. 732.</p>
+                <p>When are we going to meet and where? That we must meet soon is certain. It would
+                    be better that U.J. came too. I am entirely in your hands. I would brave the
+                    reporters at Washington or the mosquitos of Alaska! Surely we ought now to fix a
+                    date and then begin negotiating with U.J. His Majesty’s Government would wish to
+                    propose “<hi rendition="#small-caps">Eureka II</hi>” for the last ten days of
+                    August. For details see my immediately following telegram. Failing this,
+                    Casablanca, Rome or even Teheran present themselves and many other places too.
+                    But we two must meet and if possible three. Please let me have your ideas on all
+                    this.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d14-f1" n="1" type="source" xml:id="d14-f1-content">
+                <p>Sent to Washington by the United States Military Attaché, London, via Army
+                    channels; forwarded by the White House Map Room to Roosevelt, who was en route
+                    from Washington to California, as telegram No. <hi rendition="#small-caps"
+                        >Red</hi> 134. Roosevelt had left the capital by train aboard the
+                    Presidential Special on July 13, 1944. He arrived at San Diego, California, on
+                    July 19; sailed for Hawaii on July 21; arrived at Pearl Harbor on July 26;
+                    sailed for Alaska on July 29; arrived at the Aleutian base of Adak on August 3;
+                    visited Kodiak and other points in Alaska; arrived at Puget Sound Navy Yard at
+                    Bremerton, Washington, on August 12 and delivered a radio address there on that
+                    date; boarded the Presidential Special again at Seattle, Washington, during the
+                    evening of August 12; and arrived back in Washington, D.C., on August 17.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

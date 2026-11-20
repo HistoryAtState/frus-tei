@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1905_d721" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Minister Barrett to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1905_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1905_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1905/d721"
+                    type="canonical"/>
+                <relatedItem target="d720.xml" type="prev"/>
+                <relatedItem target="d721-a1.xml" type="next"/>
+                <relatedItem target="../ch151.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1905</bibl>
+                <bibl type="frus-division-id">d721</bibl>
+                <bibl type="frus-division-n">721</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="708" to="709" unit="page"
+                        >708–9</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Panama</hi></placeName>
+                    <date calendar="gregorian" when="1905-04-17"><hi rendition="#italic">April 17,
+                            1905</hi></date>
+                    <date notAfter="1905-04-17T23:59:59-05:00" notBefore="1905-04-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d721">
+
+                <pb facs="0828" n="708" sameAs="frus:frus1905/pg708"/>
+
+                <head><hi rendition="#italic">Minister Barrett to the Secretary of
+                    State.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                            >Panama</hi></placeName>, <date calendar="gregorian" when="1905-04-17"
+                                ><hi rendition="#italic">April 17, 1905</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 131.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to recent correspondence in
+                    regard to American diplomatic and consular officers exercising their good
+                    offices, when necessary, in behalf of Chinese subjects, I have the honor to
+                    inclose a translation <pb facs="0829" n="709" xml:id="pg709"/> of an order just
+                    issued by the Panama Government and communicated to me by the foreign
+                    office.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Barrett.</hi></signed></closer>
+
+
+                <xi:include href="d721-a1.xml" xpointer="d721-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

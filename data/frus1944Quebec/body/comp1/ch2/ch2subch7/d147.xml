@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d147" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d147"
+                    type="canonical"/>
+                <relatedItem target="d146.xml" type="prev"/>
+                <relatedItem target="d148.xml" type="next"/>
+                <relatedItem target="../ch2subch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d147</bibl>
+                <bibl type="frus-division-n">147</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="229" to="229" unit="page"
+                        >229</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Hyde Park</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-03">3 September 1944</date>
+                    <date notAfter="1944-09-03T23:59:59-05:00" notBefore="1944-09-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Octagon1">Octagon</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Red1">Red</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d147">
+
+                <pb facs="0285" n="229" xml:id="pg229"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Prime Minister
+                        Churchill</hi><anchor n="1" xml:id="d147-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Hyde
+                                Park</hi></placeName>,] <date calendar="gregorian" when="1944-09-03"
+                            >3 September 1944</date>.</dateline>
+                </opener>
+                <p>Number 616. Personal and top secret. From the President for the Prime
+                    Minister.</p>
+                <p>Your Number 774.<anchor n="2" xml:id="d147-f2"/></p>
+                <p>I share your confidence that the Allied divisions we have in Italy are sufficient
+                    to do the task before them and that the battle commanders will press the battle
+                    unrelentingly with the objective of shattering the enemy forces. After breaking
+                    the German forces on the Gothic Line, we must go on to use our divisions in the
+                    way which best aids General Eisenhower’s decisive drive into the enemy
+                    homeland.</p>
+                <p>As to the exact employment of our forces in Italy in the future, this is a matter
+                    we can discuss at <hi rendition="#small-caps">Octagon</hi>. It seems to me that
+                    American forces should be used to the westward but I am completely open-minded
+                    on this and, in any event, this depends on the progress of the present battle in
+                    Italy and also in France where I strongly feel that we must not stint in any way
+                    the forces needed to break quickly through the western defenses of Germany.</p>
+                <p>The credit for the great Allied success in southern France must go impartially to
+                    the combined Allied force, and the perfection of execution of the operation from
+                    its beginning to the present belong[s] to General Wilson and his Allied staff
+                    and to Patch and his subordinate commanders. With the present chaotic conditions
+                    of the Germans in southern France, I hope that a junction of the north and south
+                    forces may be obtained at a much earlier date than was first anticipated.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d147-f1" n="1" type="source" xml:id="d147-f1-content">
+                <p>Sent via the White House Map Room to the United States Naval Attaché, London, via
+                    Navy channels. This message was based on a draft which Leahy had sent to Hyde
+                    Park in telegram No. <hi rendition="#small-caps">Red</hi> 357 of September 3,
+                    1944, which had been approved by Roosevelt with the insertion of the words “but
+                    I am completely open-minded on this and” in the second substantive
+                    paragraph.</p>
+            </note>
+            <note corresp="#d147-f2" n="2" xml:id="d147-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg223">p. 223</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

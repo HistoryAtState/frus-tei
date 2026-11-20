@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1892_d500" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Scruggs to Mr. Foster.</title>
+            </titleStmt>
+            <xi:include href="../../frus1892_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1892_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1892/d500"
+                    type="canonical"/>
+                <relatedItem target="d499.xml" type="prev"/>
+                <relatedItem target="d501.xml" type="next"/>
+                <relatedItem target="../comp20.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1892</bibl>
+                <bibl type="frus-division-id">d500</bibl>
+                <bibl type="frus-division-n">500</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="624" to="624" unit="page"
+                        >624</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Caracas</hi></placeName>
+                    <date calendar="gregorian" when="1892-09-24"><hi rendition="#italic">September
+                            24, 1892</hi></date>
+                    <date notAfter="1892-09-24T23:59:59-05:00" notBefore="1892-09-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d500">
+
+                <pb facs="0712" n="624" sameAs="frus:frus1892/pg624"/>
+
+                <head><hi rendition="#italic">Mr. Scruggs to Mr. Foster.</hi></head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Caracas</hi></placeName>, <date calendar="gregorian"
+                            when="1892-09-24"><hi rendition="#italic">September 24,
+                        1892</hi></date>. (Received September 24.)</dateline></opener>
+                <p>Mr. Scruggs reports that the situation remains unchanged, nothing new having
+                    occurred, and transmits a request of the Government of Venezuela that the
+                    steamer <hi rendition="#italic">South Portland</hi>, laden with munitions of war
+                    in New York, be prevented from entering Puerto Cabello by the naval forces of
+                    the United States.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

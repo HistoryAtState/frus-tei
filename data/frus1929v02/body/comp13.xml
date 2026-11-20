@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1929v02_comp13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Estonia:</title>
+            </titleStmt>
+            <xi:include href="../frus1929v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1929v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1929v02/comp13"
+                    type="canonical"/>
+                <relatedItem target="comp12/ch57/d980.xml" type="prev"/>
+                <relatedItem target="comp13/ch58.xml" type="next"/>
+                <relatedItem target="../frus1929v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1929v02</bibl>
+                <bibl type="frus-division-id">comp13</bibl>
+                <bibl type="frus-division-n">13</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="963" to="979" unit="page"
+                        >963–79</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1929-09-10T23:59:59-05:00" notBefore="1928-04-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp13">
+
+                <pb facs="1107" n="963" xml:id="pg963"/>
+
+                <head>Estonia:</head>
+
+                <xi:include href="comp13/ch58.xml" xpointer="ch58"/>
+            </div>
+        </body>
+    </text>
+</TEI>

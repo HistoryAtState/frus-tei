@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d459" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the British Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d459"
+                    type="canonical"/>
+                <relatedItem target="d458.xml" type="prev"/>
+                <relatedItem target="d460.xml" type="next"/>
+                <relatedItem target="../ch9subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d459</bibl>
+                <bibl type="frus-division-n">459</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1041" to="1042" unit="page"
+                        >1041–42</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-21">21 August 1943</date>
+                    <date notAfter="1943-08-21T23:59:59-05:00" notBefore="1943-08-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                    <term ref="frus:frus1943/terms#t_Trident1">Trident</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d459">
+
+                <pb facs="1155" n="1041" sameAs="frus:frus1943/pg1041"/>
+
+                <note rend="inline" type="source"> J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the British Chiefs of Staff</hi><anchor
+                        n="1" xml:id="d459-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">most secret</hi>
+                        <lb/> C.C.S. 246/1</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-21">21 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Movement of the “Queens”</hi><anchor n="2"
+                        xml:id="d459-f2"/>
+                </p>
+                <p>At the 94th Meeting of the Combined Chiefs of Staff during the <hi
+                        rendition="#small-caps">Trident</hi> Conference,<anchor n="3"
+                        xml:id="d459-f3"/> approval was given to the “<hi rendition="#italic"
+                        >Queens</hi>” running on <pb facs="1156" n="1042" xml:id="pg1042"/> a 28 day
+                    cycle as at that time the urgency of lifting personnel was not as great as it is
+                    now.</p>
+                <p>It is understood that a situation is developing in which it is essential to lift
+                    as many personnel as possible, and in view of the longer nights we recommend
+                    that the Combined Chiefs of Staff should now approve that the “<hi
+                        rendition="#italic">Queens</hi>” should revert to running on a 21 day
+                    cycle.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d459-f1" n="1" type="source" xml:id="d459-f1-content">
+                <p>For the action taken on this paper at the 115th Meeting of the Combined Chiefs of
+                    Staff, August 23, 1943, see <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg939">p. 939</ref>.</p>
+            </note>
+            <note corresp="#d459-f2" n="2" xml:id="d459-f2-content">
+                <p>i.e., the requisitioned passenger liners <hi rendition="#italic">Queen
+                        Elizabeth</hi> and <hi rendition="#italic">Queen Mary.</hi>
+                </p>
+            </note>
+            <note corresp="#d459-f3" n="3" xml:id="d459-f3-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg179">p. 179</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

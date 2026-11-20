@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1915Supp_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915Supp"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1915Supp" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1915Supp/covers/frus1915Supp.jpg"/>
+                        <extent>
+                            <measure quantity="29987" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:52:16.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1915Supp" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1915Supp/ebook/frus1915Supp.epub"/>
+                        <extent>
+                            <measure quantity="2793375" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:52:16.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1915Supp" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1915Supp/ebook/frus1915Supp.mobi"/>
+                        <extent>
+                            <measure quantity="3876721" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:52:16.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1928 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">wilson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>world-war-i</term>
+                    <term>albania</term>
+                    <term>quarantine-blockade</term>
+                    <term>austria</term>
+                    <term>hungary</term>
+                    <term>bulgaria</term>
+                    <term>denmark</term>
+                    <term>united-kingdom</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>prisoners-of-war</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>neutrality</term>
+                    <term>netherlands</term>
+                    <term>peace</term>
+                    <term>russia</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>turkey</term>
+                    <term>wilson-woodrow</term>
+                    <term>faroe-islands</term>
+                    <term>guadeloupe</term>
+                    <term>martinique</term>
+                    <term>bryan-william-jennings</term>
+                    <term>lansing-robert</term>
+                    <term>spanish-american-war</term>
+                    <term>the-bahamas</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1915Supp" status="published" when="1928"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="I" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Papers Relating to the Foreign Relations of the United
+                        States</titlePart>
+                    <titlePart type="subseries">1915</titlePart>
+                    <titlePart type="volumeno"/>
+                    <titlePart type="volumetitle">Supplement<lb/>The World War</titlePart>
+                </docTitle>
+                <docImprint>U. S. GOVERNMENT PRINTING OFFICE<lb/>WASHINGTON</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1928</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> ADDITIONAL COPIES<lb/>OF THIS
+                    PUBLICATION MAY BE PROCURED FROM<lb/>THE SUPERINTENDENT OF DOCUMENTS<lb/>U. S.
+                    GOVERNMENT PRINTING OFFICE<lb/>WASHINGTON, D. C.<lb/>AT<lb/>$1.75 PER
+                    COPY</docImprint>
+            </titlePage>
+            <xi:include href="front/contents.xml" xpointer="contents"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+            <xi:include href="front/toc-topics.xml" xpointer="toc-topics"/>
+            <xi:include href="front/toc-countries.xml" xpointer="toc-countries"/>
+        </front>
+        <body>
+            <pb facs="0259" n="[1]" xml:id="pg1"/>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <pb facs="0348" n="[90]" xml:id="pg90"/>
+            <pb facs="0349" n="[91]" xml:id="pg91"/>
+            <pb facs="0350" n="[92]" xml:id="pg92"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <pb facs="1014" n="[756]" xml:id="pg756"/>
+            <pb facs="1015" n="[757]" xml:id="pg757"/>
+            <pb facs="1016" n="[758]" xml:id="pg758"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <pb facs="1155" n="[897]" xml:id="pg897"/>
+            <pb facs="1156" n="[898]" xml:id="pg898"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+        </body>
+        <back>
+            <pb facs="1316" n="[1058]" xml:id="pg1058"/>
+            <pb facs="1317" n="[1059]" xml:id="pg1059"/>
+            <pb facs="1318" n="[1060]" xml:id="pg1060"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

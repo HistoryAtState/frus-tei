@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d470" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note by the Secretaries of the Combined Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d470"
+                    type="canonical"/>
+                <relatedItem target="../ch9subch3.xml" type="prev"/>
+                <relatedItem target="d471.xml" type="next"/>
+                <relatedItem target="../ch9subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d470</bibl>
+                <bibl type="frus-division-n">470</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1054" to="1055" unit="page"
+                        >1054–55</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-14">14 August 1943</date>
+                    <date notAfter="1943-08-14T23:59:59-05:00" notBefore="1943-08-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_Fan1">Fan</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                    <term ref="frus:frus1943/terms#t_White1">White</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d470">
+
+                <pb facs="1168" n="1054" sameAs="frus:frus1943/pg1054"/>
+
+                <note rend="inline" type="source"> J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Note by the Secretaries of the Combined Chiefs of
+                        Staff</hi><anchor n="1" xml:id="d470-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/> C.C.S. 306</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-14">14 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Rome an Open City</hi>
+                </p>
+                <p>Press reports have been received that Rome has been declared an open city by the
+                    Italian Government.<anchor n="2" xml:id="d470-f2"/> General Eisenhower has
+                    indicated that he may make an attack against Rome tomorrow, 15 August.</p>
+                <p>Pending clarification of the situation, it is suggested that the following <hi
+                        rendition="#small-caps">Fan</hi> message might be sent to General
+                    Eisenhower: <quote rend="blockquote">
+                        <p>“Press reports this date indicate Italian Government has declared Rome an
+                            open city. Pending clarification and further instructions it is <pb
+                                facs="1169" n="1055" xml:id="pg1055"/> desired that you make no
+                            further attacks on Rome nor make any statements from your headquarters
+                            regarding the attitude of the United Nations with respect to the action
+                            taken by the Italian Government.”</p>
+                    </quote>
+                </p>
+                <closer>
+                    <signed> H. <hi rendition="#small-caps">Redman</hi>
+                        <lb/> J. R. <hi rendition="#small-caps">Deane</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Combined Secretariat</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d470-f1" n="1" type="source" xml:id="d470-f1-content">
+                <p>Circulated for consideration by the Combined Chiefs of Staff. By informal action
+                    the message in the final paragraph was approved and sent to Eisenhower as
+                    telegram No. <hi rendition="#small-caps">Fan</hi> 191, August 14, 1943. The text
+                    was also sent to the White House Map Room at Washington, which forwarded it to
+                    Roosevelt, who was then at Hyde Park, as telegram No. <hi
+                        rendition="#small-caps">White</hi> 84, August 14.</p>
+                <p>For the discussion of this paper at the 108th Meeting of the Combined Chiefs of
+                    Staff, August 15, 1943, see <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg863">p. 863</ref>.</p>
+            </note>
+            <note corresp="#d470-f2" n="2" xml:id="d470-f2-content">
+                <p>For the notification of this action given by the Apostolic Delegate in Washington
+                    (Cicognani) to the Department of State on August 16, 1943, see <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg594">p. 594</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

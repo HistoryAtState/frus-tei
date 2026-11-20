@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d1234-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915/d1234-a1"
+                    type="canonical"/>
+                <relatedItem target="d1234.xml" type="prev"/>
+                <relatedItem target="d1235.xml" type="next"/>
+                <relatedItem target="d1234.xml" type="parent"/>
+                <relatedItem target="d1234.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d1234-a1</bibl>
+                <bibl type="frus-division-n">1234.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="874" to="874" unit="page"
+                        >874</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1234-a1">
+
+                <pb facs="0990" n="874" sameAs="frus:frus1915/pg874"/>
+
+                <opener>
+                    <seg rendition="#center">[Inclosure—Translation.]</seg>
+                </opener>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <p>Replying to your message of yesterday, you may abide by the text of the decree on
+                    petroleum as published in El Pueblo. Article 1 refers only to work begun. Such
+                    operations must be suspended; not the operation of properties in actual
+                    production, and much less those who have paid all taxes and imposts up to date
+                    the suspension of which would cause serious damage. The object is to prevent the
+                    continuance of drilling further wells and prosecuting further construction
+                    without the authorization referred to in said decree.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Pastor Rouaix.</hi>
+                    </signed><lb/>
+                    <dateline rendition="#float-left">
+                        <date ana="#date_imprecise-inferred-from-document-content-and-sibling-dates"
+                            calendar="gregorian" when="1915-01-15"><hi rendition="#small-caps"
+                                >January</hi> 15</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

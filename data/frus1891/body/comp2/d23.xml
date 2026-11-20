@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1891_d23" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Grant to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1891_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1891_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1891/d23"
+                    type="canonical"/>
+                <relatedItem target="d22-a9.xml" type="prev"/>
+                <relatedItem target="d23-a1.xml" type="next"/>
+                <relatedItem target="../comp2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1891</bibl>
+                <bibl type="frus-division-id">d23</bibl>
+                <bibl type="frus-division-n">23</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="29" to="30" unit="page"
+                        >29–30</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Vienna</hi></placeName>
+                    <date calendar="gregorian" when="1891-09-11"><hi rendition="#italic">September
+                            11, 1891</hi>.</date>
+                    <date notAfter="1891-09-11T23:59:59-05:00" notBefore="1891-09-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d23">
+
+                <pb facs="0135" n="29" xml:id="pg29"/>
+
+                <head><hi rendition="#italic">Mr. Grant to Mr. Blaine</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Vienna</hi></placeName>, <date calendar="gregorian"
+                            when="1891-09-11"><hi rendition="#italic">September 11,
+                            1891</hi>.</date> (Received October 2.)</dateline>
+                    <seg rendition="#float-left">No. 188.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to forward herewith a
+                    translated copy of a note from Count Welsersheimb, second chief of section of
+                    the ministry of foreign affairs. Count Welsersheimb’s note is in reply to one
+                    (copy inclosed), which was addressed by this legation to Count Kalnoky, minister
+                    of foreign affairs, in compliance with your letter of instruction No. 133, dated
+                    the 6th of August last.</p>
+                <p>Trusting that the Department will find that my note to Count Kalnoky covers the
+                    ground contemplated by its instruction,</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">F. D. Grant</hi>.</signed></closer>
+
+
+
+                <xi:include href="d23-a1.xml" xpointer="d23-a1"/>
+                <xi:include href="d23-a2.xml" xpointer="d23-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

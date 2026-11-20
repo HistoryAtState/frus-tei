@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1951v06p1_d20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Secretary of Defense (Lovett) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1951v06p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1951v06p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1951v06p1/d20"
+                    type="canonical"/>
+                <relatedItem target="d19.xml" type="prev"/>
+                <relatedItem target="d20-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1951v06p1</bibl>
+                <bibl type="frus-division-id">d20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="102" to="103" unit="page"
+                        >102–3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1951-10-29">29 October 1951</date>
+                    <date notAfter="1951-10-29T23:59:59-05:00" notBefore="1951-10-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1951v06p1/terms">
+                    <term ref="frus:frus1951v06p1/terms#t_USAF1">USAF</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20">
+
+                <pb facs="0120" n="102" sameAs="frus:frus1951v06p1/pg102"/>
+
+                <note rend="inline" type="source">790.022/10–2951</note>
+                <head>
+                    <hi rendition="#italic">The Secretary of Defense</hi> (<hi rendition="#italic"
+                        >Lovett</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">confidential</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1951-10-29">29 October
+                        1951</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Dear Mr. Secretary</hi>: I refer to the letter of
+                    August 27, 1951, by the Deputy Under Secretary of State,<anchor n="1"
+                        xml:id="d20-f1"/> in which he requested a study of the strategic value of
+                    certain islands in the Pacific claimed by the United States which are also
+                    claimed by Great Britain or New Zealand.</p>
+                <p>There is inclosed a memorandum to the Secretary of Defense by the Joint Chiefs of
+                    Staff which sets forth their evaluation of these islands from a strategic point
+                    of view.</p>
+                <p>Sincerely yours,</p>
+                <closer>
+                    <signed>
+                        <list>
+                            <item>For the Secretary of Defense:</item>
+                            <item>K. R. <hi rendition="#small-caps">Kreps</hi>
+                            </item>
+                            <item>
+                                <hi rendition="#italic">Colonel, USAF, Deputy Director Executive
+                                    Office of the Secretary</hi>
+                            </item>
+                        </list>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d20-a1.xml" xpointer="d20-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d20-f1" n="1" xml:id="d20-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

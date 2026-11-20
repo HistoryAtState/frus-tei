@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1933v03_comp4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Siam:</title>
+            </titleStmt>
+            <xi:include href="../frus1933v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1933v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1933v03/comp4"
+                    type="canonical"/>
+                <relatedItem target="comp3/ch34/d833.xml" type="prev"/>
+                <relatedItem target="comp4/ch35.xml" type="next"/>
+                <relatedItem target="../frus1933v03.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1933v03</bibl>
+                <bibl type="frus-division-id">comp4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="767" to="771" unit="page"
+                        >767–71</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1933-11-24T15:00:00-05:00" notBefore="1933-10-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp4">
+
+                <pb facs="0869" n="767" xml:id="pg767"/>
+
+                <head>Siam:</head>
+
+                <xi:include href="comp4/ch35.xml" xpointer="ch35"/>
+            </div>
+        </body>
+    </text>
+</TEI>

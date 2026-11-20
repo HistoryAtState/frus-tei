@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d288" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Communiqué</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d288"
+                    type="canonical"/>
+                <relatedItem target="d287-a1.xml" type="prev"/>
+                <relatedItem target="d289.xml" type="next"/>
+                <relatedItem target="../ch5subsubch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d288</bibl>
+                <bibl type="frus-division-n">288</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="477" to="477" unit="page"
+                        >477</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-16">September 16, 1944</date>
+                    <date notAfter="1944-09-16T23:59:59-05:00" notBefore="1944-09-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d288">
+
+                <pb facs="0541" n="477" sameAs="frus:frus1944Quebec/pg477"/>
+
+                <note rend="inline" type="source">J.C.S. Files</note>
+                <head><hi rendition="#italic">Communiqué</hi><anchor n="1" xml:id="d288-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>, <date calendar="gregorian"
+                            when="1944-09-16">September 16, 1944</date>.]</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Communiqué to the Press</hi></p>
+                <p>The President and the Prime Minister, and the Combined Chiefs of Staff held a
+                    series of meetings during which they discussed all aspects of the war against
+                    Germany and Japan. In a very short space of time they reached decisions on all
+                    points both with regard to the completion of the war in Europe, now approaching
+                    its final stages, and the destruction of the barbarians of the Pacific.</p>
+                <p>The most serious difficulty with which the Quebec Conference has been confronted
+                    has been to find room and opportunity for marshalling against Japan the massive
+                    forces which each and all of the nations concerned are ardent to engage against
+                    the enemy.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d288-f1" n="1" type="source" xml:id="d288-f1-content">
+                <p>Annex <hi rendition="#small-caps">ii</hi> to the minutes of the meeting of the
+                    Combined Chiefs of Staff with Roosevelt and Churchill, September 16, 1944. With
+                    reference to the origin of the text of the Communiqué see Marshall’s remarks to
+                    the Combined Chiefs of Staff on September 15, <hi rendition="#italic">ante</hi>,
+                        <ref target="#pg358">p. 358</ref>, and Ismay’s memorandum to Leahy of the
+                    same date, <hi rendition="#italic">ante</hi>, <ref target="#pg456">p.
+                    456</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

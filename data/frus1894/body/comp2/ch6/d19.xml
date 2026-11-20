@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894_d19" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Tripp to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1894_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1894_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1894/d19"
+                    type="canonical"/>
+                <relatedItem target="../ch6.xml" type="prev"/>
+                <relatedItem target="d19-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1894</bibl>
+                <bibl type="frus-division-id">d19</bibl>
+                <bibl type="frus-division-n">19</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="26" to="27" unit="page"
+                        >26–27</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Legation</hi>,<lb/><hi
+                            rendition="#italic">Vienna</hi></placeName>
+                    <date calendar="gregorian" when="1893-12-21"><hi rendition="#italic">December
+                            21, 1893</hi></date>
+                    <date notAfter="1893-12-21T23:59:59-05:00" notBefore="1893-12-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d19">
+
+                <pb facs="0076" n="26" sameAs="frus:frus1894/pg26"/>
+
+                <head><hi rendition="#italic">Mr. Tripp to Mr. Gresham.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >United States Legation</hi>,<lb/><hi rendition="#italic"
+                                >Vienna</hi></placeName>, <date calendar="gregorian"
+                            when="1893-12-21"><hi rendition="#italic">December 21, 1893</hi></date>.
+                        (Received January 5.)</dateline>
+                    <seg rendition="#float-left">No. 58.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith for
+                    your information copies of correspondence between this legation and the imperial
+                    and royal ministry of foreign affairs at Vienna, relative to the genuineness of
+                    a naturalization certificate issued by the municipal court of Milwaukee, Wis.,
+                    to a former subject of Austria, Cajetan Kern, held by the provincial court at
+                    Linz, on suspicion of having violated the provisions of the military laws of
+                    this monarchy, and his subsequent release.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Bartlett Tripp.</hi></signed></closer>
+
+
+
+
+
+                <xi:include href="d19-a1.xml" xpointer="d19-a1"/>
+                <xi:include href="d19-a2.xml" xpointer="d19-a2"/>
+                <xi:include href="d19-a3.xml" xpointer="d19-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

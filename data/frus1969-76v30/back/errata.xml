@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v30_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1969-76v30_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1969-76v30_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v30/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1969-76v30.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v30</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="873" to="873" unit="page"
+                        >873</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1976-11-08T07:25:00-05:00" notBefore="1973-02-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0898" n="873" sameAs="frus:frus1969-76v30/pg873"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to the online version of <hi
+                        rendition="#italic">Foreign Relations</hi>, 1969-1976, Volume XXX, Greece;
+                    Cyprus; Turkey, 1973-1976. Please be aware that printed volumes have not been
+                    revised. Revised information is in italic.</p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#d12-f6">Document 12, Footnote
+                                5a</ref>, Page 53 (date of correction: May 20, 2009)</hi>
+                    </item>
+                    <item>Mr. Tasca: —well, I think because Greece and the Greek people—in terms of
+                        their position and public opinion in Western Europe—are quite unique. You
+                        can go back to the constitutional Greece or the Greek lobby—whatever you
+                        want to call it—and they’ve got a position in Western Europe and the United
+                        States that Brazil and Chile and these other countries don’t have. None of
+                        those countries has a Androutsopoulos<anchor n="5a" xml:id="errata-d12-f1"
+                        />—a Greek refugee who’s been activitated [active?] and who for four years
+                        has been leading a very vigorous fight on our policy in Greece.</item>
+                    <item>
+                        <hi rendition="#bold">2. <ref target="#d111-f2">Footnote 2, Document
+                                111</ref>, Page 365 (date of correction: January 3, 2013)</hi>
+                    </item>
+                    <item>The citation to “footnote 12” of Document 110 has been corrected as
+                        “footnote 11”.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#errata-d12-f1" n="5a" xml:id="errata-d12-f1-content">
+                <p>
+                    <hi rendition="#italic">The reference to Androutsopoulos is incorrect.
+                        Adamantios Androutsopoulos was Greek Prime Minister from November 1973 to
+                        July 1974. His name appears in the original minutes, but it is not clear
+                        whether Tasca and Kissinger misspoke or whether the note taker recorded the
+                        wrong name. A question mark, in an unknown hand, appears above
+                        Androutsopoulos’s name; however, question marks appear above several other
+                        names in the minutes, perhaps indicating uncertainty about spelling, rather
+                        than identity.</hi>
+                </p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1862" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1862_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1862_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1862_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1862"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1862" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1862/covers/frus1862.jpg"/>
+                        <extent>
+                            <measure quantity="30958" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:23:15.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1862" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1862/ebook/frus1862.epub"/>
+                        <extent>
+                            <measure quantity="1788352" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:23:15.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1862" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1862/ebook/frus1862.mobi"/>
+                        <extent>
+                            <measure quantity="2172263" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:23:15.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1862 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>lincoln-abraham</term>
+                    <term>united-kingdom</term>
+                    <term>civil-war-u-s</term>
+                    <term>quarantine-blockade</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>mexico</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>cuba</term>
+                    <term>france</term>
+                    <term>neutrality</term>
+                    <term>alliances</term>
+                    <term>russia</term>
+                    <term>spain</term>
+                    <term>austria</term>
+                    <term>netherlands</term>
+                    <term>belgium</term>
+                    <term>brazil</term>
+                    <term>switzerland</term>
+                    <term>denmark</term>
+                    <term>sweden</term>
+                    <term>turkey</term>
+                    <term>china</term>
+                    <term>egypt</term>
+                    <term>morocco</term>
+                    <term>guatemala</term>
+                    <term>costa-rica</term>
+                    <term>honduras</term>
+                    <term>nicaragua</term>
+                    <term>ecuador</term>
+                    <term>war-of-1812</term>
+                    <term>american-revolutionary-war</term>
+                    <term>dominica</term>
+                    <term>st-vincent-and-the-grenadines</term>
+                    <term>suriname</term>
+                    <term>the-bahamas</term>
+                    <term>grenada</term>
+                    <term>seward-william-henry</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1862" status="published" when="1862"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0007" n="[1]" xml:id="pg-seq-7"/>
+            <p rendition="#center"><hi rendition="#small-caps">37th Congress</hi>, 3<hi
+                    rendition="#italic">d Session</hi>.</p>
+            <p rendition="#center">HOUSE OF REPRESENTATIVES.</p>
+            <p rendition="#center">Ex. Doc. No. 1.</p>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">MESSAGE OF THE PRESIDENT OF THE UNITED STATES TO THE
+                        TWO HOUSES OF CONGRESS AT THE COMMENCEMENT OF THE THIRD SESSION OF THE
+                        THIRTY-SEVENTH CONGRESS.</titlePart>
+                    <titlePart type="subseries">VOLUME 1.</titlePart>
+                </docTitle>
+                <docImprint><hi rendition="#small-caps">December</hi> 1, 1862.—Read, and ordered
+                    that the usual number of the message and documents be printed.</docImprint>
+                <docImprint>WASHINGTON: GOVERNMENT PRINTING OFFICE.</docImprint>
+            </titlePage>
+            <pb facs="0008" n="[2]" xml:id="pg-seq-8"/>
+            <xi:include href="front/message.xml" xpointer="message"/>
+            <pb facs="0030" n="[]" xml:id="pg-seq-30"/>
+            <pb facs="0031" n="[I]" xml:id="pgI"/>
+            <pb facs="0032" n="[II]" xml:id="pgII"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+            <pb facs="0070" n="[]" xml:id="pg-seq-70"/>
+        </front>
+        <body>
+            <pb facs="0071" n="[1]" xml:id="pg1"/>
+            <pb facs="0072" n="[2]" xml:id="pg2"/>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1940v05_comp15" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nicaragua:</title>
+            </titleStmt>
+            <xi:include href="../frus1940v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1940v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1940v05/comp15"
+                    type="canonical"/>
+                <relatedItem target="comp14/ch59.xml" type="prev"/>
+                <relatedItem target="comp15/ch60.xml" type="next"/>
+                <relatedItem target="../frus1940v05.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1940v05</bibl>
+                <bibl type="frus-division-id">comp15</bibl>
+                <bibl type="frus-division-n">15</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1069" to="1071" unit="page"
+                        >1069–71</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1940-04-16T23:59:59-05:00" notBefore="1940-04-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp15">
+
+                <pb facs="1081" n="1069" xml:id="pg1069"/>
+
+                <head>Nicaragua:</head>
+
+                <xi:include href="comp15/ch60.xml" xpointer="ch60"/>
+            </div>
+        </body>
+    </text>
+</TEI>

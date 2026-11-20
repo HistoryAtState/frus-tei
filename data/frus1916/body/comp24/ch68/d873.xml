@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d873" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d873"
+                    type="canonical"/>
+                <relatedItem target="d872.xml" type="prev"/>
+                <relatedItem target="d874.xml" type="next"/>
+                <relatedItem target="../ch68.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d873</bibl>
+                <bibl type="frus-division-n">873</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="651" to="651" unit="page"
+                        >651</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">El Paso</hi></placeName>
+                    <date calendar="gregorian" when="1916-01-11T14:00:00-07:00">
+                        <hi rendition="#italic">January 11, 1916, 2 p.m.</hi>
+                    </date>
+                    <date notAfter="1916-01-11T16:00:00-05:00" notBefore="1916-01-11T16:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d873">
+
+                <pb facs="0727" n="651" sameAs="frus:frus1916/pg651"/>
+
+                <note rend="inline" type="source">File No. 312.115C96/5</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">El Paso</hi></placeName>, <date
+                            calendar="gregorian" when="1916-01-11T14:00:00-07:00">
+                            <hi rendition="#italic">January 11, 1916, 2 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Murder of Watson and companions confirmed. An American of the party, name
+                    unknown, escaped and reported facts.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Cobb</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

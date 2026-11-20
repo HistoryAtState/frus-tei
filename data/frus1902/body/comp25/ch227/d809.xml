@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d809" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Merry to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d809"
+                    type="canonical"/>
+                <relatedItem target="../ch227.xml" type="prev"/>
+                <relatedItem target="d810.xml" type="next"/>
+                <relatedItem target="../ch227.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d809</bibl>
+                <bibl type="frus-division-n">809</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="883" to="884" unit="page"
+                        >883–84</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">San José</hi></placeName>
+                    <date calendar="gregorian" when="1902-05-31"><hi rendition="#italic">May 31,
+                            1902</hi></date>
+                    <date notAfter="1902-05-31T23:59:59-05:00" notBefore="1902-05-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d809">
+
+                <pb facs="0963" n="883" sameAs="frus:frus1902/pg883"/>
+
+                <head><hi rendition="#italic">Mr. Merry to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic">San
+                                José</hi></placeName>, <date calendar="gregorian" when="1902-05-31"
+                                ><hi rendition="#italic">May 31, 1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 726.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to acknowledge the receipt
+                    of your cablegram<anchor n="a" xml:id="d809-f1"/> dated May 24.</p>
+                <p>In accordance therewith I have addressed the Governments named, requesting reply
+                    by telegraph from Nicaragua and Salvador. I have pleasure in advising that I
+                    have received an official note from the Hon. Leonidas Pacheco, minister of
+                    foreign relations of Costa Rica, dated the 28th instant, courteously granting
+                    the permission requested. In <pb facs="0964" n="884" xml:id="pg884"/> accordance
+                    therewith I have notified the United States consul at San José, who will at once
+                    undertake the service required under your instruction.</p>
+                <p>With assurances, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">William Lawrence
+                    Merry.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d809-f1" n="a" xml:id="d809-f1-content">
+                <p>Printed, <ref target="#pg6">p. 6</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v07_comp8" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Argentina:</title>
+            </titleStmt>
+            <xi:include href="../frus1955-57v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1955-57v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v07/comp8"
+                    type="canonical"/>
+                <relatedItem target="comp7/ch7/d177.xml" type="prev"/>
+                <relatedItem target="comp8/ch8.xml" type="next"/>
+                <relatedItem target="../frus1955-57v07.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v07</bibl>
+                <bibl type="frus-division-id">comp8</bibl>
+                <bibl type="frus-division-n">8</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="350" to="507" unit="page"
+                        >350–507</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1957-12-16T23:59:59-05:00" notBefore="1955-01-25T17:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp8">
+
+                <pb facs="0384" n="350" xml:id="pg350"/>
+
+                <head>Argentina:</head>
+
+                <xi:include href="comp8/ch8.xml" xpointer="ch8"/>
+            </div>
+        </body>
+    </text>
+</TEI>

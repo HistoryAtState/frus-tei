@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d44" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 44</title>
+                <title type="subtitle">Prime Minister Churchill to President Truman </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d44"
+                    type="canonical"/>
+                <relatedItem target="d43.xml" type="prev"/>
+                <relatedItem target="d45.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d44</bibl>
+                <bibl type="frus-division-n">44</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="89" to="89" unit="page"
+                        >89</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-05-31">31 May [19]45</date>
+                    <date notAfter="1945-05-31T23:59:59-05:00" notBefore="1945-05-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_DRK1">Davies, Ralph K.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d44">
+
+                <pb facs="0221" n="89" sameAs="frus:frus1945Berlinv01/pg89"/>
+
+                <note rend="inline" type="source"> Leahy Papers: Telegram</note>
+                <head>No. 44 <lb/>
+                    <hi rendition="#italic">Prime Minister Churchill to President Truman
+                        </hi><anchor n="1" xml:id="d44-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-05-31">31 May [19]45</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Truman. Personal and top secret. Number 60.</p>
+                <list>
+                    <label>1.</label>
+                    <item>I am hoping that you will soon be able to let me know your date for the
+                        meeting of the three in Berlin. As you can imagine, many of my plans depend
+                        upon it at the present time.</item>
+                    <label>2.</label>
+                    <item>I had agreeable talks with Mr. Davies, which he will report to you<anchor
+                            n="2" xml:id="d44-f2"/> when he returns. I may say however at once that
+                        I should not be prepared to attend a meeting which was a continuation of a
+                        conference between you and Marshal Stalin. I consider that at this victory
+                        meeting, at which subjects of the gravest consequence are to be discussed,
+                        we three should meet simultaneously and on equal terms.</item>
+                    <label>3.</label>
+                    <item>There are always plenty of opportunities for private discussion between
+                        the heads of governments at these meetings while the preliminaries are being
+                        arranged and the agenda fixed. I am also hoping to have the pleasure of
+                        meeting you for the first time.</item>
+                </list>
+                <closer>
+                    <hi rendition="#small-caps">Prime</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d44-f1" n="1" type="source" xml:id="d44-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d44-f2" n="2" xml:id="d44-f2-content">
+                <p>See <ref target="#d33">document No. 33</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

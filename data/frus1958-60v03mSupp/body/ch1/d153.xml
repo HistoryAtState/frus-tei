@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d153" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter From Herter to McElroy</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d153"
+                    type="canonical"/>
+                <relatedItem target="d152.xml" type="prev"/>
+                <relatedItem target="d153-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d153</bibl>
+                <bibl type="frus-division-n">153</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1959-04-25">April 25, 1959</date>
+                    <date notAfter="1959-04-25T23:59:59-05:00" notBefore="1959-04-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_HCA_1">Herter, Christian A.</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_MNH_1">McElroy, Neil H.</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_QDA_1">Quarles, Donald A.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_RG_1">RG</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_SP_1">S/P</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d153">
+
+                <pb facs="0802" n="697" sameAs="frus:frus1958-60v03mSupp/pg697"/>
+
+                <head>153. Letter From Herter to McElroy<anchor n="1" xml:id="d153-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1959-04-25">April 25, 1959</date></dateline>
+                    <salute>Dear Neil:</salute>
+                </opener>
+                <pb facs="d153-1" n="1" type="facsimile" xml:id="d153-1"/>
+                <p>On February 26, 1959, Deputy Secretary Quarles and I agreed that Assistant
+                    Secretaries Irwin of Defense and Smith of State would consult together on the
+                    problems of US strategy raised in Secretary Dulles’ letter of January 24, 1959
+                    before the military paragraphs of NSC 5810/1, “Basic National Security Policy”,
+                    were taken up by the NSC Planning Board in the 1959 annual review of that
+                    paper.</p>
+                <p>In the course of a preliminary discussion on April 16 Mr. Irwin suggested to Mr.
+                    Smith that it would be helpful if this Department could provide a brief
+                    statement of foreign policy requirements bearing upon military strategy. I am
+                    accordingly sending you the enclosed paper.</p>
+                <p>I recognize that there are various considerations in addition to those of foreign
+                    policy that must bear upon the formulation of our military strategy. I hope,
+                    however, that the enclosed paper will be of assistance to your Department in its
+                    re-examination of the military paragraphs of NSC 5810/1.</p>
+                <p>With warmest personal regards,</p>
+                <p>Most sincerely,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">/S/ Christian A. Herter</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d153-a1.xml" xpointer="d153-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d153-f1" n="1" type="source" xml:id="d153-f1-content">
+                <p>Source: Transmits a paper on foreign policy considerations bearing on military
+                    strategy. Top Secret. 3 pp. NARA, RG 59, S/P–NSC Files: Lot 62 D 1.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

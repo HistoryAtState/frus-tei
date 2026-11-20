@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_d1128" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Mexican Embassy to the Department of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/d1128"
+                    type="canonical"/>
+                <relatedItem target="d1127.xml" type="prev"/>
+                <relatedItem target="d1129.xml" type="next"/>
+                <relatedItem target="../ch78.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">d1128</bibl>
+                <bibl type="frus-division-n">1128</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="882" to="882" unit="page"
+                        >882</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1913-12-03T23:59:59-05:00" notBefore="1913-12-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1128">
+
+                <pb facs="0986" n="882" sameAs="frus:frus1913/pg882"/>
+
+                <note rend="inline" type="source">File No. 812.00/10317.</note>
+                <head>
+                    <hi rendition="#italic">The Mexican Embassy to the Department of State.</hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Memorandum—Translation.]</seg>
+                </opener>
+                <p>The Mexican Embassy in Washington is in receipt of the following information from
+                    Consular Inspector in El Paso, Texas: <quote rend="blockquote">
+                        <p>The local authorities appear to have assumed an attitude which may be
+                            characterized as hostile against Mexican refugees in this city, showing,
+                            on the other hand, open partiality for the rebels who daily pass from
+                            Ciudad Juárez to El Paso without molestation; certain employees of the
+                            local police maintain relations and receive commissions from the rebel
+                            Junta which has placed spies around the building occupied by the Mexican
+                            Consulate, spies whose business it is to denounce the refugees who
+                            present themselves there.</p>
+                    </quote>
+                </p>
+                <closer>
+                    <dateline rendition="#float-left">
+                        <hi rendition="#small-caps">Mexican Embassy</hi>, <lb/>
+                        <placeName>
+                            <hi rendition="#italic">Washington</hi>
+                        </placeName>, <date calendar="gregorian" when="1913-12-03"><hi
+                                rendition="#italic">December 3, 1913</hi></date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

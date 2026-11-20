@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1881_d1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 1.</title>
+                <title type="subtitle">Mr. Osborn to Mr. Evarts.</title>
+            </titleStmt>
+            <xi:include href="../../frus1881_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1881_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1881/d1"
+                    type="canonical"/>
+                <relatedItem target="../comp1.xml" type="prev"/>
+                <relatedItem target="d1-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1881</bibl>
+                <bibl type="frus-division-id">d1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1" to="2" unit="page"
+                    >1–2</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Buenos Ayres</hi></placeName>
+                    <date calendar="gregorian" when="1880-11-29"><hi rendition="#italic"
+                            >November</hi> 29, 1880</date>
+                    <date notAfter="1880-11-29T23:59:59-05:00" notBefore="1880-11-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1">
+
+                <pb facs="0125" n="1" sameAs="frus:frus1881/pg1"/>
+
+                <head>No. 1.<lb/><hi rendition="#italic">Mr. Osborn to Mr. Evarts</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Buenos Ayres</hi></placeName>, <date calendar="gregorian"
+                            when="1880-11-29"><hi rendition="#italic">November</hi> 29, 1880</date>.
+                        (Received January 6, 1881.)</dateline>
+                    <seg rendition="#float-left">No. 308.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith a copy
+                    of my note of date October 22d ultimo, addressed to the minister of foreign
+                    affairs, under instructions contained in your dispatch numbered 131, with a copy
+                    of the minister’s reply, marked A and B, respectively.</p>
+                <p>I also inclose a copy of the comments, in reference to the notes exchanged, of
+                    the La Republica, official organ, as translated and published in the Buenos
+                    Herald of the 14th instant.</p>
+                <p>I have, &amp;c.,</p>
+                <closer><signed>THOS. O. OSBORN.</signed></closer>
+
+
+
+
+
+                <xi:include href="d1-a1.xml" xpointer="d1-a1"/>
+                <xi:include href="d1-a2.xml" xpointer="d1-a2"/>
+                <xi:include href="d1-a3.xml" xpointer="d1-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav01_d251" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Russia (Francis) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav01/d251"
+                    type="canonical"/>
+                <relatedItem target="d250.xml" type="prev"/>
+                <relatedItem target="d252.xml" type="next"/>
+                <relatedItem target="../ch7subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav01</bibl>
+                <bibl type="frus-division-id">d251</bibl>
+                <bibl type="frus-division-n">251</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="268" to="268" unit="page"
+                        >268</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Petrograd</hi></placeName>
+                    <date calendar="gregorian" when="1917-11-26T18:00:00+03:31">
+                        <hi rendition="#italic">November 26, 1917, 6 p.m.</hi>
+                    </date>
+                    <date notAfter="1917-11-26T09:29:00-05:00" notBefore="1917-11-26T09:29:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav01/persons">
+                    <term ref="frus:frus1918Russiav01/persons#p_CGV1">Chicherin, George V.</term>
+                    <term ref="frus:frus1918Russiav01/persons#p_FDR1">Francis, David R.</term>
+                    <term ref="frus:frus1918Russiav01/persons#p_TLDB1">Trotsky, L. D.
+                        (Bronstein)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d251">
+
+                <pb facs="0342" n="268" sameAs="frus:frus1918Russiav01/pg268"/>
+
+                <note rend="inline" type="source">File No. 861.00/727</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Russia</hi> (<hi rendition="#italic"
+                        >Francis</hi>) <hi rendition="#italic">to the Secretary of State
+                        </hi><anchor n="1" xml:id="d251-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Petrograd</hi></placeName>, <date
+                            calendar="gregorian" when="1917-11-26T18:00:00+03:31">
+                            <hi rendition="#italic">November 26, 1917, 6 p.m.</hi>
+                        </date>
+                        <lb/> [<hi rendition="#italic">Received November 28, 7.13
+                        p.m.</hi>]</dateline>
+                </opener>
+                <p>2029. Trotsky has addressed a note to British Ambassador calling attention to
+                    internment of Chicherin and Petrov, Russian socialists interned in England “for
+                    socialistic propaganda,” and requesting their release, adding: <quote
+                        rend="blockquote">
+                        <p>In order to strengthen this request I dare call attention, Mr.
+                            Ambassador, to the fact that within Russian Republic there are many
+                            Britishers who do not hide counter-revolutionary manner of thought and
+                            enter into relations with <hi rendition="#italic">bourgeois</hi> clash
+                            with Russia. Revolutionary opinion in this country does not agree that
+                            Russian revolutionary fighters be in concentration camps in England
+                            while counterrevolutionary Britishers are not subjected to any
+                            limitations in Russian Republic.</p>
+                    </quote>
+                </p>
+                <p>Looks like reprisal threat.</p>
+                <closer>
+                    <signed>[<hi rendition="#small-caps">Francis</hi>]</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d251-f1" n="1" type="source" xml:id="d251-f1-content">
+                <p>Sent via the Legation in Sweden (No. 1082).</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

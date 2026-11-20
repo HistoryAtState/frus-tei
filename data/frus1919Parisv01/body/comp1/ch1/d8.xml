@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv01_d8" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Wilson to the British Prime Minister (Lloyd George)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv01/d8"
+                    type="canonical"/>
+                <relatedItem target="d7.xml" type="prev"/>
+                <relatedItem target="d9.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv01</bibl>
+                <bibl type="frus-division-id">d8</bibl>
+                <bibl type="frus-division-n">8</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="3" to="4" unit="page"
+                    >3–4</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi>
+                    </placeName>
+                    <date calendar="gregorian" when="1918-11-14">14 November, 1918</date>
+                    <date notAfter="1918-11-14T23:59:59-05:00" notBefore="1918-11-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1919Parisv01/persons">
+                    <term ref="frus:frus1919Parisv01/persons#p_LGD1">Lloyd George, David</term>
+                    <term ref="frus:frus1919Parisv01/persons#p_WW1">Wilson, Woodrow</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d8">
+
+                <pb facs="0073" n="3" sameAs="frus:frus1919Parisv01/pg3"/>
+
+                <note rend="inline" type="source"> Woodrow Wilson Papers</note>
+                <head>
+                    <hi rendition="#italic">President Wilson to the British Prime Minister</hi> (<hi
+                        rendition="#italic">Lloyd George</hi>)</head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName>
+                            <hi rendition="#small-caps">Washington</hi>
+                        </placeName>,] <date calendar="gregorian" when="1918-11-14">14 November,
+                            1918</date>.</dateline>
+                </opener>
+                <p>May I not express my sincere admiration of the admirable temper and purpose of
+                    your address of the eleventh [<hi rendition="#italic">twelfth</hi>] just
+                    reproduced <pb facs="0074" n="4" xml:id="pg4"/> in part in our papers.<anchor
+                        n="3a" xml:id="d8-f1"/> It is delightful to be made aware of such community
+                    of thought and counsel in approaching the high and difficult task now awaiting
+                    us.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Woodrow Wilson</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d8-f1" n="3a" xml:id="d8-f1-content">
+                <p>Full text printed in the London <hi rendition="#italic">Times</hi>, Nov. 13,
+                    1918, p. 9.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

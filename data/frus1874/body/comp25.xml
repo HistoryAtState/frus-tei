@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1874_comp25" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Portugal.</title>
+            </titleStmt>
+            <xi:include href="../frus1874_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1874_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1874/comp25"
+                    type="canonical"/>
+                <relatedItem target="comp24/d517.xml" type="prev"/>
+                <relatedItem target="comp25/d518.xml" type="next"/>
+                <relatedItem target="../frus1874.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1874</bibl>
+                <bibl type="frus-division-id">comp25</bibl>
+                <bibl type="frus-division-n">25</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="805" to="807" unit="page"
+                        >805–7</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1874-02-04T23:59:59-05:00" notBefore="1874-01-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp25">
+
+                <pb facs="0901" n="805" sameAs="frus:frus1874/pg805"/>
+
+                <head>Portugal.</head>
+
+
+
+                <xi:include href="comp25/d518.xml" xpointer="d518"/>
+                <xi:include href="comp25/d519.xml" xpointer="d519"/>
+            </div>
+        </body>
+    </text>
+</TEI>

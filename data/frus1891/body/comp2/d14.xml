@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1891_d14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Grant to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1891_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1891_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1891/d14"
+                    type="canonical"/>
+                <relatedItem target="d13.xml" type="prev"/>
+                <relatedItem target="d14-a1.xml" type="next"/>
+                <relatedItem target="../comp2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1891</bibl>
+                <bibl type="frus-division-id">d14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="16" to="17" unit="page"
+                        >16–17</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Vienna</hi></placeName>
+                    <date calendar="gregorian" when="1891-05-25"><hi rendition="#italic">May 25,
+                            1891</hi>.</date>
+                    <date notAfter="1891-05-25T23:59:59-05:00" notBefore="1891-05-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d14">
+
+                <pb facs="0122" n="16" sameAs="frus:frus1891/pg16"/>
+
+                <head><hi rendition="#italic">Mr. Grant to Mr. Blaine</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Vienna</hi></placeName>, <date calendar="gregorian"
+                            when="1891-05-25"><hi rendition="#italic">May 25, 1891</hi>.</date>
+                        (Received June 13.)</dateline>
+                    <seg rendition="#float-left">No. 155.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In pursuance of telegraphic instructions
+                    from the Department of State, the United States legation at Berlin has furnished
+                    me with a copy of your instruction No. 245,<anchor n="*" xml:id="d14-f1"/> of
+                    May 1, and of its inclosures, relative to the alleged assisted emigration to the
+                    United States by the authorities at Stauzach of one Nikolaus Bader, belonging to
+                    the criminal or imbecile classes of Austria-Hungary. It having been discovered,
+                    after the instruction in question was written, that Stauzach is a town in the
+                    Austrian Tyrol, and that there is no such place in Germany, I have concluded
+                    that the Department’s purpose in causing the case to be sent to me was that I
+                    should proceed in the matter as if the instruction had been originally addressed
+                    to me, and I have accordingly brought the subject to the attention of the
+                    minister for foreign affairs in a note dated the 22d instant, a copy of which is
+                    inclosed, in such a manner as I trust will meet with the Department’s
+                    approval.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">F. D. Grant</hi>.</signed></closer>
+
+
+                <xi:include href="d14-a1.xml" xpointer="d14-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d14-f1" n="*" xml:id="d14-f1-content">
+                <p>See instructions to United States Minister to Germany.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

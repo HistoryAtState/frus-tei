@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v01_d116" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Report by the National Security Council to President Truman </title>
+            </titleStmt>
+            <xi:include href="../../frus1949v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1949v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1949v01/d116"
+                    type="canonical"/>
+                <relatedItem target="d115.xml" type="prev"/>
+                <relatedItem target="d116-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1949v01</bibl>
+                <bibl type="frus-division-id">d116</bibl>
+                <bibl type="frus-division-n">116</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="285" to="287" unit="page"
+                        >285–87</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1949-04-15">April 15, 1949</date>
+                    <date notAfter="1949-04-15T23:59:59-05:00" notBefore="1949-04-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1949v01/terms">
+                    <term ref="frus:frus1949v01/terms#t_NSC1">NSC</term>
+                    <term ref="frus:frus1949v01/terms#t_SS1">S/S</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d116">
+
+                <pb facs="0315" n="285" xml:id="pg285"/>
+
+                <note rend="inline" type="source"> S/S–NSC Files: Lot 63D351: NSC 45 Series<anchor
+                        n="1" xml:id="d116-f1"/>
+                </note>
+                <head>
+                    <hi rendition="#italic">Report by the National Security Council to President
+                        Truman </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1949-04-15">April 15, 1949</date>.</dateline>
+                </opener>
+                <p rendition="#flush"> NSC 45/1</p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Airfield Construction in the United Kingdom and the
+                        Cairo–Suez Area</hi>
+                </p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">note by the executive secretary</hi>
+                </p>
+                <p>The National Security Council has considered and adopted the enclosed report on
+                    the subject.<anchor n="2" xml:id="d116-f2"/>
+                </p>
+                <p>The National Security Council recommends that the President approve the
+                    recommendation contained in paragraph 3 of the enclosed report.<anchor n="3"
+                        xml:id="d116-f3"/>
+                </p>
+                <p>It is requested that this matter be handled with special security
+                    precautions.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Sidney</hi> W. <hi rendition="#small-caps"
+                            >Souers</hi>
+                    </signed>
+                </closer>
+
+
+
+
+
+                <xi:include href="d116-a1.xml" xpointer="d116-a1"/>
+                <xi:include href="d116-a2.xml" xpointer="d116-a2"/>
+                <xi:include href="d116-a3.xml" xpointer="d116-a3"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d116-f1" n="1" xml:id="d116-f1-content">
+                <p>Serial master files of National Security Council documentation and related
+                    Department of State material for the years 1947–1961, retired by the Executive
+                    Secretariat Of the Department of State.</p>
+            </note>
+            <note corresp="#d116-f2" n="2" xml:id="d116-f2-content">
+                <p>Adopted by NSC Action No. 204, April 15, 1949 (S/S–NSC Files: Lot 66D95: NSC
+                    Actions).</p>
+            </note>
+            <note corresp="#d116-f3" n="3" xml:id="d116-f3-content">
+                <p>On April 18, President Truman approved this report and directed the Secretary of
+                    State to initiate negotiations with the British Government.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

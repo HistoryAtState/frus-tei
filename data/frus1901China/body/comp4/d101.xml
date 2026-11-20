@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901China_d101" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Rockhill to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../frus1901China_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1901China_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1901China/d101"
+                    type="canonical"/>
+                <relatedItem target="d100-a1.xml" type="prev"/>
+                <relatedItem target="d101-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901China</bibl>
+                <bibl type="frus-division-id">d101</bibl>
+                <bibl type="frus-division-n">101</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="130" to="131" unit="page"
+                        >130–31</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Commissioner of the United States to
+                            China</hi>,<lb/><hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1901-04-16"><hi rendition="#italic">April 16,
+                            1901</hi></date>
+                    <date notAfter="1901-04-16T23:59:59-05:00" notBefore="1901-04-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d101">
+
+                <pb facs="0136" n="130" sameAs="frus:frus1901China/pg130"/>
+
+                <head><hi rendition="#italic">Mr. Rockhill to Mr. Hay.</hi></head>
+                <opener>
+                    <seg rendition="#float-left">No. 67.]</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Commissioner of the United States to China</hi>,<lb/><hi
+                                rendition="#italic">Peking</hi></placeName>, <date
+                            calendar="gregorian" when="1901-04-16"><hi rendition="#italic">April 16,
+                                1901</hi></date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to the subject of the
+                    interdiction of the importation of arms and ammunition into China, I have the
+                    honor to transmit to you herewith a copy of the report of the commission charged
+                    with determining the measures which seem necessary for carrying out the
+                    provisions of this article of the Joint Note.</p>
+                <p>I agreed with my colleagues in reporting these measures as necessary, but, as
+                    stated to you in my dispatch No. 39 of March 12 last, I doubt whether any
+                    serious attempt is made, except, perhaps, by Russia, to carry it into
+                    effect.</p>
+                <p>I am, sir, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">W. W. Rockhill.</hi></signed></closer>
+
+
+                <xi:include href="d101-a1.xml" xpointer="d101-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

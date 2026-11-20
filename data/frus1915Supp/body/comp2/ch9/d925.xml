@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp_d925" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Great Britain (Page) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915Supp/d925"
+                    type="canonical"/>
+                <relatedItem target="d924.xml" type="prev"/>
+                <relatedItem target="d925-a1.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915Supp</bibl>
+                <bibl type="frus-division-id">d925</bibl>
+                <bibl type="frus-division-n">925</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="667" to="668" unit="page"
+                        >667–68</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1915-03-15">
+                        <hi rendition="#italic">March 15, 1915</hi>.</date>
+                    <date notAfter="1915-03-15T23:59:59-05:00" notBefore="1915-03-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1915Supp/persons">
+                    <term ref="frus:frus1915Supp/persons#p_GSE1">Grey, Sir Edward</term>
+                    <term ref="frus:frus1915Supp/persons#p_PWH1">Page, Walter Hines</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d925">
+
+                <pb facs="0925" n="667" sameAs="frus:frus1915Supp/pg667"/>
+
+                <note rend="inline" type="source">File No. 611.419/262</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Great Britain</hi> (<hi
+                        rendition="#italic">Page</hi>) <hi rendition="#italic">to the Secretary of
+                        State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 1056]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1915-03-15">
+                            <hi rendition="#italic">March 15, 1915</hi>.</date>
+                        <lb/> [<hi rendition="#italic">Received March 29</hi>.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to acknowledge the
+                    receipt of the Department’s instructions No. 544 of January 27 last,<anchor
+                        n="1" xml:id="d925-f1"/> by which I was directed to bring to the attention
+                    of the British Government authorities a copy of a letter dated January 19, 1915,
+                    with its enclosures, from the United States Steel Products Company, stating that
+                    they had made no sale of manganese to Germany, and in reply beg to transmit
+                    herewith a copy of a note, with its enclosures,<anchor n="2" xml:id="d925-f2"/>
+                    which I have received from Sir Edward Grey in reply to my representations in the
+                    premises.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Walter Hines Page</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d925-a1.xml" xpointer="d925-a1"/>
+                <xi:include href="d925-a2.xml" xpointer="d925-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d925-f1" n="1" xml:id="d925-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d925-f2" n="2" xml:id="d925-f2-content">
+                <p>Only one enclosure transmitted.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

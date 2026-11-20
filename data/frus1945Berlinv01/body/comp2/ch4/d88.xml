@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d88" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 88</title>
+                <title type="subtitle">Prime Minister Churchill to President Truman </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d88"
+                    type="canonical"/>
+                <relatedItem target="d87.xml" type="prev"/>
+                <relatedItem target="d89.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d88</bibl>
+                <bibl type="frus-division-n">88</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="117" to="117" unit="page"
+                        >117</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-06-23">23 June 1945</date>
+                    <date notAfter="1945-06-23T23:59:59-05:00" notBefore="1945-06-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv01/terms">
+                    <term ref="frus:frus1945Berlinv01/terms#t_Terminal1">Terminal</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d88">
+
+                <pb facs="0249" n="117" sameAs="frus:frus1945Berlinv01/pg117"/>
+
+                <note rend="inline" type="source"> Leahy Papers: Telegram</note>
+                <head>No. 88 <lb/>
+                    <hi rendition="#italic">Prime Minister Churchill to President Truman
+                        </hi><anchor n="1" xml:id="d88-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-06-23">23 June 1945</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Truman. Personal and top secret No. 97.</p>
+                <p>I suggest that following the precedent of the Crimea Conference the press should
+                    not be allowed at <hi rendition="#small-caps">Terminal</hi>, but that
+                    photographers should be permitted.<anchor n="2" xml:id="d88-f2"/>
+                </p>
+                <p>I have repeated this telegram to Marshal Stalin.<anchor n="3" xml:id="d88-f3"/>
+                </p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d88-f1" n="1" type="source" xml:id="d88-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d88-f2" n="2" xml:id="d88-f2-content">
+                <p>The source copy bears the following manuscript notation: “Sent to President]
+                    &amp; suggested that he concur.”</p>
+            </note>
+            <note corresp="#d88-f3" n="3" xml:id="d88-f3-content">
+                <p>See <hi rendition="#italic"> Stalin’s Correspondence</hi>, vol. <hi
+                        rendition="#small-caps">i</hi>, p. 370. Stalin accepted the suggestion in a
+                    message to Churchill of June 27. See <hi rendition="#italic">ibid.</hi>, p.
+                    371.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

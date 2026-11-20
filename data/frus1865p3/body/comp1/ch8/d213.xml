@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p3_d213" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Campbell to Mr. Hunter</title>
+            </titleStmt>
+            <xi:include href="../../../frus1865p3_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1865p3_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p3/d213"
+                    type="canonical"/>
+                <relatedItem target="d212.xml" type="prev"/>
+                <relatedItem target="d213-a1.xml" type="next"/>
+                <relatedItem target="../ch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p3</bibl>
+                <bibl type="frus-division-id">d213</bibl>
+                <bibl type="frus-division-n">213</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="203" to="203" unit="page"
+                        >203</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                        <hi rendition="#italic">Stockholm,</hi></placeName>
+                    <date calendar="gregorian" when="1865-05-12"><hi rendition="#italic">May</hi>
+                        12, 1865.</date>
+                    <date notAfter="1865-05-12T23:59:59-05:00" notBefore="1865-05-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d213">
+
+                <pb facs="0285" n="203" sameAs="frus:frus1865p3/pg203"/>
+
+                <head>Mr. Campbell to Mr. Hunter</head>
+                <opener>
+                    <seg rendition="#float-left">No. 22.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                            <hi rendition="#italic">Stockholm,</hi></placeName>
+                        <date calendar="gregorian" when="1865-05-12"><hi rendition="#italic"
+                                >May</hi> 12, 1865.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to enclose a copy of the
+                    reply of Count Manderstrom, his Swedish Majesty’s minister of state and of
+                    foreign affairs, to my note of the 8th instant, (see despatch No. 20,) conveying
+                    to him three proclamations issued by the President of the United States.</p>
+                <p>I have the honor to be your obedient servant,</p>
+                <closer>
+                    <signed>JAMES H. CAMPBELL.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">W. Hunter,</hi>
+                        <hi rendition="#italic">Acting Secretary of State, &amp;c., &amp;c.,
+                            &amp;c.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d213-a1.xml" xpointer="d213-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

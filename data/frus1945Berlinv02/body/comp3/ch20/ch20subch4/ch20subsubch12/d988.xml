@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d988" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 988</title>
+                <title type="subtitle">United States Delegation Working Paper</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d988"
+                    type="canonical"/>
+                <relatedItem target="d987.xml" type="prev"/>
+                <relatedItem target="d988-a1.xml" type="next"/>
+                <relatedItem target="../ch20subsubch12.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d988</bibl>
+                <bibl type="frus-division-n">988</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="954" to="955" unit="page"
+                        >954–55</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Babelsberg</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-22">July 22, 1945</date>
+                    <date notAfter="1945-07-22T23:59:59-05:00" notBefore="1945-07-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/persons">
+                    <term ref="frus:frus1945Berlinv02/persons#p_PEW1">Pauley, Edwin W.</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_RSJ1">Rubin, Seymour J.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv02/terms">
+                    <term ref="frus:frus1945Berlinv02/terms#t_ACC1">ACC</term>
+                    <term ref="frus:frus1945Berlinv02/terms#t_UK1">UK</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d988">
+
+                <pb facs="1150" n="954" sameAs="frus:frus1945Berlinv02/pg954"/>
+
+                <note rend="inline" type="source">Pauley Files</note>
+                <head>No. 988<lb/><hi rendition="#italic">United States Delegation Working
+                        Paper</hi></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Babelsberg</hi></placeName>, <date calendar="gregorian"
+                            when="1945-07-22">July 22, 1945</date>.<anchor n="1" xml:id="d988-f1"
+                        />]</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Memorandum by</hi> US <hi
+                        rendition="#small-caps">Delegation</hi></p>
+                <p>It is the view of the United States that a declaration should be issued by the
+                    Conferring Powers and by France to the effect that German external assets are
+                    subject to the jurisdiction of the Powers occupying Germany,<anchor n="2"
+                        xml:id="d988-f2"/> and of the ACC, acting through the diplomatic
+                    representatives of the occupying Powers. Such a declaration would be of
+                    invaluable assistance in obtaining control over German external assets,
+                    especially those located in neutral countries and such countries as Turkey and
+                    Argentina. The declaration should be in such form that it may readily be adhered
+                    to by France and it should be presented to France with a view to joint issuance
+                    by the four occupying Powers.<anchor n="3" xml:id="d988-f3"/>
+                    <pb facs="1151" n="955" xml:id="pg955"/> Should France demur, the declaration
+                    should be issued by the Conferring Powers alone, as an outgrowth of the Potsdam
+                    Conference.</p>
+
+
+                <xi:include href="d988-a1.xml" xpointer="d988-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d988-f1" n="1" xml:id="d988-f1-content">
+                <p>So dated in a manuscript notation which also contains Rubin’s initials.</p>
+            </note>
+            <note corresp="#d988-f2" n="2" xml:id="d988-f2-content">
+                <p>Another version of this memorandum in the Pauley Files, dated July 21, reads: “of
+                    the occupying Powers of Germany”.</p>
+            </note>
+            <note corresp="#d988-f3" n="3" xml:id="d988-f3-content">
+                <p>The version referred to in the preceding footnote reads: “by France and the U.
+                    S., U. K, and U. S. S. R.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

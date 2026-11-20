@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894app1_d355" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Bayard to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../frus1894app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1894app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1894app1/d355"
+                    type="canonical"/>
+                <relatedItem target="d354.xml" type="prev"/>
+                <relatedItem target="d355-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1894app1</bibl>
+                <bibl type="frus-division-id">d355</bibl>
+                <bibl type="frus-division-n">355</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="359" to="360" unit="page"
+                        >359–60</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1894-12-22"><hi rendition="#italic">December
+                            22, 1894</hi></date>
+                    <date notAfter="1894-12-22T23:59:59-05:00" notBefore="1894-12-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d355">
+
+                <pb facs="0365" n="359" sameAs="frus:frus1894app1/pg359"/>
+
+                <head><hi rendition="#italic">Mr. Bayard to Mr. Gresham.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1894-12-22"><hi rendition="#italic">December 22,
+                        1894</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: As related to affairs in Nicaragua, I have
+                    now the honor to inclose herewith a copy of the telegram (translated) which I
+                    received from you on the 17th instant,<anchor n="1" xml:id="d355-f1"/> and also
+                    a copy of your subsequent telegram of the 20th instant,<anchor n="2"
+                        xml:id="d355-f2"/> and of my telegraphic reply of the same date.<anchor
+                        n="2" xml:id="d355-f3"/></p>
+                <p>I have also the honor to transmit herewith a copy of a personal note from me to
+                    the Earl of Kimberley, dated the 20th instant, and his lordship’s reply thereto,
+                    dated the 21st.</p>
+                <p>The purport of the statements at the foreign office is an emphatic denial of all
+                    reports or rumors indicating any intention or disposition on the part of the
+                    British Government to mingle in the local political struggles and disorders in
+                    Nicaragua and the province of Mosquito.</p>
+                <p>As I have heretofore stated in this connection, the “formal incorporation” of the
+                    inhabitants of the Mosquito region with the rest of Nicaragua is the best and
+                    most complete solution of all doubt or qualification respecting the full
+                    sovereignty of Nicaragua over the entire coast, causing the treaty of Managua to
+                    become un fait accompli, and the Austrian award and interpretation of that
+                    instrument a superfluous and negligible quantity.</p>
+                <p>There was the most open expression of satisfaction at the foreign office upon the
+                    reported voluntary incorporation of the Indians with the rest of Nicaragua, for
+                    it was a consummation devoutly to be wished, and they were glad to be free from
+                    the subject.</p>
+                <pb facs="0366" n="360" xml:id="pg360"/>
+                <p>In my last telegram I referred to the obvious attempts, by sensational reports,
+                    to create mischievous misunderstandings between the two Governments, and my
+                    statement was founded upon the telegraphic accounts which find their way into
+                    the newspapers on both sides of the Atlantic.</p>
+                <p rendition="#center">* * * * * * *</p>
+                <p>I have the honor to be, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">T. F. Bayard.</hi></signed></closer>
+
+
+
+                <xi:include href="d355-a1.xml" xpointer="d355-a1"/>
+                <xi:include href="d355-a2.xml" xpointer="d355-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d355-f1" n="1" xml:id="d355-f1-content">
+                <p>See <ref target="#pg358">page 358</ref>.</p>
+            </note>
+            <note corresp="#d355-f2" n="2" xml:id="d355-f2-content">
+                <p>See <ref target="#pg359">page 359</ref>.</p>
+            </note>
+            <note corresp="#d355-f3" n="2" xml:id="d355-f3-content">
+                <p>See <ref target="#pg359">page 359</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

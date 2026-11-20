@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1931v03_comp1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Far Eastern Crisis:</title>
+            </titleStmt>
+            <xi:include href="../frus1931v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1931v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1931v03/comp1"
+                    type="canonical"/>
+                <relatedItem target="../front/papers.xml" type="prev"/>
+                <relatedItem target="comp1/ch1.xml" type="next"/>
+                <relatedItem target="../frus1931v03.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1931v03</bibl>
+                <bibl type="frus-division-id">comp1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1" to="715" unit="page"
+                        >1–715</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1932-01-06T11:00:00-05:00" notBefore="1931-08-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp1">
+
+                <pb facs="0111" n="1" xml:id="pg1"/>
+
+                <head>The Far Eastern Crisis:</head>
+
+                <xi:include href="comp1/ch1.xml" xpointer="ch1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

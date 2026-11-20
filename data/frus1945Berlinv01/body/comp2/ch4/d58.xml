@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d58" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 58</title>
+                <title type="subtitle">Prime Minister Churchill to President Truman </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d58"
+                    type="canonical"/>
+                <relatedItem target="d57.xml" type="prev"/>
+                <relatedItem target="d59.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d58</bibl>
+                <bibl type="frus-division-n">58</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="96" to="96" unit="page"
+                        >96</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-06-14">14 June 1945</date>
+                    <date notAfter="1945-06-14T23:59:59-05:00" notBefore="1945-06-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_ACR1">Attlee, Clement R.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d58">
+
+                <pb facs="0228" n="96" sameAs="frus:frus1945Berlinv01/pg96"/>
+
+                <note rend="inline" type="source"> Leahy Papers: Telegram</note>
+                <head>No. 58 <lb/>
+                    <hi rendition="#italic">Prime Minister Churchill to President Truman
+                        </hi><anchor n="1" xml:id="d58-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-06-14">14 June 1945</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Truman. Personal and top secret. Number 88.</p>
+                <list>
+                    <label>1.</label>
+                    <item>As our conference beginning on July 15 at Berlin will probably be
+                        continuing before the British election results are made known, I think it
+                        well to bring with me Mr. Attlee, the official leader of the opposition, in
+                        order that full continuity of British policy may be assured. I have informed
+                        Premier Stalin of my intention in similar terms.<anchor n="2"
+                            xml:id="d58-f2"/>
+                    </item>
+                    <label>2.</label>
+                    <item>I am looking forward very much to meeting you.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d58-f1" n="1" type="source" xml:id="d58-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels. A courtesy
+                    copy was forwarded to the Acting Secretary of State by the British Minister at
+                    Washington on June 15 (file No. 841.00/6–1545).</p>
+            </note>
+            <note corresp="#d58-f2" n="2" xml:id="d58-f2-content">
+                <p>See <hi rendition="#italic"> Stalin’s Correspondence</hi>, vol. <hi
+                        rendition="#small-caps">i</hi>, p. 364.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

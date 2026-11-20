@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1866p1_d444-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1866p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1866p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1866p1/d444-a1"
+                    type="canonical"/>
+                <relatedItem target="d444.xml" type="prev"/>
+                <relatedItem target="d444-a1-a1.xml" type="next"/>
+                <relatedItem target="d444.xml" type="parent"/>
+                <relatedItem target="d444.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1866p1</bibl>
+                <bibl type="frus-division-id">d444-a1</bibl>
+                <bibl type="frus-division-n">444.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="604" to="604" unit="page"
+                        >604</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1866-02-27">27th February, 1866</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d444-a1">
+
+                <pb facs="0678" n="604" sameAs="frus:frus1866p1/pg604"/>
+
+                <head ana="#head_untitled-missing-head-in-printed-volume">[Untitled]</head>
+                <opener><dateline rendition="#center">[Translation of annex to note 14 of <date
+                            calendar="gregorian" when="1866-02-27">27th February, 1866</date>, from
+                        La Voz de la America, No. 3.]</dateline></opener>
+                <p>Meantime we permit ourselves to call the attention of the minister of the Spanish
+                    navy to the following noticeable document which we have obtained from the
+                    legation of Chili at Washington:</p>
+
+
+                <xi:include href="d444-a1-a1.xml" xpointer="d444-a1-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

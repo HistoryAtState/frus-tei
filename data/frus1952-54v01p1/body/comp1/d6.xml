@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v01p1_d6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Assistant Secretary of State for European Affairs (Perkins)
+                    to the Director of the Executive Secretariat (McWilliams)</title>
+            </titleStmt>
+            <xi:include href="../../frus1952-54v01p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1952-54v01p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v01p1/d6"
+                    type="canonical"/>
+                <relatedItem target="d5.xml" type="prev"/>
+                <relatedItem target="d6-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v01p1</bibl>
+                <bibl type="frus-division-id">d6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="18" unit="page"
+                        >13–18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1952-11-14">November 14, 1952</date>
+                    <date notAfter="1952-11-14T23:59:59-05:00" notBefore="1952-11-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v01p1/terms">
+                    <term ref="frus:frus1952-54v01p1/terms#t_NATO1">NATO</term>
+                    <term ref="frus:frus1952-54v01p1/terms#t_PSF1">PSF</term>
+                    <term ref="frus:frus1952-54v01p1/terms#t_RA1">RA</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d6">
+
+                <pb facs="0039" n="13" sameAs="frus:frus1952-54v01p1/pg13"/>
+
+                <note rend="inline" type="source">Truman Library, PSF–General file</note>
+                <head><hi rendition="#italic">Memorandum by the Assistant Secretary of State for
+                        European Affairs (Perkins) to the Director of the Executive Secretariat
+                        (McWilliams)</hi><anchor n="1" xml:id="d6-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1952-11-14">November 14, 1952</date>.</dateline>
+                </opener>
+                <list subtype="subject" type="description">
+                    <item>Subject:</item>
+                    <item>Paper on NATO for talks with the New Administration</item>
+                </list>
+                <p>In response to your request for a paper on NATO, there is attached a document
+                    prepared in RA which attempts to answer your three questions: <list>
+                        <label>1.</label>
+                        <item>The nature of the December 15 meeting<anchor n="2" xml:id="d6-f2"/>
+                            and the problems it raises.</item>
+                        <label>2.</label>
+                        <item>What could be accomplished at such a meeting?</item>
+                        <label>3.</label>
+                        <item>When should there be a second meeting?</item>
+                    </list></p>
+                <pb facs="0040" n="14" xml:id="pg14"/>
+                <p>As it has not yet been decided whether the December 15 meeting is in fact to take
+                    place, the situation is definitely subject to change and hence this paper must
+                    be regarded as tentative in many respects. It has been cleared with the Defense
+                    Department’s Office of North Atlantic Treaty Affairs which will also prepare a
+                    paper on NATO for the talks with the new Administration.<anchor n="3"
+                        xml:id="d6-f3"/> It is understood that that paper will deal more
+                    specifically with force programs, and their relationship to the U.S. budgetary
+                    program for fiscal ’54.</p>
+
+
+                <xi:include href="d6-a1.xml" xpointer="d6-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d6-f1" n="1" type="source" xml:id="d6-f1-content">
+                <p>Drafted by J. Graham Parsons of the Office of European Regional Affairs.</p>
+            </note>
+            <note corresp="#d6-f2" n="2" xml:id="d6-f2-content">
+                <p>Regarding the Tenth Session of the North Atlantic Council at Paris, Dec. 15–18,
+                    1952, see the editorial note in <ref target="frus1952-54v05p1#pg_348">vol. <hi
+                            rendition="#small-caps">v</hi>, Part 1, p. 348</ref>.</p>
+            </note>
+            <note corresp="#d6-f3" n="3" xml:id="d6-f3-content">
+                <p>The reference paper has not been found.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

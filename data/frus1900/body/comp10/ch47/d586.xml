@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d586" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Cambon.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d586"
+                    type="canonical"/>
+                <relatedItem target="d585-a1.xml" type="prev"/>
+                <relatedItem target="d586-a1.xml" type="next"/>
+                <relatedItem target="../ch47.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d586</bibl>
+                <bibl type="frus-division-n">586</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="483" to="483" unit="page"
+                        >483</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-05-18"><hi rendition="#italic">May 18,
+                            1900</hi></date>
+                    <date notAfter="1900-05-18T23:59:59-05:00" notBefore="1900-05-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d586">
+
+                <pb facs="0581" n="483" xml:id="pg483"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. Cambon.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-05-18"><hi rendition="#italic">May 18,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 309.]</seg></opener>
+                <p><hi rendition="#small-caps">Excellency</hi>: Referring to your excellency’s note
+                    of the 3d instant, I have the honor to inclose herewith copy of a letter from
+                    the governor of Utah expressing thanks for and appreciation of the generous
+                    sympathy of the President and Government of France on account of the mine
+                    calamity in that State.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+                <xi:include href="d586-a1.xml" xpointer="d586-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

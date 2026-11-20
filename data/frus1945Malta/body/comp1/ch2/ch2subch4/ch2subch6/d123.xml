@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d123" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d123"
+                    type="canonical"/>
+                <relatedItem target="d122.xml" type="prev"/>
+                <relatedItem target="d124.xml" type="next"/>
+                <relatedItem target="../ch2subch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d123</bibl>
+                <bibl type="frus-division-n">123</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="159" to="160" unit="page"
+                        >159–60</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-10-22">22 October 1944</date>
+                    <date notAfter="1944-10-22T23:59:59-05:00" notBefore="1944-10-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Malta/terms">
+                    <term ref="frus:frus1945Malta/terms#t_para1">para</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d123">
+
+                <pb facs="0241" n="159" sameAs="frus:frus1945Malta/pg159"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d123-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Excerpts]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1944-10-22">22 October
+                        1944</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Roosevelt Personal and Top Secret Number 801.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <p> Para 6. We<anchor n="2" xml:id="d123-f2"/> also discussed informally the future
+                    partition of Germany. U. J. wants Poland Czecho and Hungary to form a realm of
+                    independent anti-Nazi pro-Russian states, the first two of which might join
+                    together. Contrary to his previously expressed view, he would be glad to see
+                    Vienna the capital of a federation of south-German <pb facs="0242" n="160"
+                        xml:id="pg160"/> states, including Austria, Bavaria, Württemberg, and Baden.
+                    As you know, the idea of Vienna becoming the capital of a large Danubian
+                    federation has always been attractive to me, though I should prefer to add
+                    Hungary, to which U. J. is strongly opposed.</p>
+                <p> Para 7. As to Prussia, U. J. wished the Ruhr and the Saar detached and put out
+                    of action and probably under international control and a separate state formed
+                    in the Rhineland. He would also like the internationalization of the Kiel canal.
+                    I am not opposed to this line of thought. However, you may be sure that we came
+                    to no fixed conclusions pending the triple meeting.<anchor n="3"
+                        xml:id="d123-f3"/>
+                </p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d123-f1" n="1" type="source" xml:id="d123-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels. For other
+                    excerpts from this telegram, see <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg10">p. 10</ref>, and <hi rendition="#italic">post</hi>, <ref
+                        target="#pg206">pp. 206</ref>, <ref target="#pg328">328</ref>, <ref
+                        target="#pg400">400</ref>.</p>
+            </note>
+            <note corresp="#d123-f2" n="2" xml:id="d123-f2-content">
+                <p> Churchill and Stalin in Moscow.</p>
+            </note>
+            <note corresp="#d123-f3" n="3" xml:id="d123-f3-content">
+                <p>In reply (No. 632, dated October 22, 1944) Roosevelt commented: “Your statement
+                    of the present attitude of U. J. towards war criminals, the future of Germany,
+                    and Montreux convention is most interesting. We should discuss these matters
+                    together with our Pacific war effort at the forthcoming three party meeting.”
+                    (Roosevelt Papers.)</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

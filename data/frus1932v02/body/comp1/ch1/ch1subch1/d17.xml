@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1932v02_d17" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chargé in Great Britain (Atherton) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1932v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1932v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1932v02/d17"
+                    type="canonical"/>
+                <relatedItem target="d16.xml" type="prev"/>
+                <relatedItem target="d17-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1932v02</bibl>
+                <bibl type="frus-division-id">d17</bibl>
+                <bibl type="frus-division-n">17</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="17" to="19" unit="page"
+                        >17–19</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1932-09-17">September 17, 1932</date>
+                    <date notAfter="1932-09-17T23:59:59-05:00" notBefore="1932-09-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1932v02/persons">
+                    <term ref="frus:frus1932v02/persons#p_AR1">Atherton, Ray</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d17">
+
+                <pb facs="0107" n="17" sameAs="frus:frus1932v02/pg17"/>
+
+                <note rend="inline" type="source">890b.6363 Gulf Oil Corporation/150</note>
+                <head><hi rendition="#italic">The Chargé in Great Britain (Atherton) to the
+                        Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#float-left">No. 365</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1932-09-17">September 17, 1932</date>.<lb/>[Received September
+                        30.]</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to refer to my telegram
+                    No. 272, September 17, 1932,<anchor n="16" xml:id="d17-f1"/> regarding the
+                    applications of the Eastern and General Syndicate and the Anglo-Persian Oil
+                    Company for an oil concession in Koweit, and to forward herewith a copy of the
+                    Foreign Office note received in reply to my note of September 6, 1932.</p>
+                <p>Respectfully yours,</p>
+                <closer><signed><hi rendition="#small-caps">Ray Atherton</hi></signed></closer>
+
+
+
+                <xi:include href="d17-a1.xml" xpointer="d17-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d17-f1" n="16" xml:id="d17-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

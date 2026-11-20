@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d26" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Presidents Naval Aide (Brown) to the Presidents Military Aide and
+                    Secretary (Watson)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d26"
+                    type="canonical"/>
+                <relatedItem target="d25.xml" type="prev"/>
+                <relatedItem target="d27.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d26</bibl>
+                <bibl type="frus-division-n">26</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="21" to="21" unit="page"
+                        >21</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-25">August 25, 1943</date>
+                    <date notAfter="1943-08-25T23:59:59-05:00" notBefore="1943-08-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_BRW2">Bogue, Robert W.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_BFDW1">Brown, Francis D. W.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_BW1">Brown, Wilson</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_WEM1">Watson, Edwin M.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d26">
+
+                <pb facs="0113" n="21" sameAs="frus:frus1943CairoTehran/pg21"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head><hi rendition="#italic">The Presidents Naval Aide</hi> (<hi
+                        rendition="#italic">Brown</hi>) <hi rendition="#italic">to the Presidents
+                        Military Aide and Secretary</hi> (<hi rendition="#italic"
+                        >Watson</hi>)<anchor n="1" xml:id="d26-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-25">August 25, 1943</date>.</dateline>
+                </opener>
+                <p>To General Watson.</p>
+                <p>You will please send for the Soviet Chargé d’Affaires and give him the following
+                    in your capacity as Secretary to the President, which he may feel at liberty to
+                    transmit to Marshal Stalin.</p>
+                <quote rend="blockquote">
+                    <p>“The Marshal’s message to the President and the Prime Minister<anchor n="2"
+                            xml:id="d26-f2"/> has been transmitted to the President, who has left
+                        the conference in Quebec and because of absence, will not be available until
+                        early next week.</p>
+                    <p>“Any reply by the Marshal to the telegram from the President and the Prime
+                        Minister to the Marshal relating to a joint meeting will of course be
+                        transmitted to them.”</p>
+                </quote>
+                <closer><signed><hi rendition="#small-caps">Wilson Brown</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d26-f1" n="1" type="source" xml:id="d26-f1-content">
+                <p>The original of this message, all of it in Roosevelt’s handwriting, contained the
+                    signature “Roosevelt” and the following concluding sentence: “Do not tell him
+                    this is sent by the President.” These words were stricken out, and the signature
+                    “Wilson Brown” was added by Roosevelt. The copy of the message as received in
+                    the White House bears the notation: “acted on by Gen Watson A M 25th. R[obert] W
+                    B[ogue]”.</p>
+            </note>
+            <note corresp="#d26-f2" n="2" xml:id="d26-f2-content">
+                <p>This is the message of August 22, 1943, printed in <hi rendition="#italic"
+                        >Stalin’s Correspondence</hi>, vol. <hi rendition="#small-caps">ii</hi>, p.
+                    84. According to Churchill (p. 94), Roosevelt was “very much offended at the
+                    tone of this message”, which concerned the negotiations for the armistice with
+                    Italy.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

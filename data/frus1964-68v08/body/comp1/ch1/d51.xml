@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v08_d51" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter From President Johnson to Prime Minister Menzies</title>
+            </titleStmt>
+            <xi:include href="../../../frus1964-68v08_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1964-68v08_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v08/d51"
+                    type="canonical"/>
+                <relatedItem target="d50.xml" type="prev"/>
+                <relatedItem target="d52.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v08</bibl>
+                <bibl type="frus-division-id">d51</bibl>
+                <bibl type="frus-division-n">51</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="133" to="133" unit="page"
+                        >133</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                        when="1965-03-12">undated</date>
+                    <date notAfter="1965-03-12T23:59:59-05:00" notBefore="1965-03-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v08/persons">
+                    <term ref="frus:frus1964-68v08/persons#p_BFM1">Bator, Francis M.</term>
+                    <term ref="frus:frus1964-68v08/persons#p_JLB1">Johnson, Lyndon Baines</term>
+                    <term ref="frus:frus1964-68v08/persons#p_MSRG1">Menzies, Sir Robert</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d51">
+
+                <pb facs="0163" n="133" xml:id="pg133"/>
+
+                <head>51. Letter From President Johnson to Prime Minister Menzies<anchor n="1"
+                        xml:id="d51-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date
+                            ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                            when="1965-03-12">undated</date>.</dateline></opener>
+                <p rendition="#flush">Dear Mr. Prime Minister:</p>
+                <p>I have read with great care your letter of this morning concerning the effects on
+                    Australia of our balance of payments program.<anchor n="2" xml:id="d51-f2"/> I
+                    have asked the Secretary of State, the Secretary of the Treasury, and the
+                    Secretary of Commerce to give the problems you raise the careful and
+                    understanding attention which is traditional in our relations as close allies
+                    and good friends. I expect to receive their report during the course of next
+                    week and shall write you further about these difficult matters at that time.</p>
+                <p>Sincerely,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">lbj</hi>
+                        <anchor n="3" xml:id="d51-f3"/>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d51-f1" n="1" type="source" xml:id="d51-f1-content">
+                <p>Source: Johnson Library, National Security File, Subject File, Balance of
+                    Payments, Vol. 2 [1 of 2], December 8, 1964, Box 2. No classification marking.
+                    Drafted by President Johnson and Francis Bator on March 12.</p>
+            </note>
+            <note corresp="#d51-f2" n="2" xml:id="d51-f2-content">
+                <p>
+                    <ref target="#d50">Document 50</ref>.</p>
+            </note>
+            <note corresp="#d51-f3" n="3" xml:id="d51-f3-content">
+                <p>Printed from a copy with these handwritten initials, indicating the President
+                    signed the original.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

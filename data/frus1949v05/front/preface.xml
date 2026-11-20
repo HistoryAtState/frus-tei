@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v05_preface" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Preface</title>
+            </titleStmt>
+            <xi:include href="../frus1949v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1949v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1949v05/preface"
+                    type="canonical"/>
+                <relatedItem type="prev"/>
+                <relatedItem target="preface-a1.xml" type="next"/>
+                <relatedItem target="../frus1949v05.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1949v05</bibl>
+                <bibl type="frus-division-id">preface</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">preface</bibl>
+                <bibl type="frus-print-pages"><biblScope from="III" to="IV" unit="page"
+                        >III–IV</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1950-03-09T23:59:59-05:00" notBefore="1948-12-30T19:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="preface">
+
+                <pb facs="0007" n="III" xml:id="pgIII"/>
+
+                <head>Preface</head>
+                <p>This volume was prepared in the Historical Office under the direct supervision of
+                    the late S. Everett Gleason and of Fredrick Aandahl, who succeeded him as Editor
+                    of <hi rendition="#italic">Foreign Relations</hi> in 1972.</p>
+                <p>William Z. Slany prepared all sections of the volume except those on relations
+                    with the Union of Soviet Socialist Republics, which were prepared by Rogers P.
+                    Churchill.</p>
+                <p>The editors acknowledge with appreciation the assistance provided them by the
+                    historians of the Department of Defense, including the Joint Chiefs of Staff.
+                    They are also grateful for the cooperation of the National Security Council, the
+                    Department of Defense, the Department of Commerce, and the Central Intelligence
+                    Agency, all of which concurred in the declassification of various papers for
+                    release herein.</p>
+                <p>The technical editing of this volume was done by Helen V. Gilbert of the
+                    Publishing and Reproduction Division, headed by Willard M. McLaughlin. The index
+                    was prepared by Francis C. Prescott.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Fredrick Aandahl</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Acting Director, Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#italic">Bureau of Public Affairs</hi>
+                </closer>
+
+
+                <xi:include href="preface-a1.xml" xpointer="preface-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

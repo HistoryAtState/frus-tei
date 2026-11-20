@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Supp02_d838" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Italy (Page) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../frus1918Supp02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1918Supp02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Supp02/d838"
+                    type="canonical"/>
+                <relatedItem target="d837.xml" type="prev"/>
+                <relatedItem target="d839.xml" type="next"/>
+                <relatedItem target="../comp6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Supp02</bibl>
+                <bibl type="frus-division-id">d838</bibl>
+                <bibl type="frus-division-n">838</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="705" to="706" unit="page"
+                        >705–6</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Rome</hi></placeName>
+                    <date calendar="gregorian" when="1918-07-02T13:00:00+02:00">
+                        <hi rendition="#italic">July 2, 1918, 1 p.m.</hi>
+                    </date>
+                    <date notAfter="1918-07-02T06:00:00-05:00" notBefore="1918-07-02T06:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Supp02/persons">
+                    <term ref="frus:frus1918Supp02/persons#p_PTN1">Page, Thomas Nelson</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d838">
+
+                <pb facs="0789" n="705" sameAs="frus:frus1918Supp02/pg705"/>
+
+                <note rend="inline" type="source">File No. 811.2222/12596</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Italy</hi> (<hi rendition="#italic"
+                        >Page</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Rome</hi></placeName>, <date
+                            calendar="gregorian" when="1918-07-02T13:00:00+02:00">
+                            <hi rendition="#italic">July 2, 1918, 1 p.m.</hi>
+                        </date>
+                        <lb/> [<hi rendition="#italic">Received 6.39 p.m.</hi>]</dateline>
+                </opener>
+                <p>1796. Your telegram 1089,<anchor n="3" xml:id="d838-f1"/> received 18th [<hi
+                        rendition="#italic">February 28?</hi>] and my despatch No. 917, June
+                        4.<anchor n="4" xml:id="d838-f2"/> Foreign Office today communicates
+                    following: Tax ruled in Italy for exemption military service cannot be <pb
+                        facs="0790" n="706" xml:id="pg706"/> levied on those Italian citizens found
+                    to have no longer the status of shirker or deserter, and [who] do military
+                    service in American Army. As a result said Italian citizens are able to obtain
+                    complete remittal of the tax provided they have certificate from American
+                    military authorities to the effect that they are serving in American Army. Full
+                    details by mail.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Nelson Page</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d838-f1" n="3" xml:id="d838-f1-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg693">p. 693</ref>.</p>
+            </note>
+            <note corresp="#d838-f2" n="4" xml:id="d838-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

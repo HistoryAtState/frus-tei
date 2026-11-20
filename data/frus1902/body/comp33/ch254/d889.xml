@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d889" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Sickles to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d889"
+                    type="canonical"/>
+                <relatedItem target="d888.xml" type="prev"/>
+                <relatedItem target="d889-a1.xml" type="next"/>
+                <relatedItem target="../ch254.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d889</bibl>
+                <bibl type="frus-division-n">889</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="952" to="954" unit="page"
+                        >952–54</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Madrid</hi></placeName>
+                    <date calendar="gregorian" when="1902-06-12"><hi rendition="#italic">June 12,
+                            1902</hi></date>
+                    <date notAfter="1902-06-12T23:59:59-05:00" notBefore="1902-06-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d889">
+
+                <pb facs="1032" n="952" sameAs="frus:frus1902/pg952"/>
+
+                <head><hi rendition="#italic">Mr. Sickles to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Madrid</hi></placeName>, <date calendar="gregorian"
+                            when="1902-06-12"><hi rendition="#italic">June 12,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 667.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to Department’s instruction
+                    No. 423, bearing date March 10, concerning one Antonio Gisbert y Bayot, a native
+                        <pb facs="1033" n="953" xml:id="pg953"/> inhabitant of the Philippine
+                    Islands, who had been called upon by the military authorities of Spain to serve
+                    in the Spanish army, I have the honor to inform you that the protest made by
+                    this legation to the ministry of state of Spain, in compliance with the above
+                    mentioned instruction, has produced the desired result, the young man in
+                    question, as will be seen by a translation of a letter addressed to the
+                    consulate-general at Barcelona from the recruiting office in that city, copy of
+                    which I beg to inclose, having been exempted from military service in this
+                    country.</p>
+                <p>Mr. Gisbert, the consul-general informs me, expects to sail for Manila this
+                    month.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Stanton Sickles.</hi></signed></closer>
+
+
+                <xi:include href="d889-a1.xml" xpointer="d889-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

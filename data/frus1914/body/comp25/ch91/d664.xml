@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d664" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Admiral Fletcher to the Secretary of the Navy.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d664"
+                    type="canonical"/>
+                <relatedItem target="d663.xml" type="prev"/>
+                <relatedItem target="d664-a1.xml" type="next"/>
+                <relatedItem target="../ch91.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d664</bibl>
+                <bibl type="frus-division-n">664</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="451" to="452" unit="page"
+                        >451–52</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>U. S. S. <hi rendition="#italic">Florida, <lb/> Vera
+                        Cruz</hi></placeName>
+                    <date calendar="gregorian" when="1914-04-11T15:00:00-06:36">
+                        <hi rendition="#italic">April 11, 1914, 3 p.m.</hi>
+                    </date>
+                    <date notAfter="1914-04-11T16:36:00-05:00" notBefore="1914-04-11T16:36:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d664">
+
+                <pb facs="0567" n="451" xml:id="pg451"/>
+
+                <note rend="inline" type="source">File No. 812.00/11988.</note>
+                <head>
+                    <hi rendition="#italic">Admiral Fletcher to the Secretary of the Navy.</hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegrams.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>U. S. S. <hi rendition="#italic">Florida, <lb/> Vera
+                            Cruz</hi></placeName>, <date calendar="gregorian"
+                            when="1914-04-11T15:00:00-06:36">
+                            <hi rendition="#italic">April 11, 1914, 3 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Mayo reports: <quote rend="blockquote">
+                        <p>General Zaragoza has sent me official letter expressing regrets over
+                            arrest of boat’s crew, stating was due to ignorance of officer; but with
+                            reference to other stipulations has asked twenty-four hours delay, on
+                            account poor communication, to consult his Government. Request being
+                            reasonable was granted.</p>
+                        <p rendition="#right">
+                            <hi rendition="#small-caps">Mayo</hi>.</p>
+                    </quote>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Fletcher</hi></signed>.</closer>
+
+
+                <xi:include href="d664-a1.xml" xpointer="d664-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

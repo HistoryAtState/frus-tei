@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d110" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hutchinson to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d110"
+                    type="canonical"/>
+                <relatedItem target="../ch48.xml" type="prev"/>
+                <relatedItem target="d110-a1.xml" type="next"/>
+                <relatedItem target="../ch48.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d110</bibl>
+                <bibl type="frus-division-n">110</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="121" to="121" unit="page"
+                        >121</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Santiago</hi></placeName>
+                    <date calendar="gregorian" when="1902-05-26"><hi rendition="#italic">May 26,
+                            1902</hi></date>
+                    <date notAfter="1902-05-26T23:59:59-05:00" notBefore="1902-05-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d110">
+
+                <pb facs="0201" n="121" sameAs="frus:frus1902/pg121"/>
+
+                <head><hi rendition="#italic">Mr. Hutchinson to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Santiago</hi></placeName>, <date calendar="gregorian"
+                            when="1902-05-26"><hi rendition="#italic">May 26,
+                        1902</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to acknowledge the receipt
+                    of the Department’s telegram<anchor n="a" xml:id="d110-f1"/> of May 24,
+                    1902.</p>
+                <p>In accordance with the Department’s instructions, I promptly communicated with
+                    the foreign office here, and now have the honor to report that the desired
+                    permission has been granted.</p>
+                <p>I have notified all our consular officers in Chile, and beg to inclose a copy of
+                    the notification.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Norman
+                    Hutchinson.</hi></signed></closer>
+
+
+                <xi:include href="d110-a1.xml" xpointer="d110-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d110-f1" n="a" xml:id="d110-f1-content">
+                <p>Printed, <ref target="#pg6">p. 6</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

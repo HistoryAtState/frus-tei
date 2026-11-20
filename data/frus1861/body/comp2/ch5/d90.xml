@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1861_d90" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adams to Mr. Seward.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1861_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1861_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1861/d90"
+                    type="canonical"/>
+                <relatedItem target="d89-a2.xml" type="prev"/>
+                <relatedItem target="d90-a1.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1861</bibl>
+                <bibl type="frus-division-id">d90</bibl>
+                <bibl type="frus-division-n">90</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="162" to="163" unit="page"
+                        >162–63</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#italic">London</hi>,</placeName>
+                    <date calendar="gregorian" when="1861-10-11"><hi rendition="#italic"
+                            >October</hi> 11, 1861</date>
+                    <date notAfter="1861-10-11T23:59:59-05:00" notBefore="1861-10-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d90">
+
+                <pb facs="0162" n="162" sameAs="frus:frus1861/pg162"/>
+
+                <head><hi rendition="#italic">Mr. Adams to Mr. Seward</hi>.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 58.]</seg>
+                    <dateline rendition="#float-right"><hi rendition="#small-caps">Legation of the
+                            United States</hi>,<lb/><placeName><hi rendition="#italic"
+                            >London</hi>,</placeName>
+                        <date calendar="gregorian" when="1861-10-11"><hi rendition="#italic"
+                                >October</hi> 11, 1861</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to enclose a copy of Lord
+                    Russell’s note to me of the 4th instant, in reply to my representation of the
+                    conduct of the authorities of the island of Trinidad, made under instructions
+                    from the department.</p>
+                <p>It will appear from this that the governor of Trinidad, by hoisting the British
+                    flag on the government flag-staff, probably desired to signify to the officers
+                    of the Sumter, on their arrival, the neutral character of the island, but that
+                    he in the meantime forgot that the act is susceptible of a very different
+                    construction in the popular mind.</p>
+                <p rendition="#center">* * * * * * </p>
+                <p>I have the honor to be, sir, your obedient servant,</p>
+                <closer><signed>CHARLES FRANCIS ADAMS.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward</hi>,<lb/><hi
+                            rendition="#italic">Secretary of State, Washington, D. C.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d90-a1.xml" xpointer="d90-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

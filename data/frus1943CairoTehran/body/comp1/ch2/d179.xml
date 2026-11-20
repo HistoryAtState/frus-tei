@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d179" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d179"
+                    type="canonical"/>
+                <relatedItem target="d178.xml" type="prev"/>
+                <relatedItem target="d180.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d179</bibl>
+                <bibl type="frus-division-n">179</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="131" to="132" unit="page"
+                        >131–32</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-31">31 October 1943</date>
+                    <date notAfter="1943-10-31T23:59:59-05:00" notBefore="1943-10-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_ASH1">Alexander, Sir Harold</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_EDD1">Eisenhower, Dwight D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MGC1">Marshall, George C.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_Sextant1">Sextant</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d179">
+
+                <pb facs="0223" n="131" sameAs="frus:frus1943CairoTehran/pg131"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President
+                        Roosevelt</hi><anchor n="1" xml:id="d179-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1943-10-31">31 October 1943</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President. Most secret and personal. Number 481.<anchor n="2"
+                        xml:id="d179-f2"/></p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <p>2. Your number 403.<anchor n="3" xml:id="d179-f3"/> Can you give me a firm date
+                    when Marshall will be available, as I see great difficulties in the various stop
+                    gap arrangements proposed? The press this morning publishes reports from
+                    Washington correspondents that Marshall will be succeeded by Eisenhower and
+                    Eisenhower by Alexander. This is of course largely assumed throughout the
+                    Mediterranean, but the uncertainty is harmful. <pb facs="0224" n="132"
+                        xml:id="pg132"/> If you still hold to your opinion, which I share, about the
+                    three chief commands, why cannot we make the announcement jointly and add that
+                    the dates of the changes of commands will be fixed in relation to operations? We
+                    could then at <hi rendition="#small-caps">Sextant</hi> settle together the
+                    consequential reactions, which are complicated and important.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d179-f1" n="1" type="source" xml:id="d179-f1-content">
+                <p>Apparently sent to Washington via military channels, and forwarded by the White
+                    House Map Room to Roosevelt at Hyde Park.</p>
+            </note>
+            <note corresp="#d179-f2" n="2" xml:id="d179-f2-content">
+                <p>For paragraph 1 of this message, see <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg57">p. 57</ref>.</p>
+            </note>
+            <note corresp="#d179-f3" n="3" xml:id="d179-f3-content">
+                <p>In telegram 403, October 30, 1943 (printed in Churchill, p. 304), Roosevelt
+                    referred to continuing preparations for the cross-Channel attack, and said, as
+                    regards the choice of a commander for the operation, “I cannot make Marshall
+                    available immediately”. He also suggested the early appointment of a British
+                    deputy commander.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

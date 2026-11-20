@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917Supp02v02_d11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Governor of the Federal Reserve Board (Harding) to the Counselor for the
+                    Department of State (Polk)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1917Supp02v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1917Supp02v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1917Supp02v02/d11"
+                    type="canonical"/>
+                <relatedItem target="d10-a2.xml" type="prev"/>
+                <relatedItem target="d11-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917Supp02v02</bibl>
+                <bibl type="frus-division-id">d11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="814" to="816" unit="page"
+                        >814–16</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1917-05-10">
+                        <hi rendition="#italic">May 10, 1917</hi></date>
+                    <date notAfter="1917-05-10T23:59:59-05:00" notBefore="1917-05-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1917Supp02v01/persons">
+                    <term ref="frus:frus1917Supp02v01/persons#p_HWP1">Harding, W. P. G.</term>
+                    <term ref="frus:frus1917Supp02v01/persons#p_PFL1">Polk, Frank Lyon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d11">
+
+                <pb facs="0060" n="814" sameAs="frus:frus1917Supp02v02/pg814"/>
+
+                <note rend="inline" type="source">File No. 763.72112/5251</note>
+                <head>
+                    <hi rendition="#italic">The Governor of the Federal Reserve Board</hi> (<hi
+                        rendition="#italic">Harding</hi>) <hi rendition="#italic">to the Counselor
+                        for the Department of State</hi> (<hi rendition="#italic">Polk</hi>)</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1917-05-10">
+                            <hi rendition="#italic">May 10, 1917</hi></date>. <lb/> [<hi
+                            rendition="#italic">Received May 11.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Dear Mr. Counselor</hi>: I have just received your
+                    letter of the 10th instant,<anchor n="1" xml:id="d11-f1"/> returning tentative
+                    draft of the letter to all Federal Reserve Banks based upon your communication
+                    of April 27.<anchor n="1" xml:id="d11-f2"/> I have taken pleasure in making the
+                    change suggested by you, and have sent the circular letters out this afternoon.
+                    I enclose copy for your information, as requested.</p>
+                <p>Very truly yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">W. P. G. Harding</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d11-a1.xml" xpointer="d11-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d11-f1" n="1" xml:id="d11-f1-content">
+                <p>Not printed</p>
+            </note>
+            <note corresp="#d11-f2" n="1" xml:id="d11-f2-content">
+                <p>Not printed</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

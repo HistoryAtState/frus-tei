@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1880_d640-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>news of the day.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1880_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1880_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1880/d640-a1"
+                    type="canonical"/>
+                <relatedItem target="d640.xml" type="prev"/>
+                <relatedItem target="d640-a1-a1.xml" type="next"/>
+                <relatedItem target="d640.xml" type="parent"/>
+                <relatedItem target="d640.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1880</bibl>
+                <bibl type="frus-division-id">d640-a1</bibl>
+                <bibl type="frus-division-n">640.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1006" to="1007" unit="page"
+                        >1006–7</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d640-a1">
+
+                <pb facs="1106" n="1006" sameAs="frus:frus1880/pg1006"/>
+
+                <opener><seg rendition="#center">[Inclosure in No. 388.—Translation from the “Phare
+                        d’ Alexandrie,” April 6, 1880.]</seg></opener>
+                <head><hi rendition="#small-caps">news of the day</hi>.</head>
+                <p>We publish here below the decree appointing the members of the commission of
+                    liquidation instituted by the decree of March 31.</p>
+                <p rendition="#center"><hi rendition="#small-caps">decree.</hi></p>
+                <p>We, Khedive of Egypt:</p>
+                <p>Considering Our decree of the 31st of March, 1880, instituting a commission of
+                    liquidation:</p>
+                <p>We decree—</p>
+                <p><hi rendition="#small-caps">Article</hi> 1. The following are appointed members
+                    of the commission of liquidation: Sir Rivers Wilson, president, Messrs.
+                    Baravelli, Bellaigue de Bughas, Colvin, De Kremer, Liron d’Airoles, De
+                    Treskow.</p>
+                <p>The government delegates Boutros Bey Ghali to represent it before the
+                    commission.</p>
+                <p><hi rendition="#small-caps">Art</hi>. 2. The deliberations of the commission of
+                    liquidation shall be taken by a majority of votes.</p>
+                <closer>
+                    <dateline rendition="#float-left">Done at the palace of Abdin, <date
+                            calendar="gregorian" when="1880-03-05">this 5th day of April, 1880 (25th
+                            Rabi-el-Akher, 1297.)</date></dateline>
+                    <lb/>
+                    <signed>MEHEMET TEWFIK.</signed></closer>
+                <postscript>
+                    <p>By the Khedive:</p>
+                    <p>The President of the Council of Ministers:<lb/><hi rendition="#small-caps"
+                            >Riaz</hi>.</p>
+                </postscript>
+
+
+                <xi:include href="d640-a1-a1.xml" xpointer="d640-a1-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

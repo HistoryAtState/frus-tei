@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d101" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Special Assistant to the Secretary of State (Pasvolsky) to the Secretary
+                    of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d101"
+                    type="canonical"/>
+                <relatedItem target="d100-a2.xml" type="prev"/>
+                <relatedItem target="d102.xml" type="next"/>
+                <relatedItem target="../ch2subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d101</bibl>
+                <bibl type="frus-division-n">101</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="101" to="101" unit="page"
+                        >101</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-01-23">January 23, 1945</date>
+                    <date notAfter="1945-01-23T23:59:59-05:00" notBefore="1945-01-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_PL1">Pasvolsky, Leo</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Malta/terms">
+                    <term ref="frus:frus1945Malta/terms#t_UNA1">UNA</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d101">
+
+                <pb facs="0183" n="101" xml:id="pg101"/>
+
+                <note rend="inline" type="source"> UNA Files</note>
+                <head>
+                    <hi rendition="#italic">The Special Assistant to the Secretary of State</hi>
+                        (<hi rendition="#italic">Pasvolsky</hi>) <hi rendition="#italic">to the
+                        Secretary of State </hi><anchor n="1" xml:id="d101-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-01-23">January 23, 1945</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Memorandum for the Secretary</hi>
+                </p>
+                <p rendition="#flush">Subject: Emergency High Commission for Liberated Europe</p>
+                <p>In addition to the decisions which are recommended in the attached
+                        memoranda,<anchor n="2" xml:id="d101-f2"/> I should like again to urge the
+                    necessity, from the point of view of our work on the general international
+                    organization, of agreement at the forthcoming meeting on the creation of an
+                    Emergency High Commission for Liberated Europe, or whatever it is finally
+                    called. This would be the most powerful antidote that we can devise for the
+                    rapidly crystallizing opposition in this country to the whole Dumbarton Oaks
+                    idea on the score that the future organization would merely underwrite a system
+                    of unilateral grabbing.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Leo Pasvolsky</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d101-f1" n="1" type="source" xml:id="d101-f1-content">
+                <p>Carbon copy.</p>
+            </note>
+            <note corresp="#d101-f2" n="2" xml:id="d101-f2-content">
+                <p>The “attached memoranda” here referred to are the memorandum of Pasvolsky dated
+                    January 23, 1945, on the subject of “Recommended Action on Points Which Must Be
+                    Decided at The Three-Power Meeting”, and its attachments, <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg81">pp. 81</ref>–<ref
+                        target="#pg85">85</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv02_d8" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Minister in Switzerland (Stovall) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv02/d8"
+                    type="canonical"/>
+                <relatedItem target="d7-a1.xml" type="prev"/>
+                <relatedItem target="d8-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv02</bibl>
+                <bibl type="frus-division-id">d8</bibl>
+                <bibl type="frus-division-n">8</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="21" to="22" unit="page"
+                        >21–22</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Berne</hi>
+                    </placeName>
+                    <date calendar="gregorian" when="1918-11-19">November 19, 1918</date>
+                    <date notAfter="1918-11-19T23:59:59-05:00" notBefore="1918-11-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d8">
+
+                <pb facs="0109" n="21" sameAs="frus:frus1919Parisv02/pg21"/>
+
+                <note rend="inline" type="source">763.72119/2866</note>
+                <head>
+                    <hi rendition="#italic">The Minister in Switzerland</hi> (<hi
+                        rendition="#italic">Stovall</hi>) <hi rendition="#italic">to the Secretary
+                        of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 5285</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Berne</hi>
+                        </placeName>, <date calendar="gregorian" when="1918-11-19">November 19,
+                            1918</date>.<lb/>[Received December 4.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith a
+                    copy of a communication addressed by Dr. Edgar Jaffe, Minister of Finance of the
+                    Bavarian Government, to Dr. George D. Herron of Geneva.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Pleasant A. Stovall</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d8-a1.xml" xpointer="d8-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

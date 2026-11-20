@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d561" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d561"
+                    type="canonical"/>
+                <relatedItem target="d560.xml" type="prev"/>
+                <relatedItem target="d562.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d561</bibl>
+                <bibl type="frus-division-n">561</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="878" to="879" unit="page"
+                        >878–79</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-03-09">9 March 1944</date>
+                    <date notAfter="1944-03-09T23:59:59-05:00" notBefore="1944-03-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HHL1">Hopkins, Harry L.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d561">
+
+                <pb facs="0982" n="878" sameAs="frus:frus1943CairoTehran/pg878"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President
+                        Roosevelt</hi><anchor n="1" xml:id="d561-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1944-03-09">9 March 1944</date>.</dateline>
+                </opener>
+                <p>613. Prime Minister to President Roosevelt. Personal and secret.…<anchor n="2"
+                        xml:id="d561-f2"/></p>
+                <list>
+                    <label>1.</label>
+                    <item>You will remember that we discussed the dollar balances in Cairo on
+                        December 8th and that I gave a memorandum to Harry.<anchor n="3"
+                            xml:id="d561-f3"/>
+                        <pb facs="0983" n="879" xml:id="pg879"/> I certainly understood that you
+                        felt we ought not to be treated worse than France or Russia in these
+                        matters.…</item>
+                </list>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d561-f1" n="1" type="source" xml:id="d561-f1-content">
+                <p>Presumably sent via military channels.</p>
+            </note>
+            <note corresp="#d561-f2" n="2" xml:id="d561-f2-content">
+                <p>For the full text of this telegram, see Churchill, <ref target="#pg697">p.
+                        697</ref>.</p>
+            </note>
+            <note corresp="#d561-f3" n="3" xml:id="d561-f3-content">
+                <p>Roosevelt left Cairo on the morning of December 7, 1943. For what is believed to
+                    be the memorandum given to Harry Hopkins, see <hi rendition="#italic">ante</hi>,
+                        <ref target="#pg822">p. 822</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

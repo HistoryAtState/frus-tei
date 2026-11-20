@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d101" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Merry to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d101"
+                    type="canonical"/>
+                <relatedItem target="d100-a1.xml" type="prev"/>
+                <relatedItem target="d101-a1.xml" type="next"/>
+                <relatedItem target="../ch16.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d101</bibl>
+                <bibl type="frus-division-n">101</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="172" to="173" unit="page"
+                        >172–73</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">San Jose, Costa
+                        Rica</hi></placeName>
+                    <date calendar="gregorian" when="1898-12-02"><hi rendition="#italic">December 2,
+                            1898</hi></date>
+                    <date notAfter="1898-12-02T23:59:59-05:00" notBefore="1898-12-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d101">
+
+                <pb facs="0268" n="172" sameAs="frus:frus1898/pg172"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Merry to Mr. Hay.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic">San
+                                Jose, Costa Rica</hi></placeName>, <date calendar="gregorian"
+                            when="1898-12-02"><hi rendition="#italic">December 2,
+                        1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 175.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Respectfully referring to my No. 174, dated
+                    1st instant, I have the honor to advise that the Government of Costa Rica has
+                    officially recognized the Regalado anti-Federal Government of Salvador.
+                    Guatemala has not, so far as I am advised, taken like action, but is expected to
+                    do so soon. I have inclosed herewith telegram just received from Hon. Erasmo
+                    Calderon, minister of foreign affairs of the newly habilitated Republic of
+                    Nicaragua, which is self explanatory, and follows the proclamation of President
+                    Zelaya, dated November 30, announcing the <pb facs="0269" n="173" xml:id="pg173"
+                    /> resumption of her sovereignty as a Republic. I have already advised that the
+                    Government of Honduras has recognized the new Government of Salvador.</p>
+                <p>I have, etc.,</p>
+                <closer>
+                    <signed><hi rendition="#small-caps">William Lawrence Merry</hi>,<lb/><hi
+                            rendition="#italic">United States Minister.</hi></signed>
+                </closer>
+
+
+                <xi:include href="d101-a1.xml" xpointer="d101-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

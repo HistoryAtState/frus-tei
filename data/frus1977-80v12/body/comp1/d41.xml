@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v12_d41" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Article in the President’s Daily Brief</title>
+            </titleStmt>
+            <xi:include href="../../frus1977-80v12_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1977-80v12_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1977-80v12/d41"
+                    type="canonical"/>
+                <relatedItem target="d40.xml" type="prev"/>
+                <relatedItem target="d42.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1977-80v12</bibl>
+                <bibl type="frus-division-id">d41</bibl>
+                <bibl type="frus-division-n">41</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="116" to="116" unit="page"
+                        >116</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1979-03-27">March 27, 1979</date>
+                    <date notAfter="1979-03-27T23:59:59-05:00" notBefore="1979-03-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1977-80v12/persons">
+                    <term ref="frus:frus1977-80v12/persons#p_CJE_1">Carter, James Earl, Jr.
+                        (Jimmy)</term>
+                    <term ref="frus:frus1977-80v12/persons#p_MWF_1">Mondale, Walter F.
+                        (Fritz)</term>
+                </keywords>
+                <keywords scheme="frus:frus1977-80v12/terms">
+                    <term ref="frus:frus1977-80v12/terms#t_CIA_1">CIA</term>
+                    <term ref="frus:frus1977-80v12/terms#t_SA7_1">SA–7</term>
+                    <term ref="frus:frus1977-80v12/terms#t_USSR_1">USSR</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d41">
+
+                <pb facs="0161" n="116" xml:id="pg116"/>
+
+                <head>41. Article in the President’s Daily Brief<anchor n="1" xml:id="d41-f1"
+                    /></head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1979-03-27">March 27, 1979</date></dateline>
+                </opener>
+                <p rendition="#center">AFGHANISTAN-USSR-PAKISTAN-IRAN: Situation report</p>
+                <p><hi rendition="#italic">According to intercepted Afghan Army messages, the
+                        insurgency in northwestern Afghanistan has spread to Badghisat Province, and
+                        the provincial governor has fled. The government appears to be sending
+                        troops to head off an insurgent attack from Badghisat on Meymaneh, the
+                        capital of neighboring Faryab Province.</hi></p>
+                <p><hi rendition="#italic">The Soviets may be airlifting additional military
+                        equipment to Afghanistan. According to</hi> [<hi rendition="#italic">2 lines
+                        not declassified</hi>] <hi rendition="#italic">in Kabul, two Soviet heavy
+                        transport aircraft landed at Bagram Airfield on Saturday carrying an
+                        unspecified amount of arms and ammunition as well as some SA–7 missiles. We
+                        had a number of reports last week indicating stepped-up Soviet military
+                        deliveries.</hi></p>
+                <p>Relations between Afghanistan and Pakistan, meanwhile, are continuing to
+                    deteriorate. On Sunday the Pakistani Government released a statement accusing
+                    the Afghans of shelling a refugee camp in Pakistan; the statement implied that
+                    Pakistan might retaliate if there were any more such incidents. Privately, the
+                    Pakistanis have hinted to Kabul that landlocked Afghanistan’s ability to import
+                    key goods—such as wheat—through the port of Karachi could be cut off.<anchor
+                        n="2" xml:id="d41-f2"/></p>
+                <p>Iran’s relations with Kabul are also continuing to worsen. <hi
+                        rendition="#italic">An</hi> [<hi rendition="#italic">1 line not
+                        declassified</hi>] <hi rendition="#italic">indicates that at least some
+                        Iranian gendarmerie units along the border have been placed on alert.</hi>
+                    Iran closed the border last week.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d41-f1" n="1" type="source" xml:id="d41-f1-content">
+                <p>Source: Carter Library, National Security Affairs, Brzezinski Material,
+                    President’s Daily CIA Brief File, Box 18, 3/26/79–3/31/79. Top Secret; For the
+                    President’s Eyes Only. Carter initialed the cover page in the upper right
+                    corner.</p>
+            </note>
+            <note corresp="#d41-f2" n="2" xml:id="d41-f2-content">
+                <p>In the left margin, Mondale wrote: “Zbig—Why aren’t we pressing this issue? USSR
+                    internal interference &amp; fighting Islam. WM.” Sunday was March 25.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

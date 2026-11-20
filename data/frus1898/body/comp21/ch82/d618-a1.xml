@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d618-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Translation of General Blanco’s proclamation.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d618-a1"
+                    type="canonical"/>
+                <relatedItem target="d618.xml" type="prev"/>
+                <relatedItem target="../ch83.xml" type="next"/>
+                <relatedItem target="d618.xml" type="parent"/>
+                <relatedItem target="d618.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d618-a1</bibl>
+                <bibl type="frus-division-n">618.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="750" to="750" unit="page"
+                        >750</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d618-a1">
+
+                <pb facs="0846" n="750" sameAs="frus:frus1898/pg750"/>
+
+                <opener><seg rendition="#center">[Inclosure.]</seg></opener>
+                <head>
+                    <hi rendition="#italic">Translation of General Blanco’s proclamation.</hi>
+                </head>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">suspension of hostilities.</hi>
+                </p>
+                <p>Her Majesty’s Government, yielding to the reiterated wish expressed by His
+                    Holiness the Pope, has resolved, with the end to prepare and facilitate peace on
+                    this island, to decree a suspension of hostilities, and orders me to publish it
+                    for said purposes.</p>
+                <p>In virtue thereof I have thought it expedient to order: <list>
+                        <item>Article first. From the day following the receipt of this proclamation
+                            in each locality hostilities are declared to be suspended in the
+                            territory of the island of Cuba.</item>
+                        <item>Article second. The details for the execution of the above article
+                            shall be the subject of special instructions that will be communicated
+                            to the different commanders in chief of the army corps for the most
+                            prompt and easy execution, according to the situation and circumstances
+                            of each.</item>
+                    </list></p>
+                <closer>
+                    <dateline rendition="#float-left">Done at <placeName>Habana</placeName>
+                        <date calendar="gregorian" when="1898-04-07">the 7th day of April,
+                            1898</date>.</dateline>
+                    <lb/>
+                    <signed>
+                        <hi rendition="#small-caps">Ramon Blanco.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

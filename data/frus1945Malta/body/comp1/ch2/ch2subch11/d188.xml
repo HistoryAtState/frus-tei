@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d188" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The British Ambassador (Halifax) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d188"
+                    type="canonical"/>
+                <relatedItem target="d187.xml" type="prev"/>
+                <relatedItem target="d188-a1.xml" type="next"/>
+                <relatedItem target="../ch2subch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d188</bibl>
+                <bibl type="frus-division-n">188</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="274" to="274" unit="page"
+                        >274</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-12-09">December 9, 1944</date>
+                    <date notAfter="1944-12-09T23:59:59-05:00" notBefore="1944-12-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_H1">Halifax, The Earl of</term>
+                    <term ref="frus:frus1945Malta/persons#p_SERJ1">Stettinius, Edward R., Jr.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d188">
+
+                <pb facs="0360" n="274" sameAs="frus:frus1945Malta/pg274"/>
+
+                <note rend="inline" type="source">865.01/12–944</note>
+                <head>
+                    <hi rendition="#italic">The British Ambassador</hi> (<hi rendition="#italic"
+                        >Halifax</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1944-12-09">December 9,
+                        1944</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Ed</hi>: I have just received a telegram
+                    asking me to convey to you the enclosed personal message from Anthony, in reply
+                    to yours of December 7th.</p>
+                <p>Yours ever,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Edward</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d188-a1.xml" xpointer="d188-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

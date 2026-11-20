@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v10p1_d179" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Conversation</title>
+            </titleStmt>
+            <xi:include href="../../../frus1958-60v10p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1958-60v10p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v10p1/d179"
+                    type="canonical"/>
+                <relatedItem target="d178.xml" type="prev"/>
+                <relatedItem target="d180.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v10p1</bibl>
+                <bibl type="frus-division-id">d179</bibl>
+                <bibl type="frus-division-n">179</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="583" to="583" unit="page"
+                        >583</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Ankara</placeName>
+                    <date calendar="gregorian" type="conversation-or-meeting-date" when="1958-01-29"
+                        >January 29, 1958</date>
+                    <date notAfter="1958-01-29T23:59:59-05:00" notBefore="1958-01-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v10p1/persons">
+                    <term ref="frus:frus1958-60v10p1/persons#p_DJF1">Dulles, John Foster</term>
+                    <term ref="frus:frus1958-60v10p1/persons#p_LS1">Lloyd, Selwyn</term>
+                    <term ref="frus:frus1958-60v10p1/persons#p_MA1">Menderes, Adnan</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v10p1/terms">
+                    <term ref="frus:frus1958-60v10p1/terms#t_D1">D</term>
+                    <term ref="frus:frus1958-60v10p1/terms#t_US1">US</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d179">
+
+                <pb facs="0617" n="583" sameAs="frus:frus1958-60v10p1/pg583"/>
+
+                <head>179. Memorandum of Conversation<anchor n="0" xml:id="d179-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Ankara</placeName>, <date
+                            calendar="gregorian" type="conversation-or-meeting-date"
+                            when="1958-01-29">January 29, 1958</date>.</dateline></opener>
+                <p rendition="#center">US OBSERVER DELEGATION, FOURTH SESSION, MINISTERIAL COUNCIL,
+                    BAGHDAD PACT</p>
+                <list subtype="participants" type="description">
+                    <item><hi rendition="#italic">US Participants</hi>
+                        <list>
+                            <item>The Secretary</item>
+                        </list></item>
+                    <item><hi rendition="#italic">Turkish Participants</hi>
+                        <list>
+                            <item>Prime Minister Menderes</item>
+                        </list></item>
+                </list>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Cyprus Issue</item>
+                </list>
+                <p>The Prime Minister said that he knew that I was discussing with Mr. Lloyd a
+                    possible solution of the Cyprus issue. I said I was not familiar with the
+                    details but wished to express three thoughts: (1) I felt that the Cyprus issue
+                    should be settled. The times were too difficult and dangerous to permit the
+                    growing unrest attendant upon this issue; (2) I thought that Turkey was entitled
+                    to strategic security in the sense that it should have dependable and not mere
+                    paper guarantees that Cyprus would never fall into hands hostile to Turkey; (3)
+                    providing Turkey got assurance on point two, I thought Turkey should be flexible
+                    with respect to all other aspects of the settlement.</p>
+                <p>The Prime Minister thanked me and said that he too thought the problem ought to
+                    be solved and he deplored the very heavy responsibilities that rested upon me
+                    all around the world and said he would like to lighten them.</p>
+                <closer><signed><hi rendition="#bold">John Foster Dulles</hi><anchor n="1"
+                            xml:id="d179-f2"/></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d179-f1" n="0" type="source" xml:id="d179-f1-content">
+                <p>Source: Department of State, Secretary’s Memoranda of Conversation: Lot 64 D 199.
+                    Secret. Drafted by Dulles. The discussion was held during dinner at the Ankara
+                    Palas Hotel.</p>
+            </note>
+            <note corresp="#d179-f2" n="1" xml:id="d179-f2-content">
+                <p>Printed from a copy that bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

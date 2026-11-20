@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1888p2_d544" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 21.</title>
+                <title type="subtitle">Mr. Rives to Mr. Phelps.</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1888p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1888p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1888p2/d544"
+                    type="canonical"/>
+                <relatedItem target="d543.xml" type="prev"/>
+                <relatedItem target="d544-a1.xml" type="next"/>
+                <relatedItem target="../ch15subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1888p2</bibl>
+                <bibl type="frus-division-id">d544</bibl>
+                <bibl type="frus-division-n">544</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1843" to="1844" unit="page"
+                        >1843–44</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1888-10-23"><hi rendition="#italic"
+                            >October</hi> 23, 1888</date>
+                    <date notAfter="1888-10-23T23:59:59-05:00" notBefore="1888-10-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d544">
+
+                <pb facs="0885" n="1843" sameAs="frus:frus1888p2/pg1843"/>
+
+                <head>No. 21.<lb/><hi rendition="#italic">Mr. Rives to Mr. Phelps.</hi><anchor n="†"
+                        xml:id="d544-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1888-10-23"><hi rendition="#italic">October</hi> 23,
+                        1888</date>.</dateline>
+                    <seg rendition="#float-left">No. 982.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose herewith, for your information, a
+                    copy of a dispatch to this Department from Mr. Stevens, our consul at Victoria,
+                    British Columbia, relative to the fur-seal industry, giving an account of the
+                    business for the season which has just closed.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">G. L. Rives</hi>,<lb/><hi
+                            rendition="#italic">Acting Secretary.</hi></signed></closer>
+
+
+                <xi:include href="d544-a1.xml" xpointer="d544-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d544-f1" n="†" type="source" xml:id="d544-f1-content">
+                <p>Identic instructions were sent to U. S. minister to Russia.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

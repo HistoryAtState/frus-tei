@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v16_d203" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Conversation</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v16_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v16_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v16/d203"
+                    type="canonical"/>
+                <relatedItem target="d202.xml" type="prev"/>
+                <relatedItem target="d204.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v16</bibl>
+                <bibl type="frus-division-id">d203</bibl>
+                <bibl type="frus-division-n">203</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="820" to="821" unit="page"
+                        >820–21</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" type="conversation-or-meeting-date" when="1975-10-10"
+                        >October 10, 1975</date>
+                    <date notAfter="1975-10-10T23:59:59-05:00" notBefore="1975-10-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v16/persons">
+                    <term ref="frus:frus1969-76v16/persons#p_BEL_1">Butz, Earl L.</term>
+                    <term ref="frus:frus1969-76v16/persons#p_FGR_1">Ford, Gerald R.</term>
+                    <term ref="frus:frus1969-76v16/persons#p_KHA_1">Kissinger, Henry A.</term>
+                    <term ref="frus:frus1969-76v16/persons#p_RCW_1">Robinson, Charles W.</term>
+                    <term ref="frus:frus1969-76v16/persons#p_SB_1">Scowcroft, Brent</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v16/terms">
+                    <term ref="frus:frus1969-76v16/terms#t_Nodis_1">Nodis</term>
+                    <term ref="frus:frus1969-76v16/terms#t_prepcon_1">prepcon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d203">
+
+                <pb facs="0851" n="820" sameAs="frus:frus1969-76v16/pg820"/>
+
+                <head>203. Memorandum of Conversation<anchor n="1" xml:id="d203-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" type="conversation-or-meeting-date"
+                            when="1975-10-10">October 10, 1975</date>.</dateline></opener>
+                <list subtype="participants" type="description">
+                    <label>PARTICIPANTS</label>
+                    <item>President Ford</item>
+                    <item>Dr. Henry A. Kissinger, Secretary of State and Assistant to the President
+                        for National Security Affairs</item>
+                    <item>Lt. General Brent Scowcroft, Deputy Assistant to the President for
+                        National Security Affairs</item>
+                </list>
+                <p>[Omitted here is discussion of the President’s upcoming trip to China.]</p>
+                <p>[Kissinger:] On the grain deal—it has not been brilliantly handled. We could have
+                    him [Robinson]<anchor n="2" xml:id="d203-f2"/> initial and sign the letter of
+                    intent, in which case we’d probably never get a price deal. Or we could have
+                    Robinson go to the prepcon, and then return to Moscow Thursday<anchor n="3"
+                        xml:id="d203-f3"/> and initial and sign the letter of intent. If you don’t
+                    have to have it, it might be marginally better to go back Thursday.</p>
+                <pb facs="0852" n="821" xml:id="pg821"/>
+                <p>President: We are under a lot of pressure.</p>
+                <p>Kissinger: Butz thinks he can manage with announcing the Polish deal.</p>
+                <p>Scowcroft: The longer it drags out the more it will look like a fight in which we
+                    caved.</p>
+                <p>President: Let’s have Robinson initial and sign the letter of intent by
+                    Sunday.</p>
+                <p>Kissinger: Okay. I will check once more before the final decision.</p>
+                <p>[Omitted here is discussion of Portugal and Norway.]</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d203-f1" n="1" type="source" xml:id="d203-f1-content">
+                <p>Source: Ford Library, National Security Adviser, Memoranda of Conversations,
+                    1973–1977, Box 16. Secret; Nodis. The meeting was held in the Oval Office.</p>
+            </note>
+            <note corresp="#d203-f2" n="2" xml:id="d203-f2-content">
+                <p>Brackets in the original.</p>
+            </note>
+            <note corresp="#d203-f3" n="3" xml:id="d203-f3-content">
+                <p>October 16. Kissinger is probably referring to Robinson’s attendance at the
+                    Preparatory Technical Maritime Conference in Geneva, which opened on October
+                    13.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

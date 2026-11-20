@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d66" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Page to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d66"
+                    type="canonical"/>
+                <relatedItem target="d65.xml" type="prev"/>
+                <relatedItem target="d67.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d66</bibl>
+                <bibl type="frus-division-n">66</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="50" to="50" unit="page"
+                        >50</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1917-06-05T22:00:00+01:00">
+                        <hi rendition="#italic">June 5, 1917, 10 p.m.</hi>
+                    </date>
+                    <date notAfter="1917-06-05T16:00:00-05:00" notBefore="1917-06-05T16:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d66">
+
+                <pb facs="0216" n="50" sameAs="frus:frus1917/pg50"/>
+
+                <note rend="inline" type="source">File No. 893.00/2586</note>
+                <head>
+                    <hi rendition="#italic">Ambassador Page to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">London</hi></placeName>, <date
+                            calendar="gregorian" when="1917-06-05T22:00:00+01:00">
+                            <hi rendition="#italic">June 5, 1917, 10 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>6368. Your 4916, June 4, 3 p.m. Lord Robert Cecil must have a conference before
+                    can give a formal or final answer which he promises forthwith. His personal
+                    views are favorable to a joint representation but he considers China’s entry
+                    into war although secondary to domestic unity and peace of very great
+                    importance. China’s entry would deal a hard blow to Germany in trade relations
+                    after the war and he regards German fear of complete commercial isolation as one
+                    of the strongest kinds of pressure to bring peace.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Page</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

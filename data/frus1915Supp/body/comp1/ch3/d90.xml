@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp_d90" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in France (Sharp) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915Supp/d90"
+                    type="canonical"/>
+                <relatedItem target="d89.xml" type="prev"/>
+                <relatedItem target="d91.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915Supp</bibl>
+                <bibl type="frus-division-id">d90</bibl>
+                <bibl type="frus-division-n">90</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="65" to="65" unit="page"
+                        >65</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Paris</hi></placeName>
+                    <date calendar="gregorian" when="1915-10-18">
+                        <hi rendition="#italic">October 18, 1915</hi>.</date>
+                    <date notAfter="1915-10-18T23:59:59-05:00" notBefore="1915-10-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1915Supp/persons">
+                    <term ref="frus:frus1915Supp/persons#p_SWG1">Sharp, William Graves</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d90">
+
+                <pb facs="0323" n="65" sameAs="frus:frus1915Supp/pg65"/>
+
+                <note rend="inline" type="source">File No. 763.72/2194</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in France</hi> (<hi rendition="#italic"
+                        >Sharp</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Paris</hi></placeName>, <date
+                            calendar="gregorian" when="1915-10-18">
+                            <hi rendition="#italic">October 18, 1915</hi>.</date>
+                        <lb/> [<hi rendition="#italic">Received 5.30 p. m.</hi>]</dateline>
+                </opener>
+                <p>1051. <hi rendition="#italic">Journal officiel</hi> of to-day contains following
+                    declaration of war:<quote rend="blockquote">
+                        <p>Bulgaria having entered into action on the side of the enemies and
+                            against one of the allies of France, the Government of the Republic
+                            declares that a state of war exists between France and Bulgaria from
+                            October 16, 1915, 6 a. m., through the act of Bulgaria.</p>
+                    </quote>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Sharp</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

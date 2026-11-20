@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d649" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum from French embassy.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d649"
+                    type="canonical"/>
+                <relatedItem target="d648.xml" type="prev"/>
+                <relatedItem target="d650.xml" type="next"/>
+                <relatedItem target="../ch85.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d649</bibl>
+                <bibl type="frus-division-n">649</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="790" to="790" unit="page"
+                        >790</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1898-04-29T23:59:59-05:00" notBefore="1898-04-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d649">
+
+                <pb facs="0886" n="790" sameAs="frus:frus1898/pg790"/>
+
+                <head>
+                    <hi rendition="#italic">Memorandum from French embassy.</hi>
+                </head>
+                <p>Could the Department of State inform the French ambassador whether the Spanish
+                    schooner <hi rendition="#italic">Sofia</hi> is among the number of vessels
+                    captured by the Federal fleet?</p>
+                <closer><dateline rendition="#float-left"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1898-04-29"><hi rendition="#italic">April 29,
+                        1898</hi></date>.</dateline></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

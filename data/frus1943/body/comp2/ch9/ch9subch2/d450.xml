@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d450" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the United States Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d450"
+                    type="canonical"/>
+                <relatedItem target="d449-a1.xml" type="prev"/>
+                <relatedItem target="d451.xml" type="next"/>
+                <relatedItem target="../ch9subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d450</bibl>
+                <bibl type="frus-division-n">450</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1023" to="1024" unit="page"
+                        >1023–24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-16">16 August 1943</date>
+                    <date notAfter="1943-08-16T23:59:59-05:00" notBefore="1943-08-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                    <term ref="frus:frus1943/terms#t_Overlord1">Overlord</term>
+                    <term ref="frus:frus1943/terms#t_Trident1">Trident</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d450">
+
+                <pb facs="1137" n="1023" sameAs="frus:frus1943/pg1023"/>
+
+                <note rend="inline" type="source"> J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the United States Chiefs of
+                        Staff</hi><anchor n="1" xml:id="d450-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/> C.C.S. 303/1</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-16">16 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Strategic Concept for the Defeat of the Axis in
+                        Europe</hi>
+                </p>
+                <p>The discussion in the Combined Chiefs of Staff Meeting yesterday<anchor n="2"
+                        xml:id="d450-f2"/> made more apparent than ever the necessity for decision
+                    now as to whether our main effort in the European Theater is to be in the
+                    Mediterranean or from the United Kingdom. The United States Chiefs of Staff
+                    believe that this is the critical question before the conference and that the
+                    effective conduct of the war in Europe makes this decision now a must.</p>
+                <p>We propose the following: <quote rend="blockquote">
+                        <p>The Combined Chiefs of Staff reaffirm the decisions of the <hi
+                                rendition="#small-caps">Trident</hi> Conference<anchor n="3"
+                                xml:id="d450-f3"/> as to the execution of <hi
+                                rendition="#small-caps">Overlord</hi> including the definite
+                            allotment <pb facs="1138" n="1024" xml:id="pg1024"/> of forces thereto
+                            and assign to it an overriding priority over other operations in the
+                            European Theater.</p>
+                    </quote>
+                </p>
+                <p>The United States Chiefs of Staff believe that the acceptance of this decision
+                    must be without conditions and without mental reservation. They accept the fact
+                    that a grave emergency will always call for appropriate action to meet it.
+                    However, long range decision for the conduct of the war must not be dominated by
+                    possible eventualities.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d450-f1" n="1" type="source" xml:id="d450-f1-content">
+                <p>For the discussion of this paper at the 109th Meeting of the Combined Chiefs of
+                    Staff, August 16, 1943, see <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg870">p. 870</ref>.</p>
+            </note>
+            <note corresp="#d450-f2" n="2" xml:id="d450-f2-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg864">p. 864</ref>.</p>
+            </note>
+            <note corresp="#d450-f3" n="3" xml:id="d450-f3-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg365">p. 365</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

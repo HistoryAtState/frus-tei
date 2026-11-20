@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v07_d512" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum Prepared in the Department of State</title>
+            </titleStmt>
+            <xi:include href="../../frus1950v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1950v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1950v07/d512"
+                    type="canonical"/>
+                <relatedItem target="d511.xml" type="prev"/>
+                <relatedItem target="d512-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v07</bibl>
+                <bibl type="frus-division-id">d512</bibl>
+                <bibl type="frus-division-n">512</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="726" to="727" unit="page"
+                        >726–27</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1950-09-14">September 14, 1950</date>
+                    <date notAfter="1950-09-14T23:59:59-05:00" notBefore="1950-09-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1950v07/terms">
+                    <term ref="frus:frus1950v07/terms#t_NSC1">N.S.C.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d512">
+
+                <pb facs="0746" n="726" sameAs="frus:frus1950v07/pg726"/>
+
+                <note rend="inline" type="source">795.00/9–1450</note>
+                <head>
+                    <hi rendition="#italic">Memorandum Prepared in the Department of State</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1950-09-14">September 14, 1950</date>.</dateline>
+                </opener>
+                <p rendition="#flush">SFM D–7/3<hi rendition="#italic">a</hi> Revised</p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">September Foreign Ministers Meetings</hi>
+                </p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">summary for briefing of the secretary on korea</hi>
+                </p>
+                <p>The attached brief has been revised<anchor n="1" xml:id="d512-f1"/> to include a
+                    statement of the U.S. position as established in NSC 81/1.<anchor n="2"
+                        xml:id="d512-f2"/>
+                </p>
+
+
+
+                <xi:include href="d512-a1.xml" xpointer="d512-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d512-f1" n="1" xml:id="d512-f1-content">
+                <p>For the text of document SFM D–7/3<hi rendition="#italic">a</hi>, dated August
+                    28, see <ref target="#pg653">p. 653</ref>.</p>
+            </note>
+            <note corresp="#d512-f2" n="2" xml:id="d512-f2-content">
+                <p>Dated September 9, <ref target="#pg712">p. 712</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

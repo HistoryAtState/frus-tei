@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_ch123" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marriage of Queen Wilhelmina</title>
+            </titleStmt>
+            <xi:include href="../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/ch123"
+                    type="canonical"/>
+                <relatedItem target="../comp23.xml" type="prev"/>
+                <relatedItem target="ch123/d349.xml" type="next"/>
+                <relatedItem target="../comp23.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">ch123</bibl>
+                <bibl type="frus-division-n">123</bibl>
+                <bibl type="frus-division-type">chapter</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="416" to="418" unit="page"
+                        >416–18</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1901-02-09T23:59:59-05:00" notBefore="1901-01-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="ch123">
+
+                <pb facs="0496" n="416" sameAs="frus:frus1901/pg416"/>
+
+                <head>Marriage of Queen Wilhelmina</head>
+
+
+
+                <xi:include href="ch123/d349.xml" xpointer="d349"/>
+                <xi:include href="ch123/d350.xml" xpointer="d350"/>
+                <xi:include href="ch123/d351.xml" xpointer="d351"/>
+            </div>
+        </body>
+    </text>
+</TEI>

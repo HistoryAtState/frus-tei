@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894_d500" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Sperry to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1894_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1894_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1894/d500"
+                    type="canonical"/>
+                <relatedItem target="../ch129.xml" type="prev"/>
+                <relatedItem target="d500-a1.xml" type="next"/>
+                <relatedItem target="../ch129.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1894</bibl>
+                <bibl type="frus-division-id">d500</bibl>
+                <bibl type="frus-division-n">500</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="508" to="509" unit="page"
+                        >508–9</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Teheran,
+                        Persia</hi></placeName>
+                    <date calendar="gregorian" when="1893-07-05"><hi rendition="#italic">July 5,
+                            1893</hi></date>
+                    <date notAfter="1893-07-05T23:59:59-05:00" notBefore="1893-07-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d500">
+
+                <pb facs="0558" n="508" sameAs="frus:frus1894/pg508"/>
+
+                <head><hi rendition="#italic">Mr. Sperry to Mr. Gresham.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Teheran, Persia</hi></placeName>, <date calendar="gregorian"
+                            when="1893-07-05"><hi rendition="#italic">July 5, 1893</hi></date>.
+                        (Received August 11.)</dateline>
+                    <seg rendition="#float-left">No. 62.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit to you
+                    herewith a copy and translation of a note which I have just received from the
+                    minister for foreign affairs in regard to the representation of Persia in the
+                    “mixed <pb facs="0559" n="509" xml:id="pg509"/> tribunals” of Egypt. The note
+                    fully explains itself. Assuming the facts to be as stated by the
+                    Kavam-ed-Dowlah, I beg to add that his note appears to me to be an appropriate
+                    and just statement of the matter, while the matter itself is evidently of
+                    serious importance to the Persian Government. I am assured that the request for
+                    assistance from the Government of the United States is made with confidence, and
+                    I sincerely hope that due consideration by the Department of the request will
+                    show that the way is clear to render this assistance.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Watson E. Sperry.</hi></signed></closer>
+
+
+                <xi:include href="d500-a1.xml" xpointer="d500-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

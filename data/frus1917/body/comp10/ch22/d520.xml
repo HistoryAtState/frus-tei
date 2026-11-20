@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d520" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Minister Gonzales to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d520"
+                    type="canonical"/>
+                <relatedItem target="d519.xml" type="prev"/>
+                <relatedItem target="d520-a1.xml" type="next"/>
+                <relatedItem target="../ch22.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d520</bibl>
+                <bibl type="frus-division-n">520</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="391" to="392" unit="page"
+                        >391–92</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Habana</hi></placeName>
+                    <date calendar="gregorian" when="1917-03-29">
+                        <hi rendition="#italic">March 29, 1917</hi></date>
+                    <date notAfter="1917-03-29T23:59:59-05:00" notBefore="1917-03-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d520">
+
+                <pb facs="0557" n="391" xml:id="pg391"/>
+
+                <note rend="inline" type="source">File No. 837.00/1283</note>
+                <head>
+                    <hi rendition="#italic">Minister Gonzales to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 433</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Habana</hi></placeName>, <date
+                            calendar="gregorian" when="1917-03-29">
+                            <hi rendition="#italic">March 29, 1917</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to enclose herewith in
+                    translation a copy of President Menocal’s manifesto to the people of Cuba, dated
+                    March 26, 1917.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">William E. Gonzales</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d520-a1.xml" xpointer="d520-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

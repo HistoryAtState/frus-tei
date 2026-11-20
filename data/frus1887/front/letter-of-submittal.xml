@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1887_letter-of-submittal" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter of submittal</title>
+            </titleStmt>
+            <xi:include href="../frus1887_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1887_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1887/letter-of-submittal"
+                    type="canonical"/>
+                <relatedItem target="message.xml" type="prev"/>
+                <relatedItem target="letter-of-submittal-a1.xml" type="next"/>
+                <relatedItem target="../frus1887.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1887</bibl>
+                <bibl type="frus-division-id">letter-of-submittal</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="XV" to="XV" unit="page"
+                        >XV</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1888-06-26T23:59:59-05:00" notBefore="1888-06-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="letter-of-submittal">
+
+                <pb facs="0041" n="XV" xml:id="pgXV"/>
+
+                <head>Letter of submittal</head>
+                <p rendition="#flush"><hi rendition="#italic">To the Senate and House of
+                        Representatives:</hi></p>
+                <p>I transmit herewith a report from the Secretary of State, accompanied with
+                    selected correspondence relating to foreign affairs, for the year 1887.</p>
+                <closer><signed><hi rendition="#small-caps">Grover Cleveland.</hi></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><hi rendition="#small-caps">Executive
+                            Mansion</hi>,<lb/><placeName><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1888-06-26"><hi rendition="#italic">June 26,
+                        1888</hi></date>.</dateline>
+                </closer>
+
+
+                <xi:include href="letter-of-submittal-a1.xml" xpointer="letter-of-submittal-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

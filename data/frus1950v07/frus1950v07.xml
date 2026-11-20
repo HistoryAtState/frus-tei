@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v07" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1950v07_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1950v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1950v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1950v07"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1950v07" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1950v07/covers/frus1950v07.jpg"/>
+                        <extent>
+                            <measure quantity="27232" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:08:01.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1950v07" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1950v07/ebook/frus1950v07.epub"/>
+                        <extent>
+                            <measure quantity="2855656" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:08:01.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1950v07" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1950v07/ebook/frus1950v07.mobi"/>
+                        <extent>
+                            <measure quantity="4294879" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:08:01.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1976 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>north-korea</term>
+                    <term>south-korea</term>
+                    <term>korean-war</term>
+                    <term>united-nations</term>
+                    <term>china</term>
+                    <term>acheson-dean-gooderham</term>
+                    <term>armistices</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>argentina</term>
+                    <term>atomic-energy</term>
+                    <term>burma</term>
+                    <term>greece</term>
+                    <term>india</term>
+                    <term>indonesia</term>
+                    <term>iran</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>nuclear-weapons</term>
+                    <term>norway</term>
+                    <term>united-kingdom</term>
+                    <term>turkey</term>
+                    <term>france</term>
+                    <term>pakistan</term>
+                    <term>philippines</term>
+                    <term>thailand</term>
+                    <term>national-security-council</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>taiwan</term>
+                    <term>truman-harry-s</term>
+                    <term>civil-rights-foreign</term>
+                    <term>wake-island</term>
+                    <term>far-eastern-commission</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1950v07" status="published" when="1976"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1950</titlePart>
+                    <titlePart type="volumeno">Volume VII</titlePart>
+                    <titlePart type="volumetitle">Korea</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1976</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication 8859 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the<lb/>U.S. Government Book Store<lb/>Department of
+                    State<lb/>Washington, D.C. 20520 - Price $17.00 (Buckram)<lb/>Stock Number
+                    044–000–01637-1</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0010" n="VI" xml:id="pgVI"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0018" n="XIV" xml:id="pgXIV"/>
+            <pb facs="0019" n="XV" xml:id="pgXV"/>
+            <pb facs="0020" n="[Photographs 1]" xml:id="pg-seq-20-photographs-1"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+        </body>
+        <back>
+            <pb facs="1655" n="[1635]" xml:id="pg1635"/>
+            <pb facs="1656" n="1636" xml:id="pg1636"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1939v04" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1939v04_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1939v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1939v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1939v04"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1939v04" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1939v04/covers/frus1939v04.jpg"/>
+                        <extent>
+                            <measure quantity="33560" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:26:19.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1939v04" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1939v04/ebook/frus1939v04.epub"/>
+                        <extent>
+                            <measure quantity="1647026" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:26:19.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1939v04" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1939v04/ebook/frus1939v04.mobi"/>
+                        <extent>
+                            <measure quantity="2016904" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:26:19.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1955 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>arms-transfers</term>
+                    <term>china</term>
+                    <term>egypt</term>
+                    <term>ethiopia</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>hull-cordell</term>
+                    <term>immigration</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>league-of-nations</term>
+                    <term>lebanon</term>
+                    <term>liberia</term>
+                    <term>morocco</term>
+                    <term>narcotics</term>
+                    <term>palestine</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>quarantine-blockade</term>
+                    <term>refugees</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>saudi-arabia</term>
+                    <term>syria</term>
+                    <term>terrorism</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>world-war-ii</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1939v04" status="published" when="1955"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States<lb/>Diplomatic
+                        Papers</titlePart>
+                    <titlePart type="subseries">1939</titlePart>
+                    <titlePart type="volumeno">(In Five Volumes)<lb/>Volume IV</titlePart>
+                    <titlePart type="volumetitle">The Far East<lb/>The Near East and
+                        Africa</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>:<lb/><docDate>1955</docDate>
+                    <pb facs="0002" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION
+                    5849</docImprint>
+            </titlePage>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0006" n="[VI]" xml:id="pgVI"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <pb facs="0482" n="476" xml:id="pg476"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+        </body>
+        <back>
+            <pb facs="0899" n="[893]" xml:id="pg893"/>
+            <pb facs="0900" n="[894]" xml:id="pg894"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

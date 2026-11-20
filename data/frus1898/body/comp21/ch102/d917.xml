@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d917" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Day.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d917"
+                    type="canonical"/>
+                <relatedItem target="d916.xml" type="prev"/>
+                <relatedItem target="d917-a1.xml" type="next"/>
+                <relatedItem target="../ch102.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d917</bibl>
+                <bibl type="frus-division-n">917</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="985" to="986" unit="page"
+                        >985–86</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1898-07-22"><hi rendition="#italic">July 22,
+                            1898</hi></date>
+                    <date notAfter="1898-07-22T23:59:59-05:00" notBefore="1898-07-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d917">
+
+                <pb facs="1081" n="985" sameAs="frus:frus1898/pg985"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Hay to Mr. Day.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1898-07-22"
+                                ><hi rendition="#italic">July 22, 1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 466.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to your instructions numbered 734
+                    of 9th instant and 737 of 11th instant, I have the honor to inclose herewith the
+                    copy <pb facs="1082" n="986" xml:id="pg986"/> of a note, which I have received
+                    from the foreign office, stating that nothing has been seen or heard of a
+                    Spanish privateer in Canadian waters, and that the rumor on which your
+                    instructions were based is believed in Canada to be without foundation.</p>
+                <p>I have, etc.,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">John Hay.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d917-a1.xml" xpointer="d917-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

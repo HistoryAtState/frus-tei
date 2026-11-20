@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d280" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Tower to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d280"
+                    type="canonical"/>
+                <relatedItem target="d279.xml" type="prev"/>
+                <relatedItem target="d281.xml" type="next"/>
+                <relatedItem target="../ch71.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d280</bibl>
+                <bibl type="frus-division-n">280</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="311" to="311" unit="page"
+                        >311</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1904-02-17"><hi rendition="#italic">February
+                            17, 1904</hi></date>
+                    <date notAfter="1904-02-17T23:59:59-05:00" notBefore="1904-02-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d280">
+
+                <pb facs="0399" n="311" sameAs="frus:frus1904/pg311"/>
+
+                <head><hi rendition="#italic">Mr. Tower to Mr. Hay.</hi></head>
+                <opener><seg rendition="#center">[Telegram.—Paraphrase.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >Berlin</hi></placeName>, <date calendar="gregorian" when="1904-02-17"
+                                ><hi rendition="#italic">February 17,
+                    1904</hi></date>.</dateline></opener>
+                <p>(Mr. Tower reports that he has conveyed to the Emperor the profound appreciation
+                    of the President of his initiative and cooperation in the matter of Chinese
+                    neutrality, and that the Emperor was exceedingly gratified and expressed most
+                    friendly sentiments toward the President.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

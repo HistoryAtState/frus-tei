@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adams to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d11"
+                    type="canonical"/>
+                <relatedItem target="../comp3.xml" type="prev"/>
+                <relatedItem target="d11-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="16" to="16" unit="page"
+                        >16</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Petropolis</hi></placeName>
+                    <date calendar="gregorian" when="1889-12-17"><hi rendition="#italic"
+                            >December</hi> 17, 1889</date>
+                    <date notAfter="1889-12-17T23:59:59-05:00" notBefore="1889-12-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d11">
+
+                <pb facs="0120" n="16" sameAs="frus:frus1890/pg16"/>
+
+                <head><hi rendition="#italic">Mr. Adams to Mr. Blaine</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Petropolis</hi></placeName>, <date calendar="gregorian"
+                            when="1889-12-17"><hi rendition="#italic">December</hi> 17, 1889</date>.
+                        (Received January 15, 1890.)</dateline>
+                    <seg rendition="#float-left">No. 26.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to continue my report on
+                    the progress of events here. I inclose translation of decree nominating a
+                    commission to draft a constitution, referred to in No. 23, of December 6. The
+                    Central Government by decree abolished the municipal council of Rio,
+                    substituting a commission of seven to govern the city. The same thing was done
+                    for the city of Pará, with a commission of three. By decree the army has been
+                    increased from 16,000 to over 26,000 men and the pay increased nearly
+                    double.</p>
+                <p>The recent speech of the minister of agriculture in the name of his associates,
+                    giving the programme and sentiments of the Government, is a most remarkable
+                    utterance. It is being translated, but not ready for this mail.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Robert Adams, Jr.</hi></signed></closer>
+
+
+                <xi:include href="d11-a1.xml" xpointer="d11-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

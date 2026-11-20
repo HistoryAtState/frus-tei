@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v19_d19" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>National Security Council Report</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v19_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v19_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v19/d19"
+                    type="canonical"/>
+                <relatedItem target="d18.xml" type="prev"/>
+                <relatedItem target="d19-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v19</bibl>
+                <bibl type="frus-division-id">d19</bibl>
+                <bibl type="frus-division-n">19</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="71" to="75" unit="page"
+                        >71–75</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date/>
+                    <date notAfter="1955-04-01T23:59:59-05:00" notBefore="1955-04-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v19/persons">
+                    <term ref="frus:frus1955-57v19/persons#p_LJSJ1">Lay, James S., Jr.</term>
+                </keywords>
+                <keywords scheme="frus:frus1955-57v19/terms">
+                    <term ref="frus:frus1955-57v19/terms#t_NSC1">NSC</term>
+                    <term ref="frus:frus1955-57v19/terms#t_SS1">S/S</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d19">
+
+                <pb facs="0095" n="71" xml:id="pg71"/>
+
+                <head>19. National Security Council Report<anchor n="1" xml:id="d19-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left">NSC 5515/1</seg>
+                    <dateline rendition="#float-right"><hi rendition="#italic"
+                                ><placeName>Washington</placeName>, <date calendar="gregorian"
+                                when="1955-04-01">April 1, 1955</date>.</hi></dateline>
+                </opener>
+                <p rendition="#center">STUDY OF POSSIBLE HOSTILE SOVIET ACTIONS</p>
+                <p>Note by the Executive Secretary to the National Security Council</p>
+                <list type="references">
+                    <head>REFERENCES</head>
+                    <item>A. NSC Action No. 1260–c</item>
+                    <item>B. NSC 5438</item>
+                    <item>C. NSC 5515</item>
+                    <item>D. NSC Action No. 1366<anchor n="2" xml:id="d19-f2"/></item>
+                </list>
+                <p>The National Security Council, the Secretary of the Treasury, the Acting
+                    Director, Bureau of the Budget, and Mr. J. Walter Yeagley for the Attorney
+                    General, at the 243rd Council meeting on March 31, 1955,<anchor n="3"
+                        xml:id="d19-f3"/> noted the Study contained in NSC 5515, amended as set
+                    forth in NSC Action No. 1366–b, and enclosed herewith as NSC 5515/1.</p>
+                <p>Because of the sensitivity of the information therein, this Study is being given
+                    a limited distribution; <hi rendition="#italic">it is requested that special
+                        security precautions be observed in its handling and that access to it be
+                        limited on a strict need-to-know basis</hi>.</p>
+                <closer><signed><hi rendition="#bold">James S. Lay, Jr.</hi><anchor n="4"
+                            xml:id="d19-f4"/></signed></closer>
+
+
+                <xi:include href="d19-a1.xml" xpointer="d19-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d19-f1" n="1" type="source" xml:id="d19-f1-content">
+                <p>Source: Department of State, S/S–NSC Files: Lot 63 D 351, NSC 5515 Series. Top
+                    Secret.</p>
+            </note>
+            <note corresp="#d19-f2" n="2" xml:id="d19-f2-content">
+                <p>See <ref target="#d18-f6">footnote 6, <hi rendition="#italic"
+                    >supra</hi></ref>.</p>
+            </note>
+            <note corresp="#d19-f3" n="3" xml:id="d19-f3-content">
+                <p>See <ref target="#d18"><hi rendition="#italic">supra</hi></ref>.</p>
+            </note>
+            <note corresp="#d19-f4" n="4" xml:id="d19-f4-content">
+                <p>Printed from a copy that bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

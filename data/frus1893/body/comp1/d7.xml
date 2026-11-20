@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1893_d7" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Tripp to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../frus1893_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1893_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1893/d7"
+                    type="canonical"/>
+                <relatedItem target="d6-a17.xml" type="prev"/>
+                <relatedItem target="d7-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1893</bibl>
+                <bibl type="frus-division-id">d7</bibl>
+                <bibl type="frus-division-n">7</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="22" to="23" unit="page"
+                        >22–23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Vienna</hi></placeName>
+                    <date calendar="gregorian" when="1893-07-12"><hi rendition="#italic">July 12,
+                            1893</hi></date>
+                    <date notAfter="1893-07-12T23:59:59-05:00" notBefore="1893-07-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d7">
+
+                <pb facs="0130" n="22" sameAs="frus:frus1893/pg22"/>
+
+                <head><hi rendition="#italic">Mr. Tripp to Mr. Gresham.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Vienna</hi></placeName>, <date calendar="gregorian"
+                            when="1893-07-12"><hi rendition="#italic">July 12, 1893</hi></date>.
+                        (Received July 26, 1893.)</dateline>
+                    <seg rendition="#float-left">No. 14.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to dispatches No. 353, under date
+                    of April 19, and No. 360, under date of May 12, written by my predecessor, Col.
+                    Grant, giving an account of the arrest and subsequent release on bail of Saul
+                    Moerser, alias Charles Mercy, a naturalized citizen of the United States, I now
+                    have the honor to submit, for your information, the translation of a note just
+                    received from the imperial and royal ministry of foreign affairs, which I think
+                    might be added to the file of Charles Mercy’s case.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Bartlett Tripp.</hi></signed></closer>
+
+
+
+                <xi:include href="d7-a1.xml" xpointer="d7-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

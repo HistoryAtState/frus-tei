@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d49" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President to the War Shipping Administrator (Land)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d49"
+                    type="canonical"/>
+                <relatedItem target="d48.xml" type="prev"/>
+                <relatedItem target="d50.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d49</bibl>
+                <bibl type="frus-division-n">49</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="29" to="29" unit="page"
+                        >29</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Hyde Park</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-02">September 2, 1944</date>
+                    <date notAfter="1944-09-02T23:59:59-05:00" notBefore="1944-09-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d49">
+
+                <pb facs="0083" n="29" sameAs="frus:frus1944Quebec/pg29"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head><hi rendition="#italic">The President to the War Shipping Administrator</hi>
+                        (<hi rendition="#italic">Land</hi>)</head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Hyde
+                                Park</hi></placeName>,] <date calendar="gregorian" when="1944-09-02"
+                            >September 2, 1944</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Memorandum for Admiral
+                    Land</hi></p>
+                <p>I have not heard anything about the proposed personnel if the Prime Minister
+                    comes over but if he brings Lord Leathers you must, of course, come to Quebec. I
+                    will let you know shortly. Meantime, will you keep yourself in readiness to come
+                    to Quebec, leaving the ninth or tenth?</p>
+                <closer><signed>F[<hi rendition="#small-caps">ranklin</hi>] D. R[<hi
+                            rendition="#small-caps">oosevelt</hi>]</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

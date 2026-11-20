@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_d13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Geo. H. Yeaman to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/d13"
+                    type="canonical"/>
+                <relatedItem target="d12-a1.xml" type="prev"/>
+                <relatedItem target="d13-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">d13</bibl>
+                <bibl type="frus-division-n">13</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="58" to="61" unit="page"
+                        >58–61</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi><hi
+                            rendition="#italic"> Copenhagen</hi></placeName>
+                    <date calendar="gregorian" when="1870-07-29"><hi rendition="#italic">July</hi>
+                        29, 1870</date>
+                    <date notAfter="1870-07-29T23:59:59-05:00" notBefore="1870-07-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d13">
+
+                <pb facs="0092" n="58" sameAs="frus:frus1870/pg58"/>
+
+                <note rend="inline" type="source">No. 13.</note>
+                <head>Mr. Geo. H. Yeaman to Mr. Fish.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 251.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United
+                                States,</hi><hi rendition="#italic"> Copenhagen</hi></placeName>,
+                            <date calendar="gregorian" when="1870-07-29"><hi rendition="#italic"
+                                >July</hi> 29, 1870</date>. (Received August, 17,
+                    1870.)</dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> Referring to my dispatch No. 250, of 26th
+                    instant, and its inclosures, I now send a translation of a note from Baron
+                    Rosenörn-Lehn, of yesterday’s date, formally acquainting me with the neutral
+                    attitude of Denmark and furnishing me with copies of the ordinance of May 4,
+                    1803, the Danish and French texts of which are herewith inclosed, and to which
+                    reference is made in the royal letter of 25th instant, inclosed in my dispatch
+                    of 26th instant.</p>
+                <closer>
+                    <signed>GEO. H. YEAMAN.</signed></closer>
+
+
+
+                <xi:include href="d13-a1.xml" xpointer="d13-a1"/>
+                <xi:include href="d13-a2.xml" xpointer="d13-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p4_d609" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sheffield Cutler’s Company</title>
+            </titleStmt>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p4/d609"
+                    type="canonical"/>
+                <relatedItem target="d608.xml" type="prev"/>
+                <relatedItem target="d609-a1.xml" type="next"/>
+                <relatedItem target="../ch15.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p4</bibl>
+                <bibl type="frus-division-id">d609</bibl>
+                <bibl type="frus-division-n">609</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="339" to="339" unit="page"
+                        >339</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1865-04-29T23:59:59-05:00" notBefore="1865-04-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d609">
+
+                <pb facs="0411" n="339" sameAs="frus:frus1865p4/pg339"/>
+
+                <head>Sheffield Cutler’s Company</head>
+                <dateline>
+                    <hi rendition="#small-caps">Cutlers’ Hall</hi>, <placeName>
+                        <hi rendition="#italic">Sheffield</hi></placeName>, <date
+                        calendar="gregorian" when="1865-04-29">
+                        <hi rendition="#italic">April</hi> 29, 1865</date>.</dateline>
+                <p>
+                    <hi rendition="#small-caps">Dear Sir</hi>: I am directed by the Cutlers’ Company
+                    to send you the accompanying resolution passed yesterday by the company on the
+                    assassination of Mr. President Lincoln, and have to request that you will
+                    forward it to the proper quarter.</p>
+                <p>I am, dear sir, yours faithfully,</p>
+                <closer>
+                    <signed>Charles Atkinson,</signed>
+                    <lb/>
+                    <hi rendition="#italic">Master Cutler</hi>.</closer>
+                <postscript>
+                    <p>
+                        <hi rendition="#small-caps">C. J. Abbot</hi>, Esq., <hi rendition="#italic"
+                            >American Consul, Sheffield</hi>.</p>
+                </postscript>
+
+
+                <xi:include href="d609-a1.xml" xpointer="d609-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

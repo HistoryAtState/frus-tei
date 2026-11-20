@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1941-43_d303" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chief of Staff, United States Army (Marshall) to Prime Minister Churchill
+                </title>
+            </titleStmt>
+            <xi:include href="../../../frus1941-43_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1941-43_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1941-43/d303"
+                    type="canonical"/>
+                <relatedItem target="d302.xml" type="prev"/>
+                <relatedItem target="d304.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1941-43</bibl>
+                <bibl type="frus-division-id">d303</bibl>
+                <bibl type="frus-division-n">303</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">editorial-note</bibl>
+                <bibl type="frus-print-pages"><biblScope from="477" to="477" unit="page"
+                        >477</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1942-06-23">June 23, 1942</date>
+                    <date notAfter="1942-06-23T23:59:59-05:00" notBefore="1942-06-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1941-43/terms">
+                    <term ref="frus:frus1941-43/terms#t_B251">B–25</term>
+                    <term ref="frus:frus1941-43/terms#t_P401">P–40</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d303">
+
+                <pb facs="0551" n="477" xml:id="pg477"/>
+
+                <note rend="inline" type="source">Department of Defense Files</note>
+                <head>
+                    <hi rendition="#italic">The Chief of Staff, United States Army</hi> (<hi
+                        rendition="#italic">Marshall</hi>) <hi rendition="#italic">to Prime Minister
+                        Churchill </hi><anchor n="1" xml:id="d303-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1942-06-23">June 23, 1942</date>.</dateline>
+                </opener>
+                <p rendition="#flush">
+                    <hi rendition="#small-caps">Memorandum for the Prime Minister</hi>:</p>
+                <p rendition="#flush">Subject: Prospective Movements of Planes to the Middle
+                    East.</p>
+                <p>General Brereton with all available heavy bombers in India (possibly 10) has been
+                    ordered to Cairo immediately.</p>
+                <p>One Pursuit Group (80 P–40 planes) will be loaded on the Carrier <hi
+                        rendition="#italic">Ranger</hi> at Quonset, Rhode Island, about June 27 for
+                    immediate departure for Takoradi.</p>
+                <p>One provisional light bombardment squadron (Hudsons–27 planes)<anchor n="2"
+                        xml:id="d303-f2"/> intended for China, now in Florida, leaves tomorrow, to
+                    receive final orders at Omdurman.</p>
+                <p>One group of medium bombardment (57 B–25s) now in California flies East tomorrow
+                    to pick up new equipment for immediate departure for Cairo. 36 new planes will
+                    be available on their arrival on the East Coast, the remaining 21 will be
+                    available at the rate of 5 a day. The group will depart by squadrons as rapidly
+                    as equipped.</p>
+                <closer>
+                    <signed>G. C. <hi rendition="#small-caps">Marshall</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Chief of Staff</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d303-f1" n="1" type="source" xml:id="d303-f1-content">
+                <p>Marshall addressed a memorandum to Roosevelt on June 25, 1942, which was
+                    identical with the memorandum printed here except for the variation shown in the
+                    next footnote and the addition of the following paragraph: “One group of heavy
+                    bombardment (35 B–34–D’s), being equipped with new airplanes, will depart from
+                    Florida for Cairo by squadrons, one squadron leaving every 2 days beginning June
+                    29.” (Department of Defense Files) The matter of sending air reinforcements to
+                    the Middle East appears to have been one of the subjects taken up at the White
+                    House meeting on the afternoon of June 23, 1942; see the editorial note, <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg443">p. 443</ref>.</p>
+            </note>
+            <note corresp="#d303-f2" n="2" xml:id="d303-f2-content">
+                <p>In the Marshall memorandum of June 25 to Roosevelt cited in the previous
+                    footnote, the parenthetical reference “Hudsons–27 planes” was altered to read
+                    “25 Hudsons”.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1906p2_d422" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Meyer to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1906p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1906p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1906p2/d422"
+                    type="canonical"/>
+                <relatedItem target="../ch123.xml" type="prev"/>
+                <relatedItem target="d422-a1.xml" type="next"/>
+                <relatedItem target="../ch123.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1906p2</bibl>
+                <bibl type="frus-division-id">d422</bibl>
+                <bibl type="frus-division-n">422</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1334" to="1335" unit="page"
+                        >1334–35</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">St. Petersburg</hi></placeName>
+                    <date calendar="gregorian" when="1906-03-17"><hi rendition="#italic">March 17,
+                            1906</hi>.</date>
+                    <date notAfter="1906-03-17T23:59:59-05:00" notBefore="1906-03-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d422">
+
+                <pb facs="1492" n="1334" sameAs="frus:frus1906p2/pg1334"/>
+
+                <head><hi rendition="#italic">Ambassador Meyer to the Secretary of
+                    State</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic">St.
+                                Petersburg</hi></placeName>, <date calendar="gregorian"
+                            when="1906-03-17"><hi rendition="#italic">March 17,
+                        1906</hi>.</date></dateline>
+                    <seg rendition="#float-left">No. 467.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: The department’s dispatches Nos. 57 and
+                        62,<anchor n="a" xml:id="d422-f1"/> dated July 24 and August 1, 1905,
+                    respectively, inclosing papers from the Japanese legation at Washington bringing
+                    to the attention of the Russian Government certain violations of the Geneva
+                    convention alleged to have been committed by members of the Russian army, were
+                    at once referred to the ministry for foreign affairs.</p>
+                <p>I am now in receipt of a note replying to both of the Japanese letters, and beg
+                    leave to inclose a copy of the ministerial note, dated March 1/14, together with
+                    a copy of the inclosure transmitted therein and a translation of the same.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">G. von L. Meyer.</hi></signed></closer>
+
+
+                <xi:include href="d422-a1.xml" xpointer="d422-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d422-f1" n="a" xml:id="d422-f1-content">
+                <p>Printed in <ref target="frus1905#pg_755">Foreign Relations, 1905, p.
+                    755</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d54" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d54"
+                    type="canonical"/>
+                <relatedItem target="d53.xml" type="prev"/>
+                <relatedItem target="../../comp7.xml" type="next"/>
+                <relatedItem target="../ch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d54</bibl>
+                <bibl type="frus-division-n">54</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="45" to="45" unit="page"
+                        >45</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Guatemala</hi></placeName>
+                    <date calendar="gregorian" when="1917-12-11T16:00:00-06:02">
+                        <hi rendition="#italic">December 11, 1917, 4 p.m.</hi>
+                    </date>
+                    <date notAfter="1917-12-11T17:02:00-05:00" notBefore="1917-12-11T17:02:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d54">
+
+                <pb facs="0211" n="45" sameAs="frus:frus1917/pg45"/>
+
+                <note rend="inline" type="source">File No. 813.00/896</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Guatemala</hi></placeName>, <date
+                            calendar="gregorian" when="1917-12-11T16:00:00-06:02">
+                            <hi rendition="#italic">December 11, 1917, 4 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>In an interview this afternoon President Cabrera said that Costa Rica and
+                    Nicaragua cannot participate in the preliminary conference to be held here to
+                    arrange program of proposed congress on union of Central American States and the
+                    conference will not take place therefore. Evidently he is convinced that the
+                    congress will itself not assemble until some more convenient season.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Leavell</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

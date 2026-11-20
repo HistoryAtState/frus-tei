@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d804" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Bowen to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d804"
+                    type="canonical"/>
+                <relatedItem target="d803.xml" type="prev"/>
+                <relatedItem target="d804-a1.xml" type="next"/>
+                <relatedItem target="../ch113.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d804</bibl>
+                <bibl type="frus-division-n">804</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="793" to="794" unit="page"
+                        >793–94</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Caracas</hi></placeName>
+                    <date calendar="gregorian" when="1902-12-13"><hi rendition="#italic">December
+                            13, 1902</hi></date>
+                    <date notAfter="1902-12-13T23:59:59-05:00" notBefore="1902-12-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d804">
+
+                <pb facs="0879" n="793" xml:id="pg793"/>
+
+                <head><hi rendition="#italic">Mr. Bowen to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Caracas</hi></placeName>, <date calendar="gregorian"
+                            when="1902-12-13"><hi rendition="#italic">December 13,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 137.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith copies
+                    of the letters that have passed between the Venezuelan Government and me in
+                    regard to my serving as arbitrator for Venezuela.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Herbert W. Bowen.</hi></signed></closer>
+
+
+
+
+                <xi:include href="d804-a1.xml" xpointer="d804-a1"/>
+                <xi:include href="d804-a2.xml" xpointer="d804-a2"/>
+                <xi:include href="d804-a3.xml" xpointer="d804-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

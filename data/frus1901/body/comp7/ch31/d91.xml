@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d91" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Wu to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d91"
+                    type="canonical"/>
+                <relatedItem target="../ch31.xml" type="prev"/>
+                <relatedItem target="d91-a1.xml" type="next"/>
+                <relatedItem target="../ch31.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d91</bibl>
+                <bibl type="frus-division-n">91</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="128" to="129" unit="page"
+                        >128–29</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Chinese Legation</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1901-09-18"><hi rendition="#italic">September
+                            18, 1901</hi></date>
+                    <date notAfter="1901-09-18T23:59:59-05:00" notBefore="1901-09-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d91">
+
+                <pb facs="0208" n="128" sameAs="frus:frus1901/pg128"/>
+
+                <head><hi rendition="#italic">Mr. Wu to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Chinese Legation</hi>,<lb/><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1901-09-18"><hi rendition="#italic">September 18,
+                        1901</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to state that I have
+                    received an Imperial edict, a translation of which is herewith respectfully
+                    inclosed.</p>
+                <p>In obedience to the command of the edict, I beg to express to your Government the
+                    feelings of deep sympathy and sorrow which Her Majesty the Empress Dowager and
+                    His Majesty the Emperor share with the Government and people of the United
+                    States.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Wu Ting-fang.</hi></signed></closer>
+
+
+
+                <xi:include href="d91-a1.xml" xpointer="d91-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

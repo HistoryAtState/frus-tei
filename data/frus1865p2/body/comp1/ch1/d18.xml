@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p2_d18" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Seward to Mr. Burnley</title>
+            </titleStmt>
+            <xi:include href="../../../frus1865p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1865p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p2/d18"
+                    type="canonical"/>
+                <relatedItem target="d17-a1.xml" type="prev"/>
+                <relatedItem target="d19.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p2</bibl>
+                <bibl type="frus-division-id">d18</bibl>
+                <bibl type="frus-division-n">18</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="11" to="11" unit="page"
+                        >11</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State,</hi>
+                        <hi rendition="#italic">Washington,</hi></placeName>
+                    <date calendar="gregorian" when="1864-12-14"><hi rendition="#italic"
+                            >December</hi> 14, 1864.</date>
+                    <date notAfter="1864-12-14T23:59:59-05:00" notBefore="1864-12-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d18">
+
+                <pb facs="0085" n="11" sameAs="frus:frus1865p2/pg11"/>
+
+                <head>Mr. Seward to Mr. Burnley</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Department of State,</hi>
+                            <hi rendition="#italic">Washington,</hi></placeName>
+                        <date calendar="gregorian" when="1864-12-14"><hi rendition="#italic"
+                                >December</hi> 14, 1864.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> I have the honor to communicate herewith
+                    for your information a copy of an instruction of this date which I have, under
+                    the President’s direction, addressed to Charles Francis Adams, esq., the
+                    minister of the United States at London,<anchor n="*" xml:id="d18-f1"/> upon the
+                    receipt of telegraphic despatches from the agents of the United States in
+                    Montreal, announcing to me the facts that Samuel Eugene Lackey and others, whose
+                    extradition was requested in my note to Lord Lyons of the 21st of November last,
+                    upon the charges of murder, robbery, and assault with intent to commit murder
+                    within the jurisdiction of the United States, have been discharged from custody,
+                    that the money and other property stolen by them has been returned to them, and
+                    that they are now at large.</p>
+                <p>I have the honor to be, with the highest consideration, sir, your obedient
+                    servant,</p>
+                <closer>
+                    <signed>WILLIAM H. SEWARD.</signed></closer>
+                <postscript>
+                    <p>J. <hi rendition="#small-caps">Hume Burnley,</hi> Esq., <hi
+                            rendition="#italic">&amp;c., &amp;c., &amp;c</hi>.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d18-f1" n="*" xml:id="d18-f1-content">
+                <p>See instruction Ko. 1190 to Mr. Adams.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

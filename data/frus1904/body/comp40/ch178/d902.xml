@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d902" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Leishman to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d902"
+                    type="canonical"/>
+                <relatedItem target="d901.xml" type="prev"/>
+                <relatedItem target="d902-a1.xml" type="next"/>
+                <relatedItem target="../ch178.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d902</bibl>
+                <bibl type="frus-division-n">902</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="841" to="842" unit="page"
+                        >841–42</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Constantinople</hi></placeName>
+                    <date calendar="gregorian" when="1904-07-13"><hi rendition="#italic">July 13,
+                            1904</hi></date>
+                    <date notAfter="1904-07-13T23:59:59-05:00" notBefore="1904-07-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d902">
+
+                <pb facs="0929" n="841" sameAs="frus:frus1904/pg841"/>
+
+                <head><hi rendition="#italic">Mr. Leishman to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                                >Constantinople</hi></placeName>, <date calendar="gregorian"
+                            when="1904-07-13"><hi rendition="#italic">July 13,
+                        1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 836.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring further to my dispatch No. 822,
+                    of June 27, inclosing copy of the new stamp act (Loi sur le timbre) which the
+                    Turkish Government proposed putting into effect on the 1st of July (old style) I
+                    beg to inclose herewith, for the Department’s further information, copy of a
+                    recent circular note issued by the Sublime Porte making some concessions in the
+                    proposed act; also copy of legation’s reply thereto.</p>
+                <p>These concessions were prompted by the action of the British ambassador, who
+                    agreed to accept the new stamp act providing the changes mentioned were agreed
+                    to.</p>
+                <p rendition="#center">* * * * * * *</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John G. A.
+                    Leishman.</hi></signed></closer>
+
+
+
+                <xi:include href="d902-a1.xml" xpointer="d902-a1"/>
+                <xi:include href="d902-a2.xml" xpointer="d902-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

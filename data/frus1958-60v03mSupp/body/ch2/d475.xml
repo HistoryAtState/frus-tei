@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d475" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter From Herter to Taylor</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d475"
+                    type="canonical"/>
+                <relatedItem target="d474.xml" type="prev"/>
+                <relatedItem target="d475-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d475</bibl>
+                <bibl type="frus-division-n">475</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1959-07-01">July 1, 1959</date>
+                    <date notAfter="1959-07-01T23:59:59-05:00" notBefore="1959-07-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_HCA_1">Herter, Christian A.</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_TGMD_1">Taylor, General Maxwell
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_RG_1">RG</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d475">
+
+                <pb facs="1782" n="1677" sameAs="frus:frus1958-60v03mSupp/pg1677"/>
+
+                <head>475. Letter From Herter to Taylor<anchor n="1" xml:id="d475-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1959-07-01">July 1, 1959</date></dateline>
+                    <salute>Dear General Taylor:</salute>
+                </opener>
+                <pb facs="d475-1" n="1" type="facsimile" xml:id="d475-1"/>
+                <p>This is to confirm our telephone conversation of today regarding the review of
+                    U.S. disarmament policy. In accordance with our conversation, I am sending
+                    herewith a copy of the terms of reference which the President has approved.</p>
+                <p>As I told you, this study is of the utmost importance to us, as we will most
+                    certainly be involved in one way or another in arms control and limitations
+                    negotiations with the Russians in the not too distant future. Such negotiations
+                    would, of course, be in addition to the current negotiations in Geneva on the
+                    suspension of nuclear testing.</p>
+                <p>I cannot express too strongly the hope that you will find it possible to
+                    undertake the undertaken the general direction of this important review of our
+                    disarmament policy and devote such time to it as your commitments will
+                    permit.</p>
+                <p>Most sincerely,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Christian A. Herter</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d475-a1.xml" xpointer="d475-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d475-f1" n="1" type="source" xml:id="d475-f1-content">
+                <p>Source: Requests Taylor to head disarmament policy review; includes terms of
+                    reference for review. Secret. 3 pp. NARA, RG 59, Central Files,
+                    611.0012/7–159.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

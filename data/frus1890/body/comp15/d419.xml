@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d419" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Pratt to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d419"
+                    type="canonical"/>
+                <relatedItem target="d418-a2.xml" type="prev"/>
+                <relatedItem target="d419-a1.xml" type="next"/>
+                <relatedItem target="../comp15.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d419</bibl>
+                <bibl type="frus-division-n">419</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="673" to="675" unit="page"
+                        >673–75</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Teheran</hi></placeName>
+                    <date calendar="gregorian" when="1890-07-05"><hi rendition="#italic">July</hi>
+                        5, 1890</date>
+                    <date notAfter="1890-07-05T23:59:59-05:00" notBefore="1890-07-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d419">
+
+                <pb facs="0783" n="673" sameAs="frus:frus1890/pg673"/>
+
+                <head><hi rendition="#italic">Mr. Pratt to Mr. Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Teheran</hi></placeName>, <date calendar="gregorian"
+                            when="1890-07-05"><hi rendition="#italic">July</hi> 5, 1890</date>.
+                        (Received August 9.)</dateline>
+                    <seg rendition="#float-left">No. 472.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to submit for your
+                    consideration the copies of correspondence that has passed between
+                    Consul-General Stewart and myself relative to the Wright assassination case
+                    since my No. 469 of the 30th ultimo.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">E. Spencer Pratt</hi>.</signed></closer>
+
+
+
+
+
+                <xi:include href="d419-a1.xml" xpointer="d419-a1"/>
+                <xi:include href="d419-a2.xml" xpointer="d419-a2"/>
+                <xi:include href="d419-a3.xml" xpointer="d419-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

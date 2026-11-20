@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d34" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d34"
+                    type="canonical"/>
+                <relatedItem target="d33.xml" type="prev"/>
+                <relatedItem target="d35.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d34</bibl>
+                <bibl type="frus-division-n">34</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="23" to="24" unit="page"
+                        >23–24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-12-30">30 December 1944</date>
+                    <date notAfter="1944-12-30T23:59:59-05:00" notBefore="1944-12-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_HWA1">Harriman, W. Averell</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d34">
+
+                <pb facs="0105" n="23" sameAs="frus:frus1945Malta/pg23"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to Prime Minister Churchill
+                        </hi><anchor n="1" xml:id="d34-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-12-30">30 December 1944</date>.</dateline>
+                </opener>
+                <p>Number 682. Top Secret and Personal from the President for the Prime
+                    Minister.</p>
+                <pb facs="0106" n="24" xml:id="pg24"/>
+                <p>Your 861<anchor n="2" xml:id="d34-f2"/> and 862.<anchor n="3" xml:id="d34-f3"/> I
+                    am preparing to leave the U. S. as soon as possible after the Inauguration by
+                    warship to the Mediterranean and from there by airplane for Yalta, but have not
+                    yet so informed Stalin.</p>
+                <p>I will give you accurate dates as soon as details are worked out.</p>
+                <p>My thought now is to send a Naval ex-passenger ship to the Black Sea to provide
+                    services and living accommodations if necessary. This ship could berth in
+                    Sevastopol if necessary because of weather.</p>
+                <p>Information from Harriman indicates that suitable quarters and staff meeting
+                    place can be made available at Yalta where the city was not damaged during the
+                    German occupation.</p>
+                <p>It is my intention to take with me about 35 persons, including Joint Staff,
+                    personal staff, Secret Service, servants, etc.<anchor n="4" xml:id="d34-f4"/>
+                </p>
+                <p>I will give you more detailed information in the near future.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d34-f1" n="1" type="source" xml:id="d34-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d34-f2" n="2" xml:id="d34-f2-content">
+                <p>
+                    <hi rendition="#italic">Supra</hi>.</p>
+            </note>
+            <note corresp="#d34-f3" n="3" xml:id="d34-f3-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d34-f4" n="4" xml:id="d34-f4-content">
+                <p>Actually the staff taken to Yalta by the President was ten times that number. The
+                    British Delegation was equally large. Cf. the Log, <hi rendition="#italic"
+                        >post</hi>, <ref target="#pg462">p. 462</ref>, and Churchill, <ref
+                        target="#pg344">p. 344</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

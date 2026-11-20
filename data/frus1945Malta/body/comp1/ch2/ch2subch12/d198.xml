@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d198" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d198"
+                    type="canonical"/>
+                <relatedItem target="d197.xml" type="prev"/>
+                <relatedItem target="d199.xml" type="next"/>
+                <relatedItem target="../ch2subch12.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d198</bibl>
+                <bibl type="frus-division-n">198</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="287" to="287" unit="page"
+                        >287</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-11-26">26 November 1944</date>
+                    <date notAfter="1944-11-26T23:59:59-05:00" notBefore="1944-11-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d198">
+
+                <pb facs="0373" n="287" sameAs="frus:frus1945Malta/pg287"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to Prime Minister Churchill
+                        </hi><anchor n="1" xml:id="d198-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Excerpts]<anchor n="2" xml:id="d198-f2"/>
+                    </seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-11-26">26 November 1944</date>.</dateline>
+                </opener>
+                <p>Number 658. Top Secret and Personal from the President for the Prime
+                    Minister.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <p>In regard to paragraph six of your 825,<anchor n="3" xml:id="d198-f3"/> there
+                    should be no difficulty for us in equipping so much of a French occupation force
+                    as they may need in a disarmed Germany from the military equipment that we will
+                    take from the German Army when it surrenders or is destroyed.</p>
+                <p>In any event, I have at the present time no authority under which it would be
+                    possible for me to equip any post-war foreign army, and the prospect of getting
+                    such authority from the Congress is more than doubtful.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d198-f1" n="1" type="source" xml:id="d198-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+            <note corresp="#d198-f2" n="2" xml:id="d198-f2-content">
+                <p>Other portions of this telegram are printed <hi rendition="#italic">ante</hi>,
+                        <ref target="#pg18">p. 18</ref>.</p>
+            </note>
+            <note corresp="#d198-f3" n="3" xml:id="d198-f3-content">
+                <p>
+                    <hi rendition="#italic">Supra</hi>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

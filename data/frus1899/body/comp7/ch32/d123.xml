@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d123" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Conger to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d123"
+                    type="canonical"/>
+                <relatedItem target="d122.xml" type="prev"/>
+                <relatedItem target="d123-a1.xml" type="next"/>
+                <relatedItem target="../ch32.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d123</bibl>
+                <bibl type="frus-division-n">123</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="153" to="153" unit="page"
+                        >153</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States of
+                            America</hi>,<lb/><hi rendition="#italic">Pekin, China</hi></placeName>
+                    <date calendar="gregorian" when="1899-12-09"><hi rendition="#italic">December 9,
+                            1899</hi></date>
+                    <date notAfter="1899-12-09T23:59:59-05:00" notBefore="1899-12-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d123">
+
+                <pb facs="0245" n="153" xml:id="pg153"/>
+
+                <head><hi rendition="#italic">Mr. Conger to Mr. Hay</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States of America</hi>,<lb/><hi
+                                rendition="#italic">Pekin, China</hi></placeName>, <date
+                            calendar="gregorian" when="1899-12-09"><hi rendition="#italic">December
+                                9, 1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 290.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Complying with Department’s instructions
+                    No. 211 of September 19 last, I have the honor to inclose a copy of Consul
+                    Johnson’s final report upon the Japanese concession at Amoy, and to say that no
+                    effort is at present being made to obtain an international foreign settlement,
+                    nor secure to American interests privileges equivalent to those granted to
+                    Japan.</p>
+                <p>The few Americans there do not need such a concession, nor could they afford the
+                    expense of controlling and keeping it up.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">E. H. Conger</hi>.</signed></closer>
+
+
+                <xi:include href="d123-a1.xml" xpointer="d123-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

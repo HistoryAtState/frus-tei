@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v2_d82" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 388.</title>
+                <title type="subtitle">General Sickles to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1873p1v2/d82"
+                    type="canonical"/>
+                <relatedItem target="d81.xml" type="prev"/>
+                <relatedItem target="d83.xml" type="next"/>
+                <relatedItem target="../comp7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v2</bibl>
+                <bibl type="frus-division-id">d82</bibl>
+                <bibl type="frus-division-n">82</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="889" to="890" unit="page"
+                        >889–90</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Madrid</hi></placeName>
+                    <date calendar="gregorian" when="1873-02-12"><hi rendition="#italic"
+                            >February</hi> 12, 1873</date>
+                    <date notAfter="1873-02-12T23:59:59-05:00" notBefore="1873-02-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1873p1v2/persons">
+                    <term ref="frus:frus1873p1v2/persons#p_DES1">Daniel E. Sickles</term>
+                    <term ref="frus:frus1873p1v2/persons#p_HF1">Hamilton Fish</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d82">
+
+                <pb facs="0259" n="889" sameAs="frus:frus1873p1v2/pg889"/>
+
+                <head>No. 388.<lb/><hi rendition="#italic">General Sickles to Mr. Fish.</hi></head>
+                <opener>
+                    <seg rendition="#center">[Telegram.—Received Feb. 12—8.20 p.m.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Madrid</hi></placeName>, <date calendar="gregorian"
+                            when="1873-02-12"><hi rendition="#italic">February</hi> 12,
+                        1873</date>.</dateline>
+                </opener>
+                <p>All parties in Congress accept the republic. Am officially notified of new
+                    government by Castelar, minister of state, to whom I have addressed <pb
+                        facs="0260" n="890" xml:id="pg890"/> a communication assuring him of my
+                    fervent wishes for the happiness and prosperity of the noble and generous people
+                    with whom, as a sister republic, the Government of the United States will ever
+                    cherish even more than the traditional friendship which has hitherto allied the
+                    two countries.</p>
+                <closer>
+                    <signed>SICKLES.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

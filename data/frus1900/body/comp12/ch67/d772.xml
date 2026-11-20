@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d772" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Choate.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d772"
+                    type="canonical"/>
+                <relatedItem target="../ch67.xml" type="prev"/>
+                <relatedItem target="d772-a1.xml" type="next"/>
+                <relatedItem target="../ch67.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d772</bibl>
+                <bibl type="frus-division-n">772</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="629" to="630" unit="page"
+                        >629–30</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-02-26"><hi rendition="#italic">February
+                            26, 1900</hi></date>
+                    <date notAfter="1900-02-26T23:59:59-05:00" notBefore="1900-02-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d772">
+
+                <pb facs="0727" n="629" sameAs="frus:frus1900/pg629"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. Choate.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-02-26"><hi rendition="#italic">February 26,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 316.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: At the instance of the Commissioner of Fish
+                    and Fisheries, I transmit herewith a copy of a letter from Commander Jeff. F.
+                    Moser, U. S. N., commanding U. S. F. C. S. <hi rendition="#italic"
+                        >Albatross</hi>, regarding courtesies extended to Prof. Alexander Agassiz
+                    and himself by Her Britannic Majesty’s deputy commissioner and vice-consul, Mr.
+                    R. Beckwith Leefe, at Suva Harbor, Fiji Islands.</p>
+                <p>In compliance with Mr. Bowers’s request, you are hereby instructed to convey
+                    through the proper channel to Mr. Leefe the cordial thanks of this Government
+                    for his courteous services to Commander Moser and Professor Agassiz.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+
+
+                <xi:include href="d772-a1.xml" xpointer="d772-a1"/>
+                <xi:include href="d772-a2.xml" xpointer="d772-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

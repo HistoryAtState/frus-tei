@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1952-54v10_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1952-54v10_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1952-54v10_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1952-54v10"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1952-54v10" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54v10/covers/frus1952-54v10.jpg"/>
+                        <extent>
+                            <measure quantity="28770" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:20:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1952-54v10" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54v10/ebook/frus1952-54v10.epub"/>
+                        <extent>
+                            <measure quantity="1623190" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:20:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1952-54v10" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1952-54v10/ebook/frus1952-54v10.mobi"/>
+                        <extent>
+                            <measure quantity="2318087" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:20:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released 1989 as printed book</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                    <term xml:id="admin2">eisenhower</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>iran</term>
+                    <term>foreign-aid</term>
+                    <term>acheson-dean-gooderham</term>
+                    <term>afghanistan</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>foreign-investment</term>
+                    <term>dulles-john-foster</term>
+                    <term>eisenhower-dwight-d</term>
+                    <term>egypt</term>
+                    <term>elections</term>
+                    <term>diplomatic-recognition</term>
+                    <term>india</term>
+                    <term>iraq</term>
+                    <term>israel</term>
+                    <term>kuwait</term>
+                    <term>alliances</term>
+                    <term>collective-security</term>
+                    <term>national-security-council</term>
+                    <term>neutrality</term>
+                    <term>pakistan</term>
+                    <term>refugees</term>
+                    <term>saudi-arabia</term>
+                    <term>truman-harry-s</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>united-nations</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1952-54v10" status="published" when="1989"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1952–1954</titlePart>
+                    <titlePart type="volumenumber">Volume X</titlePart>
+                    <titlePart type="volume">Iran 1951–1954</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline><hi rendition="#italic">Editor in Chief</hi><lb/>John P. Glennon</byline>
+                <byline><hi rendition="#italic">Editors</hi><lb/>Carl N. Raether<lb/>Charles S.
+                    Sampson</byline>
+                <docImprint>
+                    <publisher>United States<lb/>Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1989</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication
+                        9690<lb/><hi rendition="#small-caps">Office of the Historian</hi><lb/><hi
+                        rendition="#small-caps">Bureau of Public Affairs</hi></docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0010" n="[VI]" xml:id="pgVI"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0014" n="[X]" xml:id="pgX"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/shorttitles.xml" xpointer="shorttitles"/>
+            <pb facs="0026" n="[XXII]" xml:id="pgXXII"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <pb facs="1104" n="[1078]" xml:id="pg1078"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+            <xi:include href="back/errata.xml" xpointer="errata"/>
+        </back>
+    </text>
+</TEI>

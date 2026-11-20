@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d37" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d37"
+                    type="canonical"/>
+                <relatedItem target="d36.xml" type="prev"/>
+                <relatedItem target="d38.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d37</bibl>
+                <bibl type="frus-division-n">37</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="24" to="24" unit="page"
+                        >24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-08-30">30 August 1944</date>
+                    <date notAfter="1944-08-30T23:59:59-05:00" notBefore="1944-08-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Octagon1">Octagon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d37">
+
+                <pb facs="0078" n="24" sameAs="frus:frus1944Quebec/pg24"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Prime Minister
+                        Churchill</hi><anchor n="1" xml:id="d37-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-08-30">30 August 1944</date>.</dateline>
+                </opener>
+                <p>Number 610, personal and top secret, from the President for the Prime
+                    Minister.</p>
+                <p>Your 771.<anchor n="2" xml:id="d37-f2"/> I am pleased that our final arrangements
+                    for <hi rendition="#small-caps">Octagon</hi> will keep the number who will
+                    participate in the conference to the Teheran level insofar as practicable.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d37-f1" n="1" type="source" xml:id="d37-f1-content">
+                <p>Sent to the United States Naval Attaché London, via Navy channels.</p>
+            </note>
+            <note corresp="#d37-f2" n="2" xml:id="d37-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg23">p. 23</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917Supp02v02_d311" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Food Administrator (Hoover) to the Assistant Secretary of State
+                    (Phillips)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1917Supp02v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917Supp02v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1917Supp02v02/d311"
+                    type="canonical"/>
+                <relatedItem target="d310.xml" type="prev"/>
+                <relatedItem target="d311-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917Supp02v02</bibl>
+                <bibl type="frus-division-id">d311</bibl>
+                <bibl type="frus-division-n">311</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1183" to="1184" unit="page"
+                        >1183–84</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1917-12-01">
+                        <hi rendition="#italic">December 1, 1917</hi></date>
+                    <date notAfter="1917-12-01T23:59:59-05:00" notBefore="1917-12-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1917Supp02v01/persons">
+                    <term ref="frus:frus1917Supp02v01/persons#p_HHC1">Hoover, Herbert C.</term>
+                    <term ref="frus:frus1917Supp02v01/persons#p_PW1">Phillips, William</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d311">
+
+                <pb facs="0429" n="1183" sameAs="frus:frus1917Supp02v02/pg1183"/>
+
+                <note rend="inline" type="source">File No. 654.119/71</note>
+                <head>
+                    <hi rendition="#italic">The Food Administrator</hi> (<hi rendition="#italic"
+                        >Hoover</hi>) <hi rendition="#italic">to the Assistant Secretary of
+                        State</hi> (<hi rendition="#italic">Phillips</hi>)</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1917-12-01">
+                            <hi rendition="#italic">December 1, 1917</hi></date>. <lb/> [<hi
+                            rendition="#italic">Received December 3.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Dear Mr. Phillips</hi>: I inclose some documents
+                    from the Swiss Minister,<anchor n="1" xml:id="d311-f1"/> and a reply that I
+                    propose to make if it meets your approval.<anchor n="2" xml:id="d311-f2"/> I
+                    have gone farther than I should have with anybody else.</p>
+                <p>Faithfully yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Herbert Hoover</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d311-a1.xml" xpointer="d311-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d311-f1" n="1" xml:id="d311-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d311-f2" n="2" xml:id="d311-f2-content">
+                <p>The Department’s approval was given in a letter to Mr. Hoover of Dec. 3 (same
+                    file number as above), and on Dec. 6 Mr. Hoover replied: “I am instructing the
+                    War Trade Board to release the articles to the Swiss embodied in the list
+                    attached to my letter of the first.” (File No. 654.119/74.)</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d456" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d456"
+                    type="canonical"/>
+                <relatedItem target="d455.xml" type="prev"/>
+                <relatedItem target="d456-a1.xml" type="next"/>
+                <relatedItem target="../ch156.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d456</bibl>
+                <bibl type="frus-division-n">456</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="467" to="468" unit="page"
+                        >467–68</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1900-11-21"><hi rendition="#italic">November
+                            21, 1900</hi></date>
+                    <date notAfter="1900-11-21T23:59:59-05:00" notBefore="1900-11-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d456">
+
+                <pb facs="0547" n="467" sameAs="frus:frus1902/pg467"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1900-11-21"
+                                ><hi rendition="#italic">November 21, 1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 431.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my dispatch No. 418 of the
+                    27th ultimo, I have the honor to inclose herewith a copy of a note which I have
+                    received from the Marquis of Lansdowne in relation to the American prisoners of
+                    war in Ceylon, together with a copy of a telegram<anchor n="a" xml:id="d456-f1"
+                    /> which I sent you on the 21st instant, from which it will be observed that the
+                    American consul at Colombo can communicate with the 22 prisoners of war, but
+                    that all communications should be made either through the governor of Ceylon or
+                    through the general officer commanding the troops.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+
+
+
+                <xi:include href="d456-a1.xml" xpointer="d456-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d456-f1" n="a" xml:id="d456-f1-content">
+                <p>Printed, ante.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

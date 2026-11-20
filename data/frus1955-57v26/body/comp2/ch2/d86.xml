@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v26_d86" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter From President Eisenhower to Chancellor Adenauer</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v26_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v26_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v26/d86"
+                    type="canonical"/>
+                <relatedItem target="d85.xml" type="prev"/>
+                <relatedItem target="d87.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v26</bibl>
+                <bibl type="frus-division-id">d86</bibl>
+                <bibl type="frus-division-n">86</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="187" to="187" unit="page"
+                        >187</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1956-12-12"><hi rendition="#italic">December
+                            12, 1956</hi></date>
+                    <date notAfter="1956-12-12T23:59:59-05:00" notBefore="1956-12-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v26/persons">
+                    <term ref="frus:frus1955-57v26/persons#p_AK1">Adenauer, Konrad</term>
+                    <term ref="frus:frus1955-57v26/persons#p_EDD1">Eisenhower, Dwight D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d86">
+
+                <pb facs="0215" n="187" sameAs="frus:frus1955-57v26/pg187"/>
+
+                <head>86. Letter From President Eisenhower to Chancellor Adenauer<anchor n="1"
+                        xml:id="d86-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1956-12-12"><hi rendition="#italic">December 12,
+                        1956</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Dear Mr. Chancellor</hi>: Thank you for your letter
+                    of December 4<anchor n="2" xml:id="d86-f2"/> and for the kind sentiments which
+                    you expressed in it.</p>
+                <p>I agree with you that the major objective of the Soviet Union is to control all
+                    of Europe. I think that Americans generally believe, as I do, that the freedom
+                    of our own country is bound to the maintenance of the freedom of Europe. The
+                    events which have taken place in other parts of the world recently in no way
+                    affect our fundamental relationship of interdependence.</p>
+                <p>With kindest personal regards,</p>
+                <p>Sincerely,</p>
+                <closer><signed><hi rendition="#bold">Dwight D. Eisenhower</hi></signed><anchor
+                        n="3" xml:id="d86-f3"/></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d86-f1" n="1" type="source" xml:id="d86-f1-content">
+                <p>Source: Department of State, Central Files, 611.62A/12–1256. Secret; Presidential
+                    Handling. Transmitted to Bonn in telegram 1624, December 12, which is the source
+                    text, with the instructions that it be delivered to Adenauer as soon as
+                    possible.</p>
+            </note>
+            <note corresp="#d86-f2" n="2" xml:id="d86-f2-content">
+                <p><ref target="#d83">Document 83</ref>.</p>
+            </note>
+            <note corresp="#d86-f3" n="3" xml:id="d86-f3-content">
+                <p>Telegram 1624 bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

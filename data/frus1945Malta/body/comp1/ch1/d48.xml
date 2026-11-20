@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d48" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d48"
+                    type="canonical"/>
+                <relatedItem target="d47.xml" type="prev"/>
+                <relatedItem target="d49.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d48</bibl>
+                <bibl type="frus-division-n">48</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="31" to="32" unit="page"
+                        >31–32</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-01-09">9 January 1945</date>
+                    <date notAfter="1945-01-09T23:59:59-05:00" notBefore="1945-01-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Malta/terms">
+                    <term ref="frus:frus1945Malta/terms#t_ARGONAUT1">ARGONAUT</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d48">
+
+                <pb facs="0113" n="31" sameAs="frus:frus1945Malta/pg31"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d48-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-01-09">9 January 1945</date>.</dateline>
+                </opener>
+                <p>No. 881. Prime Minister to President. Personal and Top Secret.</p>
+                <p>1. Please see paragraph one of my Nr. 880. In spite of your <pb facs="0114"
+                        n="32" xml:id="pg32"/> Nr. 692,<anchor n="2" xml:id="d48-f2"/> our Staffs
+                    consider it of the highest importance that they meet with yours before we go on
+                    to <hi rendition="#small-caps">Argonaut</hi>. I understand that your Chiefs of
+                    Staff are flying separately from you. Why then can they not reach Malta say on
+                    January 30th and meet our people there? We think this very important, and we do
+                    not see how the agenda can be covered unless there is this preliminary talk. I
+                    beg you to consider this. I shall only arrive in time to welcome you on February
+                    2nd.</p>
+                <p>2. We cannot tell what the flying will be from Malta onward and you may easily
+                    have to wait an extra day in Malta. However if our staffs have covered some of
+                    the ground, we can spend this day discussing with them. Uncle Joe may if the
+                    weather is bad have to put up with a delay. But he may comfort himself with the
+                    reflection that he has made us come to him, which in all the circumstances we
+                    are wise to do.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d48-f1" n="1" type="source" xml:id="d48-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d48-f2" n="2" xml:id="d48-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg29">p. 29</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

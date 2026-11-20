@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d30" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Townsend to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d30"
+                    type="canonical"/>
+                <relatedItem target="d29.xml" type="prev"/>
+                <relatedItem target="d31.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d30</bibl>
+                <bibl type="frus-division-n">30</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="38" to="39" unit="page"
+                        >38–39</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Brussels</hi></placeName>
+                    <date calendar="gregorian" when="1900-12-22"><hi rendition="#italic">December
+                            22, 1900</hi></date>
+                    <date notAfter="1900-12-22T23:59:59-05:00" notBefore="1900-12-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d30">
+
+                <pb facs="0134" n="38" sameAs="frus:frus1900/pg38"/>
+
+                <head><hi rendition="#italic">Mr. Townsend to Mr. Hay</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Brussels</hi></placeName>, <date calendar="gregorian"
+                            when="1900-12-22"><hi rendition="#italic">December 22,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 75.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to acknowledge the
+                    receipt, at 9 p.m. yesterday, of Department cablegram<anchor n="1"
+                        xml:id="d30-f1"/> dated December 21.</p>
+                <p>To which I this day replied.<anchor n="1" xml:id="d30-f2"/></p>
+                <p>The minister of foreign affairs, upon whom I called early this morning, <pb
+                        facs="0135" n="39" xml:id="pg39"/> informed me that it was not too late for
+                    the United States to adhere to the convention of June 8, 1899, regulating the
+                    importation of spirituous liquors into certain regions of Africa; as two of the
+                    adhering powers had not yet signified their intentions, it had been decided that
+                    the period for collecting the adhesions should be prolonged. He expressed his
+                    gratification that our Senate had given its consent to the adhering of the
+                    United States to said convention.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Lawrence
+                    Townsend</hi>.</signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d30-f1" n="1" xml:id="d30-f1-content">
+                <p>Printed, ante.</p>
+            </note>
+            <note corresp="#d30-f2" n="1" xml:id="d30-f2-content">
+                <p>Printed, ante.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1876_comp6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Central American States.</title>
+            </titleStmt>
+            <xi:include href="../frus1876_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1876_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1876/comp6"
+                    type="canonical"/>
+                <relatedItem target="comp5/d25.xml" type="prev"/>
+                <relatedItem target="comp6/d26.xml" type="next"/>
+                <relatedItem target="../frus1876.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1876</bibl>
+                <bibl type="frus-division-id">comp6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="28" to="39" unit="page"
+                        >28–39</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1876-09-03T23:59:59-05:00" notBefore="1875-06-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp6">
+
+                <pb facs="0084" n="28" sameAs="frus:frus1876/pg28"/>
+
+                <head>Central American States.</head>
+
+
+
+                <xi:include href="comp6/d26.xml" xpointer="d26"/>
+                <xi:include href="comp6/d27.xml" xpointer="d27"/>
+                <xi:include href="comp6/d28.xml" xpointer="d28"/>
+            </div>
+        </body>
+    </text>
+</TEI>

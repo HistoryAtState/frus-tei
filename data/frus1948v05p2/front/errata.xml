@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1948v05p2_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1948v05p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1948v05p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1948v05p2/errata"
+                    type="canonical"/>
+                <relatedItem type="prev"/>
+                <relatedItem target="preface.xml" type="next"/>
+                <relatedItem target="../frus1948v05p2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1948v05p2</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="Errata" to="Errata" unit="page"
+                        >Errata</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1949-01-03T17:00:00-05:00" notBefore="1948-01-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0007" n="[Errata]" xml:id="pg-seq-0007"/>
+
+                <head>Errata</head>
+                <p rendition="#center">Foreign Relations of the United States, 1948, Volume V, Part
+                    2</p>
+                <p rendition="#center">ERRATA</p>
+                <p>On <ref target="#pg935">page 935</ref>, Clifford memorandum, second paragraph,
+                    replace line one with the following: <list>
+                        <label>1.</label>
+                        <item>Considerable doubt as to the advantage of the British “Neutral</item>
+                    </list>
+                </p>
+                <p>On <ref target="#pg982">page 982</ref>, telegram 327, first paragraph, first
+                    sentence, replace the word “Spanish” with:</p>
+                <p rendition="#center">Special</p>
+            </div>
+        </body>
+    </text>
+</TEI>

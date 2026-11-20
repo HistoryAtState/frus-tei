@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d98-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Form No. 42.]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d98-a2"
+                    type="canonical"/>
+                <relatedItem target="d98-a1-a5.xml" type="prev"/>
+                <relatedItem target="d98-a3.xml" type="next"/>
+                <relatedItem target="d98.xml" type="parent"/>
+                <relatedItem target="d98.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d98-a2</bibl>
+                <bibl type="frus-division-n">98.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="169" to="169" unit="page"
+                        >169</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d98-a2">
+
+                <pb facs="0265" n="169" sameAs="frus:frus1898/pg169"/>
+
+                <head>[Form No. 42.]</head>
+                <p rendition="#center">[Kingdom of Belgium, minister of agriculture and public
+                    works. Service of public health and hygiene.]</p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">inspection of imported meats.</hi>
+                </p>
+                <p rendition="#flush">No. —.</p>
+                <p>Received of Mr. ________,<anchor n="1" xml:id="d98-f1"/> for the
+                        inspection<anchor n="2" xml:id="d98-f2"/> of ________ kilograms of meat of
+                    ________, the sum of ________,<anchor n="3" xml:id="d98-f3"/></p>
+                <p>At ________, the ________, 189 ________</p>
+                <p rendition="#right">The expert.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d98-f1" n="1" xml:id="d98-f1-content">
+                <p>Name, profession, dwelling place of the importer.</p>
+            </note>
+            <note corresp="#d98-f2" n="2" xml:id="d98-f2-content">
+                <p>In case of a second inspection, modify the text.</p>
+            </note>
+            <note corresp="#d98-f3" n="3" xml:id="d98-f3-content">
+                <p>In full words.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Buchanan.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d12"
+                    type="canonical"/>
+                <relatedItem target="d11.xml" type="prev"/>
+                <relatedItem target="d12-a1.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="6" to="7" unit="page"
+                    >6–7</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1898-11-17"><hi rendition="#italic">November
+                            17, 1898</hi></date>
+                    <date notAfter="1898-11-17T23:59:59-05:00" notBefore="1898-11-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d12">
+
+                <pb facs="0102" n="6" sameAs="frus:frus1898/pg6"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Hay to Mr. Buchanan.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1898-11-17"><hi rendition="#italic">November 17,
+                        1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 416.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I confirm on the overleaf copy of your
+                    telegram of the 16th instant, and of my reply of the 17th, in regard to the
+                    recognition of the Hawaiian schooner <hi rendition="#italic">Americana</hi> by
+                    the consul of this Government at Buenos Ayres.</p>
+                <p>As you no doubt understand, the United States minister at Honolulu ceased to
+                    discharge his diplomatic functions on July 4,1898, but until Congress shall
+                    enact the necessary legislation our consul-general there has been instructed to
+                    perform his commercial duties as heretofore, and in like manner the consuls of
+                    the Hawaiian Government continue to perform their commercial functions in the
+                    United States, and of course in foreign countries, during the interval before
+                    Congress shall otherwise provide.</p>
+                <p>Appending for your information copy of a telegram from the Acting Secretary of
+                    the Treasury of the 17th instant upon the subject,</p>
+                <p>I am, etc.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">John Hay.</hi>
+                    </signed>
+                </closer>
+
+
+
+
+                <xi:include href="d12-a1.xml" xpointer="d12-a1"/>
+                <xi:include href="d12-a2.xml" xpointer="d12-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d730" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Eddy to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d730"
+                    type="canonical"/>
+                <relatedItem target="d729.xml" type="prev"/>
+                <relatedItem target="d731.xml" type="next"/>
+                <relatedItem target="../ch.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d730</bibl>
+                <bibl type="frus-division-n">730</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="733" to="733" unit="page"
+                        >733</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">St. Petersburg</hi></placeName>
+                    <date calendar="gregorian" when="1904-07-28"><hi rendition="#italic">July 28,
+                            1904</hi></date>
+                    <date notAfter="1904-07-28T23:59:59-05:00" notBefore="1904-07-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d730">
+
+                <pb facs="0821" n="733" sameAs="frus:frus1904/pg733"/>
+
+                <head><hi rendition="#italic">Mr. Eddy to Mr. Hay.</hi></head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic">St.
+                                Petersburg</hi></placeName>, <date calendar="gregorian"
+                            when="1904-07-28"><hi rendition="#italic">July 28,
+                        1904</hi></date>.</dateline></opener>
+                <p>Steamship <hi rendition="#italic">Ardova</hi> was released two days ago.</p>
+                <closer><signed><hi rendition="#small-caps">Eddy.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

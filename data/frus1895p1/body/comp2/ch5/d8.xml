@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1895p1_d8" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hengelmüller to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1895p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1895p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1895p1/d8"
+                    type="canonical"/>
+                <relatedItem target="../ch5.xml" type="prev"/>
+                <relatedItem target="d9.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1895p1</bibl>
+                <bibl type="frus-division-id">d8</bibl>
+                <bibl type="frus-division-n">8</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="8" to="9" unit="page"
+                    >8–9</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Imperial and Royal Austro-Hungarian
+                            Legation</hi>,<lb/><hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1895-05-01"><hi rendition="#italic">May 1,
+                            1895</hi></date>
+                    <date notAfter="1895-05-01T23:59:59-05:00" notBefore="1895-05-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d8">
+
+                <pb facs="0068" n="8" sameAs="frus:frus1895p1/pg8"/>
+
+                <head><hi rendition="#italic">Mr. Hengelmüller to Mr. Gresham</hi>.</head>
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Imperial and Royal Austro-Hungarian Legation</hi>,<lb/><hi
+                                rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1895-05-01"><hi rendition="#italic">May 1,
+                                1895</hi></date>.</dateline></opener>
+                <p>Mr. <hi rendition="#small-caps">Secretary of State</hi>: According to information
+                    received by the Imperial and Royal ministry of the national defense at Vienna,
+                        <pb facs="0069" n="9" xml:id="pg9"/> Friedrich Hellebrand, who was born at
+                    Tattenik, Austria, in the year 1869, who emigrated to America in 1884, whose
+                    name was enrolled in the list of those subject to military duty in the parish to
+                    which he belonged, and who is now registered there as being illegally absent,
+                    recently returned to his native place and exhibited an American passport,
+                    declaring that he had become a citizen of the United States.</p>
+                <p>The imperial and royal ministry of the national defense therefore asks my
+                    mediation for the purpose of ascertaining whether Friedrich Hellebrand has
+                    really become a citizen of the United States, and whether he is consequently to
+                    be exempted from the performance of military duty, and from the consequences of
+                    the nonperformance thereof, in pursuance of Article I, paragraph 1,<anchor n="1"
+                        xml:id="d8-f1"/> and Article II, final paragraph,<anchor n="2"
+                        xml:id="d8-f2"/> of the treaty between Austria-Hungary and the United States
+                    of America which was concluded September 20, 1870.</p>
+                <p>I consequently have the honor, in pursuance of instructions received from my
+                    Government, to beg your excellency to be pleased to procure the necessary
+                    information in this case and to transmit the same to me returning at the same
+                    time the passport of the person aforesaid.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Hengelmüller</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d8-f1" n="1" xml:id="d8-f1-content">
+                <p>Citizens of the Austro-Hungary Monarchy who have resided in the United States of
+                    America uninterruptedly at least five years, and during such residence have
+                    become naturalized citizens of the United States, shall be held by the
+                    Government of Austria and Hungary to be American citizens, and shall be treated
+                    as such.</p>
+            </note>
+            <note corresp="#d8-f2" n="2" xml:id="d8-f2-content">
+                <p>On the other hand, a former citizen of the Austro-Hungarian Monarchy naturalized
+                    in the United States, who by or after his emigration has transgressed the legal
+                    provisions on military duty by any acts or omissions other than those above
+                    enumerated in the clauses numbered one, two, and three, can, on his return to
+                    his original country, neither be held subsequently to military service nor
+                    remain liable to trial and punishment for the nonfulfillment of his military
+                    duty.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

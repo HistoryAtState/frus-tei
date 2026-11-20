@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v03" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1949v03_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1949v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1949v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1949v03"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1949v03" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1949v03/covers/frus1949v03.jpg"/>
+                        <extent>
+                            <measure quantity="36734" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:00:53.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1949v03" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1949v03/ebook/frus1949v03.epub"/>
+                        <extent>
+                            <measure quantity="4055490" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:00:53.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1949v03" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1949v03/ebook/frus1949v03.mobi"/>
+                        <extent>
+                            <measure quantity="3393483" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:00:53.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1975 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>germany</term>
+                    <term>austria</term>
+                    <term>acheson-dean-gooderham</term>
+                    <term>elections</term>
+                    <term>foreign-aid</term>
+                    <term>border-administration</term>
+                    <term>china</term>
+                    <term>prisoners-of-war</term>
+                    <term>national-security-council</term>
+                    <term>quarantine-blockade</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>truman-harry-s</term>
+                    <term>united-kingdom</term>
+                    <term>united-nations</term>
+                    <term>european-advisory-commission</term>
+                    <term>far-eastern-commission</term>
+                    <term>marshall-george-catlett</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1949v03" status="published" when="1975"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1949</titlePart>
+                    <titlePart type="volumeno">Volume III</titlePart>
+                    <titlePart type="volumetitle">Council of<lb/>Foreign Ministers;<lb/>Germany and
+                        Austria</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1974</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication 8752 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the<lb/>U.S. Government Book Store<lb/>Department of
+                    State<lb/>Washington, D.C. 20520 - Price $14.55 (Buckram)<lb/>Stock Number
+                    4400–01489</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/introduction.xml" xpointer="introduction"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0020" n="XVI" xml:id="pgXVI"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+            <xi:include href="front/photographs-toc.xml" xpointer="photographs-toc"/>
+            <xi:include href="front/charts.xml" xpointer="charts"/>
+            <pb facs="0030" n="XXVI" xml:id="pgXXVI"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+            <pb facs="1366" n="1325" xml:id="pg1325"/>
+            <pb facs="1367" n="1326" xml:id="pg1326"/>
+            <pb facs="1368" n="1327" xml:id="pg1327"/>
+            <pb facs="1369" n="1328" xml:id="pg1328"/>
+        </back>
+    </text>
+</TEI>

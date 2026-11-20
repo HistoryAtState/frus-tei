@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_comp4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Austria-Hungary:</title>
+            </titleStmt>
+            <xi:include href="../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/comp4"
+                    type="canonical"/>
+                <relatedItem target="comp3/ch21/d27-a1.xml" type="prev"/>
+                <relatedItem target="comp4/ch22.xml" type="next"/>
+                <relatedItem target="../frus1914.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">comp4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="23" to="26" unit="page"
+                        >23–26</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1915-05-28T23:59:59-05:00" notBefore="1914-06-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp4">
+
+                <pb facs="0139" n="23" xml:id="pg23"/>
+
+                <head>Austria-Hungary:</head>
+
+
+                <xi:include href="comp4/ch22.xml" xpointer="ch22"/>
+                <xi:include href="comp4/ch23.xml" xpointer="ch23"/>
+            </div>
+        </body>
+    </text>
+</TEI>

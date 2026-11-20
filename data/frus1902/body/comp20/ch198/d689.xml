@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d689" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Meyer to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d689"
+                    type="canonical"/>
+                <relatedItem target="../ch198.xml" type="prev"/>
+                <relatedItem target="d690.xml" type="next"/>
+                <relatedItem target="../ch198.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d689</bibl>
+                <bibl type="frus-division-n">689</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="685" to="685" unit="page"
+                        >685</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">Rome</hi></placeName>
+                    <date calendar="gregorian" when="1902-11-06"><hi rendition="#italic">November 6,
+                            1902</hi></date>
+                    <date notAfter="1902-11-06T23:59:59-05:00" notBefore="1902-11-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d689">
+
+                <pb facs="0765" n="685" sameAs="frus:frus1902/pg685"/>
+
+                <head><hi rendition="#italic">Mr. Meyer to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >Rome</hi></placeName>, <date calendar="gregorian" when="1902-11-06"><hi
+                                rendition="#italic">November 6, 1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 204.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith a copy
+                    of an application<anchor n="a" xml:id="d689-f1"/> for a passport presented at
+                    the embassy last month before my return. The applicant, Antonio Basile, a boy
+                    not yet 12 years old, claimed American citizenship through his father’s
+                    naturalization; but as he had never been in the United States Mr. Iddings
+                    refused to issue the passport. The case is submitted for your opinion.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">G. V. L. Meyer.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d689-f1" n="a" xml:id="d689-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1931-41v01_d257" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Counselor of the Japanese Embassy in China (Hidaka) to the Counselor of
+                    the American Embassy in China (Peck)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1931-41v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1931-41v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1931-41v01/d257"
+                    type="canonical"/>
+                <relatedItem target="d256.xml" type="prev"/>
+                <relatedItem target="d257-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1931-41v01</bibl>
+                <bibl type="frus-division-id">d257</bibl>
+                <bibl type="frus-division-n">257</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="343" to="344" unit="page"
+                        >343–44</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Nanking</hi></placeName>
+                    <date calendar="gregorian" when="1937-08-13">August 13, 1937</date>
+                    <date notAfter="1937-08-13T23:59:59-05:00" notBefore="1937-08-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d257">
+
+                <pb facs="0439" n="343" sameAs="frus:frus1931-41v01/pg343"/>
+
+                <note rend="inline" type="source">793.94/10566</note>
+                <head><hi rendition="#italic">The Counselor of the Japanese Embassy in China</hi>
+                        (<hi rendition="#italic">Hidaka</hi>) <hi rendition="#italic">to the
+                        Counselor of the American Embassy in China</hi> (<hi rendition="#italic"
+                        >Peck</hi>)</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Nanking</hi></placeName>, <date calendar="gregorian"
+                            when="1937-08-13">August 13, 1937</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Dear Mr. Peck</hi>: I have been instructed by my
+                    Ambassador at Shanghai to convey to Their Excellencies the American, British,
+                    French, German and Italian Ambassadors the views as stated in the separate paper
+                    attached hereto as his reply to their Note of the 11th instant.<anchor n="26"
+                        xml:id="d257-f1"/></p>
+                <p>I shall be very much indebted to you if you will be so good as to transmit it to
+                    the interested Ambassadors at the earliest opportunity.</p>
+                <p>Yours faithfully,</p>
+                <closer><signed><hi rendition="#small-caps">Shinrokuro Hidaka</hi></signed></closer>
+
+
+                <xi:include href="d257-a1.xml" xpointer="d257-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d257-f1" n="26" xml:id="d257-f1-content">
+                <p>For text of the collective note of August 11, see telegram No. 403, Aug. 11,
+                    1937, midnight, from the Ambassador in China, <ref target="#pg341">p.
+                    341</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

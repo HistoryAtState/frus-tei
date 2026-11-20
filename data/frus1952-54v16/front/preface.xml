@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v16_preface" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Preface</title>
+            </titleStmt>
+            <xi:include href="../frus1952-54v16_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1952-54v16_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v16/preface"
+                    type="canonical"/>
+                <relatedItem type="prev"/>
+                <relatedItem target="preface-a1.xml" type="next"/>
+                <relatedItem target="../frus1952-54v16.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v16</bibl>
+                <bibl type="frus-division-id">preface</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">preface</bibl>
+                <bibl type="frus-print-pages"><biblScope from="III" to="IV" unit="page"
+                        >III–IV</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1954-08-11T23:59:59-05:00" notBefore="1954-02-16T14:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="preface">
+
+                <pb facs="0007" n="III" xml:id="pgIII"/>
+
+                <head>Preface</head>
+                <p>John P. Glennon supervised the preparation of this volume and compiled the
+                    portion on Korea. Allen H. Kitchens and Neal H. Petersen compiled the section on
+                    Indochina.</p>
+                <p>Fredrick Aandahl, formerly Editor in Chief, exercised general supervision over
+                    the initiation and preparation of this volume. William Z. Slany, who became
+                    General Editor in 1979, directed the final editing and release. Rita M. Baker
+                    and Vicki L. Ettleman of the Publishing Services Division performed the
+                    technical editing under the immediate supervision of Margie R. Wilber. Anne K.
+                    Pond prepared the index.</p>
+                <p>I acknowledge the assistance of the Department of Defense, the Joint Chiefs of
+                    Staff, the National Security Council, and the Central Intelligence Agency, in
+                    locating various documents and assisting the process of declassification. I
+                    thank those foreign governments that granted permission to publish their
+                    documents.</p>
+                <closer><signed><hi rendition="#small-caps">David F. Trask</hi></signed><lb/><hi
+                        rendition="#italic">The Historian, Office of the Historian<lb/>Bureau of
+                        Public Affairs</hi></closer>
+
+
+                <xi:include href="preface-a1.xml" xpointer="preface-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

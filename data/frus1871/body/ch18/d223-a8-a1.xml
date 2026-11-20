@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1871_d223-a8-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Inclosure.]</title>
+            </titleStmt>
+            <xi:include href="../../frus1871_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1871_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1871/d223-a8-a1"
+                    type="canonical"/>
+                <relatedItem target="d223-a8.xml" type="prev"/>
+                <relatedItem target="d223-a8-a1-a1.xml" type="next"/>
+                <relatedItem target="d223-a8.xml" type="parent"/>
+                <relatedItem target="d223-a8.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1871</bibl>
+                <bibl type="frus-division-id">d223-a8-a1</bibl>
+                <bibl type="frus-division-n">223.8.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="440" to="441" unit="page"
+                        >440–41</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d223-a8-a1">
+
+                <pb facs="0654" n="440" sameAs="frus:frus1871/pg440"/>
+
+                <head>[Inclosure.]</head>
+                <p rendition="#center"><hi rendition="#italic">Memorandum.</hi></p>
+                <p>Le Gouvernement Prussien est prêt à laisser passer librement le personnel de
+                    l’ambassade d’Angleterre qui se trouve encore à Paris, ainsi que les sujets
+                    britanniques <pb facs="0655" n="441" xml:id="pg441"/> inoffensifs qui voudraient
+                    l’accompagner, et dont une liste serait rédigée par M. Wodehouse.</p>
+                <p>Lord Lyons est chargé par Lord Granville de se concerter sans retard à ce sujet
+                    avec le gouvernement français.</p>
+                <closer><dateline rendition="#float-left"><placeName>T<hi rendition="#small-caps"
+                                >ours</hi></placeName>, <date calendar="gregorian" when="1870-10-18"
+                                ><hi rendition="#italic">le</hi> 18 <hi rendition="#italic"
+                                >Octobre</hi> 1870</date>.</dateline></closer>
+
+
+                <xi:include href="d223-a8-a1-a1.xml" xpointer="d223-a8-a1-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

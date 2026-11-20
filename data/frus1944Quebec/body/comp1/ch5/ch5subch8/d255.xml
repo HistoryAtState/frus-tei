@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d255" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Combined Chiefs of Staff to the Supreme Commander, Allied Expeditionary
+                    Force (Eisenhower)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d255"
+                    type="canonical"/>
+                <relatedItem target="d254.xml" type="prev"/>
+                <relatedItem target="d256.xml" type="next"/>
+                <relatedItem target="../ch5subch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d255</bibl>
+                <bibl type="frus-division-n">255</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="428" to="428" unit="page"
+                        >428</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-12">12 September 1944</date>
+                    <date notAfter="1944-09-12T23:59:59-05:00" notBefore="1944-09-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Facs1">Facs</term>
+                    <term ref="frus:frus1944Quebec/terms#t_JCS1">JCS</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Octagon1">Octagon</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Scaf1">Scaf</term>
+                    <term ref="frus:frus1944Quebec/terms#t_SHAEF1">SHAEF</term>
+                    <term ref="frus:frus1944Quebec/terms#t_TopSec1">TopSec</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d255">
+
+                <pb facs="0490" n="428" sameAs="frus:frus1944Quebec/pg428"/>
+
+                <note rend="inline" type="source">J.C.S. Files: Telegram</note>
+                <head><hi rendition="#italic">The Combined Chiefs of Staff to the Supreme Commander,
+                        Allied Expeditionary Force</hi> (<hi rendition="#italic"
+                        >Eisenhower</hi>)<anchor n="1" xml:id="d255-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-09-12">12 September 1944</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Octagon</hi> 16. TopSec to SHAEF France for
+                    Eisenhower, <hi rendition="#small-caps">Facs</hi> 78 from the Combined Chiefs of
+                    Staff.</p>
+                <list>
+                    <label>1.</label>
+                    <item>The Combined Chiefs of Staff approve the proposals set out in <hi
+                            rendition="#small-caps">Scaf</hi> 78.<anchor n="2" xml:id="d255-f2"
+                        /></item>
+                    <label>2.</label>
+                    <item>In transmitting this approval, the Combined Chiefs of Staff draw your
+                        attention:— <list>
+                            <label><hi rendition="#italic">a</hi>.</label>
+                            <item>To the advantages of the northern line of approach into Germany,
+                                as opposed to the southern. They note with satisfaction that you
+                                appear to be of the same mind.</item>
+                            <label><hi rendition="#italic">b</hi>.</label>
+                            <item>To the necessity for opening up the northwest ports, and
+                                particularly Antwerp and Rotterdam, before the bad weather sets
+                                in.</item>
+                        </list></item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d255-f1" n="1" type="source" xml:id="d255-f1-content">
+                <p>This message was approved by the Combined Chiefs of Staff at their 172d Meeting,
+                    September 12, 1944. See <hi rendition="#italic">ante</hi>, <ref target="#pg302"
+                        >p. 302</ref>.</p>
+            </note>
+            <note corresp="#d255-f2" n="2" xml:id="d255-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg234">p. 234</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

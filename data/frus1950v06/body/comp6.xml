@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v06_comp6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Indonesia</title>
+            </titleStmt>
+            <xi:include href="../frus1950v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1950v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1950v06/comp6"
+                    type="canonical"/>
+                <relatedItem target="comp5/ch6/d607.xml" type="prev"/>
+                <relatedItem target="comp6/ch7.xml" type="next"/>
+                <relatedItem target="../frus1950v06.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v06</bibl>
+                <bibl type="frus-division-id">comp6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="964" to="1108" unit="page"
+                        >964–1108</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1950-12-31T18:00:00-05:00" notBefore="1950-01-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp6">
+
+                <pb facs="0978" n="964" xml:id="pg964"/>
+
+                <head>Indonesia</head>
+
+                <xi:include href="comp6/ch7.xml" xpointer="ch7"/>
+            </div>
+        </body>
+    </text>
+</TEI>

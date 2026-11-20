@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54Guat_d64" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum for the Record</title>
+            </titleStmt>
+            <xi:include href="../../frus1952-54Guat_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1952-54Guat_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54Guat/d64"
+                    type="canonical"/>
+                <relatedItem target="d63.xml" type="prev"/>
+                <relatedItem target="d65.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54Guat</bibl>
+                <bibl type="frus-division-id">d64</bibl>
+                <bibl type="frus-division-n">64</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="135" to="136" unit="page"
+                        >135–36</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1953-11-11T23:59:59-05:00" notBefore="1953-11-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54Guat/persons">
+                    <term ref="frus:frus1952-54Guat/persons#p_DAARA1">Dulles, Allen</term>
+                    <term ref="frus:frus1952-54Guat/persons#p_SGWBS1">Smith, General Walter
+                        Bedell</term>
+                    <term ref="frus:frus1952-54Guat/persons#p_TMHV1">Tofte, Major Hans V.</term>
+                </keywords>
+                <keywords scheme="frus:frus1952-54Guat/terms">
+                    <term ref="frus:frus1952-54Guat/terms#t_DCI1">DCI</term>
+                    <term ref="frus:frus1952-54Guat/terms#t_DDA1">DD/A</term>
+                    <term ref="frus:frus1952-54Guat/terms#t_DDP1">DD/P</term>
+                    <term ref="frus:frus1952-54Guat/terms#t_DDCI1">DDCI</term>
+                    <term ref="frus:frus1952-54Guat/terms#t_ops1">ops</term>
+                    <term ref="frus:frus1952-54Guat/terms#t_PBSPBSUCCESS1">PBS, PBSUCCESS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d64">
+
+                <pb facs="0165" n="135" sameAs="frus:frus1952-54Guat/pg135"/>
+
+                <head>64. Memorandum for the Record<anchor n="1" xml:id="d64-f1"/></head>
+                <dateline><placeName>Washington</placeName>, <date calendar="gregorian"
+                        when="1953-11-11">November 11, 1953</date>.</dateline>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>PBSUCCESS</item>
+                </list>
+                <list>
+                    <label>1.</label>
+                    <item>With reference to my recent memorandum<anchor n="2" xml:id="d64-f2"/>
+                        regarding the PBSUCCESS budget I have now been informed by CPP that the DCI
+                        has secured the $3,000,000<anchor n="3" xml:id="d64-f3"/> in question from
+                        the Bureau of the Budget. (I have been given to understand that Mr. Dulles,
+                        General Smith, and Mr. Dodge had a conference and that minutes of this
+                        meeting were written to serve as authorization for the above.)</item>
+                    <label>2.</label>
+                    <item>I was further given to understand that DCI had instructed DDA (Mr. White)
+                        to handle the necessary details in respect to securing the funds without
+                        undue delay.</item>
+                    <pb facs="0166" n="136" xml:id="pg136"/>
+                    <label>3.</label>
+                    <item>Confirming our yesterday’s conversation I would recommend: <list>
+                            <label>a.</label>
+                            <item>That a PBSUCCESS working group have a meeting before the end of
+                                this week in order to ascertain the current status of the project as
+                                well as plans for the immediate future, and</item>
+                            <label>b.</label>
+                            <item>That a general briefing on PBSUCCESS be prepared for DCI, DDCI,
+                                DDP and COP. This briefing should be scheduled for the week of 16
+                                November 1953.</item>
+                        </list></item>
+                </list>
+                <closer><signed><hi rendition="#bold">Hans V. Tofte</hi></signed><lb/><hi
+                        rendition="#italic">Chief, PP/OPS</hi></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d64-f1" n="1" type="source" xml:id="d64-f1-content">
+                <p>Source: Central Intelligence Agency, Job 79–01025A, Box 76, Folder 2. Top
+                    Secret.</p>
+            </note>
+            <note corresp="#d64-f2" n="2" xml:id="d64-f2-content">
+                <p>Dated October 31. (Ibid., Box 72, Folder 5)</p>
+            </note>
+            <note corresp="#d64-f3" n="3" xml:id="d64-f3-content">
+                <p>See <ref target="#d40-f2">footnote 2, Document 40</ref>, and <ref target="#d54"
+                        >Document 54</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

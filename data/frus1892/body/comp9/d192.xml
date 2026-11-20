@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1892_d192" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. White to Mr. Foster.</title>
+            </titleStmt>
+            <xi:include href="../../frus1892_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1892_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1892/d192"
+                    type="canonical"/>
+                <relatedItem target="d191.xml" type="prev"/>
+                <relatedItem target="d192-a1.xml" type="next"/>
+                <relatedItem target="../comp9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1892</bibl>
+                <bibl type="frus-division-id">d192</bibl>
+                <bibl type="frus-division-n">192</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="249" to="250" unit="page"
+                        >249–50</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1892-12-12"><hi rendition="#italic">December
+                            12, 1892</hi></date>
+                    <date notAfter="1892-12-12T23:59:59-05:00" notBefore="1892-12-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d192">
+
+                <pb facs="0337" n="249" sameAs="frus:frus1892/pg249"/>
+
+                <head><hi rendition="#italic">Mr. White to Mr. Foster.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1892-12-12"><hi rendition="#italic">December 12, 1892</hi></date>.
+                        (Received December 23.)</dateline>
+                    <seg rendition="#float-left">No. 869.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my dispatch No. 865 of the
+                    10th instant, I have the honor to inclose herewith the copy of a note which I
+                    have received from <pb facs="0338" n="250" xml:id="pg250"/> the Earl of
+                    Rosebery, confirming what he stated to me verbally relative to the recognition
+                    of our commercial agency at Butaritari, in the Gilbert Islands, and expressing
+                    the regret of Her Majesty’s Government that Capt. Davis, of H. M. S. <hi
+                        rendition="#italic">Royalist</hi>, did not provisionally recognize Mr. Rick
+                    in that capacity.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Henry White.</hi></signed></closer>
+
+
+                <xi:include href="d192-a1.xml" xpointer="d192-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

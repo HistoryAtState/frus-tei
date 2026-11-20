@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1893_d683" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Partridge to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../frus1893_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1893_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1893/d683"
+                    type="canonical"/>
+                <relatedItem target="d682.xml" type="prev"/>
+                <relatedItem target="d683-a1.xml" type="next"/>
+                <relatedItem target="../comp21.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1893</bibl>
+                <bibl type="frus-division-id">d683</bibl>
+                <bibl type="frus-division-n">683</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="722" to="724" unit="page"
+                        >722–24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Caracas</hi></placeName>
+                    <date calendar="gregorian" when="1893-04-11"><hi rendition="#italic">April 11,
+                            1893</hi></date>
+                    <date notAfter="1893-04-11T23:59:59-05:00" notBefore="1893-04-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d683">
+
+                <pb facs="0830" n="722" sameAs="frus:frus1893/pg722"/>
+
+                <head><hi rendition="#italic">Mr. Partridge to Mr. Gresham.</hi></head>
+                <opener><seg rendition="#center">[Extract.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Caracas</hi></placeName>, <date calendar="gregorian"
+                            when="1893-04-11"><hi rendition="#italic">April 11, 1893</hi></date>.
+                        (Received April 20.)</dateline>
+                    <seg rendition="#float-left">No. 23.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to report the final
+                    disposition of the legal proceedings instituted in the courts of Venezuela
+                    against the American steamship <hi rendition="#italic">Philadelphia</hi> on
+                    accounts the Mijares incident reported by Mr. Scruggs in his No. 355 of November
+                    18, 1892.<anchor n="*" xml:id="d683-f1"/></p>
+                <p>On the 2d of December last the national judge of finance at La Guaira imposed a
+                    fine upon the captain of the <hi rendition="#italic">Philadelphia</hi> of 10,000
+                    bolivars (about $2,000). The judgment having come in regular course before the
+                    high federal court for revision, that tribunal, on the 12th of January, reversed
+                    it on the ground of irregularity of procedure, and sent the case back for a new
+                    trial. I inclose a copy of the decision of the high federal court and a
+                    translation thereof. On the 7th instant the chief of the executive power, with
+                    the advice of his cabinet, granted a pardon to the ship and her captain, which
+                    quashes the proceedings in the courts. (Copy of the decree and a translation
+                    thereof inclosed.)</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Frank C.
+                    Partridge.</hi></signed></closer>
+
+
+
+
+                <xi:include href="d683-a1.xml" xpointer="d683-a1"/>
+                <xi:include href="d683-a2.xml" xpointer="d683-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d683-f1" n="*" xml:id="d683-f1-content">
+                <p>See <ref target="frus1892#pg_637">Foreign Relations for 1892, p. 637</ref></p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

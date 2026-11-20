@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d301-a5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d301-a5"
+                    type="canonical"/>
+                <relatedItem target="d301-a4.xml" type="prev"/>
+                <relatedItem target="d301-a6.xml" type="next"/>
+                <relatedItem target="d301.xml" type="parent"/>
+                <relatedItem target="d301.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d301-a5</bibl>
+                <bibl type="frus-division-n">301.5</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="180" to="180" unit="page"
+                        >180</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1912-02-03">
+                        <hi rendition="#small-caps">February</hi> 3, 1912</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d301-a5">
+
+                <pb facs="0296" n="180" sameAs="frus:frus1912/pg180"/>
+
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <date calendar="gregorian" when="1912-02-03">
+                            <hi rendition="#small-caps">February</hi> 3, 1912</date>.</dateline>
+                </opener>
+                <p>In regard to property list requested by revolutionists, the diplomatic
+                    representatives have agreed to instruct consuls to inform de facto authorities
+                    that property-holding is a treaty provision; that action cannot be taken by
+                    consuls; that reference must be had to diplomatic representatives. Informally
+                    communicate this.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Calhoun.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

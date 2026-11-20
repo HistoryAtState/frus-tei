@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916Supp_d461" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chargé in the Netherlands (Langhorne) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1916Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1916Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1916Supp/d461"
+                    type="canonical"/>
+                <relatedItem target="d460.xml" type="prev"/>
+                <relatedItem target="d461-a1.xml" type="next"/>
+                <relatedItem target="../subch16.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916Supp</bibl>
+                <bibl type="frus-division-id">d461</bibl>
+                <bibl type="frus-division-n">461</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="350" to="351" unit="page"
+                        >350–51</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">The Hague</hi></placeName>
+                    <date calendar="gregorian" when="1916-02-02">
+                        <hi rendition="#italic">February 2, 1916</hi>
+                    </date>
+                    <date notAfter="1916-02-02T23:59:59-05:00" notBefore="1916-02-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1916Supp/persons">
+                    <term ref="frus:frus1916Supp/persons#p_LM1">Langhorne, Marshall</term>
+                    <term ref="frus:frus1916Supp/persons#p_TEW1">Thompson, Erwin W.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d461">
+
+                <pb facs="0636" n="350" sameAs="frus:frus1916Supp/pg350"/>
+
+                <note rend="inline" type="source">File No. 763.72112/2267</note>
+                <head>
+                    <hi rendition="#italic">The Chargé in the Netherlands</hi> (<hi
+                        rendition="#italic">Langhorne</hi>) <hi rendition="#italic">to the Secretary
+                        of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 419</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">The Hague</hi></placeName>, <date
+                            calendar="gregorian" when="1916-02-02">
+                            <hi rendition="#italic">February 2, 1916</hi>
+                        </date>.<lb/>[<hi rendition="#italic">Received February 25</hi>.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: In connection with my cipher cablegram No.
+                    500 of January 31, 1916,<anchor n="1" xml:id="d461-f1"/> on the subject of the
+                    protest of the Netherlands Oversea Trust against the action of the British
+                    Government in stopping and ordering to British prize courts shipments regularly
+                    consigned to the Netherlands Oversea Trust in violation of the agreement between
+                    the Trust and the British Government, I have the honor to forward herewith a
+                    letter from Mr. Erwin W. Thompson, commercial attaché of the Legation, reporting
+                    an interview with Mr. van Vollenhoven, the head of the Netherlands Oversea
+                    Trust.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Marshall Langhorne</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d461-a1.xml" xpointer="d461-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d461-f1" n="1" xml:id="d461-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

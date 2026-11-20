@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d721" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Choate.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d721"
+                    type="canonical"/>
+                <relatedItem target="d720-a1.xml" type="prev"/>
+                <relatedItem target="d721-a1.xml" type="next"/>
+                <relatedItem target="../ch63.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d721</bibl>
+                <bibl type="frus-division-n">721</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="589" to="591" unit="page"
+                        >589–91</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-02-20"><hi rendition="#italic">February
+                            20, 1900</hi></date>
+                    <date notAfter="1900-02-20T23:59:59-05:00" notBefore="1900-02-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d721">
+
+                <pb facs="0687" n="589" sameAs="frus:frus1900/pg589"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. Choate.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-02-20"><hi rendition="#italic">February 20,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 311.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to the Department’s No. 263, of
+                    December 21 last, relative to the detention by the British authorities of goods
+                    belonging to Mr. R. M. Geldart, en route from New York to Delagoa Bay, I inclose
+                    for your use copy of a letter from Mr. Geldart in regard to shipments of
+                    merchandise made by the <hi rendition="#italic">Maria, Beatrice</hi>, and <hi
+                        rendition="#italic">Mashona</hi>, respectively, with accompanying bills of
+                        lading<anchor n="1" xml:id="d721-f1"/> for the same in duplicate.</p>
+                <pb facs="0688" n="590" xml:id="pg590"/>
+                <p>You will observe that Mr. Geldart’s papers are accompanied by his affidavit,
+                    dated the 19th ultimo, in which he declares that he is the shipper of certain
+                    goods, to wit: One hundred cases, each containing two 5–gallon tins of
+                    cotton-seed oil, placed on board the steamship <hi rendition="#italic"
+                        >Maria</hi> for delivery at Delagoa Bay.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+
+
+
+
+
+                <xi:include href="d721-a1.xml" xpointer="d721-a1"/>
+                <xi:include href="d721-a2.xml" xpointer="d721-a2"/>
+                <xi:include href="d721-a3.xml" xpointer="d721-a3"/>
+                <xi:include href="d721-a4.xml" xpointer="d721-a4"/>
+                <xi:include href="d721-a5.xml" xpointer="d721-a5"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d721-f1" n="1" xml:id="d721-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

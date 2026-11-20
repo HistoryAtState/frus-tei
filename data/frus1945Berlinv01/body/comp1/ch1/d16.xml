@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 16</title>
+                <title type="subtitle">Prime Minister Churchill to President Truman </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d16"
+                    type="canonical"/>
+                <relatedItem target="d15.xml" type="prev"/>
+                <relatedItem target="d17.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d16</bibl>
+                <bibl type="frus-division-n">16</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="19" to="19" unit="page"
+                        >19</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-05-21">21 May 1945</date>
+                    <date notAfter="1945-05-21T23:59:59-05:00" notBefore="1945-05-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d16">
+
+                <pb facs="0151" n="19" xml:id="pg19"/>
+
+                <note rend="inline" type="source"> Leahy Papers: Telegram</note>
+                <head>No. 16 <lb/>
+                    <hi rendition="#italic">Prime Minister Churchill to President Truman
+                        </hi><anchor n="1" xml:id="d16-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Extract]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-05-21">21 May 1945</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Truman. Personal and top secret. Number 53.</p>
+                <p>Your Number 44.<anchor n="2" xml:id="d16-f2"/>
+                </p>
+                <p rendition="#center">. . . . . . . .</p>
+                <p>2. I think there is a very good chance that if our deployment is formidable, a
+                    solution may be reached [with respect to Venezia Giulia] without fighting. Our
+                    firm attitude in this matter will I believe be of value in our discussions with
+                    Stalin. It seems to me that the need for our triple meeting at the earliest
+                    moment is very great. There will probably be a general election campaign here
+                    during June, but as all parties are agreed on foreign policy it need not make
+                    any postponement necessary. Could you give me any idea of the date and place
+                    which would be suitable, so that we can make our several requests to Stalin? I
+                    have a fear he may play for time in order to remain all powerful in Europe when
+                    our forces have melted.</p>
+                <p rendition="#center">. . . . . . .</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d16-f1" n="1" type="source" xml:id="d16-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d16-f2" n="2" xml:id="d16-f2-content">
+                <p>Not printed herein. See Truman, <hi rendition="#italic">Year of Decisions</hi>,
+                    p. 249.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

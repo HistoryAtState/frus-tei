@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v1_d13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 11.</title>
+                <title type="subtitle">Mr. White to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1873p1v1/d13"
+                    type="canonical"/>
+                <relatedItem target="d12-a1.xml" type="prev"/>
+                <relatedItem target="d13-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v1</bibl>
+                <bibl type="frus-division-id">d13</bibl>
+                <bibl type="frus-division-n">13</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="44" to="46" unit="page"
+                        >44–46</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation to the Argentine
+                            Republic</hi>,<lb/><hi rendition="#italic">Buenos Ayres</hi></placeName>
+                    <date calendar="gregorian" when="1873-06-13"><hi rendition="#italic">June</hi>
+                        13, 1873</date>
+                    <date notAfter="1873-06-13T23:59:59-05:00" notBefore="1873-06-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1873p1v1/persons">
+                    <term ref="frus:frus1873p1v1/persons#p_HF1">Hamilton Fish</term>
+                    <term ref="frus:frus1873p1v1/persons#p_JW1">Julius White</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d13">
+
+                <pb facs="0128" n="44" sameAs="frus:frus1873p1v1/pg44"/>
+
+                <head>No. 11.<lb/><hi rendition="#italic">Mr. White to Mr. Fish</hi>.</head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation to the Argentine Republic</hi>,<lb/><hi
+                                rendition="#italic">Buenos Ayres</hi></placeName>, <date
+                            calendar="gregorian" when="1873-06-13"><hi rendition="#italic">June</hi>
+                            13, 1873</date>. (Received July 22.)</dateline>
+                    <seg rendition="#float-left">No. 15.]</seg>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith a
+                    copy of the message of President Sarmiento to the Congress of this republic,
+                    relative to the rebellion in the province of Entre Rios.</p>
+                <p>I have not been able to obtain any official information, except what is contained
+                    in this document, and an oral statement made to me by the secretary for foreign
+                    affairs, that the insurrection was not considered formidable by the
+                    government.</p>
+                <p>So far as I am able to learn, no important engagement between the armed forces of
+                    the insurgents and those of the government has occurred.</p>
+                <p>I am, &amp;c.,</p>
+                <closer>
+                    <signed>JULIUS WHITE.</signed>
+                </closer>
+
+
+
+                <xi:include href="d13-a1.xml" xpointer="d13-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

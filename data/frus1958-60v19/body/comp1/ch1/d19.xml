@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v19_d19" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Special National Intelligence Estimate</title>
+            </titleStmt>
+            <xi:include href="../../../frus1958-60v19_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1958-60v19_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v19/d19"
+                    type="canonical"/>
+                <relatedItem target="d18.xml" type="prev"/>
+                <relatedItem target="d20.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v19</bibl>
+                <bibl type="frus-division-id">d19</bibl>
+                <bibl type="frus-division-n">19</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="32" to="32" unit="page"
+                        >32</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1958-07-22">July 22, 1958</date>
+                    <date notAfter="1958-07-22T23:59:59-05:00" notBefore="1958-07-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v19/terms">
+                    <term ref="frus:frus1958-60v19/terms#t_INR1">INR</term>
+                    <term ref="frus:frus1958-60v19/terms#t_NIE1">NIE</term>
+                    <term ref="frus:frus1958-60v19/terms#t_SNIE1">SNIE</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d19">
+
+                <pb facs="0064" n="32" sameAs="frus:frus1958-60v19/pg32"/>
+
+                <head>19. Special National Intelligence Estimate</head>
+                <opener>
+                    <seg rendition="#float-left">SNIE 100–7–58</seg>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1958-07-22">July 22, 1958</date>.</dateline>
+                </opener>
+                <p rendition="#center">SINO-SOVIET AND FREE WORLD REACTIONS TO U.S. USE OF NUCLEAR
+                    WEAPONS IN LIMITED WARS IN THE FAR EAST</p>
+                <note rend="inline" type="source">[Source: Department of State, INR–NIE Files. Top
+                    Secret. Not declassified in time for publication; the full text is in the
+                    Supplement.]</note>
+            </div>
+        </body>
+    </text>
+</TEI>

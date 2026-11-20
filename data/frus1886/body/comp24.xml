@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1886_comp24" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Switzerland</title>
+            </titleStmt>
+            <xi:include href="../frus1886_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1886_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1886/comp24"
+                    type="canonical"/>
+                <relatedItem target="comp23/d442.xml" type="prev"/>
+                <relatedItem target="comp24/d443.xml" type="next"/>
+                <relatedItem target="../frus1886.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1886</bibl>
+                <bibl type="frus-division-id">comp24</bibl>
+                <bibl type="frus-division-n">24</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="846" to="862" unit="page"
+                        >846–62</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1886-09-13T23:59:59-05:00" notBefore="1886-05-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp24">
+
+                <pb facs="0930" n="846" xml:id="pg846"/>
+
+                <head>Switzerland</head>
+
+
+
+
+
+
+
+
+                <xi:include href="comp24/d443.xml" xpointer="d443"/>
+                <xi:include href="comp24/d444.xml" xpointer="d444"/>
+                <xi:include href="comp24/d445.xml" xpointer="d445"/>
+                <xi:include href="comp24/d446.xml" xpointer="d446"/>
+                <xi:include href="comp24/d447.xml" xpointer="d447"/>
+                <xi:include href="comp24/d448.xml" xpointer="d448"/>
+                <xi:include href="comp24/ch15.xml" xpointer="ch15"/>
+            </div>
+        </body>
+    </text>
+</TEI>

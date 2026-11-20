@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d490" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Blaine to Mr. Scruggs.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d490"
+                    type="canonical"/>
+                <relatedItem target="d489.xml" type="prev"/>
+                <relatedItem target="d491.xml" type="next"/>
+                <relatedItem target="../comp20.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d490</bibl>
+                <bibl type="frus-division-n">490</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="779" to="779" unit="page"
+                        >779</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1890-05-02"><hi rendition="#italic">May</hi> 2,
+                        1890</date>
+                    <date notAfter="1890-05-02T23:59:59-05:00" notBefore="1890-05-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d490">
+
+                <pb facs="0889" n="779" sameAs="frus:frus1890/pg779"/>
+
+                <head><hi rendition="#italic">Mr. Blaine to Mr. Scruggs.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1890-05-02"><hi rendition="#italic">May</hi> 2,
+                        1890</date>.</dateline>
+                    <seg rendition="#float-left">No. 81.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to your No. 53 of November 16
+                    last and your No. 63 of the 21st of the succeeding month, both relating to the
+                    question of the disputed boundary between Venezuela and British Guiana, I have
+                    to inclose copy of my telegram,<anchor n="*" xml:id="d490-f1"/> dated yesterday,
+                    instructing Mr. Lincoln to use his good offices to bring about the resumption of
+                    diplomatic relations between Great Britain and Venezuela, with a view to the
+                    arbitration of the boundary question.</p>
+                <p>I have informed the Venezuelan minister at this capital of the contents of this
+                    telegram. Copies of your Nos. 53 and 63 have been sent to Mr. Lincoln.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">James G. Blaine.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d490-f1" n="*" xml:id="d490-f1-content">
+                <p>See correspondence with the legation of the United States at London.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

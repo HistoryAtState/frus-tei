@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d200" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Minister Reinsch to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d200"
+                    type="canonical"/>
+                <relatedItem target="d199.xml" type="prev"/>
+                <relatedItem target="d200-a1.xml" type="next"/>
+                <relatedItem target="../ch28.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d200</bibl>
+                <bibl type="frus-division-n">200</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="255" to="256" unit="page"
+                        >255–56</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1915-11-18">
+                        <hi rendition="#italic">November 18, 1915</hi></date>
+                    <date notAfter="1915-11-18T23:59:59-05:00" notBefore="1915-11-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d200">
+
+                <pb facs="0371" n="255" sameAs="frus:frus1915/pg255"/>
+
+                <note rend="inline" type="source">File No. 893.543 C 42/7.</note>
+                <head>
+                    <hi rendition="#italic">Minister Reinsch to the Secretary of State.</hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Extract.]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">No. 826.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Peking</hi></placeName>, <date
+                            calendar="gregorian" when="1915-11-18">
+                            <hi rendition="#italic">November 18, 1915</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: In continuation of my dispatch No. 770 of
+                    September 30, concerning the Vaseline trade-mark case, I have the honor to
+                    enclose a translation of the note from the Ministry for Foreign Affairs to the
+                    American Chargé d’Affaires, dated September 22 last, which was substituted for
+                    the form enclosed with the above-mentioned dispatch, and which constitutes the
+                    closing of this case.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Paul S. Reinsch.</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d200-a1.xml" xpointer="d200-a1"/>
+                <xi:include href="d200-a2.xml" xpointer="d200-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

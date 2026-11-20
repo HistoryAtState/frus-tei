@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d275" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill’s Chief of Staff (Ismay) to President Roosevelt’s
+                    Chief of Staff (Leahy)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d275"
+                    type="canonical"/>
+                <relatedItem target="d274.xml" type="prev"/>
+                <relatedItem target="d275-a1.xml" type="next"/>
+                <relatedItem target="../ch5subch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d275</bibl>
+                <bibl type="frus-division-n">275</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="456" to="457" unit="page"
+                        >456–57</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1944-09-15T23:59:59-05:00" notBefore="1944-09-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d275">
+
+                <pb facs="0518" n="456" sameAs="frus:frus1944Quebec/pg456"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head><hi rendition="#italic">Prime Minister Churchill’s Chief of Staff</hi> (<hi
+                        rendition="#italic">Ismay</hi>) <hi rendition="#italic">to President
+                        Roosevelt’s Chief of Staff</hi> (<hi rendition="#italic">Leahy</hi>)</head>
+                <p><hi rendition="#small-caps">Admiral Leahy</hi> I send you herewith a draft which
+                    I suggest we might send to the President and Prime Minister on the idea that
+                    General Marshall put forward at the Combined Chiefs of Staff Meeting this
+                        morning.<anchor n="1" xml:id="d275-f1"/></p>
+                <pb facs="0519" n="457" xml:id="pg457"/>
+                <p>2. Will you let me know if you approve and I will send a copy to the Prime
+                    Minister at once: but naturally I should be grateful for any amendments or
+                    improvements that you think necessary.<anchor n="2" xml:id="d275-f2"/></p>
+                <closer>
+                    <signed>H. L. <hi rendition="#small-caps">Ismay</hi></signed>
+                    <dateline rendition="#float-left">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-09-15">15th September, 1944</date>.</dateline>
+                </closer>
+
+
+                <xi:include href="d275-a1.xml" xpointer="d275-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d275-f1" n="1" xml:id="d275-f1-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg358">p. 358</ref>.</p>
+            </note>
+            <note corresp="#d275-f2" n="2" xml:id="d275-f2-content">
+                <p>No reply by Leahy has been found. Filed with this memorandum in the Roosevelt
+                    Papers, however, is a paper headed “Draft Communiqué to the Press” the body of
+                    which is identical to the Communiqué actually issued at the conclusion of the
+                    Second Quebec Conference. For text of the Communiqué, see <hi
+                        rendition="#italic">post</hi>, <ref target="#pg477">p. 477</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

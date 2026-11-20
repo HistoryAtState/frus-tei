@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1939v02_d39" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Italy (Phillips) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1939v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1939v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1939v02/d39"
+                    type="canonical"/>
+                <relatedItem target="d38.xml" type="prev"/>
+                <relatedItem target="d39-a1.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1939v02</bibl>
+                <bibl type="frus-division-id">d39</bibl>
+                <bibl type="frus-division-n">39</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="57" to="60" unit="page"
+                        >57–60</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Rome</hi></placeName>
+                    <date calendar="gregorian" when="1939-01-05">January 5, 1939</date>
+                    <date notAfter="1939-01-05T23:59:59-05:00" notBefore="1939-01-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d39">
+
+                <pb facs="0065" n="57" sameAs="frus:frus1939v02/pg57"/>
+
+                <note rend="inline" type="source">840.48 Refugees/1306</note>
+                <head><hi rendition="#italic">The Ambassador in Italy</hi> (<hi rendition="#italic"
+                        >Phillips</hi>) <hi rendition="#italic">to the Secretary of
+                    State</hi></head>
+                <opener>
+                    <seg rendition="#float-left">No. 1237</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Rome</hi></placeName>, <date calendar="gregorian" when="1939-01-05"
+                            >January 5, 1939</date>.<lb/>[Received January 18.]</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to my telegram No. 2 of
+                    January 3, 9 p.m.,<anchor n="4" xml:id="d39-f1"/> reporting my conversation with
+                    the Duce on that evening, I have the honor to enclose herewith a memorandum
+                    containing a fuller account of the meeting. As I reported to the Department on
+                    the following day, no mention of my call upon the Duce appeared in the Italian
+                    press, but this morning the papers carried a brief communiqué issued late last
+                    evening in the following sense: <quote rend="blockquote">
+                        <p>“The Duce has received at Palazzo Venezia, in the presence of Count
+                            Ciano, the American Ambassador Mr. Phillips, bearer of a message from
+                            President Roosevelt regarding the European Semitic question and its
+                            possible solutions of general character.”</p>
+                    </quote></p>
+                <p>Respectfully yours,</p>
+                <closer><signed><hi rendition="#small-caps">William Phillips</hi></signed></closer>
+
+
+                <xi:include href="d39-a1.xml" xpointer="d39-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d39-f1" n="4" xml:id="d39-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

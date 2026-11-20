@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1878_comp10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Denmark.</title>
+            </titleStmt>
+            <xi:include href="../frus1878_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1878_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1878/comp10"
+                    type="canonical"/>
+                <relatedItem target="comp9/d100-a2.xml" type="prev"/>
+                <relatedItem target="comp10/d101.xml" type="next"/>
+                <relatedItem target="../frus1878.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1878</bibl>
+                <bibl type="frus-division-id">comp10</bibl>
+                <bibl type="frus-division-n">10</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="155" to="161" unit="page"
+                        >155–61</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1878-11-04T23:59:59-05:00" notBefore="1877-08-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp10">
+
+                <pb facs="0217" n="155" sameAs="frus:frus1878/pg155"/>
+
+                <head>Denmark.</head>
+
+
+
+
+
+
+
+                <xi:include href="comp10/d101.xml" xpointer="d101"/>
+                <xi:include href="comp10/d102.xml" xpointer="d102"/>
+                <xi:include href="comp10/d103.xml" xpointer="d103"/>
+                <xi:include href="comp10/d104.xml" xpointer="d104"/>
+                <xi:include href="comp10/d105.xml" xpointer="d105"/>
+                <xi:include href="comp10/d106.xml" xpointer="d106"/>
+            </div>
+        </body>
+    </text>
+</TEI>

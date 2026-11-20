@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d188" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d188"
+                    type="canonical"/>
+                <relatedItem target="d187.xml" type="prev"/>
+                <relatedItem target="d189.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d188</bibl>
+                <bibl type="frus-division-n">188</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="403" to="404" unit="page"
+                        >403–4</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-07-28">28 July 1943</date>
+                    <date notAfter="1943-07-28T23:59:59-05:00" notBefore="1943-07-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Abraham1">Abraham</term>
+                    <term ref="frus:frus1943/terms#t_FNP1">Former Naval Person</term>
+                    <term ref="frus:frus1943/terms#t_MW1">Mrs. Warden</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d188">
+
+                <pb facs="0517" n="403" sameAs="frus:frus1943/pg403"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d188-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">most secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1943-07-28">28 July 1943</date>.</dateline>
+                </opener>
+                <p>385. Former Naval Person to President Roosevelt personal and most secret.</p>
+                <list>
+                    <label>1.</label>
+                    <item>Colonel and Mrs Warden with Lieut M Warden would like to spend the night
+                        of the 10th at <hi rendition="#small-caps">Abraham</hi> to arrange things,
+                        and could reach you<anchor n="2" xml:id="d188-f2"/> evening of 12th. They
+                        are all looking forward very much to this.</item>
+                    <label>2.</label>
+                    <item>Anthony<anchor n="3" xml:id="d188-f3"/> will fly over to join me at <hi
+                            rendition="#small-caps">Abraham</hi> in time for our general meeting
+                        there. I am bringing Leathers who wants to contact Lew Douglas and also
+                        would like Aver ell<anchor n="4" xml:id="d188-f4"/> to come too if you
+                        approve.</item>
+                    <pb facs="0518" n="404" xml:id="pg404"/>
+                    <label>3.</label>
+                    <item>Looking forward much to hearing you tonight. I was delighted at your
+                        rebuke to the foolish broadcast against the King of Italy.<anchor n="5"
+                            xml:id="d188-f5"/>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d188-f1" n="1" type="source" xml:id="d188-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d188-f2" n="2" xml:id="d188-f2-content">
+                <p>At Hyde Park.</p>
+            </note>
+            <note corresp="#d188-f3" n="3" xml:id="d188-f3-content">
+                <p>Eden.</p>
+            </note>
+            <note corresp="#d188-f4" n="4" xml:id="d188-f4-content">
+                <p>Harriman.</p>
+            </note>
+            <note corresp="#d188-f5" n="5" xml:id="d188-f5-content">
+                <p>The reference is to a remark made by Roosevelt in the course of his 911th press
+                    conference on July 27, 1943. See Rosenman, <ref target="#pg323">p.
+                    323</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

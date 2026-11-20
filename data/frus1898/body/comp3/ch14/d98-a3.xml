@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d98-a3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Form No. 41.]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d98-a3"
+                    type="canonical"/>
+                <relatedItem target="d98-a2.xml" type="prev"/>
+                <relatedItem target="d98-a4.xml" type="next"/>
+                <relatedItem target="d98.xml" type="parent"/>
+                <relatedItem target="d98.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d98-a3</bibl>
+                <bibl type="frus-division-n">98.3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="170" to="170" unit="page"
+                        >170</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d98-a3">
+
+                <pb facs="0266" n="170" xml:id="pg170"/>
+
+                <head>[Form No. 41.]</head>
+                <p rendition="#center">[Minister of agriculture and public works. Service of public
+                    health and hygiene.]</p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">inspection of imported meats.</hi>
+                </p>
+                <p>Statement of taxes for inspection, collected by Mr. ________, veterinarian at
+                    ________, during the month of ________, 189 ________.</p>
+                <p rendition="#right">Custom-House Office ________<anchor n="1" xml:id="d98-f1"/>
+                    <table cols="4" rend="bordered" rows="3">
+                        <row role="label">
+                            <cell rows="2">Dates of importations.</cell>
+                            <cell cols="2">Amount of the—</cell>
+                            <cell rows="2">Observations.<lb/>[Give special information in this
+                                column as to the second inspection; also the name and address of the
+                                second and third inspector.]</cell>
+                        </row>
+                        <row>
+                            <cell>Tax for inspection.</cell>
+                            <cell>Tax for repetition of inspection.</cell>
+                        </row>
+                        <row>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                            <cell/>
+                        </row>
+                    </table>
+                </p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d98-f1" n="1" xml:id="d98-f1-content">
+                <p>The experts charged with the inspection in several localities are requested to
+                    forward this statement to the bureau or subbureau of customs.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

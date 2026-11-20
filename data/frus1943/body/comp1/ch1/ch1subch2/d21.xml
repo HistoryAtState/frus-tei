@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d21" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d21"
+                    type="canonical"/>
+                <relatedItem target="d20.xml" type="prev"/>
+                <relatedItem target="d22.xml" type="next"/>
+                <relatedItem target="../ch1subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d21</bibl>
+                <bibl type="frus-division-n">21</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="18" to="18" unit="page"
+                        >18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-05-04">May 4, 1943</date>
+                    <date notAfter="1943-05-04T23:59:59-05:00" notBefore="1943-05-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_FNP1">Former Naval Person</term>
+                    <term ref="frus:frus1943/terms#t_Prime1">Prime</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d21">
+
+                <pb facs="0120" n="18" sameAs="frus:frus1943/pg18"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d21-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1943-05-04">May 4, 1943</date>.</dateline>
+                </opener>
+                <p>No. 293. Former Naval Person to President personal and most secret.</p>
+                <p>Your no 275. Thank you very much. I look forward to our early meeting. Am
+                    bringing Averell.<anchor n="2" xml:id="d21-f2"/> Accept my warmest
+                    congratulations on the brilliant advance of United States Troops to
+                        Mateur.<anchor n="3" xml:id="d21-f3"/> This will greatly help the thrust
+                    which we shall make soon in the centre.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Prime</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d21-f1" n="1" type="source" xml:id="d21-f1-content">
+                <p>Transmitted via military channels.</p>
+            </note>
+            <note corresp="#d21-f2" n="2" xml:id="d21-f2-content">
+                <p>W. Averell Harriman.</p>
+            </note>
+            <note corresp="#d21-f3" n="3" xml:id="d21-f3-content">
+                <p>The American 1st Armored Division captured Mateur in Tunisia on May 3, 1943. For
+                    the account of this action, see Howe, chapter <hi rendition="#small-caps"
+                        >xxxiii</hi>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d555" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The British Ambassador in Portugal (Campbell) to the British Foreign Office
+                </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d555"
+                    type="canonical"/>
+                <relatedItem target="d554.xml" type="prev"/>
+                <relatedItem target="d556.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d555</bibl>
+                <bibl type="frus-division-n">555</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1190" to="1191" unit="page"
+                        >1190–91</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Lisbon</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-30">August 30, 1943</date>
+                    <date notAfter="1943-08-30T23:59:59-05:00" notBefore="1943-08-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_EW1">EW</term>
+                    <term ref="frus:frus1943/terms#t_WT1">W/T</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d555">
+
+                <pb facs="1304" n="1190" sameAs="frus:frus1943/pg1190"/>
+
+                <note rend="inline" type="source">740.00119 EW/9–143: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The British Ambassador in Portugal</hi> (<hi
+                        rendition="#italic">Campbell</hi>) <hi rendition="#italic">to the British
+                        Foreign Office </hi><anchor n="1" xml:id="d555-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Lisbon</hi></placeName>, <date
+                            calendar="gregorian" when="1943-08-30">August 30,
+                        1943</date>.</dateline>
+                </opener>
+                <p>Same source in Italian Legation<anchor n="2" xml:id="d555-f2"/> has now reported
+                    that news has been received that General C.<anchor n="3" xml:id="d555-f3"/> duly
+                    arrived at his destination.</p>
+                <pb facs="1305" n="1191" xml:id="pg1191"/>
+                <list>
+                    <label>(<hi rendition="#italic">a</hi>)</label>
+                    <item>If there has still been no contact with Algiers by W/T, this may be due
+                        either to <list>
+                            <label>(1)</label>
+                            <item>Signor M.<anchor n="4" xml:id="d555-f4"/> having forgotten his
+                                instructions.</item>
+                            <label>(2)</label>
+                            <item>To his having been caught by Germans en route, if it was he who
+                                was going to take charge of the Instrument [of Surrender?],
+                                or</item>
+                            <label>(3)</label>
+                            <item>To Italian Legation having telegraphed to Rome at General Z.’s
+                                instance to suggest withholding of reply until receipt of long
+                                    terms.<anchor n="5" xml:id="d555-f5"/>
+                            </item>
+                        </list>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d555-f1" n="1" type="source" xml:id="d555-f1-content">
+                <p>Printed from a copy made available to the Department of State on September 1,
+                    1943, by the British Embassy at Washington.</p>
+            </note>
+            <note corresp="#d555-f2" n="2" xml:id="d555-f2-content">
+                <p>Not identified in the source text. Earlier information with reference to the
+                    Italian peace feelers had been passed to the British Embassy at Lisbon by
+                    Raimondo Manzini, Secretary of the Italian Legation there. See <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg1056">p. 1056</ref>.</p>
+            </note>
+            <note corresp="#d555-f3" n="3" xml:id="d555-f3-content">
+                <p>Giuseppe Castellano.</p>
+            </note>
+            <note corresp="#d555-f4" n="4" xml:id="d555-f4-content">
+                <p>Franco Montanari.</p>
+            </note>
+            <note corresp="#d555-f5" n="5" xml:id="d555-f5-content">
+                <p>The “long” or “comprehensive” terms of surrender had been given to General
+                    Giacomo Zanussi at Lisbon on August 27, 1943. See <hi rendition="#italic"
+                        >ante</hi>, <ref target="#pg1181">p. 1181</ref>, fn. 3, and <ref
+                        target="#pg1184">p. 1184</ref>, fn. 13.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

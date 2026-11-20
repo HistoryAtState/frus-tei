@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d855" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Draper.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d855"
+                    type="canonical"/>
+                <relatedItem target="d854-a1.xml" type="prev"/>
+                <relatedItem target="d855-a1.xml" type="next"/>
+                <relatedItem target="../ch78.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d855</bibl>
+                <bibl type="frus-division-n">855</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="733" to="733" unit="page"
+                        >733</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-05-16"><hi rendition="#italic">May 16,
+                            1900</hi></date>
+                    <date notAfter="1900-05-16T23:59:59-05:00" notBefore="1900-05-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d855">
+
+                <pb facs="0831" n="733" sameAs="frus:frus1900/pg733"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. Draper.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-05-16"><hi rendition="#italic">May 16,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 461.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose copy of a letter from the
+                    Secretary of the Navy requesting that the thanks of his Department may be
+                    conveyed to the Italian Government for courtesies shown to the U. S. S. <hi
+                        rendition="#italic">Dixie</hi> by the authorities of the dockyard at
+                    Naples.</p>
+                <p>You will carry out Mr. Long’s wishes.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay</hi>.</signed></closer>
+
+
+                <xi:include href="d855-a1.xml" xpointer="d855-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1878_d448" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 443.</title>
+                <title type="subtitle">Mr. Hoffman to Mr. Evarts.</title>
+            </titleStmt>
+            <xi:include href="../../frus1878_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1878_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1878/d448"
+                    type="canonical"/>
+                <relatedItem target="d447.xml" type="prev"/>
+                <relatedItem target="d449.xml" type="next"/>
+                <relatedItem target="../comp26.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1878</bibl>
+                <bibl type="frus-division-id">d448</bibl>
+                <bibl type="frus-division-n">448</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="761" to="761" unit="page"
+                        >761</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">St. Petersburg</hi></placeName>
+                    <date/>
+                    <date notAfter="1878-06-03T23:59:59-05:00" notBefore="1878-06-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d448">
+
+                <pb facs="0823" n="761" sameAs="frus:frus1878/pg761"/>
+
+                <head>No. 443.<lb/><hi rendition="#italic">Mr. Hoffman to Mr. Evarts</hi>.</head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >St. Petersburg</hi></placeName>.</dateline></opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Evarts</hi>, <hi
+                        rendition="#italic">Washington, United States:</hi></p>
+                <p>Russia accepts Congress condition, study question only. Reserves liberty of
+                    action as regards further measures. Prefers European city.</p>
+                <closer><signed>HOFFMAN.</signed>
+                    <lb/>
+                    <dateline rendition="#float-left">Received <date calendar="gregorian"
+                            type="received-date" when="1878-06-03">June 3, 1878</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

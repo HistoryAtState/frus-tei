@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d647" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. McCreery to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d647"
+                    type="canonical"/>
+                <relatedItem target="d646-a2.xml" type="prev"/>
+                <relatedItem target="d648.xml" type="next"/>
+                <relatedItem target="../ch92.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d647</bibl>
+                <bibl type="frus-division-n">647</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="682" to="682" unit="page"
+                        >682</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1903-12-26"><hi rendition="#italic">December
+                            26, 1903</hi></date>
+                    <date notAfter="1903-12-26T23:59:59-05:00" notBefore="1903-12-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d647">
+
+                <pb facs="0768" n="682" sameAs="frus:frus1903/pg682"/>
+
+                <head><hi rendition="#italic">Mr. McCreery to Mr. Hay.</hi></head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Mexico</hi></placeName>, <date calendar="gregorian"
+                            when="1903-12-26"><hi rendition="#italic">December 26,
+                        1903</hi></date>.</dateline></opener>
+                <p>Note just received from foreign office stating President has granted extradition
+                    Kratz.</p>
+                <closer><signed><hi rendition="#small-caps">McCreery.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

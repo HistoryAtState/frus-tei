@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v03mSupp_d191" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegram 729 from Geneva</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v03mSupp/d191"
+                    type="canonical"/>
+                <relatedItem target="d190.xml" type="prev"/>
+                <relatedItem target="d192.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v03mSupp</bibl>
+                <bibl type="frus-division-id">d191</bibl>
+                <bibl type="frus-division-n">191</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Geneva</placeName>
+                    <date calendar="gregorian" when="1955-09-15">September 15, 1955, 11 a.m.</date>
+                    <date notAfter="1955-09-15T23:59:59-05:00" notBefore="1955-09-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v03mSupp/persons">
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_GFC_1">Gowen, Franklin C.</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_JUA_1">Johnson, U. Alexis</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d191">
+
+                <pb facs="d190-2" n="2" sameAs="frus:frus1955-57v03mSupp/d190-2"/>
+
+                <head>191. Telegram 729 from Geneva<anchor n="1" xml:id="d191-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Geneva</placeName>, <date
+                            calendar="gregorian" when="1955-09-15">September 15, 1955, 11
+                            a.m.</date></dateline>
+                </opener>
+                <pb facs="d191-1" n="1" type="facsimile" xml:id="d191-1"/>
+                <p>729. From Johnson.</p>
+                <p>Word “conferences” in last sentence paragraph 4 my telegram 726 should be
+                    corrected read “conference”, that is singular not (repeat not) plural.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Gowen</hi>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>Note: FE Message Center notified 9/15/9:36 a.m. EMB (CWO)</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d191-f1" n="1" type="source" xml:id="d191-f1-content">
+                <p>Source: Department of State, Central Files, 611.93/9–1555. Confidential;
+                    Priority.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

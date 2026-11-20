@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d1093" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Parker, representing American interests, to the Secretary of State
+                </title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d1093"
+                    type="canonical"/>
+                <relatedItem target="d1092.xml" type="prev"/>
+                <relatedItem target="d1093-a1.xml" type="next"/>
+                <relatedItem target="../ch70.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d1093</bibl>
+                <bibl type="frus-division-n">1093</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="736" to="736" unit="page"
+                        >736</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Mexico City</hi></placeName>
+                    <date calendar="gregorian" when="1916-10-20">
+                        <hi rendition="#italic">October 20, 1916</hi></date>
+                    <date notAfter="1916-10-20T23:59:59-05:00" notBefore="1916-10-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1093">
+
+                <pb facs="0812" n="736" sameAs="frus:frus1916/pg736"/>
+
+                <note rend="inline" type="source">File No. 812.512/1443</note>
+                <head>
+                    <hi rendition="#italic">Mr. Parker, representing American interests, to the
+                        Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 561</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Mexico City</hi></placeName>, <date
+                            calendar="gregorian" when="1916-10-20">
+                            <hi rendition="#italic">October 20, 1916</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to refer to my telegram
+                    No. 480 of October 12, 1916,<anchor n="2" xml:id="d1093-f1"/> relative to the
+                    repayment of taxes paid to other authorities than the Constitutionalists and to
+                    transmit herewith a copy of the decree of June 19, 1915, and translations of the
+                    correspondence with the Department of Hacienda relating thereto.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Charles B. Parker</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d1093-a1.xml" xpointer="d1093-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1093-f1" n="2" xml:id="d1093-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

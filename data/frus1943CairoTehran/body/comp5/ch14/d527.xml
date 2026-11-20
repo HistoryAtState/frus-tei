@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d527" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The British Embassy to the Department of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d527"
+                    type="canonical"/>
+                <relatedItem target="d526.xml" type="prev"/>
+                <relatedItem target="d528.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d527</bibl>
+                <bibl type="frus-division-n">527</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="854" to="855" unit="page"
+                        >854–55</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-12-22">December 22, 1943</date>
+                    <date notAfter="1943-12-22T23:59:59-05:00" notBefore="1943-12-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_BCE2">Bohlen, Charles E.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_EA1">Eden, Anthony</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HC1">Hull, Cordell</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d527">
+
+                <pb facs="0958" n="854" sameAs="frus:frus1943CairoTehran/pg854"/>
+
+                <note rend="inline" type="source">740.00119 EW 1939/2036</note>
+                <head><hi rendition="#italic">The British Embassy to the Department of
+                        State</hi><anchor n="1" xml:id="d527-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1943-12-22">December 22, 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Aide Mémoire</hi></p>
+                <p>The Tehran Conference considered the question of a joint declaration to the
+                    German people on the basis of unconditional surrender. Marshal Stalin informed
+                    President Roosevelt on November 29th that he thought this would be bad tactics
+                    vis-à-vis of Germany and suggested <pb facs="0959" n="855" xml:id="pg855"/>
+                    instead that the Allied Governments concerned should work out terms together and
+                    make them generally known to the German people.<anchor n="2" xml:id="d527-f2"
+                    /></p>
+                <p>Mr. Eden suggests that this matter should be dealt with as soon as possible by
+                    the European Advisory Commission. He hopes that, if the United States Government
+                    agree, they will send appropriate instructions in this sense to their
+                    representative on the Commission.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d527-f1" n="1" type="source" xml:id="d527-f1-content">
+                <p>The statements made in the first paragraph of this document were communicated by
+                    Hull to Roosevelt in a memorandum of December 22, 1943 (not printed
+                    herein.).</p>
+            </note>
+            <note corresp="#d527-f2" n="2" xml:id="d527-f2-content">
+                <p>According to the Bohlen minutes, the subject of unconditional surrender came up
+                    at the dinner meeting of November 28, 1943 (at which Churchill and Stalin
+                    continued to discuss Germany after Roosevelt had retired); see <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg513">p. 513</ref>. For the
+                    British record, indicating that the subject came up on November 29, 1943, see
+                        <hi rendition="#italic">post</hi>, <ref target="#pg863">p. 863</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

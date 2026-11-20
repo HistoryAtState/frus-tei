@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d32" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. McCormick to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d32"
+                    type="canonical"/>
+                <relatedItem target="../ch16.xml" type="prev"/>
+                <relatedItem target="d32-a1.xml" type="next"/>
+                <relatedItem target="../ch16.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d32</bibl>
+                <bibl type="frus-division-n">32</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="34" to="36" unit="page"
+                        >34–36</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Legation</hi>,<lb/><hi
+                            rendition="#italic">Vienna</hi></placeName>
+                    <date calendar="gregorian" when="1902-04-01"><hi rendition="#italic">April 1,
+                            1902</hi></date>
+                    <date notAfter="1902-04-01T23:59:59-05:00" notBefore="1902-04-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d32">
+
+                <pb facs="0114" n="34" sameAs="frus:frus1902/pg34"/>
+
+                <head><hi rendition="#italic">Mr. McCormick to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >United States Legation</hi>,<lb/><hi rendition="#italic"
+                                >Vienna</hi></placeName>, <date calendar="gregorian"
+                            when="1902-04-01"><hi rendition="#italic">April 1,
+                        1902</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Finding that the inclosed communication of
+                    the Neue Wiener Tagblatt from a correspondent in New York had escaped the
+                    attention of the consul-general here, I have the honor to transmit it herewith
+                    for the information of the Department, believing that it contains sufficient
+                    matter of interest, especially as it pertains to the method of the customs
+                    officials in New York in applying and interpreting the tariff laws.</p>
+                <p>It is important that the consular officers in the United States should lose no
+                    opportunity to counteract the effect of such statements as are made in this
+                    article and contradict them when not in accordance with the fact.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Robert S.
+                    McCormick.</hi></signed></closer>
+
+
+                <xi:include href="d32-a1.xml" xpointer="d32-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

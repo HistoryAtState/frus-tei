@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v06_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1981-88v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1981-88v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v06/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1981-88v06.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v06</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1268" to="1268" unit="page"
+                        >1268</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1988-12-16T18:07:00-05:00" notBefore="1986-01-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="1305" n="1268" sameAs="frus:frus1981-88v06/pg1268"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to <ref target="frus:frus1981-88v06">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1981–1988, Volume VI</ref>,
+                    Soviet Union, October 1986–1989.<!--Revised information is in italic.-->
+                </p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#pg1172">Document 173, Footnote 5,
+                                Page 1172</ref> (date of correction: February 4, 2019)</hi>
+                    </item>
+                    <item>The reference to the 15th session of the United Nations General Assembly
+                        is in error. The footnote has been corrected from “Reference is to the 15th
+                        session of the United Nations General Assembly, which ended on June 25” to
+                        “The Conference on Disarmament met in Geneva July 7–September 20 for its
+                        second session of the year.”</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

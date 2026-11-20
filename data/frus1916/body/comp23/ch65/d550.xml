@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d550" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Minister Curtis to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d550"
+                    type="canonical"/>
+                <relatedItem target="../ch65.xml" type="prev"/>
+                <relatedItem target="d550-a1.xml" type="next"/>
+                <relatedItem target="../ch65.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d550</bibl>
+                <bibl type="frus-division-n">550</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="461" to="462" unit="page"
+                        >461–62</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Monrovia</hi></placeName>
+                    <date calendar="gregorian" when="1916-09-30">
+                        <hi rendition="#italic">September 30, 1916</hi></date>
+                    <date notAfter="1916-09-30T23:59:59-05:00" notBefore="1916-09-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d550">
+
+                <pb facs="0537" n="461" sameAs="frus:frus1916/pg461"/>
+
+                <note rend="inline" type="source">File 882.032/18</note>
+                <head>
+                    <hi rendition="#italic">Minister Curtis to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 44</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Monrovia</hi></placeName>, <date
+                            calendar="gregorian" when="1916-09-30">
+                            <hi rendition="#italic">September 30, 1916</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to transmit for the
+                    information of the Department a copy of the annual message delivered by the
+                    President to the Legislature of Liberia in joint session assembled on the 19th
+                    day of September, 1916.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">James L. Curtis</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d550-a1.xml" xpointer="d550-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d17" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d17"
+                    type="canonical"/>
+                <relatedItem target="../ch16.xml" type="prev"/>
+                <relatedItem target="../ch17.xml" type="next"/>
+                <relatedItem target="../ch16.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d17</bibl>
+                <bibl type="frus-division-n">17</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="16" to="16" unit="page"
+                        >16</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1914-07-31">
+                        <hi rendition="#italic">July 31, 1914</hi></date>
+                    <date notAfter="1914-07-31T23:59:59-05:00" notBefore="1914-07-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d17">
+
+                <pb facs="0132" n="16" sameAs="frus:frus1914/pg16"/>
+
+                <note rend="inline" type="source">File No. 811f.812/589b.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1914-07-31">
+                            <hi rendition="#italic">July 31, 1914</hi></date>.</dateline>
+                </opener>
+                <p rendition="#flush">
+                    <hi rendition="#italic">To the Diplomatic Officers of the United
+                    States</hi>.</p>
+                <p>
+                    <hi rendition="#small-caps">Gentlemen</hi>: You are instructed to communicate to
+                    the Governments to which you are respectively accredited the following
+                    information relative to the opening of the Panama Canal, which has been
+                    furnished by the Secretary of War: <quote rend="blockquote">
+                        <p>The Panama Canal will be opened for commerce to vessels not needing more
+                            than 30 feet of water, on and after August 15, 1914.</p>
+                        <p>The official opening of the canal, as heretofore announced, will be in
+                            the month of March, 1915. An appropriate announcement will be made when
+                            a greater depth of water than 30 feet has been secured.</p>
+                    </quote>
+                </p>
+                <p>I am [etc.]</p>
+                <closer>For the Secretary of State: <lb/>
+                    <signed>
+                        <hi rendition="#small-caps">Robert Lansing</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

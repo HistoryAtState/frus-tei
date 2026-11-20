@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_d154" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Minister to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/d154"
+                    type="canonical"/>
+                <relatedItem target="../ch45.xml" type="prev"/>
+                <relatedItem target="d154-a1.xml" type="next"/>
+                <relatedItem target="../ch45.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">d154</bibl>
+                <bibl type="frus-division-n">154</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="135" to="136" unit="page"
+                        >135–36</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Habana</hi></placeName>
+                    <date calendar="gregorian" when="1911-02-11"><hi rendition="#italic">February
+                            11, 1911</hi></date>
+                    <date notAfter="1911-02-11T23:59:59-05:00" notBefore="1911-02-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d154">
+
+                <pb facs="0217" n="135" sameAs="frus:frus1911/pg135"/>
+
+                <note rend="inline" type="source">File No. 811.34537/49.</note>
+                <head><hi rendition="#italic">The American Minister to the Secretary of
+                    State.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                            >Habana</hi></placeName>, <date calendar="gregorian" when="1911-02-11"
+                                ><hi rendition="#italic">February 11, 1911</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 623.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to previous correspondence in
+                    regard to the enlargement of our naval station at Guantánamo, I have the honor
+                    to <pb facs="0218" n="136" xml:id="pg136"/> transmit herewith a copy and
+                    translation of a confidential note dated the 8th instant which I received from
+                    Sr. Sanguily, the Cuban secretary of state, last night * * *.<anchor n="1"
+                        xml:id="d154-f1"/></p>
+                <p>The Secretary in this note refers to the treaty of 1904 in regard to the Isle of
+                    Pines for the first time * * *.</p>
+                <p>I have [etc.],</p>
+                <closer><signed><hi rendition="#small-caps">John B. Jackson.</hi></signed></closer>
+
+
+                <xi:include href="d154-a1.xml" xpointer="d154-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d154-f1" n="1" xml:id="d154-f1-content">
+                <p>The omissions appear under Naval Station at Guantánamo and Claim for the cost of
+                    intervention in Cuba, <ref target="#pg118">pp. 118</ref> and <ref
+                        target="#pg134">134</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

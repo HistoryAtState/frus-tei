@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v11_d232" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>National Security Action Memorandum No. 208</title>
+            </titleStmt>
+            <xi:include href="../../frus1961-63v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1961-63v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v11/d232"
+                    type="canonical"/>
+                <relatedItem target="d231-a2.xml" type="prev"/>
+                <relatedItem target="d232-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v11</bibl>
+                <bibl type="frus-division-id">d232</bibl>
+                <bibl type="frus-division-n">232</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="590" to="591" unit="page"
+                        >590–91</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1962-12-06">December 6, 1962</date>
+                    <date notAfter="1962-12-06T23:59:59-05:00" notBefore="1962-12-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v11/terms">
+                    <term ref="frus:frus1961-63v11/terms#t_EyesOnly1">Eyes Only</term>
+                    <term ref="frus:frus1961-63v11/terms#t_NSAM1">NSAM</term>
+                    <term ref="frus:frus1961-63v11/terms#t_NSC1">NSC</term>
+                    <term ref="frus:frus1961-63v11/terms#t_SS1">S/S</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d232">
+
+                <pb facs="0618" n="590" sameAs="frus:frus1961-63v11/pg590"/>
+
+                <head>232. National Security Action Memorandum No. 208<anchor n="0" xml:id="d232-f1"
+                    /></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1962-12-06">December 6,
+                        1962</date>.</dateline></opener>
+                <list type="to">
+                    <head>TO</head>
+                    <item>The Director of Central Intelligence</item>
+                </list>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Cuban Overflights</item>
+                </list>
+                <p>The President has approved the attached Guidelines for the Planning of the Cuban
+                    Overflights and would like to have an estimate of the adequacy of such a system
+                    of intelligence collection to meet the criteria set forth, on the assumption
+                    that it is supplemented by energetic collection of information by all other
+                    available means.</p>
+                <closer><signed><hi rendition="#bold">McG. B.</hi></signed></closer>
+
+
+                <xi:include href="d232-a1.xml" xpointer="d232-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d232-f1" n="0" type="source" xml:id="d232-f1-content">
+                <p>Source: Department of State, S/S-NSC Files: Lot 72 D 316, NSAM 208. Top Secret;
+                    Sensitive;Eyes Only. Information copies were sent to the other members of the
+                    Executive Committee.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

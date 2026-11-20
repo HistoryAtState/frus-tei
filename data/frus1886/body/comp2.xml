@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1886_comp2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Austria-Hungary</title>
+            </titleStmt>
+            <xi:include href="../frus1886_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1886_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1886/comp2"
+                    type="canonical"/>
+                <relatedItem target="comp1/ch1/d2-a1.xml" type="prev"/>
+                <relatedItem target="comp2/d3.xml" type="next"/>
+                <relatedItem target="../frus1886.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1886</bibl>
+                <bibl type="frus-division-id">comp2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="7" to="13" unit="page"
+                        >7–13</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1886-07-24T23:59:59-05:00" notBefore="1886-07-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp2">
+
+                <pb facs="0091" n="7" sameAs="frus:frus1886/pg7"/>
+
+                <head>Austria-Hungary</head>
+
+
+
+
+
+                <xi:include href="comp2/d3.xml" xpointer="d3"/>
+                <xi:include href="comp2/d4.xml" xpointer="d4"/>
+                <xi:include href="comp2/d5.xml" xpointer="d5"/>
+                <xi:include href="comp2/d6.xml" xpointer="d6"/>
+            </div>
+        </body>
+    </text>
+</TEI>

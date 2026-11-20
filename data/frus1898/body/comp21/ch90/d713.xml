@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d713" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Jones to Mr. Sherman.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d713"
+                    type="canonical"/>
+                <relatedItem target="../ch90.xml" type="prev"/>
+                <relatedItem target="d713-a1.xml" type="next"/>
+                <relatedItem target="../ch90.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d713</bibl>
+                <bibl type="frus-division-n">713</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="841" to="841" unit="page"
+                        >841</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Buenos Ayres</hi></placeName>
+                    <date calendar="gregorian" when="1898-04-28"><hi rendition="#italic">April 28,
+                            1898</hi></date>
+                    <date notAfter="1898-04-28T23:59:59-05:00" notBefore="1898-04-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d713">
+
+                <pb facs="0937" n="841" sameAs="frus:frus1898/pg841"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Jones to Mr. Sherman.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Buenos Ayres</hi></placeName>, <date calendar="gregorian"
+                            when="1898-04-28"><hi rendition="#italic">April 28,
+                        1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 497.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my No. 491, of the 6th
+                    instant, I have the honor to inclose herewith copy and translation of a note
+                    from the minister of foreign relations of yesterday’s date, wherein in reply to
+                    my note of the day before announcing that Congress has declared a state of war
+                    to exist between the United States and Spain, he promptly advises me of his
+                    Government’s attitude of neutrality.</p>
+                <p>I also confirm on the overleaf my telegram of yesterday’s “date advising you of
+                    this fact.</p>
+                <p>I have, etc.,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">François S. Jones.</hi>
+                        <lb/>
+                        <hi rendition="#italic">Chargé d’Affaires ad interim.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d713-a1.xml" xpointer="d713-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

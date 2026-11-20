@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v17p1_d30" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum from the Vice President’s Assistant for National Security Affairs
+                    (Clift) to Vice President Mondale</title>
+            </titleStmt>
+            <xi:include href="../../frus1977-80v17p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1977-80v17p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1977-80v17p1/d30"
+                    type="canonical"/>
+                <relatedItem target="d29.xml" type="prev"/>
+                <relatedItem target="d30-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1977-80v17p1</bibl>
+                <bibl type="frus-division-id">d30</bibl>
+                <bibl type="frus-division-n">30</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="70" to="73" unit="page"
+                        >70–73</biblScope></bibl>
+                <bibl type="frus-identifying-mark">Memo No. 1526–77</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1977-09-27">September 27, 1977</date>
+                    <date notAfter="1977-09-27T23:59:59-05:00" notBefore="1977-09-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1977-80v17p1/persons">
+                    <term ref="frus:frus1977-80v17p1/persons#p_CWM_1">Christopher, Warren M.</term>
+                    <term ref="frus:frus1977-80v17p1/persons#p_CAD_1">Clift, A. Denis</term>
+                    <term ref="frus:frus1977-80v17p1/persons#p_GH_1">Gouled, Hassan</term>
+                    <term ref="frus:frus1977-80v17p1/persons#p_MWF_1">Mondale, Walter F.</term>
+                    <term ref="frus:frus1977-80v17p1/persons#p_MRM_1">Moose, Richard M.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d30">
+
+                <pb facs="0105" n="70" sameAs="frus:frus1977-80v17p1/pg70"/>
+
+                <head>30. Memorandum from the Vice President’s Assistant for National Security
+                    Affairs (Clift) to Vice President Mondale<anchor n="1" xml:id="d30-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <idno type="document-identifier">Memo No. 1526–77</idno>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1977-09-27">September 27, 1977</date>
+                    </dateline>
+                </opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Meeting with President of Djibouti—Additional Background</item>
+                </list>
+                <p>The State Department has forwarded a draft report on President Hassan Gouled’s
+                    meeting with Warren Christopher yesterday (Tab A) together with additional
+                    suggestions for talking points (Tab B).<anchor n="2" xml:id="d30-f2"/>
+                </p>
+                <p>—If President Gouled brings up his request for additional aid, you should say it
+                    will receive the most careful attention, that you know we have experts at work
+                    on the problem and that you are aware that the subject was raised with Mr.
+                    Christopher. Dick Moose can expand on this during the meeting.</p>
+
+
+
+                <xi:include href="d30-a1.xml" xpointer="d30-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d30-f1" n="1" type="source" xml:id="d30-f1-content">
+                <p>Source: Carter Library, Papers of Walter F. Mondale, Box 42, Foreign
+                    Countries—Africa, 7–12/77 [2]. Confidential. Sent for information.</p>
+            </note>
+            <note corresp="#d30-f2" n="2" xml:id="d30-f2-content">
+                <p>Tab B is attached but not printed. See <ref target="#d33">Document 33</ref> for
+                    Mondale’s meeting with President Gouled. In telegram 235953 to Djibouti, October
+                    1, the Department reported on Gouled’s talks with other U.S. officials.
+                    (National Archives, RG 59, Central Foreign Policy File, D770357–1040)</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

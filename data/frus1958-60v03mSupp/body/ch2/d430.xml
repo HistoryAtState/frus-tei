@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d430" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter From Herter to Goodpaster</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d430"
+                    type="canonical"/>
+                <relatedItem target="d429.xml" type="prev"/>
+                <relatedItem target="d430-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d430</bibl>
+                <bibl type="frus-division-n">430</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1959-02-25">February 25, 1959</date>
+                    <date notAfter="1959-02-25T23:59:59-05:00" notBefore="1959-02-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_HCA_1">Herter, Christian A.</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_LJSB_1">Lloyd, John Selwyn
+                        Brooke</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d430">
+
+                <pb facs="1686" n="1581" xml:id="pg1581"/>
+
+                <head>430. Letter From Herter to Goodpaster<anchor n="1" xml:id="d430-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1959-02-25">February 25,
+                        1959</date></dateline>
+                    <salute>Dear Andy:</salute>
+                </opener>
+                <pb facs="d430-1" n="1" type="facsimile" xml:id="d430-1"/>
+                <p>I am enclosing herewith a copy of a message from Prime Minister Selwyn Lloyd
+                    which I received from the British Embassy this morning at the same time that a
+                    copy of the message from the Prime Minister to the President was delivered. I
+                    think the President will want to see it because it has some connection with the
+                    latter message.</p>
+                <p>With warmest personal regards,</p>
+                <p>Most sincerely,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Christian A. Herter</hi>
+                        <lb/>
+                        <hi rendition="#italic">Acting Secretary</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d430-a1.xml" xpointer="d430-a1"/>
+                <xi:include href="d430-a2.xml" xpointer="d430-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d430-f1" n="1" type="source" xml:id="d430-f1-content">
+                <p>Source: Transmits message from Lloyd to Herter providing a readout of Macmillan’s
+                    talks in Moscow. Secret. 4 pp. Eisenhower Library, Herter Papers, Miscellaneous
+                    Memos.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

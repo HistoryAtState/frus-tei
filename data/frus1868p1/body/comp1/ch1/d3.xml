@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1868p1_d3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adams to Mr. Seward</title>
+            </titleStmt>
+            <xi:include href="../../../frus1868p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1868p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1868p1/d3"
+                    type="canonical"/>
+                <relatedItem target="d2.xml" type="prev"/>
+                <relatedItem target="d3-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1868p1</bibl>
+                <bibl type="frus-division-id">d3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="27" to="30" unit="page"
+                        >27–30</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States</hi>, <hi
+                            rendition="#italic">London</hi>,</placeName>
+                    <date calendar="gregorian" when="1867-12-04"><hi rendition="#italic"
+                            >December</hi> 4, 1867.</date>
+                    <date notAfter="1867-12-04T23:59:59-05:00" notBefore="1867-12-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d3">
+
+                <pb facs="0075" n="27" sameAs="frus:frus1868p1/pg27"/>
+
+                <head>Mr. Adams to Mr. Seward</head>
+                <opener>
+                    <seg rendition="#float-left">No. 1488.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States</hi>,
+                                <hi rendition="#italic">London</hi>,</placeName>
+                        <date calendar="gregorian" when="1867-12-04"><hi rendition="#italic"
+                                >December</hi> 4, 1867.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> I have the honor to transmit a document
+                    published for the use of Parliament, containing the latest portion of the
+                    correspondence relative to the questions in dispute between the two
+                    countries.</p>
+                <p>From the tone of the reply of Lord Stanley, in connection with your dispatch,
+                    just received, No. 2093, of the 16th of November, it seems plain that nothing
+                    more can be expected from this negotiation. I shall, therefore, in accordance
+                    with your desire, give it out hereafter as so understood.</p>
+                <p>I have the honor to be, sir, your obedient servant,</p>
+                <closer>
+                    <signed>CHARLES FRANCIS ADAMS.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward</hi>, <hi
+                            rendition="#italic">Secretary of State, Washington, D. C.</hi></p>
+                    <pb facs="0076" n="28" xml:id="pg28"/>
+                    <note rend="inline" type="source">NORTH AMERICA, NO. 2, (1867.)</note>
+                    <note rend="inline" type="source">FURTHER CORRESPONDENCE RESPECTING BRITISH AND
+                        AMERICAN CLAIMS ARISING OUT OF THE LATE CIVIL WAR IN THE UNITED
+                        STATES.</note>
+                </postscript>
+
+
+
+                <xi:include href="d3-a1.xml" xpointer="d3-a1"/>
+                <xi:include href="d3-a2.xml" xpointer="d3-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

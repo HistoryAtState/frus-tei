@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d12"
+                    type="canonical"/>
+                <relatedItem target="d11.xml" type="prev"/>
+                <relatedItem target="d13.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="7" to="7" unit="page"
+                    >7</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Buenos Aires</hi></placeName>
+                    <date calendar="gregorian" when="1917-07-26T10:00:00-04:16">
+                        <hi rendition="#italic">July 26, 1917, 10 a.m.</hi>
+                    </date>
+                    <date notAfter="1917-07-26T09:16:00-05:00" notBefore="1917-07-26T09:16:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d12">
+
+                <pb facs="0173" n="7" sameAs="frus:frus1917/pg7"/>
+
+                <note rend="inline" type="source">File No. 811.3335/28</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Buenos Aires</hi></placeName>, <date
+                            calendar="gregorian" when="1917-07-26T10:00:00-04:16">
+                            <hi rendition="#italic">July 26, 1917, 10 a.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>The President of Argentina after receiving Admiral Caperton and Staff yesterday
+                    asked me to telegraph you for President Wilson an expression of his extreme
+                    satisfaction in welcoming the fleet here and his particular gratification that
+                    the four ships came actually to Buenos Aires. He further desired me to assure
+                    you that the great reception they received came from the heart of the people. He
+                    warmly approved of a procession of two thousand sailors to lay wreaths on the
+                    statues of San Martin and Washington next Sunday and gave orders to the Mayor to
+                    have the line of march prepared.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Stimson</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

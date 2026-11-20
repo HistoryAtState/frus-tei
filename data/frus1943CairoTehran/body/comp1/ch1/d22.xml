@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d22" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d22"
+                    type="canonical"/>
+                <relatedItem target="d21.xml" type="prev"/>
+                <relatedItem target="d23.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d22</bibl>
+                <bibl type="frus-division-n">22</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="18" to="18" unit="page"
+                        >18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-11">11 August 1943</date>
+                    <date notAfter="1943-08-11T23:59:59-05:00" notBefore="1943-08-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RE1">Roosevelt, Elliott</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_UJ1">U. J.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d22">
+
+                <pb facs="0110" n="18" sameAs="frus:frus1943CairoTehran/pg18"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President
+                        Roosevelt</hi><anchor n="1" xml:id="d22-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>,<anchor n="2" xml:id="d22-f2"/>
+                        <date calendar="gregorian" when="1943-08-11">11 August
+                        1943</date>.</dateline>
+                </opener>
+                <p>Former Naval Person to President. Personal and most secret. Number 409.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <p>I have also received what follows in my next from U. J. You will see I am
+                    restored, if not to favour, at any rate to the court. I have sent reply which
+                    also follows.</p>
+                <p>It is quite cool here and very pleasant and everything is ready for you in
+                    Citadel which is admirably suited to our needs. It was indeed a happy
+                    inspiration which led you to suggest this particular rendezvous at this
+                    particular moment in Canadian politics.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d22-f1" n="1" type="source" xml:id="d22-f1-content">
+                <p>Channel of transmission not indicated.</p>
+            </note>
+            <note corresp="#d22-f2" n="2" xml:id="d22-f2-content">
+                <p>The message originated at Quebec but was apparently transmitted via London.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

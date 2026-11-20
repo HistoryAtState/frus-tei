@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app1_d165" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EXHIBIT E.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1902app1/d165"
+                    type="canonical"/>
+                <relatedItem target="d164.xml" type="prev"/>
+                <relatedItem target="d165-a1.xml" type="next"/>
+                <relatedItem target="../s11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app1</bibl>
+                <bibl type="frus-division-id">d165</bibl>
+                <bibl type="frus-division-n">165</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="382" to="386" unit="page"
+                        >382–86</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>St. Petersburg</placeName>
+                    <date ana="#date_undated-inferred-from-document-content"
+                        calendar="julian gregorian" when="1891-11-05">October 24/November 5,
+                        1891</date>
+                    <date notAfter="1891-11-05T23:59:59-05:00" notBefore="1891-11-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d165">
+
+                <pb facs="0408" n="382" sameAs="frus:frus1902app1/pg382"/>
+
+                <head>EXHIBIT E.</head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName>St. Petersburg</placeName>, <date
+                            ana="#date_undated-inferred-from-document-content"
+                            calendar="julian gregorian" when="1891-11-05">October 24/November 5,
+                            1891</date>]</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Note from the Minister of Foreign
+                        Affairs of Russia to the Minister of the United States of North America at
+                        St. Petersburg, October</hi> 24, 1891, No. 3598.</p>
+                <p>I did not fail to communicate to whom it concerned the contents of the letter you
+                    had the kindness to address to me under date of the 7th October.</p>
+                <p>To-day I have the honor to inform you that, according to the information received
+                    from the governor-general of the territory of L’Amour, the crew of the schooner
+                        <pb facs="0409" n="383" xml:id="pg383"/>
+                    <hi rendition="#italic">James Hamilton Lewis</hi>, seized off the Medny Island
+                    for illegal sealing, is now at Vladivostok and receives for its maintenance, the
+                    captain 1 ruble, and the sailors each 50 kopecks per day, and that the necessary
+                    measures have been taken provisorily by the local authorities in order that they
+                    may not lack the necessities.</p>
+                <p>Please to accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">de Giers.</hi></signed></closer>
+
+
+                <xi:include href="d165-a1.xml" xpointer="d165-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

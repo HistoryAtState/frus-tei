@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d256" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Editorial Note</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1943CairoTehran_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d256"
+                    type="canonical"/>
+                <relatedItem target="../ch5subsubch10.xml" type="prev"/>
+                <relatedItem target="../ch5subsubch11.xml" type="next"/>
+                <relatedItem target="../ch5subsubch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d256</bibl>
+                <bibl type="frus-division-n">256</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">editorial-note</bibl>
+                <bibl type="frus-print-pages"><biblScope from="315" to="316" unit="page"
+                        >315–16</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1948-09-24T23:59:59-05:00" notBefore="1943-05-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d256">
+
+                <pb facs="0415" n="315" sameAs="frus:frus1943CairoTehran/pg315"/>
+
+                <head><hi rendition="#italic">Editorial Note</hi></head>
+                <p>The information given here as to the meeting and the participants is taken from
+                    the Log, <hi rendition="#italic">ante</hi>, <ref target="#pg295">p. 295</ref>.
+                    No record of the subjects discussed <pb facs="0416" n="316" xml:id="pg316"/> at
+                    this meeting has been found. See, however, the editorial note on the
+                    Roosevelt–Churchill dinner meeting, <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg307">p. 307</ref>.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

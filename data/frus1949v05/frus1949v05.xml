@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v05" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1949v05_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1949v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1949v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1949v05"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1949v05" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1949v05/covers/frus1949v05.jpg"/>
+                        <extent>
+                            <measure quantity="32736" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:01:40.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1949v05" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1949v05/ebook/frus1949v05.epub"/>
+                        <extent>
+                            <measure quantity="1804863" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:01:41.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1949v05" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1949v05/ebook/frus1949v05.mobi"/>
+                        <extent>
+                            <measure quantity="2636101" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:01:41.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1975 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>acheson-dean-gooderham</term>
+                    <term>albania</term>
+                    <term>bulgaria</term>
+                    <term>finland</term>
+                    <term>hungary</term>
+                    <term>poland</term>
+                    <term>arms-embargoes</term>
+                    <term>atomic-energy</term>
+                    <term>nuclear-weapons</term>
+                    <term>austria</term>
+                    <term>belgium</term>
+                    <term>canada</term>
+                    <term>china</term>
+                    <term>cuba</term>
+                    <term>denmark</term>
+                    <term>foreign-aid</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>military-bases</term>
+                    <term>immigration</term>
+                    <term>india</term>
+                    <term>italy</term>
+                    <term>national-security-policy</term>
+                    <term>netherlands</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>norway</term>
+                    <term>peace</term>
+                    <term>romania</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>truman-harry-s</term>
+                    <term>united-kingdom</term>
+                    <term>united-nations</term>
+                    <term>turkey</term>
+                    <term>russia</term>
+                    <term>slovenia</term>
+                    <term>croatia</term>
+                    <term>bosnia-and-herzegovina</term>
+                    <term>serbia</term>
+                    <term>montenegro</term>
+                    <term>kosovo</term>
+                    <term>macedonia</term>
+                    <term>antisemitism-post-world-war-ii</term>
+                    <term>war-of-1812</term>
+                    <term>genocide</term>
+                    <term>marshall-george-catlett</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1949v05" status="published" when="1975"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1949</titlePart>
+                    <titlePart type="volumeno">Volume V</titlePart>
+                    <titlePart type="volumetitle">Eastern Europe;<lb/>The Soviet Union</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1976</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication 8852 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the<lb/>U.S. Government Book Store<lb/>Department of
+                    State<lb/>Washington, D.C. 20520 - Price $11.25 (Buckram)<lb/>Stock Number
+                    044–000–01647-8</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+        </body>
+        <back>
+            <pb facs="1002" n="988" xml:id="pg988"/>
+            <pb facs="1003" n="[989]" xml:id="pg989"/>
+            <pb facs="1004" n="990" xml:id="pg-seq-1004"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

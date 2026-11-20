@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d140" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Commander in Chief, Allied Forces, North Africa (Eisenhower) to the
+                    President</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d140"
+                    type="canonical"/>
+                <relatedItem target="d139.xml" type="prev"/>
+                <relatedItem target="d141.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d140</bibl>
+                <bibl type="frus-division-n">140</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="97" to="98" unit="page"
+                        >97–98</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Malta</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-18">18 November 1943</date>
+                    <date notAfter="1943-11-18T23:59:59-05:00" notBefore="1943-11-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_EDD1">Eisenhower, Dwight D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d140">
+
+                <pb facs="0189" n="97" sameAs="frus:frus1943CairoTehran/pg97"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">The Commander in Chief, Allied Forces, North
+                        Africa</hi> (<hi rendition="#italic">Eisenhower</hi>) <hi
+                        rendition="#italic">to the President</hi><anchor n="1" xml:id="d140-f1"
+                    /></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">urgent</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Malta</hi></placeName>] <date calendar="gregorian"
+                            when="1943-11-18">18 November 1943</date>.</dateline>
+                </opener>
+                <p>While unquestionably the enemy strongly suspects imminence of Cairo meeting
+                    because of elaborate preparations I consider that arrangements there offer best
+                    degree of security that can be provided in whole region. If deemed desirable I
+                    can lend Mid-East temporarily additional fighters to increase air defence. My
+                    first recommendation is therefore that present plan be followed without change.
+                    If however the President believes a change should be made I recommend meeting
+                    place be Malta for following reasons: (A) Existing facilities plus addition of
+                    British ships in harbour insure improvized accommodations on short notice. (B)
+                    Malta is a fortress with defences <pb facs="0190" n="98" xml:id="pg98"/> that
+                    provide maximum secrecy and high degree of safety regardless of possible leak.
+                    (C) Malta is on route followed by both parties towards Cairo and all
+                    preparations at latter place serve as excellent cover for Malta meeting. (D) I
+                    can provide at Malta maximum density of air cover.</p>
+                <p>I have consulted Former Naval Person who is sending you a message of similar
+                    import.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d140-f1" n="1" type="source" xml:id="d140-f1-content">
+                <p>Sent via Navy channels to the President aboard the U. S. S. <hi
+                        rendition="#italic">Iowa.</hi></p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

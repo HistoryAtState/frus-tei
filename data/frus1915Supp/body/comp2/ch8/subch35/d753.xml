@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp_d753" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Consul General at Hamburg (Morgan) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915Supp/d753"
+                    type="canonical"/>
+                <relatedItem target="d752.xml" type="prev"/>
+                <relatedItem target="d753-a1.xml" type="next"/>
+                <relatedItem target="../subch35.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915Supp</bibl>
+                <bibl type="frus-division-id">d753</bibl>
+                <bibl type="frus-division-n">753</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="520" to="523" unit="page"
+                        >520–23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Hamburg</hi></placeName>
+                    <date calendar="gregorian" when="1915-08-05">
+                        <hi rendition="#italic">August 5, 1915</hi>.</date>
+                    <date notAfter="1915-08-05T23:59:59-05:00" notBefore="1915-08-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1915Supp/persons">
+                    <term ref="frus:frus1915Supp/persons#p_MHH1">Morgan, Henry H.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d753">
+
+                <pb facs="0778" n="520" sameAs="frus:frus1915Supp/pg520"/>
+
+                <note rend="inline" type="source">File No. 300.115/4766</note>
+                <head>
+                    <hi rendition="#italic">The Consul General at Hamburg</hi> (<hi
+                        rendition="#italic">Morgan</hi>) <hi rendition="#italic">to the Secretary of
+                        State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 315]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Hamburg</hi></placeName>, <date
+                            calendar="gregorian" when="1915-08-05">
+                            <hi rendition="#italic">August 5, 1915</hi>.</date>
+                        <lb/> [<hi rendition="#italic">Received August 23.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith
+                    enclosed a copy and translation of the decision rendered by the Hamburg prize
+                    court in the case of the steamer <hi rendition="#italic">Indian Prince.</hi> It
+                    will be seen therefrom that the decision, according to my forecast, is adverse
+                    to the claimants, and this fact I communicated to the Department by cable on
+                    August 3, 1915.<anchor n="1" xml:id="d753-f1"/>
+                </p>
+                <p>It is presumed that the claimants will now appeal to the supreme prize court, who
+                    will, no doubt, affirm the decision of the lower court.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Henry H. Morgan</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d753-a1.xml" xpointer="d753-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d753-f1" n="1" xml:id="d753-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

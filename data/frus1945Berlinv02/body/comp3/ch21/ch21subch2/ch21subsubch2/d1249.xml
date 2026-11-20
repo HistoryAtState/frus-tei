@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d1249" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 1249</title>
+                <title type="subtitle">Prime Minister Churchill to President Truman</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d1249"
+                    type="canonical"/>
+                <relatedItem target="d1248.xml" type="prev"/>
+                <relatedItem target="d1249-a1.xml" type="next"/>
+                <relatedItem target="../ch21subsubch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d1249</bibl>
+                <bibl type="frus-division-n">1249</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1279" to="1281" unit="page"
+                        >1279–81</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Whitehall</hi> [<hi rendition="#italic"
+                            >Babelsberg</hi>]</placeName>
+                    <date calendar="gregorian" when="1945-07-25">July 25, 1945</date>
+                    <date notAfter="1945-07-25T23:59:59-05:00" notBefore="1945-07-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/persons">
+                    <term ref="frus:frus1945Berlinv02/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv02/terms">
+                    <term ref="frus:frus1945Berlinv02/terms#t_PW1">PW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1249">
+
+                <pb facs="1477" n="1279" sameAs="frus:frus1945Berlinv02/pg1279"/>
+
+                <note rend="inline" type="source">740.00119 PW/7–2545</note>
+                <head>No. 1249<lb/><hi rendition="#italic">Prime Minister Churchill to President
+                        Truman</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">most secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Whitehall</hi> [<hi rendition="#italic"
+                            >Babelsberg</hi>]</placeName>, <date calendar="gregorian"
+                            when="1945-07-25">July 25, 1945</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">My Dear Mr. President</hi>, I thank you for your
+                    letter of July 25,<anchor n="1" xml:id="d1249-f1"/>…</p>
+                <p>I return the copy of the Proclamation to Japan by the Heads of Governments of the
+                    United States, the United Kingdom, and the Republic of China, which I received
+                    from you yesterday. I am willing to sign it on behalf of His Majesty’s
+                    Government in its present form, and I hope you will issue it as you propose
+                    whenever you choose and as soon as possible.</p>
+                <p>On a minor point, I suggest that the word “industries” might be added where shown
+                    in paragraph 11, otherwise the word “those” would seem at first sight to apply
+                    to Separations.<anchor n="2" xml:id="d1249-f2"/></p>
+                <p>Yours very sincerely,</p>
+                <closer><signed><hi rendition="#small-caps">Winston S.
+                    Churchill</hi></signed></closer>
+
+
+
+                <xi:include href="d1249-a1.xml" xpointer="d1249-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1249-f1" n="1" xml:id="d1249-f1-content">
+                <p><ref target="#d1248">Document No. 1248</ref>. For the passage omitted here, see
+                        <ref target="#d1184">document No. 1184</ref>.</p>
+            </note>
+            <note corresp="#d1249-f2" n="2" xml:id="d1249-f2-content">
+                <p>This letter bears the following manuscript notation in the top margin:
+                    “Accept”.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

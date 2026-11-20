@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d560" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d560"
+                    type="canonical"/>
+                <relatedItem target="d559.xml" type="prev"/>
+                <relatedItem target="d561.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d560</bibl>
+                <bibl type="frus-division-n">560</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="878" to="878" unit="page"
+                        >878</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-03-07">7 March 1944</date>
+                    <date notAfter="1944-03-07T23:59:59-05:00" notBefore="1944-03-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HWA2">Harriman, W. Averell</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d560">
+
+                <pb facs="0982" n="878" xml:id="pg878"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President
+                        Roosevelt</hi><anchor n="1" xml:id="d560-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1944-03-07">7 March 1944</date>.</dateline>
+                </opener>
+                <p>No. 608. Prime Minister to President Roosevelt personal and most secret. About
+                    the Italian ships.</p>
+                <list>
+                    <label>1.</label>
+                    <item>I have never agreed nor have you ever asked me to agree to a division of
+                        the Italian Fleet into 3 shares. If this claim were to be based on the fact
+                        that we 3 Powers signed the Italian Armistice together, what about all the
+                        other Powers that fought Italy? Greece for instance would have an
+                        irrefutable claim. It was not until after the Cairo conference that I heard
+                        you had mentioned about the ⅓ for Russia. Averell was however able to assure
+                        you that nothing of the sort had been said to the Russians. See your number
+                            437.<anchor n="2" xml:id="d560-f2"/> You are therefore quite uncommitted
+                        so far as they are concerned.</item>
+                    <label>2.</label>
+                    <item>His Majesty’s Government would not be able to agree to a division of the
+                        Italian Fleet by ⅓ or a pro rata division among signatories to the
+                        Armistice.…</item>
+                </list>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <list>
+                    <label>5.</label>
+                    <item>At the Moscow conference the Russians asked for certain specified types of
+                        Italian ships, namely <list>
+                            <item>1 Battleship</item>
+                            <item>1 Cruiser</item>
+                            <item>8 Destroyers</item>
+                            <item>4 Submarines</item>
+                            <item>and 40,000 tons of merchant shipping.</item>
+                        </list></item>
+                </list>
+                <p rendition="#flush">At Teheran we assented to this.…</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d560-f1" n="1" type="source" xml:id="d560-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d560-f2" n="2" xml:id="d560-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg866">p. 866</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

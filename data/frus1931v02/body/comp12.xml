@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1931v02_comp12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Guatemala:</title>
+            </titleStmt>
+            <xi:include href="../frus1931v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1931v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1931v02/comp12"
+                    type="canonical"/>
+                <relatedItem target="comp11/ch30/d404.xml" type="prev"/>
+                <relatedItem target="comp12/ch31.xml" type="next"/>
+                <relatedItem target="../frus1931v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1931v02</bibl>
+                <bibl type="frus-division-id">comp12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="393" to="402" unit="page"
+                        >393–402</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1931-02-14T12:00:00-05:00" notBefore="1931-01-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp12">
+
+                <pb facs="0513" n="393" xml:id="pg393"/>
+
+                <head>Guatemala:</head>
+
+                <xi:include href="comp12/ch31.xml" xpointer="ch31"/>
+            </div>
+        </body>
+    </text>
+</TEI>

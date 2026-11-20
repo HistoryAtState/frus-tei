@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1861_d10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Wright to Mr. Seward.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1861_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1861_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1861/d10"
+                    type="canonical"/>
+                <relatedItem target="d9.xml" type="prev"/>
+                <relatedItem target="d10-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1861</bibl>
+                <bibl type="frus-division-id">d10</bibl>
+                <bibl type="frus-division-n">10</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="41" to="43" unit="page"
+                        >41–43</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#italic">Berlin</hi>,</placeName>
+                    <date calendar="gregorian" when="1861-06-25"><hi rendition="#italic">June</hi>
+                        25, 1861</date>
+                    <date notAfter="1861-06-25T23:59:59-05:00" notBefore="1861-06-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d10">
+
+                <pb facs="0041" n="41" xml:id="pg41"/>
+
+                <head><hi rendition="#italic">Mr. Wright to Mr. Seward</hi>.</head>
+                <note rend="inline" type="source">[Extract.]</note>
+                <opener>
+                    <seg rendition="#float-left">No. 178.]</seg>
+                    <dateline rendition="#float-right"><hi rendition="#small-caps">United States
+                            Legation</hi>,<lb/><placeName><hi rendition="#italic"
+                            >Berlin</hi>,</placeName>
+                        <date calendar="gregorian" when="1861-06-25"><hi rendition="#italic"
+                                >June</hi> 25, 1861</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>:</p>
+                <p rendition="#center">* * * * * * </p>
+                <p>I have received this moment a copy of the <hi rendition="#italic">National
+                        Zeitung,</hi> containing the despatch of Baron Schleinitz to Baron Gerolt;
+                    and also an order from the minister of commerce, addressed to Prussian subjects
+                    engaged in trade and commerce. This is not what I had expected. I was
+                    anticipating a proclamation from the King more full and distinct. This will
+                    doubtless have the desired effect, as it will be published in all the German
+                    journals, and coming from Prussia will be duly respected by the German States
+                    and Free Cities. Their sympathy and spirit is with the United States
+                    government.</p>
+                <p>Mr. Judd is expected on the 27th instant.</p>
+                <p>I have the honor to be, very respectfully, your obedient servant,</p>
+                <closer><signed>JOSEPH A. WRIGHT.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward</hi>,<lb/><hi
+                            rendition="#italic">Secretary of State, Washington City</hi>.</p>
+                </postscript>
+
+
+                <xi:include href="d10-a1.xml" xpointer="d10-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d32" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 32</title>
+                <title type="subtitle">Prime Minister Churchill to President Truman </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d32"
+                    type="canonical"/>
+                <relatedItem target="d31.xml" type="prev"/>
+                <relatedItem target="d33.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d32</bibl>
+                <bibl type="frus-division-n">32</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="63" to="63" unit="page"
+                        >63</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-05-23">23 May 1945</date>
+                    <date notAfter="1945-05-23T23:59:59-05:00" notBefore="1945-05-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_DRK1">Davies, Ralph K.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d32">
+
+                <pb facs="0195" n="63" sameAs="frus:frus1945Berlinv01/pg63"/>
+
+                <note rend="inline" type="source"> Leahy Papers: Telegram</note>
+                <head>No. 32 <lb/>
+                    <hi rendition="#italic">Prime Minister Churchill to President Truman
+                        </hi><anchor n="1" xml:id="d32-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-05-23">23 May 1945</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Truman, personal and top secret, Number 54.</p>
+                <p>Thank you for your Number 46.<anchor n="2" xml:id="d32-f2"/> I shall be delighted
+                    to see Mr. Davies as soon as he arrives.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d32-f1" n="1" type="source" xml:id="d32-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d32-f2" n="2" xml:id="d32-f2-content">
+                <p>
+                    <ref target="#d31">document No. 31</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

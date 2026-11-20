@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1871_d234" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Moran to Mr. Fish</title>
+            </titleStmt>
+            <xi:include href="../../frus1871_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1871_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1871/d234"
+                    type="canonical"/>
+                <relatedItem target="d233.xml" type="prev"/>
+                <relatedItem target="d234-a1.xml" type="next"/>
+                <relatedItem target="../ch18.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1871</bibl>
+                <bibl type="frus-division-id">d234</bibl>
+                <bibl type="frus-division-n">234</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="480" to="481" unit="page"
+                        >480–81</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States</hi>, <hi
+                            rendition="#italic">London,</hi></placeName>
+                    <date calendar="gregorian" when="1871-08-17"><hi rendition="#italic">August</hi>
+                        17, 1871</date>
+                    <date notAfter="1871-08-17T23:59:59-05:00" notBefore="1871-08-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d234">
+
+                <pb facs="0694" n="480" sameAs="frus:frus1871/pg480"/>
+
+                <opener><seg rendition="#center">No. 216.</seg></opener>
+                <head>Mr. Moran to Mr. Fish</head>
+                <opener>
+                    <seg rendition="#float-left">No. 341.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States</hi>,
+                                <hi rendition="#italic">London,</hi></placeName>
+                        <date calendar="gregorian" when="1871-08-17"><hi rendition="#italic"
+                                >August</hi> 17, 1871</date>. (Received August
+                    31.)</dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> I have the honor to send herewith, copy of
+                    a telegram, to General Schenck from Mr. Davis, in regard to the appointment of
+                    the British arbitrator under the treaty of Washington, the original of which was
+                    received and answered by his excellency on the 13th instant. A copy of the
+                    answer is also inclosed.</p>
+                <p>I also send herewith a report from the Times of the 12th instant, of Lord
+                    Granville’s announcement in the House of Lords on the 11th instant, of the
+                    appointment of the lord chief justice of England as arbitrator, and of Sir
+                    Roundell Palmer as counsel for Great Britain under the above-mentioned
+                    treaty.</p>
+                <p>I am, &amp;c.,</p>
+                <closer>
+                    <signed>BENJAMIN MORAN.</signed></closer>
+
+
+
+
+                <xi:include href="d234-a1.xml" xpointer="d234-a1"/>
+                <xi:include href="d234-a2.xml" xpointer="d234-a2"/>
+                <xi:include href="d234-a3.xml" xpointer="d234-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

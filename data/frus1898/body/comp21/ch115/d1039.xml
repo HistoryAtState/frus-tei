@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d1039" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Jones to Mr. Sherman.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d1039"
+                    type="canonical"/>
+                <relatedItem target="d1038.xml" type="prev"/>
+                <relatedItem target="d1039-a1.xml" type="next"/>
+                <relatedItem target="../ch115.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d1039</bibl>
+                <bibl type="frus-division-n">1039</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1046" to="1047" unit="page"
+                        >1046–47</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Buenos Ayres</hi></placeName>
+                    <date calendar="gregorian" when="1898-04-05"><hi rendition="#italic">April 5,
+                            1898</hi></date>
+                    <date notAfter="1898-04-05T23:59:59-05:00" notBefore="1898-04-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1039">
+
+                <pb facs="1142" n="1046" sameAs="frus:frus1898/pg1046"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Jones to Mr. Sherman.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Buenos Ayres</hi></placeName>, <date calendar="gregorian"
+                            when="1898-04-05"><hi rendition="#italic">April 5,
+                        1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 476.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to acknowledge the receipt
+                    of your No. 318 of February 24 last and to transmit herewith copy of my note to
+                    the <pb facs="1143" n="1047" xml:id="pg1047"/> minister of foreign relations
+                    conveying to his excellency the grateful appreciation of the Government of the
+                    United States for the tender of sympathy on behalf of the Government of the
+                    Argentine Republic in the recent disaster to the U. S. S. <hi
+                        rendition="#italic">Maine</hi>.</p>
+                <p>I have, etc.,</p>
+                <closer>
+                    <signed><hi rendition="#small-caps">François S. Jones</hi>,<lb/><hi
+                            rendition="#italic">Chargé d’Affaires ad interim.</hi></signed>
+                </closer>
+
+
+                <xi:include href="d1039-a1.xml" xpointer="d1039-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

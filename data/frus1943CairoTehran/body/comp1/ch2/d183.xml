@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d183" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Secretary of State to the President</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d183"
+                    type="canonical"/>
+                <relatedItem target="d182.xml" type="prev"/>
+                <relatedItem target="d184.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d183</bibl>
+                <bibl type="frus-division-n">183</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="147" to="147" unit="page"
+                        >147</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-02">2 November 1943</date>
+                    <date notAfter="1943-11-02T23:59:59-05:00" notBefore="1943-11-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_HC1">Hull, Cordell</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d183">
+
+                <pb facs="0239" n="147" xml:id="pg147"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">The Secretary of State to the President</hi><anchor
+                        n="1" xml:id="d183-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">urgent</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Moscow</hi></placeName>, <date calendar="gregorian"
+                            when="1943-11-02">2 November 1943</date>.</dateline>
+                </opener>
+                <p>Most secret for the President only from Hull</p>
+                <p>A message has been given me from the person highest in authority to be delivered
+                    to you personally in extreme secrecy. The message promises to get in and help to
+                    defeat the enemy.</p>
+                <p>Remainder follows in another code.<anchor n="2" xml:id="d183-f2"/></p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d183-f1" n="1" type="source" xml:id="d183-f1-content">
+                <p>Sent by the United States Naval Attaché Moscow, via Navy channels.</p>
+            </note>
+            <note corresp="#d183-f2" n="2" xml:id="d183-f2-content">
+                <p>Hull wrote, in his <hi rendition="#italic">Memoirs</hi>, vol. <hi
+                        rendition="#small-caps">ii</hi>, p. 1311: “The information Stalin had given
+                    me on his decision regarding Japan I regarded as so secret that I sent one-half
+                    of it to the President over the Navy code and the other half over the Army
+                    code.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

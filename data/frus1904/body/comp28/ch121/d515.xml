@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d515" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Loomis to Mr. Newel.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d515"
+                    type="canonical"/>
+                <relatedItem target="../ch121.xml" type="prev"/>
+                <relatedItem target="d516.xml" type="next"/>
+                <relatedItem target="../ch121.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d515</bibl>
+                <bibl type="frus-division-n">515</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="505" to="505" unit="page"
+                        >505</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1903-08-13"><hi rendition="#italic">August 13,
+                            1903</hi></date>
+                    <date notAfter="1903-08-13T23:59:59-05:00" notBefore="1903-08-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d515">
+
+                <pb facs="0593" n="505" sameAs="frus:frus1904/pg505"/>
+
+                <head><hi rendition="#italic">Mr. Loomis to Mr. Newel.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1903-08-13"><hi rendition="#italic">August 13,
+                        1903</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 379.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: The Department transmits herewith a printed
+                    copy of The Hague protocols.<anchor n="a" xml:id="d515-f1"/> Certified copies
+                    are on the way from Venezuela and will be forwarded to you as soon as
+                    received.</p>
+                <p>The arbitrators have not yet been named. As soon as they are named you will
+                    furnish, on behalf of Venezuela, to the International Bureau, a copy of these
+                    protocols, with the request that the proper steps be taken for the installation
+                    of the court. As soon as the Department is advised of the appointment of the
+                    arbitrators, it will cable you their names, on receipt of which you will carry
+                    out this instruction.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Francis B. Loomis</hi>,<lb/><hi
+                            rendition="#italic">Acting Secretary.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d515-f1" n="a" xml:id="d515-f1-content">
+                <p>Printed in <ref target="frus1903#pg_439">Foreign Relations, 1903, pp. 439</ref>,
+                        <ref target="frus1903#pg_477">477</ref>, <ref target="frus1903#pg_611"
+                        >611</ref>, and <ref target="frus1903#pg_804">804</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

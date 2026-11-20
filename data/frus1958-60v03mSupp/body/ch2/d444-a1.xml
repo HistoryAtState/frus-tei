@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d444-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Report Prepared by the Panel on Seismic Improvement</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d444-a1"
+                    type="canonical"/>
+                <relatedItem target="d444.xml" type="prev"/>
+                <relatedItem target="d445.xml" type="next"/>
+                <relatedItem target="d444.xml" type="parent"/>
+                <relatedItem target="d444.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d444-a1</bibl>
+                <bibl type="frus-division-n">444.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label">Enclosure</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1959-03-24">March 24, 1959</date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_BLV_1">Berkner, Lloyd V.</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_BHA_1">Bethe, Hans A.</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_LA_1">Latter, Albert</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_HE_1">HE</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d444-a1">
+
+                <pb facs="1711" n="1606" sameAs="frus:frus1958-60v03mSupp/pg1606"/>
+
+
+                <head>Report Prepared by the Panel on Seismic Improvement</head>
+                <opener>
+                    <dateline rendition="#float-right"><date calendar="gregorian" when="1959-03-24"
+                            >March 24, 1959</date></dateline>
+                </opener>
+                <pb facs="d444-3" n="3" type="facsimile" xml:id="d444-3"/>
+                <p rendition="#center"><hi rendition="#italic">Certain Aspects of the Concealment of
+                        Underground Explosions</hi></p>
+                <p>1. <hi rendition="#italic">Method</hi>. It is proposed to reduce the seismic
+                    signal from an underground explosion by setting the explosion off in an
+                    underground cavity of such size that the pressure on the wall of the cavity
+                    never exceeds the plastic yield stress of the surrounding medium. To reduce the
+                    pressure on the wall, it is proposed to fill the cavity with gas in such a
+                    manner that the explosive force is transmitted by radiation rather than by a gas
+                    shock. This requires a light gas such as hydrogen, or reduced gas pressure, or
+                    both.</p>
+                <p>2. <hi rendition="#italic">Estimate of Seismic Signal</hi>. The seismic signal
+                    generated in the medium has been estimated by applying the theory of elasticity
+                    to the medium. This is justified, as the medium never suffers a non-elastic
+                    deformation. Elastic theory permits us to calculate the energy per unit
+                    frequency E (ν) for which we find</p>
+                <figure xml:id="eq01">
+                    <graphic url="eq_01"/>
+                </figure>
+                <p>where δ is the density of the medium, c its sound velocity, W the energy released
+                    in the explosion, γ refers to the equation of the state of the gas and ω is the
+                    circular frequency.</p>
+                <p>It will be noted that (1) is independent of the radius of the hole; once the hole
+                    is big enough to insure elasticity of the medium, it no longer matters how big
+                    it is chosen. It is further seen that the amplitude of the elastic wave which is
+                    proportional to (1) is directly proportional to the energy released and is also
+                    proportional to the frequency. The latter dependence will hold as long as the
+                    frequency is less than the characteristic frequency of the hole, c/R, where R is
+                        <pb facs="1712" n="1607" type="typeset" xml:id="pg1607"/> the radius of the
+                    hole; the dependence on ω insures small amplitude for low frequency.</p>
+                <pb facs="d444-4" n="4" type="facsimile" xml:id="d444-4"/>
+                <p>We have compared the result (1) with the empirical result from the Rainier
+                    experiment. It can be shown again from elastic theory that</p>
+                <figure xml:id="eq02">
+                    <graphic url="eq_02"/>
+                </figure>
+                <p>where D is the total displacement of the rock measured at a distance r from the
+                    explosion. It has been assumed that ω is less than the critical frequency of the
+                    wave generated by the explosion, which in the case of Rainier was about ω x = 25
+                        sec<hi rendition="#superscript">−1</hi>. In the Rainier experiment, D was
+                    observed to be 15 cm. at r = 110 m. Using this information and the theoretical
+                    equation (1) and assuming the medium in which the hole is made to be hard rock
+                    of δ = 2, c = 5 km/sec, we find that the signal (1) is about 700 times smaller
+                    than the signal (2).</p>
+                <p>3. <hi rendition="#italic">Detectability</hi>. In the Geneva net of stations one
+                    has to rely on receiving signals at distances more than 2000 km. At such
+                    distances only frequencies of less than 1 cps can be easily received. If we
+                    apply the theoretical factor of 700 and if we assume that the Geneva net can
+                    detect explosions of 5 kt and above, then explosions in a cavity could be
+                    concealed up to yields of 3.5 megatons. There are other limitations which make
+                    it very difficult to use this method of concealment for such large explosions,
+                    particularly the size and cost of the required hole which will be discussed
+                    below.</p>
+                <p>If there were a net of auxiliary stations of spacing 170 km, it is expected such
+                    a net could detect first motion from 1 kt explosions. Moreover, such a group of
+                    stations respond to high frequencies of the order of 10 cps. In this case, the
+                    frequency is higher than the critical frequency of an unconcealed 1 kt
+                    explosion. Generally in Rainier surroundings the critical frequency is about</p>
+                <figure xml:id="eq03">
+                    <graphic url="eq_03"/>
+                </figure>
+                <p>where W is in kilotons. If ν &gt; ν<hi rendition="#subscript">x</hi>, the
+                    concealment factor is reduced to</p>
+                <figure xml:id="eq04">
+                    <graphic url="eq_04"/>
+                </figure>
+                <p>and therefore at 1 kt to 350. In this case an explosion of 350 kt can be made to
+                    look like 1 kt and will therefore be just detectable.</p>
+                <p>4. <hi rendition="#italic">Limitations of the Method.</hi>
+                    <list>
+                        <label><hi rendition="#italic">a</hi>.</label>
+                        <item><hi rendition="#italic">Radiation wave</hi>. It seems important to
+                            avoid an appreciable material shock wave in the cavity, and thus to use
+                            gas at reduced density as described above.</item>
+                        <pb facs="d444-5" n="5" type="facsimile" xml:id="d444-5"/>
+                        <label><hi rendition="#italic">b</hi>.</label>
+                        <item><hi rendition="#italic">Temperature at wall</hi>. In a cavity designed
+                            to have 50 atmospheres static pressure and air at 1/100 normal density,
+                            the temperature will <pb facs="1713" n="1608" type="typeset"
+                                xml:id="pg1608"/> be 10 ev. Such a high temperature may remove solid
+                            material from the cavity surface which would come off with appreciable
+                            momentum and thus might give a recoil to the wall, which would increase
+                            the seismic wave. Estimates indicate that this ablation of the wall is
+                            probably not important. If it should turn out to be appreciable, it
+                            could be minimized by providing thin foils inside the cavity to absorb
+                            some of the heat.</item>
+                        <label><hi rendition="#italic">c</hi>.</label>
+                        <item><hi rendition="#italic">Plastic deformation</hi>. It is important that
+                            the wall suffer no appreciable plastic deformation. The elastic behavior
+                            of rock is not known to us sufficiently to assess the limitation which
+                            this puts on the pressure in the cavity. Experiments would be
+                            important.</item>
+                        <label><hi rendition="#italic">d</hi>.</label>
+                        <item><hi rendition="#italic">Cracks in rock</hi>. If the rock wall has
+                            cracks that are likely to open on application of internal pressure, this
+                            would eliminate the hoop stresses around the cavity and would permit
+                            very much larger expansion of the cavity radius. This would increase the
+                            signal transmitted to a distance in proportion to the expansion. We are
+                            entirely ignorant on the occurrence of cracks in rock, and here again
+                            only experiment can determine the limitations from this cause. We
+                            believe that it should be permissible in any case to apply a pressure
+                            equal to the lithostatic ambient pressure which is about 1 atmosphere
+                            per 5 meters depth. It is suggested that salt may be particularly free
+                            of cracks, especially if it is leached out by water.</item>
+                    </list></p>
+                <p>5. <hi rendition="#italic">Maximum permissible pressure</hi>. We do not know the
+                    maximum pressure in the cavity which is permissible to insure elastic behaviour
+                    of the rock. It is important to know this pressure because the cavity volume is
+                    inversely proportional to the pressure, and the cost of excavating the cavity
+                    will be approximately proportional to its volume. If we assume that 50
+                    atmospheres is a permissible pressure, the required radius will be 33 meters for
+                    1 kt which corresponds to a volume of 150,000 cubic meters.</p>
+                <p>6. <hi rendition="#italic">Deficiencies in the theory</hi>. The following
+                    deficiencies in the theory are known to us which can probably be removed by
+                    further theoretical work: <list>
+                        <label>a.</label>
+                        <item>The generation of surface waves, in particular of a long period, has
+                            not been investigated. These waves may be important for
+                            detection.</item>
+                        <label>b.</label>
+                        <item>The ablation of the surface of the cavity due to high temperature must
+                            be determined, in order to assess whether it is necessary to provide
+                            foils.</item>
+                        <label>c.</label>
+                        <item>A calculation should be made of the effect of shocks in the gas in the
+                            cavity. Also, the impulse carried by the expanding bomb material should
+                            be considered.</item>
+                        <pb facs="1714" n="1609" type="typeset" xml:id="pg1609"/>
+                        <pb facs="d444-6" n="6" type="facsimile" xml:id="d444-6"/>
+                        <label>d.</label>
+                        <item>It is somewhat remarkable that the shock predicted by our theory is
+                            about 30 times less than earth shock observed from air explosions of the
+                            same yield. This paradox should be cleared up.</item>
+                    </list></p>
+                <p>7. <hi rendition="#italic">Construction of Cavity</hi>. A hole of one million
+                    cubic meters would be required to contain an explosion of about 7 kilotons at 50
+                    atmospheres pressure. One method of obtaining a hole of this size, which has
+                    been looked into in a preliminary manner, is to wash it out in a large salt
+                    dome. Salt is believed to have the required properties of high strength and
+                    freedom from cracks. In addition, there is some experience with excavating large
+                    holes in salt by dissolving out the solid material. The principal problem is to
+                    locate a salt dome near an adequate supply of water. (This can be sea
+                    water.)</p>
+                <p>An estimate of the cost of excavating such a cavity on an urgent time scale was
+                    made in another connection. It was estimated that it would require 6 months to a
+                    year to do the excavation and would cost between 4 and 7 million dollars so that
+                    the cost is about a million dollars per kiloton if the pressure has to be held
+                    to 50 atmospheres. It is probably possible to reduce the cost by increasing the
+                    time required, and a much more thorough investigation should be made to
+                    establish more accurate costs.</p>
+                <p>It may be possible to use ice instead of salt for the containing media. This
+                    possibility should be investigated since it would increase the availability of
+                    sites and may decrease the cost.</p>
+                <p>8. <hi rendition="#italic">Test Requirements</hi>. Because of the potential
+                    effect on the capability of a detection system, the Panel recommends an
+                    immediate experimental and theoretical program to evaluate quantitatively the
+                    possible decoupling by means of a properly designed cavity. The program should
+                    include an extensive series of HE tests leading up to full-scale nuclear shots.
+                    The HE tests should be closely coordinated with theoretical predictions to
+                    provide valuable information for the design of a nuclear test. Final
+                    verification that all of the conditions for decoupling are satisfied will
+                    undoubtedly require full-scale nuclear shots.</p>
+                <p>9. <hi rendition="#italic">Other Methods</hi>. The Panel has briefly considered a
+                    variety of additional concealment methods. These included: the use of noise
+                    cover from large earthquakes, from after shock sequences, from artificial
+                    explosions, from volcanic explosion, and from local meteorological conditions;
+                    the location of test sites to take advantage of such noise cover and to minimize
+                    the effectiveness of the control net; the introduction of confusing signals into
+                    the network by an explosion pattern; the effect of geologic structures on wave
+                    propagation; the possible effects of the surface reflection from flat and curved
+                    surfaces <pb facs="1715" n="1610" type="typeset" xml:id="pg1610"/> on the
+                    initial P wave at distant stations; the possibility of decreasing the initial
+                    compression and accentuating the <pb facs="d444-7" n="7" type="facsimile"
+                        xml:id="d444-7"/> subsequent rarefaction by an array of explosion points;
+                    the possibility of producing an initial rarefaction wave by venting a large
+                    cavity of high pressure gas in the vicinity of the nuclear explosion; the
+                    possibility of venting an underground explosion chamber into tunnels. A
+                    quantitative evaluation of these methods requires an extensive experimental and
+                    theoretical program. The preliminary examination suggests that many of these
+                    methods will make detection and identification substantially more difficult than
+                    tests under Rainier conditions. In general, the methods seem to have somewhat
+                    compensating disadvantages. Of the many possibilities, the Panel recommends
+                    special emphasis in the immediate future be given to the study of the effect of
+                    the surface on underground explosions and the possibility of venting the
+                    explosion chamber into underground tunnels.</p>
+                <closer>
+                    <signed>
+                        <list>
+                            <item><hi rendition="#bold">Lloyd V. Berkner,</hi>
+                                <lb/>
+                                <hi rendition="#italic">Chairman</hi></item>
+                            <item><hi rendition="#bold">Hugo Benioff</hi></item>
+                            <item><hi rendition="#bold">Hans A. Bethe</hi></item>
+                            <item><hi rendition="#bold">W. Maurice Ewing</hi></item>
+                            <item><hi rendition="#bold">John Gerrard</hi></item>
+                            <item><hi rendition="#bold">David T. Griggs</hi></item>
+                            <item><hi rendition="#bold">Jack H. Hamilton</hi></item>
+                            <item><hi rendition="#bold">Warren Heckrotte</hi></item>
+                            <item><hi rendition="#bold">Montgomery Johnson</hi></item>
+                            <item><hi rendition="#bold">Albert Latter</hi></item>
+                            <item><hi rendition="#bold">Julius P. Molnar</hi></item>
+                            <item><hi rendition="#bold">Walter H. Munk</hi></item>
+                            <item><hi rendition="#bold">Jack E. Oliver</hi></item>
+                            <item><hi rendition="#bold">Frank Press</hi></item>
+                            <item><hi rendition="#bold">Carl F. Romney</hi></item>
+                            <item><hi rendition="#bold">Kenneth Street, Jr.</hi></item>
+                            <item><hi rendition="#bold">John W. Tukey</hi></item>
+                        </list>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

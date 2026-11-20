@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d895" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 895</title>
+                <title type="subtitle">Memorandum by the United States Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d895"
+                    type="canonical"/>
+                <relatedItem target="d894-a4.xml" type="prev"/>
+                <relatedItem target="d895-a1.xml" type="next"/>
+                <relatedItem target="../ch20subsubch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d895</bibl>
+                <bibl type="frus-division-n">895</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="835" to="837" unit="page"
+                        >835–37</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Babelsberg</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-17">17 July 1945</date>
+                    <date notAfter="1945-07-17T23:59:59-05:00" notBefore="1945-07-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/terms">
+                    <term ref="frus:frus1945Berlinv02/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1945Berlinv02/terms#t_JCS1">JCS</term>
+                    <term ref="frus:frus1945Berlinv02/terms#t_Terminal1">Terminal</term>
+                    <term ref="frus:frus1945Berlinv02/terms#t_War1">War</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d895">
+
+                <pb facs="1029" n="835" sameAs="frus:frus1945Berlinv02/pg835"/>
+
+                <note rend="inline" type="source">J. C. S. Files</note>
+                <head>No. 895<lb/><hi rendition="#italic">Memorandum by the United States Chiefs of
+                        Staff</hi><anchor n="1" xml:id="d895-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/> C. C. S. 706/14 (<hi rendition="#small-caps">Terminal</hi>)</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Babelsberg</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-07-17">17 July 1945</date>.</dateline>
+                </opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Disposal of Enemy War Materiel in
+                        Germany and Austria</hi></p>
+                <p rendition="#flush">Reference:</p>
+                <p>CCS 706/11<anchor n="2" xml:id="d895-f2"/></p>
+                <p>The United States Chiefs of Staff recommend that the Combined Chiefs of Staff
+                    approve Appendices “A” and “B” to C. C. S. 706/11 as amended herein.</p>
+
+
+
+
+                <xi:include href="d895-a1.xml" xpointer="d895-a1"/>
+                <xi:include href="d895-a2.xml" xpointer="d895-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d895-f1" n="1" type="source" xml:id="d895-f1-content">
+                <p>Considered by the Combined Chiefs of Staff at their 197th Meeting, July 20. See
+                        <hi rendition="#italic">ante</hi>, <ref target="#pg162">p. 162</ref>.</p>
+            </note>
+            <note corresp="#d895-f2" n="2" xml:id="d895-f2-content">
+                <p><ref target="frus1945Berlinv01#d361">document No. 361, printed in vol. <hi
+                            rendition="#small-caps">i</hi></ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

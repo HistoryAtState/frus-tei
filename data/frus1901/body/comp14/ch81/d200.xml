@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d200" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Lord Pauncefote.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d200"
+                    type="canonical"/>
+                <relatedItem target="d199-a1.xml" type="prev"/>
+                <relatedItem target="d201.xml" type="next"/>
+                <relatedItem target="../ch81.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d200</bibl>
+                <bibl type="frus-division-n">200</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="210" to="211" unit="page"
+                        >210–11</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1901-01-23"><hi rendition="#italic">January 23,
+                            1901</hi></date>
+                    <date notAfter="1901-01-23T23:59:59-05:00" notBefore="1901-01-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d200">
+
+                <pb facs="0290" n="210" sameAs="frus:frus1901/pg210"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Lord Pauncefote.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1901-01-23"><hi rendition="#italic">January 23,
+                        1901</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 2055.]</seg></opener>
+                <p><hi rendition="#small-caps">Excellency</hi>: I have the honor to acknowledge the
+                    receipt of your note of yesterday’s date by which you formally convey to me the
+                    sad intelligence of the death of the Queen.</p>
+                <p>The President had already telegraphed condolences to His Majesty the King on
+                    receiving the first confirmed intelligence of her late Majesty’s demise, and I
+                    had instructed Mr. Choate to express to Lord Lansdowne the profound sorrow of
+                    the Government and people of the United States and the deep sympathy we feel for
+                    the people of the British Empire in their great affliction.</p>
+                <p>As a further proof of the high regard and respect entertained for the Queen by
+                    the people of the United States, I beg to inclose for <pb facs="0291" n="211"
+                        xml:id="pg211"/> your information a copy of a resolution<anchor n="a"
+                        xml:id="d200-f1"/> adopted on yesterday by the House of Representatives. The
+                    text of this resolution has been cabled in full to Mr. Choate for communication
+                    to Lord Lansdowne in advance of the formal communication of an engrossed
+                    copy.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d200-f1" n="a" xml:id="d200-f1-content">
+                <p>Printed ante.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

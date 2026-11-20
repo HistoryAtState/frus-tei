@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Generalissimo Chiang</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d16"
+                    type="canonical"/>
+                <relatedItem target="d15.xml" type="prev"/>
+                <relatedItem target="d17.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d16</bibl>
+                <bibl type="frus-division-n">16</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="13" unit="page"
+                        >13</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-06-30">June 30, 1943</date>
+                    <date notAfter="1943-06-30T23:59:59-05:00" notBefore="1943-06-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CKS1">Chiang Kai-shek</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_Generalissimo1">Generalissimo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d16">
+
+                <pb facs="0105" n="13" sameAs="frus:frus1943CairoTehran/pg13"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Generalissimo
+                        Chiang</hi><anchor n="1" xml:id="d16-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-06-30">June 30, 1943</date>.</dateline>
+                </opener>
+                <p>Personal and secret to the Generalissimo from the President I have concluded a
+                    series of very satisfactory talks with Mme Chiang Kai-Shek<anchor n="2"
+                        xml:id="d16-f2"/> which she will tell you about.</p>
+                <p>I have told her of my anxiety to meet you sometime this fall. I think it is very
+                    important that we get together. If you agree with this I suggest some place
+                    midway between our two capitals. I would appreciate very much hearing from you
+                    relative to this proposal.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d16-f1" n="1" type="source" xml:id="d16-f1-content">
+                <p>Sent to the American Military Mission to China via Army channels as War
+                    Department telegram 2917 to the Mission.</p>
+            </note>
+            <note corresp="#d16-f2" n="2" xml:id="d16-f2-content">
+                <p>In February and May 1943.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

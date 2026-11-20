@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1951v01_d64" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chairman of the Council of Economic Advisers (Keyserling) to the
+                    President </title>
+            </titleStmt>
+            <xi:include href="../../frus1951v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1951v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1951v01/d64"
+                    type="canonical"/>
+                <relatedItem target="d63.xml" type="prev"/>
+                <relatedItem target="d64-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1951v01</bibl>
+                <bibl type="frus-division-id">d64</bibl>
+                <bibl type="frus-division-n">64</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="245" to="254" unit="page"
+                        >245–54</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1951-11-02">November 2, 1951</date>
+                    <date notAfter="1951-11-02T23:59:59-05:00" notBefore="1951-11-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1951v01/terms">
+                    <term ref="frus:frus1951v01/terms#t_PSF1">PSF</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d64">
+
+                <pb facs="0261" n="245" sameAs="frus:frus1951v01/pg245"/>
+
+                <note rend="inline" type="source">Truman Library, Truman Papers, PSF-Subject
+                    File</note>
+                <head>
+                    <hi rendition="#italic">The Chairman of the Council of Economic Advisers</hi>
+                        (<hi rendition="#italic">Keyserling</hi>) <hi rendition="#italic">to the
+                        President </hi><anchor n="1" xml:id="d64-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1951-11-02">November 2,
+                        1951</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Dear Mr. President:</hi> I am sending you herewith
+                    an original and two copies of a letter from me to you, also dated November 2,
+                    and designated as “Top Secret”.</p>
+                <p>I am sending this letter to you this evening because I am earnestly hopeful that
+                    you will be able to read it during the weekend and prior to your important
+                    conferences starting next Monday.<anchor n="2" xml:id="d64-f2"/> The letter is
+                    fairly long, but I feel morally convinced that it contains material which you
+                    will consider important at this time, whether you agree with all of it or
+                    not.</p>
+                <p>If you want to cut my head off after you read it, that will be all right too.</p>
+                <p>Respectfully yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Leon</hi> H. <hi rendition="#small-caps"
+                            >Keyserling</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d64-a1.xml" xpointer="d64-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d64-f1" n="1" type="source" xml:id="d64-f1-content">
+                <p>The President made the following handwritten notation on the source text: “Copy
+                    Referred to Mr. [Charles S.] Murphy. HST.”</p>
+            </note>
+            <note corresp="#d64-f2" n="2" xml:id="d64-f2-content">
+                <p>November 5.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

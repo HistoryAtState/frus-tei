@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v04_comp4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bulgaria</title>
+            </titleStmt>
+            <xi:include href="../frus1950v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1950v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1950v04/comp4"
+                    type="canonical"/>
+                <relatedItem target="comp3/ch8/d256.xml" type="prev"/>
+                <relatedItem target="comp4/ch9.xml" type="next"/>
+                <relatedItem target="../frus1950v04.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v04</bibl>
+                <bibl type="frus-division-id">comp4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="503" to="525" unit="page"
+                        >503–25</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1950-02-23T23:59:59-05:00" notBefore="1950-01-10T20:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp4">
+
+                <pb facs="0519" n="503" xml:id="pg503"/>
+
+                <head>Bulgaria</head>
+
+                <xi:include href="comp4/ch9.xml" xpointer="ch9"/>
+            </div>
+        </body>
+    </text>
+</TEI>

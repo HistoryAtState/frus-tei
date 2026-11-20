@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1866p1_d37" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hunter to Mr. Adams.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1866p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1866p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1866p1/d37"
+                    type="canonical"/>
+                <relatedItem target="d36.xml" type="prev"/>
+                <relatedItem target="d37-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1866p1</bibl>
+                <bibl type="frus-division-id">d37</bibl>
+                <bibl type="frus-division-n">37</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="59" to="59" unit="page"
+                        >59</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>, <hi
+                            rendition="#italic">Washington,</hi></placeName>
+                    <date calendar="gregorian" when="1866-01-23"><hi rendition="#italic"
+                            >January</hi> 23, 1866.</date>
+                    <date notAfter="1866-01-23T23:59:59-05:00" notBefore="1866-01-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d37">
+
+                <pb facs="0133" n="59" sameAs="frus:frus1866p1/pg59"/>
+
+                <head>Mr. Hunter to Mr. Adams.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 1662.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Department of State</hi>, <hi
+                                rendition="#italic">Washington,</hi></placeName>
+                        <date calendar="gregorian" when="1866-01-23"><hi rendition="#italic"
+                                >January</hi> 23, 1866.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I enclose for your information a copy of a
+                    letter of the 30th of December last from the Secretary of the Navy, relative to
+                    the disposition of the Shenandoah.</p>
+                <p>I am, sir, your obedient servant,</p>
+                <closer>
+                    <signed>W. HUNTER, <hi rendition="#italic">Acting
+                    Secretary</hi>.</signed></closer>
+                <postscript>
+                    <p><hi rendition="#small-caps">Charles Francis Adams,</hi> Esq., <hi
+                            rendition="#italic">&amp;c., &amp;c., &amp;c.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d37-a1.xml" xpointer="d37-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

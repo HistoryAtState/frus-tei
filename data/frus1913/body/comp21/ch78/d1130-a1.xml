@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_d1130-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Mexican Embassy to the Department of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1913/d1130-a1"
+                    type="canonical"/>
+                <relatedItem target="d1130.xml" type="prev"/>
+                <relatedItem target="d1131.xml" type="next"/>
+                <relatedItem target="d1130.xml" type="parent"/>
+                <relatedItem target="d1130.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">d1130-a1</bibl>
+                <bibl type="frus-division-n">1130.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="883" to="884" unit="page"
+                        >883–84</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1130-a1">
+
+                <pb facs="0987" n="883" sameAs="frus:frus1913/pg883"/>
+
+                <opener>
+                    <seg rendition="#center">[Inclosure—Memorandum—Translation.]</seg>
+                </opener>
+                <head>
+                    <hi rendition="#italic">The Mexican Embassy to the Department of State.</hi>
+                </head>
+                <p>The Mexican Embassy is in receipt of information to the effect that the
+                    authorities of Laredo, Texas have absolutely forbidden transit to that town of
+                    all persons supposed to be connected in any manner with the Mexican Federal
+                    Army, not excepting the private individuals who form the Defensa Social <pb
+                        facs="0988" n="884" xml:id="pg884"/> in Nuevo Laredo, who are not allowed to
+                    cross from that side although they do not carry arms and wear no uniform, and
+                    only wish to cross for the arrangement of private matters, their interests being
+                    thereby injuriously affected.</p>
+                <closer><dateline rendition="#float-left">
+                        <hi rendition="#small-caps">Mexican Embassy</hi>, <lb/>
+                        <placeName><hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1913-12-16"><hi rendition="#italic">December
+                                16, 1913</hi></date>.</dateline></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d84" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President’s Special Assistant (Hopkins) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d84"
+                    type="canonical"/>
+                <relatedItem target="d83.xml" type="prev"/>
+                <relatedItem target="d85.xml" type="next"/>
+                <relatedItem target="../ch2subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d84</bibl>
+                <bibl type="frus-division-n">84</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="98" to="98" unit="page"
+                        >98</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-05">September 5, 1944</date>
+                    <date notAfter="1944-09-05T23:59:59-05:00" notBefore="1944-09-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d84">
+
+                <pb facs="0154" n="98" sameAs="frus:frus1944Quebec/pg98"/>
+
+                <note rend="inline" type="source">740.00119 EW/9–444</note>
+                <head><hi rendition="#italic">The President’s Special Assistant</hi> (<hi
+                        rendition="#italic">Hopkins</hi>) <hi rendition="#italic">to the Secretary
+                        of State</hi></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-09-05">September 5, 1944</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">My Dear Mr. Secretary</hi>: With minor reservations
+                    about language which do not affect the intent of the document, “Suggested
+                    Recommendations on Treatment of Germany from the Cabinet Committee for the
+                        President”,<anchor n="1" xml:id="d84-f1"/> I approve of it.</p>
+                <p>If there be agreement on policies, then it becomes of the utmost importance for
+                    the proper Government Officials to indicate how the policies in this document
+                    are to be implemented.</p>
+                <p>Sincerely yours,</p>
+                <closer><signed><hi rendition="#small-caps">Harry L. Hopkins</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d84-f1" n="1" xml:id="d84-f1-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg95">p. 95</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

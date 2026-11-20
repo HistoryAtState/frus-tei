@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv11_d256" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Wilson to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../frus1919Parisv11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1919Parisv11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv11/d256"
+                    type="canonical"/>
+                <relatedItem target="d255.xml" type="prev"/>
+                <relatedItem target="d257.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv11</bibl>
+                <bibl type="frus-division-id">d256</bibl>
+                <bibl type="frus-division-n">256</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="575" to="575" unit="page"
+                        >575</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Paris</hi></placeName>
+                    <date calendar="gregorian" when="1919-05-22">May 22, 1919</date>
+                    <date notAfter="1919-05-22T23:59:59-05:00" notBefore="1919-05-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d256">
+
+                <pb facs="0613" n="575" sameAs="frus:frus1919Parisv11/pg575"/>
+
+                <note rend="inline" type="source">Paris Peace Conf. 184.1 Miller, D. H.</note>
+                <head><hi rendition="#italic">President Wilson to the Secretary of State</hi></head>
+                <opener><dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Paris</hi></placeName>,] <date calendar="gregorian"
+                            when="1919-05-22">May 22, 1919</date>.</dateline></opener>
+                <p rendition="#center"><hi rendition="#small-caps">Memorandum</hi></p>
+                <p><hi rendition="#small-caps">Dear Mr. Secretary</hi>: Will you be so good as to
+                    request Mr. David H. Miller (who is, I understand, a Special Assistant in your
+                    Department), to return to the United States so that he may be able to confer
+                    with some of the officials there respecting technical legal questions arising
+                    under the Covenant of the League of Nations.</p>
+                <closer>Approved:<lb/><signed>W. W.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

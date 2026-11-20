@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1905_d981-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>cretan indemnities.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1905_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1905_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1905/d981-a2"
+                    type="canonical"/>
+                <relatedItem target="d981-a1.xml" type="prev"/>
+                <relatedItem target="../ch185.xml" type="next"/>
+                <relatedItem target="d981.xml" type="parent"/>
+                <relatedItem target="d981.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1905</bibl>
+                <bibl type="frus-division-id">d981-a2</bibl>
+                <bibl type="frus-division-n">981.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="880" to="880" unit="page"
+                        >880</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d981-a2">
+
+                <pb facs="1000" n="880" sameAs="frus:frus1905/pg880"/>
+
+                <opener><seg rendition="#center">[Subinclosure.]</seg></opener>
+                <head><hi rendition="#small-caps">cretan indemnities.</hi></head>
+                <p rendition="#center"><hi rendition="#italic">American claims</hi>.</p>
+                <table cols="3" rows="7">
+                    <row>
+                        <cell rendition="#border-top #border-right"/>
+                        <cell rendition="#border-bottom #border-right #border-top">Claimants.</cell>
+                        <cell rendition="#border-bottom #border-top">Sum allowed.</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right"/>
+                        <cell rendition="#border-right"/>
+                        <cell><hi rendition="#italic">Francs</hi>.</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">1</cell>
+                        <cell rendition="#border-right">N. Frankiades</cell>
+                        <cell role="num">2,400</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">2</cell>
+                        <cell rendition="#border-right">George Georgiades</cell>
+                        <cell role="num">12,000</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">3</cell>
+                        <cell rendition="#border-right">John Kassinatis</cell>
+                        <cell role="num">6,134</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right">4</cell>
+                        <cell rendition="#border-right">Madame Veriki</cell>
+                        <cell rendition="#border-bottom" role="num">18,000</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-right #border-bottom"/>
+                        <cell rendition="#border-right #border-bottom">Total</cell>
+                        <cell rendition="#border-bottom" role="num">38,534</cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>

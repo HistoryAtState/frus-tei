@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d22" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adee to Mr. Mizner.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d22"
+                    type="canonical"/>
+                <relatedItem target="d21.xml" type="prev"/>
+                <relatedItem target="d23.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d22</bibl>
+                <bibl type="frus-division-n">22</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="32" to="32" unit="page"
+                        >32</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1890-07-14"><hi rendition="#italic">July</hi>
+                        14, 1890</date>
+                    <date notAfter="1890-07-14T23:59:59-05:00" notBefore="1890-07-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d22">
+
+                <pb facs="0136" n="32" sameAs="frus:frus1890/pg32"/>
+
+                <head><hi rendition="#italic">Mr. Adee to Mr. Mizner</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1890-07-14"><hi rendition="#italic">July</hi> 14,
+                        1890</date>.</dateline>
+                    <seg rendition="#float-left">No. 128.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to your recent telegram relative
+                    to a possible early conflict between the troops of Salvador and Guatemala, I
+                    have to state that the Secretary of the Navy has ordered two ships of war to
+                    proceed to that quarter.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Alvey A. Adee.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d513" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Clayton to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d513"
+                    type="canonical"/>
+                <relatedItem target="../ch94.xml" type="prev"/>
+                <relatedItem target="d513-a1.xml" type="next"/>
+                <relatedItem target="../ch94.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d513</bibl>
+                <bibl type="frus-division-n">513</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="501" to="502" unit="page"
+                        >501–2</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1899-05-22"><hi rendition="#italic">May 22,
+                            1899</hi></date>
+                    <date notAfter="1899-05-22T23:59:59-05:00" notBefore="1899-05-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d513">
+
+                <pb facs="0597" n="501" sameAs="frus:frus1899/pg501"/>
+
+                <head><hi rendition="#italic">Mr. Clayton to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Mexico</hi></placeName>, <date calendar="gregorian"
+                            when="1899-05-22"><hi rendition="#italic">May 22,
+                        1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 152.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith copy
+                    and translation of the decree promulgating the convention between Mexico and
+                    Guatemala, extending for two years from May 5, 1899, the period fixed for the
+                    completion of the work of the boundary commission.</p>
+                <p>This convention was signed on May 17, 1898, ratified by the President of Mexico
+                    on May 24, 1898, ratified by the President of Guatemala on April 7, 1899, and
+                    the ratifications were exchanged in this city on May 8, 1899.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Powell Clayton.</hi></signed></closer>
+
+
+                <xi:include href="d513-a1.xml" xpointer="d513-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

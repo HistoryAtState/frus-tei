@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p1_d2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adams to Mr. Seward</title>
+            </titleStmt>
+            <xi:include href="../../../frus1865p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1865p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p1/d2"
+                    type="canonical"/>
+                <relatedItem target="d1.xml" type="prev"/>
+                <relatedItem target="d2-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p1</bibl>
+                <bibl type="frus-division-id">d2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1" to="4" unit="page"
+                    >1–4</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                        <hi rendition="#italic">London,</hi></placeName>
+                    <date calendar="gregorian" when="1864-11-25"><hi rendition="#italic">November
+                            25,</hi> 1864</date>
+                    <date notAfter="1864-11-25T23:59:59-05:00" notBefore="1864-11-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d2">
+
+                <pb facs="0041" n="1" sameAs="frus:frus1865p1/pg1"/>
+
+                <head>Mr. Adams to Mr. Seward</head>
+                <opener>
+                    <seg rendition="#float-left">No. 819.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                            <hi rendition="#italic">London,</hi></placeName>
+                        <date calendar="gregorian" when="1864-11-25"><hi rendition="#italic"
+                                >November 25,</hi> 1864</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have received from Mr. Dudley, the consul
+                    at Liverpool, reports of the proceedings had at that place in regard to the
+                    detention of the ship Great Western, by order of the British government, on the
+                    allegation of some violation of the provisions of the enlistment act. It is
+                    obvious that this difficulty has been raised by the rebel agents, their
+                    attorneys and sympathizers, simply to try to make an offset to their own
+                    notorious operations, I do not myself perceive any just foundation for the
+                    interposition. No communication has yet come to me from the Foreign Office. A
+                    protest has been drawn up before the consul by the commander of the ship. All
+                    the papers will probably be sent to you from his office at Liverpool. I have
+                    advised that course to be taken, not deeming any action on my part expedient
+                    until all the facts shall have come under the President’s consideration, and his
+                    wishes communicated in formal instructions.</p>
+                <p>The proceedings against Messrs. Jones and Highatt, for enlisting seamen for the
+                    rebels at Liverpool, have terminated in a verdict <hi rendition="#italic">pro
+                        forma,</hi> with a nominal <pb facs="0042" n="2" xml:id="pg2"/> penalty, to
+                    which the parties consented. I transmit a copy of the Times containing a report.
+                    The distrust of the law officers of their ability to enforce the statute seems
+                    to me to amount to timidity, for I do not suspect any want of disposition,</p>
+                <p>I have the honor to be, sir, your obedient servant,</p>
+                <closer>
+                    <signed>CHARLES FRANCIS ADAMS.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward</hi>
+                        <hi rendition="#italic">Secretary of State, Washington, D. C.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d2-a1.xml" xpointer="d2-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

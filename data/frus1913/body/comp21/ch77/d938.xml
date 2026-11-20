@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_d938" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Ambassador to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/d938"
+                    type="canonical"/>
+                <relatedItem target="d937.xml" type="prev"/>
+                <relatedItem target="d938-a1.xml" type="next"/>
+                <relatedItem target="../ch77.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">d938</bibl>
+                <bibl type="frus-division-n">938</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="777" to="778" unit="page"
+                        >777–78</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1913-03-14">
+                        <hi rendition="#italic">March 14, 1913</hi></date>
+                    <date notAfter="1913-03-14T23:59:59-05:00" notBefore="1913-03-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d938">
+
+                <pb facs="0881" n="777" sameAs="frus:frus1913/pg777"/>
+
+                <note rend="inline" type="source">File No. 312.11/1299.</note>
+                <head>
+                    <hi rendition="#italic">The American Ambassador to the Secretary of State.</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 1906.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Mexico</hi></placeName>, <date
+                            calendar="gregorian" when="1913-03-14">
+                            <hi rendition="#italic">March 14, 1913</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Mr. Bryan</hi>: I have the honor to transmit
+                    herewith, for your information in connection with my No. 1901, a copy of a note
+                    addressed by me on February 24, 1913, to General Huerta, Provisional <pb
+                        facs="0882" n="778" xml:id="pg778"/> President of Mexico, calling his
+                    special attention to the Embassy’s note of September 15, 1912, addressed to the
+                    Mexican Government.</p>
+                <p>I remain [etc]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Henry Lane Wilson</hi>.</signed>
+                </closer>
+
+
+                <xi:include href="d938-a1.xml" xpointer="d938-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

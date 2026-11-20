@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1888p1_d545" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sir L. S. Sackville West to Mr. Bayard.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1888p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1888p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1888p1/d545"
+                    type="canonical"/>
+                <relatedItem target="d544.xml" type="prev"/>
+                <relatedItem target="d545-a1.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1888p1</bibl>
+                <bibl type="frus-division-id">d545</bibl>
+                <bibl type="frus-division-n">545</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="772" to="773" unit="page"
+                        >772–73</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1887-12-06"><hi rendition="#italic"
+                            >December</hi> 6, 1887</date>
+                    <date notAfter="1887-12-06T23:59:59-05:00" notBefore="1887-12-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d545">
+
+                <pb facs="0908" n="772" sameAs="frus:frus1888p1/pg772"/>
+
+                <head><hi rendition="#italic">Sir L. S. Sackville West to Mr. Bayard.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1887-12-06"><hi rendition="#italic">December</hi> 6, 1887</date>.
+                        (Received December 7.)</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to your note of the 17th of
+                    August, 1886,<anchor n="*" xml:id="d545-f1"/> I have the honor to inclose to you
+                    herewith copy of a report of the privy council for Canada, as well as copy of a
+                    letter from the officer in command of the Canadian schooner <hi
+                        rendition="#italic">F. E. Conrad</hi> to the deputy minister of fisheries,
+                    relative to the accusation that he had forbidden the master of the United States
+                    schooner <hi rendition="#italic">Golden Hind</hi> to enter the Baie des Chaleurs
+                    for the purpose of renewing his supply of fresh water.</p>
+                <p>In communicating to you these documents I am requested by the Marquis of
+                    Salisbury to express to you his regret that the United States Government should
+                    have remained so long without a reply to their representation in this case.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">L. S. Sackville
+                    West.</hi></signed></closer>
+
+
+
+                <xi:include href="d545-a1.xml" xpointer="d545-a1"/>
+                <xi:include href="d545-a2.xml" xpointer="d545-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d545-f1" n="*" xml:id="d545-f1-content">
+                <p>Printed <ref target="frus1886#pg_410">Foreign Relations, 1886, p. 410</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

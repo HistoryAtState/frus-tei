@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d36" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d36"
+                    type="canonical"/>
+                <relatedItem target="d35.xml" type="prev"/>
+                <relatedItem target="d37.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d36</bibl>
+                <bibl type="frus-division-n">36</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="25" to="25" unit="page"
+                        >25</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-12-31">31 December 1944</date>
+                    <date notAfter="1944-12-31T23:59:59-05:00" notBefore="1944-12-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_H5">Hewitt, Vice Admiral Henry K.</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d36">
+
+                <pb facs="0107" n="25" xml:id="pg25"/>
+
+                <note rend="inline" type="source">Roosevelt Papera: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to Prime Minister Churchill
+                        </hi><anchor n="1" xml:id="d36-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-12-31">31 December 1944</date>.</dateline>
+                </opener>
+                <p>Number 685, Personal and Top Secret, from the President for the Prime
+                    Minister.</p>
+                <p>Referring to your 861<anchor n="2" xml:id="d36-f2"/> in regard to taking off by
+                    plane from Caserta, my advisors, medical and otherwise, consider it inadvisable
+                    to fly in high altitudes over the mountains between Italy and destination.</p>
+                <p>Admiral Hewitt has recommended going by Naval vessel from here to Malta and
+                    flying from Malta to destination, which can be done without reaching any high
+                    altitude. The same applies to Alexandria or Suez, but would necessitate my
+                    spending more time on the ship.</p>
+                <p>Is there any reason why I should not transfer from ship to plane at Malta which
+                    might involve remaining overnight?</p>
+                <p>We are working on the details and hope to give you full information in the early
+                    future.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d36-f1" n="1" type="source" xml:id="d36-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+            <note corresp="#d36-f2" n="2" xml:id="d36-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg23">p. 23</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

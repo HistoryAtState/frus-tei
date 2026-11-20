@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1874_comp4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Barbary States.</title>
+            </titleStmt>
+            <xi:include href="../frus1874_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1874_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1874/comp4"
+                    type="canonical"/>
+                <relatedItem target="comp3/d27.xml" type="prev"/>
+                <relatedItem target="comp4/ch1.xml" type="next"/>
+                <relatedItem target="../frus1874.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1874</bibl>
+                <bibl type="frus-division-id">comp4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="38" to="54" unit="page"
+                        >38–54</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1874-08-24T23:59:59-05:00" notBefore="1873-09-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp4">
+
+                <pb facs="0134" n="38" sameAs="frus:frus1874/pg38"/>
+
+                <head>Barbary States.</head>
+
+
+
+
+                <xi:include href="comp4/ch1.xml" xpointer="ch1"/>
+                <xi:include href="comp4/ch2.xml" xpointer="ch2"/>
+                <xi:include href="comp4/ch3.xml" xpointer="ch3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v01" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1958-60v01_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1958-60v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1958-60v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1958-60v01"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1958-60v01" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1958-60v01/covers/frus1958-60v01.jpg"/>
+                        <extent>
+                            <measure quantity="27318" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:33:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1958-60v01" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1958-60v01/ebook/frus1958-60v01.epub"/>
+                        <extent>
+                            <measure quantity="1127170" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:33:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1958-60v01" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1958-60v01/ebook/frus1958-60v01.mobi"/>
+                        <extent>
+                            <measure quantity="1723656" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:33:06.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1986 as printed book</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">eisenhower</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>vietnam</term>
+                    <term>warfare</term>
+                    <term>foreign-aid</term>
+                    <term>vietnam-conflict</term>
+                    <term>cambodia</term>
+                    <term>foreign-economic-policy</term>
+                    <term>laos</term>
+                    <term>international-organizations</term>
+                    <term>south-and-central-asia</term>
+                    <term>australia</term>
+                    <term>china</term>
+                    <term>france</term>
+                    <term>united-kingdom</term>
+                    <term>canada</term>
+                    <term>japan</term>
+                    <term>world-war-ii</term>
+                    <term>alliances</term>
+                    <term>eisenhower-dwight-d</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>elections</term>
+                    <term>congressional-relations</term>
+                    <term>civil-rights-foreign</term>
+                    <term>new-caledonia</term>
+                    <term>macau</term>
+                    <term>paracel-islands</term>
+                    <term>herter-christian-archibald</term>
+                    <term>dulles-john-foster</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1958-60v01" status="published" when="1986"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="A1" xml:id="pgA1"/>
+            <pb facs="0002" n="A2" xml:id="pgA2"/>
+            <pb facs="0003" n="A3" xml:id="pgA3"/>
+            <pb facs="0004" n="A4" xml:id="pgA4"/>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1958–1960</titlePart>
+                    <titlePart type="volumeno">Volume I</titlePart>
+                    <titlePart type="volumetitle">Vietnam</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline>General Editor: John P. Glennon </byline>
+                <byline>Editors: Edward C. Keefer <lb/> David W. Mabon </byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1986</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION
+                    9449<lb/>OFFICE OF THE HISTORIAN<lb/>BUREAU OF PUBLIC AFFAIRS</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0010" n="[VI]" xml:id="pgVI"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0022" n="[XVIII]" xml:id="pgXVIII"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+            <pb facs="0805" n="775" xml:id="pg775"/>
+            <pb facs="0806" n="776" xml:id="pg776"/>
+            <pb facs="0807" n="777" xml:id="pg777"/>
+            <pb facs="0808" n="778" xml:id="pg778"/>
+        </back>
+    </text>
+</TEI>

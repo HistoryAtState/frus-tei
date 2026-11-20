@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1933v05_d33" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum Handed to the Brazilian Ambassador (Lima e Silva) by the Assistant
+                    Secretary of State (Caffery), on October 30, 1933</title>
+            </titleStmt>
+            <xi:include href="../../../frus1933v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1933v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1933v05/d33"
+                    type="canonical"/>
+                <relatedItem target="d32.xml" type="prev"/>
+                <relatedItem target="d33-a1.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1933v05</bibl>
+                <bibl type="frus-division-id">d33</bibl>
+                <bibl type="frus-division-n">33</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="23" to="28" unit="page"
+                        >23–28</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1933-10-30T23:59:59-05:00" notBefore="1933-10-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d33">
+
+                <pb facs="0111" n="23" sameAs="frus:frus1933v05/pg23"/>
+
+                <note rend="inline" type="source">611.3231/571</note>
+                <head><hi rendition="#italic">Memorandum Handed to the Brazilian Ambassador</hi>
+                        (<hi rendition="#italic">Lima e Silva</hi>) <hi rendition="#italic">by the
+                        Assistant Secretary of State</hi> (<hi rendition="#italic">Caffery</hi>),
+                        <hi rendition="#italic">on October 30, 1933</hi></head>
+                <p>There is attached hereto a draft of a reciprocal trade agreement between the
+                    United States of America and the United States of Brazil, with two appended
+                    schedules of products<anchor n="11" xml:id="d33-f1"/> including, respectively,
+                    those on which reductions in duties are desired by the United States, and those
+                    which it is desired shall continue to receive in Brazil treatment as favorable
+                    as that now enjoyed. The Government of Brazil will doubtless desire to submit as
+                    soon as practicable a list of the Brazilian products with respect to which
+                    commitments are desired from the United States.</p>
+                <p>The Government of the United States reserves, of course, the right to make such
+                    changes in the attached draft agreement and appended schedules as may seem
+                    appropriate at any time during the discussions.</p>
+                <closer>
+                    <dateline rendition="#float-left">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi>
+                        </placeName>, [<date calendar="gregorian" when="1933-10-30">October 30,
+                            1933</date>.]</dateline>
+                </closer>
+
+
+                <xi:include href="d33-a1.xml" xpointer="d33-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d33-f1" n="11" xml:id="d33-f1-content">
+                <p>Schedules not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

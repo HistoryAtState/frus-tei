@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d201" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d201"
+                    type="canonical"/>
+                <relatedItem target="d200.xml" type="prev"/>
+                <relatedItem target="d202.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d201</bibl>
+                <bibl type="frus-division-n">201</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="410" to="411" unit="page"
+                        >410–11</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-11">11 August 1943</date>
+                    <date notAfter="1943-08-11T23:59:59-05:00" notBefore="1943-08-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_FNP1">Former Naval Person</term>
+                    <term ref="frus:frus1943/terms#t_Uboat1">U–boat</term>
+                    <term ref="frus:frus1943/terms#t_White1">White</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d201">
+
+                <pb facs="0524" n="410" sameAs="frus:frus1943/pg410"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d201-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">most secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>,<anchor n="2"
+                            xml:id="d201-f2"/>
+                        <date calendar="gregorian" when="1943-08-11">11 August
+                        1943</date>.</dateline>
+                </opener>
+                <p> Former Naval Person to President. Most secret and personal. Number 407.</p>
+                <p>I have just arrived after a most swift and agreeable journey on which it has been
+                    possible to work continuously. The Warden Family are looking forward keenly to
+                    their visit to Hyde Park where we propose <pb facs="0525" n="411" xml:id="pg411"
+                    /> to arrive the afternoon of the 12th.<anchor n="3" xml:id="d201-f3"/> Are we
+                    right in thinking we should all bring our thinnest clothes?</p>
+                <p>I send you herewith (see my next telegram<anchor n="4" xml:id="d201-f4"/>) the
+                    draft of the monthly announcement about U–boats which I have prepared in concert
+                    with the Admiralty. Let us discuss it when we meet and a day or two’s delay
+                    beyond the 10th in its release is not important.</p>
+                <p>Warmest greetings to all.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d201-f1" n="1" type="source" xml:id="d201-f1-content">
+                <p>Channel of transmission not indicated.</p>
+            </note>
+            <note corresp="#d201-f2" n="2" xml:id="d201-f2-content">
+                <p>The message originated at Quebec but was apparently transmitted via London.</p>
+            </note>
+            <note corresp="#d201-f3" n="3" xml:id="d201-f3-content">
+                <p>Churchill later notified Roosevelt in telegram No. 412 of August 12, 1943 (not
+                    printed), that Mrs. Churchill, on medical advice, would have to remain at Quebec
+                    to rest instead of accompanying Churchill and their daughter Mary to Hyde Park.
+                    This message was sent to Washington and forwarded by the White House Map Room to
+                    Roosevelt, who had left for Hyde Park at 10:30 p.m., August 11, as telegram No.
+                        <hi rendition="#small-caps">White</hi> 2 (number later changed to <hi
+                        rendition="#small-caps">White</hi> 69), August 12, 1943 (Roosevelt
+                    Papers).</p>
+            </note>
+            <note corresp="#d201-f4" n="4" xml:id="d201-f4-content">
+                <p>Not printed. Some stylistic changes were later made in the draft contained in
+                    Churchill’s telegram No. 408 to Roosevelt, but no changes of substance. For the
+                    joint statement on anti-submarine warfare issued by Roosevelt and Churchill on
+                    August 14, 1943, see <hi rendition="#italic">post</hi>, <ref target="#pg833">p.
+                        833</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

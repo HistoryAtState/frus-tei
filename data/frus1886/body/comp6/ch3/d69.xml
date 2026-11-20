@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1886_d69" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Owyang Ming to Mr. Cheng.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1886_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1886_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1886/d69"
+                    type="canonical"/>
+                <relatedItem target="d68.xml" type="prev"/>
+                <relatedItem target="d70.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1886</bibl>
+                <bibl type="frus-division-id">d69</bibl>
+                <bibl type="frus-division-n">69</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="157" to="157" unit="page"
+                        >157</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">San Francisco</hi></placeName>
+                    <date calendar="gregorian" when="1886-02-16"><hi rendition="#italic"
+                            >February</hi> 16, 1886</date>
+                    <date notAfter="1886-02-16T23:59:59-05:00" notBefore="1886-02-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d69">
+
+                <pb facs="0241" n="157" sameAs="frus:frus1886/pg157"/>
+
+                <head><hi rendition="#italic">Mr. Owyang Ming to Mr. Cheng.</hi></head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >San Francisco</hi></placeName>,<lb/><date calendar="gregorian"
+                            when="1886-02-16"><hi rendition="#italic">February</hi> 16, 1886</date>.
+                        (Received February 19.)</dateline></opener>
+                <p>Petition from Chinese merchants resident in Portland, Oreg., asking protection
+                    against threatened outrages, forwarded to you to-day; immediate action
+                    asked.</p>
+                <closer><signed>OWYANG MING.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

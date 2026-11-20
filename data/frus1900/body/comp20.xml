@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_comp20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mexico</title>
+            </titleStmt>
+            <xi:include href="../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/comp20"
+                    type="canonical"/>
+                <relatedItem target="comp19/ch89/d902.xml" type="prev"/>
+                <relatedItem target="comp20/ch90.xml" type="next"/>
+                <relatedItem target="../frus1900.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">comp20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="781" to="789" unit="page"
+                        >781–89</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1900-12-24T23:59:59-05:00" notBefore="1900-03-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp20">
+
+                <pb facs="0879" n="781" xml:id="pg781"/>
+
+                <head>Mexico</head>
+
+
+
+
+
+
+                <xi:include href="comp20/ch90.xml" xpointer="ch90"/>
+                <xi:include href="comp20/ch91.xml" xpointer="ch91"/>
+                <xi:include href="comp20/ch92.xml" xpointer="ch92"/>
+                <xi:include href="comp20/ch93.xml" xpointer="ch93"/>
+                <xi:include href="comp20/ch94.xml" xpointer="ch94"/>
+            </div>
+        </body>
+    </text>
+</TEI>

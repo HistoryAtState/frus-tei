@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v04_comp10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Romania</title>
+            </titleStmt>
+            <xi:include href="../frus1950v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1950v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1950v04/comp10"
+                    type="canonical"/>
+                <relatedItem target="comp9/ch20/d565.xml" type="prev"/>
+                <relatedItem target="comp10/ch21.xml" type="next"/>
+                <relatedItem target="../frus1950v04.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v04</bibl>
+                <bibl type="frus-division-id">comp10</bibl>
+                <bibl type="frus-division-n">10</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1052" to="1073" unit="page"
+                        >1052–73</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1950-07-19T21:00:00-05:00" notBefore="1950-03-02T21:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp10">
+
+                <pb facs="1068" n="1052" xml:id="pg1052"/>
+
+                <head>Romania</head>
+
+                <xi:include href="comp10/ch21.xml" xpointer="ch21"/>
+            </div>
+        </body>
+    </text>
+</TEI>

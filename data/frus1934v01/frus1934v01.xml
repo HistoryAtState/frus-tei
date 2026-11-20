@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1934v01" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1934v01_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1934v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1934v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1934v01"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1934v01" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1934v01/covers/frus1934v01.jpg"/>
+                        <extent>
+                            <measure quantity="33493" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:17:29.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1934v01" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1934v01/ebook/frus1934v01.epub"/>
+                        <extent>
+                            <measure quantity="1784346" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:17:29.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1934v01" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1934v01/ebook/frus1934v01.mobi"/>
+                        <extent>
+                            <measure quantity="2432995" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:17:29.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1951 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">hoover</term>
+                    <term xml:id="admin3">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                    <term corresp="#admin3">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>argentina</term>
+                    <term>australia</term>
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>cuba</term>
+                    <term>league-of-nations</term>
+                    <term>mexico</term>
+                    <term>new-zealand</term>
+                    <term>peru</term>
+                    <term>portugal</term>
+                    <term>spain</term>
+                    <term>american-samoa</term>
+                    <term>virgin-islands-u-s</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>hull-cordell</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1934v01" status="published" when="1951"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0005"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States<lb/>Diplomatic
+                        Papers</titlePart>
+                    <titlePart type="subseries">1934</titlePart>
+                    <titlePart type="volumeno">(In Five Volumes)<lb/>Volume I</titlePart>
+                    <titlePart type="volumetitle">General<lb/>The British Commonwealth</titlePart>
+                </docTitle>
+                <docImprint>
+                    <publisher>United States<lb/>Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1951</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE <lb/>
+                    <hi rendition="#small-caps">Publication</hi> 4385<lb/>For sale by
+                    the<lb/>Superintendent of Documents, U. S. Government Printing
+                    Office<lb/>Washington 25, D. C. - Price $3.75 (Buckram)</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0010" n="[VI]" xml:id="pgVI"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0014" n="[X]" xml:id="pgX"/>
+            <xi:include href="front/toc-papers.xml" xpointer="toc-papers"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <pb facs="1115" n="[1015]" xml:id="pg1015"/>
+            <pb facs="1116" n="[1016]" xml:id="pg1016"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d23" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Bryan to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d23"
+                    type="canonical"/>
+                <relatedItem target="d22-a1.xml" type="prev"/>
+                <relatedItem target="d23-a1.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d23</bibl>
+                <bibl type="frus-division-n">23</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="36" to="37" unit="page"
+                        >36–37</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States.</hi><lb/><hi rendition="#italic">Petropolis</hi></placeName>
+                    <date calendar="gregorian" when="1902-08-19"><hi rendition="#italic">August 19,
+                            1902</hi></date>
+                    <date notAfter="1902-08-19T23:59:59-05:00" notBefore="1902-08-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d23">
+
+                <pb facs="0120" n="36" sameAs="frus:frus1903/pg36"/>
+
+                <head><hi rendition="#italic">Mr. Bryan to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States.</hi><lb/><hi rendition="#italic"
+                                >Petropolis</hi></placeName>, <date calendar="gregorian"
+                            when="1902-08-19"><hi rendition="#italic">August 19,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 444.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In reference to my No. 441, of August 14,
+                    1902, I have the honor to report that the minister of finance on August 13,
+                    1902, modified and corrected the official order closing the navigation of the
+                    Amazon by confining its effect to importation and exportation to and from the
+                    single country of Bolivia. I inclose a copy and translation of the corrected
+                    order.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Charles Page
+                    Bryan.</hi></signed></closer>
+
+
+
+                <xi:include href="d23-a1.xml" xpointer="d23-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

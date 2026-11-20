@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d990-a4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d990-a4"
+                    type="canonical"/>
+                <relatedItem target="d990-a3.xml" type="prev"/>
+                <relatedItem target="d990-a5.xml" type="next"/>
+                <relatedItem target="d990.xml" type="parent"/>
+                <relatedItem target="d990.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d990-a4</bibl>
+                <bibl type="frus-division-n">990.4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="639" to="639" unit="page"
+                        >639</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1914-04-24T14:00:00-05:00">
+                        <hi rendition="#italic">April 24, 1914, 2 p.m.</hi>
+                    </date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d990-a4">
+
+                <pb facs="0755" n="639" sameAs="frus:frus1914/pg639"/>
+
+                <opener>
+                    <seg rendition="#center">[Telegram.]<anchor n="78" xml:id="d990-f1"/></seg>
+                </opener>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1914-04-24T14:00:00-05:00">
+                            <hi rendition="#italic">April 24, 1914, 2 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>In view [etc. as in next above] departure. When you decide to leave, close the
+                    consular office and transfer archives with coats of arms, flags and seals to
+                    safe place in United States, taking with you the code, current accounts and fee
+                    stamps. Procure vouchers for transportation expenses of your family and instruct
+                    members of your staff to do likewise. Will keep you advised as far as possible
+                    of general situation.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Bryan</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d990-f1" n="78" xml:id="d990-f1-content">
+                <p>Sent to Matamoros, Juárez, Díaz and Nuevo Laredo; same to Nogales, adding:
+                    “Endeavor to communicate foregoing to Cananea, directing Agent to close office
+                    and securely store archives, coats of arms, flags and seals.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

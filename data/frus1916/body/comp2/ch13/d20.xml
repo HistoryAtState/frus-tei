@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Stimson to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d20"
+                    type="canonical"/>
+                <relatedItem target="d19.xml" type="prev"/>
+                <relatedItem target="d21.xml" type="next"/>
+                <relatedItem target="../ch13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="23" to="23" unit="page"
+                        >23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Buenos Aires</hi></placeName>
+                    <date calendar="gregorian" when="1916-04-03">
+                        <hi rendition="#italic">April 3, 1916</hi></date>
+                    <date notAfter="1916-04-03T23:59:59-05:00" notBefore="1916-04-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20">
+
+                <pb facs="0099" n="23" sameAs="frus:frus1916/pg23"/>
+
+                <note rend="inline" type="source">File No. 810.51/597</note>
+                <head>
+                    <hi rendition="#italic">Ambassador Stimson to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Buenos Aires</hi></placeName>, <date
+                            calendar="gregorian" when="1916-04-03">
+                            <hi rendition="#italic">April 3, 1916</hi></date>.</dateline>
+                </opener>
+                <p>High Commission opened in Chamber of Deputies. Speech by President; response by
+                    Secretary McAdoo and other presidents of commissions, alphabetically. Twenty
+                    countries. Great éclat. All diplomats present, including those of belligerent
+                    countries.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Stimson</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

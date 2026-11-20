@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d528" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d528"
+                    type="canonical"/>
+                <relatedItem target="d527.xml" type="prev"/>
+                <relatedItem target="d529.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d528</bibl>
+                <bibl type="frus-division-n">528</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="855" to="855" unit="page"
+                        >855</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-12-23">December 23, 1943</date>
+                    <date notAfter="1943-12-23T23:59:59-05:00" notBefore="1943-12-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HC1">Hull, Cordell</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_WJG1">Winant, John G.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d528">
+
+                <pb facs="0959" n="855" sameAs="frus:frus1943CairoTehran/pg855"/>
+
+                <note rend="inline" type="source">740.00119 EW 1939/2057½</note>
+                <head><hi rendition="#italic">The President to the Secretary of State</hi><anchor
+                        n="1" xml:id="d528-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1943-12-23">December 23, 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Memorandum for the Secretary of
+                        State</hi></p>
+                <p>This<anchor n="2" xml:id="d528-f2"/> I think should be taken up by Winant with
+                    Prime Minister Churchill as soon as the latter gets back. It was not brought up
+                    in any way at Teheran in my presence.</p>
+                <closer><signed>F. D. R.</signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d528-f1" n="1" type="source" xml:id="d528-f1-content">
+                <p>A paraphrase of this memorandum was cabled by Hull to Winant on December 24,
+                    1943.</p>
+            </note>
+            <note corresp="#d528-f2" n="2" xml:id="d528-f2-content">
+                <p>The matter referred to in the preceding document.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

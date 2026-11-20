@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d256" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the United States Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d256"
+                    type="canonical"/>
+                <relatedItem target="d255.xml" type="prev"/>
+                <relatedItem target="d257.xml" type="next"/>
+                <relatedItem target="../ch5subch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d256</bibl>
+                <bibl type="frus-division-n">256</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="429" to="429" unit="page"
+                        >429</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-12">12 September 1944</date>
+                    <date notAfter="1944-09-12T23:59:59-05:00" notBefore="1944-09-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1944Quebec/terms#t_JCS1">JCS</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Medcos1">Medcos</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Naf1">Naf</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d256">
+
+                <pb facs="0491" n="429" xml:id="pg429"/>
+
+                <note rend="inline" type="source">J.C.S. Piles</note>
+                <head><hi rendition="#italic">Memorandum by the United States Chiefs of
+                        Staff</hi><anchor n="1" xml:id="d256-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/> C.C.S. 677</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-09-12">12 September 1944</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Future Operations in the
+                        Mediterranean</hi></p>
+                <p>The views of the United States Chiefs of Staff with regard to General Wilson’s
+                    progress report as submitted in <hi rendition="#small-caps">Naf</hi> 774<anchor
+                        n="2" xml:id="d256-f2"/> and <hi rendition="#small-caps">Medcos</hi>
+                        181<anchor n="3" xml:id="d256-f3"/> are as follows:</p>
+                <p>Part or all of the Fifth Army should be transferred to France, if it can be used
+                    effectively in the attack on Germany. The timing of the transfer and the route,
+                    whether overland or by sea, is dependent on the progress and outcome of the
+                    present offensive in Italy.</p>
+                <p>If General Eisenhower indicates that he does not require a part or all of the
+                    U.S. forces now in Italy, they should then be utilized to clear the Germans from
+                    Italy and to assist British forces in operations to the northeastward toward
+                    Vienna.</p>
+                <p>The transfer of part or all of the Twelfth Air Force to France should be
+                    dependent on the progress and outcome of the present offensive in Italy, and
+                    more particularly on the disposition of the Fifth Army. The Fifteenth Air Force
+                    can best perform its mission by remaining at its Foggia bases.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d256-f1" n="1" type="source" xml:id="d256-f1-content">
+                <p>For the consideration of this paper by the Combined Chiefs of Staff at their 172d
+                    Meeting, September 12, 1944, see <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg302">p. 302</ref>.</p>
+            </note>
+            <note corresp="#d256-f2" n="2" xml:id="d256-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg230">p. 230</ref>.</p>
+            </note>
+            <note corresp="#d256-f3" n="3" xml:id="d256-f3-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg224">p. 224</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d853" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Draper to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d853"
+                    type="canonical"/>
+                <relatedItem target="d852.xml" type="prev"/>
+                <relatedItem target="d853-a1.xml" type="next"/>
+                <relatedItem target="../ch78.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d853</bibl>
+                <bibl type="frus-division-n">853</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="732" to="732" unit="page"
+                        >732</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">Rome, Italy</hi></placeName>
+                    <date calendar="gregorian" when="1900-03-23"><hi rendition="#italic">March 23,
+                            1900</hi></date>
+                    <date notAfter="1900-03-23T23:59:59-05:00" notBefore="1900-03-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d853">
+
+                <pb facs="0830" n="732" sameAs="frus:frus1900/pg732"/>
+
+                <head><hi rendition="#italic">Mr. Draper to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Rome, Italy</hi></placeName>, <date calendar="gregorian"
+                            when="1900-03-23"><hi rendition="#italic">March 23,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 582.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I beg leave to confirm on the overleaf your
+                        telegram<anchor n="1" xml:id="d853-f1"/> of the 17th instant, directing me
+                    to inform the proper authorities of the expected arrival at Naples, Livorno, and
+                    Venice of the training ship <hi rendition="#italic">Dixie</hi>, and to suggest
+                    that the usual port courtesies should be extended to her. I also confirm on
+                    overleaf my telegram<anchor n="1" xml:id="d853-f2"/> to you acknowledging the
+                    receipt of the same. I carried out your instructions by a note to the minister
+                    for foreign affairs dated March 17, to which I have to-day received a reply, a
+                    copy of which I inclose herewith.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">William F.
+                    Draper.</hi></signed></closer>
+
+
+                <xi:include href="d853-a1.xml" xpointer="d853-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d853-f1" n="1" xml:id="d853-f1-content">
+                <p>Printed <hi rendition="#italic">ante.</hi></p>
+            </note>
+            <note corresp="#d853-f2" n="1" xml:id="d853-f2-content">
+                <p>Printed <hi rendition="#italic">ante.</hi></p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

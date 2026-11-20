@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v04" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1961-63v04_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1961-63v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1961-63v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1961-63v04"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1961-63v04" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1961-63v04/covers/frus1961-63v04.jpg"/>
+                        <extent>
+                            <measure quantity="33963" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:41:14.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1961-63v04" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1961-63v04/ebook/frus1961-63v04.epub"/>
+                        <extent>
+                            <measure quantity="1216855" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:41:14.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1961-63v04" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1961-63v04/ebook/frus1961-63v04.mobi"/>
+                        <extent>
+                            <measure quantity="1963703" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:41:14.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1991 as printed book and online at state. gov</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">kennedy</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>vietnam</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>burma</term>
+                    <term>cambodia</term>
+                    <term>china</term>
+                    <term>laos</term>
+                    <term>france</term>
+                    <term>elections</term>
+                    <term>india</term>
+                    <term>japan</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>kennedy-john-f</term>
+                    <term>south-korea</term>
+                    <term>malaysia</term>
+                    <term>information-programs</term>
+                    <term>philippines</term>
+                    <term>rusk-david-dean</term>
+                    <term>thailand</term>
+                    <term>tunisia</term>
+                    <term>united-kingdom</term>
+                    <term>foreign-aid</term>
+                    <term>united-nations</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1961-63v04" status="published" when="1991"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="I" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1961–1963</titlePart>
+                    <titlePart type="volumeno"/>
+                    <titlePart type="volumetitle">Vietnam, August–December 1963</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline>Editor: Edward C. Keefer </byline>
+                <byline>General Editor: John P. Glennon </byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1991</docDate>
+                    <pb facs="0002" n="II" xml:id="pgII"/> Department of State Publication
+                    9857<lb/>Office of the Historian<lb/>Bureau of Public Affairs<lb/>For sale by
+                    the U.S. Government Printing Office Superintendent of Documents Washington, DC
+                    20402-9398</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0010" n="[X]" xml:id="pgX"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0020" n="[XX]" xml:id="pgXX"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <pb facs="0026" n="[XXVI]" xml:id="pgXXVI"/>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

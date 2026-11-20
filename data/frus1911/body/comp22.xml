@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_comp22" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mexico:</title>
+            </titleStmt>
+            <xi:include href="../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/comp22"
+                    type="canonical"/>
+                <relatedItem target="comp21/ch80/d453.xml" type="prev"/>
+                <relatedItem target="comp22/ch81.xml" type="next"/>
+                <relatedItem target="../frus1911.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">comp22</bibl>
+                <bibl type="frus-division-n">22</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="348" to="620" unit="page"
+                        >348–620</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1911-12-30T23:59:59-05:00" notBefore="1906-12-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp22">
+
+                <pb facs="0430" n="348" xml:id="pg348"/>
+
+                <head>Mexico:</head>
+
+
+
+
+
+
+
+                <xi:include href="comp22/ch81.xml" xpointer="ch81"/>
+                <xi:include href="comp22/ch82.xml" xpointer="ch82"/>
+                <xi:include href="comp22/ch83.xml" xpointer="ch83"/>
+                <xi:include href="comp22/ch84.xml" xpointer="ch84"/>
+                <xi:include href="comp22/ch85.xml" xpointer="ch85"/>
+                <xi:include href="comp22/ch86.xml" xpointer="ch86"/>
+            </div>
+        </body>
+    </text>
+</TEI>

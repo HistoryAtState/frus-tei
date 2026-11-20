@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d73" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Townsend to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d73"
+                    type="canonical"/>
+                <relatedItem target="../ch32.xml" type="prev"/>
+                <relatedItem target="d73-a1.xml" type="next"/>
+                <relatedItem target="../ch32.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d73</bibl>
+                <bibl type="frus-division-n">73</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="86" to="87" unit="page"
+                        >86–87</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Brussels</hi></placeName>
+                    <date calendar="gregorian" when="1902-06-11"><hi rendition="#italic">June 11,
+                            1902</hi></date>
+                    <date notAfter="1902-06-11T23:59:59-05:00" notBefore="1902-06-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d73">
+
+                <pb facs="0166" n="86" sameAs="frus:frus1902/pg86"/>
+
+                <head><hi rendition="#italic">Mr. Townsend to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Brussels</hi></placeName>, <date calendar="gregorian"
+                            when="1902-06-11"><hi rendition="#italic">June 11,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 138.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to acknowledge the receipt
+                    of Department’s cablegram<anchor n="a" xml:id="d73-f1"/> of May 24.</p>
+                <p>In conformity with instructions, I at once communicated to the minister for
+                    foreign affairs the above request and am to-day in receipt of <pb facs="0167"
+                        n="87" xml:id="pg87"/> a letter from the minister granting the desired
+                    permission, a copy and translation of which is herewith inclosed.</p>
+                <p>I have notified the United States consular officers in Belgium of these facts,
+                    requesting them to use their good offices in representation of the interests of
+                    Cuba and of its citizens until further notice from the Department.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Lawrence
+                    Townsend.</hi></signed></closer>
+
+
+                <xi:include href="d73-a1.xml" xpointer="d73-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d73-f1" n="a" xml:id="d73-f1-content">
+                <p>Printed, <ref target="#pg6">page 6</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

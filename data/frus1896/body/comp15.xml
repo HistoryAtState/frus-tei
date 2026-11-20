@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1896_comp15" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Honduras</title>
+            </titleStmt>
+            <xi:include href="../frus1896_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1896_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1896/comp15"
+                    type="canonical"/>
+                <relatedItem target="comp14/ch67/d309.xml" type="prev"/>
+                <relatedItem target="comp15/ch68.xml" type="next"/>
+                <relatedItem target="../frus1896.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1896</bibl>
+                <bibl type="frus-division-id">comp15</bibl>
+                <bibl type="frus-division-n">15</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="389" to="395" unit="page"
+                        >389–95</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1896-12-16T23:59:59-05:00" notBefore="1896-10-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp15">
+
+                <pb facs="0483" n="389" xml:id="pg389"/>
+
+                <head>Honduras</head>
+
+                <xi:include href="comp15/ch68.xml" xpointer="ch68"/>
+            </div>
+        </body>
+    </text>
+</TEI>

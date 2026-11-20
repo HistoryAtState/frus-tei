@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d192" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note From Buford to Martin</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d192"
+                    type="canonical"/>
+                <relatedItem target="d191.xml" type="prev"/>
+                <relatedItem target="d193.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d192</bibl>
+                <bibl type="frus-division-n">192</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1959-08-05">August 5, 1959</date>
+                    <date notAfter="1959-08-05T23:59:59-05:00" notBefore="1959-08-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_GG_1">Gray, Gordon</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_MNH_1">McElroy, Neil H.</term>
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_WH_1">Williams, Haydn</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_NATO_1">NATO</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_RG_1">RG</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_SP_1">S/P</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_USSR_1">USSR</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d192">
+
+                <pb facs="0917" n="812" sameAs="frus:frus1958-60v03mSupp/pg812"/>
+
+                <head>192. Note From Buford to Martin<anchor n="1" xml:id="d192-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1959-08-05">August 5, 1959</date></dateline>
+                </opener>
+                <pb facs="d192-1" n="1" type="facsimile" xml:id="d192-1"/>
+                <p>Following our conversation this morning regarding the attached alternative
+                    sentences in paragraph 16 I notified Jimmy Lay that we much preferred the second
+                    alternative but would be willing, if there were some strong objection from other
+                    quarters, to accept the first alternative. Jimmy informed me then that Gordon
+                    Gray had seen the President this morning on some other matter and in the course
+                    of their discussion had shown the President the two alternatives. The President
+                    indicated that he much preferred the second alternative. Apparently Mr. McElroy
+                    was there or came in shortly thereafter and Mr. McElroy agreed with the
+                    President’s choice. Mr. Lay therefore is circulating an approved Record of
+                    Action incorporating the second alternative.</p>
+                <pb facs="0918" n="813" type="typeset" xml:id="pg813"/>
+                <p>Mr. Lay also told me that Hadyn Williams of Defense was somewhat upset by this
+                    development and indicated that he planned to discuss the matter further with Mr.
+                    McElroy.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">A. Sidney Buford, III</hi>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p><hi rendition="#bold">Attachment</hi></p>
+                    <p><hi rendition="#bold">Revised Paragraphs</hi></p>
+                    <pb facs="d192-2" n="2" type="facsimile" xml:id="d192-2"/>
+                    <p>. . . . The possibility that local aggression could occur in the NATO area or
+                        elsewhere involving sizable forces of the United States and the USSR is
+                        ruled out.</p>
+                    <p><hi rendition="#italic">Alternate</hi></p>
+                    <p>. . . . Conflicts occurring in the NATO area or elsewhere involving sizable
+                        forces of the United States and the USSR should not be constructed as local
+                        aggression.</p>
+                </postscript>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d192-f1" n="1" type="source" xml:id="d192-f1-content">
+                <p>Source: Eisenhower’s preferred revision of paragraph 16 of NSC 5906. Top Secret.
+                    2 pp. NARA, RG 59, S/P–NSC Files: Lot 62 D 1.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

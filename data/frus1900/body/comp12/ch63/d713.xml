@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d713" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d713"
+                    type="canonical"/>
+                <relatedItem target="d712.xml" type="prev"/>
+                <relatedItem target="d713-a1.xml" type="next"/>
+                <relatedItem target="../ch63.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d713</bibl>
+                <bibl type="frus-division-n">713</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="579" to="580" unit="page"
+                        >579–80</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1900-02-02"><hi rendition="#italic">February 2,
+                            1900</hi></date>
+                    <date notAfter="1900-02-02T23:59:59-05:00" notBefore="1900-02-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d713">
+
+                <pb facs="0677" n="579" sameAs="frus:frus1900/pg579"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1900-02-02"
+                                ><hi rendition="#italic">February 2, 1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 244.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to report that after
+                    sending to Lord Salisbury my note of January 29, based upon your cipher cable of
+                    the 27th, I had an interview with him, in which it appeared that he intended no
+                    departure from his rule as to contraband of January 10 and was ready to treat
+                    the flour referred to by the high commissioner as <pb facs="0678" n="580"
+                        xml:id="pg580"/> detained at East London exactly in the same way as the <hi
+                        rendition="#italic">Mashona</hi> cargo was treated, viz, to be delivered to
+                    the rightful owners on proof of property, and that he did not intend (as I wrote
+                    you in my dispatch No. 241) to say that it was being held as the property of the
+                    Transvaal Government. And now, as the bag is just closing, without a chance to
+                    add more, I have received his promised written reply to my note<anchor n="1"
+                        xml:id="d713-f1"/> (copy inclosed).</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+                <postscript>
+                    <p>I have just had time to read the note, and there is undoubtedly some
+                        confusion between the <hi rendition="#italic">Mashona</hi> and <hi
+                            rendition="#italic">Maria</hi> in the last paragraph but one.</p>
+                </postscript>
+
+
+                <xi:include href="d713-a1.xml" xpointer="d713-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d713-f1" n="1" xml:id="d713-f1-content">
+                <p>Inclosure: Lord Salisbury to Mr. Choate, February, 1900 (received February 2,
+                    1900).</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

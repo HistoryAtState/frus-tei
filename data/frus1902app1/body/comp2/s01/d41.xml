@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app1_d41" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>EXHIBIT Z.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902app1/d41"
+                    type="canonical"/>
+                <relatedItem target="d40.xml" type="prev"/>
+                <relatedItem target="d41-a1.xml" type="next"/>
+                <relatedItem target="../s01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app1</bibl>
+                <bibl type="frus-division-id">d41</bibl>
+                <bibl type="frus-division-n">41</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="84" to="84" unit="page"
+                        >84</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Vladivostock</hi></placeName>
+                    <date calendar="gregorian" when="1892-09-27"><hi rendition="#italic">September
+                            27, 1892</hi></date>
+                    <date notAfter="1892-09-27T23:59:59-05:00" notBefore="1892-09-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d41">
+
+                <pb facs="0098" n="84" xml:id="pg84"/>
+
+                <head>EXHIBIT Z.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Vladivostock</hi></placeName>, <date calendar="gregorian"
+                            when="1892-09-27"><hi rendition="#italic">September 27,
+                        1892</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Supplementary to my letter to you of the
+                    20th instant, having heard that the seizure of my ship was made on suspicion of
+                    my having aided vessels engaged in sealing in the Okotchk Sea, I beg to state
+                    again that the Russian officer (Lieutenant Coule) who seized my ship stated
+                    distinctly at the time of seizure that I was taken for whaling in the Okotchk
+                    Sea, and my officers and crew declare that he specially stated and declared the
+                    same to them when they were transferred to the schooner <hi rendition="#italic"
+                        >Marie</hi> from my ship.</p>
+                <p>Furthermore, I declare that on the passage down to this port he again explicitly
+                    stated that he made the seizure on account of whaling in the Okotchk, and said
+                    that if I had not had two whales on board he would have released me and simply
+                    warned me to leave the sea.</p>
+                <p>Respectfully, yours,</p>
+                <closer><signed><hi rendition="#small-caps">Thomas Scullun</hi>,<lb/><hi
+                            rendition="#italic">Master, “Cape Horn Pigeon.</hi>”</signed></closer>
+                <postscript>
+                    <p>Commander <hi rendition="#small-caps">Charles V. Gridley</hi>, <hi
+                            rendition="#italic">U. S. N.,<lb/>Commanding U. S. S. “Marion,”
+                            Vladivostock.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d41-a1.xml" xpointer="d41-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

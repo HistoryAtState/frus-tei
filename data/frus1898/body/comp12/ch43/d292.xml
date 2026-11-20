@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d292" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Day.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d292"
+                    type="canonical"/>
+                <relatedItem target="d291-a1.xml" type="prev"/>
+                <relatedItem target="d292-a1.xml" type="next"/>
+                <relatedItem target="../ch43.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d292</bibl>
+                <bibl type="frus-division-n">292</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="370" to="371" unit="page"
+                        >370–71</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1898-06-07"><hi rendition="#italic">June 7,
+                            1898</hi></date>
+                    <date notAfter="1898-06-07T23:59:59-05:00" notBefore="1898-06-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d292">
+
+                <pb facs="0466" n="370" sameAs="frus:frus1898/pg370"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Hay to Mr. Day.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1898-06-07"
+                                ><hi rendition="#italic">June 7, 1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 419.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith an
+                    autograph letter from the Right Hon. Herbert J. Gladstone, expressing the
+                    grateful appreciation of all his family for the message of sympathy which by
+                    your instructions I transmitted to him on the occasion of his father’s death. He
+                    would be glad if you would kindly submit the letter to the President.</p>
+                <p>I am, etc.,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">John Hay.</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d292-a1.xml" xpointer="d292-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

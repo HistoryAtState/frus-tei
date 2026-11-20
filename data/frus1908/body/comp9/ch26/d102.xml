@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1908_d102" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chargé de Billier to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1908_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1908_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1908/d102"
+                    type="canonical"/>
+                <relatedItem target="d101.xml" type="prev"/>
+                <relatedItem target="d102-a1.xml" type="next"/>
+                <relatedItem target="../ch26.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1908</bibl>
+                <bibl type="frus-division-id">d102</bibl>
+                <bibl type="frus-division-n">102</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="108" to="109" unit="page"
+                        >108–9</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Teheran</hi></placeName>
+                    <date calendar="gregorian" when="1908-11-11"><hi rendition="#italic">November
+                            11, 1908</hi></date>
+                    <date notAfter="1908-11-11T23:59:59-05:00" notBefore="1908-11-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d102">
+
+                <pb facs="0210" n="108" sameAs="frus:frus1908/pg108"/>
+
+                <note rend="inline" type="source">File No. 774/438–439.</note>
+                <head><hi rendition="#italic">Chargé de Billier to the Secretary of
+                    State.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                            >Teheran</hi></placeName>, <date calendar="gregorian" when="1908-11-11"
+                                ><hi rendition="#italic">November 11,
+                    1908</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose a copy of the
+                    Persian Government’s acceptance of the American Government’s invitation to send
+                    delegates to the joint commission on the opium question at Shanghai January 1,
+                    1909.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Frederic de
+                    Billier.</hi></signed></closer>
+
+
+                <xi:include href="d102-a1.xml" xpointer="d102-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

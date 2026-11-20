@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d215" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. White to Mr. Sherman.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d215"
+                    type="canonical"/>
+                <relatedItem target="d214-a1.xml" type="prev"/>
+                <relatedItem target="d216.xml" type="next"/>
+                <relatedItem target="../ch33.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d215</bibl>
+                <bibl type="frus-division-n">215</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="317" to="317" unit="page"
+                        >317</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1898-02-01"><hi rendition="#italic">February 1,
+                            1898</hi></date>
+                    <date notAfter="1898-02-01T23:59:59-05:00" notBefore="1898-02-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d215">
+
+                <pb facs="0413" n="317" sameAs="frus:frus1898/pg317"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. White to Mr. Sherman.</hi>
+                </head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Berlin</hi></placeName>, <date calendar="gregorian"
+                            when="1898-02-01"><hi rendition="#italic">February 1,
+                        1898</hi></date>.</dateline></opener>
+                <p>Ministerial decree put in force yesterday prohibits further importation of
+                    American fruit. Have communicated with foreign office, but no answer yet
+                    received.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">White.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

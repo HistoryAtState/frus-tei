@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v04_d78" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Paper Prepared in the National Security Council</title>
+            </titleStmt>
+            <xi:include href="../../../frus1977-80v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1977-80v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1977-80v04/d78"
+                    type="canonical"/>
+                <relatedItem target="d77.xml" type="prev"/>
+                <relatedItem target="d78-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1977-80v04</bibl>
+                <bibl type="frus-division-id">d78</bibl>
+                <bibl type="frus-division-n">78</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="349" to="350" unit="page"
+                        >349–50</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date ana="#date_undated-inferred-from-editorial-annotation"
+                        calendar="gregorian" type="received-date" when="1978-08-16">undated</date>
+                    <date notAfter="1978-08-16T23:59:59-05:00" notBefore="1978-08-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1977-80v04/terms">
+                    <term ref="frus:frus1977-80v04/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1977-80v04/terms#t_PRC_1">PRC</term>
+                    <term ref="frus:frus1977-80v04/terms#t_PRM_1">PRM</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d78">
+
+                <pb facs="0374" n="349" xml:id="pg349"/>
+
+                <head>78. Paper Prepared in the National Security Council<anchor n="1"
+                        xml:id="d78-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            ana="#date_undated-inferred-from-editorial-annotation"
+                            calendar="gregorian" type="received-date" when="1978-08-16"
+                            >undated</date></dateline></opener>
+                <p rendition="#center"><hi rendition="#italic">AGENDA PAPER</hi></p>
+                <p>The first PRC meeting on PRM/NSC–32, Civil Defense,<anchor n="2" xml:id="d78-f2"
+                    /> left two issues for further consideration. The purpose of this meeting is to
+                    decide them.</p>
+                <list>
+                    <label>1.</label>
+                    <item>U.S. civil defense policy: a proposed policy statement is at Tab A.</item>
+                    <label>2.</label>
+                    <item>Whether to improve the current continuity of government program: a
+                        statement of the choices is at Tab B and a paper setting forth the available
+                        program analysis on continuity of government is at Tab C.<anchor n="3"
+                            xml:id="d78-f3"/></item>
+                </list>
+
+
+
+                <xi:include href="d78-a1.xml" xpointer="d78-a1"/>
+                <xi:include href="d78-a2.xml" xpointer="d78-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d78-f1" n="1" type="source" xml:id="d78-f1-content">
+                <p>Source: Carter Library, National Security Affairs, Brzezinski Material, General
+                    Odom File, Box 14, Civil Defense: Policy Review Committee: 8/14/78–9/78. Secret.
+                    Dodson distributed the paper to Vance, Brown, McIntyre, Warnke, Jones, Turner,
+                    and Mitchell under cover of an August 16 memorandum.</p>
+            </note>
+            <note corresp="#d78-f2" n="2" xml:id="d78-f2-content">
+                <p>See <ref target="#d73">Document 73</ref>.</p>
+            </note>
+            <note corresp="#d78-f3" n="3" xml:id="d78-f3-content">
+                <p>Not found attached.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

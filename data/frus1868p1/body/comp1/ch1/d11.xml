@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1868p1_d11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adams to Mr. Seward</title>
+            </titleStmt>
+            <xi:include href="../../../frus1868p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1868p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1868p1/d11"
+                    type="canonical"/>
+                <relatedItem target="d10.xml" type="prev"/>
+                <relatedItem target="d11-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1868p1</bibl>
+                <bibl type="frus-division-id">d11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="50" to="129" unit="page"
+                        >50–129</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States</hi>, <hi
+                            rendition="#italic">London</hi>,</placeName>
+                    <date calendar="gregorian" when="1867-12-21"><hi rendition="#italic"
+                            >December</hi> 21, 1867.</date>
+                    <date notAfter="1867-12-21T23:59:59-05:00" notBefore="1867-12-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d11">
+
+                <pb facs="0098" n="50" sameAs="frus:frus1868p1/pg50"/>
+
+                <head>Mr. Adams to Mr. Seward</head>
+                <opener>
+                    <seg rendition="#float-left">No. 1500.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States</hi>,
+                                <hi rendition="#italic">London</hi>,</placeName>
+                        <date calendar="gregorian" when="1867-12-21"><hi rendition="#italic"
+                                >December</hi> 21, 1867.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> In connection with your dispatch No. 2105,
+                    of the 2d instant, I have the honor to report the receipt from Mr. West of an
+                    official copy of the report of Colonel Warren’s trial, obtained by him, under my
+                    directions, from the authorities in Ireland.</p>
+                <p>I have the honor to be, sir, your obedient servant,</p>
+                <closer>
+                    <signed>CHARLES FRANCIS ADAMS.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward</hi>, <hi
+                            rendition="#italic">Secretary of State, Washington, D. C.</hi></p>
+                </postscript>
+
+
+
+
+                <xi:include href="d11-a1.xml" xpointer="d11-a1"/>
+                <xi:include href="d11-a2.xml" xpointer="d11-a2"/>
+                <xi:include href="d11-a3.xml" xpointer="d11-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

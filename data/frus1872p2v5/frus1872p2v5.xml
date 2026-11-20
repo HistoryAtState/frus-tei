@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p2v5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1872p2v5_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1872p2v5_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1872p2v5_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1872p2v5"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1872p2v5" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v5/covers/frus1872p2v5.jpg"/>
+                        <extent>
+                            <measure quantity="44853" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1872p2v5" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v5/ebook/frus1872p2v5.epub"/>
+                        <extent>
+                            <measure quantity="4596833" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1872p2v5" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1872p2v5/ebook/frus1872p2v5.mobi"/>
+                        <extent>
+                            <measure quantity="609624" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:30:59.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1872 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                    <term xml:id="admin3">johnson-a</term>
+                    <term xml:id="admin4">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>fish-hamilton</term>
+                    <term>germany</term>
+                    <term>grant-ulysses-s</term>
+                    <term>spain</term>
+                    <term>united-kingdom</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1872p2v5" status="published" when="1872"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0003" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Papers relating to the foreign relations of the United
+                        States, transmitted to Congress with the annual message of the President,
+                        December 2, 1872..</titlePart>
+                    <titlePart type="subseries">Part II. V. 5</titlePart>
+                </docTitle>
+                <docImprint>WASHINGTON: GOVERNMENT PRINTING OFFICE.</docImprint>
+            </titlePage>
+            <xi:include href="front/papers1.xml" xpointer="papers1"/>
+            <divGen type="toc" xml:id="toc"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <pb facs="0146" n="120" xml:id="pg120"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <pb facs="0313" n="283" xml:id="pg283"/>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v23_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1964-68v23_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1964-68v23_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v23/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1964-68v23.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v23</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="888" to="888" unit="page"
+                        >888</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1968-12-16T23:59:59-05:00" notBefore="1960-04-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0921" n="[888]" xml:id="pg888"/>
+
+                <head>Errata</head>
+                <p>The following error has been identified in <hi rendition="#italic">Foreign
+                        Relations of the United States, 1964–1968, Volume XXIII, Congo</hi>. Please
+                    be aware that printed volumes have not been revised.</p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#d61">Document 61</ref>, <ref
+                                target="#pg80">Page 80</ref> (date of errata entry: March 6,
+                            2025)</hi>
+                    </item>
+                    <item>The organization in the document heading of Document 61 has been corrected
+                        from “North American Treaty Organization” to “North Atlantic Treaty
+                        Organization”.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

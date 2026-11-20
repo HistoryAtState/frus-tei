@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v03_comp14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Switzerland</title>
+            </titleStmt>
+            <xi:include href="../frus1950v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1950v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1950v03/comp14"
+                    type="canonical"/>
+                <relatedItem target="comp13/ch30.xml" type="prev"/>
+                <relatedItem target="comp14/ch31.xml" type="next"/>
+                <relatedItem target="../frus1950v03.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v03</bibl>
+                <bibl type="frus-division-id">comp14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1584" to="1597" unit="page"
+                        >1584–97</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1950-08-17T23:59:59-05:00" notBefore="1950-08-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp14">
+
+                <pb facs="1608" n="1584" xml:id="pg1584"/>
+
+                <head>Switzerland</head>
+
+
+                <xi:include href="comp14/ch31.xml" xpointer="ch31"/>
+                <xi:include href="comp14/ch32.xml" xpointer="ch32"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d290" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the British Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d290"
+                    type="canonical"/>
+                <relatedItem target="d289.xml" type="prev"/>
+                <relatedItem target="d291.xml" type="next"/>
+                <relatedItem target="../ch6subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d290</bibl>
+                <bibl type="frus-division-n">290</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="377" to="378" unit="page"
+                        >377–78</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Cairo</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-23">23 November 1943</date>
+                    <date notAfter="1943-11-23T23:59:59-05:00" notBefore="1943-11-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CSm1">Chu Shih-ming</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_B291">B–29</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_CCS1">C. C. S.</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_JCS1">J. C. S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d290">
+
+                <pb facs="0479" n="377" sameAs="frus:frus1943CairoTehran/pg377"/>
+
+                <note rend="inline" type="source">J. C. S. Files</note>
+                <head><hi rendition="#italic">Memorandum by the British Chiefs of Staff</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/> C. C. S. 401/1</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Cairo</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-11-23">23 November 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">V. L. E. Airfields</hi> (B–29)
+                        <hi rendition="#small-caps">in the China–Burma–India Area</hi></p>
+                <list>
+                    <label>1.</label>
+                    <item>As the United States Chiefs of Staff will be aware, the President has
+                        already telegraphed to the Prime Minister with regard to the provision of
+                        suitable airdromes in India and China for the operation of B–29 aircraft
+                        against Japan in the spring of 1944.<anchor n="1" xml:id="d290-f1"/> The
+                        Prime Minister has instructed the Commander in Chief, India, to render every
+                        possible assistance in the construction of the four air bases in India and
+                        has so informed the President. An examination of the project has been
+                        undertaken and we are satisfied that the difficulties involved, including
+                        the movement of the extra tonnage required through the port of Calcutta, can
+                        be overcome.</item>
+                    <label>2.</label>
+                    <item>We therefore accept the recommendations of the United States Chiefs of
+                        Staff contained in paragraph 7 of C. C. S. 401<anchor n="2" xml:id="d290-f2"
+                        /> and are issuing the necessary instructions to the British authorities
+                        concerned.</item>
+                    <pb facs="0480" n="378" xml:id="pg378"/>
+                    <label>3.</label>
+                    <item>If the necessary work in India is to be completed in time, it is essential
+                        that the United States units and equipment required should arrive in
+                        Calcutta by 15 January; otherwise the work will not be completed by 1 April
+                        and in fact would have to be stopped to allow resources temporarily diverted
+                        owing to airfield construction to be sent through to Ledo.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d290-f1" n="1" xml:id="d290-f1-content">
+                <p>See Roosevelt’s telegram to Churchill, November 10, 1943, <hi rendition="#italic"
+                        >ante</hi>, <ref target="#pg172">p. 172</ref>.</p>
+            </note>
+            <note corresp="#d290-f2" n="2" xml:id="d290-f2-content">
+                <p>See <hi rendition="#italic">ante</hi>, <ref target="#pg187">p. 187</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

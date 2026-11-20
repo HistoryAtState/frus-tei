@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945v08_d700" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the British Prime Minister (Attlee) to President Truman
+                </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945v08_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945v08_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1945v08/d700"
+                    type="canonical"/>
+                <relatedItem target="d699-a1.xml" type="prev"/>
+                <relatedItem target="d701.xml" type="next"/>
+                <relatedItem target="../ch33.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945v08</bibl>
+                <bibl type="frus-division-id">d700</bibl>
+                <bibl type="frus-division-n">700</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="719" to="719" unit="page"
+                        >719</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-07-31T23:59:59-05:00" notBefore="1945-07-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d700">
+
+                <pb facs="0731" n="719" sameAs="frus:frus1945v08/pg719"/>
+
+                <note rend="inline" type="source">Truman Papers</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the British Prime Minister</hi> (<hi
+                        rendition="#italic">Attlee</hi>) <hi rendition="#italic">to President Truman
+                        </hi><anchor n="11" xml:id="d700-f1"/>
+                </head>
+                <p>I have read your memorandum of July 24 about Palestine. You will I am sure
+                    understand that I cannot give you any statement on policy until we have had time
+                    to consider the matter, and this is simply to inform you that we will give early
+                    and careful consideration to your memorandum.</p>
+                <closer>
+                    <signed>C. R. <hi rendition="#small-caps">Attlee</hi>
+                    </signed>
+                    <dateline rendition="#float-left">
+                        <placeName><hi rendition="#small-caps">Berlin</hi></placeName>, <date
+                            calendar="gregorian" when="1945-07-31">31 July, 1945</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d700-f1" n="11" type="source" xml:id="d700-f1-content">
+                <p>Copy obtained from the Harry S. Truman Library, Independence, Mo.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

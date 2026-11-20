@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894Nicaragua_message-of-the-president" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Message of the President</title>
+            </titleStmt>
+            <xi:include href="../frus1894Nicaragua_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1894Nicaragua_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1894Nicaragua/message-of-the-president"
+                    type="canonical"/>
+                <relatedItem type="prev"/>
+                <relatedItem target="message-of-the-president-a1.xml" type="next"/>
+                <relatedItem target="../frus1894Nicaragua.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1894Nicaragua</bibl>
+                <bibl type="frus-division-id">message-of-the-president</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1" to="3" unit="page"
+                    >1–3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1895-01-03T23:59:59-05:00" notBefore="1895-01-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="message-of-the-president">
+
+                <pb facs="0008" n="[1]" xml:id="pg1"/>
+
+                <head>Message of the President</head>
+                <p rendition="#center"><hi rendition="#small-caps">in the senate of the united
+                        states.</hi></p>
+                <p rendition="#center"><hi rendition="#small-caps">in response to</hi></p>
+                <p rendition="#flush"><hi rendition="#italic">The Senate resolution of December 4,
+                        1894, transmitting a report from the Secretary of State, with accompanying
+                        papers, relating to affairs at Blue fields, in the Mosquito
+                    Territory.</hi></p>
+                <p rendition="#center"><hi rendition="#small-caps">January</hi> 3, 1895.—Read,
+                    referred to the Committee on Foreign Relations, and ordered to be printed.</p>
+                <p rendition="#flush"><hi rendition="#italic">To the Senate of the United
+                        States:</hi></p>
+                <p>In response to the resolution of the Senate of the 4th ultimo, requesting “any
+                    reports or correspondence relating to affairs at Bluefields, in the Mosquito
+                    Territory,” and also information as to “whether any American citizens have been
+                    arrested or the rights of any American citizens at Bluefields have been
+                    interfered with during the past two years by the Government of Nicaragua,” I
+                    transmit herewith a report from the Secretary of State, with accompanying
+                    papers.</p>
+                <closer><signed><hi rendition="#small-caps">Grover Cleveland</hi>.</signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><hi rendition="#small-caps">Executive
+                            Mansion</hi>,<lb/><placeName><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1895-01-03"><hi rendition="#italic">January 3,
+                        1895</hi></date>.</dateline>
+                </closer>
+
+
+                <xi:include href="message-of-the-president-a1.xml"
+                    xpointer="message-of-the-president-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

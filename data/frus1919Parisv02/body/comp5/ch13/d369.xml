@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv02_d369" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Wilson to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv02/d369"
+                    type="canonical"/>
+                <relatedItem target="d368.xml" type="prev"/>
+                <relatedItem target="d370.xml" type="next"/>
+                <relatedItem target="../ch13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv02</bibl>
+                <bibl type="frus-division-id">d369</bibl>
+                <bibl type="frus-division-n">369</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="430" to="430" unit="page"
+                        >430</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Paris</hi>
+                    </placeName>
+                    <date calendar="gregorian" when="1919-01-09">9 January, 1919</date>
+                    <date notAfter="1919-01-09T23:59:59-05:00" notBefore="1919-01-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d369">
+
+                <pb facs="0518" n="430" sameAs="frus:frus1919Parisv02/pg430"/>
+
+                <note rend="inline" type="source">Paris Peace Conf. 860c.20/4</note>
+                <head>
+                    <hi rendition="#italic">President Wilson to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName>
+                            <hi rendition="#small-caps">Paris</hi>
+                        </placeName>,] <date calendar="gregorian" when="1919-01-09">9 January,
+                            1919</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Mr. Secretary</hi>: Is there not in Paris
+                    some representative of the Polish Committee with whom you could have a frank
+                    talk about this?<anchor n="16" xml:id="d369-f1"/> It is clearly out of the
+                    question to allow Poles to be enlisted in the United States to fight against
+                    peoples with whom the United States is at peace and whose affairs the United
+                    States is trying to compose, but I think the representatives of the Poles should
+                    be told this before we take official action.</p>
+                <p>Cordially and sincerely yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Woodrow Wilson</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d369-f1" n="16" xml:id="d369-f1-content">
+                <p>See Secretary Lansing’s note of Jan. 6, 1919, to President Wilson, <ref
+                        target="#pg425">p. 425</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

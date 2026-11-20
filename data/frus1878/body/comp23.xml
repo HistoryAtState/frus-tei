@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1878_comp23" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Paraguay.</title>
+            </titleStmt>
+            <xi:include href="../frus1878_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1878_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1878/comp23"
+                    type="canonical"/>
+                <relatedItem target="comp22/d409.xml" type="prev"/>
+                <relatedItem target="comp23/d410.xml" type="next"/>
+                <relatedItem target="../frus1878.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1878</bibl>
+                <bibl type="frus-division-id">comp23</bibl>
+                <bibl type="frus-division-n">23</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="709" to="712" unit="page"
+                        >709–12</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1878-11-15T23:59:59-05:00" notBefore="1878-03-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp23">
+
+                <pb facs="0771" n="709" sameAs="frus:frus1878/pg709"/>
+
+                <head>Paraguay.</head>
+
+
+
+
+                <xi:include href="comp23/d410.xml" xpointer="d410"/>
+                <xi:include href="comp23/d411.xml" xpointer="d411"/>
+                <xi:include href="comp23/d412.xml" xpointer="d412"/>
+                <xi:include href="comp23/d413.xml" xpointer="d413"/>
+            </div>
+        </body>
+    </text>
+</TEI>

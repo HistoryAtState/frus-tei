@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to the President’s Special Assistant
+                    (Hopkins)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d1"
+                    type="canonical"/>
+                <relatedItem target="../ch1subch1.xml" type="prev"/>
+                <relatedItem target="d2.xml" type="next"/>
+                <relatedItem target="../ch1subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1" to="1" unit="page"
+                    >1</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-02-16">February 16, 1943</date>
+                    <date notAfter="1943-02-16T23:59:59-05:00" notBefore="1943-02-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Prime1">Prime</term>
+                    <term ref="frus:frus1943/terms#t_TubeAlloys1">Tube Alloys</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1">
+
+                <pb facs="0103" n="1" sameAs="frus:frus1943/pg1"/>
+
+                <note rend="inline" type="source">Hopkins Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to the President’s Special
+                        Assistant</hi> (<hi rendition="#italic">Hopkins</hi>)<anchor n="1"
+                        xml:id="d1-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1943-02-16">February 16,
+                        1943</date>.</dateline>
+                </opener>
+                <p>Prime Minister to Mister Harry Hopkins personal and secret (signed Prime).</p>
+                <p>Do you remember our conversation about that very secret matter we called “<hi
+                        rendition="#small-caps">Tube Alloys</hi>” which you told me would be put
+                    right as soon as the President got home?<anchor n="2" xml:id="d1-f2"/> I should
+                    be very grateful for some news about this, as at present the American War
+                    Department is asking us to keep them informed of our experiments while refusing
+                    altogether any information about theirs.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Prime</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1-f1" n="1" type="source" xml:id="d1-f1-content">
+                <p>Manner of transmission not indicated, but presumably by military channels. The
+                    source text bears the following typewritten marginal notation dated February 19,
+                    1943: “Remind Mr. Hopkins to speak to General Somervell on this next three or
+                    four days.”</p>
+            </note>
+            <note corresp="#d1-f2" n="2" xml:id="d1-f2-content">
+                <p>Reference here is presumably to a conversation held at some time in the course of
+                    the Casablanca Conference. No record of such a conversation has been found, but
+                    see Martin’s message of January 23, 1943, to Hopkins, <ref
+                        target="frus1941-43#pg_803">
+                        <hi rendition="#italic">Foreign Relations</hi>, The Conferences at
+                        Washington, 1941–1942, and Casablanca, 1943, p. 803</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

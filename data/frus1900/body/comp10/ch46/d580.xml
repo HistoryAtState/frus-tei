@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d580" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Porter.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d580"
+                    type="canonical"/>
+                <relatedItem target="../ch46.xml" type="prev"/>
+                <relatedItem target="d580-a1.xml" type="next"/>
+                <relatedItem target="../ch46.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d580</bibl>
+                <bibl type="frus-division-n">580</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="480" to="481" unit="page"
+                        >480–81</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-10-23"><hi rendition="#italic">October 23,
+                            1900</hi></date>
+                    <date notAfter="1900-10-23T23:59:59-05:00" notBefore="1900-10-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d580">
+
+                <pb facs="0578" n="480" sameAs="frus:frus1900/pg480"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. Porter.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-10-23"><hi rendition="#italic">October 23,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 839.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose for your information copy of a
+                    dispatch from the consul of the United States at Havre, reporting the recent
+                    death by drowning of Howard Linwood Ridlon, and stating that the French
+                    officials promptly acceded to the request for permission to land a firing party
+                    from the <hi rendition="#italic">Hartford</hi>, and that a delegation of French
+                    soldiers was sent to the funeral.</p>
+                <p>At the instance of the Secretary of the Navy, you are requested to convey to the
+                    French Government the thanks of the Navy Department, in suitable terms, for the
+                    courtesies of the former on the occasion.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+
+
+                <xi:include href="d580-a1.xml" xpointer="d580-a1"/>
+                <xi:include href="d580-a2.xml" xpointer="d580-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

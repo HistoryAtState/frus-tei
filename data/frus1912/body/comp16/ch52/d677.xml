@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d677" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d677"
+                    type="canonical"/>
+                <relatedItem target="d676.xml" type="prev"/>
+                <relatedItem target="d678.xml" type="next"/>
+                <relatedItem target="../ch52.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d677</bibl>
+                <bibl type="frus-division-n">677</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="498" to="498" unit="page"
+                        >498</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1912-12-16">
+                        <hi rendition="#italic">December 16, 1912</hi></date>
+                    <date notAfter="1912-12-16T23:59:59-05:00" notBefore="1912-12-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d677">
+
+                <pb facs="0614" n="498" sameAs="frus:frus1912/pg498"/>
+
+                <note rend="inline" type="source">File No. 123.R27/67.]</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <seg rendition="#float-left">No. 1122.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1912-12-16">
+                            <hi rendition="#italic">December 16, 1912</hi></date>.</dateline>
+                </opener>
+                <p>Sir Edward Grey has just sent me the following informal inquiry: <quote
+                        rend="blockquote">
+                        <p>If it would be acceptable to Mrs. Reid and to your Government, a British
+                            ship of war will convey the body of Mr. Whitelaw Reid to the United
+                            States.</p>
+                    </quote>
+                </p>
+                <p>I am requested by Mrs. Reid to say that her wishes will be entirely in accord
+                    with your decision. I respectfully request to be instructed.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Laughlin.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

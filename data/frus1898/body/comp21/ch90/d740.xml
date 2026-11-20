@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d740" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hunter to Mr. Sherman.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d740"
+                    type="canonical"/>
+                <relatedItem target="d739.xml" type="prev"/>
+                <relatedItem target="d740-a1.xml" type="next"/>
+                <relatedItem target="../ch90.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d740</bibl>
+                <bibl type="frus-division-n">740</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="871" to="872" unit="page"
+                        >871–72</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States, Guatemala
+                            and Honduras</hi>,<lb/><hi rendition="#italic"
+                        >Guatemala</hi></placeName>
+                    <date calendar="gregorian" when="1898-04-28"><hi rendition="#italic">April 28,
+                            1898</hi></date>
+                    <date notAfter="1898-04-28T23:59:59-05:00" notBefore="1898-04-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d740">
+
+                <pb facs="0967" n="871" sameAs="frus:frus1898/pg871"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Hunter to Mr. Sherman.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States, Guatemala and Honduras</hi>,<lb/><hi
+                                rendition="#italic">Guatemala</hi></placeName>, <date
+                            calendar="gregorian" when="1898-04-28"><hi rendition="#italic">April 28,
+                                1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 47.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the nonor to inform you that in
+                    compliance with Department’s instructions by cable, dated April 26, 1898, I
+                    addressed a note to the minister for foreign relations on yesterday, to which he
+                    made response in the afternoon of the same day. A copy of my note, marked A, and
+                    a translation of the minister’s reply, marked B, are hereto attached.</p>
+                <p>You will see from the minister’s note that Guatemala will observe a strict
+                    neutrality in the war between the United States and Spain.</p>
+                <p>I have, etc.,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">W. Godfrey Hunter.</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d740-a1.xml" xpointer="d740-a1"/>
+                <xi:include href="d740-a2.xml" xpointer="d740-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

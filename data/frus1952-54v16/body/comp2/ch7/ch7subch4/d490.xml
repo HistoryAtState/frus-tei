@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v16_d490" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chargé at Saigon (McClintock) to the Department of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1952-54v16_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1952-54v16_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v16/d490"
+                    type="canonical"/>
+                <relatedItem target="d489.xml" type="prev"/>
+                <relatedItem target="d491.xml" type="next"/>
+                <relatedItem target="../ch7subch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v16</bibl>
+                <bibl type="frus-division-id">d490</bibl>
+                <bibl type="frus-division-n">490</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="773" to="773" unit="page"
+                        >773</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Saigon</hi></placeName>
+                    <date calendar="gregorian" when="1954-05-11T19:00:00+08:00">May 11, 1954—7
+                        p.m.</date>
+                    <date notAfter="1954-05-11T06:00:00-05:00" notBefore="1954-05-11T06:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v16/persons">
+                    <term ref="frus:frus1952-54v16/persons#p_DM1">Dejean, Maurice</term>
+                    <term ref="frus:frus1952-54v16/persons#p_MCR1">McClintock, Robert</term>
+                    <term ref="frus:frus1952-54v16/persons#p_NHG1">Navarre, Henri, General</term>
+                    <term ref="frus:frus1952-54v16/persons#p_VNG1">Vo Nguyen Giap</term>
+                </keywords>
+                <keywords scheme="frus:frus1952-54v16/terms">
+                    <term ref="frus:frus1952-54v16/terms#t_niact1">niact</term>
+                    <term ref="frus:frus1952-54v16/terms#t_Secto1">Secto</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d490">
+
+                <pb facs="0799" n="773" sameAs="frus:frus1952-54v16/pg773"/>
+
+                <note rend="inline" type="source">751G.00/5–1154: Telegram</note>
+                <head><hi rendition="#italic">The Chargé at Saigon</hi> (<hi rendition="#italic"
+                        >McClintock</hi>) <hi rendition="#italic">to the Department of
+                    State</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps"
+                        >secret<lb/>niact</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Saigon</hi></placeName>, <date calendar="gregorian"
+                            when="1954-05-11T19:00:00+08:00">May 11, 1954—7 p.m.</date></dateline>
+                </opener>
+                <p>2342. Sent Geneva niact 86; repeated information Paris 815, London 55, Tokyo 96.
+                    De Jean tells me, re Secto 164 repeated Paris 236, Saigon 55, London 148, Tokyo
+                    43 [<hi rendition="#italic">42</hi>],<anchor n="1" xml:id="d490-f1"/> that
+                    General Navarre has sought by direct radio message to Giap and by parachute
+                    letter dropped on Red Cross tent at Dien Bien Phu to indicate his immediate
+                    readiness to evacuate wounded.<anchor n="2" xml:id="d490-f2"/> De Jean has
+                    likewise telegraphed French delegation Geneva so to inform Viet Minh
+                    delegation.</p>
+                <p>Although French do not have many helicopters in area, they are getting together
+                    such machines as are available and plan to land with first party professor of
+                    faculty of medicine, Hanoi University, who personally knows General Giap and
+                    speaks Vietnamese. French helicopters will commence immediate evacuation most
+                    seriously wounded irrespective of whether French or Vietnamese. Less urgent
+                    cases will have to await C–47 evacuation after reconstruction of airstrip.</p>
+                <closer><signed><hi rendition="#small-caps">McClintock</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d490-f1" n="1" xml:id="d490-f1-content">
+                <p>Dated May 10, <ref target="#pg757">p. 757</ref>.</p>
+            </note>
+            <note corresp="#d490-f2" n="2" xml:id="d490-f2-content">
+                <p>For documentation on the wounded at Dien Bien Phu, see <ref
+                        target="frus1952-54v13p1">volume <hi rendition="#small-caps"
+                    >xiii</hi></ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

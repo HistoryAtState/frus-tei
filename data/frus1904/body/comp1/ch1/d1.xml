@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr._______.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d1"
+                    type="canonical"/>
+                <relatedItem target="../ch1.xml" type="prev"/>
+                <relatedItem target="d1-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1" to="2" unit="page"
+                    >1–2</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1904-01-19"><hi rendition="#italic">January 19,
+                            1904</hi></date>
+                    <date notAfter="1904-01-19T23:59:59-05:00" notBefore="1904-01-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1">
+
+                <pb facs="0089" n="1" sameAs="frus:frus1904/pg1"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr._______</hi>.<anchor n="a"
+                        xml:id="d1-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1904-01-19"><hi rendition="#italic">January 19,
+                        1904</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose for your information copy of a
+                    circular instruction to the consular officers of the United States, including
+                    those in the directing them to discharge, in representation of Panaman interests
+                    until consular officers are appointed by that Government, and so far as may be
+                    permitted by the Government of the _______ _________, the duties ordinarily
+                    devolving upon consular officers.</p>
+                <p>You will advise the Government of the ______ _______ of this, and request its
+                    consent to the arrangement.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+                <xi:include href="d1-a1.xml" xpointer="d1-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1-f1" n="a" type="source" xml:id="d1-f1-content">
+                <p>Same instruction, mutatis mutandi, to all diplomatic representatives of the
+                    United States.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

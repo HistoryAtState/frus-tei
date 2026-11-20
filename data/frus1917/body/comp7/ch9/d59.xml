@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d59" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d59"
+                    type="canonical"/>
+                <relatedItem target="d58.xml" type="prev"/>
+                <relatedItem target="d60.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d59</bibl>
+                <bibl type="frus-division-n">59</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="47" to="48" unit="page"
+                        >47–48</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1917-05-30T20:00:00+08:00">
+                        <hi rendition="#italic">May 30, 1917, 8 p.m.</hi>
+                    </date>
+                    <date notAfter="1917-05-30T07:00:00-05:00" notBefore="1917-05-30T07:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d59">
+
+                <pb facs="0213" n="47" sameAs="frus:frus1917/pg47"/>
+
+                <note rend="inline" type="source">File No. 893.00/2579</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Peking</hi></placeName>, <date
+                            calendar="gregorian" when="1917-05-30T20:00:00+08:00">
+                            <hi rendition="#italic">May 30, 1917, 8 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>The Military Governors Honan, Shantung, Manchuria and Governor Nimorre [Ni
+                    Ssu-chung?] Anhui have declared their intention to sever relations with Central
+                    Government unless Parliament is dissolved; Shansi is expected to follow.
+                    Governor Chang Hsun, who <pb facs="0214" n="48" xml:id="pg48"/> holds the
+                    balance of power, will send a delegate to Peking to mediate. It is feared
+                    recalcitrant governors are planning resistance movement although they may only
+                    aim at displacing President Li. The latter has not decided on a course of
+                    action.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Reinsch</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

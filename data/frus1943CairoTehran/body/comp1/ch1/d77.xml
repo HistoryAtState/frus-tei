@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d77" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d77"
+                    type="canonical"/>
+                <relatedItem target="d76.xml" type="prev"/>
+                <relatedItem target="d78.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d77</bibl>
+                <bibl type="frus-division-n">77</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="55" to="55" unit="page"
+                        >55</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Hyde Park</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-30">30 October 1943</date>
+                    <date notAfter="1943-10-30T23:59:59-05:00" notBefore="1943-10-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HC1">Hull, Cordell</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_Generalissimo1">Generalissimo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d77">
+
+                <pb facs="0147" n="55" sameAs="frus:frus1943CairoTehran/pg55"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Prime Minister
+                        Churchill</hi><anchor n="1" xml:id="d77-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">operational priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Hyde
+                                Park</hi></placeName>?] <date calendar="gregorian" when="1943-10-30"
+                            >30 October 1943</date>.</dateline>
+                </opener>
+                <p>Number 404. Personal and secret from the President for the Former Naval
+                    Person.</p>
+                <p>Your 479. Hull’s departure from Moscow has meant two-day delay in his getting
+                    home. It is essential I see him before I myself leave, as you can readily
+                    understand. I had hoped to get three days in North Africa before reaching Cairo.
+                    I can, however, do some of the North African and Italian business on the way
+                    back. Therefore, I still hope to arrive Cairo by the twentieth by flying there
+                    directly I reach the harbor. But, if wind and weather are bad, I might not make
+                    Cairo until the twenty-second. I think my ship will take me to Oran.</p>
+                <p>Ever so many thanks for offering to make arrangements at Cairo, which we accept
+                    with pleasure. If any hitch develops there we can, of course, meet in
+                    Alexandria, the staff living ashore and we on our respective ships.</p>
+                <p>I am wiring Generalissimo to prepare to meet us in the general neighborhood of
+                    Cairo about November twenty-fifth.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d77-f1" n="1" type="source" xml:id="d77-f1-content">
+                <p>Sent to the United States Naval Attaché London, via the White House Map Room and
+                    Navy channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

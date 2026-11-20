@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d900" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d900"
+                    type="canonical"/>
+                <relatedItem target="d899.xml" type="prev"/>
+                <relatedItem target="d901.xml" type="next"/>
+                <relatedItem target="../ch91.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d900</bibl>
+                <bibl type="frus-division-n">900</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="595" to="595" unit="page"
+                        >595</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Mexico City</hi></placeName>
+                    <date calendar="gregorian" when="1914-09-11T20:00:00-06:36">
+                        <hi rendition="#italic">September 11, 1914, 8 p.m. No. 2</hi></date>
+                    <date notAfter="1914-09-11T21:36:00-05:00" notBefore="1914-09-11T21:36:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d900">
+
+                <pb facs="0711" n="595" sameAs="frus:frus1914/pg595"/>
+
+                <note rend="inline" type="source">File No. 812.00/13161.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Mexico City</hi></placeName>, <date
+                            calendar="gregorian" when="1914-09-11T20:00:00-06:36">
+                            <hi rendition="#italic">September 11, 1914, 8 p.m. No.
+                        2</hi></date>.</dateline>
+                </opener>
+                <p>I am in receipt of a formal communication from the Secretary of Foreign Relations
+                    addressed to me and dated the 8th instant informing me that, the capital of the
+                    Republic having been occupied by the Constitutionalist forces on the 21st of
+                    August last and Don Venustiano Carranza having assumed the duties of the Chief
+                    Executive of the nation, the Government has been duly installed, with seven
+                    secretaries of State; their names and offices are given; the document concludes
+                    as per following textual translation by me: <quote rend="blockquote">
+                        <p>With the desire of this Government to sustain the good relations of
+                            friendship which have always united Mexico with your country, I will
+                            receive with real satisfaction any representation which your Government
+                            may think proper to make through your excellency. I improve the
+                            opportunity to renew the assurances of my distinguished
+                            consideration.</p>
+                        <p rendition="#right">
+                            <hi rendition="#small-caps">Isidro Fabela</hi>.</p>
+                    </quote>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Silliman</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

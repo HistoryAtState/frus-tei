@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d796" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d796"
+                    type="canonical"/>
+                <relatedItem target="d795.xml" type="prev"/>
+                <relatedItem target="d797.xml" type="next"/>
+                <relatedItem target="../ch76.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d796</bibl>
+                <bibl type="frus-division-n">796</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="644" to="645" unit="page"
+                        >644–45</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Mexico City</hi></placeName>
+                    <date calendar="gregorian" when="1915-01-16">
+                        <hi rendition="#italic">January 16, 1915</hi></date>
+                    <date notAfter="1915-01-16T23:59:59-05:00" notBefore="1915-01-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d796">
+
+                <pb facs="0760" n="644" sameAs="frus:frus1915/pg644"/>
+
+                <note rend="inline" type="source">File No. 812.00/14223.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Mexico City</hi></placeName>, <date
+                            calendar="gregorian" when="1915-01-16">
+                            <hi rendition="#italic">January 16, 1915</hi></date>.</dateline>
+                </opener>
+                <p>General Roque Gonzalez Garza, President of the Convention, has made the following
+                    statement: <quote rend="blockquote">
+                        <p>Last night the President of the Republic, accompanied by certain of his
+                            Ministers, left this capital for the north after having given orders
+                            that the larger part of the troops upon which the Government was
+                            depending for its support should evacuate the capital.</p>
+                        <p>In view of the fact that the metropolis is left without any authorities,
+                            I have assumed the chief command of the city, depending for its defense
+                            upon troops of the north and Zapatistas, all of whom are at the orders
+                            of the Convention.</p>
+                        <p>Within a few minutes I will issue a decree establishing martial law, in
+                            order that any person who commits atrocities or disturbs the public
+                            peace will be executed.</p>
+                        <pb facs="0761" n="645" xml:id="pg645"/>
+                        <p>My determination to assume the command of the city will be ratified or
+                            rectified in the session of the Sovereign Convention to be held this
+                            afternoon.</p>
+                    </quote>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Silliman.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

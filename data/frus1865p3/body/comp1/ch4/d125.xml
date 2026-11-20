@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p3_d125" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Harvey to Mr. Hunter</title>
+            </titleStmt>
+            <xi:include href="../../../frus1865p3_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1865p3_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p3/d125"
+                    type="canonical"/>
+                <relatedItem target="d124-a2.xml" type="prev"/>
+                <relatedItem target="d125-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p3</bibl>
+                <bibl type="frus-division-id">d125</bibl>
+                <bibl type="frus-division-n">125</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="129" to="129" unit="page"
+                        >129</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                        <hi rendition="#italic">Lisbon,</hi></placeName>
+                    <date calendar="gregorian" when="1865-05-18"><hi rendition="#italic">May</hi>
+                        18, 1865.</date>
+                    <date notAfter="1865-05-18T23:59:59-05:00" notBefore="1865-05-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d125">
+
+                <pb facs="0211" n="129" sameAs="frus:frus1865p3/pg129"/>
+
+                <head>Mr. Harvey to Mr. Hunter</head>
+                <opener>
+                    <seg rendition="#float-left">No. 342]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                            <hi rendition="#italic">Lisbon,</hi></placeName>
+                        <date calendar="gregorian" when="1865-05-18"><hi rendition="#italic"
+                                >May</hi> 18, 1865.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> I have the honor to communicate herewith
+                    the copy of a note from the Count d’Avila, with the proceedings of the chamber
+                    of deputies, in regard to the reply which I addressed to that distinguished body
+                    on the 10th instant in answer to their expression of sympathy on the occasion of
+                    President Lincoln’s death.</p>
+                <p>I have the honor to be, sir, your obedient servant,</p>
+                <closer>
+                    <signed>JAMES E. HARVEY.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">Willaim Hunter,</hi>
+                        <hi rendition="#italic">Acting Secretary of State.</hi></p>
+                </postscript>
+
+
+
+                <xi:include href="d125-a1.xml" xpointer="d125-a1"/>
+                <xi:include href="d125-a2.xml" xpointer="d125-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

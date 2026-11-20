@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_d125" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Motley to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/d125"
+                    type="canonical"/>
+                <relatedItem target="d124-a1.xml" type="prev"/>
+                <relatedItem target="d125-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">d125</bibl>
+                <bibl type="frus-division-n">125</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="170" to="176" unit="page"
+                        >170–76</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi><hi
+                            rendition="#italic"> London</hi></placeName>
+                    <date calendar="gregorian" when="1870-10-06"><hi rendition="#italic"
+                            >October</hi> 6, 1870</date>
+                    <date notAfter="1870-10-06T23:59:59-05:00" notBefore="1870-10-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d125">
+
+                <pb facs="0204" n="170" sameAs="frus:frus1870/pg170"/>
+
+                <note rend="inline" type="source">No. 125.</note>
+                <head>Mr. Motley to Mr. Fish.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 482.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United
+                                States,</hi><hi rendition="#italic"> London</hi></placeName>, <date
+                            calendar="gregorian" when="1870-10-06"><hi rendition="#italic"
+                                >October</hi> 6, 1870</date>. (Received October 18,
+                        1870.)</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to send herewith a copy of
+                    the correspondence between Earl Granville and Count Bernstorff, Prussian and
+                    North German <pb facs="0205" n="171" xml:id="pg171"/> ambassador, on the subject
+                    of neutrality and the exportation of contraband of war, extracted from the Times
+                    of 19th ultimo.</p>
+                <p>I have not sent it before because I have been expecting day by day that it would
+                    be published in the usual pamphlet form.</p>
+                <p>This I now find will not be the case for the present, as a rejoinder is soon
+                    expected from Count Bernstorff, which, perhaps, will necessitate a further reply
+                    from Lord Granville.</p>
+                <closer>
+                    <signed>JOHN LOTHROP MOTLEY.</signed></closer>
+
+
+                <xi:include href="d125-a1.xml" xpointer="d125-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

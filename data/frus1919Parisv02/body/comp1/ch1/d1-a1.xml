@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv02_d1-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv02/d1-a1"
+                    type="canonical"/>
+                <relatedItem target="d1.xml" type="prev"/>
+                <relatedItem target="d1-a2.xml" type="next"/>
+                <relatedItem target="d1.xml" type="parent"/>
+                <relatedItem target="d1.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv02</bibl>
+                <bibl type="frus-division-id">d1-a1</bibl>
+                <bibl type="frus-division-n">1.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="7" to="8" unit="page"
+                    >7–8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1918-11-11">
+                        <hi rendition="#small-caps">November</hi> 11, 1918</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1-a1">
+
+                <pb facs="0095" n="7" sameAs="frus:frus1919Parisv02/pg7"/>
+
+                <opener>
+                    <dateline rendition="#float-right">
+                        <date calendar="gregorian" when="1918-11-11">
+                            <hi rendition="#small-caps">November</hi> 11, 1918</date>.</dateline>
+                </opener>
+                <p>The representatives of the Allies declare that, in view of fresh events, it
+                    appears necessary to them that the following condition shall be added to the
+                    clauses of the armistice:</p>
+                <pb facs="0096" n="8" xml:id="pg8"/>
+                <quote rend="blockquote">
+                    <p>In case the German ships are not handed over within the periods specified,
+                        the Governments of the Allies and of the United States shall have the right
+                        to occupy Heligoland to insure their delivery.</p>
+                </quote>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">F. Foch</hi>
+                    </signed>
+                    <lb/>
+                    <signed>
+                        <hi rendition="#small-caps">R. E. Wemyss</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Admiral</hi>
+                </closer>
+                <postscript>
+                    <p>The German delegates declare that they will forward this declaration to the
+                        German chancellor, with the recommendation that it be accepted, accompanying
+                        it with the reasons by which the Allies have been actuated in making this
+                        demand.</p>
+                    <closer>
+                        <signed>
+                            <list>
+                                <item>
+                                    <hi rendition="#small-caps">Erzberger</hi>
+                                </item>
+                                <item>
+                                    <hi rendition="#small-caps">Oberndorff</hi>
+                                </item>
+                                <item>
+                                    <hi rendition="#small-caps">Winterfeldt</hi>
+                                </item>
+                                <item>
+                                    <hi rendition="#small-caps">Vanselow</hi>
+                                </item>
+                            </list>
+                        </signed>
+                    </closer>
+                </postscript>
+            </div>
+        </body>
+    </text>
+</TEI>

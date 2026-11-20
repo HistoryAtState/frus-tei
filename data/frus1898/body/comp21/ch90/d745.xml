@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d745" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Buck to Mr. Sherman.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d745"
+                    type="canonical"/>
+                <relatedItem target="d744-a1.xml" type="prev"/>
+                <relatedItem target="d745-a1.xml" type="next"/>
+                <relatedItem target="../ch90.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d745</bibl>
+                <bibl type="frus-division-n">745</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="878" to="881" unit="page"
+                        >878–81</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Tokyo, Japan</hi></placeName>
+                    <date calendar="gregorian" when="1898-05-05"><hi rendition="#italic">May 5,
+                            1898</hi></date>
+                    <date notAfter="1898-05-05T23:59:59-05:00" notBefore="1898-05-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d745">
+
+                <pb facs="0974" n="878" sameAs="frus:frus1898/pg878"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Buck to Mr. Sherman.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Tokyo, Japan</hi></placeName>, <date calendar="gregorian"
+                            when="1898-05-05"><hi rendition="#italic">May 5,
+                        1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 132.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my dispatch No. 128 of the
+                    29th ultimo, and to my telegram of the 2d instant, reading of which is appended
+                    on the overleaf,<anchor n="1" xml:id="d745-f1"/> regarding Japan’s neutrality, I
+                    have the honor to inclose herewith duplicate clippings from the Japan Times of
+                    the 3d instant, being a translation of the Imperial Rescript and Ordinances,
+                    dated April 30, which comprised the proclamation of neutrality officially
+                    announced on the 2d instant. The accuracy of this translation has been verified
+                    at the legation.</p>
+                <p>I have, etc.,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">A. E. Buck.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d745-a1.xml" xpointer="d745-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d745-f1" n="1" xml:id="d745-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

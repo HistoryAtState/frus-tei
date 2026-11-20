@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v13p2_d850" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chargé at Saigon (McClintock) to the Department of State</title>
+            </titleStmt>
+            <xi:include href="../../frus1952-54v13p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1952-54v13p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v13p2/d850"
+                    type="canonical"/>
+                <relatedItem target="d849.xml" type="prev"/>
+                <relatedItem target="d851.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v13p2</bibl>
+                <bibl type="frus-division-id">d850</bibl>
+                <bibl type="frus-division-n">850</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1511" to="1512" unit="page"
+                        >1511–12</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Saigon</hi></placeName>
+                    <date calendar="gregorian" when="1954-05-08T09:00:00+08:00">May 8, 1954—9
+                        a.m.</date>
+                    <date notAfter="1954-05-07T20:00:00-05:00" notBefore="1954-05-07T20:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v13p2/persons">
+                    <term ref="frus:frus1952-54v13p2/persons#p_BG1">Bidault, Georges</term>
+                    <term ref="frus:frus1952-54v13p2/persons#p_DM1">Dejean, Maurice</term>
+                    <term ref="frus:frus1952-54v13p2/persons#p_MR2">McClintock, Robert</term>
+                    <term ref="frus:frus1952-54v13p2/persons#p_NGH1">Navarre, Général Henri</term>
+                </keywords>
+                <keywords scheme="frus:frus1952-54v13p2/terms">
+                    <term ref="frus:frus1952-54v13p2/terms#t_Secto1">Secto</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d850">
+
+                <pb facs="0129" n="1511" sameAs="frus:frus1952-54v13p2/pg1511"/>
+
+                <note rend="inline" type="source">751G.00/5–854: Telegram</note>
+                <head><hi rendition="#italic">The Chargé at Saigon</hi> (<hi rendition="#italic"
+                        >McClintock</hi>) <hi rendition="#italic">to the Department of
+                    State</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Saigon</hi></placeName>, <date calendar="gregorian"
+                            when="1954-05-08T09:00:00+08:00">May 8, 1954—9 a.m.</date></dateline>
+                </opener>
+                <p>2276. Repeated information Paris 785, Geneva 65, London 49. I discussed French
+                    position on Indochina phase of Geneva Conference <pb facs="0130" n="1512"
+                        xml:id="pg1512"/> as set out Secto 106, repeated Paris 201, Saigon 33 from
+                        Geneva<anchor n="1" xml:id="d850-f1"/> with De Jean this morning, making it
+                    clear, however, that this was an informal position which had not yet been
+                    adopted by French Government. De Jean felt that Bidault’s outline was highly
+                    satisfactory and that it indicated acceptance of advice he has been urging from
+                    here, particularly in requirement for armistice to spell out effective military
+                    aid administrative controls. He feels hopeful that his recommendations, and not
+                    Navarre’s demand for an immediate cease-fire will prevail in councils of French
+                    Government.</p>
+                <p>De Jean said, however, it was most important that Communist side realize that
+                    there were effective guarantees and that there would be retaliation if
+                    cease-fire and armistice were violated. He felt it essential therefore that
+                    powers at Geneva formulate a guarantee and of course, had in mind principally
+                    position of US in this regard.</p>
+                <p>Should Geneva Conference not arrive at armistice and should war continue past
+                    October when next campaigning season will begin, De Jean felt that it would be
+                    clearly impossible for French and Vietnamese forces unaided to continue the
+                    fight, as by that time Viet Minh would have regrouped and would undoubtedly be
+                    strengthened by continuing supply from China. In this case he thought
+                    internationalization of war on much larger scale would be only alternative to
+                    capitulation.</p>
+                <closer><signed><hi rendition="#small-caps">McClintock</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d850-f1" n="1" xml:id="d850-f1-content">
+                <p>For text of telegram Secto 106 from Geneva, May 5, see <ref
+                        target="frus1952-54v16#pg_694">vol. <hi rendition="#small-caps">xvi</hi>, p.
+                        694</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

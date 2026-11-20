@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d37" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d37"
+                    type="canonical"/>
+                <relatedItem target="d36.xml" type="prev"/>
+                <relatedItem target="d38.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d37</bibl>
+                <bibl type="frus-division-n">37</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="27" to="28" unit="page"
+                        >27–28</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-05">5 October 1943</date>
+                    <date notAfter="1943-10-05T23:59:59-05:00" notBefore="1943-10-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_Cairo31">Cairo 3</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_Generalissimo1">Generalissimo</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_Joe1">Joe</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d37">
+
+                <pb facs="0119" n="27" sameAs="frus:frus1943CairoTehran/pg27"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President
+                        Roosevelt</hi><anchor n="1" xml:id="d37-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1943-10-05">5 October 1943</date>.</dateline>
+                </opener>
+                <p>Former Naval Person to President Roosevelt. Personal and most secret. No.
+                    436.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <pb facs="0120" n="28" xml:id="pg28"/>
+                <p>4. Your number 374. Not hearing from you, I did not persist in the ship enticing
+                    idea but I don’t think it would have been accepted by Uncle Joe anyhow. On
+                    September 25, I sent him the telegram contained in my immediately following and
+                    received last night his reply.<anchor n="2" xml:id="d37-f2"/> I hope you will
+                    approve of all this as good and careful arrangements should be made. This plan
+                    would be convenient if you still want to invite the Generalissimo to meet you in
+                    Cairo on our return from <hi rendition="#small-caps">Cairo</hi> 3. I do not
+                    think you will find the journey from Cairo to <hi rendition="#small-caps"
+                        >Cairo</hi> 3 a burden. It is only about six hours. It would be a
+                    convenience if one of your security authorities came over here to work up the
+                    whole cover plan. I expect to start from here about the end of October and will
+                    meet you with the greatest pleasure in Cairo or at any other point you fix. May
+                    I advise your considering seriously coming across in a fast cruiser and only
+                    using the air for the various hops across Africa. I shall be moving about among
+                    the armies till you arrive.</p>
+                <closer><signed><hi rendition="#small-caps">Prime</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d37-f1" n="1" type="source" xml:id="d37-f1-content">
+                <p>Channel of transmission not indicated.</p>
+            </note>
+            <note corresp="#d37-f2" n="2" xml:id="d37-f2-content">
+                <p>Stalin’s reply was also quoted in Churchill’s immediately following telegram, <hi
+                        rendition="#italic">infra</hi>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1943_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1943" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1943/covers/frus1943.jpg"/>
+                        <extent>
+                            <measure quantity="30776" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:33:56.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1943" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1943/ebook/frus1943.epub"/>
+                        <extent>
+                            <measure quantity="13168607" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:33:56.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1943" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1943/ebook/frus1943.mobi"/>
+                        <extent>
+                            <measure quantity="3517454" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:33:56.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1970 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>world-war-ii</term>
+                    <term>atomic-energy</term>
+                    <term>hull-cordell</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>burma</term>
+                    <term>china</term>
+                    <term>canada</term>
+                    <term>france</term>
+                    <term>united-kingdom</term>
+                    <term>germany</term>
+                    <term>india</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>european-advisory-commission</term>
+                    <term>nauru</term>
+                    <term>solomon-islands</term>
+                    <term>new-caledonia</term>
+                    <term>palau</term>
+                    <term>marshall-islands</term>
+                    <term>the-bahamas</term>
+                    <term>spratly-islands</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1943" status="published" when="1970"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">The Conferences at Washington and Quebec
+                        1943</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1970</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication 8552 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the Superintendent of Documents, U.S. Government Printing
+                    Office Washington, D.C. 20402 - Price $7.00 (Buckram)</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0008" n="[IV]" xml:id="pgIV"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0016" n="[XII]" xml:id="pgXII"/>
+            <xi:include href="front/photographs.xml" xpointer="photographs"/>
+            <pb facs="0018" n="[XIV]" xml:id="pgXIV"/>
+            <xi:include href="front/introduction.xml" xpointer="introduction"/>
+            <pb facs="0028" n="[XXIV]" xml:id="pgXXIV"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/toc-papers.xml" xpointer="toc-papers"/>
+            <pb facs="0100" n="[XCVI]" xml:id="pgXCVI"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <pb facs="1455" n="[1341]" xml:id="pg1341"/>
+        </body>
+        <back>
+            <pb facs="1456" n="[1342]" xml:id="pg1342"/>
+            <xi:include href="back/index-subjects.xml" xpointer="index-subjects"/>
+            <xi:include href="back/index-persons.xml" xpointer="index-persons"/>
+        </back>
+    </text>
+</TEI>

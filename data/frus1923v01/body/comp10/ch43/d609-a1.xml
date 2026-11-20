@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1923v01_d609-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Final Balance Sheet</title>
+            </titleStmt>
+            <xi:include href="../../../frus1923v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1923v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1923v01/d609-a1"
+                    type="canonical"/>
+                <relatedItem target="d609.xml" type="prev"/>
+                <relatedItem target="../ch44.xml" type="next"/>
+                <relatedItem target="d609.xml" type="parent"/>
+                <relatedItem target="d609.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1923v01</bibl>
+                <bibl type="frus-division-id">d609-a1</bibl>
+                <bibl type="frus-division-n">609.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="777" to="777" unit="page"
+                        >777</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d609-a1">
+
+                <pb facs="0893" n="777" sameAs="frus:frus1923v01/pg777"/>
+
+                <opener><seg rendition="#center">[Enclosure]</seg></opener>
+                <head><hi rendition="#small-caps">Final Balance Sheet</hi></head>
+                <p rendition="#center"><hi rendition="#small-caps">united states share of allied
+                        fund advanced for supervising chinese eastern and siberian railways, as of
+                        april 17, 1923</hi></p>
+                <table cols="4" rows="5">
+                    <row role="label">
+                        <cell cols="2" rendition="#border-right #border-bottom #border-top"
+                            >Received</cell>
+                        <cell cols="2" rendition="#border-top #border-bottom">Expended</cell>
+                    </row>
+                    <row>
+                        <cell>Deposited Riggs Nat’l Bank, June 28, 1919</cell>
+                        <cell rendition="#bottom #border-right" role="num">$4,000,000.00</cell>
+                        <cell>As per Vouchers Nos. 1 to 928, inclusive</cell>
+                        <cell rendition="#bottom" role="num">$4,177,820.06</cell>
+                    </row>
+                    <row>
+                        <cell>Deposited Riggs Nat’l Bank, July 7, 1919</cell>
+                        <cell rendition="#bottom #border-right" role="num">1,000,000.00</cell>
+                        <cell>Appropriation “Nat’l Security &amp; Defense, Dept. of State”
+                            reimbursed, without personal credit, by War Dept. for ordnance returned,
+                            Cr. Voucher No. 36</cell>
+                        <cell rendition="#bottom" role="num">488.98</cell>
+                    </row>
+                    <row>
+                        <cell>Interest received on bank deposits, receipts from sale of surplus
+                            property, etc., as per Cr. Vouchers Nos. 1 to 40, inclusive</cell>
+                        <cell rendition="#bottom #border-right #border-bottom" role="num"
+                            >94,315.38</cell>
+                        <cell>Balance Riggs Nat’l Bank, April 17, 1923</cell>
+                        <cell rendition="#bottom #border-bottom" role="num">916,006.34</cell>
+                    </row>
+                    <row>
+                        <cell rendition="#border-bottom"/>
+                        <cell rendition="#border-bottom" role="num">$5,094,315.38</cell>
+                        <cell rendition="#border-bottom"/>
+                        <cell rendition="#border-bottom" role="num">$5,094,315.38</cell>
+                    </row>
+                </table>
+                <closer><dateline rendition="#float-left"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1923-04-17"><hi rendition="#italic">April 17,
+                        1923</hi></date>.</dateline></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

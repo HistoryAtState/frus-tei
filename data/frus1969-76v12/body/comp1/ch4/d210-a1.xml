@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v12_d210-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tab A</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v12_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v12_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v12/d210-a1"
+                    type="canonical"/>
+                <relatedItem target="d210.xml" type="prev"/>
+                <relatedItem target="d211.xml" type="next"/>
+                <relatedItem target="d210.xml" type="parent"/>
+                <relatedItem target="d210.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v12</bibl>
+                <bibl type="frus-division-id">d210-a1</bibl>
+                <bibl type="frus-division-n">210.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="631" to="631" unit="page"
+                        >631</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1970-09-08">September 8, 1970</date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v12/persons">
+                    <term ref="frus:frus1969-76v12/persons#p_KHA1">Kissinger, Henry A.</term>
+                    <term ref="frus:frus1969-76v12/persons#p_VVP1">Vaky, Viron P.</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v12/terms">
+                    <term ref="frus:frus1969-76v12/terms#t_CIA1">CIA</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d210-a1">
+
+                <pb facs="0664" n="631" xml:id="pg631"/>
+
+                <head>Tab A</head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1970-09-08">September 8, 1970</date>.</dateline></opener>
+                <p>
+                    <hi rendition="#bold">Memorandum From Viron Vaky of the National Security
+                        Council Staff to the President’s Assistant for National Security Affairs
+                        (Kissinger)</hi><anchor n="2" xml:id="d210-f1"/>
+                </p>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Soviet Activity in Cuba</item>
+                </list>
+                <p>Attached is an interesting CIA report<anchor n="3" xml:id="d210-f2"/> indicating
+                    increased Soviet control over the Cuban Communist Party. According to this
+                    report, the machinery of the Communist Party of Cuba (PCC) is increasingly
+                    controlled by young Soviet-trained officials whose primary loyalty is more to
+                    international Communism than to Castro or Cuban revolution. Castro only recently
+                    became aware of the extent of Soviet control when it was proposed that the
+                    position of Prime Minister be occupied by some one other than the Secretary
+                    General of the PCC. Since Castro holds both positions, the proposal in effect
+                    was that he give up the Secretary Generalship.</p>
+                <p>The report also cites Castro as commenting on Soviet “coldbloodedness and
+                    ruthlessness” and that Latin American revolutionaries would have to face
+                    opposition from both the U.S. and the Soviet Union. Castro is also reported to
+                    have said he believes part of Cuba’s economic problems are due to the rigidity
+                    of the Soviet style of Soviet-trained officials.</p>
+                <p>
+                    <hi rendition="#italic">Comment</hi>: Note that CIA suggests that the Cubans may
+                    have deliberately surfaced this line to provoke a pro-Castro reaction among the
+                    revolutionists abroad. While that is a possibility, there have been several
+                    other reports indicating that there is some dissention between the old 26th of
+                    July veterans of the revolution and the younger technocrats who are largely
+                    Soviet-trained. There have also been fairly firm reports of Soviet domination of
+                    the Cuban intelligence apparatus, the DGI, and of increasing control of the
+                    Foreign Ministery by “Sovietphyles.” A key figure in all this is Carlos Raphael
+                    Rodriquez, the only old-time Communist party leader to have survived the ten
+                    years of Castro’s revolution. He is smart, tough, and without any question the
+                    Soviets’ man in Havana.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d210-f1" n="2" xml:id="d210-f1-content">
+                <p>Secret. Sent for information. The memorandum is initialed by Kissinger.</p>
+            </note>
+            <note corresp="#d210-f2" n="3" xml:id="d210-f2-content">
+                <p> CIA Intelligence Information Cable TDCS DB–315/04525–70, September 2, on
+                    “Indications of Increased Soviet Control Over Communist Party of Cuba and
+                    Reaction of Fidel Castro” is attached but not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

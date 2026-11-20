@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919v02_comp33" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Yugoslavia:</title>
+            </titleStmt>
+            <xi:include href="../frus1919v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1919v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919v02/comp33"
+                    type="canonical"/>
+                <relatedItem target="comp32/ch87.xml" type="prev"/>
+                <relatedItem target="comp33/ch88.xml" type="next"/>
+                <relatedItem target="../frus1919v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919v02</bibl>
+                <bibl type="frus-division-id">comp33</bibl>
+                <bibl type="frus-division-n">33</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="892" to="900" unit="page"
+                        >892–900</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1919-02-10T23:59:59-05:00" notBefore="1918-11-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp33">
+
+                <pb facs="0977" n="892" xml:id="pg892"/>
+
+                <head>Yugoslavia:<anchor n="1" xml:id="comp33-f1"/></head>
+
+                <xi:include href="comp33/ch88.xml" xpointer="ch88"/>
+            </div>
+        </body>
+    </text>
+</TEI>

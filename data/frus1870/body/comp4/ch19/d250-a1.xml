@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_d250-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sir John Young to Mr. Thornton.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/d250-a1"
+                    type="canonical"/>
+                <relatedItem target="d250.xml" type="prev"/>
+                <relatedItem target="d250-a1-a1.xml" type="next"/>
+                <relatedItem target="d250.xml" type="parent"/>
+                <relatedItem target="d250.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">d250-a1</bibl>
+                <bibl type="frus-division-n">250.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="408" to="410" unit="page"
+                        >408–10</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Ottawa, Canada,</hi></placeName>
+                    <date calendar="gregorian" when="1870-04-11"><hi rendition="#italic">April</hi>
+                        11, 1870.</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d250-a1">
+
+                <pb facs="0442" n="408" sameAs="frus:frus1870/pg408"/>
+
+                <head>Sir John Young to Mr. Thornton.</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Ottawa, Canada,</hi></placeName>
+                        <date calendar="gregorian" when="1870-04-11"><hi rendition="#italic"
+                                >April</hi> 11, 1870.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> With reference to your dispatch of April 2,
+                    I have the honor to transmit to you herewith a memorandum from prime minister of
+                    the Dominion, together with copies of the fishery acts, (1868,) in order to
+                    supply the Secretary of State of the United States with the information he
+                    requires.</p>
+
+
+
+                <xi:include href="d250-a1-a1.xml" xpointer="d250-a1-a1"/>
+                <xi:include href="d250-a1-a2.xml" xpointer="d250-a1-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

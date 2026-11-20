@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894_d810" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Bartleman to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1894_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1894_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1894/d810"
+                    type="canonical"/>
+                <relatedItem target="d809.xml" type="prev"/>
+                <relatedItem target="d810-a1.xml" type="next"/>
+                <relatedItem target="../ch166.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1894</bibl>
+                <bibl type="frus-division-id">d810</bibl>
+                <bibl type="frus-division-n">810</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="794" to="795" unit="page"
+                        >794–95</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Caracas</hi></placeName>
+                    <date calendar="gregorian" when="1894-06-08"><hi rendition="#italic">June 8,
+                            1894</hi></date>
+                    <date notAfter="1894-06-08T23:59:59-05:00" notBefore="1894-06-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d810">
+
+                <pb facs="0844" n="794" sameAs="frus:frus1894/pg794"/>
+
+                <head><hi rendition="#italic">Mr. Bartleman to Mr. Gresham.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Caracas</hi></placeName>, <date calendar="gregorian"
+                            when="1894-06-08"><hi rendition="#italic">June 8, 1894</hi></date>.
+                        (Received June 19.)</dateline>
+                    <seg rendition="#float-left">No. 156.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith, in
+                    copy and translation, an additional decree (first transmitted with No. 58, of
+                    July 10, 1893),<anchor n="1" xml:id="d810-f1"/> with reference to the navigation
+                    of the Orinoco River and its channels.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">R. M. Bartleman.</hi></signed></closer>
+
+
+                <xi:include href="d810-a1.xml" xpointer="d810-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d810-f1" n="1" xml:id="d810-f1-content">
+                <p>See <ref target="frus1893#pg_729">Foreign Relations 1893, p. 729</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

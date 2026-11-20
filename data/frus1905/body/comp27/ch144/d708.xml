@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1905_d708" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Minister Newel to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1905_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1905_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1905/d708"
+                    type="canonical"/>
+                <relatedItem target="../ch144.xml" type="prev"/>
+                <relatedItem target="d708-a1.xml" type="next"/>
+                <relatedItem target="../ch144.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1905</bibl>
+                <bibl type="frus-division-id">d708</bibl>
+                <bibl type="frus-division-n">708</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="693" to="694" unit="page"
+                        >693–94</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">The Hague, The Netherlands</hi></placeName>
+                    <date calendar="gregorian" when="1905-06-30"><hi rendition="#italic">June 30,
+                            1905</hi></date>
+                    <date notAfter="1905-06-30T23:59:59-05:00" notBefore="1905-06-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d708">
+
+                <pb facs="0813" n="693" sameAs="frus:frus1905/pg693"/>
+
+                <head><hi rendition="#italic">Minister Newel to the Secretary of State.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic">The Hague, The
+                                Netherlands</hi></placeName>, <date calendar="gregorian"
+                            when="1905-06-30"><hi rendition="#italic">June 30,
+                        1905</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 901.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith
+                    duplicate copies of a Netherlands-British arbitration treaty<anchor n="a"
+                        xml:id="d708-f1"/> which has been ratified by the States-General and
+                    received the royal sanction on the 7th of June last. The inclosed copy appeared
+                    in the Netherlands Official Gazette of the 27th of June, 1905.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Stanford Newel.</hi></signed></closer>
+
+
+                <xi:include href="d708-a1.xml" xpointer="d708-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d708-f1" n="a" xml:id="d708-f1-content">
+                <p>Similar treaties between the Netherlands and France and the Netherlands and
+                    Denmark were forwarded by Mr. Newel in his 899 and 900, of June 30, 1905.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

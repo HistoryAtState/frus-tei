@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917-72PubDip" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1917-72PubDip_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1917-72PubDip_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1917-72PubDip_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1917-72PubDip"
+                    type="canonical"/>
+                <note>This publication contains 2 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1917-72PubDip" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDip/covers/frus1917-72PubDip.jpg"/>
+                        <extent>
+                            <measure quantity="32559" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:53:40.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1917-72PubDip" type="pdf">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917-72PubDip/pdf/frus1917-72PubDip.pdf"/>
+                        <extent>
+                            <measure quantity="1268429" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:53:41.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 2014 as printed book.</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">wilson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">retrospective</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>argentina</term>
+                    <term>china</term>
+                    <term>costa-rica</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>honduras</term>
+                    <term>italy</term>
+                    <term>league-of-nations</term>
+                    <term>mexico</term>
+                    <term>russia</term>
+                    <term>spain</term>
+                    <term>switzerland</term>
+                    <term>united-kingdom</term>
+                    <term>lansing-robert</term>
+                    <term>spanish-american-war</term>
+                    <term>wilson-woodrow</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1917-72PubDip" status="published" when="2014-11-25"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0003" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1917–1972</titlePart>
+                    <titlePart type="volumeno">Volume II</titlePart>
+                    <titlePart type="volumetitle">Public Diplomacy, World War I</titlePart>
+                </docTitle>
+                <byline>
+                    <hi rendition="#italic">Editor</hi>: Aaron W. Marrs </byline>
+                <byline>
+                    <hi rendition="#italic">General Editor</hi>: Adam M. Howard </byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>2014</docDate>
+                    <pb facs="0004" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE<lb/>O<hi
+                        rendition="#small-caps">ffice</hi>
+                    <hi rendition="#small-caps">of</hi>
+                    <hi rendition="#small-caps">the</hi> H<hi rendition="#small-caps">istorian</hi>
+                    <lb/> B<hi rendition="#small-caps">ureau</hi>
+                    <hi rendition="#small-caps">of</hi> P<hi rendition="#small-caps">ublic</hi> A<hi
+                        rendition="#small-caps">ffairs</hi>
+                    <lb/> For sale by the Superintendent of Documents, U.S. Government Printing
+                    Office<lb/>Internet: bookstore.gpo.gov Phone: toll free (866) 512-1800; DC area
+                    (202) 512-1800<lb/>Fax: (202) 512-2250 Mail: Stop IDCC, Washington, DC
+                    20402-0001</docImprint>
+            </titlePage>
+            <xi:include href="front/about.xml" xpointer="about"/>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0010" n="[VIII]" xml:id="pgVIII"/>
+            <xi:include href="front/acknowledge.xml" xpointer="acknowledge"/>
+            <pb facs="0012" n="[X]" xml:id="pgX"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0014" n="[XII]" xml:id="pgXII"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0018" n="[XVI]" xml:id="pgXVI"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <xi:include href="back/appendix.xml" xpointer="appendix"/>
+        </back>
+    </text>
+</TEI>

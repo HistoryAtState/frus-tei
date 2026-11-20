@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d13"
+                    type="canonical"/>
+                <relatedItem target="../ch12.xml" type="prev"/>
+                <relatedItem target="d13-a1.xml" type="next"/>
+                <relatedItem target="../ch12.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d13</bibl>
+                <bibl type="frus-division-n">13</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="14" unit="page"
+                        >13–14</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1914-07-13">
+                        <hi rendition="#italic">July 13, 1914</hi></date>
+                    <date notAfter="1914-07-13T23:59:59-05:00" notBefore="1914-07-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d13">
+
+                <pb facs="0129" n="13" sameAs="frus:frus1914/pg13"/>
+
+                <note rend="inline" type="source">File No. 8111812/497.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1914-07-13">
+                            <hi rendition="#italic">July 13, 1914</hi></date>.</dateline>
+                </opener>
+                <p rendition="#flush">
+                    <hi rendition="#italic">To the Diplomatic Officers of the United
+                    States</hi>.</p>
+                <p>
+                    <hi rendition="#small-caps">Gentlemen</hi>: Referring to the Department’s
+                    instructions of September 17 and November 25, 1913,<anchor n="6" xml:id="d13-f1"
+                    /> with regard to the invitation extended by the President to foreign nations to
+                    send representatives and as many of their national war vessels as they may deem
+                    proper to Hampton Roads in 1915 for the purpose of participating in the
+                    celebration of the completion of the Panama Canal and the opening of the
+                    Panama-Pacific International Exposition, I enclose herewith, for communication
+                    to the Governments to which you are respectively accredited a memorandum of the
+                    ceremonies incident to the naval review. The memorandum is tentative and slight
+                    changes therein may be found advisable.</p>
+                <p>In bringing this program to the notice of the Government to which you are
+                    accredited you will inform that Government that the Navy Department contemplates
+                    supplying coal to such foreign vessels as may desire it before the departure of
+                    the international fleet for Panama. The coal will be supplied to foreign ships
+                    at the same price as that paid by the United States naval vessels. In order,
+                    however, that foreign ships may be enabled to take on coal before their
+                    departure from Hampton Roads it will be necessary, in view of a possibility of
+                    bad weather and the presence of ice in the harbor, that they arrive at Hampton
+                    Roads a longer time before their final departure than otherwise would be the
+                    case; consequently you will request that foreign ships arrive at Hampton Roads
+                    between the 10th and 15th of February next, and that this Government be
+                    furnished at the earliest convenient date with the following information: <list>
+                        <item>Number of ships to be sent;</item>
+                        <item>The size of these ships;</item>
+                        <item>The amount of coal carried by each; and</item>
+                        <item>The steaming radius of each.</item>
+                    </list>
+                </p>
+                <p>I am [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">W. J. Bryan</hi></signed>.</closer>
+
+
+                <xi:include href="d13-a1.xml" xpointer="d13-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d13-f1" n="6" xml:id="d13-f1-content">
+                <p>
+                    <ref target="frus1913#pg_13">For. Rel, 1913, pp. 13</ref>–<ref
+                        target="frus1913#pg_14">14</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

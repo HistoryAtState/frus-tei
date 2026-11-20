@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1933v02_d3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chargé in Great Britain (Atherton) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1933v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1933v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1933v02/d3"
+                    type="canonical"/>
+                <relatedItem target="d2.xml" type="prev"/>
+                <relatedItem target="d3-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1933v02</bibl>
+                <bibl type="frus-division-id">d3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="4" to="6" unit="page"
+                    >4–6</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1933-04-06">April 6, 1933</date>
+                    <date notAfter="1933-04-06T23:59:59-05:00" notBefore="1933-04-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d3">
+
+                <pb facs="0108" n="4" sameAs="frus:frus1933v02/pg4"/>
+
+                <note rend="inline" type="source">611.42251/157</note>
+                <head>
+                    <hi rendition="#italic">The Chargé in Great Britain (Atherton) to the Secretary
+                        of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 787</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1933-04-06">April 6,
+                        1933</date>.<lb/>[Received April 15.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Confirming the Embassy’s telegram No. 76,
+                    April 6, 12 noon,<anchor n="3" xml:id="d3-f1"/> I have the honor to transmit
+                    herewith copies of the full text of a note <pb facs="0109" n="5" xml:id="pg5"/>
+                    dated April 5 from the Foreign Office, in reply to the Embassy’s <hi
+                        rendition="#italic">Aide-Mémoire</hi> based on the Department’s telegraphic
+                    instruction No. 16, January 19, 1 p.m.,<anchor n="4" xml:id="d3-f2"/> concerning
+                    the difficulties at present encountered in shipping Canadian wheat to the United
+                    Kingdom via United States ports.</p>
+                <p>Respectfully yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Ray Atherton</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d3-a1.xml" xpointer="d3-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d3-f1" n="3" xml:id="d3-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d3-f2" n="4" xml:id="d3-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

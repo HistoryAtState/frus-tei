@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1889_comp16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Netherlands</title>
+            </titleStmt>
+            <xi:include href="../frus1889_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1889_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1889/comp16"
+                    type="canonical"/>
+                <relatedItem target="comp15/ch7/d278.xml" type="prev"/>
+                <relatedItem target="comp16/d279.xml" type="next"/>
+                <relatedItem target="../frus1889.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1889</bibl>
+                <bibl type="frus-division-id">comp16</bibl>
+                <bibl type="frus-division-n">16</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="640" to="642" unit="page"
+                        >640–42</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1889-11-14T23:59:59-05:00" notBefore="1889-08-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp16">
+
+                <pb facs="0762" n="640" xml:id="pg640"/>
+
+                <head>The Netherlands</head>
+
+
+                <xi:include href="comp16/d279.xml" xpointer="d279"/>
+                <xi:include href="comp16/d280.xml" xpointer="d280"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v2_d65" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 371.</title>
+                <title type="subtitle">General Sickles to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1873p1v2/d65"
+                    type="canonical"/>
+                <relatedItem target="d64.xml" type="prev"/>
+                <relatedItem target="d66.xml" type="next"/>
+                <relatedItem target="../comp7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v2</bibl>
+                <bibl type="frus-division-id">d65</bibl>
+                <bibl type="frus-division-n">65</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="842" to="843" unit="page"
+                        >842–43</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Madrid</hi></placeName>
+                    <date calendar="gregorian" when="1873-01-03"><hi rendition="#italic"
+                            >January</hi> 3, 1873</date>
+                    <date notAfter="1873-01-03T23:59:59-05:00" notBefore="1873-01-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1873p1v2/persons">
+                    <term ref="frus:frus1873p1v2/persons#p_DES1">Daniel E. Sickles</term>
+                    <term ref="frus:frus1873p1v2/persons#p_HF1">Hamilton Fish</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d65">
+
+                <pb facs="0212" n="842" sameAs="frus:frus1873p1v2/pg842"/>
+
+                <head>No. 371.<lb/><hi rendition="#italic">General Sickles to Mr. Fish.</hi></head>
+                <opener>
+                    <seg rendition="#center">[Telegram.—Received 10.30 p.m.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Madrid</hi></placeName>, <date calendar="gregorian"
+                            when="1873-01-03"><hi rendition="#italic">January</hi> 3,
+                        1873</date>.</dateline>
+                </opener>
+                <p>Minister of state communicated to me to-day, under reserve for your information,
+                    preliminary resolution of council of ministers respecting basis of pacification
+                    in Cuba. It comprises— <list>
+                        <item>First. General amnesty.</item>
+                        <pb facs="0213" n="843" xml:id="pg843"/>
+                        <item>Second. Return of confiscated property.</item>
+                        <item>Third. Gradual abolition of slavery within a brief period.</item>
+                        <item>Fourth. Provincial assembly and municipal franchises.</item>
+                        <item>Fifth. Representation in the Spanish Congress by senators and
+                            deputies.</item>
+                    </list></p>
+                <p>Mr. Martos suggests that an indication from you of the probable acceptance of the
+                    foregoing would facilitate formal action of this government.</p>
+                <closer>
+                    <signed>SICKLES.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

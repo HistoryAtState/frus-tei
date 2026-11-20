@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v10_d399" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 399</title>
+                <title type="subtitle">Memorandum by the Assistant Secretary of State for Near
+                    Eastern, South Asian, and African Affairs (Byroade) to the Secretary of
+                    State</title>
+            </titleStmt>
+            <xi:include href="../../frus1952-54v10_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1952-54v10_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v10/d399"
+                    type="canonical"/>
+                <relatedItem target="d398.xml" type="prev"/>
+                <relatedItem target="d399-a1.xml" type="next"/>
+                <relatedItem target="../comp2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v10</bibl>
+                <bibl type="frus-division-id">d399</bibl>
+                <bibl type="frus-division-n">399</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="855" to="856" unit="page"
+                        >855–56</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1953-12-23">December 23, 1953</date>
+                    <date notAfter="1953-12-23T23:59:59-05:00" notBefore="1953-12-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v10/persons">
+                    <term ref="frus:frus1952-54v10/persons#p_BHA1">Byroade, Henry A.</term>
+                    <term ref="frus:frus1952-54v10/persons#p_HLW1">Henderson, Loy W.</term>
+                    <term ref="frus:frus1952-54v10/persons#p_NRM1">Nixon, Richard M.</term>
+                </keywords>
+                <keywords scheme="frus:frus1952-54v10/terms">
+                    <term ref="frus:frus1952-54v10/terms#t_MSP1">MSP</term>
+                    <term ref="frus:frus1952-54v10/terms#t_NSC1">NSC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d399">
+
+                <pb facs="0881" n="855" sameAs="frus:frus1952-54v10/pg855"/>
+
+                <note rend="inline" type="source">788.5 MSP/12–2353</note>
+                <head>No. 399<lb/><hi rendition="#italic">Memorandum by the Assistant Secretary of
+                        State for Near Eastern, South Asian, and African Affairs (Byroade) to the
+                        Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1953-12-23">December 23, 1953</date>.</dateline>
+                </opener>
+                <list subtype="subject" type="description">
+                    <label>Subject:</label>
+                    <item>Future Aid to Iran.</item>
+                </list>
+                <p>Attached (Tab A) is a summary of the main points in a memorandum containing the
+                    tentative views of Ambassador Henderson on future aid to Iran. The memorandum
+                    was transmitted under cover of a letter from the Ambassador to Vice President
+                        Nixon.<anchor n="1" xml:id="d399-f1"/></p>
+                <p>It might be helpful for you to read this before the NSC discussion of Iran this
+                        week.<anchor n="2" xml:id="d399-f2"/></p>
+
+
+                <xi:include href="d399-a1.xml" xpointer="d399-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d399-f1" n="1" xml:id="d399-f1-content">
+                <p>Not found in Department of State files.</p>
+            </note>
+            <note corresp="#d399-f2" n="2" xml:id="d399-f2-content">
+                <p>Presumably a reference to the 177th meeting of the National Security Council on
+                    Dec. 23; see <ref target="#d398"><hi rendition="#italic">supra</hi></ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adams to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d13"
+                    type="canonical"/>
+                <relatedItem target="d12-a4.xml" type="prev"/>
+                <relatedItem target="d13-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d13</bibl>
+                <bibl type="frus-division-n">13</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="20" to="21" unit="page"
+                        >20–21</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Petropolis</hi></placeName>
+                    <date calendar="gregorian" when="1890-01-10"><hi rendition="#italic"
+                            >January</hi> 10, 1890</date>
+                    <date notAfter="1890-01-10T23:59:59-05:00" notBefore="1890-01-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d13">
+
+                <pb facs="0124" n="20" sameAs="frus:frus1890/pg20"/>
+
+                <head><hi rendition="#italic">Mr. Adams to Mr. Blaine</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Petropolis</hi></placeName>, <date calendar="gregorian"
+                            when="1890-01-10"><hi rendition="#italic">January</hi> 10, 1890</date>.
+                        (Received February 10.)</dateline>
+                    <seg rendition="#float-left">No. 36.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to forward herewith
+                    translations of the decrees of December 31, 1889, and January 7, 1890, both of
+                    importance, of the Provisional Government.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Robert Adams, Jr.</hi></signed></closer>
+
+
+
+                <xi:include href="d13-a1.xml" xpointer="d13-a1"/>
+                <xi:include href="d13-a2.xml" xpointer="d13-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1866p2_d380-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1866p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1866p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1866p2/d380-a1"
+                    type="canonical"/>
+                <relatedItem target="d380.xml" type="prev"/>
+                <relatedItem target="d381.xml" type="next"/>
+                <relatedItem target="d380.xml" type="parent"/>
+                <relatedItem target="d380.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1866p2</bibl>
+                <bibl type="frus-division-id">d380-a1</bibl>
+                <bibl type="frus-division-n">380.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="476" to="476" unit="page"
+                        >476</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label">A.</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Guayaquil,</hi></placeName>
+                    <date calendar="gregorian" when="1866-08-12">August 12, 1866</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d380-a1">
+
+                <pb facs="0550" n="476" sameAs="frus:frus1866p2/pg476"/>
+
+
+                <head ana="#head_untitled-missing-head-in-printed-volume">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Guayaquil,</hi></placeName>
+                        <date calendar="gregorian" when="1866-08-12">August 12,
+                        1866</date>.</dateline></opener>
+                <p>We, the undersigned, merchants, certify that the present rate of exchange for 90
+                    days’ bills on London is $6 65, Ecuadorian currency, per pound sterling.</p>
+                <closer>
+                    <signed>PEANAR, PERES &amp; OBANIO.</signed>
+                    <lb/>
+                    <signed>MILLAN, BALLEUR &amp; CO.</signed>
+                    <lb/>
+                    <signed>J. VEVEROIHO.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

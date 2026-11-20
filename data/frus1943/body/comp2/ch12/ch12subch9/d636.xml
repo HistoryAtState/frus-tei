@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d636" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the United States Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d636"
+                    type="canonical"/>
+                <relatedItem target="../ch12subch9.xml" type="prev"/>
+                <relatedItem target="d636-a1.xml" type="next"/>
+                <relatedItem target="../ch12subch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d636</bibl>
+                <bibl type="frus-division-n">636</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1313" to="1314" unit="page"
+                        >1313–14</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-31">31 August 1943</date>
+                    <date notAfter="1943-08-31T23:59:59-05:00" notBefore="1943-08-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d636">
+
+                <pb facs="1427" n="1313" sameAs="frus:frus1943/pg1313"/>
+
+                <note rend="inline" type="source"> J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the United States Chiefs of
+                        Staff</hi><anchor n="1" xml:id="d636-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/> C.C.S. 332</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-31">31 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Propaganda Plans</hi>
+                </p>
+                <list>
+                    <label>1.</label>
+                    <item>Lack of clear understanding between theater commanders and the Combined
+                        Chiefs of Staff concerning the propaganda to be used in furtherance of
+                        agreed operations has led to discrepancies which have had embarrassing
+                        implications.</item>
+                    <label>2.</label>
+                    <item>Effective coordination between the theaters and all propaganda agencies of
+                        the United Nations can be assured if propaganda plans are prepared and
+                        approved in advance of operations. It is therefore recommended that the
+                        attached directive to all theater commanders be approved by the Combined
+                        Chiefs of Staff.</item>
+                </list>
+
+
+
+                <xi:include href="d636-a1.xml" xpointer="d636-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d636-f1" n="1" type="source" xml:id="d636-f1-content">
+                <p>For the action taken on this paper at the 117th Meeting of the Combined Chiefs of
+                    Staff, September 3, 1943, see <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg1202">p. 1202</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

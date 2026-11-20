@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1951v03p1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1951v03p1_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1951v03p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1951v03p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1951v03p1"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1951v03p1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1951v03p1/covers/frus1951v03p1.jpg"/>
+                        <extent>
+                            <measure quantity="36596" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:10:33.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1951v03p1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1951v03p1/ebook/frus1951v03p1.epub"/>
+                        <extent>
+                            <measure quantity="4950828" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:10:33.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1951v03p1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1951v03p1/ebook/frus1951v03p1.mobi"/>
+                        <extent>
+                            <measure quantity="3338561" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:10:33.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1981 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>germany</term>
+                    <term>collective-security</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>canada</term>
+                    <term>iceland</term>
+                    <term>denmark</term>
+                    <term>portugal</term>
+                    <term>acheson-dean-gooderham</term>
+                    <term>truman-harry-s</term>
+                    <term>belgium</term>
+                    <term>austria</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>france</term>
+                    <term>italy</term>
+                    <term>luxembourg</term>
+                    <term>netherlands</term>
+                    <term>norway</term>
+                    <term>united-kingdom</term>
+                    <term>egypt</term>
+                    <term>iran</term>
+                    <term>israel</term>
+                    <term>national-security-council</term>
+                    <term>national-security-policy</term>
+                    <term>spain</term>
+                    <term>united-nations</term>
+                    <term>turkey</term>
+                    <term>the-bahamas</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1951v03p1" status="published" when="1981"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="" xml:id="pg-seq-1"/>
+            <pb facs="0002" n="" xml:id="pg-seq-2"/>
+            <pb facs="0003" n="" xml:id="pg-seq-3"/>
+            <pb facs="0004" n="" xml:id="pg-seq-4"/>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1951</titlePart>
+                    <titlePart type="volumeno">Volume III, Part 1</titlePart>
+                    <titlePart type="volumetitle">European Security and the German
+                        Question</titlePart>
+                </docTitle>
+                <docImprint>U. S. GOVERNMENT PRINTING OFFICE<lb/>WASHINGTON</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States<lb/>Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1981</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION
+                    8982<lb/>OF THIS PUBLICATION MAY BE PROCURED FROM<lb/>THE SUPERINTENDENT OF
+                    DOCUMENTS<lb/>U. S. GOVERNMENT PRINTING OFFICE<lb/>WASHINGTON, D.
+                    C.<lb/>AT<lb/>$1.75 PER COPY</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+            <xi:include href="front/photos.xml" xpointer="photos"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+    </text>
+</TEI>

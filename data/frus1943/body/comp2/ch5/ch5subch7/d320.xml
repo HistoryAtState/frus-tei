@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d320" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President’s Special Assistant (Hopkins) to Prime Minister Churchill
+                </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d320"
+                    type="canonical"/>
+                <relatedItem target="d319.xml" type="prev"/>
+                <relatedItem target="d321.xml" type="next"/>
+                <relatedItem target="../ch5subch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d320</bibl>
+                <bibl type="frus-division-n">320</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="630" to="630" unit="page"
+                        >630</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-06-17">June 17, 1943</date>
+                    <date notAfter="1943-06-17T23:59:59-05:00" notBefore="1943-06-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_TubeAlloys1">Tube Alloys</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d320">
+
+                <pb facs="0744" n="630" sameAs="frus:frus1943/pg630"/>
+
+                <note rend="inline" type="source">Hopkins Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The President’s Special Assistant</hi> (<hi
+                        rendition="#italic">Hopkins</hi>) <hi rendition="#italic">to Prime Minister
+                        Churchill </hi><anchor n="1" xml:id="d320-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-06-17">June 17, 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <p>The matter of <hi rendition="#small-caps">Tube Alloys</hi> is in hand and I think
+                    will be disposed of completely the first of the week.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d320-f1" n="1" type="source" xml:id="d320-f1-content">
+                <p>Channel of transmission not indicated.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

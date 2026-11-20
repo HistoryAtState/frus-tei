@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d303" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Jiménes to President Wilson.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d303"
+                    type="canonical"/>
+                <relatedItem target="d302.xml" type="prev"/>
+                <relatedItem target="d304.xml" type="next"/>
+                <relatedItem target="../ch43.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d303</bibl>
+                <bibl type="frus-division-n">303</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="313" to="313" unit="page"
+                        >313</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Santo Domingo</hi></placeName>
+                    <date calendar="gregorian" when="1915-06-22">
+                        <hi rendition="#italic">June 22, 1915</hi></date>
+                    <date notAfter="1915-06-22T23:59:59-05:00" notBefore="1915-06-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d303">
+
+                <pb facs="0429" n="313" sameAs="frus:frus1915/pg313"/>
+
+                <note rend="inline" type="source">File No. 839.51/1580.</note>
+                <head>
+                    <hi rendition="#italic">President Jiménes to President Wilson</hi>.</head>
+                <opener>
+                    <seg rendition="#center">[Telegram—Translation.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Santo Domingo</hi></placeName>, <date
+                            calendar="gregorian" when="1915-06-22">
+                            <hi rendition="#italic">June 22, 1915</hi></date>.</dateline>
+                </opener>
+                <p>Holding our respective Governments to be animated by the same interest in
+                    maintaining close and respectful relations among American and Dominican
+                    officials and deeming it antagonistic to that purpose that Charles Johnston
+                    should hold any office in this country, I make bold so to inform Your Excellency
+                    in order that you give the requisite directions should you deem it expedient to
+                    prevent the said gentleman from assuming any office in Santo Domingo.</p>
+                <p>Cordially and sincerely,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">President Jiménes</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1935v04_comp17" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Peru:</title>
+            </titleStmt>
+            <xi:include href="../frus1935v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1935v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1935v04/comp17"
+                    type="canonical"/>
+                <relatedItem target="comp16/ch50/d905.xml" type="prev"/>
+                <relatedItem target="comp17/ch51.xml" type="next"/>
+                <relatedItem target="../frus1935v04.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1935v04</bibl>
+                <bibl type="frus-division-id">comp17</bibl>
+                <bibl type="frus-division-n">17</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="932" to="945" unit="page"
+                        >932–45</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1935-12-20T23:59:59-05:00" notBefore="1935-08-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp17">
+
+                <pb facs="1025" n="932" xml:id="pg932"/>
+
+                <head>Peru:</head>
+
+                <xi:include href="comp17/ch51.xml" xpointer="ch51"/>
+            </div>
+        </body>
+    </text>
+</TEI>

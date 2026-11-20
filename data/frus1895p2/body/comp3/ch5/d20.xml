@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1895p2_d20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Terres to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1895p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1895p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1895p2/d20"
+                    type="canonical"/>
+                <relatedItem target="../ch5.xml" type="prev"/>
+                <relatedItem target="d20-a1.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1895p2</bibl>
+                <bibl type="frus-division-id">d20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="800" to="801" unit="page"
+                        >800–801</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Port au Prince,
+                        Haiti</hi></placeName>
+                    <date calendar="gregorian" when="1894-10-06"><hi rendition="#italic">October 6,
+                            1894</hi></date>
+                    <date notAfter="1894-10-06T23:59:59-05:00" notBefore="1894-10-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20">
+
+                <pb facs="0066" n="800" sameAs="frus:frus1895p2/pg800"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Terres to Mr. Gresham.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Port au Prince, Haiti</hi></placeName>, <date calendar="gregorian"
+                            when="1894-10-06"><hi rendition="#italic">October 6, 1894</hi></date>.
+                        (Received Oct. 24.)</dateline>
+                    <seg rendition="#float-left">No. 91.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit, herewith
+                    inclosed, copy with a translation of a note received on the 4th instant from the
+                    secretary of state ad interim for foreign relations, announcing the expulsion of
+                    Mr. Eugene Wiener, an American citizen, resident of Jeremie, accused of being an
+                    active agent of the enemies of order plotting in Jamaica and elsewhere against
+                    the established Government, and also Mr. Volny Dermonzy, a French citizen,
+                    resident of St. Marc, charged with making active propaganda tending to unsettle
+                    the country.</p>
+                <p>I am, etc.,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">John B. Terres.</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d20-a1.xml" xpointer="d20-a1"/>
+                <xi:include href="d20-a2.xml" xpointer="d20-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

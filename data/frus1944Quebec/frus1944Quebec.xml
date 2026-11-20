@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1944Quebec_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1944Quebec"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1944Quebec" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1944Quebec/covers/frus1944Quebec.jpg"/>
+                        <extent>
+                            <measure quantity="26891" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:37:49.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1944Quebec" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1944Quebec/ebook/frus1944Quebec.epub"/>
+                        <extent>
+                            <measure quantity="9521790" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:37:49.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1944Quebec" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1944Quebec/ebook/frus1944Quebec.mobi"/>
+                        <extent>
+                            <measure quantity="1527142" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:37:49.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1972 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>canada</term>
+                    <term>hull-cordell</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>argentina</term>
+                    <term>atomic-energy</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>austria</term>
+                    <term>bulgaria</term>
+                    <term>burma</term>
+                    <term>china</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>prisoners-of-war</term>
+                    <term>japan</term>
+                    <term>italy</term>
+                    <term>netherlands</term>
+                    <term>norway</term>
+                    <term>poland</term>
+                    <term>united-kingdom</term>
+                    <term>united-nations</term>
+                    <term>world-war-ii</term>
+                    <term>european-advisory-commission</term>
+                    <term>palau</term>
+                    <term>djibouti</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1944Quebec" status="published" when="1972"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="I" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States<lb/>The
+                        Conference at Quebec</titlePart>
+                </docTitle>
+                <titlePart type="subseries">1944</titlePart>
+                <docImprint>United States Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1972</docDate>
+                    <pb facs="0006" n="II" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION
+                        8627<lb/><hi rendition="#small-caps">Historical Office</hi><lb/><hi
+                        rendition="#small-caps">Bureau of Public Affairs</hi><lb/>For sale by the
+                    Superintendent of Documents, U.S. Government Printing Office<lb/>Washington,
+                    D.C. 20402-Price $4.75 (Buckram)<lb/>Stock Number 4400–1384</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0008" n="[IV]" xml:id="pgIV"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0012" n="[VIII]" xml:id="pgVIII"/>
+            <xi:include href="front/photographs-toc.xml" xpointer="photographs-toc"/>
+            <pb facs="0014" n="[X]" xml:id="pgX"/>
+            <xi:include href="front/introduction.xml" xpointer="introduction"/>
+            <pb facs="0022" n="[XVIII]" xml:id="pgXVIII"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/toc-papers.xml" xpointer="toc-papers"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <xi:include href="back/index-subjects.xml" xpointer="index-subjects"/>
+            <pb facs="0578" n="[514]" xml:id="pg514"/>
+            <xi:include href="back/index-persons.xml" xpointer="index-persons"/>
+        </back>
+    </text>
+</TEI>

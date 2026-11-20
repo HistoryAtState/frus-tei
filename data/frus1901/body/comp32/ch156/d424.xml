@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d424" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Sickles to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d424"
+                    type="canonical"/>
+                <relatedItem target="d423.xml" type="prev"/>
+                <relatedItem target="d424-a1.xml" type="next"/>
+                <relatedItem target="../ch156.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d424</bibl>
+                <bibl type="frus-division-n">424</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="481" to="482" unit="page"
+                        >481–82</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Madrid</hi></placeName>
+                    <date calendar="gregorian" when="1901-06-28"><hi rendition="#italic">June 28,
+                            1901</hi>.</date>
+                    <date notAfter="1901-06-28T23:59:59-05:00" notBefore="1901-06-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d424">
+
+                <pb facs="0561" n="481" sameAs="frus:frus1901/pg481"/>
+
+                <head><hi rendition="#italic">Mr. Sickles to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Madrid</hi></placeName>, <date calendar="gregorian"
+                            when="1901-06-28"><hi rendition="#italic">June 28,
+                        1901</hi>.</date></dateline>
+                    <seg rendition="#float-left">No. 507.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to confirm my telegram of
+                    the 27th instant.</p>
+                <p>In connection with this matter I inclose herewith, for the consideration of the
+                    Department, copies of two letters from the consul-general at Barcelona which
+                    will explain Mr. Lay’s uncertainty as to the registration of Cubans and Porto
+                    Ricans at that place.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Stanton Sickles</hi>,<lb/><hi
+                            rendition="#italic">Chargé d’Affaires ad interim.</hi></signed></closer>
+
+
+
+                <xi:include href="d424-a1.xml" xpointer="d424-a1"/>
+                <xi:include href="d424-a2.xml" xpointer="d424-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

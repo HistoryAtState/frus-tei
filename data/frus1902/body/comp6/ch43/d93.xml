@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d93" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Bryan to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d93"
+                    type="canonical"/>
+                <relatedItem target="../ch43.xml" type="prev"/>
+                <relatedItem target="d93-a1.xml" type="next"/>
+                <relatedItem target="../ch43.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d93</bibl>
+                <bibl type="frus-division-n">93</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="106" to="107" unit="page"
+                        >106–7</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Petropolis</hi></placeName>
+                    <date calendar="gregorian" when="1902-07-11"><hi rendition="#italic">July 11,
+                            1902</hi></date>
+                    <date notAfter="1902-07-11T23:59:59-05:00" notBefore="1902-07-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d93">
+
+                <pb facs="0186" n="106" sameAs="frus:frus1902/pg106"/>
+
+                <head><hi rendition="#italic">Mr. Bryan to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Petropolis</hi></placeName>, <date calendar="gregorian"
+                            when="1902-07-11"><hi rendition="#italic">July 11,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 134.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to your telegraphic
+                        instruction<anchor n="a" xml:id="d93-f1"/> of May 24, in regard to
+                    permission to United States consuls to act for Cuba, and your unnumbered
+                        instruction<anchor n="b" xml:id="d93-f2"/> of May 20, in regard to notifying
+                    this Government of the inauguration of an independent government in Cuba, I have
+                    the honor to report that the permission asked has been granted.</p>
+                <p>It will be noted that the Brazilian Government suggests that a direct
+                    communication is also expected from Cuba.</p>
+                <p>Copies of my notes to the foreign office and of the reply just received thereto
+                    are inclosed.</p>
+                <p>According to the instructions sent by you, I have notified the consuls through
+                    the consulate-general.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Charles Page
+                    Bryan.</hi></signed></closer>
+
+
+
+
+
+                <xi:include href="d93-a1.xml" xpointer="d93-a1"/>
+                <xi:include href="d93-a2.xml" xpointer="d93-a2"/>
+                <xi:include href="d93-a3.xml" xpointer="d93-a3"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d93-f1" n="a" xml:id="d93-f1-content">
+                <p>Printed, ante, <ref target="#pg6">page 6</ref>.</p>
+            </note>
+            <note corresp="#d93-f2" n="b" xml:id="d93-f2-content">
+                <p>Printed, ante, <ref target="#pg6">page 6</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

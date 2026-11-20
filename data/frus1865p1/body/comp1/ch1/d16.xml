@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p1_d16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Seward to Mr. Adams</title>
+            </titleStmt>
+            <xi:include href="../../../frus1865p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1865p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p1/d16"
+                    type="canonical"/>
+                <relatedItem target="d15.xml" type="prev"/>
+                <relatedItem target="d16-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p1</bibl>
+                <bibl type="frus-division-id">d16</bibl>
+                <bibl type="frus-division-n">16</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="38" to="39" unit="page"
+                        >38–39</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State,</hi>
+                        <hi rendition="#italic">Washington,</hi></placeName>
+                    <date calendar="gregorian" when="1864-12-15"><hi rendition="#italic"
+                            >December</hi> 15, 1864</date>
+                    <date notAfter="1864-12-15T23:59:59-05:00" notBefore="1864-12-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d16">
+
+                <pb facs="0078" n="38" sameAs="frus:frus1865p1/pg38"/>
+
+                <head>Mr. Seward to Mr. Adams</head>
+                <opener>
+                    <seg rendition="#float-left">No. 1191.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Department of State,</hi>
+                            <hi rendition="#italic">Washington,</hi></placeName>
+                        <date calendar="gregorian" when="1864-12-15"><hi rendition="#italic"
+                                >December</hi> 15, 1864</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to the correspondence between
+                    this department and yourself in regard to the refusal of the British authorities
+                    to deliver up the deserters from the Iroquois, I give you herewith a copy of a
+                    note which I addressed on the 14th instant to J. Hume Burnley, esq., announcing
+                    the decision of this government upon the application made through her Majesty’s
+                    legation here for the delivery up of two apprentice boys who deserted from the
+                    British bark Cuzco, at Valparaiso, and enlisted on the United States
+                    sloop-of-war St. Mary’s, and for indemnification of the Cuzco at that port. I
+                    am, sir, your obedient servant,</p>
+                <closer>
+                    <signed>WILLIAM H. SEWARD.</signed></closer>
+                <postscript>
+                    <p><hi rendition="#small-caps">Charles Francis Adams,</hi> Esq., <hi
+                            rendition="#italic">&amp;c., &amp;c., &amp;c.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d16-a1.xml" xpointer="d16-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

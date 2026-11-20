@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1896_comp18" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mexico</title>
+            </titleStmt>
+            <xi:include href="../frus1896_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1896_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1896/comp18"
+                    type="canonical"/>
+                <relatedItem target="comp17/ch72/d348-a2.xml" type="prev"/>
+                <relatedItem target="comp18/ch73.xml" type="next"/>
+                <relatedItem target="../frus1896.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1896</bibl>
+                <bibl type="frus-division-id">comp18</bibl>
+                <bibl type="frus-division-n">18</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="438" to="455" unit="page"
+                        >438–55</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1897-01-25T23:59:59-05:00" notBefore="1893-09-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp18">
+
+                <pb facs="0532" n="438" xml:id="pg438"/>
+
+                <head>Mexico</head>
+
+
+
+                <xi:include href="comp18/ch73.xml" xpointer="ch73"/>
+                <xi:include href="comp18/ch74.xml" xpointer="ch74"/>
+                <xi:include href="comp18/ch75.xml" xpointer="ch75"/>
+            </div>
+        </body>
+    </text>
+</TEI>

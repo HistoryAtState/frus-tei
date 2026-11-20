@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1947v06_comp3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>French Indochina</title>
+            </titleStmt>
+            <xi:include href="../frus1947v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1947v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1947v06/comp3"
+                    type="canonical"/>
+                <relatedItem target="comp2.xml" type="prev"/>
+                <relatedItem target="comp3/ch2.xml" type="next"/>
+                <relatedItem target="../frus1947v06.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1947v06</bibl>
+                <bibl type="frus-division-id">comp3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="51" to="155" unit="page"
+                        >51–155</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1947-12-30T23:59:59-05:00" notBefore="1947-01-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp3">
+
+                <pb facs="0065" n="51" xml:id="pg51"/>
+
+                <head>French Indochina</head>
+
+                <xi:include href="comp3/ch2.xml" xpointer="ch2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

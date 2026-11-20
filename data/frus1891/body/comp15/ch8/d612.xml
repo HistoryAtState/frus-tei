@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1891_d612" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Miller to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1891_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1891_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1891/d612"
+                    type="canonical"/>
+                <relatedItem target="d611.xml" type="prev"/>
+                <relatedItem target="d612-a1.xml" type="next"/>
+                <relatedItem target="../ch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1891</bibl>
+                <bibl type="frus-division-id">d612</bibl>
+                <bibl type="frus-division-n">612</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="663" to="664" unit="page"
+                        >663–64</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of Justice</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1890-12-20"><hi rendition="#italic">December
+                            20, 1890</hi></date>
+                    <date notAfter="1890-12-20T23:59:59-05:00" notBefore="1890-12-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d612">
+
+                <pb facs="0771" n="663" sameAs="frus:frus1891/pg663"/>
+
+                <head><hi rendition="#italic">Mr. Miller to Mr. Blaine</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of Justice</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1890-12-20"><hi rendition="#italic">December 20,
+                        1890</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Inclosed I hand you a copy of a letter of
+                    date December 18, from William Grant, United States attorney, in reference to
+                    the citizenship of Italians charged with murder in New Orleans. I also inclose
+                    certificate sent by Mr. Grant. All this in response to your request of December
+                    4.</p>
+                <p>Yours truly,</p>
+                <closer><signed><hi rendition="#small-caps">W. H. H. Miller</hi>,<lb/><hi
+                            rendition="#italic">Attorney-General</hi>.</signed></closer>
+
+
+                <xi:include href="d612-a1.xml" xpointer="d612-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v26_d12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter From President Nixon to Israeli Prime Minister Meir</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v26_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v26_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v26/d12"
+                    type="canonical"/>
+                <relatedItem target="d11.xml" type="prev"/>
+                <relatedItem target="d13.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v26</bibl>
+                <bibl type="frus-division-id">d12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="88" to="89" unit="page"
+                        >88–89</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1974-01-17">January 17, 1974</date>
+                    <date notAfter="1974-01-17T23:59:59-05:00" notBefore="1974-01-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v26/persons">
+                    <term ref="frus:frus1969-76v26/persons#p_SA_1">al-Sadat, Anwar</term>
+                    <term ref="frus:frus1969-76v26/persons#p_KHA_1">Kissinger, Henry A.</term>
+                    <term ref="frus:frus1969-76v26/persons#p_MG_1">Meir, Golda</term>
+                    <term ref="frus:frus1969-76v26/persons#p_NRM_1">Nixon, Richard M.</term>
+                    <term ref="frus:frus1969-76v26/persons#p_SHH_1">Saunders, Harold H.</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v26/terms">
+                    <term ref="frus:frus1969-76v26/terms#t_NSC_1">NSC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d12">
+
+                <pb facs="0114" n="88" sameAs="frus:frus1969-76v26/pg88"/>
+
+                <head>12. Letter From President Nixon to Israeli Prime Minister Meir<anchor n="1"
+                        xml:id="d12-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1974-01-17">January 17,
+                        1974</date>.</dateline></opener>
+                <opener>
+                    <salute>Dear Madame Prime Minister:</salute>
+                </opener>
+                <p>I want to inform you that the Government of the United States has received from
+                    the Government of Egypt assurances to the effect that, in connection with the
+                    agreement on the disengagement of Egyptian and Israeli forces, the Government of
+                    Egypt confirms that it regards the Straits of Bab el-Mandeb as an international
+                    waterway for ships of all flags and that it will not interfere with the free
+                    passage of Israeli ships or cargoes.<anchor n="2" xml:id="d12-f2"/></p>
+                <p>Further assurances have been received from Egypt that upon the opening of the
+                    Suez Canal, the principle of free passage will likewise be observed and that
+                    principle will be extended to Israel when the state of belligerency between
+                    Egypt and Israel has ended.<anchor n="3" xml:id="d12-f3"/> As a first step, all
+                        <pb facs="0115" n="89" xml:id="pg89"/> cargoes destined for and coming from
+                    Israel will be permitted through the Canal from the time of its opening.</p>
+                <p>Sincerely,</p>
+                <closer>
+                    <signed corresp="#p_NRM_1">Richard Nixon</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d12-f1" n="1" type="source" xml:id="d12-f1-content">
+                <p>Source: National Archives, Nixon Presidential Materials, NSC Files, Box 1180,
+                    Harold H. Saunders Files, Middle East Peace Negotiations, January 10–17, 1974.
+                    Secret.</p>
+            </note>
+            <note corresp="#d12-f2" n="2" xml:id="d12-f2-content">
+                <p>These assurances were expressed in a letter from President Sadat to President
+                    Nixon, January 17. (Ibid., Kissinger Office Files, Box 133, Country Files,
+                    Middle East, Egypt, Volume 9, January 1974)</p>
+            </note>
+            <note corresp="#d12-f3" n="3" xml:id="d12-f3-content">
+                <p>The assurance of free passage was included in the same letter that confirmed the
+                    Straits of Bab el-Mandeb as an international waterway.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

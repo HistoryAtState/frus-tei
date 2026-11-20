@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1941-43_d410" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Combined Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1941-43_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1941-43_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1941-43/d410"
+                    type="canonical"/>
+                <relatedItem target="d409.xml" type="prev"/>
+                <relatedItem target="d411.xml" type="next"/>
+                <relatedItem target="../ch10subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1941-43</bibl>
+                <bibl type="frus-division-id">d410</bibl>
+                <bibl type="frus-division-n">410</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="777" to="778" unit="page"
+                        >777–78</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Casablanca</hi></placeName>
+                    <date calendar="gregorian" when="1943-01-20">January 20, 1943</date>
+                    <date notAfter="1943-01-20T23:59:59-05:00" notBefore="1943-01-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1941-43/terms">
+                    <term ref="frus:frus1941-43/terms#t_CCS1">C.C.S.</term>
+                    <term ref="frus:frus1941-43/terms#t_Husky1">Husky</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d410">
+
+                <pb facs="0863" n="777" sameAs="frus:frus1941-43/pg777"/>
+
+                <note rend="inline" type="source">J.C.S. Files</note>
+                <head><hi rendition="#italic">Memorandum by the Combined Chiefs of Staff</hi><anchor
+                        n="1" xml:id="d410-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/> C.C.S. 159/1</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Casablanca</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-01-20">January 20, 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">The Bomber Offensive From North
+                        Africa</hi></p>
+                <list>
+                    <label>1.</label>
+                    <item>The objects of the bomber offensive from North Africa will be, in order to
+                            [<hi rendition="#italic">of?</hi>] time: <list>
+                            <label>(<hi rendition="#italic">a</hi>)</label>
+                            <item>The furtherance of operations for the eviction of all Axis forces
+                                from Africa.</item>
+                            <pb facs="0864" n="778" xml:id="pg778"/>
+                            <label>(<hi rendition="#italic">b</hi>)</label>
+                            <item>When (<hi rendition="#italic">a</hi>) has been achieved,
+                                infliction of the heaviest possible losses on the Axis Air and Naval
+                                forces in preparation for “<hi rendition="#small-caps">Husky</hi>”,
+                                including bombing required by cover plans.</item>
+                            <label>(<hi rendition="#italic">c</hi>)</label>
+                            <item>The direct furtherance of operation “<hi rendition="#small-caps"
+                                    >Husky</hi>”.</item>
+                            <label>(<hi rendition="#italic">d</hi>)</label>
+                            <item>The destruction of the oil refineries at Ploesti.</item>
+                        </list></item>
+                    <label>2.</label>
+                    <item>So far as is possible without prejudice to the achievement of objects (<hi
+                            rendition="#italic">a</hi>), (<hi rendition="#italic">b</hi>) and (<hi
+                            rendition="#italic">c</hi>) above, bombing objectives will be chosen
+                        with a view to weakening the Italian will to continue the war.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d410-f1" n="1" type="source" xml:id="d410-f1-content">
+                <p>This paper is identical with C.C.S. 159, not printed, except for the deletion of
+                    the words, “The proposals of the British Chiefs of Staff are as follows,” at the
+                    head of the paper and the addition of the words, “including bombing required by
+                    cover plans,” following “<hi rendition="#small-caps">Husky</hi>” at the close of
+                    paragraph 1(<hi rendition="#italic">b</hi>). The memorandum was approved as
+                    amended by the Combined Chiefs of Staff at their meeting on the morning of
+                    January 20, 1943, <hi rendition="#italic">ante</hi>, <ref target="#pg660">p.
+                        660</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

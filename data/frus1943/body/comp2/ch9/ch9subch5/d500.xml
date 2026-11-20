@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d500" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Report by the Combined Intelligence Committee</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d500"
+                    type="canonical"/>
+                <relatedItem target="../ch9subch5.xml" type="prev"/>
+                <relatedItem target="d500-a1.xml" type="next"/>
+                <relatedItem target="../ch9subch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d500</bibl>
+                <bibl type="frus-division-n">500</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1092" to="1095" unit="page"
+                        >1092–95</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-16">16 August 1943</date>
+                    <date notAfter="1943-08-16T23:59:59-05:00" notBefore="1943-08-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d500">
+
+                <pb facs="1206" n="1092" sameAs="frus:frus1943/pg1092"/>
+
+                <note rend="inline" type="source"> J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Report by the Combined Intelligence
+                        Committee</hi><anchor n="1" xml:id="d500-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/> Enclosure to C.C.S. 127/3</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-16">16 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Scale of Attack on the East and West Coasts of North
+                        America</hi>
+                </p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">statement of the problem</hi>
+                </p>
+                <p>1. The Combined Chiefs of Staff have directed the Combined Intelligence Committee
+                    to report on the probable scale of attack that might be expected on the east and
+                    west coasts of North America.</p>
+                <pb facs="1207" n="1093" xml:id="pg1093"/>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">discussion</hi>
+                </p>
+                <p>2. The probable scale of attack on the east coast of North America is discussed
+                    in Enclosure “A”; that on the west coast in Enclosure “B”. In this paper,
+                    consideration is limited to the Atlantic Coast north of the Straits of Florida
+                    and to the Pacific Coast north of Mexico.</p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">conclusions</hi>
+                </p>
+                <p>3. <hi rendition="#italic">East coast of North America</hi>. Submarine attacks on
+                    shipping and minelaying in the coastal zone are continuing possibilities.
+                    Sporadic bombardment of shore installations, or landing of commando raiders or
+                    saboteurs by submarines are also possible but only on a small scale. Similar
+                    attacks by surface raiders are possible, but highly improbable. Air attack, on a
+                    very small scale, is possible, but is even more improbable than surface
+                    attack.</p>
+                <p>4. <hi rendition="#italic">West coast of North America</hi>. Our conclusions are
+                    the same as those for the East coast, with two slight shifts of emphasis: <list>
+                        <label>
+                            <hi rendition="#italic">a</hi>.</label>
+                        <item>The maximum possible scale of submarine attack is less.</item>
+                        <label>
+                            <hi rendition="#italic">b</hi>.</label>
+                        <item>The possible scale of attack by ship-borne aircraft is greater. Such
+                            an attack, however, is very unlikely.</item>
+                    </list>
+                </p>
+
+
+
+                <xi:include href="d500-a1.xml" xpointer="d500-a1"/>
+                <xi:include href="d500-a2.xml" xpointer="d500-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d500-f1" n="1" type="source" xml:id="d500-f1-content">
+                <p>Circulated under cover of the following note by the Secretaries of the Combined
+                    Chiefs of Staff (C.C.S. 127/3), August 16, 1943: “The attached report on C.C.S.
+                    127/2 [“Scale of Attack on East or West Coasts of North America”, August 6,
+                    1943; not printed], prepared by the Combined Intelligence Committee, is
+                    presented for the consideration of the Combined Chiefs of Staff.”</p>
+                <p>The report was approved by the Combined Chiefs of Staff at their 118th Meeting,
+                    September 10, 1943. See <hi rendition="#italic">post</hi>, <ref target="#pg1221"
+                        >p. 1221</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

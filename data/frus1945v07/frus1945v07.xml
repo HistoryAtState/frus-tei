@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945v07" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1945v07_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1945v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1945v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1945v07"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1945v07" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1945v07/covers/frus1945v07.jpg"/>
+                        <extent>
+                            <measure quantity="28686" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:46:56.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1945v07" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1945v07/ebook/frus1945v07.epub"/>
+                        <extent>
+                            <measure quantity="2523693" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:46:56.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1945v07" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1945v07/ebook/frus1945v07.mobi"/>
+                        <extent>
+                            <measure quantity="3227902" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:46:56.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1969 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">roosevelt-fd</term>
+                    <term xml:id="admin2">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>byrnes-james-francis</term>
+                    <term>truman-harry-s</term>
+                    <term>stettinius-edward-reilly</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>china</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>japan</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>foreign-aid</term>
+                    <term>foreign-investment</term>
+                    <term>mongolia</term>
+                    <term>laos</term>
+                    <term>cambodia</term>
+                    <term>vietnam</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>united-kingdom</term>
+                    <term>organization-and-management</term>
+                    <term>buildings-foreign</term>
+                    <term>personnel-foreign-service</term>
+                    <term>tajikistan</term>
+                    <term>liechtenstein</term>
+                    <term>far-eastern-commission</term>
+                    <term>st-lucia</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1945v07" status="published" when="1969"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States Diplomatic
+                        Papers</titlePart>
+                    <titlePart type="subseries">1945</titlePart>
+                    <titlePart type="volumeno">Volume VII</titlePart>
+                    <titlePart type="volumetitle">The Far East China</titlePart>
+                </docTitle>
+                <docImprint>United States Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1969</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION 8442 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the<lb/>Superintendent of Documents, U.S. Government Printing
+                    Office<lb/>Washington, D.C. 20402 - Price $7.25 (Buckram)</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+            <xi:include href="body/comp12.xml" xpointer="comp12"/>
+            <xi:include href="body/comp13.xml" xpointer="comp13"/>
+            <xi:include href="body/comp14.xml" xpointer="comp14"/>
+            <xi:include href="body/comp15.xml" xpointer="comp15"/>
+            <xi:include href="body/comp16.xml" xpointer="comp16"/>
+            <xi:include href="body/comp17.xml" xpointer="comp17"/>
+            <xi:include href="body/comp18.xml" xpointer="comp18"/>
+            <xi:include href="body/comp19.xml" xpointer="comp19"/>
+            <xi:include href="body/comp20.xml" xpointer="comp20"/>
+            <xi:include href="body/comp21.xml" xpointer="comp21"/>
+            <xi:include href="body/comp22.xml" xpointer="comp22"/>
+        </body>
+        <back>
+            <pb facs="1499" n="[1489]" xml:id="pg1489"/>
+            <pb facs="1500" n="[1490]" xml:id="pg1490"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v10_d263" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegram From the Embassy in the German Democratic Republic to the Department
+                    of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1981-88v10_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1981-88v10_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v10/d263"
+                    type="canonical"/>
+                <relatedItem target="d262.xml" type="prev"/>
+                <relatedItem target="d264.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v10</bibl>
+                <bibl type="frus-division-id">d263</bibl>
+                <bibl type="frus-division-n">263</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="812" to="812" unit="page"
+                        >812</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>East Berlin</placeName>
+                    <date calendar="gregorian" when="1984-01-26">January 26, 1984, 1401Z</date>
+                    <date notAfter="1984-01-26T23:59:59-05:00" notBefore="1984-01-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1981-88v10/persons">
+                    <term ref="frus:frus1981-88v10/persons#p_RR_2">Ridgway, Rozanne</term>
+                </keywords>
+                <keywords scheme="frus:frus1981-88v10/terms">
+                    <term ref="frus:frus1981-88v10/terms#t_GDR_1">GDR</term>
+                    <term ref="frus:frus1981-88v10/terms#t_NSC_1">NSC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d263">
+
+                <pb facs="0843" n="812" sameAs="frus:frus1981-88v10/pg812"/>
+
+                <head>263. Telegram From the Embassy in the German Democratic Republic to the
+                    Department of State<anchor n="1" xml:id="d263-f1"/></head>
+                <opener><seg rendition="#float-left">261.</seg><dateline rendition="#float-right"
+                            ><placeName>East Berlin</placeName>, <date calendar="gregorian"
+                            when="1984-01-26">January 26, 1984, 1401Z</date></dateline></opener>
+                <!--<pb facs="d263-2" n="2" type="facsimile" xml:id="d263-2"/>-->
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Asylum Seekers in Embassy.</item>
+                </list>
+                <list type="references">
+                    <head>REF</head>
+                    <item>(A) Berlin 260;<anchor n="2" xml:id="d263-f2"/></item>
+                    <item>(B) Berlin 255;<anchor n="3" xml:id="d263-f3"/></item>
+                    <item>(C) State 23572.<anchor n="4" xml:id="d263-f4"/></item>
+                </list>
+                <list>
+                    <label>1.</label>
+                    <item>C—Entire text.</item>
+                    <label>2.</label>
+                    <item>The family of three left voluntarily at about 1430 hours after speaking
+                        with EmbOff. They were not stopped immediately on departure, but a GDR
+                        police car moved off after they turned the corner, and we can only assume
+                        they will be at least questioned.</item>
+                    <label>3.</label>
+                    <item>The young man who came earlier (Ref B) remains in the landing area, still
+                        refusing to depart. We have continued to make the case that asylum is not
+                        possible and that it is in his best interests to leave and pursue existing
+                        mechanisms. He still maintains he has been in jail once before and has
+                        nothing to lose by staying.</item>
+                </list>
+                <closer><signed><hi rendition="#bold">Ridgway</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d263-f1" n="1" type="source" xml:id="d263-f1-content">
+                <p>Source: Reagan Library, Executive Secretariat, NSC Cable File, Europe (State)
+                    NODIS IN (01/21/1984–04/23/1984). Confidential; Niact Immediate; Nodis.</p>
+            </note>
+            <note corresp="#d263-f2" n="2" xml:id="d263-f2-content">
+                <p>See <ref target="#d262">Document 262</ref>.</p>
+            </note>
+            <note corresp="#d263-f3" n="3" xml:id="d263-f3-content">
+                <p>See <ref target="#d262-f3">footnote 3, Document 262</ref>.</p>
+            </note>
+            <note corresp="#d263-f4" n="4" xml:id="d263-f4-content">
+                <p>See <ref target="#d262-f2">footnote 2, Document 262</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

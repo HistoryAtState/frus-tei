@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v05_comp26" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>URUGUAY</title>
+            </titleStmt>
+            <xi:include href="../frus1958-60v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1958-60v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v05/comp26"
+                    type="canonical"/>
+                <relatedItem target="comp25/ch17/d349.xml" type="prev"/>
+                <relatedItem target="comp26/ch18.xml" type="next"/>
+                <relatedItem target="../frus1958-60v05.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v05</bibl>
+                <bibl type="frus-division-id">comp26</bibl>
+                <bibl type="frus-division-n">26</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype">editorial-note</bibl>
+                <bibl type="frus-print-pages"><biblScope from="915" to="916" unit="page"
+                        >915–16</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1960-12-27T23:59:59-05:00" notBefore="1958-01-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp26">
+
+                <pb facs="0955" n="915" xml:id="pg915"/>
+
+                <head>URUGUAY</head>
+
+                <xi:include href="comp26/ch18.xml" xpointer="ch18"/>
+            </div>
+        </body>
+    </text>
+</TEI>

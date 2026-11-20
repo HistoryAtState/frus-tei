@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v07_d58-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Enclosure 2</title>
+            </titleStmt>
+            <xi:include href="../../frus1950v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1950v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1950v07/d58-a2"
+                    type="canonical"/>
+                <relatedItem target="d58-a1.xml" type="prev"/>
+                <relatedItem target="../comp2.xml" type="next"/>
+                <relatedItem target="d58.xml" type="parent"/>
+                <relatedItem target="d58.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v07</bibl>
+                <bibl type="frus-division-id">d58-a2</bibl>
+                <bibl type="frus-division-n">58.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="123" to="124" unit="page"
+                        >123–24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Seoul</hi></placeName>
+                    <date calendar="gregorian" when="1950-06-23">June 23, 1950</date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1950v07/terms">
+                    <term ref="frus:frus1950v07/terms#t_KMAG1">KMAG</term>
+                    <term ref="frus:frus1950v07/terms#t_MDAP1">MDAP</term>
+                    <term ref="frus:frus1950v07/terms#t_WARX1">WARX</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d58-a2">
+
+                <pb facs="0143" n="123" sameAs="frus:frus1950v07/pg123"/>
+
+                <head>Enclosure 2</head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Seoul</hi></placeName>, <date
+                            calendar="gregorian" when="1950-06-23">June 23, 1950</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#italic">The Ambassador in Korea</hi> (<hi rendition="#italic"
+                        >Muccio</hi>) <hi rendition="#italic">to the Chief of the United States
+                        Military Advisory Group to the Republic of Korea</hi> (<hi
+                        rendition="#italic">Sturies</hi>)</p>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have received your letter of June 22,
+                    1950, with which you submitted a detailed plan, pursuant to instructions
+                    contained in WARX 81993, for the reduction of KMAG personnel to take effect from
+                    January 1, 1951.</p>
+                <p>I note that the plan submitted by you corresponds generally with the plan
+                    originally agreed upon in consequence of informal discussions with General
+                    Roberts and Colonel Wright, except for the changes outlined in the third
+                    paragrah of your letter. I fully agree that the Engineer and Ordnance advisory
+                    sections should be strengthened in order to handle MDA equipment and supplies to
+                    the best effect.</p>
+                <p>In so far as your plan relates to Army and police advisory duties, it has my full
+                    concurrence. I note, however, that the plan includes no provision for Coast
+                    Guard advisors who have hitherto been carried as <pb facs="0144" n="124"
+                        xml:id="pg124"/> a part of the KMAG complement. I strongly feel, as I am
+                    sure you do, that the United States must retain and even strengthen its Coast
+                    Guard advisory personnel. I wish, therefore, to go on record as endorsing the
+                    written request which went forward from the Chief KMAG to the Department of the
+                    Army, under date of April 1, 1950, for the strengthening of the advisory group
+                    to the Coast Guard.<anchor n="5" xml:id="d58-f1"/> The financing of the Coast
+                    Guard advisory group is obviously a matter for determination in Washington.</p>
+                <p>While, under existing policy, the inclusion of Air Force advisory personnel in
+                    the KMAG complement would not be proper, I am hopeful that a top-level decision
+                    will be taken in Washington, in accordance with the recommendations set forth in
+                    the Embassy’s telegram no. 744, May 23, 1950, to the Department of State, which
+                    will permit of the inclusion of Air Force advisory personnel in the KMAG
+                        complement.<anchor n="6" xml:id="d58-f2"/>
+                </p>
+                <p>Very truly yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">John</hi> J. <hi rendition="#small-caps"
+                            >Muccio</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d58-f1" n="5" xml:id="d58-f1-content">
+                <p>Not printed; the substance of the request is given in Sawyer, <hi
+                        rendition="#italic">Military Advisors in Korea</hi>, p. 92.</p>
+            </note>
+            <note corresp="#d58-f2" n="6" xml:id="d58-f2-content">
+                <p>See footnote 3 to telegram 744, May 23, from Seoul, <ref target="#pg87">p.
+                        87</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

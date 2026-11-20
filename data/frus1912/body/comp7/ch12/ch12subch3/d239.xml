@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d239" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Minister to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d239"
+                    type="canonical"/>
+                <relatedItem target="d238.xml" type="prev"/>
+                <relatedItem target="d240.xml" type="next"/>
+                <relatedItem target="../ch12subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d239</bibl>
+                <bibl type="frus-division-n">239</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="150" to="150" unit="page"
+                        >150</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1912-09-11">
+                        <hi rendition="#italic">September 11, 1912</hi></date>
+                    <date notAfter="1912-09-11T23:59:59-05:00" notBefore="1912-09-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d239">
+
+                <pb facs="0266" n="150" sameAs="frus:frus1912/pg150"/>
+
+                <note rend="inline" type="source">File No. 893.51/1051.</note>
+                <head>
+                    <hi rendition="#italic">The American Minister to the Secretary of
+                    State</hi>.</head>
+                <opener>
+                    <seg rendition="#center">[Telegram.—Paraphrase.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Peking</hi></placeName>, <date
+                            calendar="gregorian" when="1912-09-11">
+                            <hi rendition="#italic">September 11, 1912</hi></date>.</dateline>
+                </opener>
+                <p>The Chinese Government is reported to have signed a preliminary agreement for a
+                    loan of £10,000,000 secured on the salt gabelle, with Lloyd’s Bank and Union of
+                    London and Smith’s Bank.<anchor n="2" xml:id="d239-f1"/>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Calhoun.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d239-f1" n="2" xml:id="d239-f1-content">
+                <p>This is later known as “the Crisp loan” (C. Birch Crisp &amp; Co.); references to
+                    it occur at <ref target="#pg152">pp. 152</ref>, <ref target="#pg153">153</ref>
+                    and later; officially it was “The Chinese Government 5 per cent Gold Loan of
+                    1912.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

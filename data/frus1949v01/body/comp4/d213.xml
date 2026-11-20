@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v01_d213" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chairman of the United States Atomic Energy Commission (Lilienthal) to
+                    President Truman </title>
+            </titleStmt>
+            <xi:include href="../../frus1949v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1949v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1949v01/d213"
+                    type="canonical"/>
+                <relatedItem target="d212.xml" type="prev"/>
+                <relatedItem target="d213-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1949v01</bibl>
+                <bibl type="frus-division-id">d213</bibl>
+                <bibl type="frus-division-n">213</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="576" to="585" unit="page"
+                        >576–85</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1949-11-09">November 9, 1949</date>
+                    <date notAfter="1949-11-09T23:59:59-05:00" notBefore="1949-11-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1949v01/terms">
+                    <term ref="frus:frus1949v01/terms#t_Super1">Super</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d213">
+
+                <pb facs="0606" n="576" sameAs="frus:frus1949v01/pg576"/>
+
+                <note rend="inline" type="source">PM Files</note>
+                <head>
+                    <hi rendition="#italic">The Chairman of the United States Atomic Energy
+                        Commission</hi> (<hi rendition="#italic">Lilienthal</hi>) <hi
+                        rendition="#italic">to President Truman </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1949-11-09">November 9, 1949</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Dear Mr. President</hi>: We hand you herewith a
+                    memorandum from the members of this Commission on the development of a “Super”
+                    bomb. We shall, of course, be glad to discuss the subject with you at any time
+                    you desire this.</p>
+                <p>We have not, of course, transmitted copies of our memorandum to you to the
+                    Secretary of State or the Secretary of Defense. In the event you wish to
+                    transmit it to them we have enclosed two extra copies.<anchor n="1"
+                        xml:id="d213-f1"/>
+                </p>
+                <p>Respectfully yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">David</hi> E. <hi rendition="#small-caps"
+                            >Lilienthal</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d213-a1.xml" xpointer="d213-a1"/>
+                <xi:include href="d213-a2.xml" xpointer="d213-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d213-f1" n="1" xml:id="d213-f1-content">
+                <p>Transmitted to Secretary Acheson by President Truman on November 14</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Russia_d799" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Vice Consul at Viborg (Imbrie) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Russia_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Russia_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Russia/d799"
+                    type="canonical"/>
+                <relatedItem target="d798.xml" type="prev"/>
+                <relatedItem target="d800.xml" type="next"/>
+                <relatedItem target="../ch20.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Russia</bibl>
+                <bibl type="frus-division-id">d799</bibl>
+                <bibl type="frus-division-n">799</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="701" to="701" unit="page"
+                        >701</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Viborg</hi></placeName>
+                    <date calendar="gregorian" when="1919-08-13"><hi rendition="#italic">August 13,
+                            1919</hi></date>
+                    <date notAfter="1919-08-13T23:59:59-05:00" notBefore="1919-08-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1919Russia/persons">
+                    <term ref="frus:frus1919Russia/persons#p_HHC1">Hoover, Herbert C.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d799">
+
+                <pb facs="0813" n="701" sameAs="frus:frus1919Russia/pg701"/>
+
+                <note rend="inline" type="source">861.48/927: Telegram</note>
+                <head><hi rendition="#italic">The Vice Consul at Viborg</hi> (<hi
+                        rendition="#italic">Imbrie</hi>) <hi rendition="#italic">to the Secretary of
+                        State</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Viborg</hi></placeName>, <date calendar="gregorian"
+                            when="1919-08-13"><hi rendition="#italic">August 13,
+                        1919</hi></date>.<lb/>[Received August 14, 10:55, a.m.]</dateline></opener>
+                <p>79. With reference to Department’s telegram of August 8th transmitted through the
+                    American Commissioner at Helsingfors<anchor n="37" xml:id="d799-f1"/> and
+                    quoting Hoover wire number 854<anchor n="38" xml:id="d799-f2"/> I have to report
+                    I have noted instructions therein contained and will execute same. In this
+                    connection I have to advise the Department that the Viborg office of the
+                    American Food Administration has been closed, the personnel have departed and
+                    that the affairs of the Food Administration have been formally turned over to
+                    me. The Food Administration has notified the Russians that the stores here
+                    amounting to some 7,000 tons, valued at $3,000,000, may only be moved subject to
+                    my approval. I shall see that the stores are not dispersed in contravention of
+                    the agreement that the food may not be used for political or military
+                    purpose.</p>
+                <closer><signed><hi rendition="#small-caps">Imbrie</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d799-f1" n="37" xml:id="d799-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d799-f2" n="38" xml:id="d799-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg698">p. 698</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

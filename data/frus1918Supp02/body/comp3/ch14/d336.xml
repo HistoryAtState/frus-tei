@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Supp02_d336" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Swiss Minister (Sulzer) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1918Supp02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1918Supp02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Supp02/d336"
+                    type="canonical"/>
+                <relatedItem target="d335.xml" type="prev"/>
+                <relatedItem target="d336-a1.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Supp02</bibl>
+                <bibl type="frus-division-id">d336</bibl>
+                <bibl type="frus-division-n">336</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="317" to="318" unit="page"
+                        >317–18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1918-11-27T23:59:59-05:00" notBefore="1918-11-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Supp02/persons">
+                    <term ref="frus:frus1918Supp02/persons#p_SH1">Sulzer, Hans</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d336">
+
+                <pb facs="0401" n="317" sameAs="frus:frus1918Supp02/pg317"/>
+
+                <note rend="inline" type="source">File No. 763.72113/793</note>
+                <head>
+                    <hi rendition="#italic">The Swiss Minister</hi> (<hi rendition="#italic"
+                        >Sulzer</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">Department of German</seg>
+                    <lb/>
+                    <seg rendition="#float-left">Interests XXV–9</seg>
+                </opener>
+                <p>The Minister of Switzerland, representing German interests in the United States,
+                    presents his compliments to the Secretary of State and, referring to the
+                    Legation’s memorandum dated October 18, 1918,<anchor n="1" xml:id="d336-f1"/>
+                    regarding a protest of the German Government against the treatment accorded
+                    German property in the Philippines, now has the honor to transmit to His
+                    Excellency a carbon copy of the <hi rendition="#italic">note verbale</hi> upon
+                    which the Legation’s memorandum of October 18, 1918, was based.</p>
+                <closer>
+                    <dateline rendition="#float-left">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi>
+                        </placeName>, <date calendar="gregorian" when="1918-11-27"><hi
+                                rendition="#italic">November 27, 1918</hi></date>. <lb/> [<hi
+                            rendition="#italic">Received November 29.</hi>]</dateline>
+                </closer>
+
+
+                <xi:include href="d336-a1.xml" xpointer="d336-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d336-f1" n="1" xml:id="d336-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

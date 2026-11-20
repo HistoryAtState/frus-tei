@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d910" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Day.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d910"
+                    type="canonical"/>
+                <relatedItem target="d909.xml" type="prev"/>
+                <relatedItem target="../ch102.xml" type="next"/>
+                <relatedItem target="../ch101.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d910</bibl>
+                <bibl type="frus-division-n">910</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="984" to="984" unit="page"
+                        >984</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1898-07-02"><hi rendition="#italic">July 2,
+                            1898</hi></date>
+                    <date notAfter="1898-07-02T23:59:59-05:00" notBefore="1898-07-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d910">
+
+                <pb facs="1080" n="984" xml:id="pg984"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Hay to Mr. Day.</hi>
+                </head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1898-07-02"
+                                ><hi rendition="#italic">July 2,
+                    1898</hi></date>.</dateline></opener>
+                <p>Referring to your cipher telegram June 29, British Government has cabled resident
+                    at Aden and assistant resident at Perim about British vessel <hi
+                        rendition="#italic">Imaum;</hi> the latter reports she arrived on June 28;
+                    is now discharging 5,000 tons coal consigned to Perim Coal Company there, and is
+                    to proceed when finished to Karachi. Every precaution taken to prevent violation
+                    of neutrality proclamation.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Hay.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v36_Published" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Published sources</title>
+            </titleStmt>
+            <xi:include href="../frus1969-76v36_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1969-76v36_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v36/Published"
+                    type="canonical"/>
+                <relatedItem target="Unpublished.xml" type="prev"/>
+                <relatedItem target="terms.xml" type="next"/>
+                <relatedItem target="../frus1969-76v36.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v36</bibl>
+                <bibl type="frus-division-id">Published</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">sources</bibl>
+                <bibl type="frus-print-pages"><biblScope from="XVIII" to="XVIII" unit="page"
+                        >XVIII</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1974-08-03T10:00:00-05:00" notBefore="1969-03-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v36/persons">
+                    <term ref="frus:frus1969-76v36/persons#p_EDD1">Eisenhower, Dwight D.</term>
+                    <term ref="frus:frus1969-76v36/persons#p_KHA1">Kissinger, Henry A.</term>
+                    <term ref="frus:frus1969-76v36/persons#p_NRM1">Nixon, Richard M.</term>
+                    <term ref="frus:frus1969-76v36/persons#p_RD1">Rockefeller, David</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="Published">
+
+                <pb facs="0018" n="XVIII" sameAs="frus:frus1969-76v36/pgXVIII"/>
+
+                <head>Published sources</head>
+                <p rendition="#flush">Kissinger, Henry A. <hi rendition="#italic">Years of
+                        Upheaval</hi>. Boston: Little, Brown, 1982.</p>
+                <p rendition="#flush">Rockefeller, David. <hi rendition="#italic">Memoirs</hi>. New
+                    York: Random House, 2002.</p>
+                <p rendition="#flush">United Nations. <hi rendition="#italic">Yearbook of the United
+                        Nations, 1967</hi>. New York: Office of Public Information, United Nations,
+                    1969.</p>
+                <p rendition="#flush">United States. Department of State. <hi rendition="#italic"
+                        >Bulletin</hi>. 1969–1972.</p>
+                <p rendition="#flush">———. National Archives and Records Administration. <hi
+                        rendition="#italic">Public Papers of the Presidents of the United States:
+                        Dwight D. Eisenhower, 1959</hi>. Washington: Government Printing Office,
+                    1960.</p>
+                <p rendition="#flush">———. National Archives and Records Administration. <hi
+                        rendition="#italic">Public Papers of the Presidents of the United States:
+                        Richard M. Nixon, 1969–1974</hi>. Washington: Government Printing Office,
+                    1969–1975.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

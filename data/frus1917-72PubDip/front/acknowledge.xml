@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917-72PubDip_acknowledge" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Acknowledgements</title>
+            </titleStmt>
+            <xi:include href="../frus1917-72PubDip_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1917-72PubDip_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1917-72PubDip/acknowledge"
+                    type="canonical"/>
+                <relatedItem target="preface.xml" type="prev"/>
+                <relatedItem target="toc.xml" type="next"/>
+                <relatedItem target="../frus1917-72PubDip.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917-72PubDip</bibl>
+                <bibl type="frus-division-id">acknowledge</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">acknowledgments</bibl>
+                <bibl type="frus-print-pages"><biblScope from="IX" to="IX" unit="page"
+                        >IX</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1919-06-01T17:59:59-05:00" notBefore="1917-08-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="acknowledge">
+
+                <pb facs="0011" n="IX" xml:id="pgIX"/>
+
+                <head>Acknowledgements</head>
+                <p>The editor wishes to thank the staff at the Library of Congress and the National
+                    Archives and Records Administration facility in College Park, Maryland, for
+                    their valuable assistance.</p>
+                <p>Aaron W. Marrs collected, selected, and edited the documentation for this
+                    compilation under the supervision of Adam Howard, General Editor of the <hi
+                        rendition="#italic">Foreign Relations</hi> series. The compilation was
+                    reviewed by Kathleen B. Rasmussen, Chief of the Global Issues and General
+                    Division. Stephanie Eckroth, Rita Baker, and Thomas Faith performed the copy and
+                    technical editing, and Kerry Hite coordinated the final declassification review
+                    under Carl Ashley, Chief of the Declassification Division. Joe Wicentowski
+                    provided technical assistance in creating the multimedia portion of this
+                    volume.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Aaron W. Marrs, Ph.D.</hi>
+                    </signed><lb/>
+                    <affiliation>
+                        <hi rendition="#italic">Historian</hi>
+                    </affiliation>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

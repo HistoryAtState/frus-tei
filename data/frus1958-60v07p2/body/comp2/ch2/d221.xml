@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v07p2_d221" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Conversation</title>
+            </titleStmt>
+            <xi:include href="../../../frus1958-60v07p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1958-60v07p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v07p2/d221"
+                    type="canonical"/>
+                <relatedItem target="d220.xml" type="prev"/>
+                <relatedItem target="d222.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v07p2</bibl>
+                <bibl type="frus-division-id">d221</bibl>
+                <bibl type="frus-division-n">221</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="477" to="477" unit="page"
+                        >477</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" type="conversation-or-meeting-date"
+                        when="1958-07-30T15:00:00">July 30, 1958, 3 p.m.</date>
+                    <date notAfter="1958-07-30T15:00:00-05:00" notBefore="1958-07-30T15:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v07p2/persons">
+                    <term ref="frus:frus1958-60v07p2/persons#p_FA1">Fanfani, Amintore</term>
+                    <term ref="frus:frus1958-60v07p2/persons#p_MBRH1">McBride, Robert H.</term>
+                    <term ref="frus:frus1958-60v07p2/persons#p_NGA1">Nasser, Gamal Abdul</term>
+                    <term ref="frus:frus1958-60v07p2/persons#p_SRM1">Service, Richard M.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v07p2/terms">
+                    <term ref="frus:frus1958-60v07p2/terms#t_UAR1">UAR</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d221">
+
+                <pb facs="0513" n="477" xml:id="pg477"/>
+
+                <head>221. Memorandum of Conversation<anchor n="0" xml:id="d221-f1"/></head>
+                <opener><dateline rendition="#float-right"><date calendar="gregorian"
+                            type="conversation-or-meeting-date" when="1958-07-30T15:00:00">July 30,
+                            1958, 3 p.m.</date></dateline></opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Nasser Visit to Italy</item>
+                </list>
+                <p>[Here follows the same list of participants as <ref target="#d218">Document
+                        218</ref>.]</p>
+                <p>The Prime Minister stated that plans for Nasser’s visit were inherited from the
+                    previous Government, which has invited the UAR President to Rome.<anchor n="1"
+                        xml:id="d221-f2"/> In view of this situation, he urged that the U.S.
+                    Government should not be unduly concerned if, after study of this problem, the
+                    Italian Government decided to re-extend the invitation.</p>
+                <p>The Secretary said that he had complete confidence in the Prime Minister’s
+                    judgment.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d221-f1" n="0" type="source" xml:id="d221-f1-content">
+                <p>Source: Department of State, Central Files, 865.0077/7–3058. Secret. Drafted by
+                    Service and McBride. See also <ref target="#d218">Documents 218</ref>–<ref
+                        target="#d220">220</ref> and <ref target="#d222">222</ref>–<ref
+                        target="#d224">224</ref>.</p>
+            </note>
+            <note corresp="#d221-f2" n="1" xml:id="d221-f2-content">
+                <p>Nasser’s trip was postponed. Fanfani visited Egypt in January 1959 and again
+                    invited Nasser to visit Italy.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

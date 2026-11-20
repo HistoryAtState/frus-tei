@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_comp14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>France:</title>
+            </titleStmt>
+            <xi:include href="../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/comp14"
+                    type="canonical"/>
+                <relatedItem target="comp13/ch45/d378.xml" type="prev"/>
+                <relatedItem target="comp14/ch46.xml" type="next"/>
+                <relatedItem target="../frus1915.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">comp14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="380" to="403" unit="page"
+                        >380–403</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1915-11-10T23:59:59-05:00" notBefore="1914-11-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp14">
+
+                <pb facs="0496" n="380" xml:id="pg380"/>
+
+                <head>France:</head>
+
+
+
+
+
+
+
+
+
+                <xi:include href="comp14/ch46.xml" xpointer="ch46"/>
+                <xi:include href="comp14/ch47.xml" xpointer="ch47"/>
+                <xi:include href="comp14/ch48.xml" xpointer="ch48"/>
+                <xi:include href="comp14/ch49.xml" xpointer="ch49"/>
+                <xi:include href="comp14/ch50.xml" xpointer="ch50"/>
+                <xi:include href="comp14/ch51.xml" xpointer="ch51"/>
+                <xi:include href="comp14/ch52.xml" xpointer="ch52"/>
+            </div>
+        </body>
+    </text>
+</TEI>

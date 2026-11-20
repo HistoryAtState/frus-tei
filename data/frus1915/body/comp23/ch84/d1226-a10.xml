@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d1226-a10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915/d1226-a10"
+                    type="canonical"/>
+                <relatedItem target="d1226-a9.xml" type="prev"/>
+                <relatedItem target="d1226-a11.xml" type="next"/>
+                <relatedItem target="d1226.xml" type="parent"/>
+                <relatedItem target="d1226.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d1226-a10</bibl>
+                <bibl type="frus-division-n">1226.10</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="870" to="870" unit="page"
+                        >870</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Mexico</hi>, D. F.</placeName>
+                    <date calendar="gregorian" when="1915-03-29">
+                        <hi rendition="#italic">March 29, 1915</hi></date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1226-a10">
+
+                <pb facs="0986" n="870" sameAs="frus:frus1915/pg870"/>
+
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Mexico</hi>, D. F.</placeName>, <date
+                            calendar="gregorian" when="1915-03-29">
+                            <hi rendition="#italic">March 29, 1915</hi></date>.</dateline>
+                </opener>
+                <p>Received from Mr. J. M. Cardoso de Oliveira, Minister of Brazil, in charge of
+                    American interests in Mexico, the check referred to in the foregoing
+                    receipt.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Ruth G. Wood</hi>, <hi rendition="#italic">V’da
+                            de McManus.</hi>
+                    </signed>
+                    <lb/> Witness: <lb/>
+                    <signed>
+                        <hi rendition="#small-caps">Charles B. Parker</hi></signed>, <lb/>
+                    <signed>
+                        <hi rendition="#small-caps">Carlos Alberto Yoniz Gonsillez.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

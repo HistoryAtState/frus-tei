@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav02" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1918Russiav02_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1918Russiav02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1918Russiav02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav02"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1918Russiav02" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1918Russiav02/covers/frus1918Russiav02.jpg"/>
+                        <extent>
+                            <measure quantity="27097" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:56:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1918Russiav02" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1918Russiav02/ebook/frus1918Russiav02.epub"/>
+                        <extent>
+                            <measure quantity="1899985" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:56:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1918Russiav02" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1918Russiav02/ebook/frus1918Russiav02.mobi"/>
+                        <extent>
+                            <measure quantity="2599227" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:56:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1932 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">wilson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>russia</term>
+                    <term>non-governmental-organizations</term>
+                    <term>armistices</term>
+                    <term>belgium</term>
+                    <term>asylum</term>
+                    <term>china</term>
+                    <term>denmark</term>
+                    <term>finland</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>united-kingdom</term>
+                    <term>world-war-i</term>
+                    <term>prisoners-of-war</term>
+                    <term>italy</term>
+                    <term>labor</term>
+                    <term>lithuania</term>
+                    <term>foreign-aid</term>
+                    <term>netherlands</term>
+                    <term>peace</term>
+                    <term>norway</term>
+                    <term>diplomatic-recognition</term>
+                    <term>romania</term>
+                    <term>self-determination</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>wilson-woodrow</term>
+                    <term>ukraine</term>
+                    <term>estonia</term>
+                    <term>japan</term>
+                    <term>poland</term>
+                    <term>turkey</term>
+                    <term>estonia</term>
+                    <term>latvia</term>
+                    <term>lithuania</term>
+                    <term>armenia</term>
+                    <term>georgia</term>
+                    <term>azerbaijan</term>
+                    <term>moldova</term>
+                    <term>ukraine</term>
+                    <term>romania</term>
+                    <term>faroe-islands</term>
+                    <term>liechtenstein</term>
+                    <term>lansing-robert</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1918Russiav02" status="published" when="1932"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0007" n="[i]" xml:id="pgi"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0007"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">PUBLICATIONS OF THE <lb/> DEPARTMENT OF STATE PAPERS
+                        RELATING <lb/> TO THE FOREIGN RELATIONS <lb/> OF THE UNITED
+                        STATES</titlePart>
+                    <titlePart type="subseries">1918 <lb/> RUSSIA</titlePart>
+                    <titlePart type="volumeno">(IN THREE VOLUMES) <lb/> VOLUME II</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <publisher>UNITED STATES <lb/> GOVERNMENT PRINTING OFFICE</publisher>
+                    <lb/>
+                    <pubPlace>WASHINGTON:</pubPlace>
+                    <docDate>1932</docDate>
+                    <pb facs="0008" n="[ii]" xml:id="pgii"/>
+                    <hi rendition="#small-caps">Publication No</hi>. 330</docImprint>
+            </titlePage>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+            <pb facs="0018" n="[XII]" xml:id="pgXII"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+            <pb facs="0088" n="[LXXXII]" xml:id="pgLXXXII"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <pb facs="0952" n="[862]" xml:id="pg862"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d69" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d69"
+                    type="canonical"/>
+                <relatedItem target="d68.xml" type="prev"/>
+                <relatedItem target="d70.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d69</bibl>
+                <bibl type="frus-division-n">69</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="45" to="45" unit="page"
+                        >45</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Quebec</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-14">September 14, 1944</date>
+                    <date notAfter="1944-09-14T23:59:59-05:00" notBefore="1944-09-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_StageII1">Stage II</term>
+                    <term ref="frus:frus1944Quebec/terms#t_UNRRA1">UNRRA</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d69">
+
+                <pb facs="0099" n="45" sameAs="frus:frus1944Quebec/pg45"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President
+                    Roosevelt</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Quebec</hi></placeName>, <date calendar="gregorian"
+                            when="1944-09-14">September 14, 1944</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">My Dear Friend</hi>, I understand that we are meeting
+                    at 11:30<anchor n="1" xml:id="d69-f1"/> about Stage 2. Dick Law arrived here
+                    late last night, and I wonder whether I might bring him at 11 o’clock with or
+                    without Anthony,<anchor n="2" xml:id="d69-f2"/> to discuss the application of
+                    U.N.R.R.A. to Italy. He tells me that a compromise proposal would get through
+                    whereby 50 million dollars of U.N.R.R.A. would be available for Italy. I
+                    consider this should be an essential part of our friendly gesture to Italy.</p>
+                <p>If agreeable then, I will turn up at 11.<anchor n="3" xml:id="d69-f3"/></p>
+                <p>Yours always,</p>
+                <closer><signed>W[<hi rendition="#small-caps">inston S.
+                    Churchill</hi>]</signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d69-f1" n="1" xml:id="d69-f1-content">
+                <p>See <hi rendition="#italic">post</hi>, <ref target="#pg342">p. 342</ref>.</p>
+            </note>
+            <note corresp="#d69-f2" n="2" xml:id="d69-f2-content">
+                <p>Eden.</p>
+            </note>
+            <note corresp="#d69-f3" n="3" xml:id="d69-f3-content">
+                <p>No record of the discussion at the 11 o’clock meeting between Roosevelt and
+                    Churchill on September 14 has been found.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

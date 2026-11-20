@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d905" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Ambassador to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d905"
+                    type="canonical"/>
+                <relatedItem target="d904.xml" type="prev"/>
+                <relatedItem target="d905-a1.xml" type="next"/>
+                <relatedItem target="../ch72.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d905</bibl>
+                <bibl type="frus-division-n">905</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="710" to="711" unit="page"
+                        >710–11</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1912-01-06">
+                        <hi rendition="#italic">January 6, 1912</hi></date>
+                    <date notAfter="1912-01-06T23:59:59-05:00" notBefore="1912-01-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d905">
+
+                <pb facs="0826" n="710" xml:id="pg710"/>
+
+                <note rend="inline" type="source">File No. 812.00/2692.</note>
+                <head>
+                    <hi rendition="#italic">The American Ambassador to the Secretary of
+                    State</hi>.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 1203.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Mexico</hi></placeName>, <date
+                            calendar="gregorian" when="1912-01-06">
+                            <hi rendition="#italic">January 6, 1912</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith for
+                    such action as the Department deems necessary to take, a copy of an informal
+                    note, with its inclosures, from the Mexican Minister for Foreign Affairs,
+                    relative to certain seditious propaganda being carried on by Dr. Emilio Vázquez
+                    Gómez from his present home in San Antonio, Texas.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Henry Lane Wilson.</hi>
+                    </signed>
+                </closer>
+
+
+
+
+                <xi:include href="d905-a1.xml" xpointer="d905-a1"/>
+                <xi:include href="d905-a2.xml" xpointer="d905-a2"/>
+                <xi:include href="d905-a3.xml" xpointer="d905-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

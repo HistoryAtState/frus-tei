@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d623" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note by the Secretaries of the Combined Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d623"
+                    type="canonical"/>
+                <relatedItem target="d622.xml" type="prev"/>
+                <relatedItem target="d624.xml" type="next"/>
+                <relatedItem target="../ch12subch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d623</bibl>
+                <bibl type="frus-division-n">623</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1290" to="1290" unit="page"
+                        >1290</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-09-09">9 September 1943</date>
+                    <date notAfter="1943-09-09T23:59:59-05:00" notBefore="1943-09-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d623">
+
+                <pb facs="1404" n="1290" sameAs="frus:frus1943/pg1290"/>
+
+                <note rend="inline" type="source"> J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Note by the Secretaries of the Combined Chiefs of
+                        Staff</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/> C.C.S. 341</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-09-09">9 September 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Review of Strategic Situation in Light of Italian
+                        Collapse</hi>
+                </p>
+                <p>The enclosure, a minute presented to the President by the Prime Minister,<anchor
+                        n="1" xml:id="d623-f1"/> has been referred to the Combined Staff Planners
+                    for study and for the submission of draft of conclusions which may be submitted
+                    by the Combined Chiefs of Staff to the President and Prime Minister on Friday
+                    afternoon, 10 September 1943.</p>
+                <closer>
+                    <signed> H. <hi rendition="#small-caps">Redman</hi>
+                        <lb/> J. R. <hi rendition="#small-caps">Deane</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Combined Secretariat</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d623-f1" n="1" xml:id="d623-f1-content">
+                <p>
+                    <hi rendition="#italic">Supra</hi>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

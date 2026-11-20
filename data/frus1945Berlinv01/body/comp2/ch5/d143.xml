@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d143" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 143</title>
+                <title type="subtitle">President Truman to Marshal Stalin </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d143"
+                    type="canonical"/>
+                <relatedItem target="d142.xml" type="prev"/>
+                <relatedItem target="d144.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d143</bibl>
+                <bibl type="frus-division-n">143</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="157" to="157" unit="page"
+                        >157</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-05-29">29 May 1945</date>
+                    <date notAfter="1945-05-29T23:59:59-05:00" notBefore="1945-05-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_HWA2">Harriman, W. Averell</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_MVM1">Molotov, Vyacheslav
+                        Mikhailovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d143">
+
+                <pb facs="0289" n="157" xml:id="pg157"/>
+
+                <note rend="inline" type="source"> Truman Papers: Telegram</note>
+                <head>No. 143 <lb/>
+                    <hi rendition="#italic">President Truman to Marshal Stalin </hi><anchor n="1"
+                        xml:id="d143-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-05-29">29 May 1945</date>.</dateline>
+                </opener>
+                <p>Number 275, personal and top secret, from the President for Premier J. V.
+                    Stalin.</p>
+                <p>Thank you for your suggestion regarding surrendered German ships contained in
+                    your message dated May 23, 1945.<anchor n="2" xml:id="d143-f2"/>
+                </p>
+                <p>It appears to me that this is an appropriate subject for discussion by the three
+                    of us at the forthcoming meeting at which time I am sure a solution can be
+                    reached which will be fully acceptable to all of us.</p>
+                <p>Regarding the available records of the German Naval surrender it is my
+                    understanding that examination of the German files is now being considered by
+                    our appropriate commanders in the areas concerned.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Truman</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d143-f1" n="1" type="source" xml:id="d143-f1-content">
+                <p>Sent to the United States Naval Attaché, Moscow, via Navy channels. Paraphrase
+                    incorporated into a note of May 29 from Harriman to Molotov for delivery to
+                    Stalin.</p>
+            </note>
+            <note corresp="#d143-f2" n="2" xml:id="d143-f2-content">
+                <p>See <ref target="#d386-f2">document No. 386, footnote 2</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v41_d2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>National Security Study Memorandum 6</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v41_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v41_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v41/d2"
+                    type="canonical"/>
+                <relatedItem target="d1.xml" type="prev"/>
+                <relatedItem target="d3.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v41</bibl>
+                <bibl type="frus-division-id">d2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="13" unit="page"
+                        >13</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1969-01-21">January 21, 1969</date>
+                    <date notAfter="1969-01-21T23:59:59-05:00" notBefore="1969-01-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v41/persons">
+                    <term ref="frus:frus1969-76v41/persons#p_KHA_1">Kissinger, Henry A.</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v41/terms">
+                    <term ref="frus:frus1969-76v41/terms#t_NATO_1">NATO</term>
+                    <term ref="frus:frus1969-76v41/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1969-76v41/terms#t_NSSM_1">NSSM</term>
+                    <term ref="frus:frus1969-76v41/terms#t_UK_1">UK</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d2">
+
+                <pb facs="0052" n="13" xml:id="pg13"/>
+
+                <head>2. National Security Study Memorandum 6<anchor n="1" xml:id="d2-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1969-01-21">January 21, 1969</date>.</dateline></opener>
+                <list type="description">
+                    <label>TO</label>
+                    <item>The Secretary of State</item>
+                    <item>The Secretary of Defense</item>
+                    <item>The Secretary of the Treasury</item>
+                    <item>The Director of Central Intelligence</item>
+                    <item>The Chairman, Joint Chiefs of Staff</item>
+                </list>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Review of NATO Policy Alternatives</item>
+                </list>
+                <p>The President has directed a review of US policy toward NATO. The review should
+                    consider alternatives with reference to policy in general and to specific issues
+                    including US troop levels, German offset negotiations, US nuclear relations with
+                    the UK and France, an examination of political consultation practices within
+                    NATO and our interests and policies with respect to them, and US attitudes
+                    toward intra-European defense cooperation.</p>
+                <p>The President has directed that the NSC Interdepartmental Group for Europe
+                    perform this review and that the Secretary of the Treasury designate a
+                    representative to sit on the Group for this purpose. The chairman may invite
+                    other agencies to send representatives to particular meetings of the Group.</p>
+                <p>An initial paper should be forwarded to the NSC Review Group by March 3,
+                    1969.</p>
+                <closer>
+                    <signed corresp="#p_KHA_1"> Henry A. Kissinger </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d2-f1" n="1" type="source" xml:id="d2-f1-content">
+                <p>Source: National Archives, Nixon Presidential Materials, NSC Files, Box 365,
+                    Subject Files, National Security Study Memoranda (NSSM’s)—Nos. 1 thru.
+                    Secret.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

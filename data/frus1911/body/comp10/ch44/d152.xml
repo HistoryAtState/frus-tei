@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_d152" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Minister to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/d152"
+                    type="canonical"/>
+                <relatedItem target="d151-a1.xml" type="prev"/>
+                <relatedItem target="d152-a1.xml" type="next"/>
+                <relatedItem target="../ch44.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">d152</bibl>
+                <bibl type="frus-division-n">152</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="134" to="135" unit="page"
+                        >134–35</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Habana, Cuba</hi></placeName>
+                    <date calendar="gregorian" when="1911-04-17"><hi rendition="#italic">April 17,
+                            1911</hi></date>
+                    <date notAfter="1911-04-17T23:59:59-05:00" notBefore="1911-04-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d152">
+
+                <pb facs="0216" n="134" sameAs="frus:frus1911/pg134"/>
+
+                <note rend="inline" type="source">File No. 811.34537/56.</note>
+                <head><hi rendition="#italic">The American Minister to the Secretary of
+                    State.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic">Habana,
+                                Cuba</hi></placeName>, <date calendar="gregorian" when="1911-04-17"
+                                ><hi rendition="#italic">April 17, 1911</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 758.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to the project to enlarge
+                    our naval station at Guantánamo, I have the honor to transmit herewith a copy of
+                    a “Confidential Memorandum,” which I read to Sr. Sanguily, the Cuban secretary
+                    of state, this afternoon, and left with him at his request. This memorandum was
+                    compiled from several of the department’s instructions or their accompanying
+                    documents (I from No. 254, II from No. 278,<anchor n="2" xml:id="d152-f1"/> and
+                    III from No. 277), and was presented to Sr. Sanguily as a reply to his
+                    confidential note of February 8, of which a copy was sent in my dispatch No. 623
+                    * * *.<anchor n="3" xml:id="d152-f2"/></p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John B. Jackson.</hi></signed></closer>
+
+
+
+                <xi:include href="d152-a1.xml" xpointer="d152-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d152-f1" n="2" xml:id="d152-f1-content">
+                <p>Printed under Naval Station at Guantánamo, <ref target="#pg120">p. 120</ref>.</p>
+            </note>
+            <note corresp="#d152-f2" n="3" xml:id="d152-f2-content">
+                <p>The omission appears under Naval Station at Guantánamo, <ref target="#pg121">p.
+                        121</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

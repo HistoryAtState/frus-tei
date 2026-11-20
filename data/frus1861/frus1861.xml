@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1861" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1861_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1861_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1861_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1861"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1861" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1861/covers/frus1861.jpg"/>
+                        <extent>
+                            <measure quantity="31173" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:22:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1861" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1861/ebook/frus1861.epub"/>
+                        <extent>
+                            <measure quantity="767005" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:22:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1861" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1861/ebook/frus1861.mobi"/>
+                        <extent>
+                            <measure quantity="902945" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:22:48.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1861 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>belgium</term>
+                    <term>mexico</term>
+                    <term>united-kingdom</term>
+                    <term>austria</term>
+                    <term>france</term>
+                    <term>spain</term>
+                    <term>russia</term>
+                    <term>italy</term>
+                    <term>denmark</term>
+                    <term>netherlands</term>
+                    <term>turkey</term>
+                    <term>sweden</term>
+                    <term>portugal</term>
+                    <term>peru</term>
+                    <term>guatemala</term>
+                    <term>nicaragua</term>
+                    <term>egypt</term>
+                    <term>venezuela</term>
+                    <term>chile</term>
+                    <term>japan</term>
+                    <term>black-jeremiah-sullivan</term>
+                    <term>lincoln-abraham</term>
+                    <term>seward-william-henry</term>
+                    <term>buchanan-james-p</term>
+                    <term>american-revolutionary-war</term>
+                    <term>suriname</term>
+                    <term>grenada</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1861" status="published" when="1861"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[1]" xml:id="pg1"/>
+            <pb facs="0002" n="[2]" xml:id="pg2"/>
+            <xi:include href="front/message-of-the-president.xml"
+                xpointer="message-of-the-president"/>
+            <xi:include href="front/d1.xml" xpointer="d1"/>
+            <divGen type="toc" xml:id="toc"/>
+        </front>
+        <body>
+            <pb facs="0030" n="[30]" xml:id="pg30"/>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+        </body>
+    </text>
+</TEI>

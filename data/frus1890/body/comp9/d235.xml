@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d235" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Lincoln to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d235"
+                    type="canonical"/>
+                <relatedItem target="d234.xml" type="prev"/>
+                <relatedItem target="d235-a1.xml" type="next"/>
+                <relatedItem target="../comp9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d235</bibl>
+                <bibl type="frus-division-n">235</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="331" to="331" unit="page"
+                        >331</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1890-04-09"><hi rendition="#italic">April</hi>
+                        9, 1890</date>
+                    <date notAfter="1890-04-09T23:59:59-05:00" notBefore="1890-04-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d235">
+
+                <pb facs="0435" n="331" sameAs="frus:frus1890/pg331"/>
+
+                <head><hi rendition="#italic">Mr. Lincoln to Mr. Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1890-04-09"><hi rendition="#italic">April</hi> 9, 1890</date>.
+                        (Received April 21.)</dateline>
+                    <seg rendition="#float-left">No. 212.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my dispatch No. 204 of the
+                    31st ultimo, and to previous correspondence relative to the application of Mr.
+                    Samuel B. Oliver for a passport to this legation, I have the honor to inclose
+                    herewith the copy of a letter received to-day from the consul at Liverpool, from
+                    which it will be seen that Mr. Oliver, who is in Portugal, has been informed by
+                    his father of the action of the Department and that it is probable that any
+                    further communication from Mr. Oliver will be sent through our legation at
+                    Lisbon or directly to the Department of State.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Robert T.
+                    Lincoln.</hi></signed></closer>
+
+
+                <xi:include href="d235-a1.xml" xpointer="d235-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

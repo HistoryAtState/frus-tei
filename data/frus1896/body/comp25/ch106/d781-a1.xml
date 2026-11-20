@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1896_d781-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Affirmation of Julio Sanguily.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1896_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1896_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1896/d781-a1"
+                    type="canonical"/>
+                <relatedItem target="d781.xml" type="prev"/>
+                <relatedItem target="d782.xml" type="next"/>
+                <relatedItem target="d781.xml" type="parent"/>
+                <relatedItem target="d781.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1896</bibl>
+                <bibl type="frus-division-id">d781-a1</bibl>
+                <bibl type="frus-division-n">781.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="844" to="845" unit="page"
+                        >844–45</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d781-a1">
+
+                <pb facs="0938" n="844" sameAs="frus:frus1896/pg844"/>
+
+                <opener><seg rendition="#center">[Inclosure in No. 317.]</seg></opener>
+                <head><hi rendition="#italic">Affirmation of Julio Sanguily.</hi></head>
+                <p>I, Julio Sanguily, an American citizen confined at the Cabaña fortress, Havana,
+                    do hereby sacredly affirm to the United States and to Spain that if I am
+                    released by pardon of the latter Government I will leave and remain away from
+                    Cuba, and will <pb facs="0939" n="845" xml:id="pg845"/> not aid directly or
+                    indirectly the present insurrection against the Government of Spain, and I
+                    hereby promise that should I do so at any time I will not claim the protection
+                    of the United States Government. I certify that this pledge is given of my own
+                    free will and without compulsion on the part of anyone.</p>
+                <closer>
+                    <dateline rendition="#float-left">Fortress Cabaña,
+                        <placeName>Havana</placeName>, <date calendar="gregorian" when="1897-01-21"
+                            >January 21, 1897</date>.</dateline>
+                    <lb/>
+                    <signed><hi rendition="#small-caps">Julio
+                            Sanguily.</hi></signed><lb/>Witnesses:<lb/><signed><hi
+                            rendition="#small-caps">Ernesto La Fosca.</hi></signed><lb/><signed><hi
+                            rendition="#small-caps">Donnell Rockwell.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

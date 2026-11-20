@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945v01_d5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Leo Pasvolsky, Special Assistant to the Secretary of State, to the
+                    Counselor of the British Embassy (Wright)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1945v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1945v01/d5"
+                    type="canonical"/>
+                <relatedItem target="d4-a1.xml" type="prev"/>
+                <relatedItem target="d6.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945v01</bibl>
+                <bibl type="frus-division-id">d5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="22" to="23" unit="page"
+                        >22–23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-01-17">January 17, 1945</date>
+                    <date notAfter="1945-01-17T23:59:59-05:00" notBefore="1945-01-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945v01/persons">
+                    <term ref="frus:frus1945v01/persons#p_PL1">Pasvolsky, Leo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d5">
+
+                <pb facs="0084" n="22" sameAs="frus:frus1945v01/pg22"/>
+
+                <note rend="inline" type="source">500.CC/1–1445</note>
+                <head>
+                    <hi rendition="#italic">Mr. Leo Pasvolsky, Special Assistant to the Secretary of
+                        State, to the Counselor of the British Embassy</hi> (<hi rendition="#italic"
+                        >Wright</hi>)</head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-01-17">January 17, 1945</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Dear Michael</hi>: I wish to acknowledge the receipt
+                    of your note to me, of January 14, 1945,<anchor n="48" xml:id="d5-f1"/> in which
+                    you say that His Majesty’s Government is prepared to accept the President’s
+                    proposal, as communicated <pb facs="0085" n="23" xml:id="pg23"/> to Prime
+                    Minister Churchill on December 5, 1944,<anchor n="49" xml:id="d5-f2"/> with
+                    respect to voting in the Security Council of the United Nations Organization.
+                    With respect to paragraph 1 of Chapter 8, Section C, the reference is to the
+                    second sentence of that paragraph.</p>
+                <p>I have been asked to tell you of the gratification which we feel at this
+                    indication that the views of our two governments are in accord on this extremely
+                    important question.</p>
+                <p>We are bearing in mind the points covered in the third paragraph of your note
+                    under reference.</p>
+                <p>Sincerely yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Leo Pasvolsky</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d5-f1" n="48" xml:id="d5-f1-content">
+                <p>
+                    <ref target="frus1945Malta#pg_77">
+                        <hi rendition="#italic">Conferences at Malta and Yalta</hi>, p.
+                    77</ref>.</p>
+            </note>
+            <note corresp="#d5-f2" n="49" xml:id="d5-f2-content">
+                <p>See telegram 2784, December 5, 1944, to Moscow, <ref target="frus1945Malta#pg_58">
+                        <hi rendition="#italic">Conferences at Malta and Yalta</hi>, p.
+                    58</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

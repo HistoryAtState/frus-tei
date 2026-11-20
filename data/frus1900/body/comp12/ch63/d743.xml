@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d743" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. White to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d743"
+                    type="canonical"/>
+                <relatedItem target="d742-a1.xml" type="prev"/>
+                <relatedItem target="d743-a1.xml" type="next"/>
+                <relatedItem target="../ch63.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d743</bibl>
+                <bibl type="frus-division-n">743</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="608" to="609" unit="page"
+                        >608–9</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1900-03-15"><hi rendition="#italic">March 15,
+                            1900</hi></date>
+                    <date notAfter="1900-03-15T23:59:59-05:00" notBefore="1900-03-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d743">
+
+                <pb facs="0706" n="608" sameAs="frus:frus1900/pg608"/>
+
+                <head><hi rendition="#italic">Mr. White to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1900-03-15"
+                                ><hi rendition="#italic">March 15, 1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 283.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my dispatch No. 278 of the
+                    10th instant, I have the honor to inclose herewith the copy of a note which I
+                    have received from the Marquis of Salisbury with reference to the proposed
+                    purchase by Her Majesty’s Government of the flour shipped by the Pennsylvania
+                    Milling Company on the steamships <hi rendition="#italic">Mashona,
+                    Beatrice</hi>, and <hi rendition="#italic">Maria.</hi></p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Henry White.</hi></signed></closer>
+
+
+
+                <xi:include href="d743-a1.xml" xpointer="d743-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

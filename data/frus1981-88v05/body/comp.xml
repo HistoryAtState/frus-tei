@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v05_comp" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Soviet Union, March 1985–October 1986</title>
+            </titleStmt>
+            <xi:include href="../frus1981-88v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1981-88v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v05/comp"
+                    type="canonical"/>
+                <relatedItem target="../front/persons.xml" type="prev"/>
+                <relatedItem target="comp/ch1.xml" type="next"/>
+                <relatedItem target="../frus1981-88v05.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v05</bibl>
+                <bibl type="frus-division-id">comp</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1" to="1346" unit="page"
+                        >1–1346</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1986-10-12T11:30:00-05:00" notBefore="1985-03-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp">
+
+                <pb facs="0032" n="1" xml:id="pg1"/>
+
+                <head>Soviet Union, March 1985–October 1986</head>
+
+
+
+
+
+
+
+
+
+
+
+                <xi:include href="comp/ch1.xml" xpointer="ch1"/>
+                <xi:include href="comp/ch2.xml" xpointer="ch2"/>
+                <xi:include href="comp/ch3.xml" xpointer="ch3"/>
+                <xi:include href="comp/ch4.xml" xpointer="ch4"/>
+                <xi:include href="comp/ch5.xml" xpointer="ch5"/>
+                <xi:include href="comp/ch6.xml" xpointer="ch6"/>
+            </div>
+        </body>
+    </text>
+</TEI>

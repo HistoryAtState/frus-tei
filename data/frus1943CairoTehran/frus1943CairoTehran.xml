@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1943CairoTehran_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1943CairoTehran" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1943CairoTehran/covers/frus1943CairoTehran.jpg"/>
+                        <extent>
+                            <measure quantity="31664" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:34:32.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1943CairoTehran" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1943CairoTehran/ebook/frus1943CairoTehran.epub"/>
+                        <extent>
+                            <measure quantity="26846184" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:34:32.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1943CairoTehran" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1943CairoTehran/ebook/frus1943CairoTehran.mobi"/>
+                        <extent>
+                            <measure quantity="2729738" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:34:32.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1961 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-fd</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                    <term corresp="#admin2">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>hull-cordell</term>
+                    <term>roosevelt-franklin-d</term>
+                    <term>military-bases</term>
+                    <term>war-crimes-and-war-criminals</term>
+                    <term>united-kingdom</term>
+                    <term>bulgaria</term>
+                    <term>burma</term>
+                    <term>china</term>
+                    <term>germany</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>spain</term>
+                    <term>france</term>
+                    <term>turkey</term>
+                    <term>united-nations</term>
+                    <term>russia</term>
+                    <term>european-advisory-commission</term>
+                    <term>clipperton-island</term>
+                    <term>new-caledonia</term>
+                    <term>palmyra-atoll</term>
+                    <term>pitcairn-islands</term>
+                    <term>marshall-islands</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1943CairoTehran" status="published" when="1961"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">Diplomatic Papers</titlePart>
+                    <titlePart type="subseries">1943</titlePart>
+                    <titlePart type="volumetitle">The Conferences at Cairo and Tehran
+                        1943</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1961</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication
+                        7187<lb/><hi rendition="#small-caps">Historical Office Bureau of Public
+                        Affairs</hi><lb/>For sale by the Superintendent of Documents, U. S.
+                    Government Printing Office<lb/>Washington 25, D. C. - Price $4
+                    (Buckram)</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0008" n="[IV]" xml:id="pgIV"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/photos.xml" xpointer="photos"/>
+            <pb facs="0014" n="[X]" xml:id="pgX"/>
+            <xi:include href="front/introduction.xml" xpointer="introduction"/>
+            <pb facs="0026" n="[XXII]" xml:id="pgXXII"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0030" n="[XXVI]" xml:id="pgXXVI"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+            <pb facs="0046" n="[XLII]" xml:id="pgXLII"/>
+            <xi:include href="front/toc-topics.xml" xpointer="toc-topics"/>
+        </front>
+        <body>
+            <pb facs="0093" n="[1]" xml:id="pg1"/>
+            <pb facs="0094" n="[2]" xml:id="pg2"/>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <pb facs="0391" n="[291]" xml:id="pg291"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <pb facs="0558" n="[456]" xml:id="pg456"/>
+            <pb facs="0559" n="[457]" xml:id="pg457"/>
+            <pb facs="0560" n="[458]" xml:id="pg458"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <pb facs="0757" n="[653]" xml:id="pg653"/>
+            <pb facs="0758" n="[654]" xml:id="pg654"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <pb facs="0937" n="[833]" xml:id="pg833"/>
+            <pb facs="0938" n="[834]" xml:id="pg834"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <pb facs="0996" n="[892]" xml:id="pg892"/>
+            <pb facs="0997" n="[893]" xml:id="pg893"/>
+            <pb facs="0998" n="[894]" xml:id="pg894"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

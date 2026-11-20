@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d166" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Conger to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d166"
+                    type="canonical"/>
+                <relatedItem target="d165.xml" type="prev"/>
+                <relatedItem target="d166-a1.xml" type="next"/>
+                <relatedItem target="../ch59.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d166</bibl>
+                <bibl type="frus-division-n">166</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="200" to="201" unit="page"
+                        >200–201</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1902-07-19"><hi rendition="#italic">July 19,
+                            1902</hi></date>
+                    <date notAfter="1902-07-19T23:59:59-05:00" notBefore="1902-07-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d166">
+
+                <pb facs="0280" n="200" sameAs="frus:frus1902/pg200"/>
+
+                <head><hi rendition="#italic">Mr. Conger to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Peking</hi></placeName>, <date calendar="gregorian"
+                            when="1902-07-19"><hi rendition="#italic">July 19,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 1051.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to confirm my
+                        telegram<anchor n="a" xml:id="d166-f1"/> of the 18th instant, announcing the
+                    agreement to return to the Chinese authorities the city of Tientsin, and your
+                    congratulatory message<anchor n="a" xml:id="d166-f2"/> to me of the same
+                    date.</p>
+                <p>For the latter I thank you sincerely. It is, however, well known here by the
+                    representatives of the powers, and by the Chinese Government, that it is solely
+                    to your successful efforts with the Governments at London, Berlin, and Paris,
+                    that the severe conditions were modified and the early surrender of the city
+                    made possible. The Chinese are very grateful for your help in this connection,
+                    and bid me so inform you.</p>
+                <p>I inclose herewith copies of note from Prince Ch’ing, informing me <pb
+                        facs="0281" n="201" xml:id="pg201"/> that the modified conditions have been
+                    accepted, and my reply thereto. Copy of the conditions were sent you in my
+                    dispatch, No. 1046, of the 15th instant.</p>
+                <p>I have etc.,</p>
+                <closer><signed><hi rendition="#small-caps">E. H. Conger</hi>.</signed></closer>
+
+
+
+                <xi:include href="d166-a1.xml" xpointer="d166-a1"/>
+                <xi:include href="d166-a2.xml" xpointer="d166-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d166-f1" n="a" xml:id="d166-f1-content">
+                <p>Printed, ante.</p>
+            </note>
+            <note corresp="#d166-f2" n="a" xml:id="d166-f2-content">
+                <p>Printed, ante.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

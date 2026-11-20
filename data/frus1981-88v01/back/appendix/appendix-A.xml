@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v01_appendix-A" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>A. Handwritten Notes by Secretary of State Shultz</title>
+            </titleStmt>
+            <xi:include href="../../frus1981-88v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1981-88v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v01/appendix-A"
+                    type="canonical"/>
+                <relatedItem target="../appendix.xml" type="prev"/>
+                <relatedItem target="appendix-B.xml" type="next"/>
+                <relatedItem target="../appendix.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v01</bibl>
+                <bibl type="frus-division-id">appendix-A</bibl>
+                <bibl type="frus-division-n">336</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1561" to="1563" unit="page"
+                        >1561–63</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1986-06-06">June 6, 1986</date>
+                    <date notAfter="1986-06-06T23:59:59-05:00" notBefore="1986-06-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1981-88v01/persons">
+                    <term ref="frus:frus1981-88v01/persons#p_SGP_1">Shultz, George P.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="appendix-A">
+
+                <pb facs="1630" n="1561" sameAs="frus:frus1981-88v01/pg1561"/>
+
+                <head>A. Handwritten Notes by Secretary of State Shultz<anchor n="1"
+                        xml:id="appendix-A-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1986-06-06">June 6, 1986</date></dateline>
+                </opener>
+                <figure>
+                    <graphic url="d336p01"/>
+                </figure>
+                <pb facs="1631" n="1562" xml:id="pg1562"/>
+                <figure>
+                    <graphic url="d336p02"/>
+                </figure>
+                <pb facs="1632" n="1563" xml:id="pg1563"/>
+                <figure>
+                    <graphic url="d336p03"/>
+                </figure>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#appendix-A-f1" n="1" type="source" xml:id="appendix-A-f1-content">
+                <p>Source: Reagan Library, George Shultz Papers, Arms Control
+                    (12/09/1984–07/15/1986); NLR–775–22–76–2–2. No classification marking. For the
+                    transcribed copy of these notes, see <ref target="#d272">Document 272</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv01_d362" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Italy (Page) to the Commission to Negotiate Peace </title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv01/d362"
+                    type="canonical"/>
+                <relatedItem target="d361.xml" type="prev"/>
+                <relatedItem target="d363.xml" type="next"/>
+                <relatedItem target="../ch24.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv01</bibl>
+                <bibl type="frus-division-id">d362</bibl>
+                <bibl type="frus-division-n">362</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="466" to="466" unit="page"
+                        >466</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Rome</hi>
+                    </placeName>
+                    <date calendar="gregorian" when="1918-12-26T13:00:00+01:00">December 26, 1918—1
+                        p.m.</date>
+                    <date notAfter="1918-12-26T07:00:00-05:00" notBefore="1918-12-26T07:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1919Parisv01/persons">
+                    <term ref="frus:frus1919Parisv01/persons#p_PTN1">Page, Thomas Nelson</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d362">
+
+                <pb facs="0536" n="466" sameAs="frus:frus1919Parisv01/pg466"/>
+
+                <note rend="inline" type="source">Paris Peace Conf. 185.001/17: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Italy</hi> (<hi rendition="#italic"
+                        >Page</hi>) <hi rendition="#italic">to the Commission to Negotiate Peace
+                    </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Rome</hi>
+                        </placeName>, <date calendar="gregorian" when="1918-12-26T13:00:00+01:00"
+                            >December 26, 1918—1 p.m.</date>
+                        <lb/> [Received December 28.]</dateline>
+                </opener>
+                <p>29. I hear from Italian source which should be reasonably well informed that some
+                    sort of “treaty” touching peace provisions has been arrived at between England
+                    and France and Italy. Will endeavor to verify.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Nelson Page</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

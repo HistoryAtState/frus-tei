@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1866p2_d121" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. King to Mr. Seward.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1866p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1866p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1866p2/d121"
+                    type="canonical"/>
+                <relatedItem target="d120.xml" type="prev"/>
+                <relatedItem target="d121-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1866p2</bibl>
+                <bibl type="frus-division-id">d121</bibl>
+                <bibl type="frus-division-n">121</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="129" to="130" unit="page"
+                        >129–30</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                        <hi rendition="#italic">Rome,</hi></placeName>
+                    <date calendar="gregorian" when="1866-05-11"><hi rendition="#italic">May</hi>
+                        11, 1866</date>
+                    <date notAfter="1866-05-11T23:59:59-05:00" notBefore="1866-05-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d121">
+
+                <pb facs="0203" n="129" sameAs="frus:frus1866p2/pg129"/>
+
+                <opener><seg rendition="#center">[Extract.]</seg></opener>
+                <head>Mr. King to Mr. Seward.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 54 ]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                            <hi rendition="#italic">Rome,</hi></placeName>
+                        <date calendar="gregorian" when="1866-05-11"><hi rendition="#italic"
+                                >May</hi> 11, 1866</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In my last despatch, of April 23, I
+                    mentioned that H. B. St. Marie, a private in the Papal zouaves, bad called upon
+                    me for the purpose of communicating the intelligence that John H. Surratt, one
+                    of the persons charged with complicity in the murder of President Lincoln, was a
+                    member of the same regiment as himself, and then stationed at Sezze. I have
+                    since received two <pb facs="0204" n="130" xml:id="pg130"/> letters from St.
+                    Marie relating to this matter, which I enclose for the information of the
+                    department. While awaiting their instructions, the information has been kept
+                    secret here.</p>
+                <p rendition="#center">* * * * * * * * *</p>
+                <p>I have the honor to be, with great respect, your obedient servant,</p>
+                <closer>
+                    <signed>RUFUS KING.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward,</hi>
+                        <hi rendition="#italic">Secretary of State, Washington, D. C.</hi></p>
+                </postscript>
+
+
+
+                <xi:include href="d121-a1.xml" xpointer="d121-a1"/>
+                <xi:include href="d121-a2.xml" xpointer="d121-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

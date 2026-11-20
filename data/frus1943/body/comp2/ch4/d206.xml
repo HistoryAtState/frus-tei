@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d206" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d206"
+                    type="canonical"/>
+                <relatedItem target="d205.xml" type="prev"/>
+                <relatedItem target="d207.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d206</bibl>
+                <bibl type="frus-division-n">206</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="414" to="414" unit="page"
+                        >414</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-16">16 August 1943</date>
+                    <date notAfter="1943-08-16T23:59:59-05:00" notBefore="1943-08-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Bracken1">Bracken</term>
+                    <term ref="frus:frus1943/terms#t_FNP1">Former Naval Person</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d206">
+
+                <pb facs="0528" n="414" xml:id="pg414"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d206-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">most secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>,<anchor n="2"
+                            xml:id="d206-f2"/>
+                        <date calendar="gregorian" when="1943-08-16">16 August
+                        1943</date>.</dateline>
+                </opener>
+                <p>Most immediate. Former Naval Person to President. Personal and most secret. No.
+                    413.</p>
+                <p>First of all, the Governor General will meet you at a wayside station outside
+                    Quebec. Mackenzie King and I will also be there. The Governor General will drive
+                    you to the Citadel where a Guard of Honour will be paraded, and he would like to
+                    have a small reception immediately on your arrival where about forty principal
+                    persons could be presented to you. This can be cut out if you feel it would be
+                    tiring. In the evening, the Governor General will give a dinner in the Citadel
+                    to your personal party and mine to which Mackenzie King, the High Commissioner
+                    and one or two others will be asked—in all about twenty. I hope this will be
+                    agreeable to you. Anthony<anchor n="3" xml:id="d206-f3"/> and Brendan<anchor
+                        n="4" xml:id="d206-f4"/> will be there if they arrive in time.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d206-f1" n="1" type="source" xml:id="d206-f1-content">
+                <p>Channel of transmission not indicated.</p>
+            </note>
+            <note corresp="#d206-f2" n="2" xml:id="d206-f2-content">
+                <p>The message originated at Quebec but was apparently transmitted via London.
+                    Roosevelt received the message in Washington.</p>
+            </note>
+            <note corresp="#d206-f3" n="3" xml:id="d206-f3-content">
+                <p>Eden.</p>
+            </note>
+            <note corresp="#d206-f4" n="4" xml:id="d206-f4-content">
+                <p> Bracken.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

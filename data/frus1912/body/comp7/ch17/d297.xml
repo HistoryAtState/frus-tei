@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d297" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d297"
+                    type="canonical"/>
+                <relatedItem target="d296.xml" type="prev"/>
+                <relatedItem target="../ch18.xml" type="next"/>
+                <relatedItem target="../ch17.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d297</bibl>
+                <bibl type="frus-division-n">297</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="175" to="175" unit="page"
+                        >175</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1911-12-12">
+                        <hi rendition="#small-caps">December</hi>
+                        <hi rendition="#italic">12, 1911</hi></date>
+                    <date notAfter="1911-12-12T23:59:59-05:00" notBefore="1911-12-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d297">
+
+                <pb facs="0291" n="175" sameAs="frus:frus1912/pg175"/>
+
+                <note rend="inline" type="source">File No. 893.00/772.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <date calendar="gregorian" when="1911-12-12">
+                            <hi rendition="#small-caps">December</hi>
+                            <hi rendition="#italic">12, 1911</hi></date>.</dateline>
+                </opener>
+                <p rendition="#center">[Telegram.—Extract. Transmitted to the Secretary of State
+                    December 12, 1911.]</p>
+                <p>Wu Ting Fang, recognized by all factions as in charge of foreign affairs, has
+                    submitted apology for firing upon <hi rendition="#italic">Nanshan</hi> and has
+                    given assurance of no repetition.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Murdock.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

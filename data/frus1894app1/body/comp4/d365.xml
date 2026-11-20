@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894app1_d365" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Curry to Mr. Bayard.</title>
+            </titleStmt>
+            <xi:include href="../../frus1894app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1894app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1894app1/d365"
+                    type="canonical"/>
+                <relatedItem target="d364.xml" type="prev"/>
+                <relatedItem target="d365-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1894app1</bibl>
+                <bibl type="frus-division-id">d365</bibl>
+                <bibl type="frus-division-n">365</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="368" to="369" unit="page"
+                        >368–69</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Madrid</hi></placeName>
+                    <date calendar="gregorian" when="1886-12-09"><hi rendition="#italic"
+                            >December</hi> 9, 1886</date>
+                    <date notAfter="1886-12-09T23:59:59-05:00" notBefore="1886-12-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d365">
+
+                <pb facs="0374" n="368" xml:id="pg368"/>
+
+                <head><hi rendition="#italic">Mr. Curry to Mr. Bayard</hi>.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 155.]</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Madrid</hi></placeName>, <date calendar="gregorian"
+                            when="1886-12-09"><hi rendition="#italic">December</hi> 9, 1886</date>.
+                        (Received December 27.)</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my telegram of the 30th
+                    ultimo, reporting that the Spanish Government had offered $1,500,000 in
+                    settlement of the claim of Antonio Maximo Mora, to be charged upon the Cuban
+                    budget of next year, with details of payment to be arranged, I have the honor to
+                    state that I received on the 7th instant your telegram in reply, and have
+                    notified the minister of state of the acceptance of the offer by the Government
+                    of the United States. I beg leave to inclolse copies and translations of the
+                    correspondence with the Spanish Government in reference to the subject, as well
+                    as of the telegrams exchanged with the Department.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">J. L. M. Curry.</hi></signed></closer>
+
+
+
+                <xi:include href="d365-a1.xml" xpointer="d365-a1"/>
+                <xi:include href="d365-a2.xml" xpointer="d365-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1940v05_d640" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Brazil (Caffery) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1940v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1940v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1940v05/d640"
+                    type="canonical"/>
+                <relatedItem target="../ch24.xml" type="prev"/>
+                <relatedItem target="d640-a1.xml" type="next"/>
+                <relatedItem target="../ch24.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1940v05</bibl>
+                <bibl type="frus-division-id">d640</bibl>
+                <bibl type="frus-division-n">640</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="559" to="560" unit="page"
+                        >559–60</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Rio de Janeiro</hi></placeName>
+                    <date calendar="gregorian" when="1940-01-08">January 8, 1940</date>
+                    <date notAfter="1940-01-08T23:59:59-05:00" notBefore="1940-01-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d640">
+
+                <pb facs="0571" n="559" sameAs="frus:frus1940v05/pg559"/>
+
+                <note rend="inline" type="source">832.51/1688</note>
+                <head><hi rendition="#italic">The Ambassador in Brazil</hi> (<hi rendition="#italic"
+                        >Caffery</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#float-left">No. 2345</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps">Rio de
+                                Janeiro</hi></placeName>, <date calendar="gregorian"
+                            when="1940-01-08">January 8, 1940</date>.<lb/>[Received January
+                        15.]</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to the Department’s telegram
+                    No. 249 of December 29, 7 p.m.,<anchor n="2" xml:id="d640-f1"/> authorizing me
+                    to participate informally and independently in debt discussions with the
+                    Brazilian authorities for the purpose of ascertaining what terms the Brazilians
+                    are prepared to offer, I have the honor to enclose copies of a letter<anchor
+                        n="3" xml:id="d640-f2"/> and memorandum that I have sent to the Minister for
+                    Foreign Affairs<anchor n="3a" xml:id="d640-f3"/> following my recent
+                    conversation with him on the subject mentioned in my telegram No. 461 of
+                    December 30, 10 p.m.<anchor n="4" xml:id="d640-f4"/></p>
+                <p>No discussions are being carried on with the Europeans at present.</p>
+                <p>I have the honor to suggest that the Treasury Department be informed
+                    appropriately.</p>
+                <p>Respectfully yours,</p>
+                <closer><signed><hi rendition="#small-caps">Jefferson Caffery</hi></signed></closer>
+
+
+                <xi:include href="d640-a1.xml" xpointer="d640-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d640-f1" n="2" xml:id="d640-f1-content">
+                <p><ref target="frus1939v05#pg_377"><hi rendition="#italic">Ibid.</hi>, p.
+                    377</ref>.</p>
+            </note>
+            <note corresp="#d640-f2" n="3" xml:id="d640-f2-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d640-f3" n="3a" xml:id="d640-f3-content">
+                <p>Oswaldo Aranha.</p>
+            </note>
+            <note corresp="#d640-f4" n="4" xml:id="d640-f4-content">
+                <p><ref target="frus1939v05#pg_378"><hi rendition="#italic">Foreign Relations</hi>,
+                        1939, vol. <hi rendition="#small-caps">v</hi>, p. 378</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

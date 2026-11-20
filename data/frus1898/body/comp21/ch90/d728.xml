@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d728" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Grimke to Mr. Day.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d728"
+                    type="canonical"/>
+                <relatedItem target="d727.xml" type="prev"/>
+                <relatedItem target="d728-a1.xml" type="next"/>
+                <relatedItem target="../ch90.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d728</bibl>
+                <bibl type="frus-division-n">728</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="857" to="859" unit="page"
+                        >857–59</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Consulate of the United
+                            States</hi>,<lb/><hi rendition="#italic">Santo Domingo</hi></placeName>
+                    <date calendar="gregorian" when="1898-05-11"><hi rendition="#italic">May 11,
+                            1898</hi></date>
+                    <date notAfter="1898-05-11T23:59:59-05:00" notBefore="1898-05-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d728">
+
+                <pb facs="0953" n="857" sameAs="frus:frus1898/pg857"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Grimke to Mr. Day.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Consulate of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Santo Domingo</hi></placeName>, <date calendar="gregorian"
+                            when="1898-05-11"><hi rendition="#italic">May 11,
+                        1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 187.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have to inform you that I transmit
+                    herewith a copy of the proclamation of President Heureaux relative to the
+                    neutrality of the Dominican Republic during the war between the United States
+                    and Spain.</p>
+                <p>I am, etc.,</p>
+                <closer>
+                    <signed><hi rendition="#small-caps">Archibald H. Grimke</hi>,<lb/><hi
+                            rendition="#italic">United States Consul.</hi></signed>
+                </closer>
+
+
+                <xi:include href="d728-a1.xml" xpointer="d728-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

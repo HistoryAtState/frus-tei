@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v16_toc" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Contents</title>
+            </titleStmt>
+            <xi:include href="../frus1958-60v16_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1958-60v16_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v16/toc"
+                    type="canonical"/>
+                <relatedItem target="preface.xml" type="prev"/>
+                <relatedItem target="sources.xml" type="next"/>
+                <relatedItem target="../frus1958-60v16.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v16</bibl>
+                <bibl type="frus-division-id">toc</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">table-of-contents</bibl>
+                <bibl type="frus-print-pages"><biblScope from="XI" to="XII" unit="page"
+                        >XI–XII</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1960-12-31T11:30:00-05:00" notBefore="1958-01-13T14:30:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v16/persons">
+                    <term ref="frus:frus1958-60v16/persons#p_KLC1">Kong Le, Captain</term>
+                    <term ref="frus:frus1958-60v16/persons#p_NSP1">Norodom Sihanouk, Prince</term>
+                    <term ref="frus:frus1958-60v16/persons#p_PS1">Phoui Sananikone</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v16/terms">
+                    <term ref="frus:frus1958-60v16/terms#t_ANZUS1">ANZUS</term>
+                    <term ref="frus:frus1958-60v16/terms#t_SEATO1">SEATO</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="toc">
+
+                <pb facs="0015" n="XI" xml:id="pgXI"/>
+
+                <head>Contents</head>
+                <list type="toc">
+                    <item><ref target="#pgIII">Preface</ref></item>
+                    <item><ref target="#pgXIII">List of Sources</ref></item>
+                    <item><ref target="#pgXIX">List of Abbreviations</ref></item>
+                    <item><ref target="#pgXXIII">List of Persons</ref></item>
+                    <item>East Asia-Pacific region <list>
+                            <item><ref target="#pg1">General U.S. policies toward the region:
+                                    activities of the Southeast Asia Treaty Organization; meetings
+                                    of the SEATO Council; activities of the ANZUS powers; SEATO
+                                    interest in the situation in Laos; U.S. concern with regional
+                                    development in Asia</ref></item>
+                        </list>
+                    </item>
+                    <item>Cambodia <list>
+                            <item><ref target="#pg228">U.S. military assistance to Cambodia; South
+                                    Vietnamese-Cambodian relations; Lao-Cambodian relations;
+                                    Cambodia’s recognition of the People’s Republic of China and
+                                    Sihanouk’s visit to Beijing; Sihanouk’s visit to the United
+                                    States</ref></item>
+                        </list>
+                    </item>
+                    <item>Laos <list>
+                            <item><ref target="#pg411">I. U.S. concern with the coalition government
+                                    in Laos, January–August 1958</ref></item>
+                            <item><ref target="#pg478">II. U.S. relations with the Phoui Sananikone
+                                    government, September 1958–July 1959</ref></item>
+                            <item><ref target="#pg546">III. The political crisis and the December
+                                    1959 coup, July–December 1959</ref></item>
+                            <item><ref target="#pg723">IV. Lao politics before the storm,
+                                    January–August 9, 1960</ref></item>
+                            <item><ref target="#pg782">V. The Kong Le coup and U.S. policy debate,
+                                    August 9–October 18, 1960</ref></item>
+                            <pb facs="0016" n="XII" xml:id="pgXII"/>
+                            <item><ref target="#pg919">VI. Civil war in Laos, October 19–December
+                                    31, 1960</ref></item>
+                        </list>
+                    </item>
+                    <item><ref target="#pg1031">Index</ref></item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

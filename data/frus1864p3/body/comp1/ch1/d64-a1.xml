@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1864p3_d64-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>M. Drouyn de l’Huys to Mr. Dayton</title>
+            </titleStmt>
+            <xi:include href="../../../frus1864p3_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1864p3_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1864p3/d64-a1"
+                    type="canonical"/>
+                <relatedItem target="d64.xml" type="prev"/>
+                <relatedItem target="d64-a1-a1.xml" type="next"/>
+                <relatedItem target="d64.xml" type="parent"/>
+                <relatedItem target="d64.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1864p3</bibl>
+                <bibl type="frus-division-id">d64-a1</bibl>
+                <bibl type="frus-division-n">64.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="47" to="48" unit="page"
+                        >47–48</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of Foreign Affairs,
+                            Cabinet,</hi>
+                        <hi rendition="#italic">Paris,</hi></placeName>
+                    <date calendar="gregorian" when="1864-03-02"><hi rendition="#italic">March</hi>
+                        2, 1864.</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d64-a1">
+
+                <pb facs="0067" n="47" sameAs="frus:frus1864p3/pg47"/>
+
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <head>M. Drouyn de l’Huys to Mr. Dayton</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Department of Foreign Affairs,
+                                Cabinet,</hi>
+                            <hi rendition="#italic">Paris,</hi></placeName>
+                        <date calendar="gregorian" when="1864-03-02"><hi rendition="#italic"
+                                >March</hi> 2, 1864.</date></dateline></opener>
+                <p><hi rendition="#small-caps">My Dear Mr. Dayton</hi>: Enclosed are the new
+                    instructions of the minister of the marine.</p>
+                <p>Yours, very sincerely,</p>
+                <closer>
+                    <signed>DROUYN DE L’HUYS.</signed></closer>
+
+
+
+
+                <xi:include href="d64-a1-a1.xml" xpointer="d64-a1-a1"/>
+                <xi:include href="d64-a1-a2.xml" xpointer="d64-a1-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

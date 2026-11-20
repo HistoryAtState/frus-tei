@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v20_d58" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Information Memorandum From the President’s Special Assistant (Rostow) to
+                    President Johnson</title>
+            </titleStmt>
+            <xi:include href="../../frus1964-68v20_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1964-68v20_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v20/d58"
+                    type="canonical"/>
+                <relatedItem target="d57.xml" type="prev"/>
+                <relatedItem target="d58-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v20</bibl>
+                <bibl type="frus-division-id">d58</bibl>
+                <bibl type="frus-division-n">58</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="122" to="124" unit="page"
+                        >122–24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1968-01-22T16:40:00-05:00">January 22, 1968,
+                        4:40 p.m.</date>
+                    <date notAfter="1968-01-22T16:40:00-05:00" notBefore="1968-01-22T16:40:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v20/persons">
+                    <term ref="frus:frus1964-68v20/persons#p_RWW1">Rostow, Walt W.</term>
+                </keywords>
+                <keywords scheme="frus:frus1964-68v20/terms">
+                    <term ref="frus:frus1964-68v20/terms#t_USSR1">USSR</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d58">
+
+                <pb facs="0150" n="122" sameAs="frus:frus1964-68v20/pg122"/>
+
+                <head>58. Information Memorandum From the President’s Special Assistant (Rostow) to
+                    President Johnson<anchor n="1" xml:id="d58-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1968-01-22T16:40:00-05:00">January 22, 1968, 4:40 p.m.</date>
+                    </dateline></opener>
+                <p rendition="#flush">Mr. President:</p>
+                <p>Herewith Kosygin responds to your message:<anchor n="2" xml:id="d58-f2"/>
+                    <list>
+                        <item>—He will let us know later about ABM-ICBM’s;</item>
+                        <item>—He wants the U.S. and USSR to join together to force a Middle East
+                            settlement, with special emphasis on getting the Israelis to go back to
+                            their borders.</item>
+                    </list>
+                </p>
+                <p>Despite the lack of balance in his position, I have a feeling we ought to explore
+                    this a bit further.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">W. W. Rostow</hi>
+                        <anchor n="3" xml:id="d58-f3"/>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d58-a1.xml" xpointer="d58-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d58-f1" n="1" type="source" xml:id="d58-f1-content">
+                <p>Source: Johnson Library, National Security File, Memos to the President, Walt W.
+                    Rostow, Vol. 57, 1/16–24/68. Secret.</p>
+            </note>
+            <note corresp="#d58-f2" n="2" xml:id="d58-f2-content">
+                <p>See <ref target="#d57">Document 57</ref>.</p>
+            </note>
+            <note corresp="#d58-f3" n="3" xml:id="d58-f3-content">
+                <p>Printed from a copy that bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

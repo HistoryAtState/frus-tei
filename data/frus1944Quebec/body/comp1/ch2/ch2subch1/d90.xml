@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d90" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Secretary of War (Stimson) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d90"
+                    type="canonical"/>
+                <relatedItem target="d89-a3.xml" type="prev"/>
+                <relatedItem target="d90-a1.xml" type="next"/>
+                <relatedItem target="../ch2subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d90</bibl>
+                <bibl type="frus-division-n">90</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="123" to="128" unit="page"
+                        >123–28</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-09">September 9, 1944</date>
+                    <date notAfter="1944-09-09T23:59:59-05:00" notBefore="1944-09-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d90">
+
+                <pb facs="0179" n="123" sameAs="frus:frus1944Quebec/pg123"/>
+
+                <note rend="inline" type="source">740.00119 EW/9–944</note>
+                <head><hi rendition="#italic">The Secretary of War</hi> (<hi rendition="#italic"
+                        >Stimson</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1944-09-09">September 9, 1944</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Dear Mr. Secretary</hi>: I enclose herewith</p>
+                <list>
+                    <label>1.</label>
+                    <item>Copy of the memorandum dated September 9th which gives to the President my
+                        general views as to the matters contained in your memorandum of September
+                            4th<anchor n="1" xml:id="d90-f1"/> as well as some comments on the
+                        papers submitted by Mr. Morgenthau<anchor n="2" xml:id="d90-f2"/> to the
+                        President with your aforesaid memorandum of September 4th.</item>
+                    <label>2.</label>
+                    <item>My suggested changes to your memorandum of September 4th which have been
+                        under study between Mr. Matthews and Mr. McCloy, as I told you in the
+                        President’s conference.<anchor n="3" xml:id="d90-f3"/></item>
+                </list>
+                <p>Faithfully yours,</p>
+                <closer><signed><hi rendition="#small-caps">Henry L Stimson</hi></signed></closer>
+
+
+
+
+                <xi:include href="d90-a1.xml" xpointer="d90-a1"/>
+                <xi:include href="d90-a2.xml" xpointer="d90-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d90-f1" n="1" xml:id="d90-f1-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg95">p. 95</ref>.</p>
+            </note>
+            <note corresp="#d90-f2" n="2" xml:id="d90-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg101">p. 101</ref>.</p>
+            </note>
+            <note corresp="#d90-f3" n="3" xml:id="d90-f3-content">
+                <p>Stimson’s Diary for September 7, 8, and 9, 1944, indicates that the two
+                    enclosures were prepared with McCloy’s assistance and that Stimson presented
+                    them at a meeting which the Cabinet Committee on Germany had with Roosevelt on
+                    September 9 (Stimson Papers).</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

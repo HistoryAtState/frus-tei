@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1948v05p2_comp1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Israel:</title>
+            </titleStmt>
+            <xi:include href="../frus1948v05p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1948v05p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1948v05p2/comp1"
+                    type="canonical"/>
+                <relatedItem target="../front/terms.xml" type="prev"/>
+                <relatedItem target="comp1/ch1.xml" type="next"/>
+                <relatedItem target="../frus1948v05p2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1948v05p2</bibl>
+                <bibl type="frus-division-id">comp1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="533" to="1707" unit="page"
+                        >533–1707</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1949-01-03T17:00:00-05:00" notBefore="1948-01-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp1">
+
+                <pb facs="0023" n="533" xml:id="pg533"/>
+
+                <head>Israel:</head>
+
+                <xi:include href="comp1/ch1.xml" xpointer="ch1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

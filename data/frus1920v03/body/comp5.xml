@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1920v03_comp5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Nicaragua:</title>
+            </titleStmt>
+            <xi:include href="../frus1920v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1920v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1920v03/comp5"
+                    type="canonical"/>
+                <relatedItem target="comp4/ch15/ch15subch1/d338-a1.xml" type="prev"/>
+                <relatedItem target="comp5/ch16.xml" type="next"/>
+                <relatedItem target="../frus1920v03.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1920v03</bibl>
+                <bibl type="frus-division-id">comp5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="292" to="313" unit="page"
+                        >292–313</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1920-12-29T15:00:00-05:00" notBefore="1919-08-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp5">
+
+                <pb facs="0392" n="292" xml:id="pg292"/>
+
+                <head>Nicaragua:</head>
+
+
+
+                <xi:include href="comp5/ch16.xml" xpointer="ch16"/>
+                <xi:include href="comp5/ch17.xml" xpointer="ch17"/>
+                <xi:include href="comp5/ch18.xml" xpointer="ch18"/>
+            </div>
+        </body>
+    </text>
+</TEI>

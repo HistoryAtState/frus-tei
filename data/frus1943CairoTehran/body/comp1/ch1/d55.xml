@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d55" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d55"
+                    type="canonical"/>
+                <relatedItem target="d54.xml" type="prev"/>
+                <relatedItem target="d56.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d55</bibl>
+                <bibl type="frus-division-n">55</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="39" to="40" unit="page"
+                        >39–40</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-25">25 October 1943</date>
+                    <date notAfter="1943-10-25T23:59:59-05:00" notBefore="1943-10-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MRT1">McIntire, Ross T.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MVM1">Molotov, Vyacheslov
+                        Mikhailovich</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_Generalissimo1">Generalissimo</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_UJ1">U. J.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d55">
+
+                <pb facs="0131" n="39" sameAs="frus:frus1943CairoTehran/pg39"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Prime Minister
+                        Churchill</hi><anchor n="1" xml:id="d55-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-10-25">25 October 1943</date>.</dateline>
+                </opener>
+                <p>Number 396, Personal and secret, from the President for the Former Naval
+                    Person.</p>
+                <p>It is a nuisenza to have the influenza. McIntire says I need a sea voyage.</p>
+                <p>No word from U. J. yet.</p>
+                <p>If he is adamant, what would you think of you and me meeting, with small staffs,
+                    in North Africa or even at the Pyramids, and toward the close of our talks get
+                    the Generalissimo to join us for two or three <pb facs="0132" n="40"
+                        xml:id="pg40"/> days? At the same time, we could ask U. J. to send Molotov
+                    to the meeting with you and me. Our people propose November 20.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d55-f1" n="1" type="source" xml:id="d55-f1-content">
+                <p>Sent to the United States Naval Attach, London, via Navy channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

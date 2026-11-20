@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1908_comp37" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>San Marino</title>
+            </titleStmt>
+            <xi:include href="../frus1908_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1908_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1908/comp37"
+                    type="canonical"/>
+                <relatedItem target="comp36/ch127/d688.xml" type="prev"/>
+                <relatedItem target="comp37/ch128.xml" type="next"/>
+                <relatedItem target="../frus1908.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1908</bibl>
+                <bibl type="frus-division-id">comp37</bibl>
+                <bibl type="frus-division-n">37</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="710" to="714" unit="page"
+                        >710–14</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1908-06-12T23:59:59-05:00" notBefore="1908-06-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp37">
+
+                <pb facs="0812" n="710" xml:id="pg710"/>
+
+                <head>San Marino</head>
+
+                <xi:include href="comp37/ch128.xml" xpointer="ch128"/>
+            </div>
+        </body>
+    </text>
+</TEI>

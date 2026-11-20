@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1889_d49" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Denby to Mr. Bayard.</title>
+            </titleStmt>
+            <xi:include href="../../frus1889_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1889_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1889/d49"
+                    type="canonical"/>
+                <relatedItem target="../comp5.xml" type="prev"/>
+                <relatedItem target="d49-a1.xml" type="next"/>
+                <relatedItem target="../comp5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1889</bibl>
+                <bibl type="frus-division-id">d49</bibl>
+                <bibl type="frus-division-n">49</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="72" to="73" unit="page"
+                        >72–73</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1888-10-01"><hi rendition="#italic"
+                            >October</hi> 1, 1888</date>
+                    <date notAfter="1888-10-01T23:59:59-05:00" notBefore="1888-10-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d49">
+
+                <pb facs="0190" n="72" sameAs="frus:frus1889/pg72"/>
+
+                <head><hi rendition="#italic">Mr. Denby to Mr. Bayard.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Peking</hi></placeName>, <date calendar="gregorian"
+                            when="1888-10-01"><hi rendition="#italic">October</hi> 1, 1888</date>.
+                        (Received November 16.)</dateline>
+                    <seg rendition="#float-left">No. 713.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith a
+                    copy of a communication which I addressed to the Tsung-li Yamên on the 27th
+                    ultimo, having relation to the Chi-nan-fu case, which has formed the subject of
+                    previous dispatches from the legation to the Department.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Charles Denby.</hi></signed></closer>
+
+
+                <xi:include href="d49-a1.xml" xpointer="d49-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

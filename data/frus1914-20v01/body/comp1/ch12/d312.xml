@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914-20v01_d312" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Secretary of State to President Wilson </title>
+            </titleStmt>
+            <xi:include href="../../../frus1914-20v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914-20v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914-20v01/d312"
+                    type="canonical"/>
+                <relatedItem target="d311.xml" type="prev"/>
+                <relatedItem target="d312-a1.xml" type="next"/>
+                <relatedItem target="../ch12.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914-20v01</bibl>
+                <bibl type="frus-division-id">d312</bibl>
+                <bibl type="frus-division-n">312</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="349" to="350" unit="page"
+                        >349–50</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1916-03-30">
+                        <hi rendition="#italic">March 30, 1916</hi>.</date>
+                    <date notAfter="1916-03-30T23:59:59-05:00" notBefore="1916-03-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d312">
+
+                <pb facs="0417" n="349" sameAs="frus:frus1914-20v01/pg349"/>
+
+                <note rend="inline" type="source">763.72/2522</note>
+                <head>
+                    <hi rendition="#italic">The Secretary of State to President Wilson </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1916-03-30">
+                            <hi rendition="#italic">March 30, 1916</hi>.</date>
+                    </dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Mr. President</hi>: I send you herewith the
+                    translation of an identical memorandum which was received a few days ago by this
+                    Government from the Ambassadors of France, Great Britain, Italy and Russia, and
+                    the Minister of Belgium.<anchor n="39" xml:id="d312-f1"/> The memorandum is in
+                    reply to the letter of January 18<anchor n="40" xml:id="d312-f2"/> in reference
+                    to the disarmament of merchant vessels.</p>
+                <p>I also enclose a proposed answer to be sent to each of the Ambassadors and the
+                    Minister. I would be obliged if you would let me know if this answer meets with
+                    your approval. I assume that it will close the incident.</p>
+                <p>Faithfully yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Robert Lansing</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d312-a1.xml" xpointer="d312-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d312-f1" n="39" xml:id="d312-f1-content">
+                <p>
+                    <ref target="frus1916Supp#pg_211">
+                        <hi rendition="#italic">ibid.</hi>, pp. 211</ref>, <ref
+                        target="frus1916Supp#pg_213">213</ref>.</p>
+            </note>
+            <note corresp="#d312-f2" n="40" xml:id="d312-f2-content">
+                <p>
+                    <ref target="frus1916Supp#pg_146">
+                        <hi rendition="#italic">Ibid.</hi>, p. 146</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

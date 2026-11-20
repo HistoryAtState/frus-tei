@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950-55Intel_d42-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Enclosure</title>
+            </titleStmt>
+            <xi:include href="../../../frus1950-55Intel_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1950-55Intel_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1950-55Intel/d42-a1"
+                    type="canonical"/>
+                <relatedItem target="d42.xml" type="prev"/>
+                <relatedItem target="d42-a2.xml" type="next"/>
+                <relatedItem target="d42.xml" type="parent"/>
+                <relatedItem target="d42.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950-55Intel</bibl>
+                <bibl type="frus-division-id">d42-a1</bibl>
+                <bibl type="frus-division-n">42.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="76" to="76" unit="page"
+                        >76</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="frus:frus1950-55Intel/persons">
+                    <term ref="frus:frus1950-55Intel/persons#p_JWH1">Jackson, William H.</term>
+                    <term ref="frus:frus1950-55Intel/persons#p_LJSJ1">Lay, James S., Jr.</term>
+                </keywords>
+                <keywords scheme="frus:frus1950-55Intel/terms">
+                    <term ref="frus:frus1950-55Intel/terms#t_CIA1">CIA</term>
+                    <term ref="frus:frus1950-55Intel/terms#t_NSC1">NSC</term>
+                    <term ref="frus:frus1950-55Intel/terms#t_OPC1">OPC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d42-a1">
+
+                <pb facs="0105" n="76" sameAs="frus:frus1950-55Intel/pg76"/>
+
+                <head>Enclosure</head>
+                <dateline><placeName>Washington</placeName>, <date calendar="gregorian"
+                        when="1951-01-15">January 15, 1951</date>.</dateline>
+                <p rendition="#center">Memorandum From Acting Director of Central Intelligence
+                    Jackson to the Executive Secretary of the National Security Council (Lay)<anchor
+                        n="4" xml:id="d42-f1"/></p>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Draft of NSC Directive on Responsibilities of CIA (OPC) with Respect to
+                        Guerrilla Warfare</item>
+                </list>
+                <list>
+                    <label>1.</label>
+                    <item>Under date of January 8, 1951, the Director of Central Intelligence
+                        transmitted to the Executive Secretary, National Security Council, a draft
+                        NSC directive on covert operations and clandestine activities.<anchor n="5"
+                            xml:id="d42-f2"/> In paragraph 4 of the memorandum of transmittal, which
+                        accompanied this draft, he stated that a paper dealing with a related
+                        subject requiring NSC clarification would shortly be submitted to the
+                        NSC.</item>
+                    <label>2.</label>
+                    <item>Submitted herewith is the draft of a directive for issuance by the NSC
+                        which defines and delimits the responsibilities of CIA (OPC) with respect to
+                        guerrilla warfare. This draft was prepared in collaboration with
+                        representatives of the Office of the Secretary of Defense and of the Joint
+                        Chiefs of Staff.</item>
+                    <label>3.</label>
+                    <item>It is recommended that this draft be sent by the NSC to the Departments of
+                        State and Defense and to the Joint Chiefs of Staff for consideration and
+                        comment.</item>
+                </list>
+                <closer><signed>William H. Jackson</signed><anchor n="6" xml:id="d42-f3"/></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d42-f1" n="4" xml:id="d42-f1-content">
+                <p>Top Secret.</p>
+            </note>
+            <note corresp="#d42-f2" n="5" xml:id="d42-f2-content">
+                <p><ref target="#d38">Document 38</ref>.</p>
+            </note>
+            <note corresp="#d42-f3" n="6" xml:id="d42-f3-content">
+                <p>Printed from a copy that indicates Jackson signed the original.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

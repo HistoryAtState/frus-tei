@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1894Nicaragua" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1894Nicaragua_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1894Nicaragua_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1894Nicaragua_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1894Nicaragua"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1894Nicaragua" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1894Nicaragua/covers/frus1894Nicaragua.jpg"/>
+                        <extent>
+                            <measure quantity="32827" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:40:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1894Nicaragua" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1894Nicaragua/ebook/frus1894Nicaragua.epub"/>
+                        <extent>
+                            <measure quantity="364892" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:40:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1894Nicaragua" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1894Nicaragua/ebook/frus1894Nicaragua.mobi"/>
+                        <extent>
+                            <measure quantity="475388" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:40:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1895 as printed book and adapted to TEI-XML</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">cleveland-24</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>canada</term>
+                    <term>cleveland-grover-1893-1897</term>
+                    <term>gresham-walter-quintin</term>
+                    <term>honduras</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>nicaragua</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>united-kingdom</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1894Nicaragua" status="published" when="1895"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0006" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">PAPERS RELATING TO THE FOREIGN RELATIONS OF THE UNITED
+                        STATES,</titlePart>
+                    <titlePart type="volumetitle">NICARAGUA (MOSQUITO TERRITORY). 1894.</titlePart>
+                    <titlePart type="volumeno"/>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <pubPlace>WASHINGTON:</pubPlace><lb/><publisher>GOVERNMENT PRINTING
+                        OFFICE.</publisher><lb/><docDate>1895.</docDate>
+                </docImprint>
+            </titlePage>
+            <pb facs="0007" n="[II]" xml:id="pgII"/>
+            <xi:include href="front/message-of-the-president.xml"
+                xpointer="message-of-the-president"/>
+            <pb facs="0011" n="[4]" xml:id="pg4"/>
+            <divGen type="toc" xml:id="toc"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+    </text>
+</TEI>

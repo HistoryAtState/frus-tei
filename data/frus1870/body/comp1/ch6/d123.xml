@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_d123" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Motley to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/d123"
+                    type="canonical"/>
+                <relatedItem target="d122.xml" type="prev"/>
+                <relatedItem target="d123-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">d123</bibl>
+                <bibl type="frus-division-n">123</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="164" to="165" unit="page"
+                        >164–65</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi><hi
+                            rendition="#italic"> London</hi></placeName>
+                    <date calendar="gregorian" when="1870-08-18"><hi rendition="#italic">August</hi>
+                        18, 1870</date>
+                    <date notAfter="1870-08-18T23:59:59-05:00" notBefore="1870-08-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d123">
+
+                <pb facs="0198" n="164" sameAs="frus:frus1870/pg164"/>
+
+                <note rend="inline" type="source">No. 123.</note>
+                <head>Mr. Motley to Mr. Fish.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 429.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United
+                                States,</hi><hi rendition="#italic"> London</hi></placeName>, <date
+                            calendar="gregorian" when="1870-08-18"><hi rendition="#italic"
+                                >August</hi> 18, 1870</date>. (Received August
+                    30.)</dateline></opener>
+                <p>I have the honor to send herewith a circular dispatch of Lord Granville addressed
+                    to her Majesty’s diplomatic and consular representatives in Germany, which has
+                    just been made public, defining the views of the British government in regard to
+                    the export of articles contraband of war or <hi rendition="#italic">ancipitis
+                        usus,</hi> and replying to certain complaints which have been made in
+                    Germany that Great Britain had deviated from the attitude of neutrality which
+                    she had announced her resolution to observe.</p>
+                <closer>
+                    <signed>JOHN LOTHROP MOTLEY.</signed></closer>
+
+
+                <xi:include href="d123-a1.xml" xpointer="d123-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

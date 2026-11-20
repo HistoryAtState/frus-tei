@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d834" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Loomis to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d834"
+                    type="canonical"/>
+                <relatedItem target="../ch237.xml" type="prev"/>
+                <relatedItem target="../ch238.xml" type="next"/>
+                <relatedItem target="../ch237.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d834</bibl>
+                <bibl type="frus-division-n">834</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="904" to="904" unit="page"
+                        >904</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Lisbon</hi></placeName>
+                    <date calendar="gregorian" when="1902-05-30"><hi rendition="#italic">May 30,
+                            1902</hi></date>
+                    <date notAfter="1902-05-30T23:59:59-05:00" notBefore="1902-05-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d834">
+
+                <pb facs="0984" n="904" sameAs="frus:frus1902/pg904"/>
+
+                <head><hi rendition="#italic">Mr. Loomis to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Lisbon</hi></placeName>, <date calendar="gregorian"
+                            when="1902-05-30"><hi rendition="#italic">May 30,
+                        1902</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I beg leave to acknowledge the receipt of
+                    your telegram<anchor n="a" xml:id="d834-f1"/> of May 24.</p>
+                <p>The permission was asked and granted within six hours, and the consuls have been
+                    notified.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Francis B.
+                    Loomis.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d834-f1" n="a" xml:id="d834-f1-content">
+                <p>Printed, <ref target="#pg6">page 6</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902app1_d2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../frus1902app1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1902app1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902app1/d2"
+                    type="canonical"/>
+                <relatedItem target="d1.xml" type="prev"/>
+                <relatedItem target="d2-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902app1</bibl>
+                <bibl type="frus-division-id">d2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1" to="8" unit="page"
+                    >1–8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">St. Petersburg</hi></placeName>
+                    <date calendar="gregorian" when="1901-02-23"><hi rendition="#italic">February
+                            23, 1901</hi></date>
+                    <date notAfter="1901-02-23T23:59:59-05:00" notBefore="1901-02-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d2">
+
+                <pb facs="0011" n="[1]" sameAs="frus:frus1902app1/pg1"/>
+
+                <head ana="#head_untitled-missing-head-in-printed-volume">[Untitled]</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic">St.
+                                Petersburg</hi></placeName>, <date calendar="gregorian"
+                            when="1901-02-23"><hi rendition="#italic">February 23,
+                        1901</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith a
+                    translation into English of the memorandum presenting the claims of the owners,
+                    officers, and crews of the <hi rendition="#italic">Cape Horn Pigeon</hi>, the
+                        <hi rendition="#italic">James Hamilton Lewis</hi>, the <hi
+                        rendition="#italic">C. H. White</hi>, and the <hi rendition="#italic">Kate
+                        and Anna</hi> to the arbitrator at the Hague.</p>
+                <pb facs="0012" n="2" xml:id="pg2"/>
+                <p>If the Department sees no objection to it, I would be glad to have this
+                    translation delivered to the Hon. H. C. Lodge, United States Senator from
+                    Massachusetts, with a view to its being printed, through his good offices, as a
+                    public document.</p>
+                <p>I have the honor to be, sir, your obedient servant,</p>
+                <closer><signed><hi rendition="#small-caps">Herbert H. D. Peirce</hi>,<lb/><hi
+                            rendition="#italic">Counsel and Agent for United States
+                        Government</hi>.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">John Hay</hi>,<lb/><hi rendition="#italic"
+                            >Secretary of State, Washington, D. C.</hi></p>
+                </postscript>
+
+
+
+
+                <xi:include href="d2-a1.xml" xpointer="d2-a1"/>
+                <xi:include href="d2-a2.xml" xpointer="d2-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

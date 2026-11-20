@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d306" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum From Lay to the NSC</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d306"
+                    type="canonical"/>
+                <relatedItem target="d305.xml" type="prev"/>
+                <relatedItem target="d306-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d306</bibl>
+                <bibl type="frus-division-n">306</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1958-03-28">March 28, 1958</date>
+                    <date notAfter="1958-03-28T23:59:59-05:00" notBefore="1958-03-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_LJS_1">Lay, James S., Jr.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_RG_1">RG</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d306">
+
+                <pb facs="1412" n="1307" sameAs="frus:frus1958-60v03mSupp/pg1307"/>
+
+                <head>306. Memorandum From Lay to the NSC<anchor n="1" xml:id="d306-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1958-03-28">March 28, 1958</date></dateline>
+                </opener>
+                <pb facs="d306-1" n="1" type="facsimile" xml:id="d306-1"/>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Monitoring a Long-Range Rocket Test Agreement</item>
+                </list>
+                <list type="references">
+                    <head>REFERENCE</head>
+                    <item>NSC Action No. 1840–<hi rendition="#italic">c</hi></item>
+                </list>
+                <p>The Report on the subject,<anchor n="2" xml:id="d306-f2"/> called for by NSC
+                    Action No. 1840–<hi rendition="#italic">c</hi>–(2), has been prepared by the NSC
+                    Ad Hoc Panel established by the reference NSC Action (consisting of
+                    representatives of the President’s Science Advisory Committee, the Department of
+                    Defense, the Atomic Energy Commission, and the Central Intelligence Agency), and
+                    will be presented orally at the National Security Council meeting on Thursday,
+                    April 3, 1958.</p>
+                <p>Because of the sensitivity of this Report, copies have been circulated only to
+                    those agencies represented on the NSC Ad Hoc Panel and to the Department of
+                    State. A copy of the Report is available, in the office of the Executive
+                    Secretary, NSC, for reference by other regular participant members of the
+                    Council.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">James S. Lay, Jr.</hi>
+                        <lb/>
+                        <hi rendition="#italic">Executive Secretary</hi>
+                    </signed>
+                </closer>
+                <pb facs="1413" n="1308" type="typeset" xml:id="pg1308"/>
+                <postscript>
+                    <p>cc: The Chairman, Atomic Energy Commission</p>
+                    <p>The Chairman, Joint Chiefs of Staff</p>
+                    <p>The Director of Central Intelligence</p>
+                    <p>The Special Assistant to the President for Science and Technology</p>
+                </postscript>
+
+
+
+
+                <xi:include href="d306-a1.xml" xpointer="d306-a1"/>
+                <xi:include href="d306-a2.xml" xpointer="d306-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d306-f1" n="1" type="source" xml:id="d306-f1-content">
+                <p>Source: Transmits a report on “Monitoring a Long-Range Rocket Test Agreement.”
+                    Secret. 7 pp. NARA, RG 273, Official Meeting Minutes File, 361st Meeting, Tab
+                    A.</p>
+            </note>
+            <note corresp="#d306-f2" n="2" xml:id="d306-f2-content">
+                <p>Report enclosed with this copy. <hi rendition="#italic">Special security
+                        precautions should be observed in the handling of the enclosures, and access
+                        to them should be limited on a strict need-to-know basis.</hi> [Footnote is
+                    in the original.]</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

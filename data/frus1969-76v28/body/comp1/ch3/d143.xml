@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v28_d143" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum for the Record</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v28_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v28_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v28/d143"
+                    type="canonical"/>
+                <relatedItem target="d142.xml" type="prev"/>
+                <relatedItem target="d144.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v28</bibl>
+                <bibl type="frus-division-id">d143</bibl>
+                <bibl type="frus-division-n">143</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="360" to="360" unit="page"
+                        >360</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1975-11-28">November 28, 1975</date>
+                    <date notAfter="1975-11-28T23:59:59-05:00" notBefore="1975-11-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v28/persons">
+                    <term ref="frus:frus1969-76v28/persons#p_BGS_1">Brown, George S.</term>
+                    <term ref="frus:frus1969-76v28/persons#p_CWP_1">Clements, William P.</term>
+                    <term ref="frus:frus1969-76v28/persons#p_CWE_1">Colby, William E.</term>
+                    <term ref="frus:frus1969-76v28/persons#p_FGR_1">Ford, Gerald R.</term>
+                    <term ref="frus:frus1969-76v28/persons#p_RRR_1">Ratliff, Rob Roy</term>
+                    <term ref="frus:frus1969-76v28/persons#p_SJL_1">Sisco, Joseph J.</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v28/terms">
+                    <term ref="frus:frus1969-76v28/terms#t_CIA_1">CIA</term>
+                    <term ref="frus:frus1969-76v28/terms#t_JCS_1">JCS</term>
+                    <term ref="frus:frus1969-76v28/terms#t_SA_1">SA</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d143">
+
+                <pb facs="0399" n="360" sameAs="frus:frus1969-76v28/pg360"/>
+
+                <head>143. Memorandum for the Record<anchor n="1" xml:id="d143-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1975-11-28">November 28, 1975</date>.</dateline></opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Approvals by Higher Authority</item>
+                </list>
+                <p>On 28 November 1975, higher authority reviewed the recommendations of The 40
+                    Committee on Angola<anchor n="2" xml:id="d143-f2"/> and approved the following: <list>
+                        <item>• Release of [<hi rendition="#italic">dollar amount not
+                                declassified</hi>] from the CIA Reserve Fund.</item>
+                        <item>• [<hi rendition="#italic">3 lines not declassified</hi>]</item>
+                        <item>• Deployment of Redeyes and TOWs in the event SA–7’s and French
+                            anti-tank missiles are not available, subject to submission of the
+                            necessary review cited by JCS as to possible compromise of advanced U.S.
+                            technology before TOWs are deployed.</item>
+                    </list>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Rob Roy Ratliff</hi>
+                    </signed>
+                    <lb/>
+                    <title>Executive Secretary</title>
+                    <lb/>
+                    <affiliation>The 40 Committee</affiliation>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d143-f1" n="1" type="source" xml:id="d143-f1-content">
+                <p>Source: National Security Council, Ford Administration Intelligence Files, 40
+                    Committee Meetings. Secret; Eyes Only. Distributed to Clements, Sisco, General
+                    Brown, and Colby.</p>
+            </note>
+            <note corresp="#d143-f2" n="2" xml:id="d143-f2-content">
+                <p>See <ref target="#d139">Document 139</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

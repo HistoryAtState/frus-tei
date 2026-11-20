@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav02_d17" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Russia (Francis) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav02/d17"
+                    type="canonical"/>
+                <relatedItem target="d16.xml" type="prev"/>
+                <relatedItem target="d18.xml" type="next"/>
+                <relatedItem target="../ch1subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav02</bibl>
+                <bibl type="frus-division-id">d17</bibl>
+                <bibl type="frus-division-n">17</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="10" to="10" unit="page"
+                        >10</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Petrograd</hi></placeName>
+                    <date calendar="gregorian" when="1917-12-21"><hi rendition="#italic">December
+                            21, 1917</hi></date>
+                    <date notAfter="1917-12-21T23:59:59-05:00" notBefore="1917-12-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav02/persons">
+                    <term ref="frus:frus1918Russiav02/persons#p_FDR1">Francis, David R.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d17">
+
+                <pb facs="0100" n="10" xml:id="pg10"/>
+
+                <note rend="inline" type="source">File No. 861.00/854</note>
+                <head><hi rendition="#italic">The Ambassador in Russia</hi> (<hi rendition="#italic"
+                        >Francis</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Petrograd</hi></placeName>, <date calendar="gregorian"
+                            when="1917-12-21"><hi rendition="#italic">December 21, 1917</hi></date>.
+                        <lb/> [<hi rendition="#italic">Received December 23, 7 p.m.</hi>]</dateline>
+                </opener>
+                <p>2127. Japanese Embassy in statement published Petrograd gazette yesterday denies
+                    report Japanese landing at Vladivostok and in connection says: <list>
+                        <label>1.</label>
+                        <item>All know that the capture of Vladivostok by Japanese could not present
+                            the slightest difficulty for them.</item>
+                        <label>2.</label>
+                        <item>That Japan has not shown any aggressive tendencies toward Russia,
+                            notwithstanding attacks on Japanese for plunder and other cases of the
+                            trampling of alien rights judging in Japan the present war is hardly
+                            viewed as the final chord of world militarism and the naval forces of
+                            Japan are gradually being increased [<hi rendition="#italic"
+                            >sic</hi>].</item>
+                    </list></p>
+                <p>Concerning secret treaty cabled in my 2118<anchor n="1" xml:id="d17-f1"/> after
+                    saying that heading thereof is unauthorized ends: <quote rend="blockquote">
+                        <p>With regard to this convention the Japanese Embassy declares that there
+                            is being attributed to this treaty a character that is entirely foreign
+                            to it and that it is in no wise ambiguous as regards England. The
+                            unauthorized heading merely shows that the person who composed it had
+                            not penetrated the meaning of the fourth article of the said treaty. The
+                            purpose of all this is apparently to call forth among the Allies if only
+                            a shadow of confusion.</p></quote></p>
+                <closer>
+                    <signed><hi rendition="#small-caps">Francis</hi></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d17-f1" n="1" xml:id="d17-f1-content">
+                <p>Dated Dec. 18, 1917, 11 p.m.; <ref target="frus1917Supp02v01#pg_709"><hi
+                            rendition="#italic">Foreign Relations</hi>, 1917, Supplement 2, vol. <hi
+                            rendition="#small-caps">i</hi>, p. 709</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

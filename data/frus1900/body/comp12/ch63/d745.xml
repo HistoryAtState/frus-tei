@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d745" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d745"
+                    type="canonical"/>
+                <relatedItem target="d744.xml" type="prev"/>
+                <relatedItem target="d745-a1.xml" type="next"/>
+                <relatedItem target="../ch63.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d745</bibl>
+                <bibl type="frus-division-n">745</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="609" to="610" unit="page"
+                        >609–10</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1900-04-11"><hi rendition="#italic">April 11,
+                            1900</hi></date>
+                    <date notAfter="1900-04-11T23:59:59-05:00" notBefore="1900-04-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d745">
+
+                <pb facs="0707" n="609" sameAs="frus:frus1900/pg609"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1900-04-11"
+                                ><hi rendition="#italic">April 11, 1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 300.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to Mr. White’s dispatch No.
+                    283 of the 15th ultimo, I have the honor to transmit herewith the copy of a note
+                    which has just been received from Her Majesty’s secretary of state for foreign
+                    affairs in relation to the consignment of flour shipped by the Pennsylvania
+                    Milling Company on board the steamship <hi rendition="#italic">Maria.</hi></p>
+                <pb facs="0708" n="610" xml:id="pg610"/>
+                <p>I am, for the moment, unable to obtain further information as to the details of
+                    the transaction therein referred to, but assume that they will be perfectly
+                    intelligible to the company.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+
+
+                <xi:include href="d745-a1.xml" xpointer="d745-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1929v03_d835" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chargé in Panama (Muse) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1929v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1929v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1929v03/d835"
+                    type="canonical"/>
+                <relatedItem target="d834.xml" type="prev"/>
+                <relatedItem target="d835-a1.xml" type="next"/>
+                <relatedItem target="../ch60.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1929v03</bibl>
+                <bibl type="frus-division-id">d835</bibl>
+                <bibl type="frus-division-n">835</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="721" to="723" unit="page"
+                        >721–23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Panama</hi></placeName>
+                    <date calendar="gregorian" when="1929-05-20">May 20, 1929</date>
+                    <date notAfter="1929-05-20T23:59:59-05:00" notBefore="1929-05-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d835">
+
+                <pb facs="0839" n="721" sameAs="frus:frus1929v03/pg721"/>
+
+                <note rend="inline" type="source">811f.244/107</note>
+                <head><hi rendition="#italic">The Chargé in Panama</hi> (<hi rendition="#italic"
+                        >Muse</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Panama</hi></placeName>, <date calendar="gregorian"
+                            when="1929-05-20">May 20, 1929</date>.<lb/>[Received May 27.]</dateline>
+                    <seg rendition="#float-left">No. 2027</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to my telegram No. 55 of May
+                    19, 6 P.M.,<anchor n="8" xml:id="d835-f1"/> and previous correspondence
+                    concerning the Panaman protest against certain sales made by the Canal
+                    Commissaries, I have the honor to transmit herewith copies of the Legation’s
+                    correspondence with the Panaman Secretary of Foreign Relations on the
+                        subject<anchor n="9" xml:id="d835-f2"/> since Despatch <pb facs="0840"
+                        n="722" xml:id="pg722"/> No. 1998 of April 22, 1929, to the Department,
+                    together with an English translation of Señor Arosemena’s note.</p>
+                <p rendition="#center">. . . . . . .</p>
+                <p>I have [etc.]</p>
+                <closer><signed><hi rendition="#small-caps">Benjamin Muse</hi></signed></closer>
+
+
+                <xi:include href="d835-a1.xml" xpointer="d835-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d835-f1" n="8" xml:id="d835-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d835-f2" n="9" xml:id="d835-f2-content">
+                <p>Only the note of May 16 from the Panaman Minister for Foreign Affairs is
+                    printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

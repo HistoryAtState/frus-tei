@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v01_d150" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of a Meeting</title>
+            </titleStmt>
+            <xi:include href="../../../frus1964-68v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1964-68v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v01/d150"
+                    type="canonical"/>
+                <relatedItem target="d149.xml" type="prev"/>
+                <relatedItem target="d151.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v01</bibl>
+                <bibl type="frus-division-id">d150</bibl>
+                <bibl type="frus-division-n">150</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="312" to="313" unit="page"
+                        >312–13</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#italic">Saigon</hi></placeName>
+                    <date calendar="gregorian" when="1964-05-11T17:00:00+08:00"><hi
+                            rendition="#italic">May 11, 1964, 5 p.m.</hi></date>
+                    <date notAfter="1964-05-11T04:00:00-05:00" notBefore="1964-05-11T04:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v01/persons">
+                    <term ref="frus:frus1964-68v01/persons#p_Khanh1">Khanh</term>
+                    <term ref="frus:frus1964-68v01/persons#p_LHCJ1">Lodge, Henry Cabot, Jr.</term>
+                    <term ref="frus:frus1964-68v01/persons#p_MNRS1">McNamara, Robert S.</term>
+                    <term ref="frus:frus1964-68v01/persons#p_Minh1">Minh</term>
+                    <term ref="frus:frus1964-68v01/persons#p_TGMD1">Taylor, General Maxwell
+                        D.</term>
+                    <term ref="frus:frus1964-68v01/persons#p_TQ1">Tri Quang</term>
+                </keywords>
+                <keywords scheme="frus:frus1964-68v01/terms">
+                    <term ref="frus:frus1964-68v01/terms#t_DIA1">DIA</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d150">
+
+                <pb facs="0340" n="312" sameAs="frus:frus1964-68v01/pg312"/>
+
+                <head>150. Memorandum of a Meeting<anchor n="1" xml:id="d150-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#italic"
+                                >Saigon</hi></placeName>, <date calendar="gregorian"
+                            when="1964-05-11T17:00:00+08:00"><hi rendition="#italic">May 11, 1964, 5
+                                p.m.</hi></date></dateline></opener>
+                <list subtype="participants" type="description">
+                    <label>PRESENT</label>
+                    <item>General Minh</item>
+                    <item>Ambassador Lodge</item>
+                    <item>General Taylor</item>
+                </list>
+                <list>
+                    <label>1.</label>
+                    <item>General Minh feels we have been losing ground since January. The reason is
+                        that the government has lost the confidence of the people. General Khanh has
+                        brought back into the Army bad officers who had been dismissed by the Junta.
+                        What is needed is a popular leader.</item>
+                    <label>2.</label>
+                    <item>General Taylor pointed out that it was difficult to be popular in time of
+                        civil war, that there were times when Lincoln’s popularity was very low in
+                        the United States during our civil war. He insisted, however, that something
+                        had to be done to attract the people to the side of the government.</item>
+                    <pb facs="0341" n="313" xml:id="pg313"/>
+                    <label>3.</label>
+                    <item>Speaking of neutralists, Minh said that Diem used to see communists
+                        everywhere; now Khanh sees neutralists everywhere. The fact is that many
+                        friends are neutralists and anti-American. However, their political
+                        influence is not important.</item>
+                    <label>4.</label>
+                    <item>The Buddhists do have a political importance. They have been infiltrated
+                        to some extent by communists. Tri Quang may become dangerous.</item>
+                    <label>5.</label>
+                    <item>General Minh sees no present likelihood of a coup but he is quite sure
+                        that victory is not in sight.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d150-f1" n="1" type="source" xml:id="d150-f1-content">
+                <p>Source: National Defense University, Taylor Papers. Top Secret; Sensitive. The
+                    source text is Enclosure C to an undated memorandum from McNamara to the Joint
+                    Chiefs of Staff and the Director of DIA.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

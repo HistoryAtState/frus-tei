@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d64" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Marshal Stalin </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d64"
+                    type="canonical"/>
+                <relatedItem target="d63.xml" type="prev"/>
+                <relatedItem target="d65.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d64</bibl>
+                <bibl type="frus-division-n">64</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="39" to="39" unit="page"
+                        >39</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-01-22">22 January 1945</date>
+                    <date notAfter="1945-01-22T23:59:59-05:00" notBefore="1945-01-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Malta/terms">
+                    <term ref="frus:frus1945Malta/terms#t_ARGONAUT1">ARGONAUT</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d64">
+
+                <pb facs="0121" n="39" xml:id="pg39"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to Marshal Stalin </hi><anchor n="1"
+                        xml:id="d64-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-01-22">22 January 1945</date>.</dateline>
+                </opener>
+                <p>Number 178, Top Secret and Personal, from the President to Marshal Stalin.</p>
+                <p>I have decided to not have any press representatives at <hi
+                        rendition="#small-caps">Argonaut</hi> and to permit only a small group of
+                    uniformed service photographers from the American Navy to take the pictures that
+                    we will want.</p>
+                <p>Prime Minister Churchill agrees.<anchor n="2" xml:id="d64-f2"/>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d64-f1" n="1" type="source" xml:id="d64-f1-content">
+                <p>Sent to the United States Naval Attaché, Moscow, via Navy channels.</p>
+            </note>
+            <note corresp="#d64-f2" n="2" xml:id="d64-f2-content">
+                <p> Stalin’s reply, dated January 23, as received by the President in translation,
+                    included the statements, “I do not have any objections against your proposals”
+                    and “The same reply I sent to the Prime Minister’s request” (Roosevelt
+                    Papers).</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

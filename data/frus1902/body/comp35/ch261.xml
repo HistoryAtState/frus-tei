@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_ch261" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Passport application of Helena Pecare.</title>
+            </titleStmt>
+            <xi:include href="../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/ch261"
+                    type="canonical"/>
+                <relatedItem target="../comp35.xml" type="prev"/>
+                <relatedItem target="ch261/d904.xml" type="next"/>
+                <relatedItem target="../comp35.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">ch261</bibl>
+                <bibl type="frus-division-n">261</bibl>
+                <bibl type="frus-division-type">chapter</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="968" to="969" unit="page"
+                        >968–69</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1902-02-28T23:59:59-05:00" notBefore="1902-02-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="ch261">
+
+                <pb facs="1048" n="968" sameAs="frus:frus1902/pg968"/>
+
+                <head>Passport application of Helena Pecare.</head>
+
+
+                <xi:include href="ch261/d904.xml" xpointer="d904"/>
+                <xi:include href="ch261/d905.xml" xpointer="d905"/>
+            </div>
+        </body>
+    </text>
+</TEI>

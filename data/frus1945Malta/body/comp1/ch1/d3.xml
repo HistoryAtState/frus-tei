@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President to the Ambassador in the Soviet Union (Harriman)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1945Malta/d3"
+                    type="canonical"/>
+                <relatedItem target="d2.xml" type="prev"/>
+                <relatedItem target="d4.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="4" to="4" unit="page"
+                    >4</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1944-07-18">18 July 1944</date>
+                    <date notAfter="1944-07-18T23:59:59-05:00" notBefore="1944-07-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_HWA1">Harriman, W. Averell</term>
+                    <term ref="frus:frus1945Malta/persons#p_MVM1">Molotov, Vyacheslav
+                        Mikhailovich</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d3">
+
+                <pb facs="0086" n="4" sameAs="frus:frus1945Malta/pg4"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The President to the Ambassador in the Soviet Union</hi>
+                        (<hi rendition="#italic">Harriman</hi>)<anchor n="1" xml:id="d3-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<hi rendition="#small-caps">Aboard the
+                                <placeName type="venue">Presidential Special</placeName></hi>,] <lb/>
+                        <date calendar="gregorian" when="1944-07-18">18 July 1944</date>.</dateline>
+                </opener>
+                <p>Number 29. Personal and Top Secret. From the President for Ambassador
+                    Harriman.</p>
+                <p>Replying to your message ... [of July 18], you are authorized to delete before
+                    delivery the following sentence:</p>
+                <p>“Your Army is doing so magnificently that the hop would be much shorter to
+                    Scotland than the one taken by Molotov two years ago.”</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d3-f1" n="1" type="source" xml:id="d3-f1-content">
+                <p>Sent to the United States Naval Attaché, Moscow, via Navy channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d222" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>memorandum.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d222"
+                    type="canonical"/>
+                <relatedItem target="d221.xml" type="prev"/>
+                <relatedItem target="d222-a1.xml" type="next"/>
+                <relatedItem target="../ch89.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d222</bibl>
+                <bibl type="frus-division-n">222</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="225" to="231" unit="page"
+                        >225–31</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1901-03-02"><hi rendition="#italic">March 2,
+                            1901</hi></date>
+                    <date notAfter="1901-03-02T23:59:59-05:00" notBefore="1901-03-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d222">
+
+                <pb facs="0305" n="225" sameAs="frus:frus1901/pg225"/>
+
+                <head><hi rendition="#small-caps">memorandum.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1901-03-02"><hi rendition="#italic">March 2,
+                        1901</hi></date>.</dateline></opener>
+                <p>With reference to the British embassy’s confidential memorandum of May 31, 1900,
+                    the United States Government does not regard existing treaties as embodying
+                    rights and immunities of British subjects in Cuba, Cuba’s affairs having been
+                    withdrawn from British <pb facs="0306" n="226" xml:id="pg226"/> treaties with
+                    Spain and not having been embraced by British treaties with the United States,
+                    which antedated intervention.</p>
+                <p>The rights, immunities, etc., of aliens in Cuba are elaborately prescribed in the
+                    alien law of 1870, which the Attorney-General has recently held to be in force
+                    in Cuba. (Opinion of April 26 to Secretary of War; copy handed herewith.) That
+                    law, of 57 sections, throws open the courts in Cuba to protect such rights. It
+                    is applicable to British subjects.</p>
+
+
+                <xi:include href="d222-a1.xml" xpointer="d222-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

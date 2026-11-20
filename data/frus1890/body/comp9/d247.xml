@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d247" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Blaine to Mr. Lincoln.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d247"
+                    type="canonical"/>
+                <relatedItem target="d246.xml" type="prev"/>
+                <relatedItem target="d248.xml" type="next"/>
+                <relatedItem target="../comp9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d247</bibl>
+                <bibl type="frus-division-n">247</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="340" to="340" unit="page"
+                        >340</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1890-05-26"><hi rendition="#italic">May</hi>
+                        26, 1890</date>
+                    <date notAfter="1890-05-26T23:59:59-05:00" notBefore="1890-05-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d247">
+
+                <pb facs="0444" n="340" sameAs="frus:frus1890/pg340"/>
+
+                <head><hi rendition="#italic">Mr. Blaine to Mr. Lincoln.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1890-05-26"><hi rendition="#italic">May</hi> 26,
+                        1890</date>.</dateline>
+                    <seg rendition="#float-left">No. 270.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I transmit to you herewith for your
+                    information a translation of a note<anchor n="*" xml:id="d247-f1"/> from the
+                    minister of Venezuela at this capital concerning the Venezuelan boundary
+                    question.</p>
+                <p>The statements of the Venezuelan minister are interesting from the historical
+                    point of view, especially in regard to the shifting nature of the British
+                    contention; but, as the essential elements of the determination of the problem
+                    are matters of record, there should be no difficulty in reaching a just
+                    conclusion on the merits, and, in the expectation of such a result, it is proper
+                    to refrain from any prejudgment of opinion on the merits of the British
+                    contention.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">James G. Blaine.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d247-f1" n="*" xml:id="d247-f1-content">
+                <p>For inclosure see note of May 20, 1890, from the minister from Venezuela.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

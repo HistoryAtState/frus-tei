@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v03mSupp_d56" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegram 439 to Geneva</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v03mSupp/d56"
+                    type="canonical"/>
+                <relatedItem target="d55.xml" type="prev"/>
+                <relatedItem target="d57.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v03mSupp</bibl>
+                <bibl type="frus-division-id">d56</bibl>
+                <bibl type="frus-division-n">56</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1955-08-10">August 10, 1955</date>
+                    <date notAfter="1955-08-10T23:59:59-05:00" notBefore="1955-08-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v03mSupp/persons">
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_DJF_1">Dulles, John Foster</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_JUA_1">Johnson, U. Alexis</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_RWS_1">Robertson, Walter S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d56">
+
+                <pb facs="0110" n="63" xml:id="pg63"/>
+
+                <head>56. Telegram 439 to Geneva<anchor n="1" xml:id="d56-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1955-08-10">August 10, 1955</date></dateline>
+                </opener>
+                <pb facs="d56-1" n="1" type="facsimile" xml:id="d56-1"/>
+                <p>439. For Johnson. Your 362.</p>
+                <p>While it is useful to be thinking ahead we doubt that it is useful to attempt now
+                    to crystallize our thinking.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Dulles</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d56-f1" n="1" type="source" xml:id="d56-f1-content">
+                <p>Source: Department of State, Central Files, 611.93/8–1055. Secret. Drafted by
+                    Dulles; cleared by Robertson. The time of transmission is illegible.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

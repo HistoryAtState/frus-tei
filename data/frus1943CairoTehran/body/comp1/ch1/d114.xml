@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d114" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marshal Stalin to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d114"
+                    type="canonical"/>
+                <relatedItem target="d113.xml" type="prev"/>
+                <relatedItem target="d115.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d114</bibl>
+                <bibl type="frus-division-n">114</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="78" to="79" unit="page"
+                        >78–79</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-10">November 10, 1943</date>
+                    <date notAfter="1943-11-10T23:59:59-05:00" notBefore="1943-11-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MVM1">Molotov, Vyacheslov
+                        Mikhailovich</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d114">
+
+                <pb facs="0170" n="78" sameAs="frus:frus1943CairoTehran/pg78"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Marshal Stalin to President Roosevelt</hi><anchor
+                        n="1" xml:id="d114-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Moscow</hi></placeName>, <date calendar="gregorian"
+                            when="1943-11-10">November 10, 1943</date>.]</dateline>
+                </opener>
+                <p>Personal and secret message from Premier J. V. Stalin to President Franklin D.
+                    Roosevelt</p>
+                <p>I have received Your message of November 8th.<anchor n="2" xml:id="d114-f2"/> I
+                    thank You for Your answer.</p>
+                <p>Your plan concerning the organization of our meeting in Iran, I accept. I hope,
+                    and [<hi rendition="#italic">that</hi>] Mr. Churchill will agree with this
+                    proposal.</p>
+                <pb facs="0171" n="79" xml:id="pg79"/>
+                <p>By November 22nd, Mr. V. M. Molotov and our military representative will arrive
+                    in Cairo, where together with you they will agree upon everything necessary in
+                    connection with our meeting in Iran.</p>
+                <p><hi rendition="#small-caps">November</hi> 10, 1943.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d114-f1" n="1" type="source" xml:id="d114-f1-content">
+                <p>Apparently sent via the Soviet Embassy, Washington.</p>
+            </note>
+            <note corresp="#d114-f2" n="2" xml:id="d114-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg71">p. 71</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

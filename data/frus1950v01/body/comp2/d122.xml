@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v01_d122" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Report to the National Security Council by the Secretary of Defense
+                    (Johnson)</title>
+            </titleStmt>
+            <xi:include href="../../frus1950v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1950v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1950v01/d122"
+                    type="canonical"/>
+                <relatedItem target="d121-a1.xml" type="prev"/>
+                <relatedItem target="d122-a1.xml" type="next"/>
+                <relatedItem target="../comp2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v01</bibl>
+                <bibl type="frus-division-id">d122</bibl>
+                <bibl type="frus-division-n">122</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="390" to="391" unit="page"
+                        >390–91</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1950-08-25">August 25, 1950</date>
+                    <date notAfter="1950-08-25T23:59:59-05:00" notBefore="1950-08-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1950v01/terms">
+                    <term ref="frus:frus1950v01/terms#t_NSC1">NSC</term>
+                    <term ref="frus:frus1950v01/terms#t_SS1">S/S</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d122">
+
+                <pb facs="0406" n="390" xml:id="pg390"/>
+
+                <note rend="inline" type="source"> S/S–NSC Files: Lot 63D351: NSC 79 Series</note>
+                <head>
+                    <hi rendition="#italic">Report to the National Security Council by the Secretary
+                        of Defense</hi> (<hi rendition="#italic">Johnson</hi>)</head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1950-08-25">August 25,
+                        1950</date>.</dateline>
+                </opener>
+                <p rendition="#flush"> NSC 79</p>
+                <p rendition="#flush">
+                    <hi rendition="#small-caps">Note by the Executive Secretary to the National
+                        Security Council on United States and Allied War Objectives in the Event of
+                        Global War</hi>
+                </p>
+                <table>
+                    <row role="label">
+                        <cell>References:</cell>
+                        <cell>A. NSC 20/4<anchor n="1" xml:id="d122-f1"/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>B. NSC 68<anchor n="2" xml:id="d122-f2"/>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>C. NSC 73/4<anchor n="3" xml:id="d122-f3"/>
+                        </cell>
+                    </row>
+                </table>
+                <p>At the request of the Secretary of Defense, the enclosed memorandum by the Joint
+                    Chiefs of Staff on the subject is circulated herewith for the information of the
+                    National Security Council and the Secretary of the Treasury and referred to the
+                    NSC Staff for use in the preparation of a report for Council consideration.</p>
+                <p>In transmitting the enclosure the Secretary of Defense requested that action be
+                    initiated in the National Security Council as recommended by the Joint Chiefs of
+                    Staff to develop a clear-cut statement of the war objectives of the United
+                    States and that further action be taken leading to the adoption of a concerted
+                    statement of the war objectives of the United States and its allies, all in the
+                    eventuality of possible global war.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">James</hi> S. <hi rendition="#small-caps">Lay,
+                            Jr</hi>.</signed>
+                </closer>
+
+
+                <xi:include href="d122-a1.xml" xpointer="d122-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d122-f1" n="1" xml:id="d122-f1-content">
+                <p>For text, see <ref target="frus1948v01p2#pg_662">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1948, vol. <hi
+                            rendition="#small-caps">i</hi>, Part 2, p. 662</ref>.</p>
+            </note>
+            <note corresp="#d122-f2" n="2" xml:id="d122-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg234">p. 234</ref>.</p>
+            </note>
+            <note corresp="#d122-f3" n="3" xml:id="d122-f3-content">
+                <p>Of August 25, <ref target="#pg375">p. 375</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

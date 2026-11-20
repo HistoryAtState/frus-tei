@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_d601" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Minister to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/d601"
+                    type="canonical"/>
+                <relatedItem target="../ch59.xml" type="prev"/>
+                <relatedItem target="d602.xml" type="next"/>
+                <relatedItem target="../ch59.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">d601</bibl>
+                <bibl type="frus-division-n">601</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="551" to="551" unit="page"
+                        >551</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Athens</hi></placeName>
+                    <date calendar="gregorian" when="1913-03-18">
+                        <hi rendition="#italic">March 18, 1913</hi></date>
+                    <date notAfter="1913-03-18T23:59:59-05:00" notBefore="1913-03-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d601">
+
+                <pb facs="0655" n="551" sameAs="frus:frus1913/pg551"/>
+
+                <note rend="inline" type="source">File No. 868.001 G 29/2.</note>
+                <head>
+                    <hi rendition="#italic">The American Minister to the Secretary of State.</hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegram—Paraphrase.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Athens</hi></placeName>, <date
+                            calendar="gregorian" when="1913-03-18">
+                            <hi rendition="#italic">March 18, 1913</hi></date>.</dateline>
+                </opener>
+                <p>Reports that King George was shot and killed this afternoon at Saloniki. While
+                    walking with an aide de camp a Greek socialist shot him through the heart from
+                    behind a wall. The Queen will return to Saloniki tonight from Athens where she
+                    just arrived.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Schurman</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v12_d10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter from the Assistant Secretary of Defense for International Security
+                    Affairs (Warnke) to the Assistant Secretary of State for European Affairs
+                    (Leddy)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1964-68v12_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1964-68v12_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v12/d10"
+                    type="canonical"/>
+                <relatedItem target="d9.xml" type="prev"/>
+                <relatedItem target="d10-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v12</bibl>
+                <bibl type="frus-division-id">d10</bibl>
+                <bibl type="frus-division-n">10</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="17" to="18" unit="page"
+                        >17–18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1968-02-24">February 24, 1968</date>
+                    <date notAfter="1968-02-24T23:59:59-05:00" notBefore="1968-02-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v12/persons">
+                    <term ref="frus:frus1964-68v12/persons#p_LJM1">Leddy, John M.</term>
+                    <term ref="frus:frus1964-68v12/persons#p_MKDH1">McKillop, David H.</term>
+                    <term ref="frus:frus1964-68v12/persons#p_WPC1">Warnke, Paul C.</term>
+                </keywords>
+                <keywords scheme="frus:frus1964-68v12/terms">
+                    <term ref="frus:frus1964-68v12/terms#t_RG1">RG</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d10">
+
+                <pb facs="0053" n="17" xml:id="pg17"/>
+
+                <head>10. Letter from the Assistant Secretary of Defense for International Security
+                    Affairs (Warnke) to the Assistant Secretary of State for European Affairs
+                        (Leddy)<anchor n="1" xml:id="d10-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1968-02-24">February 24, 1968</date>.</dateline></opener>
+                <p rendition="#flush">Dear John:</p>
+                <p>Regarding the Department of State’s draft of February 16 on the question of
+                    US-Danish nuclear weapons policies,<anchor n="2" xml:id="d10-f2"/> I would like
+                    to propose the attached preliminary revision as a basis for a joint
+                    State-Defense position.</p>
+                <p>I understand that your staff has assured mine that the final US position will not
+                    be communicated to the Danish Government until there has been full review in
+                    both our Departments of the Danish position.</p>
+                <p>Sincerely,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Paul C. Warnke</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d10-a1.xml" xpointer="d10-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d10-f1" n="1" type="source" xml:id="d10-f1-content">
+                <p>Source: National Archives and Records Administration, RG 59, Central Files
+                    1967-69, DEF 12 US. Secret.</p>
+            </note>
+            <note corresp="#d10-f2" n="2" xml:id="d10-f2-content">
+                <p>The February 16 draft, a copy of which is in the Department of State, Danish Desk
+                    Files: Lot 73 D 167, Thule Crash—Internal Memos, was based closely on the
+                    talking points forwarded to Leddy by McKillop on February 13 (attachment to <ref
+                        target="#d8">Document 8</ref>).</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

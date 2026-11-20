@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917Supp02v02" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1917Supp02v02_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1917Supp02v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1917Supp02v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1917Supp02v02"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1917Supp02v02" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917Supp02v02/covers/frus1917Supp02v02.jpg"/>
+                        <extent>
+                            <measure quantity="32226" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:55:23.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1917Supp02v02" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917Supp02v02/ebook/frus1917Supp02v02.epub"/>
+                        <extent>
+                            <measure quantity="964831" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:55:23.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1917Supp02v02" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1917Supp02v02/ebook/frus1917Supp02v02.mobi"/>
+                        <extent>
+                            <measure quantity="1337278" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:55:23.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1932 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">wilson</term>
+                    <term xml:id="admin3">harding</term>
+                    <term xml:id="admin4">coolidge</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>argentina</term>
+                    <term>belgium</term>
+                    <term>denmark</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>netherlands</term>
+                    <term>united-kingdom</term>
+                    <term>world-war-i</term>
+                    <term>norway</term>
+                    <term>panama</term>
+                    <term>spain</term>
+                    <term>sweden</term>
+                    <term>wilson-woodrow</term>
+                    <term>faroe-islands</term>
+                    <term>liechtenstein</term>
+                    <term>lansing-robert</term>
+                    <term>monaco</term>
+                    <term>st-vincent-and-the-grenadines</term>
+                    <term>virgin-islands-u-s</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1917Supp02v02" status="published" when="1932"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">PUBLICATIONS OF THE DEPARTMENT OF STATE <lb/> PAPERS
+                        RELATING TO THE FOREIGN RELATIONS OF THE UNITED STATES</titlePart>
+                    <titlePart type="subseries">1917 <lb/> SUPPLEMENT 2 <lb/> THE WORLD
+                        WAR</titlePart>
+                    <titlePart type="volumeno">(IN TWO VOLUMES) <lb/> VOLUME II</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <publisher>UNITED STATES <lb/> GOVERNMENT PRINTING OFFICE</publisher>
+                    <lb/>
+                    <pubPlace>WASHINGTON:</pubPlace>
+                    <docDate>1932</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/>
+                    <hi rendition="#small-caps">Publication No</hi>. 389</docImprint>
+            </titlePage>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+        </front>
+        <body>
+            <pb facs="0043" n="[797]" xml:id="pg797"/>
+            <pb facs="0044" n="[798]" xml:id="pg798"/>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <pb facs="0509" n="[1263]" xml:id="pg1263"/>
+            <pb facs="0510" n="[1264]" xml:id="pg1264"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+        </body>
+        <back>
+            <pb facs="0547" n="[1301]" xml:id="pg1301"/>
+            <pb facs="0548" n="[1302]" xml:id="pg1302"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

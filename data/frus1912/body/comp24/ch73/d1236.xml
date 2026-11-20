@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d1236" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Consul at Ciudad Juárez to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d1236"
+                    type="canonical"/>
+                <relatedItem target="d1235.xml" type="prev"/>
+                <relatedItem target="d1237.xml" type="next"/>
+                <relatedItem target="../ch73.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d1236</bibl>
+                <bibl type="frus-division-n">1236</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="884" to="885" unit="page"
+                        >884–85</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                        <hi rendition="#italic">Ciudad Juárez</hi></placeName>
+                    <date calendar="gregorian" when="1912-06-20">
+                        <hi rendition="#italic">June 20, 1912</hi></date>
+                    <date notAfter="1912-06-20T23:59:59-05:00" notBefore="1912-06-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1236">
+
+                <pb facs="1000" n="884" sameAs="frus:frus1912/pg884"/>
+
+                <note rend="inline" type="source">File No. 812.00/4251.</note>
+                <head>
+                    <hi rendition="#italic">The American Consul at Ciudad Juárez to the Secretary of
+                        State</hi>.</head>
+                <opener>
+                    <seg rendition="#center">[Telegram.—Paraphrase.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                            <hi rendition="#italic">Ciudad Juárez</hi></placeName>, <date
+                            calendar="gregorian" when="1912-06-20">
+                            <hi rendition="#italic">June 20, 1912</hi></date>.</dateline>
+                </opener>
+                <p>Department’s June 19, 2 p.m. No Federal troops approaching Juárez. Governor of
+                    Texas probably misinformed. Mexican consul <pb facs="1001" n="885"
+                        xml:id="pg885"/> El Paso assures me no movement contemplated at present for
+                    retaking Juárez. Personal observations confirm this.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Edwards.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

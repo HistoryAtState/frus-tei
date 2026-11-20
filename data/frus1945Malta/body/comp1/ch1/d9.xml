@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d9" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marshal Stalin to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1945Malta/d9"
+                    type="canonical"/>
+                <relatedItem target="d8.xml" type="prev"/>
+                <relatedItem target="d10.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d9</bibl>
+                <bibl type="frus-division-n">9</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="8" to="8" unit="page"
+                    >8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1944-10-08">8 <hi rendition="#small-caps"
+                            >October</hi> 1944</date>
+                    <date notAfter="1944-10-08T23:59:59-05:00" notBefore="1944-10-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_EA1">Eden, Anthony</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d9">
+
+                <pb facs="0090" n="8" sameAs="frus:frus1945Malta/pg8"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head>
+                    <hi rendition="#italic">Marshal Stalin to President Roosevelt </hi><anchor n="1"
+                        xml:id="d9-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <date calendar="gregorian" when="1944-10-08">8 <hi rendition="#small-caps"
+                                >October</hi> 1944</date>.</dateline>
+                </opener>
+                <p rendition="#flush">From: Marshal Stalin </p>
+                <p rendition="#flush">To: The President</p>
+                <p>Your message of October 5th<anchor n="2" xml:id="d9-f2"/> somewhat puzzled me. I
+                    supposed that Mr. Churchill was going to Moscow in accordance with the agreement
+                    reached with you at Quebec. It happened, however, that this supposition of mine
+                    does not seem to correspond in reality.</p>
+                <p>It is unknown to me with what questions Mr. Churchill and Mr. Eden are going to
+                    Moscow. So far I have not been informed about this by either one. Mr. Churchill,
+                    in his message to me,<anchor n="3" xml:id="d9-f3"/> expressed a desire to come
+                    to Moscow, if there would not be any objections on my part. I, of course, gave
+                    my consent. Such is the matter in connection with Mr. Churchill’s trip to
+                    Moscow. In the future I will keep you informed about the matter, after the
+                    meeting with Mr. Churchill.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d9-f1" n="1" type="source" xml:id="d9-f1-content">
+                <p>Apparently transmitted by the Soviet Embassy, Washington.</p>
+            </note>
+            <note corresp="#d9-f2" n="2" xml:id="d9-f2-content">
+                <p>Quoted <hi rendition="#italic">ante</hi>, <ref target="#pg6">p. 6</ref>.</p>
+            </note>
+            <note corresp="#d9-f3" n="3" xml:id="d9-f3-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

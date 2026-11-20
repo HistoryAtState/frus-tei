@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1889_d300" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Belmont to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1889_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1889_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1889/d300"
+                    type="canonical"/>
+                <relatedItem target="d299-a1.xml" type="prev"/>
+                <relatedItem target="d300-a1.xml" type="next"/>
+                <relatedItem target="../comp20.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1889</bibl>
+                <bibl type="frus-division-id">d300</bibl>
+                <bibl type="frus-division-n">300</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="678" to="680" unit="page"
+                        >678–80</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Madrid</hi></placeName>
+                    <date calendar="gregorian" when="1889-04-10"><hi rendition="#italic">April</hi>
+                        10, 1889</date>
+                    <date notAfter="1889-04-10T23:59:59-05:00" notBefore="1889-04-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d300">
+
+                <pb facs="0800" n="678" sameAs="frus:frus1889/pg678"/>
+
+                <head><hi rendition="#italic">Mr. Belmont to Mr. Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Madrid</hi></placeName>, <date calendar="gregorian"
+                            when="1889-04-10"><hi rendition="#italic">April</hi> 10, 1889</date>.
+                        (Received April 23.)</dateline>
+                    <seg rendition="#float-left">No. 12.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to Department’s No. 271, of
+                    February 28, 1888, and No. 279, of April 2, 1888, in reference to discrimination
+                    made by the Cuban officials against American vessels, in disregard to the
+                    provisions of the existing <hi rendition="#italic">modus vivendi</hi> with
+                    Spain, I have the honor to inclose copy and translation of a note from the
+                    minister of state in reply to the notes of this legation of March 14 and April
+                    20 last, copies of which are also inclosed, stating that orders have been given
+                    to the customs authorities of the Island of Cuba to pay strict attention to the
+                    terms of the existing agreement and that the excess of tonnage dues collected
+                    from the schooner <hi rendition="#italic">Uranus</hi> would be returned.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Perry Belmont.</hi></signed></closer>
+
+
+
+
+                <xi:include href="d300-a1.xml" xpointer="d300-a1"/>
+                <xi:include href="d300-a2.xml" xpointer="d300-a2"/>
+                <xi:include href="d300-a3.xml" xpointer="d300-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

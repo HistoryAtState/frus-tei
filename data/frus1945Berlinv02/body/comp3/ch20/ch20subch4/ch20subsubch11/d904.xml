@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d904" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 904</title>
+                <title type="subtitle">Proposal by the Soviet Delegation</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d904"
+                    type="canonical"/>
+                <relatedItem target="d903.xml" type="prev"/>
+                <relatedItem target="d905.xml" type="next"/>
+                <relatedItem target="../ch20subsubch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d904</bibl>
+                <bibl type="frus-division-n">904</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="846" to="847" unit="page"
+                        >846–47</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Babelsberg</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-21">July 21, 1945</date>
+                    <date notAfter="1945-07-21T23:59:59-05:00" notBefore="1945-07-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/persons">
+                    <term ref="frus:frus1945Berlinv02/persons#p_M2">Maiski</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_MIM1">Maisky, Ivan
+                        Mikhailovich</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_MRD1">Murphy, Robert D.</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_PEW1">Pauley, Edwin W.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv02/terms">
+                    <term ref="frus:frus1945Berlinv02/terms#t_USPolAd1">USPolAd</term>
+                    <term ref="frus:frus1945Berlinv02/terms#t_War1">War</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d904">
+
+                <pb facs="1040" n="846" sameAs="frus:frus1945Berlinv02/pg846"/>
+
+                <note rend="inline" type="source">740.00119 (Potsdam)/7–3145</note>
+                <head>No. 904<lb/><hi rendition="#italic">Proposal by the Soviet
+                        Delegation</hi><anchor n="1" xml:id="d904-f1"/></head>
+                <opener>
+                    <seg rendition="#center">[Translation?]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Babelsberg</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-07-21">July 21, 1945</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Soviet Draft</hi></p>
+                <p>Under the “war trophies” is understood: <list>
+                        <label>1).</label>
+                        <item>All military supplies and equipment of Germany, including all supplies
+                            and military equipment, which belong, [were]<anchor n="2"
+                                xml:id="d904-f2"/> being used or <pb facs="1041" n="847"
+                                xml:id="pg847"/> have to be used by the military and para military
+                            units of the enemy or by the members of these units;</item>
+                        <label>2).</label>
+                        <item>All supplies and equipment used by the enemy to satisfy his military
+                            needs and captured by the Allies before the end of the war on
+                            territories where military operations were conducted.</item>
+                    </list></p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d904-f1" n="1" type="source" xml:id="d904-f1-content">
+                <p>A variant copy in the Pauley Files of this proposal and of that in <ref
+                        target="#d905">document No. 905</ref> is headed, “Following Definitions
+                    Submitted by the Soviet Government to the Economic Sub-Committee July 21, 1945”.
+                    A copy in Frankfurt USPolAd Files has the following notation by Murphy: “Maisky
+                    insists that the Soviet Union has the right to take and remove anything &amp;
+                    everything from its zone of occupation. ‘Maybe we won’t exercise it.’”</p>
+            </note>
+            <note corresp="#d904-f2" n="2" xml:id="d904-f2-content">
+                <p>Manuscript interpolation in a copy of this document in the Pauley Files. This
+                    copy is marked: “As presented by Maiski”. Another copy in these files is marked:
+                    “Note: Mr. Maisky says Equipment means, plants, machinery, coal mines, etc.—You
+                    have a right to take them, but of course you may yield your right here and
+                    there.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

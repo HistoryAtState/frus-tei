@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d62" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 62</title>
+                <title type="subtitle">Prime Minister Churchill to President Truman </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d62"
+                    type="canonical"/>
+                <relatedItem target="d61.xml" type="prev"/>
+                <relatedItem target="d63.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d62</bibl>
+                <bibl type="frus-division-n">62</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="98" to="98" unit="page"
+                        >98</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-06-15">15 June 1945</date>
+                    <date notAfter="1945-06-15T23:59:59-05:00" notBefore="1945-06-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_MHF1">Matthews, H. Freeman</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_WM1">Wright, Michael</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv01/terms">
+                    <term ref="frus:frus1945Berlinv01/terms#t_Terminal1">Terminal</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d62">
+
+                <pb facs="0230" n="98" xml:id="pg98"/>
+
+                <note rend="inline" type="source"> Truman Papers: Telegram</note>
+                <head>No. 62 <lb/>
+                    <hi rendition="#italic">Prime Minister Churchill to President Truman
+                        </hi><anchor n="1" xml:id="d62-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-06-15">15 June 1945</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Truman. Personal and top secret. Number 89.</p>
+                <p>I suggest that we use code word <hi rendition="#small-caps">Terminal</hi> for the
+                    forthcoming Berlin conference. Do you agree?<anchor n="2" xml:id="d62-f2"/>
+                </p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d62-f1" n="1" type="source" xml:id="d62-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels. A courtesy
+                    copy was forwarded to H. Freeman Matthews, Director of European Affairs,
+                    Department of State, by Michael Wright, Counsellor of the British Embassy at
+                    Washington, on June 15 (file No. 740.00119 (Potsdam)/6–1545).</p>
+            </note>
+            <note corresp="#d62-f2" n="2" xml:id="d62-f2-content">
+                <p> Churchill made the same suggestion on June 15 to Stalin, who replied
+                    affirmatively on the same day. See <hi rendition="#italic"> Stalin’s
+                        Correspondence</hi>, vol. <hi rendition="#small-caps">i</hi>, p. 364.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

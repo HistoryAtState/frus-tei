@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1871_d199" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Baron Gerolt to Mr. Fish</title>
+            </titleStmt>
+            <xi:include href="../../frus1871_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1871_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1871/d199"
+                    type="canonical"/>
+                <relatedItem target="d198.xml" type="prev"/>
+                <relatedItem target="d199-a1.xml" type="next"/>
+                <relatedItem target="../ch17.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1871</bibl>
+                <bibl type="frus-division-id">d199</bibl>
+                <bibl type="frus-division-n">199</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="403" to="403" unit="page"
+                        >403</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of North Germany,</hi>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1871-01-14"><hi rendition="#italic"
+                            >January</hi> 14, 1871</date>
+                    <date notAfter="1871-01-14T23:59:59-05:00" notBefore="1871-01-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d199">
+
+                <pb facs="0617" n="403" xml:id="pg403"/>
+
+                <opener><seg rendition="#center">No. 181.</seg></opener>
+                <head>Baron Gerolt to Mr. Fish</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of North Germany,</hi>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1871-01-14"><hi rendition="#italic"
+                                >January</hi> 14, 1871</date>. (Received January
+                    14.)</dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> I have the honor of inclosing the
+                    translation of a telegram, received at a late hour last night, from Count
+                    Bismarck.</p>
+                <p>With the assurances of my highest consideration, I remain your most obedient
+                    servant,</p>
+                <closer>
+                    <signed>FR. v. GEROLT.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">Hamilton Fish</hi>, <hi rendition="#italic"
+                            >Secretary of State, &amp;c., &amp;c.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d199-a1.xml" xpointer="d199-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

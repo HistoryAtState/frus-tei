@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv01_d11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>King Victor Emanuel of Italy to President Wilson </title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv01/d11"
+                    type="canonical"/>
+                <relatedItem target="d10.xml" type="prev"/>
+                <relatedItem target="d12.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv01</bibl>
+                <bibl type="frus-division-id">d11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="4" to="5" unit="page"
+                    >4–5</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Rome</hi>
+                    </placeName>
+                    <date calendar="gregorian" when="1918-11-16">November 16, 1918</date>
+                    <date notAfter="1918-11-16T23:59:59-05:00" notBefore="1918-11-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1919Parisv01/persons">
+                    <term ref="frus:frus1919Parisv01/persons#p_OVE1">Orlando, Vittorio E.</term>
+                    <term ref="frus:frus1919Parisv01/persons#p_VE1">Victor Emanuel III</term>
+                    <term ref="frus:frus1919Parisv01/persons#p_WW1">Wilson, Woodrow</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d11">
+
+                <pb facs="0074" n="4" sameAs="frus:frus1919Parisv01/pg4"/>
+
+                <head>
+                    <hi rendition="#italic">King Victor Emanuel of Italy to President Wilson
+                        </hi><anchor n="4" xml:id="d11-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Rome</hi>
+                        </placeName>, <date calendar="gregorian" when="1918-11-16">November 16,
+                            1918</date>.</dateline>
+                </opener>
+                <p>With a joyful heart I salute the strong people of the United States of America in
+                    this era which marks for the liberated democracies <pb facs="0075" n="5"
+                        xml:id="pg5"/> the triumph of the ideals for which the great American Nation
+                    under your will and firm guidance, Mr. President, took up arms on the side of
+                    the peoples fighting for their independence and a more civilized future for all
+                    mankind. In the name of the people and soldiers of Italy I express to you and
+                    your noble Nation the sentiments of earnest admiration and the fervent wish that
+                    the memory of the battles fought together may enhance the ties of lasting
+                    friendship between our peoples.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Vittorio Emanuele</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d11-f1" n="4" type="source" xml:id="d11-f1-content">
+                <p>Reprinted from <hi rendition="#italic">Official U. S. Bulletin</hi>, vol. 2, No.
+                    469, Nov. 21, 1918.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

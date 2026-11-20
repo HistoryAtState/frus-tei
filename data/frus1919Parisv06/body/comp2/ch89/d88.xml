@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv06_d88" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President of the German Delegation (Brockdorff-Rantzau) to the President
+                    of the Peace Conference (Clemenceau)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv06/d88"
+                    type="canonical"/>
+                <relatedItem target="../ch89.xml" type="prev"/>
+                <relatedItem target="d88-a1.xml" type="next"/>
+                <relatedItem target="../ch89.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv06</bibl>
+                <bibl type="frus-division-id">d88</bibl>
+                <bibl type="frus-division-n">88</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="781" to="794" unit="page"
+                        >781–94</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Versailles</hi></placeName>
+                    <date calendar="gregorian" when="1919-05-28">May 28, 1919</date>
+                    <date notAfter="1919-05-28T23:59:59-05:00" notBefore="1919-05-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d88">
+
+                <pb facs="0793" n="781" sameAs="frus:frus1919Parisv06/pg781"/>
+
+                <note rend="inline" type="source">Paris Peace Conf. 185.118/85</note>
+                <head><hi rendition="#italic">The President of the German Delegation</hi> (<hi
+                        rendition="#italic">Brockdorff-Rantzau</hi>) <hi rendition="#italic">to the
+                        President of the Peace Conference</hi> (<hi rendition="#italic"
+                        >Clemenceau</hi>)</head>
+                <opener><seg rendition="#center">[Translation]<anchor n="1" xml:id="d88-f1"
+                    /></seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Versailles</hi></placeName>, <date calendar="gregorian"
+                            when="1919-05-28">May 28, 1919</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: The Allied and Associated Governments have
+                    in Your Excellency’s note of May 20th<anchor n="2" xml:id="d88-f2"/> refused to
+                    communicate to the German Delegates the report of their Commissions appointed to
+                    inquire into the question of the responsibility of the authors of the war.
+                    Material parts of the report having, however, been published by the press, the
+                    German Delegates have appointed a Committee of independent Germans, namely
+                    Messrs. Hans Delbrück, Albrecht Mendelssohn-Bartholdy, Count Max Montgelas and
+                    Max Weber to examine the facts contained in this report and to make a statement
+                    thereon, I have the honour to transmit to Your Excellency herewith the
+                    observations made by these gentlemen oh the report of the Allied and Associated
+                    Governments concerning the responsibility of the authors of the war.</p>
+                <p>Accept [etc.]</p>
+                <closer><signed><hi rendition="#small-caps"
+                    >Brockdorff-Rantzau</hi></signed></closer>
+
+
+                <xi:include href="d88-a1.xml" xpointer="d88-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d88-f1" n="1" xml:id="d88-f1-content">
+                <p>The file translation here printed is one prepared at the Peace Conference, with
+                    some minor corrections. The German text contained in the White Book published by
+                    the German Foreign Office, June 1919, <ref target="#pg35">pp. 35</ref> ff., is
+                    filed under Paris Peace Conf. 185.118/84.</p>
+            </note>
+            <note corresp="#d88-f2" n="2" xml:id="d88-f2-content">
+                <p>Appendix II (B) to CF–20, <ref target="frus1919Parisv05#pg_742">vol. <hi
+                            rendition="#small-caps">v</hi>, p. 742</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

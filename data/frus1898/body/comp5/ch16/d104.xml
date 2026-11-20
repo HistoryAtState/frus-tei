@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d104" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Sansón to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d104"
+                    type="canonical"/>
+                <relatedItem target="d103-a1.xml" type="prev"/>
+                <relatedItem target="d104-a1.xml" type="next"/>
+                <relatedItem target="../ch16.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d104</bibl>
+                <bibl type="frus-division-n">104</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="176" to="176" unit="page"
+                        >176</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <placeName type="venue"><hi rendition="#small-caps">National
+                            Palace</hi></placeName>, <placeName type="city"><hi rendition="#italic"
+                                >Managua</hi></placeName></placeName>
+                    <date calendar="gregorian" when="1898-12-05"><hi rendition="#italic">December 5,
+                            1898</hi></date>
+                    <date notAfter="1898-12-05T23:59:59-05:00" notBefore="1898-12-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d104">
+
+                <pb facs="0272" n="176" xml:id="pg176"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Sansón to Mr. Hay.</hi>
+                </head>
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName>
+                            <placeName type="venue"><hi rendition="#small-caps">National
+                                Palace</hi></placeName>, <placeName type="city"><hi
+                                    rendition="#italic">Managua</hi></placeName></placeName>, <date
+                            calendar="gregorian" when="1898-12-05"><hi rendition="#italic">December
+                                5, 1898</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Mr. Secretary</hi>: I have the honor herewith to
+                    transmit to your excellency the autograph letter which is addressed by His
+                    Excellency General President Zelaya to His Excellency the President of the
+                    United States of America, informing him of the political change which took place
+                    in Nicaragua on the 1st instant.</p>
+                <p>Begging your excellency to forward the autograph letter in question to its high
+                    destination, I offer you the assurance of my most distinguished
+                    consideration.</p>
+                <p>Your excellency’s faithful and obedient servant,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">J. Sansón.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d104-a1.xml" xpointer="d104-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

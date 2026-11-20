@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1888p2_d20-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>imperial ordinance, no. 67.</title>
+            </titleStmt>
+            <xi:include href="../../frus1888p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1888p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1888p2/d20-a1"
+                    type="canonical"/>
+                <relatedItem target="d20.xml" type="prev"/>
+                <relatedItem target="d20-a1-a1.xml" type="next"/>
+                <relatedItem target="d20.xml" type="parent"/>
+                <relatedItem target="d20.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1888p2</bibl>
+                <bibl type="frus-division-id">d20-a1</bibl>
+                <bibl type="frus-division-n">20.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1063" to="1064" unit="page"
+                        >1063–64</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20-a1">
+
+                <pb facs="0103" n="1063" sameAs="frus:frus1888p2/pg1063"/>
+
+                <opener><seg rendition="#center">[Inclosure in No. 419.—Translation.]</seg></opener>
+                <head><hi rendition="#small-caps">imperial ordinance, no</hi>. 67.</head>
+                <p>I hereby sanction the following ordinance and order it to be duly proclaimed,
+                    deeming it necessary at the present juncture to the maintenance of public
+                    tranquility and to the prevention of disturbances opposed to the public weal and
+                    to the improvement of the administration and the progress of the nation.</p>
+                <closer><signed><table cols="1" rows="1">
+                            <row>
+                                <cell>[<hi rendition="#small-caps">privy seal.</hi>]</cell>
+                                <cell><hi rendition="#small-caps">His Imperial Majesty’s
+                                        Sign-Manual.</hi></cell>
+                            </row>
+                        </table></signed><lb/>
+                    <dateline rendition="#float-left"><date calendar="gregorian" when="1887-12-25"
+                            >December 25, 1887</date>.</dateline></closer>
+                <postscript>
+                    <p>Countersigned:</p>
+                    <closer><signed><hi rendition="#small-caps">Ito Hirobumi</hi>,<lb/><hi
+                                rendition="#italic">President of the
+                                Cabinet</hi>.</signed><lb/><signed><hi rendition="#small-caps"
+                                >Yamagata Aritomo</hi>,<lb/><hi rendition="#italic">Minister of
+                                State for Home Affairs</hi>.</signed><lb/><signed><hi
+                                rendition="#small-caps">Yamada Akiyoshi</hi>,<lb/><hi
+                                rendition="#italic">Minister of State for
+                        Justice.</hi></signed></closer>
+                </postscript>
+
+
+                <xi:include href="d20-a1-a1.xml" xpointer="d20-a1-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p1_d223" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adams to Mr. Hunter</title>
+            </titleStmt>
+            <xi:include href="../../../frus1865p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1865p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p1/d223"
+                    type="canonical"/>
+                <relatedItem target="d222.xml" type="prev"/>
+                <relatedItem target="d223-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p1</bibl>
+                <bibl type="frus-division-id">d223</bibl>
+                <bibl type="frus-division-n">223</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="364" to="364" unit="page"
+                        >364</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                        <hi rendition="#italic">London,</hi></placeName>
+                    <date calendar="gregorian" when="1865-05-18"><hi rendition="#italic">May</hi>
+                        18, 1865</date>
+                    <date notAfter="1865-05-18T23:59:59-05:00" notBefore="1865-05-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d223">
+
+                <pb facs="0404" n="364" sameAs="frus:frus1865p1/pg364"/>
+
+                <opener><seg rendition="#center">[Extract.]</seg></opener>
+                <head>Mr. Adams to Mr. Hunter</head>
+                <opener><seg rendition="#float-left">No. 956.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                            <hi rendition="#italic">London,</hi></placeName>
+                        <date calendar="gregorian" when="1865-05-18"><hi rendition="#italic"
+                                >May</hi> 18, 1865</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> * * * * * * * * * * * * * *</p>
+                <p>I am again called upon to forward a large number of addresses and resolutions
+                    from different parts of the kingdom, occasioned by the late painful events. A
+                    list of them is appended as usual.</p>
+                <p>I have the honor to be, sir, your obedient servant,</p>
+                <closer>
+                    <signed>CHARLES FRANCIS ADAMS.</signed></closer>
+                <postscript>
+                    <p><hi rendition="#small-caps">William Hunter,</hi> Esq., <hi
+                            rendition="#italic">Acting Secretary of State, Washington, D.
+                        C.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d223-a1.xml" xpointer="d223-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

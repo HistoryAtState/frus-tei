@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v19_d288-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Attachment</title>
+            </titleStmt>
+            <xi:include href="../../../frus1964-68v19_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1964-68v19_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v19/d288-a1"
+                    type="canonical"/>
+                <relatedItem target="d288.xml" type="prev"/>
+                <relatedItem target="d289.xml" type="next"/>
+                <relatedItem target="d288.xml" type="parent"/>
+                <relatedItem target="d288.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v19</bibl>
+                <bibl type="frus-division-id">d288-a1</bibl>
+                <bibl type="frus-division-n">288.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="481" to="482" unit="page"
+                        >481–82</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1967-06-14">June 14, 1967</date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v19/terms">
+                    <term ref="frus:frus1964-68v19/terms#t_APC1">APC</term>
+                    <term ref="frus:frus1964-68v19/terms#t_MAP1">MAP</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d288-a1">
+
+                <pb facs="0513" n="481" sameAs="frus:frus1964-68v19/pg481"/>
+
+                <head>Attachment</head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1967-06-14">June 14, 1967</date>.</dateline></opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Restatement of Current US Arms Supply Policy to the Middle East</item>
+                </list>
+                <p>The Control Group wishes to restate the present arms supply policy, in order to
+                    assure its full understanding by all concerned.</p>
+                <list>
+                    <label>1.</label>
+                    <item>All shipments of military equipment to those states which have broken
+                        diplomatic relations with us have been suspended as of June 8. With respect
+                        to government-to-government agreements (grant aid and credit sales under the
+                        Military Assistance Program), this has involved stopping shipments at
+                        depots, manufacturers’ facilities, and other sources; it has also involved
+                        efforts to repossess shipments at the port or enroute, to the extent such
+                        shipments are still within US control. With respect to direct commercial
+                        sales, this has involved the immediate suspension of outstanding munitions
+                        export licenses and the stopping at US ports of all shipments under such
+                        licenses.</item>
+                    <label>2.</label>
+                    <item>Jordan and Lebanon are being treated in the same manner as countries which
+                        have broken relations with us.<anchor n="4" xml:id="d288-f1"/>
+                    </item>
+                    <label>3.</label>
+                    <item>Munitions export licenses issued, prior to June 8, to states in the area
+                        which have not broken relations with us remain in effect. Under this
+                        arrangement, the following magnitudes of equipment would continue to be
+                        deliverable: Israel $38 million; Saudi Arabia $57 million; Kuwait $17,000;
+                        and Morocco $16,000.</item>
+                    <label>4.</label>
+                    <item>No new munitions export licenses are being approved and no further
+                        shipments under the Military Assistance Program (both grant <pb facs="0514"
+                            n="482" xml:id="pg482"/> aid and credit sales) are being approved even
+                        for those countries which have not broken relations. Current credit sales
+                        negotiations are continuing, but US negotiators are instructed not to
+                        consummate any new sale.<anchor n="5" xml:id="d288-f2"/> Any further
+                        approvals or shipments will require the prior approval of the Secretaries of
+                        State and Defense.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d288-f1" n="4" xml:id="d288-f1-content">
+                <p>This policy suspends munitions export licenses covering $238,000 in arms for
+                    Lebanon; there are no outstanding export licenses for Jordan. It does, however,
+                    stop all scheduled grant aid shipments to Jordan under MAP (about $1.5 million
+                    per year in spare parts) and suspends the sales contract for 12 F–104 aircraft
+                    under which initial deliveries to Jordan are scheduled for August 1967.
+                    [Footnote in the source text.]</p>
+            </note>
+            <note corresp="#d288-f2" n="5" xml:id="d288-f2-content">
+                <p>The value of pending requests for munitions export licenses blocked by this
+                    action is: Israel $1.2 million; Jordan $59,000; Kuwait $125,000; Lebanon
+                    $47,000; Saudi Arabia $3.2 million; Syria $463,000; and Iraq $390,000. In
+                    addition, this policy, if unmodified over the next several months, would block
+                    shipment of the Israeli arms package approved by the President on May 23 (100
+                    APC for cash, $14 million of Hawk and tank spares for credit), and the 1966
+                    agreement to sell 48 A–4 aircraft to Israel. [Footnote in the source text.]</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

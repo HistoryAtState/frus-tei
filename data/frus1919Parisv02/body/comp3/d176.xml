@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv02_d176" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chargé in Bulgaria (Wilson) to the Ambassador in France (Sharp)</title>
+            </titleStmt>
+            <xi:include href="../../frus1919Parisv02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1919Parisv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv02/d176"
+                    type="canonical"/>
+                <relatedItem target="d175.xml" type="prev"/>
+                <relatedItem target="d176-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv02</bibl>
+                <bibl type="frus-division-id">d176</bibl>
+                <bibl type="frus-division-n">176</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="251" to="254" unit="page"
+                        >251–54</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Sofia</hi>
+                    </placeName>
+                    <date calendar="gregorian" when="1918-12-16">December 16, 1918</date>
+                    <date notAfter="1918-12-16T23:59:59-05:00" notBefore="1918-12-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d176">
+
+                <pb facs="0339" n="251" xml:id="pg251"/>
+
+                <note rend="inline" type="source">Paris Peace Conf. 871.0144/2</note>
+                <head>
+                    <hi rendition="#italic">The Chargé in Bulgaria</hi> (<hi rendition="#italic"
+                        >Wilson</hi>) <hi rendition="#italic">to the Ambassador in France</hi> (<hi
+                        rendition="#italic">Sharp</hi>)</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Sofia</hi>
+                        </placeName>, <date calendar="gregorian" when="1918-12-16">December 16,
+                            1918</date>.<lb/>[Received December 30.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to enclose herewith, for
+                    transmission to the American Peace Delegation, a copy of a despatch to the
+                        Department<anchor n="9" xml:id="d176-f1"/> transmitting (1) an article from
+                    the <hi rendition="#italic">Echo de Bulgarie</hi>, the official government
+                    organ, of December 13, 1918, containing the reply of the Prime Minister and
+                    Minister of Foreign Affairs to an interpellation in the Chamber concerning the
+                    situation in the Dobrudja, and (2) a copy of a communication addressed by the
+                    Prime Minister and Minister of Foreign Affairs to General Chrétien, Commander of
+                    the Allied armies in Bulgaria, on the same subject.<anchor n="9"
+                        xml:id="d176-f2"/>
+                </p>
+                <p>I am [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Charles S. Wilson</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d176-a1.xml" xpointer="d176-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d176-f1" n="9" xml:id="d176-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d176-f2" n="9" xml:id="d176-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

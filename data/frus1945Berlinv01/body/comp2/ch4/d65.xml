@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d65" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 65</title>
+                <title type="subtitle">The President’s Chief of Staff (Leahy) to the Head of the
+                    British Joint Staff Mission (Wilson)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d65"
+                    type="canonical"/>
+                <relatedItem target="d64.xml" type="prev"/>
+                <relatedItem target="d66.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d65</bibl>
+                <bibl type="frus-division-n">65</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="99" to="99" unit="page"
+                        >99</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-06-15">15 June 1945</date>
+                    <date notAfter="1945-06-15T23:59:59-05:00" notBefore="1945-06-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_NFACW1">Nimitz, Fleet Admiral
+                        Chester W.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_WW2">Wilson, Woodrow</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv01/terms">
+                    <term ref="frus:frus1945Berlinv01/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d65">
+
+                <pb facs="0231" n="99" sameAs="frus:frus1945Berlinv01/pg99"/>
+
+                <note rend="inline" type="source"> J. C. S. Files</note>
+                <head>No. 65 <lb/>
+                    <hi rendition="#italic">The President’s Chief of Staff</hi> (<hi
+                        rendition="#italic">Leahy</hi>) <hi rendition="#italic">to the Head of the
+                        British Joint Staff Mission</hi> (<hi rendition="#italic"
+                    >Wilson</hi>)</head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-06-15">15 June 1945</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Field Marshal</hi>: Referring to your letter
+                    of 12 June,<anchor n="1" xml:id="d65-f1"/> after considering the matter therein
+                    presented, the U. S. Chiefs of Staff think it inadvisable for the Combined
+                    Chiefs of Staff to meet in London prior to the meeting of the Heads of State. It
+                    is agreeable to them to stop in London after completion of the meeting of the
+                    Heads of State in case it appears at that time that a meeting of the Combined
+                    Chiefs of Staff is required.</p>
+                <p>If, after considering the above, the British Chiefs of Staff still feel there are
+                    matters they wish to take up with the U. S. Chiefs of Staff prior to the meeting
+                    of the Heads of State, it is suggested that these be handled through the British
+                    Joint Staff Mission in Washington, with the possible presence of one or more of
+                    the British Chiefs, the presence of the latter to be kept out of the press.</p>
+                <p>Yours sincerely,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">William D. Leahy</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d65-f1" n="1" xml:id="d65-f1-content">
+                <p>
+                    <ref target="#d57">Document No 57</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

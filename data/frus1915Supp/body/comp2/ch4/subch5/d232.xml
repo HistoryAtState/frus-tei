@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp_d232" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in France (Sharp) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915Supp/d232"
+                    type="canonical"/>
+                <relatedItem target="d231.xml" type="prev"/>
+                <relatedItem target="d232-a1.xml" type="next"/>
+                <relatedItem target="../subch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915Supp</bibl>
+                <bibl type="frus-division-id">d232</bibl>
+                <bibl type="frus-division-n">232</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="179" to="181" unit="page"
+                        >179–81</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Paris</hi></placeName>
+                    <date calendar="gregorian" when="1915-10-29">
+                        <hi rendition="#italic">October 29, 1915</hi>.</date>
+                    <date notAfter="1915-10-29T23:59:59-05:00" notBefore="1915-10-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1915Supp/persons">
+                    <term ref="frus:frus1915Supp/persons#p_SWG1">Sharp, William Graves</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d232">
+
+                <pb facs="0437" n="179" sameAs="frus:frus1915Supp/pg179"/>
+
+                <note rend="inline" type="source">File No. 763.72112/1880</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in France</hi> (<hi rendition="#italic"
+                        >Sharp</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 1545]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Paris</hi></placeName>, <date
+                            calendar="gregorian" when="1915-10-29">
+                            <hi rendition="#italic">October 29, 1915</hi>.</date>
+                        <lb/> [<hi rendition="#italic">Received November 10.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: In confirmation of my telegram No. 1064 of
+                    the 26th inst.,<anchor n="2" xml:id="d232-f1"/> I have the honor to transmit
+                    herewith in copy and translation a report <pb facs="0438" n="180" xml:id="pg180"
+                    /> presented by the President of the Council, Minister for Foreign Affairs, and
+                    the Minister of Marine to the President of the Republic on the subject of
+                    difficulties in the application of Article 57 of the Declaration of London, as
+                    well as the decree which was based upon this report.</p>
+                <p>From this it appears that the French Government no longer intends to follow the
+                    provisions of Article 57 of the Declaration of London.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Wm. G. Sharp</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d232-a1.xml" xpointer="d232-a1"/>
+                <xi:include href="d232-a2.xml" xpointer="d232-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d232-f1" n="2" xml:id="d232-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

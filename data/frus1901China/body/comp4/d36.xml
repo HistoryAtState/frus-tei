@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901China_d36" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Lord Pauncefote to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../frus1901China_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1901China_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1901China/d36"
+                    type="canonical"/>
+                <relatedItem target="../comp4.xml" type="prev"/>
+                <relatedItem target="d36-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901China</bibl>
+                <bibl type="frus-division-id">d36</bibl>
+                <bibl type="frus-division-n">36</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="31" to="31" unit="page"
+                        >31</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">British Embassy</hi>,<lb/><hi
+                            rendition="#italic">Newport, R. I.</hi></placeName>
+                    <date calendar="gregorian" when="1900-10-23"><hi rendition="#italic">October 23,
+                            1900</hi></date>
+                    <date notAfter="1900-10-23T23:59:59-05:00" notBefore="1900-10-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d36">
+
+                <pb facs="0037" n="31" sameAs="frus:frus1901China/pg31"/>
+
+                <head><hi rendition="#italic">Lord Pauncefote to Mr. Hay.</hi></head>
+                <opener>
+                    <seg rendition="#float-left">No. 315.]</seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >British Embassy</hi>,<lb/><hi rendition="#italic">Newport, R.
+                                I.</hi></placeName>, <date calendar="gregorian" when="1900-10-23"
+                                ><hi rendition="#italic">October 23, 1900</hi></date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In pursuance of instructions which I have
+                    received from Her Majesty’s principal secretary of state for foreign affairs, I
+                    have the honor to communicate to you the text of an agreement between Great
+                    Britain and Germany relating to the present trouble in China, which was signed
+                    in London on the 16th instant by the Marquis of Salisbury and the German
+                    ambassador on behalf of their respective Governments, and to invite the
+                    acceptance by the United States of the principles recorded in that
+                    agreement.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Pauncefote.</hi></signed></closer>
+
+
+                <xi:include href="d36-a1.xml" xpointer="d36-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

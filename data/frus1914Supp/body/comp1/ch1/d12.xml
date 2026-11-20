@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914Supp_d12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Minister in Sweden (Morris) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1914Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914Supp/d12"
+                    type="canonical"/>
+                <relatedItem target="d11.xml" type="prev"/>
+                <relatedItem target="d13.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914Supp</bibl>
+                <bibl type="frus-division-id">d12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="7" to="8" unit="page"
+                    >7–8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1914-09-22T23:00:00-05:00" notBefore="1914-09-21T17:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1914Supp/persons">
+                    <term ref="frus:frus1914Supp/persons#p_MIN1">Morris, Ira Nelson</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d12">
+
+                <pb facs="0321" n="7" sameAs="frus:frus1914Supp/pg7"/>
+
+                <note rend="inline" type="source">File No. 711.0012/515</note>
+                <head>
+                    <hi rendition="#italic">The Minister in Sweden</hi> (<hi rendition="#italic"
+                        >Morris</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <dateline>
+                    <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                    <placeName>
+                        <hi rendition="#italic">Stockholm</hi></placeName>, <date
+                        ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                        notAfter="1914-09-22T23:00:00-05:00" notBefore="1914-09-22T00:00:00+02:00"
+                            ><hi rendition="#italic">undated</hi></date>. <lb/> [<hi
+                        rendition="#italic">Received September 22, 1914, 11 p.m.</hi>] </dateline>
+                <p rendition="#center">[Telegram]</p>
+                <p>Just had meeting with Foreign Minister and am delighted to inform you that
+                    Swedish Government has now agreed to peace treaty in form you desire and will
+                    instruct Minister at Washington to sign <pb facs="0322" n="8" xml:id="pg8"/> at
+                    same time that treaties with England and France are signed as suggested in your
+                    telegram September 8.<anchor n="1" xml:id="d12-f1"/> Foreign Minister said I
+                    might cable this to you and that formal notification would come later. He handed
+                    me copy of treaty which embodies what you desire, copy being sent by mail; if
+                    you desire can telegraph text immediately.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Morris</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d12-f1" n="1" xml:id="d12-f1-content">
+                <p>The treaty was signed on October 13. <ref target="frus1915#pg_1290">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1915, p. 1290</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

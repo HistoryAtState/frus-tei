@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_comp18" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Italy:</title>
+            </titleStmt>
+            <xi:include href="../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/comp18"
+                    type="canonical"/>
+                <relatedItem target="comp17/ch66/d699.xml" type="prev"/>
+                <relatedItem target="comp18/ch67.xml" type="next"/>
+                <relatedItem target="../frus1913.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">comp18</bibl>
+                <bibl type="frus-division-n">18</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="608" to="624" unit="page"
+                        >608–24</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1913-11-18T23:59:59-05:00" notBefore="1911-04-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp18">
+
+                <pb facs="0712" n="608" xml:id="pg608"/>
+
+                <head>Italy:</head>
+
+
+
+                <xi:include href="comp18/ch67.xml" xpointer="ch67"/>
+                <xi:include href="comp18/ch68.xml" xpointer="ch68"/>
+                <xi:include href="comp18/ch69.xml" xpointer="ch69"/>
+            </div>
+        </body>
+    </text>
+</TEI>

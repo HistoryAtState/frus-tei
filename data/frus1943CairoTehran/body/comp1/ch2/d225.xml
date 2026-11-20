@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d225" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Joint Chiefs of Staff to the President</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d225"
+                    type="canonical"/>
+                <relatedItem target="d224.xml" type="prev"/>
+                <relatedItem target="d225-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d225</bibl>
+                <bibl type="frus-division-n">225</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="203" to="Chart 2" unit="page"
+                        >203–Chart 2</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Aboard the</hi> U. S. S. “<hi
+                            rendition="#small-caps">Iowa</hi>”</placeName>
+                    <date calendar="gregorian" when="1943-11-17">17 November 1943</date>
+                    <date notAfter="1943-11-17T23:59:59-05:00" notBefore="1943-11-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_LWD1">Leahy, William D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_JCS1">J. C. S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d225">
+
+                <pb facs="0295" n="203" sameAs="frus:frus1943CairoTehran/pg203"/>
+
+                <note rend="inline" type="source">J. C. S. Files</note>
+                <head><hi rendition="#italic">The Joint Chiefs of Staff to the President</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Aboard the</hi> U. S. S. “<hi rendition="#small-caps"
+                            >Iowa</hi>”</placeName>,] <date calendar="gregorian" when="1943-11-17"
+                            >17 November 1943</date>.</dateline>
+                </opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Memorandum for the
+                    President</hi>:</p>
+                <p rendition="#flush">Subject: Command of British and U. S. Forces Operating Against
+                    Germany.</p>
+                <p>The Joint Chiefs of Staff present herewith for your consideration drafts of two
+                    proposals, Enclosure “A” and Enclosure “B”, relative to the command arrangements
+                    for the European Theater.</p>
+                <p>It is the opinion of the Joint Chiefs of Staff that Enclosure “A” is the more
+                    sound and from a military point of view is the better plan.</p>
+                <closer>For the Joint Chiefs of Staff:<lb/><signed><hi rendition="#small-caps"
+                            >William D. Leahy</hi></signed><lb/><hi rendition="#italic">Admiral, U.
+                        S. Navy</hi>,<lb/><hi rendition="#italic">Chief of Staff to the Commander in
+                        Chief of the Army and Navy</hi></closer>
+
+
+
+
+
+
+
+                <xi:include href="d225-a1.xml" xpointer="d225-a1"/>
+                <xi:include href="d225-a2.xml" xpointer="d225-a2"/>
+                <xi:include href="d225-a3.xml" xpointer="d225-a3"/>
+                <xi:include href="d225-a4.xml" xpointer="d225-a4"/>
+            </div>
+        </body>
+    </text>
+</TEI>

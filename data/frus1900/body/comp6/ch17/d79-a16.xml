@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d79-a16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Conger to Mr. Smith.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d79-a16"
+                    type="canonical"/>
+                <relatedItem target="d79-a15.xml" type="prev"/>
+                <relatedItem target="d80.xml" type="next"/>
+                <relatedItem target="d79.xml" type="parent"/>
+                <relatedItem target="d79.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d79-a16</bibl>
+                <bibl type="frus-division-n">79.16</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="84" to="84" unit="page"
+                        >84</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Pekin</hi></placeName>
+                    <date calendar="gregorian" when="1899-12-07"><hi rendition="#italic">December 7,
+                            1899</hi></date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d79-a16">
+
+                <pb facs="0180" n="84" sameAs="frus:frus1900/pg84"/>
+
+                <opener><seg rendition="#center">[Inclosure 16.—Telegram.]</seg></opener>
+                <head><hi rendition="#italic">Mr. Conger to Mr. Smith.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Pekin</hi></placeName>, <date calendar="gregorian"
+                            when="1899-12-07"><hi rendition="#italic">December 7,
+                        1899</hi></date>.</dateline></opener>
+                <p>Yuan-shih-kai appointed governor Shantung.</p>
+                <closer><signed><hi rendition="#small-caps">Conger.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

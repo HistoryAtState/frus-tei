@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1874_d715-a1-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../../frus1874_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1874_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1874/d715-a1-a2"
+                    type="canonical"/>
+                <relatedItem target="d715-a1-a1.xml" type="prev"/>
+                <relatedItem target="d715-a1-a2-a1.xml" type="next"/>
+                <relatedItem target="d715-a1.xml" type="parent"/>
+                <relatedItem target="d715-a1.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1874</bibl>
+                <bibl type="frus-division-id">d715-a1-a2</bibl>
+                <bibl type="frus-division-n">715.1.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1002" to="1003" unit="page"
+                        >1002–3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d715-a1-a2">
+
+                <pb facs="1098" n="1002" sameAs="frus:frus1874/pg1002"/>
+
+                <opener><dateline rendition="#float-right"><hi rendition="#small-caps">District and
+                            Port of <placeName>New York</placeName></hi>,<lb/><hi
+                            rendition="#italic">Collector’s Office.</hi></dateline></opener>
+                <p>I hereby certify the within to be true copy of the original on record in this
+                    office.</p>
+                <closer><dateline rendition="#float-left">Given under my hand and seal <date
+                            calendar="gregorian" when="1873-11-20">this 20th day of November,
+                            1873</date>.</dateline>
+                    <lb/> [Seal of the collector of the port of New York.] <lb/>
+                    <signed>A. PUFFER,<lb/><hi rendition="#italic">D.
+                    Collector.</hi></signed></closer>
+
+
+
+
+                <xi:include href="d715-a1-a2-a1.xml" xpointer="d715-a1-a2-a1"/>
+                <xi:include href="d715-a1-a2-a2.xml" xpointer="d715-a1-a2-a2"/>
+                <xi:include href="d715-a1-a2-a3.xml" xpointer="d715-a1-a2-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

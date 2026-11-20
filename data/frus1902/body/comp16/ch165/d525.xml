@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d525" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d525"
+                    type="canonical"/>
+                <relatedItem target="d524.xml" type="prev"/>
+                <relatedItem target="d525-a1.xml" type="next"/>
+                <relatedItem target="../ch165.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d525</bibl>
+                <bibl type="frus-division-n">525</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="522" to="523" unit="page"
+                        >522–23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1902-06-03"><hi rendition="#italic">June 3,
+                            1902</hi></date>
+                    <date notAfter="1902-06-03T23:59:59-05:00" notBefore="1902-06-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d525">
+
+                <pb facs="0602" n="522" sameAs="frus:frus1902/pg522"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1902-06-03"
+                                ><hi rendition="#italic">June 3, 1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 868.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to your instruction No. 911,
+                    of May 9, relative to the representation of the United States at Sofia I have
+                    the honor to inclose herewith a copy of my note to the foreign office of the 23d
+                    ultimo and Lord Lansdowne’s reply thereto, dated the 31st ultimo, in which his
+                    lordship states that he will have much pleasure in instructing His Majesty’s
+                    agent and consul-general at Sofia to take charge temporarily of American
+                    interests in Bulgaria, and that he will be authorized to communicate with the
+                    Secretary of State at Washington and the United States minister at
+                    Constantinople whenever he may consider it desirable to do so.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+
+
+
+
+                <xi:include href="d525-a1.xml" xpointer="d525-a1"/>
+                <xi:include href="d525-a2.xml" xpointer="d525-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

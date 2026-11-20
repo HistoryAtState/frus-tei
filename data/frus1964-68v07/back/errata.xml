@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v07_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1964-68v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1964-68v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v07/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1964-68v07.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v07</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="848" to="848" unit="page"
+                        >848</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1969-01-19T23:59:59-05:00" notBefore="1968-01-10T10:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0882" n="848" sameAs="frus:frus1964-68v07/pg848"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to <hi rendition="#italic">Foreign
+                        Relations</hi>, 1964–1968, Volume VII, Vietnam, September 1968–January 1969.
+                    Please be aware that printed volumes have not been revised.
+                    <!--Revised information is in italic.--></p>
+                <list type="simple">
+                    <item><hi rendition="#bold">1. <ref target="#d255-f5">Footnote 5, Document
+                                255</ref>, Page 756 (date of correction: December 16,
+                        2016)</hi></item>
+                    <item>The cross reference to <hi rendition="#italic">Foreign Relations</hi>,
+                        1964–1968, Volume VI, footnote 2, Document 312 was corrected to footnote 2,
+                        Document 315</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

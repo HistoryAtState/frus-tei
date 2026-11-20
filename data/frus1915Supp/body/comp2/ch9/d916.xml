@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp_d916" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Consul General at Sydney (Bray) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915Supp/d916"
+                    type="canonical"/>
+                <relatedItem target="d915-a1.xml" type="prev"/>
+                <relatedItem target="d917.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915Supp</bibl>
+                <bibl type="frus-division-id">d916</bibl>
+                <bibl type="frus-division-n">916</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="662" to="662" unit="page"
+                        >662</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Sydney</hi></placeName>
+                    <date calendar="gregorian" when="1915-01-14">
+                        <hi rendition="#italic">January 14, 1915</hi>.</date>
+                    <date notAfter="1915-01-14T23:59:59-05:00" notBefore="1915-01-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1915Supp/persons">
+                    <term ref="frus:frus1915Supp/persons#p_BJP1">Bray, John P.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d916">
+
+                <pb facs="0920" n="662" sameAs="frus:frus1915Supp/pg662"/>
+
+                <note rend="inline" type="source">File No. 611.479/131</note>
+                <head>
+                    <hi rendition="#italic">The Consul General at Sydney</hi> (<hi
+                        rendition="#italic">Bray</hi>) <hi rendition="#italic">to the Secretary of
+                        State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Sydney</hi></placeName>, <date
+                            calendar="gregorian" when="1915-01-14">
+                            <hi rendition="#italic">January 14, 1915</hi>.</date>
+                        <lb/> [<hi rendition="#italic">Received 8 a. m.</hi>]</dateline>
+                </opener>
+                <p>Comptroller customs advises when collector satisfied <hi rendition="#italic">bona
+                        fides</hi> ship; shipment merino wool, hides, skins to United States allowed
+                    in American ships same condition as British ships.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Bray</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

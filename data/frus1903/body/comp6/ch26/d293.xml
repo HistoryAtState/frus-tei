@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d293" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Translation.]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d293"
+                    type="canonical"/>
+                <relatedItem target="d292.xml" type="prev"/>
+                <relatedItem target="d294.xml" type="next"/>
+                <relatedItem target="../ch26.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d293</bibl>
+                <bibl type="frus-division-n">293</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="250" to="250" unit="page"
+                        >250</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Colon</hi></placeName>
+                    <date calendar="gregorian" when="1903-11-04"><hi rendition="#italic">November 4,
+                            1903</hi>.</date>
+                    <date notAfter="1903-11-04T23:59:59-05:00" notBefore="1903-11-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d293">
+
+                <pb facs="0334" n="250" xml:id="pg250"/>
+
+                <head>[Translation.]</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Colon</hi></placeName>, <date calendar="gregorian"
+                            when="1903-11-04"><hi rendition="#italic">November 4,
+                        1903</hi>.</date></dateline></opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Secretary of the Navy</hi>, <hi
+                        rendition="#italic">Washington:</hi></p>
+                <p>Provisional government was established at Panama Tuesday evening; no organized
+                    opposition. Governor of Panama, General Tobar, General Amaya, Colonel Morales,
+                    and three others of the Colombian Government troops who arrived Tuesday morning
+                    taken prisoner at Panama. I have prohibited transit of troops now here across
+                    the Isthmus.</p>
+                <closer><signed><hi rendition="#small-caps">Hubbard.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

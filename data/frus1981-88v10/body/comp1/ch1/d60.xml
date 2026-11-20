@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v10_d60" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note From the Executive Secretary of the Department of State (Levitsky) to
+                    the Deputy Secretary of State (Whitehead)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1981-88v10_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1981-88v10_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v10/d60"
+                    type="canonical"/>
+                <relatedItem target="d59.xml" type="prev"/>
+                <relatedItem target="d60-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v10</bibl>
+                <bibl type="frus-division-id">d60</bibl>
+                <bibl type="frus-division-n">60</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="199" to="200" unit="page"
+                        >199–200</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1988-06-29">June 29, 1988</date>
+                    <date notAfter="1988-06-29T23:59:59-05:00" notBefore="1988-06-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1981-88v10/persons">
+                    <term ref="frus:frus1981-88v10/persons#p_LM_1">Levitsky, Melvyn</term>
+                </keywords>
+                <keywords scheme="frus:frus1981-88v10/terms">
+                    <term ref="frus:frus1981-88v10/terms#t_NSC_1">NSC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d60">
+
+                <pb facs="0230" n="199" xml:id="pg199"/>
+
+                <head>60. Note From the Executive Secretary of the Department of State (Levitsky) to
+                    the Deputy Secretary of State (Whitehead)<anchor n="1" xml:id="d60-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1988-06-29">June 29, 1988</date></dateline>
+                    <salute>John:</salute></opener>
+                <!--<pb facs="d60-2" n="2" type="facsimile" xml:id="d60-2"/>-->
+                <p>The NSC staff memo<anchor n="2" xml:id="d60-f2"/> was given to the Secretary by
+                    Colin. Apparently Rodman and Ledsky are trying to make a big thing of this. I
+                    think they’re wrong as you will see from my comments on their paper.</p>
+                <closer><signed><hi rendition="#bold">Mel</hi></signed></closer>
+                <!--<pb facs="d60-3" n="3" type="facsimile" xml:id="d60-3"/>-->
+
+
+                <xi:include href="d60-a1.xml" xpointer="d60-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d60-f1" n="1" type="source" xml:id="d60-f1-content">
+                <p>Source: Department of State, Executive Secretariat, Sensitive and Super Sensitive
+                    Documents, 1984–1989, Lot 92 D 52, Super Sensitive, June 22–30 [1988]. No
+                    classification marking. The note is handwritten.</p>
+            </note>
+            <note corresp="#d60-f2" n="2" xml:id="d60-f2-content">
+                <p>See <ref target="#d59">Document 59</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

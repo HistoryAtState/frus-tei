@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_comp12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Dominican Republic:</title>
+            </titleStmt>
+            <xi:include href="../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/comp12"
+                    type="canonical"/>
+                <relatedItem target="comp11/ch41/d233.xml" type="prev"/>
+                <relatedItem target="comp12/ch42.xml" type="next"/>
+                <relatedItem target="../frus1915.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">comp12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="279" to="339" unit="page"
+                        >279–339</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1915-12-17T23:59:59-05:00" notBefore="1915-01-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp12">
+
+                <pb facs="0395" n="279" xml:id="pg279"/>
+
+                <head>Dominican Republic:</head>
+
+
+                <xi:include href="comp12/ch42.xml" xpointer="ch42"/>
+                <xi:include href="comp12/ch43.xml" xpointer="ch43"/>
+            </div>
+        </body>
+    </text>
+</TEI>

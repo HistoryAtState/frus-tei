@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d448" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. White to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d448"
+                    type="canonical"/>
+                <relatedItem target="../ch154.xml" type="prev"/>
+                <relatedItem target="d448-a1.xml" type="next"/>
+                <relatedItem target="../ch154.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d448</bibl>
+                <bibl type="frus-division-n">448</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="460" to="461" unit="page"
+                        >460–61</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1902-06-30"><hi rendition="#italic">June 30,
+                            1902</hi></date>
+                    <date notAfter="1902-06-30T23:59:59-05:00" notBefore="1902-06-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d448">
+
+                <pb facs="0540" n="460" sameAs="frus:frus1902/pg460"/>
+
+                <head><hi rendition="#italic">Mr. White to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Berlin</hi></placeName>, <date calendar="gregorian"
+                            when="1902-06-30"><hi rendition="#italic">June 30,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 1987.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to the embassy’s dispatch No.
+                    1814 of December 31, 1901, I have the honor to append hereto a memorandum report
+                    of certain military cases, more particularly mentioned below, which have not
+                    been the subject of previous correspondence or which have been settled during
+                    the quarter ending to-day. There were no military cases to report for the
+                    quarter ending March 30 last.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">And. D. White.</hi></signed></closer>
+
+
+                <xi:include href="d448-a1.xml" xpointer="d448-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

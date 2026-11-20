@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v15_comp7" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Southeast Asia</title>
+            </titleStmt>
+            <xi:include href="../frus1958-60v15_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1958-60v15_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v15/comp7"
+                    type="canonical"/>
+                <relatedItem target="comp6/ch7/d394.xml" type="prev"/>
+                <relatedItem target="comp7/ch8.xml" type="next"/>
+                <relatedItem target="../frus1958-60v15.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v15</bibl>
+                <bibl type="frus-division-id">comp7</bibl>
+                <bibl type="frus-division-n">7</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="824" to="976" unit="page"
+                        >824–976</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1960-12-24T13:00:00-05:00" notBefore="1958-01-09T14:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp7">
+
+                <pb facs="0856" n="824" xml:id="pg824"/>
+
+                <head>Southeast Asia</head>
+
+                <xi:include href="comp7/ch8.xml" xpointer="ch8"/>
+            </div>
+        </body>
+    </text>
+</TEI>

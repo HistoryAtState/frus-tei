@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914-20v01_d6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Wilson to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1914-20v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914-20v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914-20v01/d6"
+                    type="canonical"/>
+                <relatedItem target="../ch2.xml" type="prev"/>
+                <relatedItem target="d6-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914-20v01</bibl>
+                <bibl type="frus-division-id">d6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="6" to="6" unit="page"
+                    >6</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1914-08-21">
+                        <hi rendition="#italic">August 21, 1914</hi>.</date>
+                    <date notAfter="1914-08-21T23:59:59-05:00" notBefore="1914-08-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d6">
+
+                <pb facs="0074" n="6" sameAs="frus:frus1914-20v01/pg6"/>
+
+                <note rend="inline" type="source">763.72119/36½</note>
+                <head>
+                    <hi rendition="#italic">President Wilson to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1914-08-21">
+                            <hi rendition="#italic">August 21, 1914</hi>.</date>
+                    </dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Mr. Secretary</hi>: Here is something which
+                    looks to me very dangerous. I enclose a copy of the telegram which I sent in
+                    reply and hand them both over for your thought pending an answer.</p>
+                <p>Cordially and faithfully yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Woodrow Wilson</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d6-a1.xml" xpointer="d6-a1"/>
+                <xi:include href="d6-a2.xml" xpointer="d6-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

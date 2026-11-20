@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v02p1_d32" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Executive Secretary of the National Security Council (Lay)
+                    to the President</title>
+            </titleStmt>
+            <xi:include href="../../frus1952-54v02p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1952-54v02p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v02p1/d32"
+                    type="canonical"/>
+                <relatedItem target="d31.xml" type="prev"/>
+                <relatedItem target="d32-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v02p1</bibl>
+                <bibl type="frus-division-id">d32</bibl>
+                <bibl type="frus-division-n">32</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="165" to="181" unit="page"
+                        >165–81</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1952-11-05">November 5, 1952</date>
+                    <date notAfter="1952-11-05T23:59:59-05:00" notBefore="1952-11-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v02p1/persons">
+                    <term ref="frus:frus1952-54v02p1/persons#p_LAYJSJ1">Lay, James S., Jr.</term>
+                    <term ref="frus:frus1952-54v02p1/persons#p_TRUMANHS1">Truman, Harry S.</term>
+                </keywords>
+                <keywords scheme="frus:frus1952-54v02p1/terms">
+                    <term ref="frus:frus1952-54v02p1/terms#t_NSC1">NSC</term>
+                    <term ref="frus:frus1952-54v02p1/terms#t_PSF1">PSF</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d32">
+
+                <pb facs="0195" n="165" sameAs="frus:frus1952-54v02p1/pg165"/>
+
+                <note rend="inline" type="source">Truman Library, Truman papers, PSF–Subject
+                    file</note>
+                <head><hi rendition="#italic">Memorandum by the Executive Secretary of the National
+                        Security Council (Lay) to the President</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1952-11-05">November 5, 1952</date>.</dateline>
+                </opener>
+                <p>This “Key Data” book<anchor n="1" xml:id="d32-f1"/> has been prepared by the NSC
+                    Reporting Unit to enable you to keep at hand a current ready guide to the
+                    national security programs. The information is taken either from National
+                    Security Council reports like NSC 135<anchor n="2" xml:id="d32-f2"/> or from
+                    departmental reports maintained by the Reporting Unit in accordance with your
+                    basic directive.</p>
+                <p>The indicators have been selected to present the status of each program in
+                    relation to national security objectives approved by you upon the advice of the
+                    National Security Council. Additional material will be added from time to time
+                    along with revisions of the present contents.</p>
+                <closer><signed><hi rendition="#small-caps">James S. Lay, Jr.</hi></signed></closer>
+
+
+
+                <xi:include href="d32-a1.xml" xpointer="d32-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d32-f1" n="1" xml:id="d32-f1-content">
+                <p>Below.</p>
+            </note>
+            <note corresp="#d32-f2" n="2" xml:id="d32-f2-content">
+                <p>Regarding NSC 135, see the editorial note, <ref target="#pg56">p. 56</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

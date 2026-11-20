@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v15_d197" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Message From Prime Minister Eden to President Eisenhower</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v15_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v15_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v15/d197"
+                    type="canonical"/>
+                <relatedItem target="d196.xml" type="prev"/>
+                <relatedItem target="d197-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v15</bibl>
+                <bibl type="frus-division-id">d197</bibl>
+                <bibl type="frus-division-n">197</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="364" to="365" unit="page"
+                        >364–65</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1956-03-15"><hi rendition="#italic">March 15,
+                            1956</hi></date>
+                    <date notAfter="1956-03-15T23:59:59-05:00" notBefore="1956-03-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v15/persons">
+                    <term ref="frus:frus1955-57v15/persons#p_DJF1">Dulles, John Foster</term>
+                    <term ref="frus:frus1955-57v15/persons#p_ERHSA1">Eden, Rt. Hon. Sir
+                        Anthony</term>
+                    <term ref="frus:frus1955-57v15/persons#p_EDD1">Eisenhower, Dwight D.</term>
+                    <term ref="frus:frus1955-57v15/persons#p_FAB1">Foster, Andrew B.</term>
+                    <term ref="frus:frus1955-57v15/persons#p_HHJ1">Hoover, Herbert, Jr.</term>
+                    <term ref="frus:frus1955-57v15/persons#p_MSRM1">Makins, Sir Roger M.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d197">
+
+                <pb facs="0392" n="364" xml:id="pg364"/>
+
+                <head>197. Message From Prime Minister Eden to President Eisenhower<anchor n="1"
+                        xml:id="d197-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#italic"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1956-03-15"><hi rendition="#italic">March 15,
+                        1956</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Dear Friend</hi>: I send you herewith a most secret
+                    note of Egyptian intentions of whose authenticity we are entirely confident. I
+                    thought you should see it even though it adds nothing startlingly new to what we
+                    both suspected. It does, however, confirm the wide range of Egyptian ambitions
+                    against the Saudis, as well as Iraq and Jordan. May I ask you to treat it as
+                    highly confidential? Of course I would expect Foster to see it.<anchor n="2"
+                        xml:id="d197-f2"/></p>
+                <p>Yours ever,</p>
+                <closer><signed><hi rendition="#bold">Anthony</hi></signed></closer>
+
+
+                <xi:include href="d197-a1.xml" xpointer="d197-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d197-f1" n="1" type="source" xml:id="d197-f1-content">
+                <p>Source: Eisenhower Library, Whitman File, International File. Ambassador Makins
+                    forwarded Prime Minister Eden’s message to the President, but, according to a
+                    cross reference sheet in the lot file containing Presidential Correspondence,
+                    this message was filed in the White House. Neither Makins nor Eisenhower sent a
+                    copy to Hoover. (Department of State, Presidential Correspondence: Lot 66 D 204,
+                    Eden to Eisenhower Correspondence, 1955–1956. Vol. I)</p>
+            </note>
+            <note corresp="#d197-f2" n="2" xml:id="d197-f2-content">
+                <p>Hoover forwarded the report to Secretary Dulles on March 21 attached to a
+                    memorandum. (<hi rendition="#italic">Ibid.,</hi> Central Files, 786.00/3–2156)
+                    Also enclosed for Dulles’ information was a copy of the President’s response to
+                    Eden; see <ref target="#d197-f2">footnote 4</ref> below.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

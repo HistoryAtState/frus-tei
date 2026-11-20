@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d1831" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d1831"
+                    type="canonical"/>
+                <relatedItem target="d1830.xml" type="prev"/>
+                <relatedItem target="d1832.xml" type="next"/>
+                <relatedItem target="../ch104.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d1831</bibl>
+                <bibl type="frus-division-n">1831</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1352" to="1352" unit="page"
+                        >1352</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Constantinople</hi></placeName>
+                    <date calendar="gregorian" when="1912-11-21">
+                        <hi rendition="#italic">November 21, 1912</hi></date>
+                    <date notAfter="1912-11-21T23:59:59-05:00" notBefore="1912-11-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1831">
+
+                <pb facs="1468" n="1352" sameAs="frus:frus1912/pg1352"/>
+
+                <note rend="inline" type="source">File No. 767.70/147.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Constantinople</hi></placeName>, <date
+                            calendar="gregorian" when="1912-11-21">
+                            <hi rendition="#italic">November 21, 1912</hi></date>.</dateline>
+                </opener>
+                <p>The Allied Powers demand, as a further condition for the suspension of
+                    hostilities, the surrender of Janina and Durazzo. It is believed here that these
+                    very severe terms will not be accepted. The delegates will probably meet to-day.
+                    The Diplomatic Corps has been asked to return the land forces to the ships, but
+                    has decided to keep them on shore and will so inform the Government.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Rockhill.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

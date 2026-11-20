@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943v02_d501" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The British Prime Minister (Churchill) to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943v02/d501"
+                    type="canonical"/>
+                <relatedItem target="d500.xml" type="prev"/>
+                <relatedItem target="d502.xml" type="next"/>
+                <relatedItem target="../ch24.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943v02</bibl>
+                <bibl type="frus-division-id">d501</bibl>
+                <bibl type="frus-division-n">501</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="558" to="558" unit="page"
+                        >558</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-19">October 19, 1943</date>
+                    <date notAfter="1943-10-19T23:59:59-05:00" notBefore="1943-10-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d501">
+
+                <pb facs="0570" n="558" xml:id="pg558"/>
+
+                <note rend="inline" type="source">741.53/10–2143: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The British Prime Minister</hi> (<hi rendition="#italic"
+                        >Churchill</hi>) <hi rendition="#italic">to President Roosevelt </hi><anchor
+                        n="1" xml:id="d501-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-10-19">October 19, 1943</date>.</dateline>
+                </opener>
+                <p>466. I fear there may be some misunderstanding about your proposed direct
+                    approach to Portuguese concerning use of Azores. When you told me you had
+                    received information from Lisbon that Portuguese Government would not object to
+                    direct negotiations with your Government on this subject, I encouraged you to go
+                    ahead, thinking that all you had in mind were facilities for the ferry service
+                    referred to in my No. 444,<anchor n="2" xml:id="d501-f2"/> because in reply you
+                    said you were delighted with these arrangements.</p>
+                <p>Now I learn from Lisbon that you are instructing your Chargé d’Affaires to put
+                    the demands formulated by United States Chiefs of Staff on September 8th. The
+                    difficulties inherent in these were telegraphed from here to the Joint Staff
+                    Mission on September 18th.</p>
+                <p>I cannot help feeling that we could not obtain these for you immediately, and I
+                    wonder whether you have any definite information from Lisbon that you would be
+                    able to obtain them by direct approach.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d501-f1" n="1" type="source" xml:id="d501-f1-content">
+                <p>Copy transmitted to the Department by the British Embassy on October 21, 1943</p>
+            </note>
+            <note corresp="#d501-f2" n="2" xml:id="d501-f2-content">
+                <p>Dated October 8, <ref target="#pg550">p. 550</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

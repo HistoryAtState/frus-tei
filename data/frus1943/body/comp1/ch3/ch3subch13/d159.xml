@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d159" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d159"
+                    type="canonical"/>
+                <relatedItem target="d158.xml" type="prev"/>
+                <relatedItem target="d159-a1.xml" type="next"/>
+                <relatedItem target="../ch3subch13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d159</bibl>
+                <bibl type="frus-division-n">159</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="382" to="385" unit="page"
+                        >382–85</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">En Route by Air to
+                        Algiers</hi></placeName>
+                    <date calendar="gregorian" when="1943-05-26">May 26, 1943</date>
+                    <date notAfter="1943-05-26T23:59:59-05:00" notBefore="1943-05-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Churchill1">Churchill</term>
+                    <term ref="frus:frus1943/terms#t_CIGS1">CIGS</term>
+                    <term ref="frus:frus1943/terms#t_Pencil1">Pencil</term>
+                    <term ref="frus:frus1943/terms#t_PAP1">Present Aerial Person</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d159">
+
+                <pb facs="0484" n="382" sameAs="frus:frus1943/pg382"/>
+
+                <note rend="inline" type="source">Hopkins Papers</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d159-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">En
+                                Route by Air to Algiers</hi></placeName>, <date calendar="gregorian"
+                            when="1943-05-26">May 26, 1943</date>.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps"> Pencil No</hi>. 400. Present Aerial Person to
+                    President Roosevelt. Most Secret.</p>
+                <p>General Marshall has himself prepared the following version of the approved
+                    decisions of the Combined Chiefs of Staff to be sent to Russia. <pb facs="0485"
+                        n="383" xml:id="pg383"/> C.I.G.S.<anchor n="2" xml:id="d159-f2"/> and I
+                    agree with every word of it, and strongly hope that it can be sent to Stalin as
+                    the statement by the Chief of the United States Staff, concurred in by the
+                    C.I.G.S., and that it has our (President and Prime Minister’s) joint approval.
+                    If you agree, will you kindly implement without further reference to me.</p>
+                <closer>
+                    <signed>W[<hi rendition="#small-caps">inston</hi>] S. C[<hi
+                            rendition="#small-caps">hurchill</hi>]</signed>
+                    <lb/> 26.5.43</closer>
+
+
+                <xi:include href="d159-a1.xml" xpointer="d159-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d159-f1" n="1" type="source" xml:id="d159-f1-content">
+                <p>According to the account in Churchill, <hi rendition="#italic">Hinge of
+                    Fate</hi>, pp. 812–813, this letter and the enclosed draft message from the
+                    President and the Prime Minister to Premier Stalin were flown to Washington from
+                    Botwood, Newfoundland, where Churchill’s aircraft stopped for refueling en route
+                    from Washington to Algiers.</p>
+            </note>
+            <note corresp="#d159-f2" n="2" xml:id="d159-f2-content">
+                <p>General Sir Alan Brooke.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

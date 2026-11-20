@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1867p2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1867p2_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1867p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1867p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1867p2"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1867p2" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1867p2/covers/frus1867p2.jpg"/>
+                        <extent>
+                            <measure quantity="47205" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:27:43.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1867p2" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1867p2/ebook/frus1867p2.epub"/>
+                        <extent>
+                            <measure quantity="1755938" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:27:43.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1867p2" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1867p2/ebook/frus1867p2.mobi"/>
+                        <extent>
+                            <measure quantity="2390392" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:27:43.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1868 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">johnson-a</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>agriculture</term>
+                    <term>argentina</term>
+                    <term>arms-transfers</term>
+                    <term>austria</term>
+                    <term>bolivia</term>
+                    <term>brazil</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>colombia</term>
+                    <term>congressional-relations</term>
+                    <term>costa-rica</term>
+                    <term>denmark</term>
+                    <term>ecuador</term>
+                    <term>egypt</term>
+                    <term>el-salvador</term>
+                    <term>europe</term>
+                    <term>foreign-aid</term>
+                    <term>foreign-protest-against-u-s-activity</term>
+                    <term>france</term>
+                    <term>guatemala</term>
+                    <term>haiti</term>
+                    <term>immigration</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>johnson-andrew</term>
+                    <term>liberia</term>
+                    <term>mexico</term>
+                    <term>nicaragua</term>
+                    <term>paraguay</term>
+                    <term>peace</term>
+                    <term>peru</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>russia</term>
+                    <term>seward-william-henry</term>
+                    <term>spain</term>
+                    <term>spanish-american-war</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>tunisia</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>venezuela</term>
+                    <term>guernsey</term>
+                    <term>grenada</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1867p2" status="published" when="1868"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0007" n="[I]" xml:id="pg-seq-7"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Papers Relating to Foreign Affairs, Accompanying the
+                        Annual Message of the President to the Second Session of the Fortieth
+                        Congress</titlePart>
+                    <titlePart type="subseries">Part II</titlePart>
+                </docTitle>
+                <docImprint>Washington: Government Printing Office, 1868.</docImprint>
+            </titlePage>
+            <pb facs="0008" n="[II]" xml:id="pg-seq-8"/>
+            <xi:include href="front/papers1.xml" xpointer="papers1"/>
+            <pb facs="0070" n="" xml:id="pg-seq-70"/>
+            <pb facs="0071" n="[1]" xml:id="pg1"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+    </text>
+</TEI>

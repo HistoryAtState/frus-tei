@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1871_d218" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Moran to Mr. Fish</title>
+            </titleStmt>
+            <xi:include href="../../frus1871_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1871_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1871/d218"
+                    type="canonical"/>
+                <relatedItem target="d217-a1.xml" type="prev"/>
+                <relatedItem target="d218-a1.xml" type="next"/>
+                <relatedItem target="../ch18.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1871</bibl>
+                <bibl type="frus-division-id">d218</bibl>
+                <bibl type="frus-division-n">218</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="423" to="430" unit="page"
+                        >423–30</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States</hi>, <hi
+                            rendition="#italic">London,</hi></placeName>
+                    <date calendar="gregorian" when="1871-01-19"><hi rendition="#italic"
+                            >January</hi> 19, 1871</date>
+                    <date notAfter="1871-01-19T23:59:59-05:00" notBefore="1871-01-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d218">
+
+                <pb facs="0637" n="423" sameAs="frus:frus1871/pg423"/>
+
+                <opener><seg rendition="#center">No. 200.</seg></opener>
+                <head>Mr. Moran to Mr. Fish</head>
+                <opener>
+                    <seg rendition="#float-left">No. 193.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States</hi>,
+                                <hi rendition="#italic">London,</hi></placeName>
+                        <date calendar="gregorian" when="1871-01-19"><hi rendition="#italic"
+                                >January</hi> 19, 1871</date>. (Received February
+                    3.)</dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> Referring to my No. 164, I have now the
+                    honor to send herewith copies, extracted from the Times of the 11th, 13th, and
+                    18th instant, of the reports of the proceedings against the ship International
+                    for violating <pb facs="0638" n="424" xml:id="pg424"/> the neutrality or foreign
+                    enlistment act of 1870, together with an editorial from the Times of the 18th on
+                    the subject.</p>
+                <p>I am, &amp;c.,</p>
+                <closer>
+                    <signed>BENJAMIN MORAN.</signed></closer>
+
+
+
+
+
+                <xi:include href="d218-a1.xml" xpointer="d218-a1"/>
+                <xi:include href="d218-a2.xml" xpointer="d218-a2"/>
+                <xi:include href="d218-a3.xml" xpointer="d218-a3"/>
+                <xi:include href="d218-a4.xml" xpointer="d218-a4"/>
+            </div>
+        </body>
+    </text>
+</TEI>

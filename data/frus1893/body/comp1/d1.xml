@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1893_d1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Grant to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../frus1893_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1893_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1893/d1"
+                    type="canonical"/>
+                <relatedItem target="../comp1.xml" type="prev"/>
+                <relatedItem target="d1-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1893</bibl>
+                <bibl type="frus-division-id">d1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1" to="5" unit="page"
+                    >1–5</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Vienna</hi></placeName>
+                    <date calendar="gregorian" when="1893-04-11"><hi rendition="#italic">April 11,
+                            1893</hi></date>
+                    <date notAfter="1893-04-11T23:59:59-05:00" notBefore="1893-04-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1">
+
+                <pb facs="0109" n="1" sameAs="frus:frus1893/pg1"/>
+
+                <head><hi rendition="#italic">Mr. Grant to Mr. Gresham.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Vienna</hi></placeName>, <date calendar="gregorian"
+                            when="1893-04-11"><hi rendition="#italic">April 11, 1893</hi></date>.
+                        (Received April 29, 1893.)</dateline>
+                    <seg rendition="#float-left">No. 351.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to forward herewith, for
+                    your information, the correspondence which has recently passed between this
+                    legation and the imperial and royal ministry of foreign affairs of
+                    Austria-Hungary upon the case of Edward Drueker, a naturalized citizen of the
+                    United States.</p>
+                <p>Drueker, upon his return to his native land, was arrested for non-fulfillment of
+                    his military duties, but through the intercession of this legation has been
+                    released.</p>
+                <p>I have, etc.</p>
+                <closer><signed><hi rendition="#small-caps">Frederick D.
+                    Grant.</hi></signed></closer>
+
+
+
+
+
+
+
+
+
+
+
+                <xi:include href="d1-a1.xml" xpointer="d1-a1"/>
+                <xi:include href="d1-a2.xml" xpointer="d1-a2"/>
+                <xi:include href="d1-a3.xml" xpointer="d1-a3"/>
+                <xi:include href="d1-a4.xml" xpointer="d1-a4"/>
+                <xi:include href="d1-a5.xml" xpointer="d1-a5"/>
+                <xi:include href="d1-a6.xml" xpointer="d1-a6"/>
+                <xi:include href="d1-a7.xml" xpointer="d1-a7"/>
+                <xi:include href="d1-a8.xml" xpointer="d1-a8"/>
+            </div>
+        </body>
+    </text>
+</TEI>

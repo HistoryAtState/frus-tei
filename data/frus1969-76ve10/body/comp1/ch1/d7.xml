@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76ve10_d7" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>National Security Study Memorandum 68 </title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76ve10_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76ve10_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76ve10/d7"
+                    type="canonical"/>
+                <relatedItem target="d6.xml" type="prev"/>
+                <relatedItem target="d8.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76ve10</bibl>
+                <bibl type="frus-division-id">d7</bibl>
+                <bibl type="frus-division-n">7</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1969-07-12">July 12, 1969</date>
+                    <date notAfter="1969-07-12T23:59:59-05:00" notBefore="1969-07-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76ve10/persons">
+                    <term ref="frus:frus1969-76ve10/persons#p_KHA1">Kissinger, Henry A.</term>
+                    <term ref="frus:frus1969-76ve10/persons#p_NRM1">Nixon, Richard M.</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76ve10/terms">
+                    <term ref="frus:frus1969-76ve10/terms#CIA1">CIA</term>
+                    <term ref="frus:frus1969-76ve10/terms#JCS1">JCS</term>
+                    <term ref="frus:frus1969-76ve10/terms#NSC1">NSC</term>
+                    <term ref="frus:frus1969-76ve10/terms#NSCIGARA1">NSC–IG/ARA</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d7">
+
+                <pb facs="d5-15" n="15" sameAs="frus:frus1969-76ve10/pgd5-15"/>
+
+                <head>7. National Security Study Memorandum 68<anchor n="1" xml:id="d7-f1"/>
+                    <anchor n="2" xml:id="d7-f2"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1969-07-12">July 12, 1969</date>
+                    </dateline></opener>
+                <pb facs="d7-1" n="1" xml:id="pgd7-1"/>
+                <list type="to">
+                    <head>TO:</head>
+                    <item>The Secretary of State</item>
+                    <item>The Director, Central Intelligence Agency</item>
+                    <item>The Chairman, Joint Chiefs of Staff</item>
+                </list>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT:</label>
+                    <item>Report on Military and Church in Latin America</item>
+                </list>
+                <p>As a result of the NSC meeting of July 9 on Latin American policy, the President
+                    has directed that the following reports be prepared by the indicated agencies
+                    and processed through the IG/ARA and Review Group:</p>
+                <p>CIA—<hi rendition="#italic">The Church in Latin America</hi></p>
+                <p>This should include a country by country analysis of the church establishment,
+                    its role in society, the trends within it and the leading personalities. It
+                    should also include an analysis of the role and significance of foreign clergy
+                    and non-Catholic groups and missionaries.</p>
+                <p>JCS—<hi rendition="#italic">The Military Establishments in Latin America</hi></p>
+                <p>This should cover a country by country analysis of the military establishments,
+                    their make-up, tradition, role in society and political development, different
+                    trends within them, and identification of key leaders.</p>
+                <p>The Church report should be submitted to the Review Group by October 10, and the
+                    Military report by October 30.</p>
+                <p>In addition, the President directed that the State Department undertake through
+                    our Embassies, and utilizing youth committees and other sources, an effort to
+                    identify future leaders in each country and to maximize contacts with them. The
+                    IG/ARA is asked to provide the Under Secretaries’ Committee by October 1 with a
+                    report of what has and is being done in this regard for submission to the
+                    President.</p>
+                <closer>
+                    <signed><hi rendition="#bold">Henry A. Kissinger</hi></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d7-f1" n="1" type="source" xml:id="d7-f1-content">
+                <p>Source: National Archives, Nixon Presidential Materials, NSC Files, NSC
+                    Institutional Files (H-Files), Box H–159. Secret. A copy was sent to the
+                    Secretary of Defense. The CIA report is published as <ref target="#d13">Document
+                        13</ref>. The JCS report has not been found.</p>
+            </note>
+            <note corresp="#d7-f2" n="2" xml:id="d7-f2-content">
+                <p>Following the July 9 NSC meeting on Latin American policy, Nixon directed that
+                    the CIA prepare a report on the Catholic Church in Latin America by October 10
+                    and that the Joint Chiefs of Staff prepare a report on the Military
+                    Establishments in Latin America by October 30.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914-20v01_d108" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Wilson to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1914-20v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914-20v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914-20v01/d108"
+                    type="canonical"/>
+                <relatedItem target="d107.xml" type="prev"/>
+                <relatedItem target="d109.xml" type="next"/>
+                <relatedItem target="../ch8.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914-20v01</bibl>
+                <bibl type="frus-division-id">d108</bibl>
+                <bibl type="frus-division-n">108</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="116" to="116" unit="page"
+                        >116</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1914-12-26">
+                        <hi rendition="#italic">26 December, 1914</hi>.</date>
+                    <date notAfter="1914-12-26T23:59:59-05:00" notBefore="1914-12-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d108">
+
+                <pb facs="0184" n="116" sameAs="frus:frus1914-20v01/pg116"/>
+
+                <note rend="inline" type="source">763.72111 Em 1/11½</note>
+                <head>
+                    <hi rendition="#italic">President Wilson to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1914-12-26">
+                            <hi rendition="#italic">26 December, 1914</hi>.</date>
+                    </dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Mr. Secretary</hi>: I think the enclosed
+                        reply<anchor n="11" xml:id="d108-f1"/> to the memorandum of the German
+                    Government both sound and conclusive, and I sincerely hope that you will be
+                    able, as you suggest, to obtain the consent of the German Government to the
+                    publication of this correspondence.</p>
+                <p>Cordially and faithfully Yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Woodrow Wilson</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d108-f1" n="11" xml:id="d108-f1-content">
+                <p>
+                    <ref target="frus1914Supp#pg_647">
+                        <hi rendition="#italic">Ibid.</hi>, p. 647</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

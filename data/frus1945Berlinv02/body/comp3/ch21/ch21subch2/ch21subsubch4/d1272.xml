@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d1272" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 1272</title>
+                <title type="subtitle">Memorandum by the United States Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d1272"
+                    type="canonical"/>
+                <relatedItem target="d1271.xml" type="prev"/>
+                <relatedItem target="d1272-a1.xml" type="next"/>
+                <relatedItem target="../ch21subsubch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d1272</bibl>
+                <bibl type="frus-division-n">1272</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1320" to="1320" unit="page"
+                        >1320</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Babelsberg</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-23">23 July 1945</date>
+                    <date notAfter="1945-07-23T23:59:59-05:00" notBefore="1945-07-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/terms">
+                    <term ref="frus:frus1945Berlinv02/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1945Berlinv02/terms#t_JCS1">JCS</term>
+                    <term ref="frus:frus1945Berlinv02/terms#t_Terminal1">Terminal</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1272">
+
+                <pb facs="1518" n="1320" xml:id="pg1320"/>
+
+                <note rend="inline" type="source">J. C. S. Files</note>
+                <head>No. 1272<lb/><hi rendition="#italic">Memorandum by the United States Chiefs of
+                        Staff</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/> C. C. S. 900/1 (<hi rendition="#small-caps">Terminal</hi>)</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Babelsberg</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-07-23">23 July 1945</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Report to the President and Prime
+                        Minister</hi></p>
+                <p rendition="#flush">Reference: C. C. S. 900<anchor n="1" xml:id="d1272-f1"/></p>
+                <p>In order to more accurately describe the boundary between the British and U. S.
+                    areas of command in the Southwest Pacific, the United States Chiefs of Staff
+                    recommend that the attached Appendix “C” be substituted in lieu of Appendix “C”
+                    to C. C. S. 900.<anchor n="2" xml:id="d1272-f2"/></p>
+
+
+                <xi:include href="d1272-a1.xml" xpointer="d1272-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1272-f1" n="1" xml:id="d1272-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d1272-f2" n="2" xml:id="d1272-f2-content">
+                <p>Not printed as such. Text of appendix C to C. C. S. 900 is the same as the
+                    amended appendix C, <hi rendition="#italic">infra</hi>, with the omission of all
+                    words in italics.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

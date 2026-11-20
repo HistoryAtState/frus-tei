@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d503" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d503"
+                    type="canonical"/>
+                <relatedItem target="d502.xml" type="prev"/>
+                <relatedItem target="d504.xml" type="next"/>
+                <relatedItem target="../ch62.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d503</bibl>
+                <bibl type="frus-division-n">503</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="465" to="466" unit="page"
+                        >465–66</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Port au Prince</hi></placeName>
+                    <date calendar="gregorian" when="1915-02-24T18:00:00-04:49">
+                        <hi rendition="#italic">February 24, 1915—6 p.m.</hi>
+                    </date>
+                    <date notAfter="1915-02-24T17:49:00-05:00" notBefore="1915-02-24T17:49:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d503">
+
+                <pb facs="0581" n="465" sameAs="frus:frus1915/pg465"/>
+
+                <note rend="inline" type="source">File No. 838.00/1119.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Port au Prince</hi></placeName>, <date
+                            calendar="gregorian" when="1915-02-24T18:00:00-04:49">
+                            <hi rendition="#italic">February 24, 1915—6 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Your cable February 20, 3 p.m., not entirely clear; but to avoid delay pending
+                    complete repetition hereby requested, following answers are submitted:</p>
+                <p>First. Theodore was regularly elected President according to the Constitution of
+                    Haiti by the Senate and House in joint session for a full term of 7 years. See
+                    my telegram of November 7<anchor n="11" xml:id="d503-f1"/> and November 13, 3
+                        p.m.<anchor n="11" xml:id="d503-f2"/>
+                </p>
+                <p>Second. The term of the present [Chamber of Deputies?] expires the end of 1916.
+                    Senators are elected by the [Chamber of Deputies?] for a term of 6 years and
+                    renewed by the session every 2 years.</p>
+                <p>Members of Chamber of Deputies elected by the people.</p>
+                <p>For detailed information see American Constitutions, edition 1905, volume 2, page
+                    59, and following paragraph. The candidates elected as a rule are the candidates
+                    of the Government.</p>
+                <pb facs="0582" n="466" xml:id="pg466"/>
+                <p>Third. The Legislature was not coerced into the election of Theodore, who
+                    received the entire vote.</p>
+                <p>The proclaiming of a successful revolutionary leader as Chief of the Executive
+                    Power is tantamount to his election as President. Upon his entrance in the
+                    capital the Chambers are convoked and he is invariably elected.</p>
+                <p>Fourth. The revolution is successful. All revolutionary leaders have declared
+                    allegiance to Vilbrun Guillaume Sam, who is expected to arrive Port au Prince
+                    tomorrow, 25th. Chambers convoked yesterday in extra session and according to
+                    all precedents will elect him for the term of 7 years.</p>
+                <p>Fifth. The overthrow of the Theodore Government was due in part to personal
+                    ambition of Vilbrun Guillaume Sam and to the fact that the Government being
+                    without funds and unable to secure any the troops received no pay, as had been
+                    promised after his election, for 10 months campaign and they therefore returned
+                    to the North and joined the revolution; also economic conditions here due to
+                    European war and internal unrest resulting in business stagnation and creating a
+                    poverty-stricken condition throughout the country. Further, Theodore surrounded
+                    himself with members of the former Simon Government the most unpopular faction
+                    in Haiti which contributed to a great degree to his downfall.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Blanchard</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d503-f1" n="11" xml:id="d503-f1-content">
+                <p>
+                    <ref target="frus1914#pg_359">For. Rel. 1914, p. 359</ref>.</p>
+            </note>
+            <note corresp="#d503-f2" n="11" xml:id="d503-f2-content">
+                <p>
+                    <ref target="frus1914#pg_359">For. Rel. 1914, p. 359</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

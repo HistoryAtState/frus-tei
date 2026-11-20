@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945-50Intel_d41" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum for Information</title>
+            </titleStmt>
+            <xi:include href="../../frus1945-50Intel_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1945-50Intel_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945-50Intel/d41"
+                    type="canonical"/>
+                <relatedItem target="d40.xml" type="prev"/>
+                <relatedItem target="d42.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945-50Intel</bibl>
+                <bibl type="frus-division-id">d41</bibl>
+                <bibl type="frus-division-n">41</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="97" to="98" unit="page"
+                        >97–98</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-11-02T23:59:59-05:00" notBefore="1945-11-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945-50Intel/persons">
+                    <term ref="frus:frus1945-50Intel/persons#p_ITB1">Inglis, Thomas B.</term>
+                    <term ref="frus:frus1945-50Intel/persons#p_MCA1">McCormack, Alfred</term>
+                </keywords>
+                <keywords scheme="frus:frus1945-50Intel/terms">
+                    <term ref="frus:frus1945-50Intel/terms#t_OSS1">OSS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d41">
+
+                <pb facs="0125" n="97" sameAs="frus:frus1945-50Intel/pg97"/>
+
+                <head>41. Memorandum for Information<anchor n="0" xml:id="d41-f1"/></head>
+                <dateline><placeName>Washington</placeName>, <date calendar="gregorian"
+                        when="1945-11-02">November 2, 1945</date>.</dateline>
+                <list>
+                    <label>1.</label>
+                    <item>On Wednesday 31 October, I was seated next to Alfred McCormack (in charge
+                        of State Department’s portion of OSS), at a formal luncheon. He told me that:<list>
+                            <label>(A)</label>
+                            <item>He does not believe in a Central Intelligence Agency.</item>
+                            <label>(B)</label>
+                            <item>He believes each department should have its own unfettered
+                                intelligence service.</item>
+                            <label>(C)</label>
+                            <item>He is not worried about duplication of effort. Competition is
+                                healthy.</item>
+                            <label>(D)</label>
+                            <item>He thinks the fields covered by the various services should be
+                                examined and any gaps in their coverage filled in.</item>
+                            <label>(E)</label>
+                            <item>A committee composed of the Secretaries of State, War, and Navy
+                                might well act in a consulting capacity for shaping broad policies
+                                and coordination.</item>
+                            <pb facs="0126" n="98" xml:id="pg98"/>
+                            <label>(F)</label>
+                            <item>The Army and Navy should retain communication intelligence as at
+                                present.</item>
+                        </list></item>
+                    <label>2.</label>
+                    <item>I raised the question of what agency should operate secret agents, but got
+                        no specific answer.</item>
+                </list>
+                <p>Respectfully,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold"> Thos. B. Inglis</hi>
+                        <anchor n="1" xml:id="d41-f2"/>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Commodore, U.S. Navy</hi>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d41-f1" n="0" type="source" xml:id="d41-f1-content">
+                <p>Source: National Archives and Records Administration, RG 263, Records of the
+                    Central Intelligence Agency, Troy Papers, Nov. 1945. Secret. The date is
+                    handwritten on the source text.</p>
+            </note>
+            <note corresp="#d41-f2" n="1" xml:id="d41-f2-content">
+                <p>Printed from a copy that indicates Inglis signed the original.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

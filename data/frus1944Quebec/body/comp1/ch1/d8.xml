@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d8" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d8"
+                    type="canonical"/>
+                <relatedItem target="d7.xml" type="prev"/>
+                <relatedItem target="d9.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d8</bibl>
+                <bibl type="frus-division-n">8</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="6" to="7" unit="page"
+                    >6–7</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-05-31">31 May 1944</date>
+                    <date notAfter="1944-05-31T23:59:59-05:00" notBefore="1944-05-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_D141">D + 14</term>
+                    <term ref="frus:frus1944Quebec/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Overlord1">Overlord</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d8">
+
+                <pb facs="0060" n="6" sameAs="frus:frus1944Quebec/pg6"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Prime Minister
+                        Churchill</hi><anchor n="1" xml:id="d8-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1944-05-31">31 May 1944</date>.</dateline>
+                </opener>
+                <p>Number 546. Personal and top secret. From the President for the Former Naval
+                    Person.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <p>I should like very much to accept Dr. Churchill’s advice to make a sea voyage in
+                    your direction and I hope to do so at a later date. Conditions here will not
+                    permit it shortly after D plus 14 as suggested by you.</p>
+                <pb facs="0061" n="7" xml:id="pg7"/>
+                <p>Developments of the <hi rendition="#small-caps">Overlord</hi> campaign should
+                    point with some accuracy to the time when a meeting of the Combined Staff is
+                    necessary. I think we had best await developments of <hi rendition="#small-caps"
+                        >Overlord</hi> before making a decision as to the next full Staff
+                    meeting.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d8-f1" n="1" type="source" xml:id="d8-f1-content">
+                <p>Sent to the United States Naval Attaché London, via Navy channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

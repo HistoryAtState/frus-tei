@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d547" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d547"
+                    type="canonical"/>
+                <relatedItem target="d546.xml" type="prev"/>
+                <relatedItem target="d547-a1.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d547</bibl>
+                <bibl type="frus-division-n">547</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1186" to="1188" unit="page"
+                        >1186–88</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">La Cabane de Montmorency</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-28">August 28, 1943</date>
+                    <date notAfter="1943-08-28T23:59:59-05:00" notBefore="1943-08-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Avalanche1">Avalanche</term>
+                    <term ref="frus:frus1943/terms#t_Baytown1">Baytown</term>
+                    <term ref="frus:frus1943/terms#t_White1">White</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d547">
+
+                <pb facs="1300" n="1186" xml:id="pg1186"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d547-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">La Cabane de Montmorency</hi></placeName>,
+                            [<date calendar="gregorian" when="1943-08-28">August 28,
+                        1943</date>.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Mr. President</hi>: I enclosed [<hi
+                        rendition="#italic">enclose</hi>] unparaphrased version of my telegram and
+                    the reply about the dates and scales of <hi rendition="#small-caps">Baytown</hi>
+                    and <hi rendition="#small-caps">Avalanche</hi> respectively. The position is
+                    still far from satisfactory.</p>
+                <p>As these telegrams are unparaphrased will you please burn them after you have
+                    read them.</p>
+                <closer>
+                    <signed>W[<hi rendition="#small-caps">inston</hi>] S C[<hi
+                            rendition="#small-caps">hurchill</hi>]</signed>
+                    <lb/> 28. 8. 43</closer>
+
+
+
+                <xi:include href="d547-a1.xml" xpointer="d547-a1"/>
+                <xi:include href="d547-a2.xml" xpointer="d547-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d547-f1" n="1" type="source" xml:id="d547-f1-content">
+                <p>Delivered to the White House by special messenger. Texts of this message
+                    (omitting the final paragraph) and of the two enclosures were forwarded by the
+                    White House Map Room to Roosevelt, who was then at Hyde Park, in telegram No.
+                        <hi rendition="#small-caps">White</hi> 143, August 29, 1943.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

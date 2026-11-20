@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1892_d243" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Herbert to Mr. Foster.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1892_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1892_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1892/d243"
+                    type="canonical"/>
+                <relatedItem target="d242.xml" type="prev"/>
+                <relatedItem target="d244.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1892</bibl>
+                <bibl type="frus-division-id">d243</bibl>
+                <bibl type="frus-division-n">243</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="301" to="301" unit="page"
+                        >301</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">British Legation</hi></placeName>
+                    <date calendar="gregorian" when="1892-08-20"><hi rendition="#italic">August 20,
+                            1892</hi></date>
+                    <date notAfter="1892-08-20T23:59:59-05:00" notBefore="1892-08-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d243">
+
+                <pb facs="0389" n="301" sameAs="frus:frus1892/pg301"/>
+
+                <head><hi rendition="#italic">Mr. Herbert to Mr. Foster.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >British Legation</hi></placeName>,<lb/><hi rendition="#italic"
+                            >Saturday</hi>, <date calendar="gregorian" when="1892-08-20"><hi
+                                rendition="#italic">August 20, 1892</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">My Dear Mr. Foster</hi>: According to a telegram
+                    which I have just received from Canada I shall be able to make the communication
+                    in regard to the canal tolls on Monday.</p>
+                <p>Yours very truly,</p>
+                <closer><signed><hi rendition="#small-caps">Michael H.
+                    Herbert.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

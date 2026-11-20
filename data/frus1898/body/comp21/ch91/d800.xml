@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d800" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Day to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d800"
+                    type="canonical"/>
+                <relatedItem target="d799.xml" type="prev"/>
+                <relatedItem target="d801.xml" type="next"/>
+                <relatedItem target="../ch91.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d800</bibl>
+                <bibl type="frus-division-n">800</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="927" to="927" unit="page"
+                        >927</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Paris</hi></placeName>
+                    <date ana="#date_imprecise-inferred-from-document-content" calendar="gregorian"
+                        notAfter="1898-10-12T23:59:59+00:09" notBefore="1898-10-12T12:00:00+00:09"
+                        when="1898-10-12"><hi rendition="#italic">October 12, 1898</hi></date>
+                    <date notAfter="1898-10-12T18:50:59-05:00" notBefore="1898-10-12T06:51:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d800">
+
+                <pb facs="1023" n="927" sameAs="frus:frus1898/pg927"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Day to Mr. Hay.</hi>
+                </head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Paris</hi></placeName>, <date
+                            ana="#date_imprecise-inferred-from-document-content"
+                            calendar="gregorian" notAfter="1898-10-12T23:59:59+00:09"
+                            notBefore="1898-10-12T12:00:00+00:09" when="1898-10-12"><hi
+                                rendition="#italic">October 12, 1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 9.]</seg></opener>
+                <p>Joint Commission met yesterday. We presented paper rejecting Spanish articles as
+                    to Cuba and Puerto Rico. Spanish Commissioners then filed under the rules a
+                    memorandum giving reasons in support of their position on Cuban debt and now
+                    insist upon relinquishment and transfer of sovereignty to United States which is
+                    to accept it without any express obligation to transfer it to the Cuban people.
+                    On Cuban debt we shall insist upon our original position. A majority favor
+                    adherence to words of Article I of protocol as to relinquishment of sovereignty
+                    over Cuba. Senator Gray in favor of accepting sovereignty unconditionally in
+                    view of our already expressed declaration of trust in regard to same, and that
+                    we may thereby avoid future complications with Cubans claiming sovereignty while
+                    we are in process of pacifying island and restoring order in accordance with our
+                    own ideas. We desire instruction on this point. We shall, unless other wise
+                    instructed, insist upon disposition of matters in first and second articles of
+                    the protocol before taking up Article III. We meet again on Friday.</p>
+                <closer>
+                    <dateline rendition="#float-left"><date
+                            ana="#date_imprecise-inferred-from-document-content"
+                            calendar="gregorian" notAfter="1898-10-12T23:59:59+00:09"
+                            notBefore="1898-10-12T12:00:00+00:09" when="1898-10-12">Wednesday
+                            afternoon</date>.</dateline>
+                    <lb/>
+                    <signed>
+                        <hi rendition="#small-caps">Day.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

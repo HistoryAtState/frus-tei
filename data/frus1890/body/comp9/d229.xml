@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d229" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Lincoln to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d229"
+                    type="canonical"/>
+                <relatedItem target="d228-a2.xml" type="prev"/>
+                <relatedItem target="d229-a1.xml" type="next"/>
+                <relatedItem target="../comp9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d229</bibl>
+                <bibl type="frus-division-n">229</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="323" to="324" unit="page"
+                        >323–24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1890-02-19"><hi rendition="#italic"
+                            >February</hi> 19, 1890</date>
+                    <date notAfter="1890-02-19T23:59:59-05:00" notBefore="1890-02-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d229">
+
+                <pb facs="0427" n="323" sameAs="frus:frus1890/pg323"/>
+
+                <head><hi rendition="#italic">Mr. Lincoln to Mr. Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1890-02-19"><hi rendition="#italic">February</hi> 19, 1890</date>.
+                        (Received March 3.)</dateline>
+                    <seg rendition="#float-left">No. 184.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith a copy
+                    of a letter which I have addressed to the United States consul at Liverpool,
+                    stating my reasons for refusing to issue a passport to Mr. Samuel B. Oliver,
+                    whose application for the same had been forwarded by Mr. Sherman.</p>
+                <p>My action in this case is in accordance with my understanding of the views of the
+                    Department, gathered from instructions to myself and from the Digest, and I
+                    would be glad to be informed if I am in error, as I have an intimation of a
+                    future application in which the circumstances of the applicant are not unlike
+                    those of Mr. Oliver.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Robert T.
+                    Lincoln.</hi></signed></closer>
+
+
+                <xi:include href="d229-a1.xml" xpointer="d229-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

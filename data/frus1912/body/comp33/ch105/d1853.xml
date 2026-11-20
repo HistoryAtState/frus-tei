@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d1853" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President to the President of Venezuela.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d1853"
+                    type="canonical"/>
+                <relatedItem target="d1852-a1.xml" type="prev"/>
+                <relatedItem target="d1854.xml" type="next"/>
+                <relatedItem target="../ch105.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d1853</bibl>
+                <bibl type="frus-division-n">1853</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1362" to="1362" unit="page"
+                        >1362</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">The White House</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1912-04-01">
+                        <hi rendition="#italic">April 1, 1912</hi></date>
+                    <date notAfter="1912-04-01T23:59:59-05:00" notBefore="1912-04-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1853">
+
+                <pb facs="1478" n="1362" sameAs="frus:frus1912/pg1362"/>
+
+                <note rend="inline" type="source">File No. 033.1100 K77.</note>
+                <head>
+                    <hi rendition="#italic">The President to the President of Venezuela</hi>.</head>
+                <opener>
+                    <seg rendition="#center">[Telegram.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">The White House</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1912-04-01">
+                            <hi rendition="#italic">April 1, 1912</hi></date>.</dateline>
+                </opener>
+                <p>I am delighted to learn that Secretary Knox was received with such marked
+                    cordiality in Venezuela and to assure Your Excellency of my fervent hopes for
+                    your continued prosperity and that of Venezuela.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Wm. H. Taft.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

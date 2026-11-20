@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d254-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Handwritten Note Prepared by Herter</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d254-a1"
+                    type="canonical"/>
+                <relatedItem target="d254.xml" type="prev"/>
+                <relatedItem target="d255.xml" type="next"/>
+                <relatedItem target="d254.xml" type="parent"/>
+                <relatedItem target="d254.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d254-a1</bibl>
+                <bibl type="frus-division-n">254.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label">Enclosure</bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1960-05-26">May 26, 1960</date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_HCA_1">Herter, Christian A.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d254-a1">
+
+                <pb facs="1172" n="1067" sameAs="frus:frus1958-60v03mSupp/pg1067"/>
+
+
+                <head>Handwritten Note Prepared by Herter</head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1960-05-26">May 26, 1960</date></dateline>
+                </opener>
+                <pb facs="d254-3" n="3" type="facsimile" xml:id="d254-3"/>
+                <p>I think the Secy will be interested in this some <hi rendition="#italic"
+                        >weekend</hi>.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">CAH</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

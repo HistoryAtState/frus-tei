@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d365" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Ryan to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d365"
+                    type="canonical"/>
+                <relatedItem target="d364-a1.xml" type="prev"/>
+                <relatedItem target="d365-a1.xml" type="next"/>
+                <relatedItem target="../comp14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d365</bibl>
+                <bibl type="frus-division-n">365</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="627" to="628" unit="page"
+                        >627–28</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1890-02-07"><hi rendition="#italic"
+                            >February</hi> 7, 1890</date>
+                    <date notAfter="1890-02-07T23:59:59-05:00" notBefore="1890-02-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d365">
+
+                <pb facs="0737" n="627" sameAs="frus:frus1890/pg627"/>
+
+                <head><hi rendition="#italic">Mr. Ryan to Mr. Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Mexico</hi></placeName>, <date calendar="gregorian"
+                            when="1890-02-07"><hi rendition="#italic">February</hi> 7, 1890</date>.
+                        (Received February 17.)</dateline>
+                    <seg rendition="#float-left">No. 238.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: For the information of the Department, I
+                    have the honor to forward herewith a communication from R. C. Work, imprisoned
+                    at Victoria, Tamaulipas, charged with the murder of Francisco Cruz, to Mr. J. H.
+                    T. King, our consular agent at that place, complaining that he has been in ill
+                    health for many months, and that recently, to wit, on the 14th ultimo, while
+                    still sick in his room, he was “subjected to the painful persecution of being
+                    packed through the street by an armed mob and thrown into prison,” and declares
+                    that such is the state of his health that his “life is in great danger.”</p>
+                <p>It would seem that the authorities had long permitted Mr. Work to remain at his
+                    home with his family, pending the criminal action against him, upon the
+                    assumption that he was in ill health, but finding him apparently recovered,
+                    directed him to return to the prison. The consular agent, Mr. King, in
+                    forwarding Mr. Work’s letter, says: <quote rend="blockquote">
+                        <p>I beg leave to inform you that R. C. Work was out hunting a few days
+                            before being imprisoned, and, as he refused to go to the jail, the
+                            authorities were compelled to convey him on a cot. It required several
+                            men to do this, and I suppose the men who <pb facs="0738" n="628"
+                                xml:id="pg628"/> carried Mm constitute the armed men alluded to.
+                            However, it was in no sense an armed mob, and, to say the least, in my
+                            opinion, Work showed bad taste in not quietly walking to the jail, as
+                            all know here that for months he has been walking, riding, and hunting
+                            constantly—in fact, enjoying almost full liberty. Work has been out on
+                            medical certificate since June last, but as he did not seem to
+                            appreciate the many privileges granted him, and even published letters
+                            against the Mexican people here, I infer that the authorities justly
+                            concluded they had shown him too much consideration.</p>
+                    </quote></p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Thos. Ryan.</hi></signed></closer>
+
+
+
+                <xi:include href="d365-a1.xml" xpointer="d365-a1"/>
+                <xi:include href="d365-a2.xml" xpointer="d365-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. García Mérou to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d3"
+                    type="canonical"/>
+                <relatedItem target="d2.xml" type="prev"/>
+                <relatedItem target="d4.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d3</bibl>
+                <bibl type="frus-division-n">3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="3" to="3" unit="page"
+                    >3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the Argentine
+                            Republic</hi>,<lb/><hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1899-04-19"><hi rendition="#italic">April 19,
+                            1899</hi></date>
+                    <date notAfter="1899-04-19T23:59:59-05:00" notBefore="1899-04-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d3">
+
+                <pb facs="0095" n="3" sameAs="frus:frus1899/pg3"/>
+
+                <head><hi rendition="#italic">Mr. García Mérou to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the Argentine Republic</hi>,<lb/><hi
+                                rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1899-04-19"><hi rendition="#italic">April 19,
+                                1899</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Mr. Secretary</hi>: In obedience to instructions
+                    which I have just received by telegraph from the minister of foreign relations
+                    of the Argentine Republic, I have the honor to inform your excellency that my
+                    Government is deeply grateful to his excellency William I. Buchanan, minister of
+                    the United States, for the important service which he has just rendered to it by
+                    greatly contributing to the settlement of the boundary question between the
+                    Argentine Republic and Chile, as regards the territory situated between 23
+                    degrees and 26 degrees 52 minutes 45 seconds, thus removing all grounds of
+                    misunderstanding in the relations between the two countries.</p>
+                <p>I gladly obey the instructions received, and take pleasure in renewing to your
+                    excellency the assurances of my highest and most distinguished
+                    consideration.</p>
+                <closer><signed><hi rendition="#small-caps">M. García Mérou.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

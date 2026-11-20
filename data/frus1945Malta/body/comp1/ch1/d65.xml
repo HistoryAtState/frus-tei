@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d65" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d65"
+                    type="canonical"/>
+                <relatedItem target="d64.xml" type="prev"/>
+                <relatedItem target="d66.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d65</bibl>
+                <bibl type="frus-division-n">65</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="39" to="39" unit="page"
+                        >39</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-01-24">January 24, 1945</date>
+                    <date notAfter="1945-01-24T23:59:59-05:00" notBefore="1945-01-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_E1">Edwards, Vice Admiral Richard
+                        S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S11">Smith, Lieutenant General Walter
+                        Bedell</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d65">
+
+                <pb facs="0121" n="39" sameAs="frus:frus1945Malta/pg39"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d65-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-01-24">January 24,
+                        1945</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Roosevelt Personal and Top Secret number 894.</p>
+                <p>It would be a great pity if Eisenhower and Alexander only come to <hi
+                        rendition="#small-caps">Cricket</hi> and if we do not have them with us at
+                        <hi rendition="#small-caps">Magneto</hi>.<anchor n="2" xml:id="d65-f2"/>
+                    This will really make it impossible for the Heads of Government to enter fully
+                    into the military problems. I hope therefore they may be instructed as
+                    originally proposed to come to <hi rendition="#small-caps">Magneto</hi> as well
+                    as <hi rendition="#small-caps">Cricket</hi> and if they have to be absent from
+                    either, it should be <hi rendition="#small-caps">Cricket</hi>.</p>
+                <p>The above of course is subject to battle exigencies.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d65-f1" n="1" type="source" xml:id="d65-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d65-f2" n="2" xml:id="d65-f2-content">
+                <p>Alexander was present at both Malta and Yalta, but Eisenhower was not. The
+                    latter’s chief of staff, Lieutenant General Walter Bedell Smith, was, however,
+                    in attendance at Malta.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

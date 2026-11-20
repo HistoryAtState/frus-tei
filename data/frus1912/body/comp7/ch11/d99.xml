@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d99" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Ambassador to Germany to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d99"
+                    type="canonical"/>
+                <relatedItem target="d98.xml" type="prev"/>
+                <relatedItem target="d100.xml" type="next"/>
+                <relatedItem target="../ch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d99</bibl>
+                <bibl type="frus-division-n">99</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="80" to="80" unit="page"
+                        >80</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1912-06-17">
+                        <hi rendition="#italic">June 17, 1912</hi></date>
+                    <date notAfter="1912-06-17T23:59:59-05:00" notBefore="1912-06-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d99">
+
+                <pb facs="0196" n="80" sameAs="frus:frus1912/pg80"/>
+
+                <note rend="inline" type="source">File No. 893.51/949.</note>
+                <head>
+                    <hi rendition="#italic">The American Ambassador to Germany to the Secretary of
+                        State</hi>.</head>
+                <opener>
+                    <seg rendition="#center">[Telegram.—Paraphrase.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Berlin</hi></placeName>, <date
+                            calendar="gregorian" when="1912-06-17">
+                            <hi rendition="#italic">June 17, 1912</hi></date>.</dateline>
+                </opener>
+                <p>The German Government is strongly of the opinion that there must be no deviation
+                    from the attitude assumed toward Russia and Japan; that is to say, we can
+                    recognize in them only such special rights and privileges in Mongolia and
+                    Manchuria as they may have acquired by formal treaties or conventions with the
+                    old Chinese Government.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Leishman</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

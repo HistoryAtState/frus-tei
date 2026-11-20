@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d82" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Joint Chiefs of Staff to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d82"
+                    type="canonical"/>
+                <relatedItem target="d81.xml" type="prev"/>
+                <relatedItem target="d83.xml" type="next"/>
+                <relatedItem target="../ch2subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d82</bibl>
+                <bibl type="frus-division-n">82</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="97" to="97" unit="page"
+                        >97</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-04">4 September 1944</date>
+                    <date notAfter="1944-09-04T23:59:59-05:00" notBefore="1944-09-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Capital1">Capital</term>
+                    <term ref="frus:frus1944Quebec/terms#t_EW1">EW</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d82">
+
+                <pb facs="0153" n="97" sameAs="frus:frus1944Quebec/pg97"/>
+
+                <note rend="inline" type="source">740.00119 EW/10–1344</note>
+                <head><hi rendition="#italic">The Joint Chiefs of Staff to the Secretary of
+                        State</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1944-09-04">4 September 1944</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">My Dear Mr. Secretary</hi>: It is understood that the
+                    immediate disposition of units of the German fleet in connection with the
+                    imposition of surrender terms upon the defeat of Germany is presently under
+                    advisement in the European Advisory Commission, and that it has been tentatively
+                    agreed that the ultimate disposition of the units of the German fleet will be a
+                    matter for decision by the governments of the United Nations concerned.</p>
+                <p>It is the view of the Joint Chiefs of Staff that, except for the retention of a
+                    limited number of ships for experimental and test pur poses, the German fleet
+                    should be completely destroyed.</p>
+                <p>In the event that agreement cannot be reached with the Russians and the British
+                    on this basis, the United States should press for either: <list>
+                        <label><hi rendition="#italic">a</hi>.</label>
+                        <item>A one-third share of each category of ships in the German fleet;
+                            or</item>
+                        <label><hi rendition="#italic">b</hi>.</label>
+                        <item>Agreement that all capital ships, such as battleships, pocket
+                            battleships and heavy cruisers, and submarines be destroyed, while
+                            smaller craft and more lightly armed vessels be shared equally by the
+                            United States, Russia, and Great Britain.<anchor n="1" xml:id="d82-f1"
+                            /></item>
+                    </list></p>
+                <p>Sincerely yours,</p>
+                <closer>For the Joint Chiefs of Staff:<lb/><signed><hi rendition="#small-caps"
+                            >William D. Leahy</hi></signed><lb/><hi rendition="#italic">Admiral,
+                        U.S. Navy</hi><lb/><hi rendition="#italic">Chief of Staff to the Commander
+                        in Chief of the Army and Navy</hi></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d82-f1" n="1" xml:id="d82-f1-content">
+                <p>For action taken on this memorandum by Roosevelt after the Second Quebec
+                    Conference, see <ref target="frus1944v01#pg_356"><hi rendition="#italic">Foreign
+                            Relations</hi>, 1944, vol. <hi rendition="#small-caps">i</hi>, p.
+                        356</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

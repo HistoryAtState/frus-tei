@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d106" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Generalissimo Chiang to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d106"
+                    type="canonical"/>
+                <relatedItem target="d105.xml" type="prev"/>
+                <relatedItem target="d107.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d106</bibl>
+                <bibl type="frus-division-n">106</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="73" to="73" unit="page"
+                        >73</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Chungking</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-09">9 November 1943</date>
+                    <date notAfter="1943-11-09T23:59:59-05:00" notBefore="1943-11-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CKS1">Chiang Kai-shek</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CMlS1">Chiang, May-ling
+                        (Soong)</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_LS1">Lin Sen</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MGC1">Marshall, George C.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SJW1">Stilwell, Joseph W.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_Generalissimo1">Generalissimo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d106">
+
+                <pb facs="0165" n="73" sameAs="frus:frus1943CairoTehran/pg73"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Generalissimo Chiang to President
+                        Roosevelt</hi><anchor n="1" xml:id="d106-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Chungking</hi></placeName>, <date calendar="gregorian"
+                            when="1943-11-09">9 November 1943</date>.</dateline>
+                </opener>
+                <p>Mme Chiang down with flu and dysentery. Funeral of late President Lin Sen
+                    scheduled for 17th. Provided Mme Chiang has recovered I intend to leave here
+                    early on the 18th. Otherwise I must delay my departure, in which case your
+                    conference with Stalin can take place before ours. I prefer seeing you before
+                    you see Stalin and sincerely hope our plans will work out in that way.</p>
+                <closer><signed><hi rendition="#small-caps">Chiang Kai-shek</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d106-f1" n="1" type="source" xml:id="d106-f1-content">
+                <p>Sent by Stilwell, via Army channels, in telegram 858, November 9, 1943, which was
+                    marked as “Secret”, “Priority”, and “For the eyes of Gen Marshall only for
+                    transmission to the President”.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

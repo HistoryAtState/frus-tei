@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1928v02_comp9" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ecuador:</title>
+            </titleStmt>
+            <xi:include href="../frus1928v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1928v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1928v02/comp9"
+                    type="canonical"/>
+                <relatedItem target="comp8/ch52.xml" type="prev"/>
+                <relatedItem target="comp9/ch53.xml" type="next"/>
+                <relatedItem target="../frus1928v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1928v02</bibl>
+                <bibl type="frus-division-id">comp9</bibl>
+                <bibl type="frus-division-n">9</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="742" to="742" unit="page"
+                        >742</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1928-08-14T19:00:00-05:00" notBefore="1928-08-13T19:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp9">
+
+                <pb facs="0860" n="742" xml:id="pg742"/>
+
+                <head>Ecuador:</head>
+
+                <xi:include href="comp9/ch53.xml" xpointer="ch53"/>
+            </div>
+        </body>
+    </text>
+</TEI>

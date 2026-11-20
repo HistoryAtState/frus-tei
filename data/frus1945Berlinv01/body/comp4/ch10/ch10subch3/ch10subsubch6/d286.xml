@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d286" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 286</title>
+                <title type="subtitle">Briefing Book Paper</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d286"
+                    type="canonical"/>
+                <relatedItem target="d285.xml" type="prev"/>
+                <relatedItem target="d286-a1.xml" type="next"/>
+                <relatedItem target="../ch10subsubch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d286</bibl>
+                <bibl type="frus-division-n">286</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="362" to="366" unit="page"
+                        >362–66</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-07-05T23:59:59-05:00" notBefore="1945-07-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_B5">Bulgaria</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_R4">Russia, The Tsar of</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_Y1">Yugoslavia, The King of</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d286">
+
+                <pb facs="0494" n="362" sameAs="frus:frus1945Berlinv01/pg362"/>
+
+                <note rend="inline" type="source">740.00119 (Potsdam)/5–2446</note>
+                <head>No. 286<lb/><hi rendition="#italic">Briefing Book Paper</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Bulgarian Background Information</hi>
+                </p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">summary</hi>
+                </p>
+                <p>Since the formation of the present Fatherland Front Government in Bulgaria and
+                    the institution of the armistice regime under an Allied (Soviet) Control
+                    Commission, the Bulgarian Workers’ Party (communist) has spared no effort to
+                    consolidate its control of the country. By means of political maneuvering and
+                    intimidation by the communist-controlled militia, moderate elements in the
+                    Agrarian, Social Democratic and Union–Zveno parties have been eliminated from
+                    the Fatherland Front, and the latter, still nominally including those parties,
+                    now faces the forthcoming elections, announced for August 26, with an entirely
+                    communist complexion.</p>
+                <p>The Allied Control Commission has entered the so-called “second” period (that
+                    following the cessation of hostilities) still without effective American and
+                    British participation, and the news blackout of the satellite countries is
+                    complete in Bulgaria, the United States Government having so far been unable to
+                    arrange for the entry of any American correspondents.</p>
+                <pb facs="0495" n="363" xml:id="pg363"/>
+                <p>Soviet forces in the country are now said to number 200,000 and the recently
+                    concluded Bulgarian–U. S. S. R. trade pact<anchor n="1" xml:id="d286-f1"/> is
+                    contributing to the deterioration of a Bulgarian economy already strained by
+                    Soviet demands for provisions for her military establishment and for export to
+                    Russia.</p>
+                <p>Meanwhile, Bulgaria continues to orient itself toward Yugoslavia, federation with
+                    that country or some other similar close association being widely discussed. A
+                    Yugoslav-Bulgarian pact of friendship<anchor n="2" xml:id="d286-f2"/> is
+                    proposed and a Yugoslav Minister has been appointed to Sofia.</p>
+                <closer>
+                    <dateline rendition="#float-left">[<placeName>
+                            <hi rendition="#small-caps">Washington</hi>
+                        </placeName>,] <date calendar="gregorian" when="1945-07-05">July 5,
+                            1945</date>.</dateline>
+                </closer>
+
+
+                <xi:include href="d286-a1.xml" xpointer="d286-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d286-f1" n="1" xml:id="d286-f1-content">
+                <p>Signed at Moscow, March 14–15, 1945. Not printed.</p>
+            </note>
+            <note corresp="#d286-f2" n="2" xml:id="d286-f2-content">
+                <p>For the text of this proposed agreement, as eventually signed on November 27,
+                    1947, see Department of State, <hi rendition="#italic">Documents and State
+                        Papers</hi>, <ref target="frus1945Berlinv01#pg_241">vol. <hi
+                            rendition="#small-caps">i</hi>, p. 241</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

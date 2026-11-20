@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d15" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Lord to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d15"
+                    type="canonical"/>
+                <relatedItem target="../ch11.xml" type="prev"/>
+                <relatedItem target="../../comp3.xml" type="next"/>
+                <relatedItem target="../ch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d15</bibl>
+                <bibl type="frus-division-n">15</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="24" to="24" unit="page"
+                        >24</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Buenos Ayres</hi></placeName>
+                    <date calendar="gregorian" when="1902-06-16"><hi rendition="#italic">June 16,
+                            1902</hi></date>
+                    <date notAfter="1902-06-16T23:59:59-05:00" notBefore="1902-06-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d15">
+
+                <pb facs="0104" n="24" sameAs="frus:frus1902/pg24"/>
+
+                <head><hi rendition="#italic">Mr. Lord to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Buenos Ayres</hi></placeName>, <date calendar="gregorian"
+                            when="1902-06-16"><hi rendition="#italic">June 16,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 192.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to confirm the
+                    Department’s cablegram<anchor n="b" xml:id="d15-f1"/> of May 24th last, and to
+                    report that, in compliance therewith, I immediately communicated to the minister
+                    for foreign relations the request there in contained, and that the Argentine
+                    Government at once granted the desired permission.</p>
+                <p>I have the further honor to inform you that I have suitably acknowledged the
+                    courtesy of the Argentine Government and have instructed the United States
+                    consuls within its territory to use their good offices in behalf of the
+                    Government and citizens of Cuba until further notice.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Wm. P. Lord.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d15-f1" n="b" xml:id="d15-f1-content">
+                <p>Printed, <ref target="#pg6">page 6</ref></p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

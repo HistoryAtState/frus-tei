@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1922v02_comp25" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Salvador:</title>
+            </titleStmt>
+            <xi:include href="../frus1922v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1922v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1922v02/comp25"
+                    type="canonical"/>
+                <relatedItem target="comp24/ch75/d780.xml" type="prev"/>
+                <relatedItem target="comp25/ch76.xml" type="next"/>
+                <relatedItem target="../frus1922v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1922v02</bibl>
+                <bibl type="frus-division-id">comp25</bibl>
+                <bibl type="frus-division-n">25</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="885" to="892" unit="page"
+                        >885–92</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1923-01-09T17:00:00-05:00" notBefore="1922-01-31T18:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp25">
+
+                <pb facs="0999" n="885" xml:id="pg885"/>
+
+                <head>Salvador:</head>
+
+
+                <xi:include href="comp25/ch76.xml" xpointer="ch76"/>
+                <xi:include href="comp25/ch77.xml" xpointer="ch77"/>
+            </div>
+        </body>
+    </text>
+</TEI>

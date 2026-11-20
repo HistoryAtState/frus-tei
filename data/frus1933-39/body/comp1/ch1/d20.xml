@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1933-39_d20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Joint Statement by President Roosevelt and the Soviet Commissar for Foreign
+                    Affairs (Litvinov), November 10, 1933</title>
+            </titleStmt>
+            <xi:include href="../../../frus1933-39_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1933-39_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1933-39/d20"
+                    type="canonical"/>
+                <relatedItem target="d19.xml" type="prev"/>
+                <relatedItem target="d21.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1933-39</bibl>
+                <bibl type="frus-division-id">d20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="25" to="25" unit="page"
+                        >25</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1933-11-10T23:59:59-05:00" notBefore="1933-11-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1933-39/persons">
+                    <term ref="frus:frus1933-39/persons#p_LMM1">Litvinov, Maxim Maximovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20">
+
+                <pb facs="0131" n="25" sameAs="frus:frus1933-39/pg25"/>
+
+                <head>
+                    <hi rendition="#italic">Joint Statement by President Roosevelt and the Soviet
+                        Commissar for Foreign Affairs</hi> (<hi rendition="#italic">Litvinov</hi>),
+                        <hi rendition="#italic">November 10, 1933</hi><anchor n="27" xml:id="d20-f1"
+                    />
+                </head>
+                <dateline>
+                    <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                        when="1933-11-10">November 10, 1933</date>
+                </dateline>
+                <p>The President and Mr. Litvinoff reviewed the questions between the two countries
+                    which had previously been discussed between the Secretary of State and Mr.
+                    Litvinoff.</p>
+                <p>These conversations with the President and the State Department will continue in
+                    normal course.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d20-f1" n="27" type="source" xml:id="d20-f1-content">
+                <p>Issued by the White House as a press release, November 10; reprinted from
+                    Department of State, <hi rendition="#italic">Press Releases</hi>, November 11,
+                    1933, p. 263.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

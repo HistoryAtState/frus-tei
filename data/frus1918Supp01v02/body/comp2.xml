@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Supp01v02_comp2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Part III: Neutral Duties</title>
+            </titleStmt>
+            <xi:include href="../frus1918Supp01v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1918Supp01v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Supp01v02/comp2"
+                    type="canonical"/>
+                <relatedItem target="comp1/ch17/d866.xml" type="prev"/>
+                <relatedItem target="comp2/ch18.xml" type="next"/>
+                <relatedItem target="../frus1918Supp01v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Supp01v02</bibl>
+                <bibl type="frus-division-id">comp2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="1769" to="1807" unit="page"
+                        >1769–1807</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1918-10-03T19:00:00-05:00" notBefore="1918-03-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp2">
+
+                <pb facs="0935" n="1769" xml:id="pg1769"/>
+
+                <head>Part III: Neutral Duties</head>
+
+
+
+
+
+
+                <xi:include href="comp2/ch18.xml" xpointer="ch18"/>
+                <xi:include href="comp2/ch19.xml" xpointer="ch19"/>
+                <xi:include href="comp2/ch20.xml" xpointer="ch20"/>
+                <xi:include href="comp2/ch21.xml" xpointer="ch21"/>
+                <xi:include href="comp2/ch22.xml" xpointer="ch22"/>
+                <xi:include href="comp2/ch23.xml" xpointer="ch23"/>
+            </div>
+        </body>
+    </text>
+</TEI>

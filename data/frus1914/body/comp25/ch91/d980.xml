@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d980" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d980"
+                    type="canonical"/>
+                <relatedItem target="d979.xml" type="prev"/>
+                <relatedItem target="d981.xml" type="next"/>
+                <relatedItem target="../ch91.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d980</bibl>
+                <bibl type="frus-division-n">980</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="634" to="634" unit="page"
+                        >634</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Mexico City</hi></placeName>
+                    <date calendar="gregorian" when="1914-12-23">
+                        <hi rendition="#italic">December 23, 1914</hi></date>
+                    <date notAfter="1914-12-23T23:59:59-05:00" notBefore="1914-12-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d980">
+
+                <pb facs="0750" n="634" sameAs="frus:frus1914/pg634"/>
+
+                <note rend="inline" type="source">File No. 812.00/14076.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Mexico City</hi></placeName>, <date
+                            calendar="gregorian" when="1914-12-23">
+                            <hi rendition="#italic">December 23, 1914</hi></date>.</dateline>
+                </opener>
+                <p>The Provisional President announces publicly today that he has had a very
+                    satisfactory interview with General Villa and that the general will remain in
+                    this city indefinitely. He has taken a house here. It is again published that
+                    satisfactory arrangements have been made with the troops north of San Luis
+                    Potosí.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Silliman</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

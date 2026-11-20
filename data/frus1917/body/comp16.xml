@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_comp16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Guatemala:</title>
+            </titleStmt>
+            <xi:include href="../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/comp16"
+                    type="canonical"/>
+                <relatedItem target="comp15/ch30/d923-a1.xml" type="prev"/>
+                <relatedItem target="comp16/ch31.xml" type="next"/>
+                <relatedItem target="../frus1917.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">comp16</bibl>
+                <bibl type="frus-division-n">16</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="751" to="801" unit="page"
+                        >751–801</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1917-12-31T23:59:59-05:00" notBefore="1917-02-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp16">
+
+                <pb facs="0917" n="751" xml:id="pg751"/>
+
+                <head>Guatemala:</head>
+
+
+
+
+
+
+                <xi:include href="comp16/ch31.xml" xpointer="ch31"/>
+                <xi:include href="comp16/ch32.xml" xpointer="ch32"/>
+                <xi:include href="comp16/ch33.xml" xpointer="ch33"/>
+                <xi:include href="comp16/ch34.xml" xpointer="ch34"/>
+            </div>
+        </body>
+    </text>
+</TEI>

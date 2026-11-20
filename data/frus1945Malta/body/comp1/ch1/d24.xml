@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d24" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marshal Stalin to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d24"
+                    type="canonical"/>
+                <relatedItem target="d23.xml" type="prev"/>
+                <relatedItem target="d25.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d24</bibl>
+                <bibl type="frus-division-n">24</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="18" to="18" unit="page"
+                        >18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1944-11-23T23:59:59-05:00" notBefore="1944-11-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d24">
+
+                <pb facs="0100" n="18" xml:id="pg18"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head>
+                    <hi rendition="#italic">Marshal Stalin to President Roosevelt </hi><anchor n="1"
+                        xml:id="d24-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">Translation<anchor n="2" xml:id="d24-f2"/>
+                    </seg>
+                </opener>
+                <p>Personal and Secret from Premier J. V. Stalin to President F. D. Roosevelt.</p>
+                <p>It is greatly regretted that your naval organs doubt the expedience of your
+                    initial supposition that the Soviet coast of the Black Sea should be chosen as
+                    the meeting place for the three of us. The suggested by you date of the meeting
+                    at the end of January or beginning of February has no objections on my part, but
+                    at the same time I have in mind that we shall succeed in choosing as a meeting
+                    place one of the Soviet port cities. I still have to take into consideration the
+                    advice of the doctors about the danger of long trips.</p>
+                <p>I still hope, however, that we shall succeed, if not right now, then somewhat
+                    later to agree finally upon an acceptable for all of us meeting place.</p>
+                <p>I am sending you my very best wishes.</p>
+                <dateline>
+                    <date calendar="gregorian" when="1944-11-23"><hi rendition="#small-caps"
+                            >November</hi> 23, 1944</date>.</dateline>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d24-f1" n="1" type="source" xml:id="d24-f1-content">
+                <p>Apparently transmitted by the Soviet Embassy, Washington.</p>
+            </note>
+            <note corresp="#d24-f2" n="2" xml:id="d24-f2-content">
+                <p>Appears on the original.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

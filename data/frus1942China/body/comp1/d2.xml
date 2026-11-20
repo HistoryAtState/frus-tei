@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1942China_d2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Coordinator of Information (Donovan) to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../frus1942China_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1942China_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1942China/d2"
+                    type="canonical"/>
+                <relatedItem target="d1.xml" type="prev"/>
+                <relatedItem target="d2-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1942China</bibl>
+                <bibl type="frus-division-id">d2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="2" to="3" unit="page"
+                    >2–3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1942-01-09T18:00:00-05:00">January 9, 1942—6
+                        p.m.</date>
+                    <date notAfter="1942-01-09T18:00:00-05:00" notBefore="1942-01-09T18:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d2">
+
+                <pb facs="0012" n="2" sameAs="frus:frus1942China/pg2"/>
+
+                <head>
+                    <hi rendition="#italic">The Coordinator of Information</hi> (<hi
+                        rendition="#italic">Donovan</hi>) <hi rendition="#italic">to President
+                        Roosevelt </hi><anchor n="4" xml:id="d2-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 142</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1942-01-09T18:00:00-05:00">January 9, 1942—6 p.m.</date>
+                    </dateline>
+                </opener>
+                <p>Dr. Soong has just come in. He brought with him the attached telegram from
+                    General Chiang Kai-shek dated January 7, 1942. He asked that I get it to you
+                    personally. Also, he asked me to say to you that if you felt there was any
+                    impropriety in his passing this along direct to you, and not through the State
+                    Department, please to let him know and he will go to them. But he hoped that he
+                    might have certain things like this established through a more direct line of
+                    communication.</p>
+                <p>He also asked that after you have read the telegram, if you wish to give him any
+                    reply direct to his General, he will appreciate it.</p>
+
+
+                <xi:include href="d2-a1.xml" xpointer="d2-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d2-f1" n="4" type="source" xml:id="d2-f1-content">
+                <p>Photostatic copy obtained from the Franklin D. Roosevelt Library, Hyde Park, N.
+                    Y.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

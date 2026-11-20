@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_d27" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/d27"
+                    type="canonical"/>
+                <relatedItem target="d26.xml" type="prev"/>
+                <relatedItem target="d28.xml" type="next"/>
+                <relatedItem target="../ch19.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">d27</bibl>
+                <bibl type="frus-division-n">27</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="30" to="30" unit="page"
+                        >30</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Petropolis</hi></placeName>
+                    <date calendar="gregorian" when="1911-01-15"><hi rendition="#italic">January 15,
+                            1911</hi></date>
+                    <date notAfter="1911-01-15T23:59:59-05:00" notBefore="1911-01-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d27">
+
+                <pb facs="0112" n="30" sameAs="frus:frus1911/pg30"/>
+
+                <note rend="inline" type="source">File No. 611.3231/187.</note>
+                <head>[Untitled]</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                            >Petropolis</hi></placeName>, <date calendar="gregorian"
+                            when="1911-01-15"><hi rendition="#italic">January 15,
+                        1911</hi></date>.</dateline></opener>
+                <p>Executive decree 12th grants tariff reduction during 1911 of 30 per cent, an
+                        increase<anchor n="1" xml:id="d27-f1"/> on American flour and 20 per cent on
+                    remaining 15 items so favored during 1910. Have submitted supplemental list, but
+                    further concessions this year improbable. Conclusion of a reciprocity may be
+                    proposed.</p>
+                <closer><signed><hi rendition="#small-caps">Dudley.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d27-f1" n="1" xml:id="d27-f1-content">
+                <p>In increase of the reduction.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

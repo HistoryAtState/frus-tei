@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d926" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adee to Mr. Ruffin.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d926"
+                    type="canonical"/>
+                <relatedItem target="d925.xml" type="prev"/>
+                <relatedItem target="d927.xml" type="next"/>
+                <relatedItem target="../ch184.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d926</bibl>
+                <bibl type="frus-division-n">926</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="860" to="860" unit="page"
+                        >860</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1904-08-15"><hi rendition="#italic">August 15,
+                            1904</hi></date>
+                    <date notAfter="1904-08-15T23:59:59-05:00" notBefore="1904-08-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d926">
+
+                <pb facs="0948" n="860" sameAs="frus:frus1904/pg860"/>
+
+                <head><hi rendition="#italic">Mr. Adee to Mr. Ruffin.</hi></head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1904-08-15"><hi rendition="#italic">August 15,
+                        1904</hi></date>.</dateline></opener>
+                <p>Consulate should not be used as an asylum for political refugees.</p>
+                <closer><signed><hi rendition="#small-caps">Adee.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

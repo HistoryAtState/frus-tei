@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d211" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Squiers.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d211"
+                    type="canonical"/>
+                <relatedItem target="d210-a1.xml" type="prev"/>
+                <relatedItem target="d211-a1.xml" type="next"/>
+                <relatedItem target="../ch52.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d211</bibl>
+                <bibl type="frus-division-n">211</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="250" to="252" unit="page"
+                        >250–52</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1904-11-25"><hi rendition="#italic">November
+                            25, 1904</hi></date>
+                    <date notAfter="1904-11-25T23:59:59-05:00" notBefore="1904-11-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d211">
+
+                <pb facs="0338" n="250" sameAs="frus:frus1904/pg250"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. Squiers.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1904-11-25"><hi rendition="#italic">November 25,
+                        1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 418.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to Nos. 1101, of October 22, and
+                    1104, of October 28, from your legation, all indicating deterioration in the
+                    sanitary condition of certain Cuban ports and districts, and referring also to
+                        <pb facs="0339" n="251" xml:id="pg251"/> the Department’s No. 206, of April
+                    13, 1903,<anchor n="a" xml:id="d211-f1"/> I inclose for your information copy of
+                    a letter from the Secretary of the Treasury.</p>
+                <p>You will point out to the Cuban Government in unmistakable terms that, unless
+                    some efficient system of insuring good sanitary conditions for the cities of
+                    Matanzas and Santiago shall be carried out before the beginning of the active
+                    quarantine season of the coming year, it may and will probably become necessary
+                    for this Government to declare quarantine against Cuban ports.</p>
+                <p>The reports received by this Government from its consular officers and the
+                    officers of the Public Health and Marine-Hospital Service indicate that the
+                    sanitary condition of the island is worse than last year, and that the state of
+                    affairs is most serious.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+                <xi:include href="d211-a1.xml" xpointer="d211-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d211-f1" n="a" xml:id="d211-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

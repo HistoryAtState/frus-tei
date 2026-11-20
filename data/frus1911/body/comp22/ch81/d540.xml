@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_d540" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/d540"
+                    type="canonical"/>
+                <relatedItem target="d539.xml" type="prev"/>
+                <relatedItem target="d541.xml" type="next"/>
+                <relatedItem target="../ch81.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">d540</bibl>
+                <bibl type="frus-division-n">540</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="403" to="403" unit="page"
+                        >403</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1911-02-06T23:59:59-05:00" notBefore="1911-02-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d540">
+
+                <pb facs="0485" n="403" sameAs="frus:frus1911/pg403"/>
+
+                <note rend="inline" type="source">File No. 812.00/694.</note>
+                <head>[Untitled]</head>
+                <p>Referring to the memorandum of the Embassy of Mexico, of the 24th ultimo,<anchor
+                        n="1" xml:id="d540-f1"/> requesting that the investigation of a recent
+                    attempt to remove 100 guns and 75,000 cartridges stored at San Antonio be so
+                    conducted as to prevent the unlawful use of the arms and ammunition mentioned,
+                    the Department of State has the honor to say that it is advised by the Acting
+                    Attorney General, under date of the 27th ultimo, that a prompt investigation of
+                    the matter will be made and such steps will be taken as the facts in the case
+                    warrant.</p>
+                <closer><dateline rendition="#float-left"><hi rendition="#small-caps">Department of
+                            State</hi>,<lb/><placeName><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1911-02-06"><hi rendition="#italic">February 6,
+                        1911</hi></date>.</dateline></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d540-f1" n="1" xml:id="d540-f1-content">
+                <p>Should be January 11. The Department of State replied to it in an aide mémoire of
+                    January 24.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

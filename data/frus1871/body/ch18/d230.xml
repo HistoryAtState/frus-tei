@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1871_d230" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Schenck to Mr. Fish</title>
+            </titleStmt>
+            <xi:include href="../../frus1871_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1871_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1871/d230"
+                    type="canonical"/>
+                <relatedItem target="d229-a1-a1.xml" type="prev"/>
+                <relatedItem target="d230-a1.xml" type="next"/>
+                <relatedItem target="../ch18.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1871</bibl>
+                <bibl type="frus-division-id">d230</bibl>
+                <bibl type="frus-division-n">230</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="452" to="471" unit="page"
+                        >452–71</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States</hi>, <hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1871-08-08"><hi rendition="#italic">August</hi>
+                        8, 1871</date>
+                    <date notAfter="1871-08-08T23:59:59-05:00" notBefore="1871-08-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d230">
+
+                <pb facs="0666" n="452" sameAs="frus:frus1871/pg452"/>
+
+                <opener><seg rendition="#center">No. 213.</seg></opener>
+                <head>Mr. Schenck to Mr. Fish</head>
+                <opener>
+                    <seg rendition="#float-left">No. 43.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States</hi>,
+                                <hi rendition="#italic">London</hi></placeName>, <date
+                            calendar="gregorian" when="1871-08-08"><hi rendition="#italic"
+                                >August</hi> 8, 1871</date>. (Received August
+                    21.)</dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> You will have noted the discussion which
+                    took place in the House of Commons on Friday last, the 4th instant, on the
+                    motion of Sir Charles Adderley for the production of copies of instructions
+                    given by Her Majesty’s government to their commissioners at Washington. I now
+                    send you, in form for preservation, a full report of that debate, taken from the
+                    London Times of last Saturday.</p>
+                <p>I have, &amp;c.,</p>
+                <closer>
+                    <signed>ROB’T C. SCHENCK.</signed></closer>
+
+
+                <xi:include href="d230-a1.xml" xpointer="d230-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v04_d446-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Tab A</title>
+            </titleStmt>
+            <xi:include href="../../frus1969-76v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1969-76v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v04/d446-a1"
+                    type="canonical"/>
+                <relatedItem target="d446.xml" type="prev"/>
+                <relatedItem target="../../back/index.xml" type="next"/>
+                <relatedItem target="d446.xml" type="parent"/>
+                <relatedItem target="d446.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v04</bibl>
+                <bibl type="frus-division-id">d446-a1</bibl>
+                <bibl type="frus-division-n">446.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1094" to="1094" unit="page"
+                        >1094</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v04/terms">
+                    <term ref="frus:frus1969-76v04/terms#t_DOD1">DOD</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d446-a1">
+
+                <pb facs="1120" n="1094" sameAs="frus:frus1969-76v04/pg1094"/>
+
+                <head>Tab A</head>
+                <p rendition="#center">Revenue Estimates <lb/> ($ Millions)</p>
+                <table cols="5" rows="4">
+                    <row role="label">
+                        <cell cols="2">
+                            <hi rendition="#underline">Stockpile Inventory Requirements Consistent
+                                With</hi>
+                        </cell>
+                        <cell cols="3">
+                            <hi rendition="#underline">Revenues From Excess Sales</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell/>
+                        <cell>
+                            <hi rendition="#underline">1972</hi>
+                        </cell>
+                        <cell>
+                            <hi rendition="#underline">1973-75</hi>
+                        </cell>
+                        <cell>
+                            <hi rendition="#underline">Total Potential</hi>
+                        </cell>
+                    </row>
+                    <row>
+                        <cell>Current Policy</cell>
+                        <cell role="num">4900</cell>
+                        <cell role="num">150</cell>
+                        <cell role="num">900</cell>
+                        <cell role="num">1700</cell>
+                    </row>
+                    <row>
+                        <cell> DOD Recommendation</cell>
+                        <cell role="num">1300</cell>
+                        <cell role="num">—</cell>
+                        <cell role="num">1000/1200</cell>
+                        <cell role="num">5300</cell>
+                    </row>
+                </table>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1923v02_d5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in France (Herrick) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1923v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1923v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1923v02/d5"
+                    type="canonical"/>
+                <relatedItem target="d4.xml" type="prev"/>
+                <relatedItem target="d5-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1923v02</bibl>
+                <bibl type="frus-division-id">d5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="4" to="6" unit="page"
+                    >4–6</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Paris</hi></placeName>
+                    <date calendar="gregorian" when="1923-11-07"><hi rendition="#italic">November 7,
+                            1923</hi></date>
+                    <date notAfter="1923-11-07T23:59:59-05:00" notBefore="1923-11-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d5">
+
+                <pb facs="0128" n="4" xml:id="pg4"/>
+
+                <note rend="inline" type="source">890d.01/164</note>
+                <head><hi rendition="#italic">The Ambassador in France</hi> (<hi rendition="#italic"
+                        >Herrick</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Paris</hi></placeName>, <date calendar="gregorian"
+                            when="1923-11-07"><hi rendition="#italic">November 7,
+                        1923</hi></date>.<lb/>[Received November 21.]</dateline>
+                    <seg rendition="#float-left">No. 3645</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In accordance with your telegram No. 391,
+                    of October 23, 1923, 3 p.m., on October 24th the Embassy informed the French
+                    Foreign Office in writing that the United States Government was prepared to
+                    resume negotiations for the conclusion of a convention relative to the Mandate
+                    for Syria and the Lebanon.</p>
+                <p>I am now in receipt of a reply from the Foreign Office dated November 2, 1923,
+                    copy and translation of which are enclosed. In this note the Department will
+                    observe that the French Government communicates the substance of its assurances
+                    to the Italian Government.</p>
+                <p>I learned from a private source that the only reason why the texts of the notes
+                    exchanged between the Foreign Office and the Italian Ambassador in Paris were
+                    not communicated to us, is because mention is made therein of the Tripartite
+                        agreement.<anchor n="5" xml:id="d5-f1"/> The mention of the Tripartite
+                    agreement is made in the last sentence of Paragraph 3 of Mr. Poincaré’s note to
+                    this Embassy. The clause in question was read to me and it would in substance be
+                    the same if the phrase “under the Tripartite agreement” was substituted for the
+                    words “in the settlement of the peace in the Orient”.</p>
+                <p>I likewise enclose herewith the text in English and French of the Convention as
+                    agreed upon in July 1922,<anchor n="6" xml:id="d5-f2"/> with the slight
+                    modifications rendered necessary by the fact that the Mandate is now in force.
+                    If this text is satisfactory to the Department, full powers can be telegraphed
+                    me and the Convention signed.</p>
+                <p>I have [etc.]</p>
+                <closer><signed><hi rendition="#small-caps">Myron T. Herrick</hi></signed></closer>
+
+
+                <xi:include href="d5-a1.xml" xpointer="d5-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d5-f1" n="5" xml:id="d5-f1-content">
+                <p>Agreement, between Great Britain, France, and Italy, signed at Sèvres, Aug. 10,
+                    1920, relating to spheres of special interests in Anatolia; <hi
+                        rendition="#italic">British and Foreign State Papers</hi>, 1920, vol. <hi
+                        rendition="#small-caps">cxiii</hi>, p. 797.</p>
+            </note>
+            <note corresp="#d5-f2" n="6" xml:id="d5-f2-content">
+                <p>See <ref target="frus1922v02#pg_131"><hi rendition="#italic">Foreign
+                            Relations</hi>, 1922, vol. <hi rendition="#small-caps">ii</hi>, p.
+                        131</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

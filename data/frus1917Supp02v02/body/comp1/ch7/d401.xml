@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917Supp02v02_d401" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Chile (Shea) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1917Supp02v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917Supp02v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1917Supp02v02/d401"
+                    type="canonical"/>
+                <relatedItem target="d400.xml" type="prev"/>
+                <relatedItem target="../../comp2.xml" type="next"/>
+                <relatedItem target="../ch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917Supp02v02</bibl>
+                <bibl type="frus-division-id">d401</bibl>
+                <bibl type="frus-division-n">401</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1262" to="1262" unit="page"
+                        >1262</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Santiago</hi></placeName>
+                    <date calendar="gregorian" when="1917-10-11T15:00:00-04:42">
+                        <hi rendition="#italic">October 11, 1917, 3 p.m.</hi>
+                    </date>
+                    <date notAfter="1917-10-11T14:42:00-05:00" notBefore="1917-10-11T14:42:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1917Supp02v01/persons">
+                    <term ref="frus:frus1917Supp02v01/persons#p_SJH1">Shea, Joseph H.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d401">
+
+                <pb facs="0508" n="1262" sameAs="frus:frus1917Supp02v02/pg1262"/>
+
+                <note rend="inline" type="source">File No. 862.85/184</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Chile</hi> (<hi rendition="#italic"
+                        >Shea</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Santiago</hi></placeName>, <date
+                            calendar="gregorian" when="1917-10-11T15:00:00-04:42">
+                            <hi rendition="#italic">October 11, 1917, 3 p.m.</hi>
+                        </date>
+                        <lb/> [<hi rendition="#italic">Received 9.35 p.m.</hi>]</dateline>
+                </opener>
+                <p>I was invited to the Moneda late yesterday afternoon to discuss with the
+                    President my note to the Foreign Office requesting agreement with respect to
+                    arrival of German vessels taken over by the United States as directed by your
+                    cipher telegram of October 6, 5 p.m. … within two hours time there was delivered
+                    to the Embassy a <hi rendition="#italic">note verbale</hi> of the following
+                    tenor: <quote rend="blockquote">
+                        <p>In answer to the Embassy’s note No. 100 of the 8th instant<anchor n="1"
+                                xml:id="d401-f1"/> the Ministry of Foreign Affairs of Chile assures
+                            the most excellent Ambassador of the United States that the vessels to
+                            which reference is made in his above-mentioned communication may come to
+                            our ports sure to find therein the facilities and guarantees which are
+                            solicited and which the Government of Chile is glad to give.</p>
+                    </quote>
+                </p>
+                <p>My judgment is that the references in this note to the subject matter of my note
+                    and the specific guarantees therein requested under ordinary circumstances make
+                    a complete contract.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Shea</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d401-f1" n="1" xml:id="d401-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

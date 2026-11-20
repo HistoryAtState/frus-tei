@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v01_appendix" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appendix</title>
+            </titleStmt>
+            <xi:include href="../frus1981-88v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1981-88v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v01/appendix"
+                    type="canonical"/>
+                <relatedItem target="../body/comp1/ch9/d335.xml" type="prev"/>
+                <relatedItem target="appendix/appendix-A.xml" type="next"/>
+                <relatedItem target="../frus1981-88v01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v01</bibl>
+                <bibl type="frus-division-id">appendix</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">appendix</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1561" to="1565" unit="page"
+                        >1561–65</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1989-01-11T23:59:59-05:00" notBefore="1975-11-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="appendix">
+
+                <pb facs="1630" n="1561" xml:id="pg1561"/>
+
+                <head>Appendix</head>
+
+
+
+
+
+                <gap reason="convenience" unit="pages"/>
+                <xi:include href="appendix/appendix-A.xml" xpointer="appendix-A"/>
+                <xi:include href="appendix/appendix-B.xml" xpointer="appendix-B"/>
+                <xi:include href="appendix/appendix-C.xml" xpointer="appendix-C"/>
+            </div>
+        </body>
+    </text>
+</TEI>

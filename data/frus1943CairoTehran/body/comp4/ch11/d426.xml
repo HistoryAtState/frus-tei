@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d426" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Prime Minister’s Assistant Private Secretary (Brown) to the President’s
+                    Special Assistant (Hopkins)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d426"
+                    type="canonical"/>
+                <relatedItem target="../ch11.xml" type="prev"/>
+                <relatedItem target="d426-a1.xml" type="next"/>
+                <relatedItem target="../ch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d426</bibl>
+                <bibl type="frus-division-n">426</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="662" to="663" unit="page"
+                        >662–63</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Cairo</hi></placeName>
+                    <date calendar="gregorian" when="1943-12-02">December 2, 1943</date>
+                    <date notAfter="1943-12-02T23:59:59-05:00" notBefore="1943-12-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_BFDW1">Brown, Francis D. W.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HHL1">Hopkins, Harry L.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d426">
+
+                <pb facs="0766" n="662" sameAs="frus:frus1943CairoTehran/pg662"/>
+
+                <note rend="inline" type="source">Hopkins Papers</note>
+                <head><hi rendition="#italic">The Prime Minister’s Assistant Private Secretary</hi>
+                        (<hi rendition="#italic">Brown</hi>) <hi rendition="#italic">to the
+                        President’s Special Assistant</hi> (<hi rendition="#italic"
+                    >Hopkins</hi>)</head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">most secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">most immediate</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Cairo</hi></placeName>, <date calendar="gregorian"
+                            when="1943-12-02">December 2, 1943</date>.]</dateline>
+                </opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Mr. Hopkins.</hi></p>
+                <p>The Prime Minister has instructed me to send down to you immediately, for the
+                    President’s information, the attached copy of telegram No. 365 from Angora to
+                    the Minister of State, Cairo, which was repeated to Teheran and which the Prime
+                    Minister saw last night, and of telegram No. 394 from Angora to the Embassy at
+                    Cairo which has just been received.</p>
+                <closer><signed>F. D. W. <hi rendition="#small-caps">Brown</hi></signed></closer>
+                <postscript>
+                    <p rendition="#flush">2.12.43</p>
+                </postscript>
+
+
+
+                <xi:include href="d426-a1.xml" xpointer="d426-a1"/>
+                <xi:include href="d426-a2.xml" xpointer="d426-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

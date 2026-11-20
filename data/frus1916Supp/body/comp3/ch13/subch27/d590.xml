@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916Supp_d590" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Vice Consul at London (Westacott) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1916Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1916Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1916Supp/d590"
+                    type="canonical"/>
+                <relatedItem target="d589.xml" type="prev"/>
+                <relatedItem target="d590-a1.xml" type="next"/>
+                <relatedItem target="../subch27.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916Supp</bibl>
+                <bibl type="frus-division-id">d590</bibl>
+                <bibl type="frus-division-n">590</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="484" to="485" unit="page"
+                        >484–85</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1916-11-10">
+                        <hi rendition="#italic">November 10, 1916</hi>
+                    </date>
+                    <date notAfter="1916-11-10T23:59:59-05:00" notBefore="1916-11-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1916Supp/persons">
+                    <term ref="frus:frus1916Supp/persons#p_WR1">Westacott, Richard</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d590">
+
+                <pb facs="0770" n="484" sameAs="frus:frus1916Supp/pg484"/>
+
+                <note rend="inline" type="source">File No. 300.115/10757</note>
+                <head>
+                    <hi rendition="#italic">The Vice Consul at London</hi> (<hi rendition="#italic"
+                        >Westacott</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1916-11-10">
+                            <hi rendition="#italic">November 10, 1916</hi>
+                        </date>.<lb/>[<hi rendition="#italic">Received November 21</hi>.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to enclose herewith, in
+                    duplicate, a return of shipping detentions at Kirkwall during the month of
+                    October 1916.</p>
+                <p>I have [etc]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Richard Westacott</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d590-a1.xml" xpointer="d590-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

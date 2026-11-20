@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1876_d98-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../frus1876_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1876_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1876/d98-a1"
+                    type="canonical"/>
+                <relatedItem target="d98.xml" type="prev"/>
+                <relatedItem target="d98-a1-a1.xml" type="next"/>
+                <relatedItem target="d98.xml" type="parent"/>
+                <relatedItem target="d98.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1876</bibl>
+                <bibl type="frus-division-id">d98-a1</bibl>
+                <bibl type="frus-division-n">98.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="182" to="182" unit="page"
+                        >182</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d98-a1">
+
+                <pb facs="0238" n="182" xml:id="pg182"/>
+
+                <opener><seg rendition="#center">[Inclosure.]</seg></opener>
+                <p><hi rendition="#italic">Copy of the report of the committee appointed by the
+                        admiralty, the board of trade, and the Trinity House, to consider the
+                        regulations for preventing collisions at sea</hi>, (<hi rendition="#italic"
+                        >rule of the road at sea</hi>,) <hi rendition="#italic">and of the
+                        amendments proposed by them, together with a copy of the letter addressed by
+                        the board of trade to the foreign office upon the subject</hi>, (<hi
+                        rendition="#italic">in continuation of parliamentary paper No</hi>. 353, <hi
+                        rendition="#italic">of session</hi> 1874.)</p>
+                <closer><signed>T. H. FARRER.</signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><hi rendition="#small-caps">Board of
+                            Trade</hi>, <date calendar="gregorian" when="1876-02-22"><hi
+                                rendition="#italic">February</hi> 22,
+                    1876</date>.</dateline></closer>
+
+
+                <xi:include href="d98-a1-a1.xml" xpointer="d98-a1-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

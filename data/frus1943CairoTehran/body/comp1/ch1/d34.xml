@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d34" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The British Chargé (Campbell) to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d34"
+                    type="canonical"/>
+                <relatedItem target="d33.xml" type="prev"/>
+                <relatedItem target="d34-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d34</bibl>
+                <bibl type="frus-division-n">34</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="25" to="26" unit="page"
+                        >25–26</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-09-17">September 17, 1943</date>
+                    <date notAfter="1943-09-17T23:59:59-05:00" notBefore="1943-09-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CSRI1">Campbell, Sir Ronald
+                        Ian</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_EA1">Eden, Anthony</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_SIV1">Stalin, Iosif
+                        Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d34">
+
+                <pb facs="0117" n="25" sameAs="frus:frus1943CairoTehran/pg25"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head><hi rendition="#italic">The British Chargé</hi> (<hi rendition="#italic"
+                        >Campbell</hi>) <hi rendition="#italic">to President Roosevelt</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">most secret &amp;
+                            personal</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1943-09-17">September 17, 1943</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">Dear Mr. President</hi>: A telegram just received
+                    from Mr. Eden<anchor n="1" xml:id="d34-f1"/> informs me that the Prime Minister
+                    before he left<anchor n="2" xml:id="d34-f2"/> drafted a message to Marshal
+                    Stalin; a copy was left with you and it was not to be sent off until your
+                    concurrence was received. A further copy is enclosed for your convenience.</p>
+                <pb facs="0118" n="26" xml:id="pg26"/>
+                <p>Meanwhile a further message has been received from Marshal Stalin addressed
+                    apparently both to yourself and to Mr. Churchill. A copy of this is also
+                        enclosed.<anchor n="3" xml:id="d34-f3"/></p>
+                <p>Mr. Eden has asked me to find out whether you wish to make any comment on the
+                    Prime Minister’s draft message to Marshal Stalin, especially in view of Marshal
+                    Stalin’s message since received.</p>
+                <p>Believe me, Dear Mr. President,</p>
+                <p>Very sincerely yours,</p>
+                <closer><signed>R. I. <hi rendition="#small-caps">Campbell</hi></signed></closer>
+
+
+                <xi:include href="d34-a1.xml" xpointer="d34-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d34-f1" n="1" xml:id="d34-f1-content">
+                <p>Eden had returned to London from the First Quebec Conference.</p>
+            </note>
+            <note corresp="#d34-f2" n="2" xml:id="d34-f2-content">
+                <p>Churchill conferred with Roosevelt in Washington during the early part of
+                    September 1943. The records of the Roosevelt–Churchill discussions at Quebec and
+                    Washington, August–September 1943, are scheduled to be published subsequently in
+                    another volume of the <hi rendition="#italic">Foreign Relations</hi> series.</p>
+            </note>
+            <note corresp="#d34-f3" n="3" xml:id="d34-f3-content">
+                <p>The message as received by Roosevelt from the Soviet Government is printed <hi
+                        rendition="#italic">supra</hi>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

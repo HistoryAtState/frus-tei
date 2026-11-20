@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1907p2_comp6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Liberia</title>
+            </titleStmt>
+            <xi:include href="../frus1907p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1907p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1907p2/comp6"
+                    type="canonical"/>
+                <relatedItem target="comp5/ch24/d222.xml" type="prev"/>
+                <relatedItem target="comp6/ch25.xml" type="next"/>
+                <relatedItem target="../frus1907p2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1907p2</bibl>
+                <bibl type="frus-division-id">comp6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="830" to="832" unit="page"
+                        >830–32</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1907-10-04T23:59:59-05:00" notBefore="1907-05-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp6">
+
+                <pb facs="0980" n="830" xml:id="pg830"/>
+
+                <head>Liberia</head>
+
+
+                <xi:include href="comp6/ch25.xml" xpointer="ch25"/>
+                <xi:include href="comp6/ch26.xml" xpointer="ch26"/>
+            </div>
+        </body>
+    </text>
+</TEI>

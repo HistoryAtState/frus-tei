@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917Supp02v02_d391" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Executive Order No. 2621, May 16, 1917</title>
+            </titleStmt>
+            <xi:include href="../../../frus1917Supp02v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917Supp02v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1917Supp02v02/d391"
+                    type="canonical"/>
+                <relatedItem target="d390.xml" type="prev"/>
+                <relatedItem target="d392.xml" type="next"/>
+                <relatedItem target="../ch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917Supp02v02</bibl>
+                <bibl type="frus-division-id">d391</bibl>
+                <bibl type="frus-division-n">391</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1255" to="1255" unit="page"
+                        >1255</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1917-05-16T23:59:59-05:00" notBefore="1917-05-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1917Supp02v01/persons">
+                    <term ref="frus:frus1917Supp02v01/persons#p_WW1">Wilson, Woodrow</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d391">
+
+                <pb facs="0501" n="1255" sameAs="frus:frus1917Supp02v02/pg1255"/>
+
+                <head>
+                    <hi rendition="#italic">Executive Order No. 2621, May 16, 1917</hi>
+                </head>
+                <p>In accordance with a request of the Secretary of the Navy, concurred in by the
+                    United States Shipping Board, the Secretary of the Treasury is hereby directed
+                    to transfer the German vessel <hi rendition="#italic">Atlas</hi>, now at San
+                    Francisco, to the Commandant of the Twelfth Naval District, for use in harbor
+                    patrol.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Woodrow Wilson</hi>
+                    </signed>
+                    <lb/><dateline rendition="#float-left">
+                        <placeName type="venue">
+                            <hi rendition="#small-caps">The White House</hi>
+                        </placeName>, <lb/>
+                        <date calendar="gregorian" when="1917-05-16"><hi rendition="#italic">16 May,
+                                1917</hi></date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

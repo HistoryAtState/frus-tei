@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1880_d292" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 292.</title>
+                <title type="subtitle">Mr. White to Mr. Evarts.</title>
+            </titleStmt>
+            <xi:include href="../../frus1880_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1880_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1880/d292"
+                    type="canonical"/>
+                <relatedItem target="d291.xml" type="prev"/>
+                <relatedItem target="ch7.xml" type="next"/>
+                <relatedItem target="../comp13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1880</bibl>
+                <bibl type="frus-division-id">d292</bibl>
+                <bibl type="frus-division-n">292</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="461" to="461" unit="page"
+                        >461</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" type="received-date" when="1880-11-29">November 29,
+                        1880</date>
+                    <date notAfter="1880-11-29T23:59:59-05:00" notBefore="1880-11-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d292">
+
+                <pb facs="0561" n="461" sameAs="frus:frus1880/pg461"/>
+
+                <head>No. 292.<lb/><hi rendition="#italic">Mr. White to Mr. Evarts.</hi></head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right">Received <date calendar="gregorian"
+                            type="received-date" when="1880-11-29">November 29,
+                        1880</date>.</dateline></opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Evarts</hi>,<lb/><hi
+                        rendition="#italic">State Department, Washington:</hi></p>
+                <p>Gehres’ Alsace case decided in our favor; all penalties and fines remitted both
+                    for him and Weill.</p>
+                <closer><signed>WHITE</signed>, <hi rendition="#italic">Paris.</hi></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

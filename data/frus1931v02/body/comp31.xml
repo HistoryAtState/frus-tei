@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1931v02_comp31" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Spain:</title>
+            </titleStmt>
+            <xi:include href="../frus1931v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1931v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1931v02/comp31"
+                    type="canonical"/>
+                <relatedItem target="comp30/ch76/d1055.xml" type="prev"/>
+                <relatedItem target="comp31/ch77.xml" type="next"/>
+                <relatedItem target="../frus1931v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1931v02</bibl>
+                <bibl type="frus-division-id">comp31</bibl>
+                <bibl type="frus-division-n">31</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="985" to="1008" unit="page"
+                        >985–1008</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1931-12-31T23:59:59-05:00" notBefore="1931-04-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp31">
+
+                <pb facs="1105" n="985" xml:id="pg985"/>
+
+                <head>Spain:</head>
+
+
+
+                <xi:include href="comp31/ch77.xml" xpointer="ch77"/>
+                <xi:include href="comp31/ch78.xml" xpointer="ch78"/>
+                <xi:include href="comp31/ch79.xml" xpointer="ch79"/>
+            </div>
+        </body>
+    </text>
+</TEI>

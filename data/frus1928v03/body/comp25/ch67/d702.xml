@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1928v03_d702" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chargé in Spain (Blair) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1928v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1928v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1928v03/d702"
+                    type="canonical"/>
+                <relatedItem target="../ch67.xml" type="prev"/>
+                <relatedItem target="d702-a1.xml" type="next"/>
+                <relatedItem target="../ch67.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1928v03</bibl>
+                <bibl type="frus-division-id">d702</bibl>
+                <bibl type="frus-division-n">702</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="832" to="833" unit="page"
+                        >832–33</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Madrid</hi></placeName>
+                    <date calendar="gregorian" when="1928-01-04"><hi rendition="#italic">January 4,
+                            1928</hi></date>
+                    <date notAfter="1928-01-04T23:59:59-05:00" notBefore="1928-01-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d702">
+
+                <pb facs="0942" n="832" sameAs="frus:frus1928v03/pg832"/>
+
+                <note rend="inline" type="source">352.1153 St 2/20</note>
+                <head><hi rendition="#italic">The Chargé in Spain</hi> (<hi rendition="#italic"
+                        >Blair</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener><seg rendition="#center">[Extract]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Madrid</hi></placeName>, <date calendar="gregorian"
+                            when="1928-01-04"><hi rendition="#italic">January 4,
+                        1928</hi></date>.<lb/>[Received January 19.]</dateline>
+                    <seg rendition="#float-left">No. 719</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to refer to the Embassy’s
+                    despatch No. 713 of December 26th, 1927,<anchor n="2" xml:id="d702-f1"/> and to
+                    submit a further report on the Petroleum Monopoly. At the beginning of the week,
+                    a reply was received to the Embassy’s <hi rendition="#italic">Note Verbale</hi>
+                    of December 23rd, 1927,<anchor n="3" xml:id="d702-f2"/> a copy of which was
+                    transmitted with the above mentioned despatch, and I am transmitting herewith
+                    copies of the Spanish text of this note together with the Embassy’s translation.
+                    …</p>
+                <p>I have [etc.]</p>
+                <closer><signed><hi rendition="#small-caps">Percy Blair</hi></signed></closer>
+
+
+                <xi:include href="d702-a1.xml" xpointer="d702-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d702-f1" n="2" xml:id="d702-f1-content">
+                <p><ref target="frus1927v03#pg_717"><hi rendition="#italic">Ibid.</hi>, p.
+                    717</ref>.</p>
+            </note>
+            <note corresp="#d702-f2" n="3" xml:id="d702-f2-content">
+                <p><ref target="frus1927v03#pg_723"><hi rendition="#italic">Ibid.</hi>, p.
+                    723</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p4_d163" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>F. B.: Poem</title>
+            </titleStmt>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1865p4_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p4/d163"
+                    type="canonical"/>
+                <relatedItem target="d162.xml" type="prev"/>
+                <relatedItem target="d164.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p4</bibl>
+                <bibl type="frus-division-id">d163</bibl>
+                <bibl type="frus-division-n">163</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="106" to="106" unit="page"
+                        >106</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1865-05-31T18:10:59-05:00" notBefore="1865-04-30T18:11:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d163">
+
+                <pb facs="0178" n="106" sameAs="frus:frus1865p4/pg106"/>
+
+                <head>F. B.: Poem</head>
+                <p rendition="#center">IN TOKEN OF RESPECT.</p>
+                <note rend="inline" rendition="#center" type="source">[Translation from Latin
+                    verses.]</note>
+                <lg>
+                    <l>From humble parentage and low degree</l>
+                    <l>Lincoln ascended to the highest rank;</l>
+                    <l>None ever had a harder task than he.</l>
+                    <l>It was perfected—him alone we thank.</l>
+                </lg>
+                <lg>
+                    <l>Did the assassin think to kill a name,</l>
+                    <l>Or hand his own down to posterity?</l>
+                    <l>One will wear the laurel wreath of fame,</l>
+                    <l>The other be condemned to infamy.</l>
+                </lg>
+                <lg>
+                    <l>Cæsar was killed by Brutus,</l>
+                    <l>Yet Rome did not cease to be;</l>
+                    <l>Lincoln by Booth, and yet the</l>
+                    <l>Slaves in all America are free!</l>
+                </lg>
+                <closer>
+                    <signed>F. B.</signed>
+                    <dateline rendition="#float-left">
+                        <placeName>
+                            <hi rendition="#small-caps">Rieti</hi>
+                        </placeName>, <date ana="#date_imprecise-inferred-from-date-rules"
+                            calendar="gregorian" notAfter="1865-05-31T23:59:59+00:49"
+                            notBefore="1865-05-01T00:00:00+00:49" when="1865-05"><hi
+                                rendition="#italic">May</hi>, 1865</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

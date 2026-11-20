@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d751" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d751"
+                    type="canonical"/>
+                <relatedItem target="d750.xml" type="prev"/>
+                <relatedItem target="d752.xml" type="next"/>
+                <relatedItem target="../ch66.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d751</bibl>
+                <bibl type="frus-division-n">751</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="578" to="578" unit="page"
+                        >578</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                        <hi rendition="#italic">Tampico</hi></placeName>
+                    <date calendar="gregorian" when="1916-06-18T22:00:00-06:41">
+                        <hi rendition="#italic">June 18, 1916, 10 p.m.</hi>
+                    </date>
+                    <date notAfter="1916-06-18T23:41:00-05:00" notBefore="1916-06-18T23:41:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d751">
+
+                <pb facs="0654" n="578" sameAs="frus:frus1916/pg578"/>
+
+                <note rend="inline" type="source">File No. 812.00/18478</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Consulate</hi>, <lb/>
+                            <hi rendition="#italic">Tampico</hi></placeName>, <date
+                            calendar="gregorian" when="1916-06-18T22:00:00-06:41">
+                            <hi rendition="#italic">June 18, 1916, 10 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>Official communication from General N. to Colonel River to-day prohibits landing
+                    of naval officers and men for any reason except to act as messenger carrying
+                    between naval commander and consulate and in this case only when messenger is
+                    accompanied to and from consulate by officer of Mexican forces, a condition
+                    which I oppose but which will probably be maintained by General N. Communication
+                    between consulate and ships is thus seriously hindered.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Dawson</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

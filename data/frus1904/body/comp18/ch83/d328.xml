@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d328" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d328"
+                    type="canonical"/>
+                <relatedItem target="d327.xml" type="prev"/>
+                <relatedItem target="d328-a1.xml" type="next"/>
+                <relatedItem target="../ch83.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d328</bibl>
+                <bibl type="frus-division-n">328</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="341" to="342" unit="page"
+                        >341–42</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1904-10-15"><hi rendition="#italic">October 15,
+                            1904</hi></date>
+                    <date notAfter="1904-10-15T23:59:59-05:00" notBefore="1904-10-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d328">
+
+                <pb facs="0429" n="341" sameAs="frus:frus1904/pg341"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1904-10-15"
+                                ><hi rendition="#italic">October 15, 1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 1452.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: With reference to my telegram of the 13th
+                    of July last and to subsequent correspondence relative to the protection of the
+                    seals in the region of the Commander Island, I have the honor to inclose
+                    herewith a copy of a note from Lord Lansdowne, dated the 13th instant. * * *</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+
+
+                <xi:include href="d328-a1.xml" xpointer="d328-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

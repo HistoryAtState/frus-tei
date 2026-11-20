@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1911_d373" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Congressional decree declaring martial law.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1911_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1911/d373"
+                    type="canonical"/>
+                <relatedItem target="d372.xml" type="prev"/>
+                <relatedItem target="d374.xml" type="next"/>
+                <relatedItem target="../ch70.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1911</bibl>
+                <bibl type="frus-division-id">d373</bibl>
+                <bibl type="frus-division-n">373</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="296" to="296" unit="page"
+                        >296</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1911-01-20T23:59:59-05:00" notBefore="1911-01-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d373">
+
+                <pb facs="0378" n="296" sameAs="frus:frus1911/pg296"/>
+
+                <note rend="inline" type="source">File No. 815.00/1124.</note>
+                <head><hi rendition="#italic">Congressional decree declaring martial
+                        law.</hi><anchor n="1" xml:id="d373-f1"/></head>
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <p>The National Congress, considering that the territory of the Republic has been
+                    invaded by Gen. Manuel Bonilla with the object of overthrowing the
+                    constitutionally established Government, whereby it is necessary to invest the
+                    Executive with the extraordinary powers which the martial law confers upon him
+                    for the reestablishment of peace,</p>
+                <p>Decrees: That the Republic is declared to be under martial law from this
+                    date.</p>
+                <closer><dateline rendition="#float-left">Given in
+                            <placeName>Tegucigalpa</placeName> on <date calendar="gregorian"
+                            when="1911-01-20">the twentieth day of January, nineteen hundred and
+                            eleven</date>.</dateline><lb/><signed><hi rendition="#small-caps"
+                            >Francisco Escobar</hi>,<lb/><hi rendition="#italic">President of the
+                            Congress.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d373-f1" n="1" type="source" xml:id="d373-f1-content">
+                <p>Transmitted by the American Minister in dispatch No. 123 of Jan. 25, 1911.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_list-of-illustrations" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>List of illustrations and maps</title>
+            </titleStmt>
+            <xi:include href="../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/list-of-illustrations"
+                    type="canonical"/>
+                <relatedItem target="toc.xml" type="prev"/>
+                <relatedItem target="introduction.xml" type="next"/>
+                <relatedItem target="../frus1945Malta.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">list-of-illustrations</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">index</bibl>
+                <bibl type="frus-print-pages"><biblScope from="IX" to="IX" unit="page"
+                        >IX</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-11-27T19:00:00-05:00" notBefore="1944-07-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_C7">Churchill, Major Randolph Frederick
+                        Edward Spencer</term>
+                    <term ref="frus:frus1945Malta/persons#p_M10">Montgomery, Field Marshal Sir
+                        Bernard</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="list-of-illustrations">
+
+                <pb facs="0013" n="IX" xml:id="pgIX"/>
+
+                <head>List of illustrations and maps</head>
+                <p rendition="#center">(These photographic illustrations will be found in a group
+                    following page 546.)</p>
+                <p rendition="#center">Plate</p>
+                <list>
+                    <item>Meeting of the Combined Chiefs of Staff in Montgomery House, Malta,
+                        January 31, 1945 1</item>
+                    <item>President Roosevelt and Prime Minister Churchill aboard the U. S. S. <hi
+                            rendition="#italic">Quincy</hi> at Malta, February 2, 1945 2</item>
+                    <item>President Roosevelt and the Joint Chiefs of Staff in conference aboard the
+                        U. S. S. <hi rendition="#italic">Quincy</hi> at Malta, February 2, 1945
+                        3</item>
+                    <item>Meeting of President Roosevelt with his advisers in Livadia Palace, Yalta,
+                        February 4, 1945. 4</item>
+                    <item>Plenary Meeting in Livadia Palace, Yalta, February 1945 5</item>
+                    <item>Meeting of the Foreign Ministers in Yusupov Palace, Koreiz, February 7,
+                        1945 6</item>
+                    <item>Prime Minister Churchill, President Roosevelt, and Marshal Stalin in the
+                        patio of Livadia Palace, Yalta, February 10, 1945 7</item>
+                    <item>Tripartite Luncheon Meeting in Livadia Palace, Yalta, February 11, 1945.
+                        8</item>
+                </list>
+                <p rendition="#center">MAPS</p>
+                <list>
+                    <item>
+                        <ref target="#pg200">Bremen and Bremerhaven Enclave (<hi rendition="#italic"
+                                >in color</hi>) <hi rendition="#italic">facing</hi>
+                        </ref>
+                    </item>
+                    <item>
+                        <ref target="#pg233">Germany-Poland: Proposed Territorial Changes <hi
+                                rendition="#italic">facing</hi>
+                        </ref>
+                    </item>
+                    <item>
+                        <ref target="#pg612">Germany: Proposed Zones of Occupation <hi
+                                rendition="#italic">facing</hi>
+                        </ref>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

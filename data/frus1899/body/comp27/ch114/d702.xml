@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d702" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Thomas.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d702"
+                    type="canonical"/>
+                <relatedItem target="d701-a1.xml" type="prev"/>
+                <relatedItem target="d702-a1.xml" type="next"/>
+                <relatedItem target="../ch114.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d702</bibl>
+                <bibl type="frus-division-n">702</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="724" to="725" unit="page"
+                        >724–25</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1899-06-05"><hi rendition="#italic">June 5,
+                            1899</hi></date>
+                    <date notAfter="1899-06-05T23:59:59-05:00" notBefore="1899-06-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d702">
+
+                <pb facs="0820" n="724" sameAs="frus:frus1899/pg724"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. Thomas.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1899-06-05"><hi rendition="#italic">June 5,
+                        1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 55.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to the Department’s No. 53 of the
+                    5th and No. 54 of the 18th ultimo, I inclose copy of a dispatch from our consul
+                    at Christiania, stating that the regulations for the inspection of imported
+                    meats have been modified.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+
+                <xi:include href="d702-a1.xml" xpointer="d702-a1"/>
+                <xi:include href="d702-a2.xml" xpointer="d702-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

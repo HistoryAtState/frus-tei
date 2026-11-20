@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1891_d87" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Señor Galindo to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1891_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1891_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1891/d87"
+                    type="canonical"/>
+                <relatedItem target="d86.xml" type="prev"/>
+                <relatedItem target="d88.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1891</bibl>
+                <bibl type="frus-division-id">d87</bibl>
+                <bibl type="frus-division-n">87</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="88" to="88" unit="page"
+                        >88</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Ministry of Foreign Affairs</hi>,<lb/><hi
+                            rendition="#italic">San Salvador</hi></placeName>
+                    <date ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                        calendar="gregorian" notAfter="1891-08-09T23:59:59-05:56"
+                        notBefore="1891-08-08T00:00:00-05:56">undated</date>
+                    <date notAfter="1891-08-10T00:55:59-05:00" notBefore="1891-08-08T00:56:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d87">
+
+                <pb facs="0194" n="88" sameAs="frus:frus1891/pg88"/>
+
+                <head><hi rendition="#italic">Señor Galindo to Mr. Blaine</hi>.</head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Ministry of Foreign Affairs</hi>,<lb/><hi rendition="#italic">San
+                                Salvador</hi></placeName>, [<date
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            calendar="gregorian" notAfter="1891-08-09T23:59:59-05:56"
+                            notBefore="1891-08-08T00:00:00-05:56">undated</date>.] (Received August
+                        9, 1891.)</dateline></opener>
+                <p><hi rendition="#italic">City of Panama</hi> has sailed from the territory of the
+                    Union without permission from captain of port, and, pending a trial, sentence
+                    was yesterday pronounced by the court of first instance declaring her
+                    confiscated.</p>
+                <p>Your obedient servant,</p>
+                <closer><signed><hi rendition="#small-caps">Galindo</hi>,<lb/><hi
+                            rendition="#italic">Minister of Foreign
+                    Relations</hi>.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

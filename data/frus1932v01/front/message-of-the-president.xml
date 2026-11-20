@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1932v01_message-of-the-president" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Messages of the President of the United States to Congress:</title>
+            </titleStmt>
+            <xi:include href="../frus1932v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1932v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1932v01/message-of-the-president"
+                    type="canonical"/>
+                <relatedItem target="toc.xml" type="prev"/>
+                <relatedItem target="message-of-the-president/message-of-the-president-1.xml"
+                    type="next"/>
+                <relatedItem target="../frus1932v01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1932v01</bibl>
+                <bibl type="frus-division-id">message-of-the-president</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="IX" to="XXV" unit="page"
+                        >IX–XXV</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1932-12-19T23:59:59-05:00" notBefore="1932-12-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="message-of-the-president">
+
+                <pb facs="0013" n="IX" xml:id="pgIX"/>
+
+                <head>Messages of the President of the United States to Congress:</head>
+
+
+
+                <xi:include href="message-of-the-president/message-of-the-president-1.xml"
+                    xpointer="message-of-the-president-1"/>
+                <xi:include href="message-of-the-president/message-of-the-president-2.xml"
+                    xpointer="message-of-the-president-2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

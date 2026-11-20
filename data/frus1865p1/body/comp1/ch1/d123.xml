@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p1_d123" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adams to Mr. Seward</title>
+            </titleStmt>
+            <xi:include href="../../../frus1865p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1865p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p1/d123"
+                    type="canonical"/>
+                <relatedItem target="d122.xml" type="prev"/>
+                <relatedItem target="d123-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p1</bibl>
+                <bibl type="frus-division-id">d123</bibl>
+                <bibl type="frus-division-n">123</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="248" to="248" unit="page"
+                        >248</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                        <hi rendition="#italic">London,</hi></placeName>
+                    <date calendar="gregorian" when="1865-03-16"><hi rendition="#italic">March</hi>
+                        16, 1865</date>
+                    <date notAfter="1865-03-16T23:59:59-05:00" notBefore="1865-03-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d123">
+
+                <pb facs="0288" n="248" xml:id="pg248"/>
+
+                <head>Mr. Adams to Mr. Seward</head>
+                <opener>
+                    <seg rendition="#float-left">No. 894.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States,</hi>
+                            <hi rendition="#italic">London,</hi></placeName>
+                        <date calendar="gregorian" when="1865-03-16"><hi rendition="#italic"
+                                >March</hi> 16, 1865</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> I have the honor to transmit a note from
+                    Lord Russell to me, of the 11th instant, giving me information of the measures
+                    taken by the authorities in Nova Scotia to ascertain the existence of
+                    combinations formed in that province with a hostile intent towards the United
+                    States.</p>
+                <p>I have the honor to be, sir, your obedient servant,</p>
+                <closer>
+                    <signed>CHARLES FRANCIS ADAMS</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">William H. Seward,</hi>
+                        <hi rendition="#italic">Secretary of State, Washington, D. C.</hi></p>
+                </postscript>
+
+
+                <xi:include href="d123-a1.xml" xpointer="d123-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

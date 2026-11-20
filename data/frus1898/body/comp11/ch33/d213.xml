@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d213" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Uhl to Mr. Olney.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d213"
+                    type="canonical"/>
+                <relatedItem target="d212.xml" type="prev"/>
+                <relatedItem target="d213-a1.xml" type="next"/>
+                <relatedItem target="../ch33.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d213</bibl>
+                <bibl type="frus-division-n">213</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="315" to="316" unit="page"
+                        >315–16</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1896-11-04"><hi rendition="#italic">November 4,
+                            1896</hi></date>
+                    <date notAfter="1896-11-04T23:59:59-05:00" notBefore="1896-11-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d213">
+
+                <pb facs="0411" n="315" sameAs="frus:frus1898/pg315"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Uhl to Mr. Olney.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Berlin</hi></placeName>, <date calendar="gregorian"
+                            when="1896-11-04"><hi rendition="#italic">November 4,
+                        1896</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 166.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose clipping, with
+                    translation, from the Tägliche Rundschau, a newspaper published in Berlin,
+                    apropos to the recent importation into Germany of large consignments of apples
+                    from <pb facs="0412" n="316" xml:id="pg316"/> the United States, simply as
+                    illustrative of the great ingenuity constantly manifested among certain classes
+                    in Germany in discovering apprehended dangers from the introduction of any
+                    foreign product which is likely by competition to seriously affect the price in
+                    the home market of like products of German origin.</p>
+                <p>In this case the fear is expressed that an enemy as dangerous as the potato bug
+                    may be brought with American apples.</p>
+                <p>I have, etc.,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Edwin F. Uhl.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d213-a1.xml" xpointer="d213-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

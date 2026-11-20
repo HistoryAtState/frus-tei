@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d218" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Sleeper to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d218"
+                    type="canonical"/>
+                <relatedItem target="d217-a1.xml" type="prev"/>
+                <relatedItem target="d218-a1.xml" type="next"/>
+                <relatedItem target="../ch53.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d218</bibl>
+                <bibl type="frus-division-n">218</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="255" to="256" unit="page"
+                        >255–56</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">Habana</hi></placeName>
+                    <date calendar="gregorian" when="1903-12-31"><hi rendition="#italic">December
+                            31, 1903</hi></date>
+                    <date notAfter="1903-12-31T23:59:59-05:00" notBefore="1903-12-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d218">
+
+                <pb facs="0343" n="255" sameAs="frus:frus1904/pg255"/>
+
+                <head><hi rendition="#italic">Mr. Sleeper to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic"
+                            >Habana</hi></placeName>, <date calendar="gregorian" when="1903-12-31"
+                                ><hi rendition="#italic">December 31, 1903</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 790.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to acknowledge receipt of
+                    Department’s instruction No. 304, of December 16, 1903, inclosing copy of a
+                    letter from Mr. Wilson A. Murray in regard to the murder of his father, and
+                    requesting this legation to ascertain what steps should be taken to procure
+                    counsel to assist in the prosecution of the case.</p>
+                <p>In reply I beg to inclose herewith translation of a personal note from the
+                    director of the state department to this office, giving the desired information
+                    and accompanied by a copy, translation of which is inclosed, of the articles of
+                    the law of criminal procedure pertaining to the case.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Jacob Sleeper.</hi></signed></closer>
+
+
+
+                <xi:include href="d218-a1.xml" xpointer="d218-a1"/>
+                <xi:include href="d218-a2.xml" xpointer="d218-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

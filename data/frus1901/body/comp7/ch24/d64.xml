@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d64" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Squiers to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d64"
+                    type="canonical"/>
+                <relatedItem target="d63-a7.xml" type="prev"/>
+                <relatedItem target="d64-a1.xml" type="next"/>
+                <relatedItem target="../ch24.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d64</bibl>
+                <bibl type="frus-division-n">64</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="52" to="52" unit="page"
+                        >52</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Pekin</hi></placeName>
+                    <date calendar="gregorian" when="1901-04-22"><hi rendition="#italic">April 22,
+                            1901</hi></date>
+                    <date notAfter="1901-04-22T23:59:59-05:00" notBefore="1901-04-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d64">
+
+                <pb facs="0132" n="52" sameAs="frus:frus1901/pg52"/>
+
+                <head><hi rendition="#italic">Mr. Squiers to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Pekin</hi></placeName>, <date calendar="gregorian"
+                            when="1901-04-22"><hi rendition="#italic">April 22,
+                        1901</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 614.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose a copy of a
+                    proclamation, dated April 18, issued by the German consul-general of Tientsin,
+                    by which notification is given that the German concession there has been, by the
+                    consent of the Chinese authorities, extended as indicated on the map<anchor
+                        n="a" xml:id="d64-f1"/> inclosed herewith.</p>
+                <p>I have not instructed Mr. Ragsdale to enter a protest against this action, as it
+                    does not appear that the interests of any of our nationals are involved or in
+                    any way prejudiced.</p>
+                <p>The inclosed map also shows the extensions of old concessions, as well as new
+                    concessions up to date.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">H. G. Squiers.</hi></signed></closer>
+
+
+                <xi:include href="d64-a1.xml" xpointer="d64-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d64-f1" n="a" xml:id="d64-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

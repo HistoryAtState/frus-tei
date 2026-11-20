@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v38p2_d12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>National Security Decision Memorandum 239</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v38p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v38p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v38p2/d12"
+                    type="canonical"/>
+                <relatedItem target="d11.xml" type="prev"/>
+                <relatedItem target="d13.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v38p2</bibl>
+                <bibl type="frus-division-id">d12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="20" to="20" unit="page"
+                        >20</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1973-11-27">November 27, 1973</date>
+                    <date notAfter="1973-11-27T23:59:59-05:00" notBefore="1973-11-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v38p2/persons">
+                    <term ref="frus:frus1969-76v38p2/persons#p_KHA_1">Kissinger, Henry A.</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v38p2/terms">
+                    <term ref="frus:frus1969-76v38p2/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1969-76v38p2/terms#t_NSDM_1">NSDM</term>
+                    <term ref="frus:frus1969-76v38p2/terms#t_NSSM_1">NSSM</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d12">
+
+                <pb facs="0067" n="20" xml:id="pg20"/>
+
+                <head>12. National Security Decision Memorandum 239<anchor n="1" xml:id="d12-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1973-11-27">November 27, 1973</date>.</dateline></opener>
+                <list type="description">
+                    <label>TO</label>
+                    <item>The Secretary of State</item>
+                    <item>The Secretary of Defense</item>
+                    <item>The Director of Central Intelligence</item>
+                </list>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>National Net Assessment Process</item>
+                </list>
+                <p>The President has directed that the responsibility for the national net
+                    assessment program be assigned to the Secretary of Defense. The Secretary of
+                    Defense should conduct the national net assessment program with the assistance
+                    of the Secretary of State and the Director of Central Intelligence.</p>
+                <p> NSDM 224, <hi rendition="#italic">National Net Assessment Process,</hi> and NSSM
+                    186, <hi rendition="#italic">National Net Assessment of the Comparative Costs
+                        and Capabilities of U.S. and Soviet Military Establishments,</hi> are
+                        rescinded.<anchor n="2" xml:id="d12-f2"/> However, the study required by
+                    NSSM 186 should be completed under the supervision of the Secretary of
+                    Defense.</p>
+                <p>Copies of all future completed net assessment studies should be forwarded to the
+                    Assistant to the President for National Security Affairs for his
+                    information.</p>
+                <closer>
+                    <signed> Henry A. Kissinger </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d12-f1" n="1" type="source" xml:id="d12-f1-content">
+                <p>Source: National Archives, Nixon Presidential Materials, NSC Files, NSC
+                    Institutional Files (H-Files), Box H–243, Policy Papers, 1969–1974, National
+                    Security Decision Memoranda, NSDM 239. Confidential. A copy was sent to the
+                    Chairman of the Joint Chiefs of Staff.</p>
+            </note>
+            <note corresp="#d12-f2" n="2" xml:id="d12-f2-content">
+                <p> NSDM 224 is <ref target="#d8">Document 8</ref>. NSSM 186, September 1, is <ref
+                        target="frus1969-76v35#d139">Document 139, <hi rendition="#italic">Foreign
+                            Relations,</hi> 1969–1976, vol. XXXV, National Security Policy,
+                        1973–1976</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d684" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Meyer to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d684"
+                    type="canonical"/>
+                <relatedItem target="d683.xml" type="prev"/>
+                <relatedItem target="d684-a1.xml" type="next"/>
+                <relatedItem target="../ch195.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d684</bibl>
+                <bibl type="frus-division-n">684</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="683" to="683" unit="page"
+                        >683</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">Rome</hi></placeName>
+                    <date calendar="gregorian" when="1902-06-02"><hi rendition="#italic">June 2,
+                            1902</hi></date>
+                    <date notAfter="1902-06-02T23:59:59-05:00" notBefore="1902-06-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d684">
+
+                <pb facs="0763" n="683" sameAs="frus:frus1902/pg683"/>
+
+                <head><hi rendition="#italic">Mr. Meyer to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >Rome</hi></placeName>, <date calendar="gregorian" when="1902-06-02"><hi
+                                rendition="#italic">June 2, 1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 162.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to acknowledge the receipt
+                        of<anchor n="a" xml:id="d684-f1"/> our telegram<anchor n="a"
+                        xml:id="d684-f2"/> of May 24. I immediately sent the request to the foreign
+                    office, and on May 29 received a reply, of which I inclose a copy with
+                    translation. The request of President Palma being thereby granted, I asked Mr.
+                    De Castro, our consul-general, so to notify American consular officers in Italy.
+                    Mr. De Castro has since reported to me that he has advised all the American
+                    consular officers within his jurisdiction to this effect.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">G. V. L. Meyer.</hi></signed></closer>
+
+
+                <xi:include href="d684-a1.xml" xpointer="d684-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d684-f1" n="a" xml:id="d684-f1-content">
+                <p>Printed, <ref target="#pg6">page 6</ref>.</p>
+            </note>
+            <note corresp="#d684-f2" n="a" xml:id="d684-f2-content">
+                <p>Printed, <ref target="#pg6">page 6</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d300" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sir Julian Pauncefote to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d300"
+                    type="canonical"/>
+                <relatedItem target="d299.xml" type="prev"/>
+                <relatedItem target="d301.xml" type="next"/>
+                <relatedItem target="../ch63.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d300</bibl>
+                <bibl type="frus-division-n">300</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="333" to="333" unit="page"
+                        >333</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">British Embassy</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1898-11-07"><hi rendition="#italic">November 7,
+                            1898</hi></date>
+                    <date notAfter="1898-11-07T23:59:59-05:00" notBefore="1898-11-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d300">
+
+                <pb facs="0429" n="333" sameAs="frus:frus1899/pg333"/>
+
+                <head><hi rendition="#italic">Sir Julian Pauncefote to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >British Embassy</hi>,<lb/><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1898-11-07"><hi rendition="#italic">November 7,
+                        1898</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In reply to a note from Mr. Day of the 16th
+                    of September last, No. 1185, with regard to a tonnage tax levied at Trinidad, I
+                    have the honor to inform you that I am in receipt of a dispatch from the Marquis
+                    of Salisbury inclosing copies of the Trinidad ordinances Nos. I of 1896 and VII
+                    of 1898, under which the dues referred to are levied, and stating that they have
+                    been rendered necessary in order to provide for the interest and sinking fund of
+                    the loan which has been raised to meet the cost of the extensive works, still in
+                    course of execution, to improve the accommodation and lighting of the harbor of
+                    Port of Spain, Trinidad.</p>
+                <p>I am directed by his lordship to forward you the ordinances<anchor n="1"
+                        xml:id="d300-f1"/> in reply to the inquiry of your Government.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Julian
+                    Pauncefote.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d300-f1" n="1" xml:id="d300-f1-content">
+                <p>Printed copies sent to Treasury Department.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

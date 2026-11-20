@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1874_d46" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 44.</title>
+                <title type="subtitle">Mr. Jones to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../frus1874_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1874_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1874/d46"
+                    type="canonical"/>
+                <relatedItem target="d45-a1.xml" type="prev"/>
+                <relatedItem target="d46-a1.xml" type="next"/>
+                <relatedItem target="../comp5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1874</bibl>
+                <bibl type="frus-division-id">d46</bibl>
+                <bibl type="frus-division-n">46</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="65" to="66" unit="page"
+                        >65–66</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Brussels</hi></placeName>
+                    <date calendar="gregorian" when="1874-07-07"><hi rendition="#italic">July</hi>
+                        7, 1874</date>
+                    <date notAfter="1874-07-07T23:59:59-05:00" notBefore="1874-07-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d46">
+
+                <pb facs="0161" n="65" sameAs="frus:frus1874/pg65"/>
+
+                <head>No. 44.<lb/><hi rendition="#italic">Mr. Jones to Mr. Fish.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Brussels</hi></placeName>, <date calendar="gregorian"
+                            when="1874-07-07"><hi rendition="#italic">July</hi> 7, 1874</date>.
+                        (Rec’d July 20.)</dateline>
+                    <seg rendition="#float-left">No. 273.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith copy
+                    of Count d’ Aspremont Lynden’s letter in regard to the termination of the treaty
+                    between the United States and Belgium of July, 1858.</p>
+                <p>Very respectfully, &amp;c.,</p>
+                <closer><signed>J. R. JONES.</signed></closer>
+
+
+                <xi:include href="d46-a1.xml" xpointer="d46-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

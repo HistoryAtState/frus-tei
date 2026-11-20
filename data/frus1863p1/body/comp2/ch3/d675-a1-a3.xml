@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1863p1_d675-a1-a3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1863p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1863p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1863p1/d675-a1-a3"
+                    type="canonical"/>
+                <relatedItem target="d675-a1-a2.xml" type="prev"/>
+                <relatedItem target="d675-a1-a3-a1.xml" type="next"/>
+                <relatedItem target="d675-a1.xml" type="parent"/>
+                <relatedItem target="d675-a1.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1863p1</bibl>
+                <bibl type="frus-division-id">d675-a1-a3</bibl>
+                <bibl type="frus-division-n">675.1.3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="CXVII" to="CXIX" unit="page"
+                        >CXVII–CXIX</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d675-a1-a3">
+
+                <pb facs="0865" n="CXVII" sameAs="frus:frus1863p1/pgCXVII"/>
+
+                <head ana="#head_untitled-missing-head-in-printed-volume">[Untitled]</head>
+                <p>The following is a copy of the certificate of James T. Soutter, of London:</p>
+                <p>I, James Taylor Soutter, of No. 3 Alderman’s Walk, in the city of London,
+                    gentleman, do solemnly and sincerely declare that I have carefully examined the
+                    paper writing hereunto annexed and marked with the letter “A,” with the original
+                    agreement, and that the same is a true and exact copy of such original
+                    agreement.</p>
+                <p>And I make this solemn declaration conscientiously, believing the same to be true
+                    and by virtue of the provisions of an act made and passed in the session of
+                    Parliament of the fifth and sixth years of the reign of his late Majesty King
+                    William the Fourth, entitled “An act to repeal an act of the present session of
+                    Parliament entitled ‘An act for the more effectual abolition of oaths and
+                    affirmations taken and made in various departments of the State, and to
+                    subscribe declarations in lieu thereof, and for the more entire suppression of
+                    voluntary and extra-judicial oaths and affidavits, and to make other provisions
+                    for the abolition of unnecessary oaths.’ ”</p>
+                <p rendition="#right">J. T. SOUTTER.</p>
+                <closer>
+                    <dateline rendition="#float-left">Subscribed and declared at the Mansion House,
+                            <placeName>London</placeName>, <date calendar="gregorian"
+                            when="1863-09-30">this 30th day of September, 1863</date>.</dateline>
+                    <lb/>
+                    <signed>WILLIAM A. ROSE, <hi rendition="#italic">Mayor.</hi></signed></closer>
+
+
+                <xi:include href="d675-a1-a3-a1.xml" xpointer="d675-a1-a3-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

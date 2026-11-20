@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v04_d249" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Conversation, by Mr. G. Hayden Raynor of the United States
+                    Delegation at the United Nations</title>
+            </titleStmt>
+            <xi:include href="../../../frus1949v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1949v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1949v04/d249"
+                    type="canonical"/>
+                <relatedItem target="d248.xml" type="prev"/>
+                <relatedItem target="d250.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1949v04</bibl>
+                <bibl type="frus-division-id">d249</bibl>
+                <bibl type="frus-division-n">249</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="425" to="425" unit="page"
+                        >425</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1949-09-24">September 24, 1949</date>
+                    <date notAfter="1949-09-24T23:59:59-05:00" notBefore="1949-09-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1949v04/terms">
+                    <term ref="frus:frus1949v04/terms#t_OEEC1">OEEC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d249">
+
+                <pb facs="0440" n="425" xml:id="pg425"/>
+
+                <note rend="inline" type="source">840.50 Recovery/9–2449</note>
+                <head>
+                    <hi rendition="#italic">Memorandum of Conversation, by Mr. G. Hayden Raynor of
+                        the United States Delegation at the United Nations</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1949-09-24">September 24, 1949</date>.</dateline>
+                </opener>
+                <table>
+                    <row>
+                        <cell>Participants:</cell>
+                        <cell>M. Maurice Couve de Murville, French Delegation</cell>
+                    </row>
+                    <row>
+                        <cell/>
+                        <cell>Mr. G. Hayden Raynor, U.S. Delegation</cell>
+                    </row>
+                </table>
+                <p>During the course of Mr. Cohen’s<anchor n="1" xml:id="d249-f1"/> and my
+                    conversation with Couve on the Greek matter, I inquired casually of Couve if
+                    there had been any recent developments in Western Europe with respect to the
+                    idea of Spaak heading up the OEEC Organization.</p>
+                <p>Couve replied in almost these words: “What is the use of this now? Why should his
+                    talents be wasted on this Organization now? The OEEC is dead. You have killed it
+                    by your tri-partite financial talks in Washington.”<anchor n="2"
+                        xml:id="d249-f2"/>
+                </p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d249-f1" n="1" xml:id="d249-f1-content">
+                <p>Benjamin V. Cohen, an Alternate U.S. Representative at the United Nations.</p>
+            </note>
+            <note corresp="#d249-f2" n="2" xml:id="d249-f2-content">
+                <p>For documentation on these talks, see <ref target="#pg832">pp. 832</ref> ff.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

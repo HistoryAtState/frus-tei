@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d935" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Newel to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d935"
+                    type="canonical"/>
+                <relatedItem target="d934.xml" type="prev"/>
+                <relatedItem target="d935-a1.xml" type="next"/>
+                <relatedItem target="../ch96.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d935</bibl>
+                <bibl type="frus-division-n">935</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="801" to="802" unit="page"
+                        >801–2</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">The Hague</hi></placeName>
+                    <date calendar="gregorian" when="1900-10-20"><hi rendition="#italic">October 20,
+                            1900</hi></date>
+                    <date notAfter="1900-10-20T23:59:59-05:00" notBefore="1900-10-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d935">
+
+                <pb facs="0899" n="801" sameAs="frus:frus1900/pg801"/>
+
+                <head><hi rendition="#italic">Mr. Newel to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic">The
+                                Hague</hi></placeName>, <date calendar="gregorian" when="1900-10-20"
+                                ><hi rendition="#italic">October 20, 1900</hi></date></dateline>
+                    <seg rendition="#float-left">No. 339.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to confirm on the overleaf
+                    my cablegram<anchor n="2" xml:id="d935-f1"/> of this date, advising of Mr.
+                    Asser’s acceptance of invitation to act as arbitrator in the United
+                    States-Russian arbitration case, and to inclose herewith a copy, together with
+                    translation, of Mr. Asser’s note of yesterday, officially notifying me of that
+                    fact.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Stanford Newel.</hi></signed></closer>
+
+
+
+                <xi:include href="d935-a1.xml" xpointer="d935-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d935-f1" n="2" xml:id="d935-f1-content">
+                <p>Printed ante.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

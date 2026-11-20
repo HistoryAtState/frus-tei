@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d58" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d58"
+                    type="canonical"/>
+                <relatedItem target="d57.xml" type="prev"/>
+                <relatedItem target="d59.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d58</bibl>
+                <bibl type="frus-division-n">58</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="41" to="42" unit="page"
+                        >41–42</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-26">26 October 1943</date>
+                    <date notAfter="1943-10-26T23:59:59-05:00" notBefore="1943-10-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CKS1">Chiang Kai-shek</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_EA1">Eden, Anthony</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HC1">Hull, Cordell</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_MVM1">Molotov, Vyacheslov
+                        Mikhailovich</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RE1">Roosevelt, Elliott</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_Anfa1">Anfa</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                    <term ref="frus:frus1943CairoTehran/terms#t_UJ1">U. J.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d58">
+
+                <pb facs="0133" n="41" sameAs="frus:frus1943CairoTehran/pg41"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President
+                        Roosevelt</hi><anchor n="1" xml:id="d58-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1943-10-26">26 October 1943</date>.</dateline>
+                </opener>
+                <p>Former Naval Person to President personal and most secret number 475 your number
+                        396.<anchor n="2" xml:id="d58-f2"/></p>
+                <p>1. I shall be delighted to meet you anywhere in North Africa, but I hope we need
+                    not wait till the twentieth. Strongly recommend sea voyage to <hi
+                        rendition="#small-caps">Anfa</hi> which we know, moving on to Pyramids if
+                    and when convenient. By all means ask Chiang. If UJ refuses, then Molotov <pb
+                        facs="0134" n="42" xml:id="pg42"/> with a Russian military mission would do.
+                    It seems to me fine progress has been made by Hull and Eden at Moscow and still
+                    more on the Russian southern front.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <closer><signed><hi rendition="#small-caps">Prime</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d58-f1" n="1" type="source" xml:id="d58-f1-content">
+                <p>Apparently sent via military channels.</p>
+            </note>
+            <note corresp="#d58-f2" n="2" xml:id="d58-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg39">p. 39</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

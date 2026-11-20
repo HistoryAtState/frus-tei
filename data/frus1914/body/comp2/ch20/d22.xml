@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d22" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d22"
+                    type="canonical"/>
+                <relatedItem target="../ch20.xml" type="prev"/>
+                <relatedItem target="../../comp3.xml" type="next"/>
+                <relatedItem target="../ch20.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d22</bibl>
+                <bibl type="frus-division-n">22</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="20" to="20" unit="page"
+                        >20</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1914-09-05">
+                        <hi rendition="#italic">September 5, 1914</hi></date>
+                    <date notAfter="1914-09-05T23:59:59-05:00" notBefore="1914-09-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d22">
+
+                <pb facs="0136" n="20" sameAs="frus:frus1914/pg20"/>
+
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1914-09-05">
+                            <hi rendition="#italic">September 5, 1914</hi></date>.</dateline>
+                </opener>
+                <p rendition="#flush">
+                    <hi rendition="#italic">The Diplomatic Officers of the United States</hi>.</p>
+                <p>
+                    <hi rendition="#small-caps">Gentlemen</hi>: Referring to the Department’s
+                    instruction of May 15th last extending to foreign governments an official
+                    invitation to be represented by delegates at the Nineteenth International
+                    Congress of Americanists to be held in the city of Washington in October, 1914,
+                    the Department advises you of the receipt of a letter from the secretary of the
+                    congress in which he announces the decision of the organizing committee to
+                    postpone the meeting of the congress indefinitely.</p>
+                <p>You will communicate this information to the Government to which you are
+                    accredited and inform that Government that you will not fail promptly to inform
+                    it when a date shall have been set for the meeting of the congress.</p>
+                <p>I am [etc.]</p>
+                <closer>For the Secretary of State: <lb/>
+                    <signed>
+                        <hi rendition="#small-caps">Robert Lansing</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

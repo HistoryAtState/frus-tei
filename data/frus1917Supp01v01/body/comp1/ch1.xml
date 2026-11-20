@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917Supp01v01_ch1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The war prior to the entrance of the United States</title>
+            </titleStmt>
+            <xi:include href="../../frus1917Supp01v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1917Supp01v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1917Supp01v01/ch1"
+                    type="canonical"/>
+                <relatedItem target="../comp1.xml" type="prev"/>
+                <relatedItem target="ch1/ch1subch1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917Supp01v01</bibl>
+                <bibl type="frus-division-id">ch1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">chapter</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="3" to="77" unit="page"
+                        >3–77</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1917-04-04T17:00:00-05:00" notBefore="1917-01-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="ch1">
+
+                <pb facs="0175" n="3" xml:id="pg3"/>
+
+                <head>The war prior to the entrance of the United States</head>
+
+
+
+
+
+                <xi:include href="ch1/ch1subch1.xml" xpointer="ch1subch1"/>
+                <xi:include href="ch1/ch1subch2.xml" xpointer="ch1subch2"/>
+                <xi:include href="ch1/ch1subch3.xml" xpointer="ch1subch3"/>
+                <xi:include href="ch1/ch1subch4.xml" xpointer="ch1subch4"/>
+            </div>
+        </body>
+    </text>
+</TEI>

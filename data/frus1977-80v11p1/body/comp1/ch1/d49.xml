@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v11p1_d49" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum From Director of Central Intelligence Turner</title>
+            </titleStmt>
+            <xi:include href="../../../frus1977-80v11p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1977-80v11p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1977-80v11p1/d49"
+                    type="canonical"/>
+                <relatedItem target="d48.xml" type="prev"/>
+                <relatedItem target="d49-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1977-80v11p1</bibl>
+                <bibl type="frus-division-id">d49</bibl>
+                <bibl type="frus-division-n">49</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="124" to="126" unit="page"
+                        >124–26</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1979-11-22">November 22, 1979</date>
+                    <date notAfter="1979-11-22T23:59:59-05:00" notBefore="1979-11-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1977-80v11p1/persons">
+                    <term ref="frus:frus1977-80v11p1/persons#p_KAR_1">Khomeini, Ayatollah
+                        Ruhollah</term>
+                    <term ref="frus:frus1977-80v11p1/persons#p_TS_2">Turner, Stansfield</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d49">
+
+                <pb facs="0173" n="124" sameAs="frus:frus1977-80v11p1/pg124"/>
+
+                <head>49. Memorandum From Director of Central Intelligence Turner<anchor n="1"
+                        xml:id="d49-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1979-11-22">November 22, 1979</date></dateline>
+                </opener>
+                <list type="description">
+                    <label>MEMORANDUM FOR</label>
+                    <item>The President</item>
+                    <item>The Vice President</item>
+                    <item>The Secretary of State</item>
+                    <item>The Secretary of Defense</item>
+                    <item>The National Security Advisor</item>
+                </list>
+                <p>On Tuesday<anchor n="2" xml:id="d49-f2"/> we discussed the pros and cons of the
+                    Shah’s departure to some country other than Iran. I have since asked the [<hi
+                        rendition="#italic">less than 1 line not declassified</hi>] and Iranian
+                    experts to articulate their views on this succinctly. The result is
+                    attached.</p>
+                <p>I agree with their views, though I am less persuaded that the students in the
+                    embassy may act independently of Khomeini. The initial debriefings of our 13
+                    released hostages seem to indicate a close loyalty to Khomeini on the part of
+                    the student captors.<anchor n="3" xml:id="d49-f3"/></p>
+                <closer>
+                    <signed><hi rendition="#bold">Stansfield Turner</hi><anchor n="4"
+                            xml:id="d49-f4"/></signed>
+                </closer>
+
+
+
+                <xi:include href="d49-a1.xml" xpointer="d49-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d49-f1" n="1" type="source" xml:id="d49-f1-content">
+                <p>Source: Central Intelligence Agency, Office of the Director of Central
+                    Intelligence, Job 81M00919R: Executive Registry Subject Files (1976–1979), Box
+                    14, Folder 11: C–372 Iran. Secret. </p>
+            </note>
+            <note corresp="#d49-f2" n="2" xml:id="d49-f2-content">
+                <p>November 20.</p>
+            </note>
+            <note corresp="#d49-f3" n="3" xml:id="d49-f3-content">
+                <p>See <ref target="#d45">Document 45</ref>.</p>
+            </note>
+            <note corresp="#d49-f4" n="4" xml:id="d49-f4-content">
+                <p>Printed from a copy with this typed signature and an indication that Turner
+                    signed the original.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

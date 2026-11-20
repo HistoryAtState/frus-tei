@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d754" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Newel to Mr. Sherman.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d754"
+                    type="canonical"/>
+                <relatedItem target="d753-a1.xml" type="prev"/>
+                <relatedItem target="d754-a1.xml" type="next"/>
+                <relatedItem target="../ch90.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d754</bibl>
+                <bibl type="frus-division-n">754</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="886" to="887" unit="page"
+                        >886–87</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">The Hague</hi></placeName>
+                    <date calendar="gregorian" when="1898-04-26"><hi rendition="#italic">April 26,
+                            1898</hi></date>
+                    <date notAfter="1898-04-26T23:59:59-05:00" notBefore="1898-04-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d754">
+
+                <pb facs="0982" n="886" sameAs="frus:frus1898/pg886"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Newel to Mr. Sherman.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic">The
+                                Hague</hi></placeName>, <date calendar="gregorian" when="1898-04-26"
+                                ><hi rendition="#italic">April 26, 1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 100.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to append on the overleaf
+                    the text of my cablegram of this day advising that the Netherlands Government
+                    has officially announced its strict neutrality and warning to its subjects
+                    against participation in any privateering operation.</p>
+                <pb facs="0983" n="887" xml:id="pg887"/>
+                <p>Hereto I annex a copy of the Official Gazette of the Netherlands (in duplicate)
+                    containing the forementioned announcement, together with a translation of the
+                    same.</p>
+                <p>I have, etc.,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Stanford Newel.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d754-a1.xml" xpointer="d754-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

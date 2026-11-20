@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p4_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1865p4_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1865p4_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1865p4/errata"
+                    type="canonical"/>
+                <relatedItem target="../body/ch44/d1146.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1865p4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p4</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="717" to="717" unit="page"
+                        >717</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1865-12-31T23:59:59-05:00" notBefore="1865-01-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0789" n="717" sameAs="frus:frus1865p4/pg717"/>
+
+                <head>Errata</head>
+                <p>The following error has been identified in <hi rendition="#italic">Papers
+                        Relating to Foreign Affairs, Accompanying the Annual Message of the
+                        President to the Second Session Thirty-eighth Congress</hi>. Please be aware
+                    that printed volumes have not been revised.
+                    <!--Revised information is in italic.--></p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#d779">Document 779</ref> (date of
+                            errata entry: February 6, 2015)</hi>
+                    </item>
+                    <item>The Index to Appendix of this volume notes that <ref target="#d779"
+                            >Document 779</ref> should be under the head of <ref target="#ch20"
+                            >Hawaiian Islands</ref> not Liberia.</item>
+                    <item>
+                        <hi rendition="#bold">2. <ref target="#d256">Document 256</ref>, Page 167
+                            (date of errata entry: July 19, 2017)</hi>
+                    </item>
+                    <item>The dateline of Document 256 has been corrected from “Borough of Brighton,
+                        May 2, 1861” to “Borough of Brighton, May 2, 1865”.</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

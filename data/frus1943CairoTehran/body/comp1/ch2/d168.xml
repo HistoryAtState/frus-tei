@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d168" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d168"
+                    type="canonical"/>
+                <relatedItem target="d167.xml" type="prev"/>
+                <relatedItem target="d169.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d168</bibl>
+                <bibl type="frus-division-n">168</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="120" to="120" unit="page"
+                        >120</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-10-26">October 26, 1943</date>
+                    <date notAfter="1943-10-26T23:59:59-05:00" notBefore="1943-10-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CSA2">Cunningham, Sir
+                        Andrew</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HC1">Hull, Cordell</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d168">
+
+                <pb facs="0212" n="120" sameAs="frus:frus1943CairoTehran/pg120"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">The President to the Secretary of State</hi><anchor
+                        n="1" xml:id="d168-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">operational priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-10-26">October 26, 1943</date>.</dateline>
+                </opener>
+                <p>For the Secretary from the President.</p>
+                <p>In regard to turning over naval vessels and merchant ships to the Soviet,<anchor
+                        n="2" xml:id="d168-f2"/> the President desires that Italian shipping, both
+                    naval and merchant now in Allied possession, be used wherever it may promise the
+                    best service to the common Allied cause (with due reference to the terms of the
+                    Admiral Cunningham Agreement<anchor n="3" xml:id="d168-f3"/> if and as amended),
+                    without any final transfer of title to any Nation at the present time.<anchor
+                        n="4" xml:id="d168-f4"/></p>
+                <p>The question of permanent title to ships and other material surrendered by Italy
+                    while in an enemy status or by other enemy countries hereafter can be determined
+                    at a later date without prejudice to the interest of the allied nations, and
+                    without adversely affecting the present and prospective Italian war effort
+                    against Germany.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d168-f1" n="1" type="source" xml:id="d168-f1-content">
+                <p>Sent to the United States Naval Attaché Moscow, via Navy channels.</p>
+            </note>
+            <note corresp="#d168-f2" n="2" xml:id="d168-f2-content">
+                <p>See Hull’s telegram 1704 of October 23, 1943, 2 p.m., <hi rendition="#italic"
+                        >ante</hi>, <ref target="#pg112">p. 112</ref>.</p>
+            </note>
+            <note corresp="#d168-f3" n="3" xml:id="d168-f3-content">
+                <p>“Memorandum of Agreement on Employment and Disposition of Italian Fleet and
+                    Mercantile Marine”, concluded by Cunningham as Allied Naval Commander in Chief,
+                    Mediterranean, and the Italian Minister of Marine, on September 23, 1943; <hi
+                        rendition="#italic">United States and Italy, 1936–1946; Documentary
+                        Record</hi> (Washington: U. S. Government Printing Office, 1946), p. 53.</p>
+            </note>
+            <note corresp="#d168-f4" n="4" xml:id="d168-f4-content">
+                <p>A draft of this message in the Roosevelt Papers shows that it had been prepared
+                    in the Department of State and had been reviewed by Roosevelt. The original
+                    draft of the final portion of this sentence read: “without any transfer of title
+                    at the present time when Italy is a co-belligerent with us.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

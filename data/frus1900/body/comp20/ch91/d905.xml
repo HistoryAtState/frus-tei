@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d905" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Señor Aspíroz.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d905"
+                    type="canonical"/>
+                <relatedItem target="../ch91.xml" type="prev"/>
+                <relatedItem target="d906.xml" type="next"/>
+                <relatedItem target="../ch91.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d905</bibl>
+                <bibl type="frus-division-n">905</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="783" to="783" unit="page"
+                        >783</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1900-11-10"><hi rendition="#italic">November
+                            10, 1900</hi></date>
+                    <date notAfter="1900-11-10T23:59:59-05:00" notBefore="1900-11-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d905">
+
+                <pb facs="0881" n="783" sameAs="frus:frus1900/pg783"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Señor Aspíroz.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1900-11-10"><hi rendition="#italic">November 10,
+                        1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 130.]</seg></opener>
+                <p><hi rendition="#small-caps">Excellency</hi>: It is my agreeable duty to inclose
+                    to you herewith a check drawn on the assistant treasurer of the United States at
+                    New York to your order for $287,833.77, the amount of the unpaid balance of the
+                    award in favor of Benjamin Weil, made by the United States and Mexican claims
+                    commission, established under the convention of July 4, 1868, which award, by
+                    the decision of the Court of Claims, and upon appeal by the decision of the
+                    Supreme Court of the United States upon action brought by the Attorney-General
+                    of the United States under authority of an act of Congress,<anchor n="1"
+                        xml:id="d905-f1"/> which took effect December 28, 1892, was declared to have
+                    been obtained by fraud.</p>
+                <p>I beg that you will do me the favor to sign the inclosed receipt, in triplicate,
+                    and to return the original and duplicate copies thereof, when signed, to the
+                    Department.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d905-f1" n="1" xml:id="d905-f1-content">
+                <p>See Statutes at Large, vol. 27, p. 410, et seq.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

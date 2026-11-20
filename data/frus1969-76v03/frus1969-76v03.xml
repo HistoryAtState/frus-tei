@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v03" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1969-76v03_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1969-76v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1969-76v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1969-76v03"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1969-76v03" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v03/covers/frus1969-76v03.jpg"/>
+                        <extent>
+                            <measure quantity="38510" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:00:36.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v03" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v03/ebook/frus1969-76v03.epub"/>
+                        <extent>
+                            <measure quantity="941073" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:00:36.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1969-76v03" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1969-76v03/ebook/frus1969-76v03.mobi"/>
+                        <extent>
+                            <measure quantity="1337895" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T17:00:36.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 2001 as printed book and online at state.gov</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">nixon-ford</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>foreign-economic-policy</term>
+                    <term>property-claims</term>
+                    <term>belgium</term>
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>european-economic-community</term>
+                    <term>france</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>germany</term>
+                    <term>greece</term>
+                    <term>israel</term>
+                    <term>italy</term>
+                    <term>japan</term>
+                    <term>netherlands</term>
+                    <term>nixon-richard</term>
+                    <term>rogers-william-pierce</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>syria</term>
+                    <term>united-kingdom</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>democratic-republic-of-the-congo-kinshasa</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>rusk-david-dean</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1969-76v03" status="published" when="2001"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1969–1976</titlePart>
+                    <titlePart type="volumenumber">Volume III</titlePart>
+                    <titlePart type="volume">Foreign Economic Policy; International Monetary Policy,
+                        1969–1972</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline>Editor: Bruce F. Duncombe </byline>
+                <byline>General Editor: David S. Patterson </byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington, DC</pubPlace>
+                    <docDate>2001</docDate>
+                    <pb facs="0002" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION
+                    10865</docImprint>
+            </titlePage>
+            <xi:include href="front/pressrelease.xml" xpointer="pressrelease"/>
+            <xi:include href="front/summary.xml" xpointer="summary"/>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0007" n="[VII]" xml:id="pgVII"/>
+            <pb facs="0008" n="[VIII]" xml:id="pgVIII"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0010" n="[X]" xml:id="pgX"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <pb facs="0018" n="[XVIII]" xml:id="pgXVIII"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0022" n="[XXII]" xml:id="pgXXII"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <xi:include href="body/ch1.xml" xpointer="ch1"/>
+            <xi:include href="body/ch2.xml" xpointer="ch2"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

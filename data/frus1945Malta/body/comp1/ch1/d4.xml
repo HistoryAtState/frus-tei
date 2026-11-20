@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Marshal Stalin to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1945Malta/d4"
+                    type="canonical"/>
+                <relatedItem target="d3.xml" type="prev"/>
+                <relatedItem target="d5.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="4" to="4" unit="page"
+                    >4</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1944-07-22T23:59:59-05:00" notBefore="1944-07-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d4">
+
+                <pb facs="0086" n="4" sameAs="frus:frus1945Malta/pg4"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head>
+                    <hi rendition="#italic">Marshal Stalin to President Roosevelt </hi><anchor n="1"
+                        xml:id="d4-f1"/>
+                </head>
+                <p>Secret and Personal from Premier J. V. Stalin to President F. D. Roosevelt.</p>
+                <p>I share your thought about the desirability of a meeting between you, Mr.
+                    Churchill and myself.</p>
+                <p>However, I must say, that now, when the Soviet Armies are involved in battles on
+                    such a wide front, it would be impossible for me to leave the country and depart
+                    for a certain period of time from the conducting of front matters. All my
+                    colleagues consider it absolutely impossible.</p>
+                <closer>
+                    <dateline rendition="#float-left"><date calendar="gregorian" when="1944-07-22"
+                                ><hi rendition="#small-caps">July</hi> 22, 1944</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d4-f1" n="1" type="source" xml:id="d4-f1-content">
+                <p>Apparently transmitted by the Soviet Embassy, Washington.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

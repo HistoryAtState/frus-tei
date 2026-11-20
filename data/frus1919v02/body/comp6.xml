@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919v02_comp6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Egypt:</title>
+            </titleStmt>
+            <xi:include href="../frus1919v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1919v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919v02/comp6"
+                    type="canonical"/>
+                <relatedItem target="comp5/ch8.xml" type="prev"/>
+                <relatedItem target="comp6/ch9.xml" type="next"/>
+                <relatedItem target="../frus1919v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919v02</bibl>
+                <bibl type="frus-division-id">comp6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="201" to="209" unit="page"
+                        >201–9</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1919-12-22T13:00:00-05:00" notBefore="1917-11-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp6">
+
+                <pb facs="0286" n="201" xml:id="pg201"/>
+
+                <head>Egypt:</head>
+
+                <xi:include href="comp6/ch9.xml" xpointer="ch9"/>
+            </div>
+        </body>
+    </text>
+</TEI>

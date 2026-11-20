@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v03mSupp_d446" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Telegram 1369 from Geneva</title>
+            </titleStmt>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1955-57v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v03mSupp/d446"
+                    type="canonical"/>
+                <relatedItem target="d445.xml" type="prev"/>
+                <relatedItem target="d447.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v03mSupp</bibl>
+                <bibl type="frus-division-id">d446</bibl>
+                <bibl type="frus-division-n">446</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Geneva</placeName>
+                    <date calendar="gregorian" when="1956-01-13">January 13, 1956, 2 p.m.</date>
+                    <date notAfter="1956-01-13T23:59:59-05:00" notBefore="1956-01-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v03mSupp/persons">
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_GFC_1">Gowen, Franklin C.</term>
+                    <term ref="frus:frus1955-57v03mSupp/persons#p_JUA_1">Johnson, U. Alexis</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d446">
+
+                <pb facs="d445-3" n="3" sameAs="frus:frus1955-57v03mSupp/d445-3"/>
+
+                <head>446. Telegram 1369 from Geneva<anchor n="1" xml:id="d446-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Geneva</placeName>, <date
+                            calendar="gregorian" when="1956-01-13">January 13, 1956, 2
+                        p.m.</date></dateline>
+                </opener>
+                <pb facs="d446-1" n="1" type="facsimile" xml:id="d446-1"/>
+                <p>1369. From Johnson.</p>
+                <p>Lai Ya-Li (Matthews 3776, 7225, 3920) and Wang Pao-Liu (7037, 4946, 4080)
+                    respectively, replaced Li and Lin on CHICOM Ambassadorial delegation yesterday.
+                    Request biographic information.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Gowen</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d446-f1" n="1" type="source" xml:id="d446-f1-content">
+                <p>Source: Department of State, Central Files, 611.93/1–1356. Confidential.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

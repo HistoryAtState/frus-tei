@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv12_d377" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Wilson to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv12_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv12_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv12/d377"
+                    type="canonical"/>
+                <relatedItem target="d376.xml" type="prev"/>
+                <relatedItem target="d378.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv12</bibl>
+                <bibl type="frus-division-id">d377</bibl>
+                <bibl type="frus-division-n">377</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="748" to="748" unit="page"
+                        >748</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Paris</hi></placeName>
+                    <date calendar="gregorian" when="1919-04-15">15 April, 1919</date>
+                    <date notAfter="1919-04-15T23:59:59-05:00" notBefore="1919-04-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d377">
+
+                <pb facs="0798" n="748" sameAs="frus:frus1919Parisv12/pg748"/>
+
+                <note rend="inline" type="source">Paris Peace Conf. 181.91/79</note>
+                <head><hi rendition="#italic">President Wilson to the Secretary of State</hi></head>
+                <opener><dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Paris</hi></placeName>,] <date calendar="gregorian"
+                            when="1919-04-15">15 April, 1919</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">My Dear Mr. Secretary</hi>: I have delayed replying
+                    to the enclosed<anchor n="6" xml:id="d377-f1"/> because the other Powers
+                    involved seem to have virtually withdrawn from their agreement to send
+                    commissioners to Syria, but in case we alone send them, these letters would be
+                    just as suitable, and I am very glad to authorize you to sign them.</p>
+                <p>Cordially and faithfully yours,</p>
+                <closer><signed><hi rendition="#small-caps">Woodrow Wilson</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d377-f1" n="6" xml:id="d377-f1-content">
+                <p>Presumably Secretary Lansing’s letter of April 2, <hi rendition="#italic"
+                        >supra.</hi></p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

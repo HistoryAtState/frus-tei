@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1927v02_comp10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Germany:</title>
+            </titleStmt>
+            <xi:include href="../frus1927v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1927v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1927v02/comp10"
+                    type="canonical"/>
+                <relatedItem target="comp9/ch39/d726.xml" type="prev"/>
+                <relatedItem target="comp10/ch40.xml" type="next"/>
+                <relatedItem target="../frus1927v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1927v02</bibl>
+                <bibl type="frus-division-id">comp10</bibl>
+                <bibl type="frus-division-n">10</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="722" to="730" unit="page"
+                        >722–30</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1927-10-11T23:59:59-05:00" notBefore="1927-01-03T21:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp10">
+
+                <pb facs="0830" n="722" xml:id="pg722"/>
+
+                <head>Germany:</head>
+
+
+                <xi:include href="comp10/ch40.xml" xpointer="ch40"/>
+                <xi:include href="comp10/ch41.xml" xpointer="ch41"/>
+            </div>
+        </body>
+    </text>
+</TEI>

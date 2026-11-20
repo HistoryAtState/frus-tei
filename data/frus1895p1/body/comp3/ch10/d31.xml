@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1895p1_d31" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Ewing to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1895p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1895p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1895p1/d31"
+                    type="canonical"/>
+                <relatedItem target="../ch10.xml" type="prev"/>
+                <relatedItem target="d31-a1.xml" type="next"/>
+                <relatedItem target="../ch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1895p1</bibl>
+                <bibl type="frus-division-id">d31</bibl>
+                <bibl type="frus-division-n">31</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="37" to="40" unit="page"
+                        >37–40</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Brussels</hi></placeName>
+                    <date calendar="gregorian" when="1895-01-22"><hi rendition="#italic">January 22,
+                            1895</hi></date>
+                    <date notAfter="1895-01-22T23:59:59-05:00" notBefore="1895-01-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d31">
+
+                <pb facs="0097" n="37" sameAs="frus:frus1895p1/pg37"/>
+
+                <head><hi rendition="#italic">Mr. Ewing to Mr. Gresham</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Brussels</hi></placeName>, <date calendar="gregorian"
+                            when="1895-01-22"><hi rendition="#italic">January 22, 1895</hi></date>.
+                        (Received March 25.)</dateline>
+                    <seg rendition="#float-left">No. 99.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to my dispatch No. 62,<anchor
+                        n="1" xml:id="d31-f1"/> in which I communicated the request of the King of
+                    the Belgians that the President of the United States would consent to act as
+                    mediator in the settlement of certain questions of boundary affecting the
+                    independent State of the Congo, <pb facs="0098" n="38" xml:id="pg38"/> I have
+                    the honor to say that those questions were amicably settled between the Congo
+                    and the French Republic by the arrangement of the 14th of August, 1894.</p>
+                <p>I transmit herewith the translation of a communication which I have just received
+                    from the independent State of the Congo, by which its territory is specifically
+                    bounded and described.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Jas. S. Ewing</hi></signed>.</closer>
+
+
+                <xi:include href="d31-a1.xml" xpointer="d31-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d31-f1" n="1" xml:id="d31-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

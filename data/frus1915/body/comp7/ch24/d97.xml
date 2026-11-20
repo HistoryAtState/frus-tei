@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d97" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d97"
+                    type="canonical"/>
+                <relatedItem target="d96.xml" type="prev"/>
+                <relatedItem target="d98.xml" type="next"/>
+                <relatedItem target="../ch24.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d97</bibl>
+                <bibl type="frus-division-n">97</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="97" to="98" unit="page"
+                        >97–98</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1915-02-26T19:00:00+08:00">
+                        <hi rendition="#italic">February 26, 1915—7 p.m.</hi>
+                    </date>
+                    <date notAfter="1915-02-26T06:00:00-05:00" notBefore="1915-02-26T06:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d97">
+
+                <pb facs="0213" n="97" sameAs="frus:frus1915/pg97"/>
+
+                <note rend="inline" type="source">File No. 793.94/242.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Peking</hi></placeName>, <date
+                            calendar="gregorian" when="1915-02-26T19:00:00+08:00">
+                            <hi rendition="#italic">February 26, 1915—7 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>My telegram of February 23, 8 p.m. At Sino-Japanese diplomatic conference
+                    yesterday the opening of additional treaty ports in Shantung was agreed to. The
+                    Chinese Government refused to accept the <pb facs="0214" n="98" xml:id="pg98"/>
+                    wording of preamble of Article II that “the Chinese Government has always
+                    acknowledged the special position enjoyed by Japan in South Manchuria and Inner
+                    Mongolia” and they will continue to resist the attempt to have a special status
+                    of Japan in that region formally sanctioned. Next meeting Sunday [the 28th].</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Reinsch.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

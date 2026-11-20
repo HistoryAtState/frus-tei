@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d431" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to President Inönü</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d431"
+                    type="canonical"/>
+                <relatedItem target="d430.xml" type="prev"/>
+                <relatedItem target="d432.xml" type="next"/>
+                <relatedItem target="../ch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d431</bibl>
+                <bibl type="frus-division-n">431</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="666" to="666" unit="page"
+                        >666</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Cairo</hi></placeName>
+                    <date calendar="gregorian" when="1943-12-03">December 3, 1943</date>
+                    <date notAfter="1943-12-03T23:59:59-05:00" notBefore="1943-12-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_BJ3">Boettiger, John</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_BOF1">Bryan, Otis F.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_II1">Inönü, Ismet</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d431">
+
+                <pb facs="0770" n="666" sameAs="frus:frus1943CairoTehran/pg666"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head><hi rendition="#italic">President Roosevelt to President Inönü</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Cairo</hi></placeName>, <date calendar="gregorian"
+                            when="1943-12-03">December 3, 1943</date>.</dateline>
+                </opener>
+                <p><hi rendition="#small-caps">My Dear President Inonu</hi>, I am sending one of my
+                    own planes to meet you and your party in Adana, together with my son-in-law,
+                    Major John Boettiger, who will hand this to you.</p>
+                <p>The plane is in command of Major Otis F. Bryan.</p>
+                <p>I hope you will have a smooth trip and I am looking forward with great pleasure
+                    to seeing you on Saturday afternoon.</p>
+                <p>Very sincerely yours,</p>
+                <closer><signed>F[<hi rendition="#small-caps">ranklin</hi>] D R[<hi
+                            rendition="#small-caps">oosevelt</hi>]</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

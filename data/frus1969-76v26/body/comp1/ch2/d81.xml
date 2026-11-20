@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v26_d81" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Letter From President Nixon to Syrian President Asad</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v26_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v26_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v26/d81"
+                    type="canonical"/>
+                <relatedItem target="d80.xml" type="prev"/>
+                <relatedItem target="d82.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v26</bibl>
+                <bibl type="frus-division-id">d81</bibl>
+                <bibl type="frus-division-n">81</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="361" to="362" unit="page"
+                        >361–62</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                        calendar="gregorian" when="1974-05-29">undated</date>
+                    <date notAfter="1974-05-29T23:59:59-05:00" notBefore="1974-05-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v26/persons">
+                    <term ref="frus:frus1969-76v26/persons#p_AH_1">al-Asad (Assad), Hafez</term>
+                    <term ref="frus:frus1969-76v26/persons#p_KHA_1">Kissinger, Henry A.</term>
+                    <term ref="frus:frus1969-76v26/persons#p_NRM_1">Nixon, Richard M.</term>
+                    <term ref="frus:frus1969-76v26/persons#p_SJJ_1">Sisco, Joseph J.</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v26/terms">
+                    <term ref="frus:frus1969-76v26/terms#t_RG_1">RG</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d81">
+
+                <pb facs="0387" n="361" sameAs="frus:frus1969-76v26/pg361"/>
+
+                <head>81. Letter From President Nixon to Syrian President Asad<anchor n="1"
+                        xml:id="d81-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            calendar="gregorian" when="1974-05-29"
+                    >undated</date>.</dateline></opener>
+                <opener>
+                    <salute>Dear Mr. President:</salute>
+                </opener>
+                <p>I want to express to you my gratification at the conclusion of the agreement for
+                    the disengagement of Syrian and Israeli forces, and to af<pb facs="0388" n="362"
+                        xml:id="pg362"/>firm that the United States considers this agreement only a
+                    first step toward a just and durable peace. You have my assurance that the
+                    United States will give full, and continuing support, including our active
+                    involvement within the year in the next stages of the negotiations, to the
+                    achievement of the full implementation of Security Council Resolution 338 in all
+                    of its parts.</p>
+                <p>In our view, the peace settlement should be in accordance with the interests of
+                    all the states in the area, consistent with their independence and sovereignty,
+                    and should take fully into account the legitimate interests of the Palestinian
+                    people.</p>
+                <p>Sincerely,</p>
+                <closer>
+                    <signed corresp="#p_NRM_1">Richard Nixon<anchor n="2" xml:id="d81-f2"/></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d81-f1" n="1" type="source" xml:id="d81-f1-content">
+                <p>Source: National Archives, RG 59, Records of Joseph Sisco, Box 32, Briefing Book:
+                    Syrian-Israeli Disengagement Documents, Under Secretary Sisco. Secret. According
+                    to Kissinger’s memoirs, all documents associated with the agreement had to be
+                    complete by May 29. (<hi rendition="#italic">Years of Upheaval</hi>, p.
+                    1106)</p>
+            </note>
+            <note corresp="#d81-f2" n="2" xml:id="d81-f2-content">
+                <p>Printed from a copy that bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

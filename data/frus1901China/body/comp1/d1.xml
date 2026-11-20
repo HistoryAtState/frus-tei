@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901China_d1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../frus1901China_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1901China_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901China/d1"
+                    type="canonical"/>
+                <relatedItem target="../comp1.xml" type="prev"/>
+                <relatedItem target="d2.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901China</bibl>
+                <bibl type="frus-division-id">d1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="3" to="3" unit="page"
+                    >3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1901-12-11T23:59:59-05:00" notBefore="1901-12-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1">
+
+                <pb facs="0009" n="3" sameAs="frus:frus1901China/pg3"/>
+
+                <head>[Untitled]</head>
+                <p rendition="#flush"><hi rendition="#italic">To the Senate and House of
+                        Representatives:</hi></p>
+                <p>I transmit a report from the Hon. William W. Rockhill, late commissioner to
+                    China, of the results of his mission to that country, with accompanying
+                    documents.</p>
+                <closer><signed><hi rendition="#small-caps">Theodore Roosevelt.</hi></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><hi rendition="#small-caps">White
+                                House</hi>,<lb/><placeName><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1901-12-11"><hi rendition="#italic">December 11,
+                        1901</hi></date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

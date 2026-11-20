@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1871_d70" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hurlbut to Mr. Fish</title>
+            </titleStmt>
+            <xi:include href="../../frus1871_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1871_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1871/d70"
+                    type="canonical"/>
+                <relatedItem target="d69-a1.xml" type="prev"/>
+                <relatedItem target="d70-a1.xml" type="next"/>
+                <relatedItem target="../ch13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1871</bibl>
+                <bibl type="frus-division-id">d70</bibl>
+                <bibl type="frus-division-n">70</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="240" to="241" unit="page"
+                        >240–41</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States</hi>, <hi
+                            rendition="#italic">Bogota</hi></placeName>
+                    <date calendar="gregorian" when="1871-08-27"><hi rendition="#italic">August</hi>
+                        27, 1871</date>
+                    <date notAfter="1871-08-27T23:59:59-05:00" notBefore="1871-08-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d70">
+
+                <pb facs="0454" n="240" xml:id="pg240"/>
+
+                <opener><seg rendition="#center">No. 57.</seg></opener>
+                <head>Mr. Hurlbut to Mr. Fish</head>
+                <opener>
+                    <seg rendition="#float-left">No. 58.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United States</hi>,
+                                <hi rendition="#italic">Bogota</hi></placeName>, <date
+                            calendar="gregorian" when="1871-08-27"><hi rendition="#italic"
+                                >August</hi> 27, 1871</date>. (Received October
+                    14.)</dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> I have the honor to inclose a copy of my
+                    dispatch to Señor Zapata on the affair of the Montijo. His reply was forwarded
+                    by last mail.</p>
+                <p>I believe that, in the hurry of doing up the last mail, I neglected to number my
+                    last dispatches. They are numbered on my records 56 and 57.</p>
+                <p>Your, obedient servant,</p>
+                <closer>
+                    <signed>S. A. HURLBUT.</signed></closer>
+
+
+                <xi:include href="d70-a1.xml" xpointer="d70-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

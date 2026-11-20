@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d93" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in the United Kingdom (Winant) to the President</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d93"
+                    type="canonical"/>
+                <relatedItem target="d92.xml" type="prev"/>
+                <relatedItem target="d94.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d93</bibl>
+                <bibl type="frus-division-n">93</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="64" to="65" unit="page"
+                        >64–65</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-04">4 November 1943</date>
+                    <date notAfter="1943-11-04T23:59:59-05:00" notBefore="1943-11-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_WJG1">Winant, John G.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d93">
+
+                <pb facs="0156" n="64" sameAs="frus:frus1943CairoTehran/pg64"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">The Ambassador in the United Kingdom</hi> (<hi
+                        rendition="#italic">Winant</hi>) <hi rendition="#italic">to the
+                        President</hi><anchor n="1" xml:id="d93-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1943-11-04">4 November 1943</date>.</dateline>
+                </opener>
+                <p>Personal and secret Winant to The President.</p>
+                <p>Thanks good message.</p>
+                <p>Last night I spoke with the Prime Minister….</p>
+                <p>He told me while we were talking that he had asked you several questions and had
+                    only received a reply to a fraction of them. The <pb facs="0157" n="65"
+                        xml:id="pg65"/> issue that deeply disturbed him was your suggestion to
+                    introduce a Russian military representative in the projected Anglo-American
+                    Staff meetings.<anchor n="2" xml:id="d93-f2"/> He is absolutely set against
+                    it.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d93-f1" n="1" type="source" xml:id="d93-f1-content">
+                <p>Apparently sent via military channels.</p>
+            </note>
+            <note corresp="#d93-f2" n="2" xml:id="d93-f2-content">
+                <p>See Roosevelt’s telegram 397, October 26, 1943, to Churchill, <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg42">p. 42</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

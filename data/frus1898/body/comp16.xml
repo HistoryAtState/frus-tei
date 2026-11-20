@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_comp16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Korea</title>
+            </titleStmt>
+            <xi:include href="../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/comp16"
+                    type="canonical"/>
+                <relatedItem target="comp15/ch69/d390-a4.xml" type="prev"/>
+                <relatedItem target="comp16/ch70.xml" type="next"/>
+                <relatedItem target="../frus1898.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">comp16</bibl>
+                <bibl type="frus-division-n">16</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="473" to="490" unit="page"
+                        >473–90</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1898-08-26T23:59:59-05:00" notBefore="1897-10-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp16">
+
+                <pb facs="0569" n="473" xml:id="pg473"/>
+
+                <head>Korea</head>
+
+
+
+
+
+                <xi:include href="comp16/ch70.xml" xpointer="ch70"/>
+                <xi:include href="comp16/ch71.xml" xpointer="ch71"/>
+                <xi:include href="comp16/ch72.xml" xpointer="ch72"/>
+                <xi:include href="comp16/ch73.xml" xpointer="ch73"/>
+            </div>
+        </body>
+    </text>
+</TEI>

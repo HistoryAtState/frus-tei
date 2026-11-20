@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d388" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Ryan to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d388"
+                    type="canonical"/>
+                <relatedItem target="d387.xml" type="prev"/>
+                <relatedItem target="d389.xml" type="next"/>
+                <relatedItem target="../comp14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d388</bibl>
+                <bibl type="frus-division-n">388</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="647" to="647" unit="page"
+                        >647</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1890-07-29"><hi rendition="#italic">July</hi>
+                        29, 1890</date>
+                    <date notAfter="1890-07-29T23:59:59-05:00" notBefore="1890-07-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d388">
+
+                <pb facs="0757" n="647" sameAs="frus:frus1890/pg647"/>
+
+                <head><hi rendition="#italic">Mr. Ryan to Mr. Blaine.</hi></head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Mexico</hi></placeName>, <date calendar="gregorian"
+                            when="1890-07-29"><hi rendition="#italic">July</hi> 29, 1890</date>.
+                        (Received July 30.)</dateline></opener>
+                <p>Mr. Ryan reports that he has seen a telegram just received from Ezeta to his
+                    special agent in Mexico in relation to the suppression of telegrams, and which
+                    reads: “I have ordered telegrams of Mexican and American Governments to be
+                    passed, but lines in Guatemala are broken. A ship might be gotten by the
+                    American minister to transport his communications to San José.”</p>
+            </div>
+        </body>
+    </text>
+</TEI>

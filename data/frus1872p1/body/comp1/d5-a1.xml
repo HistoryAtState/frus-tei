@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1872p1_d5-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Executive Order.</title>
+            </titleStmt>
+            <xi:include href="../../frus1872p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1872p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1872p1/d5-a1"
+                    type="canonical"/>
+                <relatedItem target="d5.xml" type="prev"/>
+                <relatedItem target="d6.xml" type="next"/>
+                <relatedItem target="d5.xml" type="parent"/>
+                <relatedItem target="d5.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1872p1</bibl>
+                <bibl type="frus-division-id">d5-a1</bibl>
+                <bibl type="frus-division-n">5.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="4" to="4" unit="page"
+                    >4</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d5-a1">
+
+                <pb facs="0100" n="4" sameAs="frus:frus1872p1/pg4"/>
+
+                <head>Executive Order.</head>
+                <p>In pursuance of the authority conferred upon me by the 16th section of the act
+                    entitled “An act to regulate the diplomatic and consular systems of the United
+                    States,” approved August 18, 1856, I do hereby prescribe, in addition to the
+                    fees heretofore prescribed, that the sum of five dollars shall be charged for
+                    the granting or issuing of each passport granted or issued in any foreign
+                    country, by any diplomatic or consular officer of the United States.</p>
+                <closer>
+                    <signed>U. S. GRANT.</signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><placeName>
+                            <placeName type="venue"><hi rendition="#small-caps">Executive
+                                    Chamber</hi></placeName>, <lb/>
+                            <placeName type="city"><hi rendition="#italic">Washington, D.
+                                C.</hi></placeName></placeName>, <date calendar="gregorian"
+                            when="1871-10-13"><hi rendition="#italic">October</hi> 13,
+                        1871</date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

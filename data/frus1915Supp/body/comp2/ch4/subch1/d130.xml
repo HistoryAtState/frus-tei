@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp_d130" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The German Ambassador (Bernstorff) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915Supp/d130"
+                    type="canonical"/>
+                <relatedItem target="d129.xml" type="prev"/>
+                <relatedItem target="d130-a1.xml" type="next"/>
+                <relatedItem target="../subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915Supp</bibl>
+                <bibl type="frus-division-id">d130</bibl>
+                <bibl type="frus-division-n">130</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="95" to="97" unit="page"
+                        >95–97</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1915-02-07">
+                        <hi rendition="#italic">February 7, 1915</hi>.</date>
+                    <date notAfter="1915-02-07T23:59:59-05:00" notBefore="1915-02-07T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1915Supp/persons">
+                    <term ref="frus:frus1915Supp/persons#p_BJHACV1">Bernstorff, Johann Heinrich A.,
+                        Count von.</term>
+                    <term ref="frus:frus1915Supp/persons#p_HVHEK1">Haniel von Haimhausen, Edgar
+                        K.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d130">
+
+                <pb facs="0353" n="95" sameAs="frus:frus1915Supp/pg95"/>
+
+                <note rend="inline" type="source">File No. 763.72/1438</note>
+                <head>
+                    <hi rendition="#italic">The German Ambassador</hi> (<hi rendition="#italic"
+                        >Bernstorff</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Translation]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">J. Nr. A 876]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1915-02-07">
+                            <hi rendition="#italic">February 7, 1915</hi>.</date>
+                        <lb/> [<hi rendition="#italic">Received February 8.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Mr. Secretary of State</hi>: I have the honor to
+                    transmit to you herewith a copy of the Imperial Chancellor’s proclamation
+                    concerning Great Britain’s conduct of the war, as received here by
+                        wireless.<anchor n="1" xml:id="d130-f1"/>
+                </p>
+                <p>Accept [etc.]</p>
+                <closer>For the Imperial Ambassador: <lb/>
+                    <signed>
+                        <hi rendition="#small-caps">Haniel</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d130-a1.xml" xpointer="d130-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d130-f1" n="1" xml:id="d130-f1-content">
+                <p>The text enclosed is in English translation only. It is printed as the first copy
+                    of the memorandum to reach the Department. Another English version arrived on
+                    the morning of February 10, telegraphed by the Ambassador in Germany (File No.
+                    763.72/1443). A third came with his despatch No. 525. on the 24th, together with
+                    a copy of the German original and a translation into French (File No.
+                    763.72/1495).</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

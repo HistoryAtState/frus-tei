@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v07-09mSupp_d231" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum from Col. Chapla to Bundy, March 3</title>
+            </titleStmt>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v07-09mSupp/d231"
+                    type="canonical"/>
+                <relatedItem target="../ch36.xml" type="prev"/>
+                <relatedItem target="d231-a1.xml" type="next"/>
+                <relatedItem target="../ch36.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v07-09mSupp</bibl>
+                <bibl type="frus-division-id">d231</bibl>
+                <bibl type="frus-division-n">231</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                        when="1961-03-03">March 3, 1961</date>
+                    <date notAfter="1961-03-03T23:59:59-05:00" notBefore="1961-03-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v07-09mSupp/persons">
+                    <term ref="frus:frus1961-63v07-09mSupp/persons#p_BM_1">Bundy, McGeorge</term>
+                    <term ref="frus:frus1961-63v07-09mSupp/persons#p_SB_1">Smith, Bromley</term>
+                </keywords>
+                <keywords scheme="frus:frus1961-63v07-09mSupp/terms">
+                    <term ref="frus:frus1961-63v07-09mSupp/terms#t_USA_1">USA</term>
+                    <term ref="frus:frus1961-63v07-09mSupp/terms#t_WSEG_1">WSEG</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d231">
+
+                <pb facs="0856" n="705" sameAs="frus:frus1961-63v07-09mSupp/pg705"/>
+
+                <head>231. Memorandum from Col. Chapla to Bundy, March 3<anchor n="1"
+                        xml:id="d231-f1"/></head>
+                <opener>
+                    <dateline>
+                        <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            when="1961-03-03">March 3, 1961</date>
+                    </dateline>
+                </opener>
+                <pb facs="d231-01" n="1" type="facsimile" xml:id="d231-01"/>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>WSEG Report Number 50</item>
+                </list>
+                <list type="references">
+                    <head>REFERENCE</head>
+                    <item>Memorandum from the Military Assistant, Office of the Secretary of
+                        Defense, dated 2 March 1961</item>
+                </list>
+                <p>1. The summary portion of WSEG Report No. 50, as requested in the referenced
+                    memorandum, is forwarded herewith.</p>
+                <p>2. The attached report is provided on a loan basis for your personal use and
+                    return when it has served your need.</p>
+                <closer>
+                    <signed>Benjamin C. Chapla</signed><affiliation>Colonel, USA <lb/> Executive
+                        Secretary</affiliation>
+                </closer>
+
+
+
+                <xi:include href="d231-a1.xml" xpointer="d231-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d231-f1" n="1" type="source" xml:id="d231-f1-content">
+                <p>Transmits report on “Evaluation of Strategic Offensive Weapon Systems.” Top
+                    Secret. 28 pp. Kennedy Library, National Security Files, Subjects Series, WSEG
+                    50, Smith.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

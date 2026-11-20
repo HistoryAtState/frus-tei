@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d310-a2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title/>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d310-a2"
+                    type="canonical"/>
+                <relatedItem target="d310-a1.xml" type="prev"/>
+                <relatedItem target="d310-a3.xml" type="next"/>
+                <relatedItem target="d310.xml" type="parent"/>
+                <relatedItem target="d310.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d310-a2</bibl>
+                <bibl type="frus-division-n">310.2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="267" to="267" unit="page"
+                        >267</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Panama</hi></placeName>
+                    <date calendar="gregorian" when="1902-10-03"><hi rendition="#italic">October 3,
+                            1902</hi>.</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d310-a2">
+
+                <pb facs="0351" n="267" sameAs="frus:frus1903/pg267"/>
+
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Panama</hi></placeName>, <date calendar="gregorian"
+                            when="1902-10-03"><hi rendition="#italic">October 3,
+                        1902</hi>.</date></dateline></opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Secretary of the Navy</hi>, <hi
+                        rendition="#italic">Washington, D. C.:</hi></p>
+                <p>Have sent this communication to the American consul at Panama:</p>
+                <p>“Inform governor while trains running under United States protection I must
+                    decline transportation any combatants, ammunition, arms, which might cause
+                    interruption traffic or convert line of transit into theater hostilities.”</p>
+                <closer><signed><hi rendition="#small-caps">Casey.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

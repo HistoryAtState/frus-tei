@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d27" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d27"
+                    type="canonical"/>
+                <relatedItem target="d26.xml" type="prev"/>
+                <relatedItem target="d28.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d27</bibl>
+                <bibl type="frus-division-n">27</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="19" to="19" unit="page"
+                        >19</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Warm Springs, Georgia</hi></placeName>
+                    <date calendar="gregorian" when="1944-12-09">9 December 1944</date>
+                    <date notAfter="1944-12-09T23:59:59-05:00" notBefore="1944-12-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_HWA1">Harriman, W. Averell</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d27">
+
+                <pb facs="0101" n="19" sameAs="frus:frus1945Malta/pg19"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to Prime Minister Churchill
+                        </hi><anchor n="1" xml:id="d27-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Excerpts]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Warm
+                                Springs, Georgia</hi></placeName>,<anchor n="2" xml:id="d27-f2"/>] <lb/>
+                        <date calendar="gregorian" when="1944-12-09">9 December
+                        1944</date>.</dateline>
+                </opener>
+                <p>Number 672. Top Secret and Personal from the President for the Prime
+                    Minister.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <p>I think I can leave after Inauguration Day. I hoped that Uncle Joe could come to
+                    Rome or Malta or Taormina or Egypt but if he will not—and insists on the Black
+                    Sea—I could do it even at great difficulty on account of Congress. Harriman
+                    suggested Baturn which has an excellent climate. You and I could fly there from
+                    Malta or Athens, sending ahead one of my transport Flagships on which to live.
+                    Yalta is also intact, though the roadstead is open and we should probably have
+                    to live ashore.</p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d27-f1" n="1" type="source" xml:id="d27-f1-content">
+                <p>Sent to the United States Naval Attaché, London, via Navy channels.</p>
+            </note>
+            <note corresp="#d27-f2" n="2" xml:id="d27-f2-content">
+                <p> Roosevelt was at Warm Springs, Georgia, from November 28 to December 18,
+                    inclusive, 1944 (<hi rendition="#italic">New York Times</hi>, December 20, 1944,
+                    p. 15).</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1919Parisv12_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1919Parisv12_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1919Parisv12_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1919Parisv12"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1919Parisv12" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1919Parisv12/covers/frus1919Parisv12.jpg"/>
+                        <extent>
+                            <measure quantity="32144" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:01:01.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1919Parisv12" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1919Parisv12/ebook/frus1919Parisv12.epub"/>
+                        <extent>
+                            <measure quantity="1320328" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:01:01.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1919Parisv12" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1919Parisv12/ebook/frus1919Parisv12.mobi"/>
+                        <extent>
+                            <measure quantity="1984871" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:01:01.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1947 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">wilson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>peace</term>
+                    <term>albania</term>
+                    <term>austria</term>
+                    <term>hungary</term>
+                    <term>italy</term>
+                    <term>united-kingdom</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>league-of-nations</term>
+                    <term>wilson-woodrow</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>prisoners-of-war</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>armistices</term>
+                    <term>montenegro</term>
+                    <term>palestine</term>
+                    <term>romania</term>
+                    <term>russia</term>
+                    <term>turkey</term>
+                    <term>labor</term>
+                    <term>liechtenstein</term>
+                    <term>lansing-robert</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1919Parisv12" status="published" when="1947"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0005"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Papers Relating to the Foreign Relations of the United
+                        States</titlePart>
+                    <titlePart type="volumetitle">The Paris Peace Conference</titlePart>
+                    <titlePart type="subseries">1919</titlePart>
+                    <titlePart type="volumeno">Volume XII</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing
+                        Office</publisher><lb/><pubPlace>Washington:</pubPlace>
+                    <lb/>
+                    <docDate>1947</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE<lb/><hi
+                        rendition="#small-caps">Publication</hi> 3009<lb/>For sale by
+                    the<lb/>Superintendent of Documents, U. S. Government Printing
+                    Office<lb/>Washington 25, D. C. - Price $3.00 (Buckram)</docImprint>
+            </titlePage>
+            <xi:include href="front/prefatory-note.xml" xpointer="prefatory-note"/>
+            <pb facs="0008" n="[IV]" xml:id="pgIV"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0010" n="[VI]" xml:id="pgVI"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+            <pb facs="0050" n="[XLVI]" xml:id="pgXLVI"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <pb facs="0914" n="[864]" xml:id="pg864"/>
+            <pb facs="0915" n="[865]" xml:id="pg865"/>
+            <pb facs="0916" n="[866]" xml:id="pg866"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

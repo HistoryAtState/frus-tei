@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1948v06" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1948v06_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1948v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1948v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1948v06"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1948v06" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1948v06/covers/frus1948v06.jpg"/>
+                        <extent>
+                            <measure quantity="33281" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:58:42.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1948v06" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1948v06/ebook/frus1948v06.epub"/>
+                        <extent>
+                            <measure quantity="2383660" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:58:42.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1948v06" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1948v06/ebook/frus1948v06.mobi"/>
+                        <extent>
+                            <measure quantity="3514126" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:58:42.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1974 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>japan</term>
+                    <term>south-korea</term>
+                    <term>north-korea</term>
+                    <term>australia</term>
+                    <term>canada</term>
+                    <term>china</term>
+                    <term>peace</term>
+                    <term>foreign-aid</term>
+                    <term>france</term>
+                    <term>cambodia</term>
+                    <term>laos</term>
+                    <term>vietnam</term>
+                    <term>germany</term>
+                    <term>quarantine-blockade</term>
+                    <term>india</term>
+                    <term>military-bases</term>
+                    <term>war-crimes-and-war-criminals</term>
+                    <term>elections</term>
+                    <term>national-security-council</term>
+                    <term>netherlands</term>
+                    <term>indonesia</term>
+                    <term>philippines</term>
+                    <term>united-kingdom</term>
+                    <term>united-nations</term>
+                    <term>truman-harry-s</term>
+                    <term>marshall-george-catlett</term>
+                    <term>civil-rights-foreign</term>
+                    <term>american-samoa</term>
+                    <term>heard-island-and-mcdonald-islands</term>
+                    <term>tokelau</term>
+                    <term>cook-islands</term>
+                    <term>far-eastern-commission</term>
+                    <term>christmas-island</term>
+                    <term>grenada</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1948v06" status="published" when="1974"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1948</titlePart>
+                    <titlePart type="volumeno">Volume IV</titlePart>
+                    <titlePart type="volumetitle">The Far East<lb/>and Australasia</titlePart>
+                </docTitle>
+                <docImprint>U. S. Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1974</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> Department of State Publication 8681 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the<lb/>U.S. Government Book Store<lb/>Department of
+                    State<lb/>Washington, D.C. - $14.40 (Buckram)<lb/>Stock Number
+                    4400–01496</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0010" n="[VI]" xml:id="pgVI"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <pb facs="1360" n="[1346]" xml:id="pg1346"/>
+        </body>
+        <back>
+            <pb facs="1361" n="[1347]" xml:id="pg1347"/>
+            <pb facs="1362" n="[1348]" xml:id="pg1348"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

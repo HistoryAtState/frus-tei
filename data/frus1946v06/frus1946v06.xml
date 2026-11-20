@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1946v06" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1946v06_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1946v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1946v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1946v06"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1946v06" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1946v06/covers/frus1946v06.jpg"/>
+                        <extent>
+                            <measure quantity="30546" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:50:26.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1946v06" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1946v06/ebook/frus1946v06.epub"/>
+                        <extent>
+                            <measure quantity="1777337" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:50:26.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1946v06" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1946v06/ebook/frus1946v06.mobi"/>
+                        <extent>
+                            <measure quantity="2328102" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:50:26.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1969 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>albania</term>
+                    <term>bulgaria</term>
+                    <term>finland</term>
+                    <term>hungary</term>
+                    <term>poland</term>
+                    <term>romania</term>
+                    <term>truman-harry-s</term>
+                    <term>byrnes-james-francis</term>
+                    <term>greece</term>
+                    <term>france</term>
+                    <term>italy</term>
+                    <term>united-kingdom</term>
+                    <term>elections</term>
+                    <term>diplomatic-recognition</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>foreign-investment</term>
+                    <term>foreign-aid</term>
+                    <term>russia</term>
+                    <term>czech-republic</term>
+                    <term>slovakia</term>
+                    <term>civil-rights-foreign</term>
+                    <term>antisemitism-post-world-war-ii</term>
+                    <term>universal-postal-union</term>
+                    <term>marshall-islands</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1946v06" status="published" when="1969"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[]" xml:id="pg-seq-1"/>
+            <pb facs="0002" n="[]" xml:id="pg-seq-2"/>
+            <pb facs="0003" n="[]" xml:id="pg-seq-3"/>
+            <pb facs="0004" n="[]" xml:id="pg-seq-4"/>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1946</titlePart>
+                    <titlePart type="volumeno">Volume VI</titlePart>
+                    <titlePart type="volumetitle">Eastern Europe;<lb/>The Soviet Union</titlePart>
+                </docTitle>
+                <docImprint>United States Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1969</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION
+                        8470<lb/><hi rendition="#small-caps">Historical Office</hi><lb/><hi
+                        rendition="#small-caps">Bureau of Public Affairs</hi><lb/>For sale by
+                    the<lb/>Superintendent of Documents, U.S. Government Printing
+                    Office<lb/>Washington, D.C. 20402 - Price $5.50 (cloth)</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0014" n="[X]" xml:id="pgX"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <pb facs="0993" n="[979]" xml:id="pg979"/>
+            <pb facs="0994" n="[980]" xml:id="pg980"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

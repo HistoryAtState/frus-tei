@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d799" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d799"
+                    type="canonical"/>
+                <relatedItem target="d798.xml" type="prev"/>
+                <relatedItem target="d800.xml" type="next"/>
+                <relatedItem target="../ch76.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d799</bibl>
+                <bibl type="frus-division-n">799</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="645" to="645" unit="page"
+                        >645</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Mexico City</hi></placeName>
+                    <date calendar="gregorian" when="1915-01-19">
+                        <hi rendition="#italic">January 19, 1915</hi></date>
+                    <date notAfter="1915-01-19T23:59:59-05:00" notBefore="1915-01-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d799">
+
+                <pb facs="0761" n="645" sameAs="frus:frus1915/pg645"/>
+
+                <note rend="inline" type="source">File No. 812.00/14240.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Mexico City</hi></placeName>, <date
+                            calendar="gregorian" when="1915-01-19">
+                            <hi rendition="#italic">January 19, 1915</hi></date>.</dateline>
+                </opener>
+                <p>The Convention continues its sessions. The first two articles of the proposed
+                    plan of government were adopted. A manifesto was issued calling on the Mexican
+                    nation to support the Convention. General Villa was confirmed as Commander in
+                    Chief and was given a complimentary vote of confidence. The late Provisional
+                    President was given three days to return something over ten millions of public
+                    funds taken with him and was promised guaranties if he would make delivery
+                    within the limit; otherwise the law would be applied to him if caught.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Silliman</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

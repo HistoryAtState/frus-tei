@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d86-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d86-a1"
+                    type="canonical"/>
+                <relatedItem target="d86.xml" type="prev"/>
+                <relatedItem target="d87.xml" type="next"/>
+                <relatedItem target="d86.xml" type="parent"/>
+                <relatedItem target="d86.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d86-a1</bibl>
+                <bibl type="frus-division-n">86.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="75" to="75" unit="page"
+                        >75</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">St. Petersburg</hi></placeName>
+                    <date calendar="gregorian" when="1912-03-13">
+                        <hi rendition="#italic">March 13, 1912</hi></date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d86-a1">
+
+                <pb facs="0191" n="75" sameAs="frus:frus1912/pg75"/>
+
+                <opener>
+                    <seg rendition="#center">[Extract.]</seg>
+                </opener>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">St. Petersburg</hi></placeName>, <date
+                            calendar="gregorian" when="1912-03-13">
+                            <hi rendition="#italic">March 13, 1912</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Confirming my yesterday’s telegram, the
+                    Russian Government appears to be acting in good faith with the other powers.
+                    Russia is protecting her consulates in Mongolia with troops and increasing the
+                    consulates. The Russian Government is profoundly dissatisfied with the prospects
+                    in China and believes the Provisional Government a failure. Every possible
+                    influence will be used to prevent creation of another strong military power on
+                    Russia’s borders, or the construction of railroads that could be used against
+                    Russia in war.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Curtis Guild</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

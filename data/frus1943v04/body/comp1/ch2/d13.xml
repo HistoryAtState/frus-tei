@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943v04_d13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943v04_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943v04_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943v04/d13"
+                    type="canonical"/>
+                <relatedItem target="d12.xml" type="prev"/>
+                <relatedItem target="d14.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943v04</bibl>
+                <bibl type="frus-division-id">d13</bibl>
+                <bibl type="frus-division-n">13</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="13" unit="page"
+                        >13</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1943-12-04T22:59:59-05:00" notBefore="1943-12-01T23:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d13">
+
+                <pb facs="0025" n="13" sameAs="frus:frus1943v04/pg13"/>
+
+                <note rend="inline" type="source">800.24/1414: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to the Secretary of State
+                        </hi><anchor n="16" xml:id="d13-f1"/>
+                </head>
+                <dateline>
+                    <date ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                        calendar="gregorian" notAfter="1943-12-04T23:59:59-04:00"
+                        notBefore="1943-12-02T00:00:00-04:00">undated</date>
+                </dateline>
+                <p>I am in agreement with you in respect to assigning American officials to London
+                    to confer on current questions in the Middle East and also post-war problems. A
+                    lot of these should receive your consideration as well as mine. Please pass
+                    along to Lord Halifax this information.</p>
+                <closer>[<signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>]</closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d13-f1" n="16" type="source" xml:id="d13-f1-content">
+                <p>Paraphrased copy of a message received at the White House, and forwarded to the
+                    Department on December 4.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

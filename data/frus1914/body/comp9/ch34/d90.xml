@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d90" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chargé MacMurray to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d90"
+                    type="canonical"/>
+                <relatedItem target="d89.xml" type="prev"/>
+                <relatedItem target="d90-a1.xml" type="next"/>
+                <relatedItem target="../ch34.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d90</bibl>
+                <bibl type="frus-division-n">90</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="92" to="93" unit="page"
+                        >92–93</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1914-07-08">
+                        <hi rendition="#italic">July 8, 1914</hi></date>
+                    <date notAfter="1914-07-08T23:59:59-05:00" notBefore="1914-07-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d90">
+
+                <pb facs="0208" n="92" sameAs="frus:frus1914/pg92"/>
+
+                <note rend="inline" type="source">File No. 493.11/512.</note>
+                <head>
+                    <hi rendition="#italic">Chargé MacMurray to the Secretary of State.</hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Extract.]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">No. 299.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Peking</hi></placeName>, <date
+                            calendar="gregorian" when="1914-07-08">
+                            <hi rendition="#italic">July 8, 1914</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Referring to the telegram<anchor n="37"
+                        xml:id="d90-f1"/> of June 30 by which the Department instructed Mr. C. L. L.
+                    Williams, who has for some time been detailed to the Legation as delegate for
+                    the settlement of claims arising out of the Revolution of 1911, to proceed at
+                    once and take up his post as Consul at Nanking, I have the honor to enclose
+                    herewith the despatch, under date of June 25, in which Mr. Williams reported to
+                    the Minister the status of the claims with the negotiation of which he has been
+                    charged by the Department.* * *</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">J. Y. A. MacMurray</hi></signed>.</closer>
+
+
+                <xi:include href="d90-a1.xml" xpointer="d90-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d90-f1" n="37" xml:id="d90-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

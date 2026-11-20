@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v06" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1964-68v06_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1964-68v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1964-68v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1964-68v06"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1964-68v06" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v06/covers/frus1964-68v06.jpg"/>
+                        <extent>
+                            <measure quantity="33473" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:51:49.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v06" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v06/ebook/frus1964-68v06.epub"/>
+                        <extent>
+                            <measure quantity="1424571" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:51:49.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v06" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v06/ebook/frus1964-68v06.mobi"/>
+                        <extent>
+                            <measure quantity="2215987" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:51:49.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 2002 as printed book and online at state.gov</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">johnson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>vietnam</term>
+                    <term>australia</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>cambodia</term>
+                    <term>china</term>
+                    <term>france</term>
+                    <term>india</term>
+                    <term>indonesia</term>
+                    <term>italy</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>armistices</term>
+                    <term>laos</term>
+                    <term>south-korea</term>
+                    <term>norway</term>
+                    <term>rusk-david-dean</term>
+                    <term>sweden</term>
+                    <term>thailand</term>
+                    <term>united-kingdom</term>
+                    <term>covert-actions</term>
+                    <term>peace</term>
+                    <term>vietnam-conflict</term>
+                    <term>antisemitism</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1964-68v06" status="published" when="2002"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="I" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1964–1968</titlePart>
+                    <titlePart type="volumenumber">Volume VI</titlePart>
+                    <titlePart type="volume">Vietnam, January–August 1968</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline>Editors: Kent Sieg </byline>
+                <byline>General Editor: David S. Patterson </byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>2002</docDate>
+                    <pb facs="0002" n="II" xml:id="pgII"/> Department of State Publication
+                    10959<lb/>Office of the Historian<lb/>Bureau of Public Affairs<lb/>For sale by
+                    the U.S. Government Printing
+                    Office<lb/>http://bookstore.gpo.gov/index.html</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0008" n="[VIII]" xml:id="pgVIII"/>
+            <xi:include href="front/volumes.xml" xpointer="volumes"/>
+            <pb facs="0010" n="[X]" xml:id="pgX"/>
+            <xi:include href="front/Contents.xml" xpointer="Contents"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+        </front>
+        <body>
+            <pb facs="0044" n="[XLIV]" xml:id="pgXLIV"/>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d18" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. McCormick</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d18"
+                    type="canonical"/>
+                <relatedItem target="../ch13.xml" type="prev"/>
+                <relatedItem target="d18-a1.xml" type="next"/>
+                <relatedItem target="../ch13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d18</bibl>
+                <bibl type="frus-division-n">18</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="26" to="26" unit="page"
+                        >26</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1902-02-03"><hi rendition="#italic">February 3,
+                            1902</hi></date>
+                    <date notAfter="1902-02-03T23:59:59-05:00" notBefore="1902-02-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d18">
+
+                <pb facs="0106" n="26" sameAs="frus:frus1902/pg26"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. McCormick</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1902-02-03"><hi rendition="#italic">February 3,
+                        1902</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have to inclose herewith a copy of a
+                    memorandum expressing the views of the United States in regard to the proposed
+                    convention and arrangement between the Chinese and Russian Governments
+                    respecting Manchuria, which has been cabled to the American missions at Pekin
+                    and St. Petersburg. You will take early occasion to acquaint the Government to
+                    which you are accredited with the text of this memorandum.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+                <xi:include href="d18-a1.xml" xpointer="d18-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

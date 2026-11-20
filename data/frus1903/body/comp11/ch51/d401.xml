@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d401" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Tower to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d401"
+                    type="canonical"/>
+                <relatedItem target="d400.xml" type="prev"/>
+                <relatedItem target="d401-a1.xml" type="next"/>
+                <relatedItem target="../ch51.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d401</bibl>
+                <bibl type="frus-division-n">401</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="434" to="435" unit="page"
+                        >434–35</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1903-01-08"><hi rendition="#italic">January 8,
+                            1903</hi>.</date>
+                    <date notAfter="1903-01-08T23:59:59-05:00" notBefore="1903-01-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d401">
+
+                <pb facs="0518" n="434" sameAs="frus:frus1903/pg434"/>
+
+                <head><hi rendition="#italic">Mr. Tower to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Berlin</hi></placeName>, <date calendar="gregorian"
+                            when="1903-01-08"><hi rendition="#italic">January 8,
+                        1903</hi>.</date></dateline>
+                    <seg rendition="#float-left">No. 17.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose to you herewith
+                    a copy and a translation into English of the reply of the German Government to
+                    President Castro, which was sent to me in a memorandum from the Imperial foreign
+                    office on the 6th of January, 1903.</p>
+                <p>Immediately upon receipt of this memorandum I communicated it to you in a
+                    telegram.</p>
+                <p>I received on the 6th of January your telegram announcing the fact that you had
+                    then received the reply of Great Britain which appointed the British ambassador
+                    in Washington to treat with Mr. Bowen.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Charlemagne
+                    Tower.</hi></signed></closer>
+
+
+                <xi:include href="d401-a1.xml" xpointer="d401-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

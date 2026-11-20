@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943CairoTehran_d84" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Generalissimo Chiang to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943CairoTehran_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1943CairoTehran/d84"
+                    type="canonical"/>
+                <relatedItem target="d83.xml" type="prev"/>
+                <relatedItem target="d85.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943CairoTehran</bibl>
+                <bibl type="frus-division-id">d84</bibl>
+                <bibl type="frus-division-n">84</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="59" to="59" unit="page"
+                        >59</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Chungking</hi></placeName>
+                    <date calendar="gregorian" when="1943-11-02">2 November 1943</date>
+                    <date notAfter="1943-11-02T23:59:59-05:00" notBefore="1943-11-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943CairoTehran/persons">
+                    <term ref="frus:frus1943CairoTehran/persons#p_CKS1">Chiang Kai-shek</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_CC2">Churchill, Clementine</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_HTG1">Hearn, Thomas G.</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RE1">Roosevelt, Elliott</term>
+                    <term ref="frus:frus1943CairoTehran/persons#p_RFD1">Roosevelt, Franklin
+                        D.</term>
+                </keywords>
+                <keywords scheme="frus:frus1943CairoTehran/terms">
+                    <term ref="frus:frus1943CairoTehran/terms#t_Generalissimo1">Generalissimo</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d84">
+
+                <pb facs="0151" n="59" sameAs="frus:frus1943CairoTehran/pg59"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Generalissimo Chiang to President
+                        Roosevelt</hi><anchor n="1" xml:id="d84-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Chungking</hi></placeName>, <date calendar="gregorian"
+                            when="1943-11-02">2 November 1943</date>.</dateline>
+                </opener>
+                <p>For President Roosevelt’s eyes only</p>
+                <p>From the Generalissimo to his Excellency President Roosevelt.</p>
+                <p>I am in receipt of your telegrams transmitted to me by General Hearn on October
+                        28th<anchor n="2" xml:id="d84-f2"/> and 29th<anchor n="3" xml:id="d84-f3"/>
+                    and November 1st.<anchor n="4" xml:id="d84-f4"/> I am delighted to accept the
+                    suggestions contained in your last telegram and am looking forward to meeting
+                    you and Mr. Churchill. Everything will be kept strictly secret here….</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d84-f1" n="1" type="source" xml:id="d84-f1-content">
+                <p>Apparently sent to Washington via military channels, and forwarded by the White
+                    House Map Room to Roosevelt at Hyde Park.</p>
+            </note>
+            <note corresp="#d84-f2" n="2" xml:id="d84-f2-content">
+                <p>Dated October 27, 1943; <hi rendition="#italic">ante</hi>, <ref target="#pg47">p.
+                        47</ref>.</p>
+            </note>
+            <note corresp="#d84-f3" n="3" xml:id="d84-f3-content">
+                <p>Dated October 27, 1943. It concerned the signing of the Four-Nation Declaration
+                    on General Security at the Moscow Conference of Foreign Ministers.</p>
+            </note>
+            <note corresp="#d84-f4" n="4" xml:id="d84-f4-content">
+                <p>Dated October 30, 1943; <hi rendition="#italic">ante</hi>, <ref target="#pg55">p.
+                        55</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

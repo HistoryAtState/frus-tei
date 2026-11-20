@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d860" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Tower to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d860"
+                    type="canonical"/>
+                <relatedItem target="d859-a3.xml" type="prev"/>
+                <relatedItem target="d860-a1.xml" type="next"/>
+                <relatedItem target="../ch244.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d860</bibl>
+                <bibl type="frus-division-n">860</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="932" to="933" unit="page"
+                        >932–33</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">St. Petersburg</hi></placeName>
+                    <date calendar="gregorian" when="1902-03-22"><hi rendition="#italic">March 22,
+                            1902</hi></date>
+                    <date notAfter="1902-03-22T23:59:59-05:00" notBefore="1902-03-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d860">
+
+                <pb facs="1012" n="932" xml:id="pg932"/>
+
+                <head><hi rendition="#italic">Mr. Tower to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic">St.
+                                Petersburg</hi></placeName>, <date calendar="gregorian"
+                            when="1902-03-22"><hi rendition="#italic">March 22,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 552.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose to you
+                    herewith, for your information, a copy of the declaration<anchor n="a"
+                        xml:id="d860-f1"/> of the 3d (16th) of March, made by Russia and France in
+                    regard to the maintenance of the status quo in the Far East, as the same was
+                    published in the official part of the Journal de St. Pétersbourg on Thursday,
+                    the 7th (20th) of March, 1902.</p>
+                <p>Although this declaration was officially communicated to the Government of the
+                    United States by the representatives in Washington of the signatory powers, its
+                    publication here was accompanied by a memorandum issued in regard to it by the
+                    imperial Russian minister for foreign affairs, which may not have accompanied
+                    the official communication of the declaration itself. I forward this copy of it
+                    to you, therefore, because of its value in interpreting the purposes of the
+                    declaration and also for the particularly interesting confirmation which it
+                    contains of the statements of policy heretofore made by Russia in regard to the
+                    open door in China.</p>
+                <p>This statement is that: <quote rend="blockquote">
+                        <p>The principles which have guided the policy of Russia since the outbreak
+                            of the disorders in China have always been and still are unchanged.
+                            Russia insists upon the independence and the integrity of China, a
+                            neighboring and friendly country, as well as upon those of Korea. Russia
+                            desires the maintenance of the status quo and of the general peace in
+                            the Far East. By the construction of the Great Siberian Railway, with
+                            its branch line through Manchuria to a harbor always free from ice,
+                            Russia favors the extension within those regions of the commerce and
+                            industry of the whole world.</p>
+                    </quote></p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Charlemagne
+                    Tower.</hi></signed></closer>
+
+
+                <xi:include href="d860-a1.xml" xpointer="d860-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d860-f1" n="a" xml:id="d860-f1-content">
+                <p>Printed, ante, <ref target="#pg931">page 931</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

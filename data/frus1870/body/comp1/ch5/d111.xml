@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_d111" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Davis to Mr. Read.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/d111"
+                    type="canonical"/>
+                <relatedItem target="d110.xml" type="prev"/>
+                <relatedItem target="d112.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">d111</bibl>
+                <bibl type="frus-division-n">111</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="146" to="146" unit="page"
+                        >146</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1870-08-18"><hi rendition="#small-caps"
+                            >August</hi> 18, 1870.</date>
+                    <date notAfter="1870-08-18T23:59:59-05:00" notBefore="1870-08-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d111">
+
+                <pb facs="0180" n="146" xml:id="pg146"/>
+
+                <note rend="inline" type="source">No. 111.</note>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <head>Mr. Davis to Mr. Read.</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <date calendar="gregorian" when="1870-08-18"><hi rendition="#small-caps"
+                                >August</hi> 18, 1870.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Read,</hi>
+                    <hi rendition="#italic">Consul General</hi>, <hi rendition="#italic"
+                    >Paris:</hi></p>
+                <p>Treasury Department decides that all fees received must be either in the same
+                    money as heretofore authorized to be received, or its equivalent, so that the
+                    United States will not be a loser by any abnormal condition of affairs now
+                    existing in France. Please so instruct consuls in your jurisdiction.</p>
+                <closer>
+                    <signed>J. C. B. DAVIS.</signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

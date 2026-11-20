@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d725" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d725"
+                    type="canonical"/>
+                <relatedItem target="d724.xml" type="prev"/>
+                <relatedItem target="d726.xml" type="next"/>
+                <relatedItem target="../ch63.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d725</bibl>
+                <bibl type="frus-division-n">725</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="594" to="594" unit="page"
+                        >594</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1900-02-22"><hi rendition="#italic">February
+                            22, 1900</hi></date>
+                    <date notAfter="1900-02-22T23:59:59-05:00" notBefore="1900-02-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d725">
+
+                <pb facs="0692" n="594" sameAs="frus:frus1900/pg594"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr. Hay.</hi></head>
+                <opener><seg rendition="#center">[Telegram—Paraphrase.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1900-02-22"
+                                ><hi rendition="#italic">February 22,
+                    1900</hi></date>.</dateline></opener>
+                <p>(Mr. Choate reports that the foreign office had not, until his inquiry, learned
+                    of the seizure of the <hi rendition="#italic">Sabine</hi>, but that inquiries
+                    will at once be instituted and the results reported to him. He requests to be
+                    advised of date and place of seizure and present whereabouts of the vessel.)</p>
+            </div>
+        </body>
+    </text>
+</TEI>

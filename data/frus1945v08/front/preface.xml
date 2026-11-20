@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945v08_preface" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Preface</title>
+            </titleStmt>
+            <xi:include href="../frus1945v08_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1945v08_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945v08/preface"
+                    type="canonical"/>
+                <relatedItem type="prev"/>
+                <relatedItem target="preface-a1.xml" type="next"/>
+                <relatedItem target="../frus1945v08.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945v08</bibl>
+                <bibl type="frus-division-id">preface</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">preface</bibl>
+                <bibl type="frus-print-pages"><biblScope from="III" to="IV" unit="page"
+                        >III–IV</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1957-01-16T23:59:59+03:30" notBefore="1944-08-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="preface">
+
+                <pb facs="0007" n="III" xml:id="pgIII"/>
+
+                <head>Preface</head>
+                <p>The preparation of this volume was directed and supervised by E. Ralph Perkins,
+                    former Chief of the Foreign Relations Division, assisted by the present Chief,
+                    S. Everett Gleason, by Rogers P. Churchill and Ralph R. Goodwin.</p>
+                <p>The compilations on the regional policies of the United States toward the Near
+                    East were the work of Herbert A. Fine, Ralph R. Goodwin, and John P. Glennon.
+                    Messrs. Fine and Goodwin also selected and edited the documents on American
+                    relations with Egypt, Greece, Iran, and Iraq.</p>
+                <p>Mr. Goodwin was responsible for compiling the documentation of United States
+                    policy toward Palestine, Yemen, and Turkey, assisted in the last subject by Mr.
+                    Churchill. The compilations on American relations with Saudi Arabia, and with
+                    Syria and Lebanon were the work of Mr. Fine.</p>
+                <p>The compilation on United States policy toward Liberia was done by Laurence
+                    Evans, a former member of the staff. Mr. Evans and John P. Glennon were
+                    responsible for the documentation on American relations with Morocco, including
+                    the International Zone of Tangier.</p>
+                <p>The Publishing and Reproduction Services Division (Jerome H. Perlmutter, Chief)
+                    was responsible for the technical editing of the volume.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">William</hi> M. <hi rendition="#small-caps"
+                            >Franklin</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Director, Historical Office</hi>, <lb/>
+                    <hi rendition="#italic">Bureau of Public Affairs</hi>
+                    <lb/><dateline rendition="#float-left">
+                        <date calendar="gregorian" when="1968-12-31"><hi rendition="#small-caps"
+                                >December</hi> 31, 1968</date></dateline></closer>
+
+
+                <xi:include href="preface-a1.xml" xpointer="preface-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

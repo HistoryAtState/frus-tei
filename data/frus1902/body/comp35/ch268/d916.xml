@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d916" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hardy to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d916"
+                    type="canonical"/>
+                <relatedItem target="d915.xml" type="prev"/>
+                <relatedItem target="d916-a1.xml" type="next"/>
+                <relatedItem target="../ch268.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d916</bibl>
+                <bibl type="frus-division-n">916</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="981" to="981" unit="page"
+                        >981</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Legation</hi>,<lb/><hi
+                            rendition="#italic">Berne</hi></placeName>
+                    <date calendar="gregorian" when="1902-05-28"><hi rendition="#italic">May 28,
+                            1902</hi></date>
+                    <date notAfter="1902-05-28T23:59:59-05:00" notBefore="1902-05-28T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d916">
+
+                <pb facs="1061" n="981" sameAs="frus:frus1902/pg981"/>
+
+                <head><hi rendition="#italic">Mr. Hardy to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >United States Legation</hi>,<lb/><hi rendition="#italic"
+                            >Berne</hi></placeName>, <date calendar="gregorian" when="1902-05-28"
+                                ><hi rendition="#italic">May 28, 1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 60.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to acknowledge the receipt
+                    of your telegram<anchor n="a" xml:id="d916-f1"/> of May 24, and to confirm mine
+                    of this date. This telegram has been sent and consuls notified, on the assurance
+                    of the President of the Confederation that Switzerland would willingly consent
+                    to the above request of the President of Cuba, and that formal notice to that
+                    effect would be at once sent to the legation.</p>
+                <p>The formal communication from the foreign office has since been received, and a
+                    copy thereof, together with translation, is herewith inclosed.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Arthur S. Hardy.</hi></signed></closer>
+
+
+                <xi:include href="d916-a1.xml" xpointer="d916-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d916-f1" n="a" xml:id="d916-f1-content">
+                <p>Printed, <ref target="#pg6">page 6</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

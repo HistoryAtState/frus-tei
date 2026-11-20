@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_comp22" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Italy</title>
+            </titleStmt>
+            <xi:include href="../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/comp22"
+                    type="canonical"/>
+                <relatedItem target="comp21/ch98/d377-a2.xml" type="prev"/>
+                <relatedItem target="comp22/ch99.xml" type="next"/>
+                <relatedItem target="../frus1904.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">comp22</bibl>
+                <bibl type="frus-division-n">22</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="405" to="409" unit="page"
+                        >405–9</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1904-04-18T23:59:59-05:00" notBefore="1903-06-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp22">
+
+                <pb facs="0493" n="405" xml:id="pg405"/>
+
+                <head>Italy</head>
+
+
+
+
+                <xi:include href="comp22/ch99.xml" xpointer="ch99"/>
+                <xi:include href="comp22/ch100.xml" xpointer="ch100"/>
+                <xi:include href="comp22/ch101.xml" xpointer="ch101"/>
+                <xi:include href="comp22/ch102.xml" xpointer="ch102"/>
+            </div>
+        </body>
+    </text>
+</TEI>

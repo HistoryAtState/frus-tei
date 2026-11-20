@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_d60-a7" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Jones to Captain Long.</title>
+            </titleStmt>
+            <xi:include href="../../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/d60-a7"
+                    type="canonical"/>
+                <relatedItem target="d60-a6.xml" type="prev"/>
+                <relatedItem target="d60-a8.xml" type="next"/>
+                <relatedItem target="d60.xml" type="parent"/>
+                <relatedItem target="d60.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">d60-a7</bibl>
+                <bibl type="frus-division-n">60.7</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="67" to="67" unit="page"
+                        >67</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">San José, Guatemala</hi></placeName>
+                    <date calendar="gregorian" when="1890-07-18"><hi rendition="#italic">July</hi>
+                        18, 1890</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d60-a7">
+
+                <pb facs="0171" n="67" sameAs="frus:frus1890/pg67"/>
+
+                <opener><seg rendition="#center">[Inclosure 6.]</seg></opener>
+                <head><hi rendition="#italic">Mr. Jones to Captain Long.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >San José, Guatemala</hi></placeName>, <date calendar="gregorian"
+                            when="1890-07-18"><hi rendition="#italic">July</hi> 18,
+                        1890</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Dear Sir</hi>: The commandant has given official
+                    order to permit the transshipment of the 20 cases rifles and 25 cases cartridges
+                    to the <hi rendition="#italic">City of Sidney.</hi></p>
+                <p>I therefore beg you to order the transshipment as soon as possible, so that the
+                        <hi rendition="#italic">City of Sydney</hi> may reach Champerico this
+                    evening.</p>
+                <p>Yours, truly,</p>
+                <closer><signed><hi rendition="#small-caps">R. L. Jones.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

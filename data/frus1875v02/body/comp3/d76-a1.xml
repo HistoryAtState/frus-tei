@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1875v02_d76-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Notification, No. 58.</title>
+            </titleStmt>
+            <xi:include href="../../frus1875v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1875v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1875v02/d76-a1"
+                    type="canonical"/>
+                <relatedItem target="d76.xml" type="prev"/>
+                <relatedItem target="d76-a1-a1.xml" type="next"/>
+                <relatedItem target="d76.xml" type="parent"/>
+                <relatedItem target="d76.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1875v02</bibl>
+                <bibl type="frus-division-id">d76-a1</bibl>
+                <bibl type="frus-division-n">76.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="794" to="795" unit="page"
+                        >794–95</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d76-a1">
+
+                <pb facs="0140" n="794" sameAs="frus:frus1875v02/pg794"/>
+
+                <opener><seg rendition="#center">[Inclosure in No. 219.—Translation.]</seg></opener>
+                <head>Notification, No. 58.</head>
+                <p rendition="#center">[From the “Japan Weekly Mail,” April 17, 1875.]</p>
+                <p>An edict having been made in the terms of the annexed decree, I hereby make this
+                    known.</p>
+                <closer><signed>SANJO SANEYOSHI,<lb/><hi rendition="#italic">Prime
+                        Minister.</hi></signed>
+                    <lb/>
+                    <dateline rendition="#float-left"><date calendar="gregorian" when="1875-04-14"
+                                ><hi rendition="#small-caps">April</hi> 14,
+                    1875</date>.</dateline></closer>
+
+
+                <xi:include href="d76-a1-a1.xml" xpointer="d76-a1-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

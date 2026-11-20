@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1892_d84" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Denby to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1892_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1892_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1892/d84"
+                    type="canonical"/>
+                <relatedItem target="d83-a6.xml" type="prev"/>
+                <relatedItem target="d84-a1.xml" type="next"/>
+                <relatedItem target="../comp6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1892</bibl>
+                <bibl type="frus-division-id">d84</bibl>
+                <bibl type="frus-division-n">84</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="113" to="115" unit="page"
+                        >113–15</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1892-05-18"><hi rendition="#italic">May 18,
+                            1892</hi></date>
+                    <date notAfter="1892-05-18T23:59:59-05:00" notBefore="1892-05-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d84">
+
+                <pb facs="0201" n="113" sameAs="frus:frus1892/pg113"/>
+
+                <head><hi rendition="#italic">Mr. Denby to Mr. Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Peking</hi></placeName>, <date calendar="gregorian"
+                            when="1892-05-18"><hi rendition="#italic">May 18, 1892</hi></date>.
+                        (Received June 28.)</dateline>
+                    <seg rendition="#float-left">No. 1534.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith a copy
+                    of a dispatch sent by me to Consul-General Leonard, on the subject of his
+                    jurisdiction to try an American citizen, James A. Frame, on a charge of murder,
+                    for a homicide committed at Shanghai. The facts and conclusions of law are fully
+                    set out in the inclosure. As there may be some delay in the action of the
+                    consul-general, I would be glad to know whether the Department agrees with my
+                    opinion.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Charles Denby.</hi></signed></closer>
+
+
+                <xi:include href="d84-a1.xml" xpointer="d84-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

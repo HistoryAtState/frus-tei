@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1941-43_d6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1941-43_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1941-43_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1941-43/d6"
+                    type="canonical"/>
+                <relatedItem target="d5.xml" type="prev"/>
+                <relatedItem target="d7.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1941-43</bibl>
+                <bibl type="frus-division-id">d6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="7" to="7" unit="page"
+                    >7</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1941-12-10">December 10, 1941</date>
+                    <date notAfter="1941-12-10T23:59:59-05:00" notBefore="1941-12-10T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1941-43/terms">
+                    <term ref="frus:frus1941-43/terms#t_FormerNavalPerson1">Former Naval
+                        Person</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d6">
+
+                <pb facs="0081" n="7" sameAs="frus:frus1941-43/pg7"/>
+
+                <note rend="inline" type="source">740.0011 European War 1939/17329½: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d6-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">triple priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1941-12-10">December 10,
+                        1941</date>.</dateline>
+                </opener>
+                <p>Personal and secret from the Former Naval Person for the President.</p>
+                <p>We do not think there is any serious danger about return journey.<anchor n="2"
+                        xml:id="d6-f2"/> There is, however, great danger in our not having a full
+                    discussion on the highest level about the extreme gravity of the naval position
+                    as well as upon all the production and allocation issues involved. I am quite
+                    ready to meet you at Bermuda or to fly from Bermuda to Washington. I feel it
+                    would be disastrous to wait for another month before we settled common action in
+                    face of new adverse situation particularly in Pacific. I had hoped to start
+                    tomorrow night, but will postpone my sailing till I have received rendezvous
+                    from you. I never felt so sure about the final victory, but only concerted
+                    action will achieve it. Kindest regards.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d6-f1" n="1" type="source" xml:id="d6-f1-content">
+                <p>Sent as telegram 5976 over Winant’s signature to the Secretary of State.</p>
+            </note>
+            <note corresp="#d6-f2" n="2" xml:id="d6-f2-content">
+                <p>There was apparently a telegram (no copy of which has been found) from Roosevelt
+                    to Churchill on December 9 in which Roosevelt expressed fears about Churchill’s
+                    safety on the return journey to the British Isles. See Churchill, <hi
+                        rendition="#italic">The Grand Alliance</hi>, p. 609.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

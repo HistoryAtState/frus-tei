@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_comp30" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Panama:</title>
+            </titleStmt>
+            <xi:include href="../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/comp30"
+                    type="canonical"/>
+                <relatedItem target="comp29/ch113/d1718.xml" type="prev"/>
+                <relatedItem target="comp30/ch114.xml" type="next"/>
+                <relatedItem target="../frus1914.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">comp30</bibl>
+                <bibl type="frus-division-n">30</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="982" to="1052" unit="page"
+                        >982–1052</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1914-12-19T23:59:59-05:00" notBefore="1913-04-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp30">
+
+                <pb facs="1098" n="982" xml:id="pg982"/>
+
+                <head>Panama:</head>
+
+
+
+
+
+
+
+                <xi:include href="comp30/ch114.xml" xpointer="ch114"/>
+                <xi:include href="comp30/ch115.xml" xpointer="ch115"/>
+                <xi:include href="comp30/ch116.xml" xpointer="ch116"/>
+                <xi:include href="comp30/ch117.xml" xpointer="ch117"/>
+                <xi:include href="comp30/ch118.xml" xpointer="ch118"/>
+                <xi:include href="comp30/ch119.xml" xpointer="ch119"/>
+                <xi:include href="comp30/ch120.xml" xpointer="ch120"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_d451" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/d451"
+                    type="canonical"/>
+                <relatedItem target="d450.xml" type="prev"/>
+                <relatedItem target="d452.xml" type="next"/>
+                <relatedItem target="../ch43.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">d451</bibl>
+                <bibl type="frus-division-n">451</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="439" to="439" unit="page"
+                        >439</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Santo Domingo</hi></placeName>
+                    <date calendar="gregorian" when="1913-12-04">
+                        <hi rendition="#italic">December 4, 1913</hi></date>
+                    <date notAfter="1913-12-04T23:59:59-05:00" notBefore="1913-12-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d451">
+
+                <pb facs="0543" n="439" sameAs="frus:frus1913/pg439"/>
+
+                <note rend="inline" type="source">File No. 839.00/988.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Santo Domingo</hi></placeName>, <date
+                            calendar="gregorian" when="1913-12-04">
+                            <hi rendition="#italic">December 4, 1913</hi></date>.</dateline>
+                </opener>
+                <p>Evidence was had today of real success for the Department’s policy when an
+                    orderly meeting was held in the plaza with moderate speeches and no interference
+                    by the Government; police were substituted for soldiers. Arrests, however, are
+                    still being made.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Sullivan</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

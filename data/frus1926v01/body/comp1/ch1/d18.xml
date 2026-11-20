@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1926v01_d18" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chargé in Liberia (Clark) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1926v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1926v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1926v01/d18"
+                    type="canonical"/>
+                <relatedItem target="d17.xml" type="prev"/>
+                <relatedItem target="d18-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1926v01</bibl>
+                <bibl type="frus-division-id">d18</bibl>
+                <bibl type="frus-division-n">18</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="14" unit="page"
+                        >13–14</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Monrovia</hi></placeName>
+                    <date calendar="gregorian" when="1926-05-12"><hi rendition="#italic">May 12,
+                            1926</hi></date>
+                    <date notAfter="1926-05-12T23:59:59-05:00" notBefore="1926-05-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d18">
+
+                <pb facs="0145" n="13" sameAs="frus:frus1926v01/pg13"/>
+
+                <note rend="inline" type="source">500.C114/445c</note>
+                <head><hi rendition="#italic">The Chargé in Liberia</hi> (<hi rendition="#italic"
+                        >Clark</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Monrovia</hi></placeName>, <date calendar="gregorian"
+                            when="1926-05-12"><hi rendition="#italic">May 12,
+                        1926</hi></date>.<lb/>[Received June 17.]</dateline>
+                    <seg rendition="#float-left">No. 370</seg>
+                    <lb/>
+                    <seg rendition="#float-left">Diplomatic</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to refer to the
+                    Department’s instruction No. 270 of February 12, 1926,<anchor n="22"
+                        xml:id="d18-f1"/> and, in confirmation of my telegram of this date,<anchor
+                        n="23" xml:id="d18-f2"/> to enclose herewith in duplicate a certified true
+                    copy of the Liberian Government’s reply to my note of May 7, 1926, with
+                    reference <pb facs="0146" n="14" xml:id="pg14"/> to the acceptance by the
+                    Liberian Government of the conditions, reservations and understandings contained
+                    in the Senate Resolution of January 27, 1926.</p>
+                <p>I have [etc.]</p>
+                <closer><signed><hi rendition="#small-caps">Reed Paige Clark</hi></signed></closer>
+
+
+                <xi:include href="d18-a1.xml" xpointer="d18-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d18-f1" n="22" xml:id="d18-f1-content">
+                <p>See footnote 8, <ref target="#pg4">p. 4</ref>.</p>
+            </note>
+            <note corresp="#d18-f2" n="23" xml:id="d18-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

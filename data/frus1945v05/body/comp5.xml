@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945v05_comp5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Rumania</title>
+            </titleStmt>
+            <xi:include href="../frus1945v05_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1945v05_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945v05/comp5"
+                    type="canonical"/>
+                <relatedItem target="comp4/ch17/d337.xml" type="prev"/>
+                <relatedItem target="comp5/ch18.xml" type="next"/>
+                <relatedItem target="../frus1945v05.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945v05</bibl>
+                <bibl type="frus-division-id">comp5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="464" to="666" unit="page"
+                        >464–666</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-12-31T19:00:00-05:00" notBefore="1945-01-04T16:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp5">
+
+                <pb facs="0476" n="464" xml:id="pg464"/>
+
+                <head>Rumania</head>
+
+
+
+                <xi:include href="comp5/ch18.xml" xpointer="ch18"/>
+                <xi:include href="comp5/ch19.xml" xpointer="ch19"/>
+            </div>
+        </body>
+    </text>
+</TEI>

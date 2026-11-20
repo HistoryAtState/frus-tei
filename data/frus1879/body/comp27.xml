@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1879_comp27" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Spain.</title>
+            </titleStmt>
+            <xi:include href="../frus1879_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1879_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1879/comp27"
+                    type="canonical"/>
+                <relatedItem target="comp26/d470-a3.xml" type="prev"/>
+                <relatedItem target="comp27/d471.xml" type="next"/>
+                <relatedItem target="../frus1879.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1879</bibl>
+                <bibl type="frus-division-id">comp27</bibl>
+                <bibl type="frus-division-n">27</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="932" to="956" unit="page"
+                        >932–56</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1879-08-22T23:59:59-05:00" notBefore="1878-06-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp27">
+
+                <pb facs="1028" n="932" sameAs="frus:frus1879/pg932"/>
+
+                <head>Spain.</head>
+
+
+                <xi:include href="comp27/d471.xml" xpointer="d471"/>
+                <xi:include href="comp27/ch4.xml" xpointer="ch4"/>
+            </div>
+        </body>
+    </text>
+</TEI>

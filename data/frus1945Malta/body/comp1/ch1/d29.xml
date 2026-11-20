@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d29" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in the Soviet Union (Harriman) to the President </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d29"
+                    type="canonical"/>
+                <relatedItem target="d28.xml" type="prev"/>
+                <relatedItem target="d30.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d29</bibl>
+                <bibl type="frus-division-n">29</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="20" to="20" unit="page"
+                        >20</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1944-12-15">15 December 1944.</date>
+                    <date notAfter="1944-12-15T23:59:59-05:00" notBefore="1944-12-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_HWA1">Harriman, W. Averell</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d29">
+
+                <pb facs="0102" n="20" sameAs="frus:frus1945Malta/pg20"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in the Soviet Union</hi> (<hi
+                        rendition="#italic">Harriman</hi>) <hi rendition="#italic">to the President
+                        </hi><anchor n="1" xml:id="d29-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Moscow</hi></placeName>, <date
+                            calendar="gregorian" when="1944-12-15">15 December 1944.</date>
+                        <lb/> [Received 16 December.]</dateline>
+                </opener>
+                <p>Personal and Secret for the President from Harriman.</p>
+                <p>Supplementing my . . . [telegram of December 14] sent last night reporting on my
+                    talk with Stalin about the place of the proposed meeting although Stalin
+                    definitely left the door open for consideration of the Mediterranean I do not
+                    feel too optimistic that he will finally agree to go there. It was my definite
+                    impression however that he wanted to accede to your request and he spoke rather
+                    regretfully when he said he would have to consult his doctors again.</p>
+                <p>He brought the subject of the meeting up himself and indicated that he was
+                    anxious to have it take place promptly after the inauguration.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d29-f1" n="1" type="source" xml:id="d29-f1-content">
+                <p>Sent by the United States Naval Attaché, Moscow, via Navy channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

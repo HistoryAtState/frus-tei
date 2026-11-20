@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d245" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Hart.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d245"
+                    type="canonical"/>
+                <relatedItem target="d244-a1.xml" type="prev"/>
+                <relatedItem target="d246.xml" type="next"/>
+                <relatedItem target="../ch81.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d245</bibl>
+                <bibl type="frus-division-n">245</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="290" to="291" unit="page"
+                        >290–91</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1902-05-31"><hi rendition="#italic">May 31,
+                            1902</hi></date>
+                    <date notAfter="1902-05-31T23:59:59-05:00" notBefore="1902-05-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d245">
+
+                <pb facs="0370" n="290" sameAs="frus:frus1902/pg290"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. Hart</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1902-05-31"><hi rendition="#italic">May 31,
+                        1902</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to your No. 573, of February 25
+                    last, in regard to the complaint of the Swiss citizen, Roberto Beck, I inclose
+                    copy of a memorandum<anchor n="a" xml:id="d245-f1"/> left with me by the Swiss
+                    minister at this capital, in which he asks this Government to make
+                    representations to the Colombian Government, with a view to putting an end to
+                    the expropriation of Mr. Beck’s mules, and to obtain compensation for the
+                    injuries already done to him.</p>
+                <pb facs="0371" n="291" xml:id="pg291"/>
+                <p>The Department would be pleased to receive a more complete report regarding the
+                    case and the action taken by you than that contained in your dispatch above
+                    referred to.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay</hi>.</signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d245-f1" n="a" xml:id="d245-f1-content">
+                <p>Printed, <ref target="#pg979">page 979</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

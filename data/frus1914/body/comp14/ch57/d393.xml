@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d393" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d393"
+                    type="canonical"/>
+                <relatedItem target="d392.xml" type="prev"/>
+                <relatedItem target="d394.xml" type="next"/>
+                <relatedItem target="../ch57.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d393</bibl>
+                <bibl type="frus-division-n">393</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="271" to="271" unit="page"
+                        >271</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Quito</hi></placeName>
+                    <date calendar="gregorian" when="1914-02-26T09:00:00-05:14">
+                        <hi rendition="#italic">February 26, 1914, 9 a.m.</hi>
+                    </date>
+                    <date notAfter="1914-02-26T09:14:00-05:00" notBefore="1914-02-26T09:14:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d393">
+
+                <pb facs="0387" n="271" sameAs="frus:frus1914/pg271"/>
+
+                <note rend="inline" type="source">File No. 822.00/362.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Quito</hi></placeName>, <date
+                            calendar="gregorian" when="1914-02-26T09:00:00-05:14">
+                            <hi rendition="#italic">February 26, 1914, 9 a.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>President Plaza left here Sunday night ostensibly to take command of army at
+                    Esmeraldas. Mr. Pallares, President of the Chamber of Deputies, is acting as
+                    President.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Hartman</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

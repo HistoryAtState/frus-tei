@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp_d433" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Vice Consul at London (Westacott) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915Supp/d433"
+                    type="canonical"/>
+                <relatedItem target="d432.xml" type="prev"/>
+                <relatedItem target="d434.xml" type="next"/>
+                <relatedItem target="../subch21.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915Supp</bibl>
+                <bibl type="frus-division-id">d433</bibl>
+                <bibl type="frus-division-n">433</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="292" to="292" unit="page"
+                        >292</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1915-11-23">
+                        <hi rendition="#italic">November 23, 1915</hi>.</date>
+                    <date notAfter="1915-11-23T23:59:59-05:00" notBefore="1915-11-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1915Supp/persons">
+                    <term ref="frus:frus1915Supp/persons#p_WR1">Westacott, Richard</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d433">
+
+                <pb facs="0550" n="292" sameAs="frus:frus1915Supp/pg292"/>
+
+                <note rend="inline" type="source">File No. 763.72112/1917</note>
+                <head>
+                    <hi rendition="#italic">The Vice Consul at London</hi> (<hi rendition="#italic"
+                        >Westacott</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1915-11-23">
+                            <hi rendition="#italic">November 23, 1915</hi>.</date>
+                        <lb/> [<hi rendition="#italic">Received 10.50 a. m.</hi>]</dateline>
+                </opener>
+                <p>Foreign Office announces Swiss import trust called Société Suisse de Surveillance
+                    Economique commenced operations November 16 as only authorized consignee in
+                    Switzerland of contraband and prohibited exports from Allies. Articles for
+                    exportation of which British licenses granted previous to 16th November may
+                    proceed notwithstanding.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Westacott</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

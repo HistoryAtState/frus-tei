@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav02_d611" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Russia (Francis) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav02/d611"
+                    type="canonical"/>
+                <relatedItem target="../ch2subch2.xml" type="prev"/>
+                <relatedItem target="d612.xml" type="next"/>
+                <relatedItem target="../ch2subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav02</bibl>
+                <bibl type="frus-division-id">d611</bibl>
+                <bibl type="frus-division-n">611</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="505" to="505" unit="page"
+                        >505</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Murmansk</hi></placeName>
+                    <date calendar="gregorian" when="1918-08-01T11:00:00+04:31"><hi
+                            rendition="#italic">August 1, 1918, 11 a.m.</hi></date>
+                    <date notAfter="1918-08-01T01:29:00-05:00" notBefore="1918-08-01T01:29:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav02/persons">
+                    <term ref="frus:frus1918Russiav02/persons#p_FDR1">Francis, David R.</term>
+                    <term ref="frus:frus1918Russiav02/persons#p_PMGFC1">Poole, Maj. Gen. Frederick
+                        C</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d611">
+
+                <pb facs="0595" n="505" sameAs="frus:frus1918Russiav02/pg505"/>
+
+                <note rend="inline" type="source">File No. 119.2/469</note>
+                <head><hi rendition="#italic">The Ambassador in Russia</hi> (<hi rendition="#italic"
+                        >Francis</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Murmansk</hi></placeName>, <date calendar="gregorian"
+                            when="1918-08-01T11:00:00+04:31"><hi rendition="#italic">August 1, 1918,
+                                11 a.m.</hi></date>
+                        <lb/> [<hi rendition="#italic">Received August 2, 7 a.m.</hi>]</dateline>
+                </opener>
+                <p>343. Your 218, 220, 221, 228, and circular July 11, 8 a.m.,<anchor n="3"
+                        xml:id="d611-f1"/> from London delivered last midnight. Stopped here because
+                    wire communication with Vologda severed. Your 221 undecipherable. Please repeat
+                    groups. No advice from General Poole<anchor n="4" xml:id="d611-f2"/> who arrives
+                    Archangel to-morrow with force of about 1,700 and whose landing will be resisted
+                    if Bolsheviks still in control. When will American troops arrive here and how
+                    many? Think important their coming be expedited with all haste possible.</p>
+                <closer>
+                    <signed><hi rendition="#small-caps">Francis</hi></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d611-f1" n="3" xml:id="d611-f1-content">
+                <p>None printed.</p>
+            </note>
+            <note corresp="#d611-f2" n="4" xml:id="d611-f2-content">
+                <p>Maj. Gen. Frederick C. Poole commanding the British forces in north Russia.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

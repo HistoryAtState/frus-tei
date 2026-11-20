@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1940v01_d53" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The British Ambassador (Lothian) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1940v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1940v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1940v01/d53"
+                    type="canonical"/>
+                <relatedItem target="d52.xml" type="prev"/>
+                <relatedItem target="d53-a1.xml" type="next"/>
+                <relatedItem target="../ch5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1940v01</bibl>
+                <bibl type="frus-division-id">d53</bibl>
+                <bibl type="frus-division-n">53</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="140" to="141" unit="page"
+                        >140–41</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1940-04-06">April 6, 1940</date>
+                    <date notAfter="1940-04-06T23:59:59-05:00" notBefore="1940-04-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d53">
+
+                <pb facs="0152" n="140" sameAs="frus:frus1940v01/pg140"/>
+
+                <note rend="inline" type="source">740.00112 European War 1939/1303</note>
+                <head>
+                    <hi rendition="#italic">The British Ambassador</hi> (<hi rendition="#italic"
+                        >Lothian</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1940-04-06">April 6, 1940</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Dear Mr. Secretary</hi>: I received instructions
+                    last night from Lord Halifax<anchor n="8" xml:id="d53-f1"/> to communicate the
+                    enclosed message to you for your personal information.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Lothian</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d53-a1.xml" xpointer="d53-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d53-f1" n="8" xml:id="d53-f1-content">
+                <p>British Secretary of State for Foreign Affairs.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

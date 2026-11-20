@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_d198" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Group to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/d198"
+                    type="canonical"/>
+                <relatedItem target="d197.xml" type="prev"/>
+                <relatedItem target="d198-a1.xml" type="next"/>
+                <relatedItem target="../ch23.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">d198</bibl>
+                <bibl type="frus-division-n">198</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="183" to="183" unit="page"
+                        >183</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">New York</hi></placeName>
+                    <date calendar="gregorian" when="1913-06-06">
+                        <hi rendition="#italic">June 6, 1913</hi></date>
+                    <date notAfter="1913-06-06T23:59:59-05:00" notBefore="1913-06-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d198">
+
+                <pb facs="0287" n="183" xml:id="pg183"/>
+
+                <note rend="inline" type="source">File No. 893.51/1434.</note>
+                <head>
+                    <hi rendition="#italic">The American Group to the Secretary of State.</hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">New York</hi></placeName>, <date
+                            calendar="gregorian" when="1913-06-06">
+                            <hi rendition="#italic">June 6, 1913</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: We beg to enclose herewith, for your
+                    information and files, copy of letter received today from the International
+                    Banking Corporation quoting a cable received from their London office in regard
+                    to the repayment of the Treasury bills from the proceeds of the reorganization
+                    loan.</p>
+                <p>Yours very truly,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Willard Straight</hi>.</signed>
+                </closer>
+
+
+                <xi:include href="d198-a1.xml" xpointer="d198-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

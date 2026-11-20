@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1947v06_preface" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Preface</title>
+            </titleStmt>
+            <xi:include href="../frus1947v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1947v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1947v06/preface"
+                    type="canonical"/>
+                <relatedItem type="prev"/>
+                <relatedItem target="preface-a1.xml" type="next"/>
+                <relatedItem target="../frus1947v06.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1947v06</bibl>
+                <bibl type="frus-division-id">preface</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">preface</bibl>
+                <bibl type="frus-print-pages"><biblScope from="III" to="IV" unit="page"
+                        >III–IV</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1948-10-09T23:59:59-05:00" notBefore="1947-01-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="preface">
+
+                <pb facs="0007" n="III" xml:id="pgIII"/>
+
+                <head>Preface</head>
+                <p>This volume was prepared under the direct supervision of S. Everett Gleason,
+                    Chief of the Foreign Relations Division, assisted by Rogers P. Churchill.</p>
+                <p>All the documentation in the volume was compiled by John G. Reid, a former member
+                    of the Foreign Relations Division.</p>
+                <p>The Publishing and Reproduction Services Division (Jerome H. Perlmutter, Chief)
+                    was responsible for the technical editing of this volume.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">William</hi> M. <hi rendition="#small-caps"
+                            >Franklin</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Director, Historical Office</hi>, <lb/>
+                    <hi rendition="#italic">Bureau of Public Affairs</hi>
+                    <lb/><dateline rendition="#float-left">
+                        <date calendar="gregorian" when="1972-03-20"><hi rendition="#small-caps"
+                                >March</hi> 20, 1972</date></dateline></closer>
+
+
+                <xi:include href="preface-a1.xml" xpointer="preface-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

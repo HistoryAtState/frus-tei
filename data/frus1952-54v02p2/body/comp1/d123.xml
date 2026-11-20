@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v02p2_d123" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Telephone Conversation</title>
+            </titleStmt>
+            <xi:include href="../../frus1952-54v02p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1952-54v02p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v02p2/d123"
+                    type="canonical"/>
+                <relatedItem target="d122.xml" type="prev"/>
+                <relatedItem target="d124.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v02p2</bibl>
+                <bibl type="frus-division-id">d123</bibl>
+                <bibl type="frus-division-n">123</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1250" to="1250" unit="page"
+                        >1250</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" type="conversation-or-meeting-date" when="1953-12-01"
+                        >December 1, 1953</date>
+                    <date notAfter="1953-12-01T23:59:59-05:00" notBefore="1953-12-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v02p2/persons">
+                    <term ref="frus:frus1952-54v02p2/persons#p_BOWIERR1">Bowie, Robert R.</term>
+                    <term ref="frus:frus1952-54v02p2/persons#p_DULLESJF1">Dulles, John Foster</term>
+                    <term ref="frus:frus1952-54v02p2/persons#p_EISENHOWERGADD1">Eisenhower, General
+                        of the Army Dwight D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d123">
+
+                <pb facs="0436" n="1250" sameAs="frus:frus1952-54v02p2/pg1250"/>
+
+                <note rend="inline" type="source">Eisenhower Library, Dulles papers, “Telephone
+                    Conversations”</note>
+                <head><hi rendition="#italic">Memorandum of Telephone Conversation</hi><anchor n="1"
+                        xml:id="d123-f1"/></head>
+                <opener><dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            type="conversation-or-meeting-date" when="1953-12-01">December 1,
+                            1953</date>.</dateline></opener>
+                <p>The Secretary telephoned Mr. Bowie and said he thought the Candor Speech was
+                    likely to see the light of day, at least to the point of bringing it up as a
+                    proposal at Bermuda.<anchor n="2" xml:id="d123-f2"/> The President went over it
+                    last night and marked it up. He did quite a bit in the direction of cutting out
+                    some of the stuff that could be offensive to the Soviet Union, although he
+                    didn’t believe he did a great deal of toning down in other respects. Bowie
+                    wanted to know how we would get our oar in and the Secretary said he would call
+                    the White House and ask for a copy of the draft as soon as it is retyped.</p>
+                <p>[Here follows discussion of other subjects.]</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d123-f1" n="1" type="source" xml:id="d123-f1-content">
+                <p>The identity of the drafting officer is not indicated on the source text.</p>
+            </note>
+            <note corresp="#d123-f2" n="2" xml:id="d123-f2-content">
+                <p>Regarding the Bermuda Conference, Dec. 4–8, see the editorial note, <ref
+                        target="#pg1285">p. 1285</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

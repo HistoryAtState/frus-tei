@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d200" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Beaupré to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d200"
+                    type="canonical"/>
+                <relatedItem target="d199-a1.xml" type="prev"/>
+                <relatedItem target="d201.xml" type="next"/>
+                <relatedItem target="../ch23.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d200</bibl>
+                <bibl type="frus-division-n">200</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="213" to="213" unit="page"
+                        >213</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Bogotá</hi></placeName>
+                    <date calendar="gregorian" when="1903-10-17"><hi rendition="#italic">October 17,
+                            1903</hi></date>
+                    <date notAfter="1903-10-17T23:59:59-05:00" notBefore="1903-10-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d200">
+
+                <pb facs="0297" n="213" sameAs="frus:frus1903/pg213"/>
+
+                <head><hi rendition="#italic">Mr. Beaupré to Mr. Hay.</hi></head>
+                <opener><seg rendition="#center">[Telegram.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Bogotá</hi></placeName>, <date calendar="gregorian"
+                            when="1903-10-17"><hi rendition="#italic">October 17,
+                        1903</hi></date>.<lb/>(Received October 19—2.20 p.m.)</dateline></opener>
+                <p>Have received information, confidentially, that there was a meeting of the
+                    cabinet yesterday to discuss the question of renewing canal negotiations with
+                    the United States and that the adjournment of congress will be followed by the
+                    mission of special envoy to Washington for that purpose. The President’s message
+                    dissolving the congress will be delivered probably before 30th instant.</p>
+                <closer><signed><hi rendition="#small-caps">Beaupré.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

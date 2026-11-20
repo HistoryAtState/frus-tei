@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d213" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Secretary of State to the President</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d213"
+                    type="canonical"/>
+                <relatedItem target="../ch5subch1.xml" type="prev"/>
+                <relatedItem target="d213-a1.xml" type="next"/>
+                <relatedItem target="../ch5subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d213</bibl>
+                <bibl type="frus-division-n">213</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="385" to="388" unit="page"
+                        >385–88</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-11">September 11, 1944</date>
+                    <date notAfter="1944-09-11T23:59:59-05:00" notBefore="1944-09-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_EAC1">EAC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d213">
+
+                <pb facs="0445" n="385" sameAs="frus:frus1944Quebec/pg385"/>
+
+                <note rend="inline" type="source">Roosevelt Papers</note>
+                <head><hi rendition="#italic">The Secretary of State to the President</hi><anchor
+                        n="1" xml:id="d213-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1944-09-11">September 11, 1944</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Memorandum to the
+                    President</hi></p>
+                <p>I enclose herewith a copy of a telegram from Ambassador Winant, outlining the
+                    present status of the work of the European Advisory Commission. There is
+                    likewise enclosed a copy of the draft protocol regarding the zones of occupation
+                    in Germany and the administration of “Greater Berlin” which is referred to in
+                    Ambassador Winant’s telegram.</p>
+                <closer><signed>C[<hi rendition="#small-caps">ordell</hi>] H[<hi
+                            rendition="#small-caps">ull</hi>]</signed></closer>
+
+
+
+                <xi:include href="d213-a1.xml" xpointer="d213-a1"/>
+                <xi:include href="d213-a2.xml" xpointer="d213-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d213-f1" n="1" type="source" xml:id="d213-f1-content">
+                <p>Sent to Roosevelt at Quebec by pouch. The Department of State file copies of this
+                    memorandum and its two enclosures bear the file numbers 740.00110 EAC/9–1144,
+                        <hi rendition="#italic">id</hi>./9–944, and <hi rendition="#italic"
+                    >id</hi>./8–3144, respectively.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

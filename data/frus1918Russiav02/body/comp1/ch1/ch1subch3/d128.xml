@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav02_d128" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Russia (Francis) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav02/d128"
+                    type="canonical"/>
+                <relatedItem target="d127.xml" type="prev"/>
+                <relatedItem target="d129.xml" type="next"/>
+                <relatedItem target="../ch1subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav02</bibl>
+                <bibl type="frus-division-id">d128</bibl>
+                <bibl type="frus-division-n">128</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="92" to="92" unit="page"
+                        >92</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Vologda</hi></placeName>
+                    <date calendar="gregorian" when="1918-03-28T18:00:00+02:31"><hi
+                            rendition="#italic">March 28, 1918, 6 p.m.</hi></date>
+                    <date notAfter="1918-03-28T10:29:00-05:00" notBefore="1918-03-28T10:29:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav02/persons">
+                    <term ref="frus:frus1918Russiav02/persons#p_FDR1">Francis, David R.</term>
+                    <term ref="frus:frus1918Russiav02/persons#p_HWC1">Huntington, William C</term>
+                    <term ref="frus:frus1918Russiav02/persons#p_MDB1">Macgowan, David B.</term>
+                    <term ref="frus:frus1918Russiav02/persons#p_RWC1">Redfield, William C</term>
+                    <term ref="frus:frus1918Russiav02/persons#p_WJB1">Wright, J. Butler</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d128">
+
+                <pb facs="0182" n="92" xml:id="pg92"/>
+
+                <note rend="inline" type="source">File No. 861.00/1383</note>
+                <head><hi rendition="#italic">The Ambassador in Russia</hi> (<hi rendition="#italic"
+                        >Francis</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Vologda</hi></placeName>, <date calendar="gregorian"
+                            when="1918-03-28T18:00:00+02:31"><hi rendition="#italic">March 28, 1918,
+                                6 p.m.</hi></date>
+                        <lb/> [<hi rendition="#italic">Received 7.40 p.m.</hi>]</dateline>
+                </opener>
+                <p>40. Answering your 23, March 25, 5 p.m., via Vladivostok, received March 26, 11
+                    p.m. Received Siberian delegation in January who claimed were forming separate
+                    Siberian government and would advise when organized by assembly called March 10,
+                    and as cabled Department. Reported assembly failed to materialize. Present
+                    government claims undisputed jurisdiction throughout Siberia. This exactly what
+                    sent Huntington<anchor n="1" xml:id="d128-f1"/> to investigate and report but
+                    notwithstanding he arrived Irkutsk certainly March 10, no report received.
+                    Wright left Irkutsk 17th after staying two days, nothing from him since leaving
+                    Vologda. Macgowan’s <hi rendition="#italic">en clair</hi> telegrams received two
+                    days after filing and report Huntington and Thomas<anchor n="2" xml:id="d128-f2"
+                    /> efficiently assisting and Huntington awaiting instructions from Redfield
+                    concerning self and Thomas whom I requested for Embassy service Vologda. Am
+                    wiring them daily. Been there month. Reported nothing about new government.</p>
+                <closer>
+                    <signed><hi rendition="#small-caps">Francis</hi></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d128-f1" n="1" xml:id="d128-f1-content">
+                <p>William C. Huntington, Commercial Attaché.</p>
+            </note>
+            <note corresp="#d128-f2" n="2" xml:id="d128-f2-content">
+                <p>Edward B. Thomas, attached to the office of the Commercial Attaché.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

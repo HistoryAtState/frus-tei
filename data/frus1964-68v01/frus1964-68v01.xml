@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v01" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1964-68v01_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1964-68v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1964-68v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1964-68v01"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1964-68v01" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v01/covers/frus1964-68v01.jpg"/>
+                        <extent>
+                            <measure quantity="28507" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:50:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v01" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v01/ebook/frus1964-68v01.epub"/>
+                        <extent>
+                            <measure quantity="1641373" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:50:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v01" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v01/ebook/frus1964-68v01.mobi"/>
+                        <extent>
+                            <measure quantity="2603060" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:50:11.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1992 as printed book</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">johnson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>vietnam</term>
+                    <term>vietnam-conflict</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>warfare</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>national-security-council</term>
+                    <term>laos</term>
+                    <term>rusk-david-dean</term>
+                    <term>nuclear-weapons</term>
+                    <term>southeast-asia-treaty-organization</term>
+                    <term>belgium</term>
+                    <term>cambodia</term>
+                    <term>canada</term>
+                    <term>india</term>
+                    <term>france</term>
+                    <term>indonesia</term>
+                    <term>thailand</term>
+                    <term>japan</term>
+                    <term>iran</term>
+                    <term>italy</term>
+                    <term>malaysia</term>
+                    <term>north-korea</term>
+                    <term>south-korea</term>
+                    <term>congressional-relations</term>
+                    <term>east-asia-and-pacific</term>
+                    <term>geneva-convention</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1964-68v01" status="published" when="1992"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1964–1968</titlePart>
+                    <titlePart type="volumenumber">Volume I</titlePart>
+                    <titlePart type="volume">Vietnam, 1964</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline><hi rendition="#italic">Editors</hi>: Edward C. Keefer <lb/> Charles S.
+                    Sampson </byline>
+                <byline><hi rendition="#italic">Editor in Chief</hi>: John P. Glennon </byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1992</docDate>
+                    <pb facs="0002" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION
+                    9934<lb/>Office of the Historian<lb/>Bureau of Public Affairs<lb/>For sale by
+                    the U.S. Government Printing Office<lb/>Superintendent of
+                    Documents<lb/>Washington, DC 20402</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0022" n="[XXII]" xml:id="pgXXII"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <pb facs="1094" n="[1066]" xml:id="pg1066"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

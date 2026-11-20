@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1931v02_comp13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Haiti</title>
+            </titleStmt>
+            <xi:include href="../frus1931v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1931v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1931v02/comp13"
+                    type="canonical"/>
+                <relatedItem target="comp12/ch31/d428.xml" type="prev"/>
+                <relatedItem target="comp13/ch32.xml" type="next"/>
+                <relatedItem target="../frus1931v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1931v02</bibl>
+                <bibl type="frus-division-id">comp13</bibl>
+                <bibl type="frus-division-n">13</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="403" to="546" unit="page"
+                        >403–546</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1931-11-28T13:00:00-05:00" notBefore="1931-01-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp13">
+
+                <pb facs="0523" n="403" xml:id="pg403"/>
+
+                <head>Haiti</head>
+
+
+
+
+                <xi:include href="comp13/ch32.xml" xpointer="ch32"/>
+                <xi:include href="comp13/ch33.xml" xpointer="ch33"/>
+                <xi:include href="comp13/ch34.xml" xpointer="ch34"/>
+                <xi:include href="comp13/ch35.xml" xpointer="ch35"/>
+            </div>
+        </body>
+    </text>
+</TEI>

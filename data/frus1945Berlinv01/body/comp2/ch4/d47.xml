@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv01_d47" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 47</title>
+                <title type="subtitle">Prime Minister Churchill to President Truman </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Berlinv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv01/d47"
+                    type="canonical"/>
+                <relatedItem target="d46.xml" type="prev"/>
+                <relatedItem target="d48.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv01</bibl>
+                <bibl type="frus-division-id">d47</bibl>
+                <bibl type="frus-division-n">47</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="90" to="91" unit="page"
+                        >90–91</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-06-01">1 June 1945</date>
+                    <date notAfter="1945-06-01T23:59:59-05:00" notBefore="1945-06-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv01/persons">
+                    <term ref="frus:frus1945Berlinv01/persons#p_CMWS1">Churchill, Mrs. Winston
+                        S</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_LFAWD1">Leahy, Fleet Admiral William
+                        D.</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_SMIV2">Stalin, Marshal of the Soviet
+                        Union Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Berlinv01/persons#p_THS1">Truman, Harry S.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d47">
+
+                <pb facs="0222" n="90" sameAs="frus:frus1945Berlinv01/pg90"/>
+
+                <note rend="inline" type="source"> Leahy Papers: Telegram</note>
+                <head>No. 47 <lb/>
+                    <hi rendition="#italic">Prime Minister Churchill to President Truman
+                        </hi><anchor n="1" xml:id="d47-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-06-01">1 June 1945</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Truman. Personal and top secret. Number 63.</p>
+                <list>
+                    <label>1.</label>
+                    <item>I will gladly come to Berlin with a British delegation but I consider that
+                        July 15, repeat July the month after June, is much too <pb facs="0223"
+                            n="91" xml:id="pg91"/> late for the urgent questions that demand
+                        attention between us, and that we shall do an injury to world hopes and
+                        unity if we allow personal or national requirements to stand in the way of
+                        an earlier meeting. Although I am in the midst of a hotly-contested
+                        election, I would not consider my tasks here as comparable to a meeting
+                        between the three of us. I have proposed June 15, repeat June the month
+                        before July, but if that is not possible why not July 1, 2, or 3?</item>
+                    <label>2.</label>
+                    <item>I have sent a copy of this message to Premier Stalin.<anchor n="2"
+                            xml:id="d47-f2"/>
+                    </item>
+                </list>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d47-f1" n="1" type="source" xml:id="d47-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d47-f2" n="2" xml:id="d47-f2-content">
+                <p>See <hi rendition="#italic"> Stalin’s Correspondence</hi>, vol. <hi
+                        rendition="#small-caps">i</hi>, p. 362.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

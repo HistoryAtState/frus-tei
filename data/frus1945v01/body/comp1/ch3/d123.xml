@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945v01_d123" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Secretary of the Interior (Ickes) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1945v01/d123"
+                    type="canonical"/>
+                <relatedItem target="d122.xml" type="prev"/>
+                <relatedItem target="d123-a1.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945v01</bibl>
+                <bibl type="frus-division-id">d123</bibl>
+                <bibl type="frus-division-n">123</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="198" to="199" unit="page"
+                        >198–99</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-04-05">April 5, 1945</date>
+                    <date notAfter="1945-04-05T23:59:59-05:00" notBefore="1945-04-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945v01/persons">
+                    <term ref="frus:frus1945v01/persons#p_IHL1">Ickes, Harold L.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d123">
+
+                <pb facs="0260" n="198" sameAs="frus:frus1945v01/pg198"/>
+
+                <note rend="inline" type="source">500.CC/4–345</note>
+                <head>
+                    <hi rendition="#italic">The Secretary of the Interior</hi> (<hi
+                        rendition="#italic">Ickes</hi>) <hi rendition="#italic">to the Secretary of
+                        State </hi><anchor n="5" xml:id="d123-f1"/>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1945-04-05">April 5, 1945</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Ed</hi>: Enclosed is a copy of a memorandum
+                    which I have sent to the President and which I think may be helpful to you. I
+                    hope that you will steadfastly hold the line.</p>
+                <p>Sincerely yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Harold L. Ickes</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d123-a1.xml" xpointer="d123-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d123-f1" n="5" type="source" xml:id="d123-f1-content">
+                <p>Original missing from Department files. Copy obtained from the Department of the
+                    Interior.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

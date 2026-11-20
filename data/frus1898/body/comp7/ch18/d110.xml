@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d110" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Denby to Mr. Sherman.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d110"
+                    type="canonical"/>
+                <relatedItem target="d109.xml" type="prev"/>
+                <relatedItem target="d110-a1.xml" type="next"/>
+                <relatedItem target="../ch18.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d110</bibl>
+                <bibl type="frus-division-n">110</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="183" to="183" unit="page"
+                        >183</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Peking, China</hi></placeName>
+                    <date calendar="gregorian" when="1898-04-15"><hi rendition="#italic">April 15,
+                            1898</hi></date>
+                    <date notAfter="1898-04-15T23:59:59-05:00" notBefore="1898-04-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d110">
+
+                <pb facs="0279" n="183" xml:id="pg183"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Denby to Mr. Sherman.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Peking, China</hi></placeName>, <date calendar="gregorian"
+                            when="1898-04-15"><hi rendition="#italic">April 15,
+                        1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 2913.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose a translation
+                    of a proclamation issued by Russian admiral relating to the Liao Tung
+                    Peninsula.</p>
+                <p>By this proclamation the northern limit of Russian territory is about 30 miles
+                    north of Kinchow, and the eastern limit is Pietze-woa.</p>
+                <p>I have, etc.,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Charles Denby.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d110-a1.xml" xpointer="d110-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

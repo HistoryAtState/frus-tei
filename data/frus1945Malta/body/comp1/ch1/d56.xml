@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d56" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d56"
+                    type="canonical"/>
+                <relatedItem target="d55.xml" type="prev"/>
+                <relatedItem target="d57.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d56</bibl>
+                <bibl type="frus-division-n">56</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="35" to="35" unit="page"
+                        >35</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1945-01-14">14 January 1945</date>
+                    <date notAfter="1945-01-14T23:59:59-05:00" notBefore="1945-01-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_HHL1">Hopkins, Harry L.</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                    <term ref="frus:frus1945Malta/persons#p_SERJ1">Stettinius, Edward R., Jr.</term>
+                    <term ref="frus:frus1945Malta/persons#p_WHD1">White, Harry Dexter</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d56">
+
+                <pb facs="0117" n="35" sameAs="frus:frus1945Malta/pg35"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d56-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1945-01-14">14 January
+                        1945</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President, personal and Top Secret nr 889.</p>
+                <p>1. Anthony is very pleased that Stettinius will come to <hi
+                        rendition="#small-caps">Cricket</hi> if possible on the 31st instant. He
+                    will be there to receive him.</p>
+                <p>2. I will meet you there on your arrival. I must point out however that
+                    thereafter the weather will be our master. I have received from Stalin a
+                    notification that he is expecting me at <hi rendition="#small-caps">Magneto</hi>
+                    on the 2nd. Ought we not to make it clear that we are governed by weather? My
+                    air staff are considering the possible alternatives for the onward flight and I
+                    will telegraph their views as soon as possible, but it seems likely that unless
+                    you can arrive at <hi rendition="#small-caps">Cricket</hi> on the 1st we shall
+                    not meet U. J. till the 3rd.</p>
+                <p>3. I am delighted that you will send Harry<anchor n="2" xml:id="d56-f2"/> over
+                    here. There will certainly be plenty to talk over.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d56-f1" n="1" type="source" xml:id="d56-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d56-f2" n="2" xml:id="d56-f2-content">
+                <p> Hopkins.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

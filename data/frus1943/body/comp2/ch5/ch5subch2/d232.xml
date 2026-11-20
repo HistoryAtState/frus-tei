@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d232" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the United States Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d232"
+                    type="canonical"/>
+                <relatedItem target="d231-a1.xml" type="prev"/>
+                <relatedItem target="d232-a1.xml" type="next"/>
+                <relatedItem target="../ch5subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d232</bibl>
+                <bibl type="frus-division-n">232</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="509" to="512" unit="page"
+                        >509–12</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-12">12 August 1943</date>
+                    <date notAfter="1943-08-12T23:59:59-05:00" notBefore="1943-08-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d232">
+
+                <pb facs="0623" n="509" sameAs="frus:frus1943/pg509"/>
+
+                <note rend="inline" type="source"> J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the United States Chiefs of
+                        Staff</hi><anchor n="1" xml:id="d232-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/> C.C.S. 272/1</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-08-12">12 August 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Logistic Organization To Improve Mobility of
+                        Anti</hi>-<hi rendition="#small-caps">Submarine Squadrons</hi>
+                </p>
+                <p rendition="#flush">Reference: <hi rendition="#italic">a</hi>. C.C.S. 101st
+                        Meeting,<anchor n="2" xml:id="d232-f2"/> Item 5</p>
+                <list>
+                    <label>1.</label>
+                    <item>There is transmitted herewith the report of the Allied Anti-Submarine
+                        Board submitted in obedience to conclusion <hi rendition="#italic">a</hi> of
+                        reference <hi rendition="#italic">a.</hi>
+                    </item>
+                    <pb facs="0624" n="510" xml:id="pg510"/>
+                    <label>2.</label>
+                    <item>It is noted that the Board has so far concerned itself almost wholly with
+                        U.S. sea frontiers.</item>
+                    <label>3.</label>
+                    <item>The U.S. Chiefs of Staff are of the opinion that the Board should complete
+                        its directive by appropriate survey and recommendations as to transfer of
+                        anti-submarine air units between the U.S., Canada, Great Britain, N.W.
+                        Africa, W. Africa, etc.</item>
+                    <label>4.</label>
+                    <item>The U.S. Chiefs of Staff suggest that the services concerned (British,
+                        Canadian, U.S.) should take appropriate steps to implement, where applicable
+                        and not already in force, the recommendations of paragraph 22 of the report
+                        pending the survey and recommendations indicated in paragraph 3
+                        above.</item>
+                    <label>5.</label>
+                    <item>As to paragraph 23 of the report, the U.S. Chiefs of Staff are in accord
+                        with the view that if each service concerned plans and perfects its own
+                        supply and maintenance organization and promulgates this information to
+                        other services, all will have been accomplished that conclusion <hi
+                            rendition="#italic">b</hi> of reference <hi rendition="#italic">a</hi>
+                        was calculated to achieve, and they therefore recommend the cancellation of
+                        conclusion <hi rendition="#italic">b.</hi>
+                    </item>
+                </list>
+
+
+                <xi:include href="d232-a1.xml" xpointer="d232-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d232-f1" n="1" type="source" xml:id="d232-f1-content">
+                <p>For the action taken on this paper at the 111th Meeting of the Combined Chiefs of
+                    Staff, August 18, 1943, see <hi rendition="#italic">post</hi>, <ref
+                        target="#pg885">p. 885</ref>.</p>
+            </note>
+            <note corresp="#d232-f2" n="2" xml:id="d232-f2-content">
+                <p>Held at Washington, July 9, 1943; minutes not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

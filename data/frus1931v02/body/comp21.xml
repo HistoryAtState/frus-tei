@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1931v02_comp21" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mexico:</title>
+            </titleStmt>
+            <xi:include href="../frus1931v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1931v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1931v02/comp21"
+                    type="canonical"/>
+                <relatedItem target="comp20/ch51/d742.xml" type="prev"/>
+                <relatedItem target="comp21/ch52.xml" type="next"/>
+                <relatedItem target="../frus1931v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1931v02</bibl>
+                <bibl type="frus-division-id">comp21</bibl>
+                <bibl type="frus-division-n">21</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="700" to="736" unit="page"
+                        >700–736</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1931-11-30T23:59:59-05:00" notBefore="1930-11-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp21">
+
+                <pb facs="0820" n="700" xml:id="pg700"/>
+
+                <head>Mexico:</head>
+
+
+
+
+
+                <xi:include href="comp21/ch52.xml" xpointer="ch52"/>
+                <xi:include href="comp21/ch53.xml" xpointer="ch53"/>
+                <xi:include href="comp21/ch54.xml" xpointer="ch54"/>
+                <xi:include href="comp21/ch55.xml" xpointer="ch55"/>
+                <xi:include href="comp21/ch56.xml" xpointer="ch56"/>
+            </div>
+        </body>
+    </text>
+</TEI>

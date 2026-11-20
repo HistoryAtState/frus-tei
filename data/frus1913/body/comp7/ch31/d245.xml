@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1913_d245" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The American Minister to the Secretary of State.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1913_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1913/d245"
+                    type="canonical"/>
+                <relatedItem target="d244-a1.xml" type="prev"/>
+                <relatedItem target="d245-a1.xml" type="next"/>
+                <relatedItem target="../ch31.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1913</bibl>
+                <bibl type="frus-division-id">d245</bibl>
+                <bibl type="frus-division-n">245</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="325" to="327" unit="page"
+                        >325–27</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Bogotá</hi></placeName>
+                    <date calendar="gregorian" when="1913-10-25">
+                        <hi rendition="#italic">October 25, 1913</hi></date>
+                    <date notAfter="1913-10-25T23:59:59-05:00" notBefore="1913-10-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d245">
+
+                <pb facs="0429" n="325" sameAs="frus:frus1913/pg325"/>
+
+                <note rend="inline" type="source">File No. 711.21/203.</note>
+                <head>
+                    <hi rendition="#italic">The American Minister to the Secretary of State.</hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 15.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Bogotá</hi></placeName>, <date
+                            calendar="gregorian" when="1913-10-25">
+                            <hi rendition="#italic">October 25, 1913</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Referring to the Colombian Government’s
+                    ideas regarding bases for a settlement of the questions now pending between this
+                    country and the United States, I have the honor to enclose herewith copy and
+                    English translation of memoranda, which were informally handed to me by the
+                    Minister for Foreign Affairs for my private information only. Dr. Urrutia said
+                    that they had been prepared by the Consultatory Committee of the Foreign Office
+                    and considered by the Committee in computing the size of the indemnity.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Thad. A. Thomson</hi>.</signed>
+                </closer>
+
+
+
+                <xi:include href="d245-a1.xml" xpointer="d245-a1"/>
+                <xi:include href="d245-a2.xml" xpointer="d245-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

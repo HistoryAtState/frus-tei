@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1925v02_d411" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chargé in Mexico (Schoenfeld) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1925v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1925v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1925v02/d411"
+                    type="canonical"/>
+                <relatedItem target="../ch44.xml" type="prev"/>
+                <relatedItem target="d411-a1.xml" type="next"/>
+                <relatedItem target="../ch44.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1925v02</bibl>
+                <bibl type="frus-division-id">d411</bibl>
+                <bibl type="frus-division-n">411</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="521" to="523" unit="page"
+                        >521–23</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Mexico</hi></placeName>
+                    <date calendar="gregorian" when="1925-10-02"><hi rendition="#italic">October 2,
+                            1925</hi></date>
+                    <date notAfter="1925-10-02T23:59:59-05:00" notBefore="1925-10-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d411">
+
+                <pb facs="0603" n="521" sameAs="frus:frus1925v02/pg521"/>
+
+                <note rend="inline" type="source">812.5200/1</note>
+                <head><hi rendition="#italic">The Chargé in Mexico</hi> (<hi rendition="#italic"
+                        >Schoenfeld</hi>) <hi rendition="#italic">to the Secretary of
+                    State</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Mexico</hi></placeName>, <date calendar="gregorian"
+                            when="1925-10-02"><hi rendition="#italic">October 2,
+                        1925</hi></date>.<lb/>[Received October 9.]</dateline>
+                    <seg rendition="#float-left">No. 1178</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to recent correspondence<anchor
+                        n="18" xml:id="d411-f1"/> regarding the announcement made by the President
+                    of the Republic in his message to Congress on September 1, last, of the
+                    forthcoming introduction of a bill regulating the ownership of property in this
+                    country by foreigners, I have the honor now to enclose a clipping from today’s
+                    edition of the newspaper <hi rendition="#italic">Excelsior</hi> containing the
+                    full text of the President’s message to Congress under date of September 30,
+                    last, covering the proposed bill, together with a translation thereof.<anchor
+                        n="19" xml:id="d411-f2"/></p>
+                <p rendition="#center"> . . . . . . .</p>
+                <closer><signed><hi rendition="#small-caps">H. F. Arthur
+                    Schoenfeld</hi></signed></closer>
+
+
+
+                <xi:include href="d411-a1.xml" xpointer="d411-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d411-f1" n="18" xml:id="d411-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d411-f2" n="19" xml:id="d411-f2-content">
+                <p>Only the text of the bill which accompanied the President’s message is printed
+                        <hi rendition="#italic">infra.</hi></p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

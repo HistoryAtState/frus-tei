@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1895p2_d43" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Peterson to Mr. Uhl.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1895p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1895p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1895p2/d43"
+                    type="canonical"/>
+                <relatedItem target="d42.xml" type="prev"/>
+                <relatedItem target="d43-a1.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1895p2</bibl>
+                <bibl type="frus-division-id">d43</bibl>
+                <bibl type="frus-division-n">43</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="826" to="832" unit="page"
+                        >826–32</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Commercial
+                            Agency</hi>,<lb/><hi rendition="#italic">Vancouver, British
+                            Columbia</hi></placeName>
+                    <date calendar="gregorian" when="1895-02-12"><hi rendition="#italic">Feb. 12,
+                            1895</hi></date>
+                    <date notAfter="1895-02-12T23:59:59-05:00" notBefore="1895-02-12T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d43">
+
+                <pb facs="0092" n="826" sameAs="frus:frus1895p2/pg826"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Peterson to Mr. Uhl.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >United States Commercial Agency</hi>,<lb/><hi rendition="#italic"
+                                >Vancouver, British Columbia</hi></placeName>, <date
+                            calendar="gregorian" when="1895-02-12"><hi rendition="#italic">Feb. 12,
+                                1895</hi></date>. (Rec’d Feb. 21.)</dateline>
+                    <seg rendition="#float-left">No. 10.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to herewith transmit to
+                    you for the consideration of the Department the statement of J. Cranstoun, A.
+                    Muller, and J. B. Johnstone, pursuant to telegraphic dispatch No. 9, of the 10th
+                    instant, and I also send you a newspaper clipping of an editorial<anchor n="1"
+                        xml:id="d43-f1"/> which appeared in the News-Advertiser of this city of
+                    to-day.</p>
+                <p>And I beg to state, as a matter of farther information to the Department, that
+                    these parties have employed counsel and entered suit against the steamship
+                    company, owners of the <hi rendition="#italic">Warrimoo</hi>, for transporting
+                    them here, each fixing his damages at $50,000.</p>
+                <p>I have afforded Mr. Cranstoun temporary relief by agreeing to pay his board here,
+                    and have bought some small articles of dress for both Muller and Cranstoun, and
+                    they will perhaps go to Seattle in a short time, where Cranstoun says he has
+                    friends.</p>
+                <p>I have, etc.,</p>
+                <closer>
+                    <signed><hi rendition="#small-caps">W. F. Peterson</hi>,<lb/><hi
+                            rendition="#italic">Commercial Agent.</hi></signed>
+                </closer>
+
+
+                <xi:include href="d43-a1.xml" xpointer="d43-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d43-f1" n="1" xml:id="d43-f1-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

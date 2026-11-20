@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d102" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Bryan to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d102"
+                    type="canonical"/>
+                <relatedItem target="../ch45.xml" type="prev"/>
+                <relatedItem target="d102-a1.xml" type="next"/>
+                <relatedItem target="../ch45.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d102</bibl>
+                <bibl type="frus-division-n">102</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="114" to="115" unit="page"
+                        >114–15</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Petropolis</hi></placeName>
+                    <date calendar="gregorian" when="1902-11-18"><hi rendition="#italic">November
+                            18, 1902</hi></date>
+                    <date notAfter="1902-11-18T23:59:59-05:00" notBefore="1902-11-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d102">
+
+                <pb facs="0194" n="114" sameAs="frus:frus1902/pg114"/>
+
+                <head><hi rendition="#italic">Mr. Bryan to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Petropolis</hi></placeName>, <date calendar="gregorian"
+                            when="1902-11-18"><hi rendition="#italic">November 18,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 470.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith my
+                    remarks as dean of the diplomatic corps at the reception of the President to the
+                    foreign representatives on the day of his inauguration, and the answer of Dr.
+                    Rodrigues Alves, with translations of these addresses.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Charles Page
+                    Bryan.</hi></signed></closer>
+
+
+
+                <xi:include href="d102-a1.xml" xpointer="d102-a1"/>
+                <xi:include href="d102-a2.xml" xpointer="d102-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

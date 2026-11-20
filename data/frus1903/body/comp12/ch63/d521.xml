@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1903_d521" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Loomis to Mr. Choate.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1903_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1903/d521"
+                    type="canonical"/>
+                <relatedItem target="d520.xml" type="prev"/>
+                <relatedItem target="d521-a1.xml" type="next"/>
+                <relatedItem target="../ch63.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1903</bibl>
+                <bibl type="frus-division-id">d521</bibl>
+                <bibl type="frus-division-n">521</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="534" to="534" unit="page"
+                        >534</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1903-07-02"><hi rendition="#small-caps"
+                            >July</hi> 2, 1903</date>
+                    <date notAfter="1903-07-02T23:59:59-05:00" notBefore="1903-07-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d521">
+
+                <pb facs="0618" n="534" sameAs="frus:frus1903/pg534"/>
+
+                <head><hi rendition="#italic">Mr. Loomis to Mr. Choate</hi>.</head>
+                <opener><dateline rendition="#float-right"><date calendar="gregorian"
+                            when="1903-07-02"><hi rendition="#small-caps">July</hi> 2,
+                        1903</date>.</dateline>
+                    <seg rendition="#float-left">No. 1225.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: In accordance with an understanding reached
+                    by the Government of the United States and that of Great Britain, I transmit in
+                    the pouch with this package containing certified copies of documents in the
+                    Russian and French languages of which translations were appended to the case of
+                    the United States, together with certified copies of certain diplomatic
+                    correspondence in the English language, also appended, all of which documents
+                    are in the files and records of the Department of State.</p>
+                <p>It is desired to have you transmit the package to the foreign office for delivery
+                    to the British agent with the inclosed communication addressed to him from Mr.
+                    Lansing, the acting agent of the United States before the Alaskan Boundary
+                    Tribunal.</p>
+                <p>I am, sir, your obedient servant,</p>
+                <closer><signed><hi rendition="#small-caps">Francis B. Loomis</hi>,<lb/><hi
+                            rendition="#italic">Acting Secretary of State.</hi></signed></closer>
+
+
+                <xi:include href="d521-a1.xml" xpointer="d521-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

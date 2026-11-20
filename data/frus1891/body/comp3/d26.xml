@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1891_d26" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Wharton to Mr. Terrell.</title>
+            </titleStmt>
+            <xi:include href="../../frus1891_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1891_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1891/d26"
+                    type="canonical"/>
+                <relatedItem target="../comp3.xml" type="prev"/>
+                <relatedItem target="d26-a1.xml" type="next"/>
+                <relatedItem target="../comp3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1891</bibl>
+                <bibl type="frus-division-id">d26</bibl>
+                <bibl type="frus-division-n">26</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="33" to="33" unit="page"
+                        >33</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1891-05-11"><hi rendition="#italic">May 11,
+                            1891</hi></date>
+                    <date notAfter="1891-05-11T23:59:59-05:00" notBefore="1891-05-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d26">
+
+                <pb facs="0139" n="33" sameAs="frus:frus1891/pg33"/>
+
+                <head><hi rendition="#italic">Mr. Wharton to Mr. Terrell</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1891-05-11"><hi rendition="#italic">May 11,
+                        1891</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 134.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose herewith for your information a
+                    copy of a letter from the Secretary of Agriculture concerning the requirement of
+                    the Belgian Government that carcasses of dressed beef imported into Belgium from
+                    the United States of America shall be accompanied by the lungs of the animals
+                    attached to said carcasses.</p>
+                <p>As this requirement is, in the opinion of the Department of Agriculture, a
+                    virtual prohibition of the importation of dressed beef into Belgium from this
+                    country, you are instructed to make appropriate representation to the Belgian
+                    Government on the subject and to report the result to this Department.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">William F. Wharton</hi>,<lb/><hi
+                            rendition="#italic">Acting Secretary</hi>.</signed></closer>
+
+
+                <xi:include href="d26-a1.xml" xpointer="d26-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

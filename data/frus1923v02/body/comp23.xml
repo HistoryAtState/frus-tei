@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1923v02_comp23" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Spain:</title>
+            </titleStmt>
+            <xi:include href="../frus1923v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1923v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1923v02/comp23"
+                    type="canonical"/>
+                <relatedItem target="comp22/ch67/d686.xml" type="prev"/>
+                <relatedItem target="comp23/ch68.xml" type="next"/>
+                <relatedItem target="../frus1923v02.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1923v02</bibl>
+                <bibl type="frus-division-id">comp23</bibl>
+                <bibl type="frus-division-n">23</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="831" to="874" unit="page"
+                        >831–74</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1923-11-03T13:00:00-05:00" notBefore="1923-05-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp23">
+
+                <pb facs="0955" n="831" xml:id="pg831"/>
+
+                <head>Spain:</head>
+
+                <xi:include href="comp23/ch68.xml" xpointer="ch68"/>
+            </div>
+        </body>
+    </text>
+</TEI>

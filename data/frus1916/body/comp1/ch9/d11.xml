@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d11"
+                    type="canonical"/>
+                <relatedItem target="../ch9.xml" type="prev"/>
+                <relatedItem target="../ch10.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="13" to="14" unit="page"
+                        >13–14</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1916-07-03">
+                        <hi rendition="#italic">July 3, 1916</hi></date>
+                    <date notAfter="1916-07-03T23:59:59-05:00" notBefore="1916-07-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d11">
+
+                <pb facs="0089" n="13" sameAs="frus:frus1916/pg13"/>
+
+                <note rend="inline" type="source">File No. 800.114/22</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1916-07-03">
+                            <hi rendition="#italic">July 3, 1916</hi></date>.</dateline>
+                </opener>
+                <p rendition="#flush">
+                    <hi rendition="#italic">To the Diplomatic Officers of the United States</hi>
+                </p>
+                <p>
+                    <hi rendition="#small-caps">Gentlemen</hi>: Referring to the Department’s
+                    circular instructions of March 11 and July 8, 1914,<anchor n="10"
+                        xml:id="d11-f1"/> regarding the laws and regulations of foreign countries
+                    governing the importation of opium and cocaine and their derivatives, I have now
+                    to inform you that since the greater part of the information regarding these
+                    laws and regulations was received, a new factor has entered the situation in the
+                    shape of the International Opium Convention proclaimed by the President on March
+                    3, 1915.<anchor n="11" xml:id="d11-f2"/>
+                </p>
+                <p>As that Convention requires the contracting powers to take certain measures for
+                    the regulation of imports of opium, cocaine, etc., it is desired that you
+                    request of the government to which you are respectively accredited, a statement
+                    of the conditions under which <pb facs="0090" n="14" xml:id="pg14"/> they will
+                    permit the importation of the articles in question, in order that the
+                    regulations which Section 6 of the Opium Act of January 17, 1914, requires the
+                    Secretary of State, the Secretary of the Treasury, and tire Secretary of
+                    Commerce to make may be early formulated and published.</p>
+                <p>With a view to acquainting those governments with what the Government of the
+                    United States has done in the regulation of imports of these drugs, I enclose a
+                    copy of Treasury Decision 34221 of March 3, 1914, containing a copy of the Opium
+                    Act of January 17, 1914, and the regulations thereunder.</p>
+                <p>Inasmuch as it is necessary to consider in this connection imports in the mails,
+                    it may be stated to each government that “poison such as opium” was prohibited
+                    by the United States from transmission in the regular mails and the parcel post
+                    exchange with foreign countries.</p>
+                <p>You will give this matter immediate attention and forward to the Department the
+                    statement requested as soon as possible.</p>
+                <p>I am [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Robert Lansing</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d11-f1" n="10" xml:id="d11-f1-content">
+                <p>
+                    <ref target="frus1914#pg_7">For. Rel. 1914, pp. 7</ref> and <ref
+                        target="frus1914#pg_12">12</ref>.</p>
+            </note>
+            <note corresp="#d11-f2" n="11" xml:id="d11-f2-content">
+                <p>
+                    <ref target="frus1915#pg_1311">For. Rel. 1915, p. 1311</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

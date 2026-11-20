@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v01_d1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by Mr. R. Gordon Arneson to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../frus1950v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1950v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1950v01/d1"
+                    type="canonical"/>
+                <relatedItem target="../comp1.xml" type="prev"/>
+                <relatedItem target="d1-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v01</bibl>
+                <bibl type="frus-division-id">d1</bibl>
+                <bibl type="frus-division-n">1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1" to="8" unit="page"
+                    >1–8</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1949-12-29">December 29, 1949</date>
+                    <date notAfter="1949-12-29T23:59:59-05:00" notBefore="1949-12-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1950v01/terms">
+                    <term ref="frus:frus1950v01/terms#t_SP1">S/P</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1">
+
+                <pb facs="0017" n="1" sameAs="frus:frus1950v01/pg1"/>
+
+                <note>Department of State Atomic Energy Files<anchor n="2" xml:id="d1-f1"/>
+                </note>
+                <head>
+                    <hi rendition="#italic">Memorandum by Mr. R. Gordon Arneson </hi><anchor n="3"
+                        xml:id="d1-f2"/>
+                    <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1949-12-29">December 29, 1949</date>.</dateline>
+                </opener>
+                <p rendition="#flush">Subject: Policy Planning Staff Draft Paper on the
+                    International Control of Atomic Energy.<anchor n="4" xml:id="d1-f3"/>
+                </p>
+                <p>The attached comments on the subject paper have been prepared at the request of
+                    Mr. Kennan. These comments are directed primarily to the basic premises and the
+                    specific recommendations of the S/P paper. Inasmuch as the S/P paper was sent to
+                    you in draft form, I thought you might wish to see the comments that I have felt
+                    necessary to make on it.</p>
+                <p>There are many points of detail both as to fact and as to interpretation which
+                    need to be corrected. I will bring these to the attention of the Policy Planning
+                    Staff in due course.</p>
+                <closer>
+                    <signed>R. <hi rendition="#small-caps">Gordon Arneson</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d1-a1.xml" xpointer="d1-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1-f1" n="2" xml:id="d1-f1-content">
+                <p>Lot 57D688, a consolidated lot file in the Department of State containing
+                    documentation on atomic energy policy, 1944–1962.</p>
+            </note>
+            <note corresp="#d1-f2" n="3" type="source" xml:id="d1-f2-content">
+                <p>Special Assistant to the Under Secretary of State, James E. Webb, for atomic
+                    energy policy.</p>
+            </note>
+            <note corresp="#d1-f3" n="4" xml:id="d1-f3-content">
+                <p>The draft paper does not accompany the source text and has not been specifically
+                    identified. However, the paper, prepared by the Counselor, George F. Kennan,
+                    appears in its final form (January 20), on <ref target="#pg22">p. 22</ref>.
+                    Kennan also held the position of Director of the Policy Planning Staff until
+                    January 1, 1950.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

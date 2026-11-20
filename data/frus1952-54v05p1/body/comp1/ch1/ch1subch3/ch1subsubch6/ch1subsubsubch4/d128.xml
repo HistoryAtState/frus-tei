@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v05p1_d128" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Draft British Declaration</title>
+            </titleStmt>
+            <xi:include href="../../../../../../frus1952-54v05p1_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../../frus1952-54v05p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v05p1/d128"
+                    type="canonical"/>
+                <relatedItem target="d127.xml" type="prev"/>
+                <relatedItem target="../ch1subsubsubch5.xml" type="next"/>
+                <relatedItem target="../ch1subsubsubch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v05p1</bibl>
+                <bibl type="frus-division-id">d128</bibl>
+                <bibl type="frus-division-n">128</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="250" to="251" unit="page"
+                        >250–51</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Lisbon</hi></placeName>
+                    <date ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                        calendar="gregorian" notAfter="1952-02-22T23:59:59+00:00"
+                        notBefore="1952-02-20T00:00:00+00:00">undated</date>
+                    <date notAfter="1952-02-22T18:59:59-05:00" notBefore="1952-02-19T19:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v05p1/persons">
+                    <term ref="frus:frus1952-54v05p1/persons#p_ACHESONDG1">Acheson, Dean G.</term>
+                    <term ref="frus:frus1952-54v05p1/persons#p_BATTLELC1">Battle, Lucius C.</term>
+                    <term ref="frus:frus1952-54v05p1/persons#p_EDENSA1">Eden, Sir Anthony</term>
+                </keywords>
+                <keywords scheme="frus:frus1952-54v05p1/terms">
+                    <term ref="frus:frus1952-54v05p1/terms#t_EDC1">EDC</term>
+                    <term ref="frus:frus1952-54v05p1/terms#t_HMG1">HMG</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d128">
+
+                <pb facs="0294" n="250" sameAs="frus:frus1952-54v05p1/pg250"/>
+
+                <note rend="inline" type="source">Conference files, lot 59 D 95, CF 102</note>
+                <head>
+                    <hi rendition="#italic">Draft British Declaration</hi><anchor n="1"
+                        xml:id="d128-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Lisbon</hi></placeName>, <date
+                            ana="#date_undated-inferred-from-document-content-and-sibling-dates"
+                            calendar="gregorian" notAfter="1952-02-22T23:59:59+00:00"
+                            notBefore="1952-02-20T00:00:00+00:00">undated</date>.]</dateline>
+                </opener>
+                <p> H.M.G. in the United Kingdom have been greatly encouraged by the progress made
+                    by the Governments of France, Italy, Belgium, the Netherlands, Luxembourg and
+                    the German Federal Republic towards agreeing on the establishment of a European
+                    Defence Community, and they wish once more to make clear, after consultation
+                    with those Governments, what their attitude to the Defence Community will be
+                    when it is established.</p>
+                <p> H.M.G. do not consider that the establishment of the E.D.C. will relieve them of
+                    their present commitments in Europe for the maintenance of peace. The defence of
+                    Western Europe is an enterprise in which the United Kingdom is already a partner
+                    by virtue of the Dunkirk Treaty, the Brussels Treaty and the North Atlantic
+                    Treaty. H.M.G. believe that the E.D.C. will help to consolidate peace and to
+                    ensure that the principles laid down in the Preamble of the North Atlantic
+                    Treaty are upheld. They thus have an abiding interest in the <pb facs="0295"
+                        n="251" xml:id="pg251"/> strength and continuing integrity of the Community
+                    and will afford its institutions their cooperation and support. They declare
+                    that they would consider any action which threatened the integrity of the
+                    Community as a matter of the gravest concern to them calling for consultation
+                    under Article 4 of the North Atlantic Treaty in order to agree on measures to
+                    meet the situation thus created.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d128-f1" n="1" type="source" xml:id="d128-f1-content">
+                <p>This draft declaration was discussed by Acheson and Eden during their meeting on
+                    the morning of Feb. 22; see Battle’s memorandum of that meeting, <ref
+                        target="#pg131">p. 131</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

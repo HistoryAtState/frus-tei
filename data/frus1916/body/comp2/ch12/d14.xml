@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Stimson to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d14"
+                    type="canonical"/>
+                <relatedItem target="../ch12.xml" type="prev"/>
+                <relatedItem target="d14-a1.xml" type="next"/>
+                <relatedItem target="../ch12.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="16" to="18" unit="page"
+                        >16–18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Buenos Aires</hi></placeName>
+                    <date calendar="gregorian" when="1916-06-09">
+                        <hi rendition="#italic">June 9, 1916</hi></date>
+                    <date notAfter="1916-06-09T23:59:59-05:00" notBefore="1916-06-09T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d14">
+
+                <pb facs="0092" n="16" sameAs="frus:frus1916/pg16"/>
+
+                <note rend="inline" type="source">File No. 835.032/21</note>
+                <head>
+                    <hi rendition="#italic">Ambassador Stimson to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Extract]</seg>
+                </opener>
+                <opener>
+                    <seg rendition="#float-left">No. 236</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Buenos Aires</hi></placeName>, <date
+                            calendar="gregorian" when="1916-06-09">
+                            <hi rendition="#italic">June 9, 1916</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to enclose copy of the
+                    official volume containing the President’s speech at the opening of
+                    Congress.</p>
+                <p>I enclose translation of that part of the President’s address which relates to
+                    Mexico, Pan American affairs and the relations of the Argentine Government with
+                    the United States.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">F. J. Stimson</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d14-a1.xml" xpointer="d14-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1879_d77" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Sherman to Mr. Evarts.</title>
+            </titleStmt>
+            <xi:include href="../../frus1879_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1879_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1879/d77"
+                    type="canonical"/>
+                <relatedItem target="d76.xml" type="prev"/>
+                <relatedItem target="d77-a1.xml" type="next"/>
+                <relatedItem target="../comp5.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1879</bibl>
+                <bibl type="frus-division-id">d77</bibl>
+                <bibl type="frus-division-n">77</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="126" to="127" unit="page"
+                        >126–27</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Treasury Department</hi></placeName>
+                    <date calendar="gregorian" when="1879-06-24"><hi rendition="#italic">June</hi>
+                        24, 1879</date>
+                    <date notAfter="1879-06-24T23:59:59-05:00" notBefore="1879-06-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d77">
+
+                <pb facs="0222" n="126" sameAs="frus:frus1879/pg126"/>
+
+                <head><hi rendition="#italic">Mr. Sherman to Mr. Evarts.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Treasury Department</hi></placeName>, <date calendar="gregorian"
+                            when="1879-06-24"><hi rendition="#italic">June</hi> 24,
+                        1879</date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to your letter of the 18th
+                    instant relative to the proposed issue of letters of marque by the Government of
+                    Bolivia, with authority to privateers to seize Chilian property in neutral
+                    vessels, I have the honor to inclose herewith six copies of <pb facs="0223"
+                        n="127" xml:id="pg127"/> the circular on the subject issued by this
+                    department on the 21st instant and sent to the collectors of customs at ports
+                    from which illegal expeditions might be arranged, warning them to be vigilant to
+                    guard against any breach of the neutrality laws of the United States.</p>
+                <p>Very respectfully,</p>
+                <closer><signed>JOHN SHERMAN,<lb/><hi rendition="#italic"
+                    >Secretary.</hi></signed></closer>
+
+
+                <xi:include href="d77-a1.xml" xpointer="d77-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

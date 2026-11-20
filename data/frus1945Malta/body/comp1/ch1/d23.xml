@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d23" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d23"
+                    type="canonical"/>
+                <relatedItem target="d22.xml" type="prev"/>
+                <relatedItem target="d24.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d23</bibl>
+                <bibl type="frus-division-n">23</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="17" to="17" unit="page"
+                        >17</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-11-19">19 November 1944</date>
+                    <date notAfter="1944-11-19T23:59:59-05:00" notBefore="1944-11-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_CWS1">Churchill, Winston S.</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d23">
+
+                <pb facs="0099" n="17" sameAs="frus:frus1945Malta/pg17"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d23-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1944-11-19">19 November
+                        1944</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Roosevelt, Personal and Top Secret number 825.</p>
+                <p>1. Naturally I am very sorry to receive your numbers 649<anchor n="2"
+                        xml:id="d23-f2"/> and 650.<anchor n="3" xml:id="d23-f3"/>
+                </p>
+                <p>2. Your message to U. J. will, of course, make it certain that he will not come
+                    anywhere before the end of January. Also you yourself give independently the
+                    important reasons which make it difficult for you to come earlier.</p>
+                <p>3. These reasons, I fear, destroy the hope which we had cherished that you would
+                    now pay your long-promised visit to Great Britain, and that we two could meet
+                    here in December and ask U. J. to send Molotov, who would be an adequate deputy.
+                    It is a great disappointment to me that this prospect should be indefinitely
+                    postponed.</p>
+                <p>4. There is, in my opinion, much doubt whether U. J. would be willing or able to
+                    come to an Adriatic port by January 30th, or that he would be willing to come on
+                    a non-Russian vessel through this extremely heavily-mined sea. However, if he
+                    accepts we shall, of course, be there. I note you do not wish the French to be
+                    present. I had thought they might come in towards the end in view of their vital
+                    interests in the arrangements made for policing Germany, as well as in all
+                    questions affecting the Rhine frontiers.</p>
+                <p>5. Even if a meeting can be arranged by the end of January, the two and a half
+                    intervening months will be a serious hiatus. There are many important matters
+                    awaiting settlement, for example, the treatment of Germany and the future world
+                    organization, relations with France, the position in the Balkans, as well as the
+                    Polish question, which ought not to be left to moulder.<anchor n="4"
+                        xml:id="d23-f4"/>
+                </p>
+                <p rendition="#center">. . . . . . . . . . . . . .</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Prime</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d23-f1" n="1" type="source" xml:id="d23-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d23-f2" n="2" xml:id="d23-f2-content">
+                <p>
+                    <hi rendition="#italic">Supra</hi>.</p>
+            </note>
+            <note corresp="#d23-f3" n="3" xml:id="d23-f3-content">
+                <p>See footnote 3 to the preceding document.</p>
+            </note>
+            <note corresp="#d23-f4" n="4" xml:id="d23-f4-content">
+                <p>The paragraph here omitted is printed <hi rendition="#italic">post</hi>, <ref
+                        target="#pg286">pp. 286</ref>–<ref target="#pg287">287</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d584" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note by the Secretaries of the Combined Chiefs of Staff</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d584"
+                    type="canonical"/>
+                <relatedItem target="d583.xml" type="prev"/>
+                <relatedItem target="d584-a1.xml" type="next"/>
+                <relatedItem target="../ch12subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d584</bibl>
+                <bibl type="frus-division-n">584</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1238" to="1239" unit="page"
+                        >1238–39</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-09-01">1 September 1943</date>
+                    <date notAfter="1943-09-01T23:59:59-05:00" notBefore="1943-09-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d584">
+
+                <pb facs="1352" n="1238" sameAs="frus:frus1943/pg1238"/>
+
+                <note rend="inline" type="source"> J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Note by the Secretaries of the Combined Chiefs of
+                        Staff</hi><anchor n="1" xml:id="d584-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/> C.C.S. 331</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-09-01">1 September 1943</date>.</dateline>
+                </opener>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Netherlands Marine Landing Force</hi>
+                </p>
+                <p>The enclosure received from the Netherlands Staff Mission is referred to the
+                    Combined Chiefs of Staff for consideration.</p>
+                <p>It is suggested that the Secretaries be directed to draft a reply along the
+                    following lines: <quote rend="blockquote">
+                        <p>“The Combined Chiefs of Staff have noted with interest that the
+                            Netherlands Military and Naval authorities are working on plans for
+                            raising an Army to participate in the war against Japan following the
+                            liberation of Holland. They will be pleased to review these plans upon
+                            their completion and give them such support as is justified in the
+                            prosecution of the war.”</p>
+                    </quote>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">H. Redman</hi>
+                        <lb/> J. <hi rendition="#small-caps">R. Deane</hi>
+                    </signed>
+                    <lb/>
+                    <hi rendition="#italic">Combined Secretariat</hi>
+                </closer>
+
+
+                <xi:include href="d584-a1.xml" xpointer="d584-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d584-f1" n="1" type="source" xml:id="d584-f1-content">
+                <p>For the action taken on this paper at the 117th and 118th Meetings of the
+                    Combined Chiefs of Staff, September 3 and 10, 1943, see <hi rendition="#italic"
+                        >ante</hi>, <ref target="#pg1205">pp. 1205</ref>, <ref target="#pg1221"
+                        >1221</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

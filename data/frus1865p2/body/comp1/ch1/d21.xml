@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1865p2_d21" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Seward to Mr. Burnley</title>
+            </titleStmt>
+            <xi:include href="../../../frus1865p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1865p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1865p2/d21"
+                    type="canonical"/>
+                <relatedItem target="d20.xml" type="prev"/>
+                <relatedItem target="d21-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1865p2</bibl>
+                <bibl type="frus-division-id">d21</bibl>
+                <bibl type="frus-division-n">21</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="12" to="15" unit="page"
+                        >12–15</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>, <hi
+                            rendition="#italic">Washington</hi>,</placeName>
+                    <date calendar="gregorian" when="1864-12-15"><hi rendition="#italic"
+                            >December</hi>15, 1864.</date>
+                    <date notAfter="1864-12-15T23:59:59-05:00" notBefore="1864-12-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d21">
+
+                <pb facs="0086" n="12" sameAs="frus:frus1865p2/pg12"/>
+
+                <head>Mr. Seward to Mr. Burnley</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Department of State</hi>, <hi
+                                rendition="#italic">Washington</hi>,</placeName>
+                        <date calendar="gregorian" when="1864-12-15"><hi rendition="#italic"
+                                >December</hi>15, 1864.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir:</hi> With reference to Lord Lyons’s
+                    communication of the 8th ultimo, relative to some shot fired from a battery in
+                    course of construction on an island near Eastport, Maine, having fallen upon the
+                    British territory at Oampobello, I have the honor to enclose, in reply, a copy
+                    of a communication of the 8th instant from the War Department, from which it
+                    appears that upon investigation the occurrence referred to was unauthorized, was
+                    inadvertent, and is regretted, and that instructions will be given to avoid a
+                    repetition of the offence.</p>
+                <p>I have the honor to be, with high consideration, sir, your most obedient
+                    servant,</p>
+                <closer>
+                    <signed>WILLIAM H. SEWARD.</signed></closer>
+                <postscript>
+                    <p>J. <hi rendition="#small-caps">Hume Burnley,</hi> Esq., <hi
+                            rendition="#italic">&amp;c., &amp;c., &amp;c</hi>.</p>
+                </postscript>
+
+
+                <xi:include href="d21-a1.xml" xpointer="d21-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

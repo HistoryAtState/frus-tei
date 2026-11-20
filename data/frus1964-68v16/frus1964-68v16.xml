@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v16" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1964-68v16_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1964-68v16_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1964-68v16_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1964-68v16"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1964-68v16" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v16/covers/frus1964-68v16.jpg"/>
+                        <extent>
+                            <measure quantity="32122" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:54:40.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v16" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v16/ebook/frus1964-68v16.epub"/>
+                        <extent>
+                            <measure quantity="1229485" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:54:40.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v16" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v16/ebook/frus1964-68v16.mobi"/>
+                        <extent>
+                            <measure quantity="1746955" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:54:40.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 2000 as printed book and online at state.gov</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">johnson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>brazil</term>
+                    <term>canada</term>
+                    <term>cuba</term>
+                    <term>cyprus</term>
+                    <term>denmark</term>
+                    <term>finland</term>
+                    <term>france</term>
+                    <term>greece</term>
+                    <term>ireland</term>
+                    <term>cote-divoire</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>morocco</term>
+                    <term>rusk-david-dean</term>
+                    <term>sweden</term>
+                    <term>turkey</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>self-determination</term>
+                    <term>united-nations</term>
+                    <term>military-bases</term>
+                    <term>peace</term>
+                    <term>dhekelia</term>
+                    <term>genocide</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1964-68v16" status="published" when="2000"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1964–1968</titlePart>
+                    <titlePart type="volumenumber">Volume XVI</titlePart>
+                    <titlePart type="volume">Cyprus; Greece; Turkey</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline>Editor: James E. Miller </byline>
+                <byline>General Editor: David S. Patterson </byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>2000</docDate>
+                    <pb facs="0002" n="[II]" xml:id="pgII"/> Department of State Publication
+                    10783<lb/>Office of the Historian<lb/>Bureau of Public Affairs<lb/>For sale by
+                    the U.S. Government Printing Office
+                    http://bookstore.gpo.gov/index.html</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <pb facs="0010" n="[X]" xml:id="pgX"/>
+            <xi:include href="front/subseriesvols.xml" xpointer="subseriesvols"/>
+            <pb facs="0012" n="[XII]" xml:id="pgXII"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0014" n="[XIV]" xml:id="pgXIV"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <pb facs="0024" n="[XXIV]" xml:id="pgXXIV"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+            <xi:include href="front/actionsstatement.xml" xpointer="actionsstatement"/>
+            <pb facs="0038" n="[XXXVIII]" xml:id="pgXXXVIII"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

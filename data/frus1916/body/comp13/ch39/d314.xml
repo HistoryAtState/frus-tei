@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d314" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Chargé Bliss to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d314"
+                    type="canonical"/>
+                <relatedItem target="d313.xml" type="prev"/>
+                <relatedItem target="d314-a1.xml" type="next"/>
+                <relatedItem target="../ch39.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d314</bibl>
+                <bibl type="frus-division-n">314</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="274" to="274" unit="page"
+                        >274</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">Paris</hi></placeName>
+                    <date calendar="gregorian" when="1916-11-04">
+                        <hi rendition="#italic">November 4, 1916</hi></date>
+                    <date notAfter="1916-11-04T23:59:59-05:00" notBefore="1916-11-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d314">
+
+                <pb facs="0350" n="274" sameAs="frus:frus1916/pg274"/>
+
+                <note rend="inline" type="source">File No. 351.117/106</note>
+                <head>
+                    <hi rendition="#italic">Chargé Bliss to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 3882</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">Paris</hi></placeName>, <date
+                            calendar="gregorian" when="1916-11-04">
+                            <hi rendition="#italic">November 4, 1916</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to enclose herewith a
+                    copy and translation of a note received from the Foreign Office to the effect
+                    that they have been notified by the Minister of War that Mr. Armand Robert
+                    Garrot was discharged from the French Army as “Réformé No. 2” under date of
+                    September 7 last.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Robert Woods Bliss</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d314-a1.xml" xpointer="d314-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

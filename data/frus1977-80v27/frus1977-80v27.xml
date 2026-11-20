@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v27" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1977-80v27_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1977-80v27_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1977-80v27_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1977-80v27"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1977-80v27" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1977-80v27/covers/frus1977-80v27.jpg"/>
+                        <extent>
+                            <measure quantity="33475" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-01-15T16:15:20.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1977-80v27" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1977-80v27/ebook/frus1977-80v27.epub"/>
+                        <extent>
+                            <measure quantity="672875" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-08-21T21:08:27.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1977-80v27" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1977-80v27/ebook/frus1977-80v27.mobi"/>
+                        <extent>
+                            <measure quantity="806918" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2025-08-21T21:08:28.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 2025 as a digital edition.</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">carter</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term ana="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>carter-jimmy</term>
+                    <term>vance-cyrus-roberts</term>
+                    <term>muskie-edmund-sixtus</term>
+                    <term>europe</term>
+                    <term>afghanistan</term>
+                    <term>belgium</term>
+                    <term>canada</term>
+                    <term>denmark</term>
+                    <term>finland</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>guadeloupe</term>
+                    <term>iceland</term>
+                    <term>iran</term>
+                    <!-- uncomment when the chapters in question are released -->
+                    <!--<term>ireland</term>-->
+                    <term>italy</term>
+                    <!--<term>near-east</term>-->
+                    <term>netherlands</term>
+                    <term>norway</term>
+                    <term>portugal</term>
+                    <term>russia</term>
+                    <term>spain</term>
+                    <term>sweden</term>
+                    <term>united-kingdom</term>
+                    <term>arms-transfers</term>
+                    <term>agriculture</term>
+                    <term>economic-sanctions</term>
+                    <term>economic-summit-meetings</term>
+                    <term>financial-and-monetary-policy</term>
+                    <term>foreign-investment</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>elections</term>
+                    <term>conference-on-security-and-cooperation-in-europe</term>
+                    <term>european-economic-community</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>alliances</term>
+                    <term>military-intervention-presence-and-withdrawal</term>
+                    <term>national-security-policy</term>
+                    <term>national-security-council</term>
+                    <term>peace</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="partially-published">
+            <change corresp="#frus1977-80v27" status="published" when="2025-08-22"/>
+            <change corresp="#ch1" from="2013" status="being-cleared"/>
+            <change corresp="#ch2" status="published" when="2025-08-22"/>
+            <change corresp="#ch3" status="published" when="2025-08-22"/>
+            <change corresp="#ch4" from="2013" status="being-cleared"/>
+            <change corresp="#ch5" from="2013" status="being-cleared"/>
+            <change corresp="#ch6" status="published" when="2025-08-22"/>
+            <change corresp="#ch7" from="2013" status="being-cleared"/>
+            <change corresp="#ch8" from="2013" status="being-cleared"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <xi:include href="front/about-the-digital-edition.xml"
+                xpointer="about-the-digital-edition"/>
+            <xi:include href="front/about-the-series.xml" xpointer="about-the-series"/>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+    </text>
+</TEI>

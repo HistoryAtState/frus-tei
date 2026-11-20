@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d121" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Prime Minister Churchill</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d121"
+                    type="canonical"/>
+                <relatedItem target="d120.xml" type="prev"/>
+                <relatedItem target="d122.xml" type="next"/>
+                <relatedItem target="../ch2subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d121</bibl>
+                <bibl type="frus-division-n">121</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="190" to="190" unit="page"
+                        >190</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Hyde Park</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-05">5 September 1944</date>
+                    <date notAfter="1944-09-05T23:59:59-05:00" notBefore="1944-09-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Poles1">Poles</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d121">
+
+                <pb facs="0246" n="190" sameAs="frus:frus1944Quebec/pg190"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">President Roosevelt to Prime Minister
+                        Churchill</hi><anchor n="1" xml:id="d121-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps">Hyde
+                                Park</hi></placeName>,] <date calendar="gregorian" when="1944-09-05"
+                            >5 September 1944</date>.</dateline>
+                </opener>
+                <p>Number 619, personal and secret, from the President for the Prime Minister.</p>
+                <p>Replying to your 779,<anchor n="2" xml:id="d121-f2"/> 780<anchor n="3"
+                        xml:id="d121-f3"/> and 781,<anchor n="4" xml:id="d121-f4"/> I am informed by
+                    my Office of Military Intelligence that the fighting Poles have departed from
+                    War saw and that the Germans are now in full control.</p>
+                <p>The problem of relief for the Poles in Warsaw has therefore unfortunately been
+                    solved by delay and by German action and there now appears to be nothing we can
+                    do to assist them.</p>
+                <p>I have long been deeply distressed by our inability to give adequate assistance
+                    to the heroic defenders of Warsaw and I hope that we may together still be able
+                    to help Poland be among the victors in this war with the Nazis.</p>
+                <closer><signed><hi rendition="#small-caps">Roosevelt</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d121-f1" n="1" type="source" xml:id="d121-f1-content">
+                <p>Sent by the White House Map Room to the United States Naval Attaché, London, via
+                    Navy channels, after Roosevelt had approved the text. See <hi
+                        rendition="#italic">ante</hi>, <ref target="#pg189">p. 189</ref>, fn. 5.</p>
+            </note>
+            <note corresp="#d121-f2" n="2" xml:id="d121-f2-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg188">p. 188</ref>.</p>
+            </note>
+            <note corresp="#d121-f3" n="3" xml:id="d121-f3-content">
+                <p><hi rendition="#italic">Supra</hi>.</p>
+            </note>
+            <note corresp="#d121-f4" n="4" xml:id="d121-f4-content">
+                <p>Not printed herein. See <hi rendition="#italic">ante</hi>, <ref target="#pg188"
+                        >p. 188</ref>, fn. 3.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

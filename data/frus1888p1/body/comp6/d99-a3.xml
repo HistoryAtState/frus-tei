@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1888p1_d99-a3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The same to the same.</title>
+            </titleStmt>
+            <xi:include href="../../frus1888p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1888p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1888p1/d99-a3"
+                    type="canonical"/>
+                <relatedItem target="d99-a2.xml" type="prev"/>
+                <relatedItem target="d100.xml" type="next"/>
+                <relatedItem target="d99.xml" type="parent"/>
+                <relatedItem target="d99.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1888p1</bibl>
+                <bibl type="frus-division-id">d99-a3</bibl>
+                <bibl type="frus-division-n">99.3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="133" to="133" unit="page"
+                        >133</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Tegucigalpa</hi></placeName>
+                    <date calendar="gregorian" when="1888-02-21"><hi rendition="#italic"
+                            >February</hi> 21, 1888</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d99-a3">
+
+                <pb facs="0267" n="133" sameAs="frus:frus1888p1/pg133"/>
+
+                <opener><seg rendition="#center">[Inclosure 3 in No.
+                        779.—Telegram.—Translation.]</seg></opener>
+                <head><hi rendition="#italic">The same to the same.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Tegucigalpa</hi></placeName>, <date calendar="gregorian"
+                            when="1888-02-21"><hi rendition="#italic">February</hi> 21,
+                        1888</date>.</dateline></opener>
+                <p>The governor of the department of Colon communicates by telegraph the
+                    following:</p>
+                <p>“Vivorilla Shoal and Keys are in our jurisdiction. They are situate 33 miles to
+                    the north of the mouth of Coratzca<anchor n="*" xml:id="d99-f1"/> (?) Lagoon. It
+                    contains limestone and some guano.”</p>
+                <p>Your obedient servant,</p>
+                <closer><signed><hi rendition="#small-caps">Jeronimo Zelaya.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d99-f1" n="*" xml:id="d99-f1-content">
+                <p>The name of the lagoon is no doubt incorrectly transmitted. On some maps the name
+                    is “Catargo” and on others Cataraca.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

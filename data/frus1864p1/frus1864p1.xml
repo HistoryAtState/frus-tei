@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1864p1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1864p1_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1864p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1864p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1864p1"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1864p1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1864p1/covers/frus1864p1.jpg"/>
+                        <extent>
+                            <measure quantity="30009" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:24:10.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1864p1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1864p1/ebook/frus1864p1.epub"/>
+                        <extent>
+                            <measure quantity="1519890" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:24:10.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1864p1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1864p1/ebook/frus1864p1.mobi"/>
+                        <extent>
+                            <measure quantity="2029033" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:24:10.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1864 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>lincoln-abraham</term>
+                    <term>united-kingdom</term>
+                    <term>civil-war-u-s</term>
+                    <term>quarantine-blockade</term>
+                    <term>seward-william-henry</term>
+                    <term>guernsey</term>
+                    <term>st-vincent-and-the-grenadines</term>
+                    <term>mauritius</term>
+                    <term>the-bahamas</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1864p1" status="published" when="1864"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">Papers Relating to Foreign Affairs, Accompanying the
+                        Annual Message of the President to the Second Session Thirty-eighth
+                        Congress.</titlePart>
+                </docTitle>
+                <docImprint>WASHINGTON: GOVERNMENT PRINTING OFFICE.</docImprint>
+            </titlePage>
+            <pb facs="0002" n="[II]" xml:id="pgII"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+            <pb facs="0010" n="" xml:id="pg-seq-10"/>
+            <pb facs="0011" n="[1]" xml:id="pg1"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/ch2.xml" xpointer="ch2"/>
+            <xi:include href="body/ch3.xml" xpointer="ch3"/>
+            <xi:include href="body/ch4.xml" xpointer="ch4"/>
+        </body>
+    </text>
+</TEI>

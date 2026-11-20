@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v11_d366" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum of Conversation</title>
+            </titleStmt>
+            <xi:include href="../../frus1961-63v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1961-63v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v11/d366"
+                    type="canonical"/>
+                <relatedItem target="d365.xml" type="prev"/>
+                <relatedItem target="d366-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v11</bibl>
+                <bibl type="frus-division-id">d366</bibl>
+                <bibl type="frus-division-n">366</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="866" to="868" unit="page"
+                        >866–68</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" type="conversation-or-meeting-date" when="1963-09-13"
+                        >September 13, 1963</date>
+                    <date notAfter="1963-09-13T23:59:59-05:00" notBefore="1963-09-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v11/persons">
+                    <term ref="frus:frus1961-63v11/persons#p_DAF1">Dobrynin, Anatoliy F.</term>
+                    <term ref="frus:frus1961-63v11/persons#p_KNS2">Khrushchev, Nikita S.</term>
+                    <term ref="frus:frus1961-63v11/persons#p_TLET1">Thompson, Llewellyn E.</term>
+                </keywords>
+                <keywords scheme="frus:frus1961-63v11/terms">
+                    <term ref="frus:frus1961-63v11/terms#t_USSR1">USSR</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d366">
+
+                <pb facs="0894" n="866" xml:id="pg866"/>
+
+                <head>366. Memorandum of Conversation<anchor n="0" xml:id="d366-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" type="conversation-or-meeting-date"
+                            when="1963-09-13">September 13, 1963</date>.</dateline></opener>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Cuba</item>
+                </list>
+                <list subtype="participants" type="description">
+                    <label>PARTICIPANTS</label>
+                    <item>Ambassador Anatoliy F. Dobrynin, USSR</item>
+                    <item>Llewellyn E. Thompson, Ambassador-at-Large, Department of State</item>
+                </list>
+                <p>I made the oral statement which is attached hereto. The Ambassador said he wished
+                    to ask how he should translate the sentence reading “The United States could, of
+                    course, consult with any government in this Hemisphere from whose territory we
+                    have information that flights were originating against Cuba … .” He asked if
+                    this meant that we knew where these flights were coming from. I replied that we
+                    probably had some suspicions. I did not think the information was specific, and
+                    asked him to add the word “indicating” after the word “information.”</p>
+                <p>The Ambassador said he hoped that Mr. Khrushchev’s motives in raising this
+                    question were understood. He said that the Chairman believed it was to our
+                    mutual interest to reduce tension in the Caribbean and to avoid a crisis over
+                    the Cuban problem.</p>
+                <p>I said I was sure that the President did understand, and thought that our
+                    position was clear from the statement which I had just made to him.</p>
+
+
+                <xi:include href="d366-a1.xml" xpointer="d366-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d366-f1" n="0" type="source" xml:id="d366-f1-content">
+                <p>Source: Department of State, Presidential Correspondence: Lot 77 D 163, Special
+                    US-USSR Files, 1963. Secret. Drafted by Thompson.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

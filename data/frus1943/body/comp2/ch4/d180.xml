@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d180" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt </title>
+            </titleStmt>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d180"
+                    type="canonical"/>
+                <relatedItem target="d179.xml" type="prev"/>
+                <relatedItem target="d181.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d180</bibl>
+                <bibl type="frus-division-n">180</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="398" to="399" unit="page"
+                        >398–99</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1943-07-25">25 July 1943</date>
+                    <date notAfter="1943-07-25T23:59:59-05:00" notBefore="1943-07-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Abraham1">Abraham</term>
+                    <term ref="frus:frus1943/terms#t_CW1">Colonel Warden</term>
+                    <term ref="frus:frus1943/terms#t_FNP1">Former Naval Person</term>
+                    <term ref="frus:frus1943/terms#t_PQ1">PQ</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d180">
+
+                <pb facs="0512" n="398" sameAs="frus:frus1943/pg398"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">Prime Minister Churchill to President Roosevelt
+                        </hi><anchor n="1" xml:id="d180-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">most secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1943-07-25">25 July 1943</date>.</dateline>
+                </opener>
+                <p> Former Naval Person to President. Personal and most secret. Number 380.</p>
+                <p>Following is paraphrase of message to Mackenzie King referred to in paragraph 2
+                    of my number 378.<anchor n="2" xml:id="d180-f2"/>
+                    <hi rendition="#italic">Paraphrase begins:</hi>
+                    <quote rend="blockquote">
+                        <p>My telegram number 1783 for High Commissioner Canada (second telegram
+                            contained in Former Naval Person telegram number 377 to <pb facs="0513"
+                                n="399" xml:id="pg399"/> President<anchor n="3" xml:id="d180-f3"/>)
+                            was submitted by me to the President. Insuperable difficulties are seen
+                            by him in the Canadian Chiefs of Staff attending plenary meetings of the
+                            Combined Chiefs of Staff. President points out that this will almost
+                            certainly result in an immediate demand from both Brazil and China for
+                            membership of the Combined Staffs in Washington, also from Mexico. And
+                            from other British Dominions and allied nations as well. McCarthy so
+                            President tells me has left for Ottawa to explain the position to
+                            you.</p>
+                        <p>I must say I see the difficulties as very little business can of course
+                            be done when large numbers are present. It therefore seems to me that
+                            the British and Canadian staffs should confer together as may be
+                            necessary but that at the combined meetings of the two principal Allies,
+                            the British alone should be represented.</p>
+                        <p>As he is coming by the same method as last time and runs on schedule
+                            Colonel Warden and the whole party will arrive on the 10th at “<hi
+                                rendition="#small-caps">Abraham</hi>”. He hopes no preparations or
+                            plans of any kind will be made until he is well away. The
+                            British-Canadian staffs discussions can take place while awaiting the
+                            arrival of PQ and we can formally confer on various outstanding
+                            important imperial questions.</p>
+                    </quote>
+                </p>
+                <p>For meaning of PQ see my immediately following.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d180-f1" n="1" type="source" xml:id="d180-f1-content">
+                <p>Channel of transmission not indicated.</p>
+            </note>
+            <note corresp="#d180-f2" n="2" xml:id="d180-f2-content">
+                <p>See above.</p>
+            </note>
+            <note corresp="#d180-f3" n="3" xml:id="d180-f3-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg395">p. 395</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

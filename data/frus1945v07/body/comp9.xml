@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945v07_comp9" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Sino-Soviet Relations:</title>
+            </titleStmt>
+            <xi:include href="../frus1945v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1945v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945v07/comp9"
+                    type="canonical"/>
+                <relatedItem target="comp8/d593.xml" type="prev"/>
+                <relatedItem target="comp9/ch3.xml" type="next"/>
+                <relatedItem target="../frus1945v07.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945v07</bibl>
+                <bibl type="frus-division-id">comp9</bibl>
+                <bibl type="frus-division-n">9</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="851" to="1054" unit="page"
+                        >851–1054</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1945-12-28T14:00:00-05:00" notBefore="1945-01-02T14:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp9">
+
+                <pb facs="0861" n="851" xml:id="pg851"/>
+
+                <head>Sino-Soviet Relations:</head>
+
+
+
+                <xi:include href="comp9/ch3.xml" xpointer="ch3"/>
+                <xi:include href="comp9/ch4.xml" xpointer="ch4"/>
+                <xi:include href="comp9/ch5.xml" xpointer="ch5"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919v01_comp11" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Costa Rica:</title>
+            </titleStmt>
+            <xi:include href="../frus1919v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1919v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919v01/comp11"
+                    type="canonical"/>
+                <relatedItem target="comp10/ch36.xml" type="prev"/>
+                <relatedItem target="comp11/ch37.xml" type="next"/>
+                <relatedItem target="../frus1919v01.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919v01</bibl>
+                <bibl type="frus-division-id">comp11</bibl>
+                <bibl type="frus-division-n">11</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="803" to="876" unit="page"
+                        >803–76</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1919-12-09T17:00:00-05:00" notBefore="1913-11-11T19:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp11">
+
+                <pb facs="0905" n="803" xml:id="pg803"/>
+
+                <head>Costa Rica:</head>
+
+
+
+                <xi:include href="comp11/ch37.xml" xpointer="ch37"/>
+                <xi:include href="comp11/ch38.xml" xpointer="ch38"/>
+                <xi:include href="comp11/ch39.xml" xpointer="ch39"/>
+            </div>
+        </body>
+    </text>
+</TEI>

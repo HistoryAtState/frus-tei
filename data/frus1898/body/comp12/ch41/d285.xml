@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1898_d285" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Sherman.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1898_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1898/d285"
+                    type="canonical"/>
+                <relatedItem target="../ch41.xml" type="prev"/>
+                <relatedItem target="d285-a1.xml" type="next"/>
+                <relatedItem target="../ch41.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1898</bibl>
+                <bibl type="frus-division-id">d285</bibl>
+                <bibl type="frus-division-n">285</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="365" to="366" unit="page"
+                        >365–66</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1898-04-13"><hi rendition="#italic">April 13,
+                            1898</hi></date>
+                    <date notAfter="1898-04-13T23:59:59-05:00" notBefore="1898-04-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d285">
+
+                <pb facs="0461" n="365" sameAs="frus:frus1898/pg365"/>
+
+                <head>
+                    <hi rendition="#italic">Mr. Hay to Mr. Sherman.</hi>
+                </head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1898-04-13"
+                                ><hi rendition="#italic">April 13, 1898</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 354.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to transmit herewith a
+                    copy of a note received to-day from the foreign office in answer to a note of
+                    the 9th of last June on the subject of Canadian copyright. This long delay has
+                    been occasioned as stated in the note by the necessity of consulting with the
+                    Dominion Government in regard to the matters under discussion.</p>
+                <p>The present position of the British and Dominion governments as to copyright is
+                    so clearly stated in the note that I need not repeat the statement. The
+                    essential point is that the Canadian government are not disposed to entertain
+                    our proposal for a convention, but they are considering the whole question of
+                    copyright, and hope to submit to Parliament amended legislation on the
+                    subject.</p>
+                <p>I am, etc.,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">John Hay.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d285-a1.xml" xpointer="d285-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

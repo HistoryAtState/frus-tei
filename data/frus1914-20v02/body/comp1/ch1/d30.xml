@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914-20v02_d30" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the British Ambassador (Spring Rice)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914-20v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914-20v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914-20v02/d30"
+                    type="canonical"/>
+                <relatedItem target="d29.xml" type="prev"/>
+                <relatedItem target="d31.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914-20v02</bibl>
+                <bibl type="frus-division-id">d30</bibl>
+                <bibl type="frus-division-n">30</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="42" to="43" unit="page"
+                        >42–43</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1917-08-11T23:59:59-05:00" notBefore="1917-08-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d30">
+
+                <pb facs="0088" n="42" sameAs="frus:frus1914-20v02/pg42"/>
+
+                <note rend="inline" type="source">763.72119/791½</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the British Ambassador</hi> (<hi
+                        rendition="#italic">Spring Rice</hi>)<anchor n="31" xml:id="d30-f1"/>
+                </head>
+                <p>Very Urgent.</p>
+                <p>His Majesty’s Government intends to make announcement on the 13th instant that
+                    the attendance of British subjects at the Stockholm conference will not be
+                    permitted. They are informing the French and Italian Governments that their
+                    hands would be considerably strengthened if they were able to announce
+                    simultaneously with their own <pb facs="0089" n="43" xml:id="pg43"/> decision
+                    the fact that the governments of the United States, France and Italy had taken a
+                    similar line in regard to attendance at the Stockholm conference.</p>
+                <p>The British Government would be very grateful for an intimation of the views of
+                    the government of the United States.</p>
+                <closer>
+                    <dateline rendition="#float-left">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi>
+                        </placeName>, <date calendar="gregorian" when="1917-08-11">
+                            <hi rendition="#italic">11 August, 1917</hi>
+                        </date>.</dateline>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d30-f1" n="31" type="source" xml:id="d30-f1-content">
+                <p>This paper bears the notation: “Handed me by British Amb. I told him we had again
+                    refused passports and should continue same policy Aug. 11/17. RL.”</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

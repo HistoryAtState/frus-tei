@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1873p1v2_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1873p1v2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1873p1v2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1873p1v2"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1873p1v2" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1873p1v2/covers/frus1873p1v2.jpg"/>
+                        <extent>
+                            <measure quantity="44826" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:31:34.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1873p1v2" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1873p1v2/ebook/frus1873p1v2.epub"/>
+                        <extent>
+                            <measure quantity="1846073" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:31:34.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1873p1v2" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1873p1v2/ebook/frus1873p1v2.mobi"/>
+                        <extent>
+                            <measure quantity="2824769" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:31:34.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1873 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                    <term xml:id="admin3">johnson-a</term>
+                    <term xml:id="admin4">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>morocco</term>
+                    <term>netherlands</term>
+                    <term>nicaragua</term>
+                    <term>norway</term>
+                    <term>peru</term>
+                    <term>russia</term>
+                    <term>spain</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>venezuela</term>
+                    <term>civil-rights-foreign</term>
+                    <term>turks-and-caicos-islands</term>
+                    <term>anguilla</term>
+                    <term>st-kitts-and-nevis</term>
+                    <term>dominica</term>
+                    <term>st-lucia</term>
+                    <term>st-vincent-and-the-grenadines</term>
+                    <term>macau</term>
+                    <term>mauritius</term>
+                    <term>grenada</term>
+                    <term>barbados</term>
+                    <term>fish-hamilton</term>
+                    <term>grant-ulysses-s</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1873p1v2" status="published" when="1873"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0055" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Papers relating to the foreign relations of the United
+                        States,</titlePart>
+                    <titlePart type="volumetitle">Transmitted to Congress, with the annual Message
+                        of the President, December 1, 1873. Preceded by a list of papers, and a list
+                        of persons whose correspondence is contained in this volume, and followed by
+                        an index of persons and subjects. Part I.–General correspondence; and papers
+                        relating to naturalization and expatriation. Volume II.</titlePart>
+                    <titlePart type="volumeno">Volume II.</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <pubPlace>WASHINGTON:</pubPlace>
+                    <lb/>
+                    <publisher>GOVERNMENT PRINTING OFFICE.</publisher>
+                    <lb/>
+                    <docDate>1873.</docDate>
+                </docImprint>
+            </titlePage>
+            <pb facs="0056" n="[II]" xml:id="pgII"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+            <xi:include href="front/correspondence.xml" xpointer="correspondence"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+            <xi:include href="body/title-page.xml" xpointer="title-page"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

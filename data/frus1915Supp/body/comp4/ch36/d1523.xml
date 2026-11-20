@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp_d1523" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Germany (Gerard) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915Supp/d1523"
+                    type="canonical"/>
+                <relatedItem target="d1522.xml" type="prev"/>
+                <relatedItem target="d1523-a1.xml" type="next"/>
+                <relatedItem target="../ch36.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915Supp</bibl>
+                <bibl type="frus-division-id">d1523</bibl>
+                <bibl type="frus-division-n">1523</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1053" to="1054" unit="page"
+                        >1053–54</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Berlin</hi></placeName>
+                    <date calendar="gregorian" when="1915-10-19">
+                        <hi rendition="#italic">October 19, 1915</hi>.</date>
+                    <date notAfter="1915-10-19T23:59:59-05:00" notBefore="1915-10-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1915Supp/persons">
+                    <term ref="frus:frus1915Supp/persons#p_GJW1">Gerard, James Watson</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d1523">
+
+                <pb facs="1311" n="1053" sameAs="frus:frus1915Supp/pg1053"/>
+
+                <note rend="inline" type="source">File No. 763.72112/1820</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Germany</hi> (<hi rendition="#italic"
+                        >Gerard</hi>) <hi rendition="#italic">to the</hi>
+                    <hi rendition="#italic">Secretary of State</hi>
+                    <anchor n="1" xml:id="d1523-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 1673]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Berlin</hi></placeName>, <date
+                            calendar="gregorian" when="1915-10-19">
+                            <hi rendition="#italic">October 19, 1915</hi>.</date>
+                        <lb/> [<hi rendition="#italic">Received November 1</hi>.]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir:</hi> With reference to the Department’s
+                    unnumbered instruction of June 25, 1915, File No. 763.72112/1210, concerning the
+                    proposal of the King of Spain that American and Spanish diplomatic
+                    representatives accredited to the different belligerent governments make a <pb
+                        facs="1312" n="1054" xml:id="pg1054"/> joint request of those governments
+                    that hospital supplies in transit on the high seas may be considered by them as
+                    neither contraband nor conditional contraband of war, but free, I have the honor
+                    to transmit to the Department herewith a copy and translation of a note
+                    addressed by the Imperial Foreign Office under date of October 15, 1915, to the
+                    Spanish Ambassador in Berlin in regard to this subject which the Foreign Office
+                    requests me to bring to the attention of my Government.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">James W. Gerard</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d1523-a1.xml" xpointer="d1523-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d1523-f1" n="1" type="source" xml:id="d1523-f1-content">
+                <p>Enclosure transmitted to the British Ambassador and the Ambassador in Great
+                    Britain, for their information, December 9 (File No. 763.72112/1962).</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

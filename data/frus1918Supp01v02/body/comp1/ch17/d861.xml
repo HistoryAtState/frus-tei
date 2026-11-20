@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Supp01v02_d861" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Swiss Minister (Sulzer) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1918Supp01v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1918Supp01v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Supp01v02/d861"
+                    type="canonical"/>
+                <relatedItem target="d860.xml" type="prev"/>
+                <relatedItem target="d861-a1.xml" type="next"/>
+                <relatedItem target="../ch17.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Supp01v02</bibl>
+                <bibl type="frus-division-id">d861</bibl>
+                <bibl type="frus-division-n">861</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1762" to="1763" unit="page"
+                        >1762–63</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1918-03-04">
+                        <hi rendition="#italic">March 4, 1918</hi></date>
+                    <date notAfter="1918-03-04T23:59:59-05:00" notBefore="1918-03-04T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Supp01v01/persons">
+                    <term ref="frus:frus1918Supp01v01/persons#p_SH1">Sulzer, Hans</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d861">
+
+                <pb facs="0928" n="1762" xml:id="pg1762"/>
+
+                <note rend="inline" type="source">File No. 763.72/9089</note>
+                <head>
+                    <hi rendition="#italic">The Swiss Minister</hi> (<hi rendition="#italic"
+                        >Sulzer</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">Department of German <lb/> Interests IV 5</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1918-03-04">
+                            <hi rendition="#italic">March 4, 1918</hi></date>. <lb/> [<hi
+                            rendition="#italic">Received March 6.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: Referring to my note of January 14,
+                        1918,<anchor n="1" xml:id="d861-f1"/> enclosing text of a cablegram
+                    regarding the extension of the blockade zone of January 31, 1917,<anchor n="2"
+                        xml:id="d861-f2"/> issued by the German Government on January 5, 1918 and
+                    effective January 11, 1918, I now have the honor to enclose the original text of
+                    this declaration, transmitted to this Legation by the Swiss Foreign Office.</p>
+                <p>In this collection, I beg to draw your Excellency’s attention to the description
+                    30 degrees 0 minutes north—26 degrees 0 minutes west. This description, due to
+                    an error in the cablegram, was given in the text submitted to the Department of
+                    State on January 14, 1918, as 30 degrees 0 minutes north—27 degrees 0 minutes
+                    west.</p>
+                <p>Accept [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Hans Sulzer</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d861-a1.xml" xpointer="d861-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d861-f1" n="1" xml:id="d861-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d861-f2" n="2" xml:id="d861-f2-content">
+                <p>For the German memorandum of Jan. 31, 1917, defining the blockade zone, see <ref
+                        target="frus1917Supp01v01#pg_101">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1917, Supplement 1, pp.
+                        101</ref>–<ref target="frus1917Supp01v01#pg_102">102</ref>. For declarations
+                    of extension of this zone during 1917, see <ref
+                        target="frus1917Supp01v01#pg_184">
+                        <hi rendition="#italic">ibid.</hi>, pp. 184</ref> and <ref
+                        target="frus1917Supp01v01#pg_187">187</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

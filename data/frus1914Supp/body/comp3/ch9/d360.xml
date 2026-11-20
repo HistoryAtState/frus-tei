@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914Supp_d360" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Great Britain (Page) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1914Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1914Supp/d360"
+                    type="canonical"/>
+                <relatedItem target="d359.xml" type="prev"/>
+                <relatedItem target="d361.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914Supp</bibl>
+                <bibl type="frus-division-id">d360</bibl>
+                <bibl type="frus-division-n">360</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="217" to="217" unit="page"
+                        >217</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1914-08-19T23:59:59-05:00" notBefore="1914-08-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1914Supp/persons">
+                    <term ref="frus:frus1914Supp/persons#p_GSE1">Grey, Sir Edward</term>
+                    <term ref="frus:frus1914Supp/persons#p_PWH1">Page, Walter Hines</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d360">
+
+                <pb facs="0531" n="217" sameAs="frus:frus1914Supp/pg217"/>
+
+                <note rend="inline" type="source">File No. 763.72112/100</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Great Britain</hi> (<hi
+                        rendition="#italic">Page</hi>) <hi rendition="#italic">to the Secretary of
+                        State </hi><anchor n="1" xml:id="d360-f1"/>
+                </head>
+                <dateline>
+                    <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                    <placeName>
+                        <hi rendition="#italic">London</hi></placeName>, <date calendar="gregorian"
+                        when="1914-08-19">
+                        <hi rendition="#italic">August 19, 1914</hi>.</date>
+                    <lb/> [<hi rendition="#italic">Received August 20, 6:40 a.m.</hi>] </dateline>
+                <p rendition="#center">[Telegram]</p>
+                <p>413. Your August 6, 1 p.m. Sir Edward Grey asks you to inquire of the
+                    Austro-Hungarian and German Governments what attitude they intend to adopt
+                    towards the Declaration of London during the present war period.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">American Ambassador</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d360-f1" n="1" type="source" xml:id="d360-f1-content">
+                <p>Transmitted to the Ambassadors in Germany and Austria-Hungary, August 20.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

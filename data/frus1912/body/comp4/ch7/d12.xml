@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d12" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d12"
+                    type="canonical"/>
+                <relatedItem target="d11.xml" type="prev"/>
+                <relatedItem target="d12-a1.xml" type="next"/>
+                <relatedItem target="../ch7.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d12</bibl>
+                <bibl type="frus-division-n">12</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="15" to="16" unit="page"
+                        >15–16</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Brussels</hi></placeName>
+                    <date calendar="gregorian" when="1912-05-23">
+                        <hi rendition="#italic">May 23, 1912</hi></date>
+                    <date notAfter="1912-05-23T23:59:59-05:00" notBefore="1912-05-23T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d12">
+
+                <pb facs="0131" n="15" sameAs="frus:frus1912/pg15"/>
+
+                <note rend="inline" type="source">File No. 355.115 C76/17.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <seg rendition="#float-left">No. 48.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Brussels</hi></placeName>, <date
+                            calendar="gregorian" when="1912-05-23">
+                            <hi rendition="#italic">May 23, 1912</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to refer to my dispatch
+                    No. 44 of April 26 last, and to inclose a translation of a communication which I
+                    have <pb facs="0132" n="16" xml:id="pg16"/> received from the Baron de
+                    Broqueville, the Minister of Railways, Posts and Telegraphs, regarding the
+                    removal of the discrimination against American oils which has appeared in the
+                    past in the specifications of the Belgian State Railways. This note refers to
+                    the change to be found in the Cahier des Charges which was inclosed in my
+                    dispatch referred to above and which had appeared sometime previously.</p>
+                <p>In my reply to the Baron de Broqueville I expressed gratification at the removal
+                    of the discrimination in this instance, but added that the changes in the
+                    specifications had been published so short a time before the adjudication that
+                    it had seemed quite impossible for any American firms to compete on that
+                    occasion, and I added the hope that the admission of American oils would be
+                    continued in the future in order that fair trials might be made with advantage
+                    to both countries.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Larz Anderson.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d12-a1.xml" xpointer="d12-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1890_comp17" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Russia.</title>
+            </titleStmt>
+            <xi:include href="../frus1890_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1890_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1890/comp17"
+                    type="canonical"/>
+                <relatedItem target="comp16/d433.xml" type="prev"/>
+                <relatedItem target="comp17/d434.xml" type="next"/>
+                <relatedItem target="../frus1890.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1890</bibl>
+                <bibl type="frus-division-id">comp17</bibl>
+                <bibl type="frus-division-n">17</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="697" to="702" unit="page"
+                        >697–702</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1890-09-25T23:59:59-05:00" notBefore="1890-06-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp17">
+
+                <pb facs="0807" n="697" xml:id="pg697"/>
+
+                <head>Russia.</head>
+
+
+
+                <xi:include href="comp17/d434.xml" xpointer="d434"/>
+                <xi:include href="comp17/d435.xml" xpointer="d435"/>
+                <xi:include href="comp17/d436.xml" xpointer="d436"/>
+            </div>
+        </body>
+    </text>
+</TEI>

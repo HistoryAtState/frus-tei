@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v13_comp4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Algeria</title>
+            </titleStmt>
+            <xi:include href="../frus1958-60v13_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1958-60v13_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v13/comp4"
+                    type="canonical"/>
+                <relatedItem target="comp3/ch3/d268.xml" type="prev"/>
+                <relatedItem target="comp4/ch4.xml" type="next"/>
+                <relatedItem target="../frus1958-60v13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v13</bibl>
+                <bibl type="frus-division-id">comp4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="626" to="719" unit="page"
+                        >626–719</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1960-12-22T23:59:59-05:00" notBefore="1958-02-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp4">
+
+                <pb facs="0660" n="626" xml:id="pg626"/>
+
+                <head>Algeria</head>
+
+                <xi:include href="comp4/ch4.xml" xpointer="ch4"/>
+            </div>
+        </body>
+    </text>
+</TEI>

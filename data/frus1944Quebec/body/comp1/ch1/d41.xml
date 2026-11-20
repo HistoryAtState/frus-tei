@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d41" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Prime Minister Churchill to President Roosevelt</title>
+            </titleStmt>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d41"
+                    type="canonical"/>
+                <relatedItem target="d40.xml" type="prev"/>
+                <relatedItem target="d42.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d41</bibl>
+                <bibl type="frus-division-n">41</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="26" to="26" unit="page"
+                        >26</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1944-08-31">31 August 1944</date>
+                    <date notAfter="1944-08-31T23:59:59-05:00" notBefore="1944-08-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_Octagon1">Octagon</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d41">
+
+                <pb facs="0080" n="26" sameAs="frus:frus1944Quebec/pg26"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head><hi rendition="#italic">Prime Minister Churchill to President
+                        Roosevelt</hi><anchor n="1" xml:id="d41-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1944-08-31">31 August 1944</date>.</dateline>
+                </opener>
+                <p>Prime Minister to President Roosevelt Personal and Top Secret No. 773.</p>
+                <p>I had a sudden attack of my former malady with a temperature of between 103 and
+                    104 degrees two hours before my plane reached home. However with vigilance, care
+                    and M and B,<anchor n="2" xml:id="d41-f2"/> I am now normal again and have every
+                    hope and intention of coming in the <hi rendition="#italic">Queen Mary</hi> on
+                    the fifth instant, thus reaching <hi rendition="#small-caps">Octagon</hi> on the
+                    10th. The voyage at sea will be better for me than a journey by air.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d41-f1" n="1" type="source" xml:id="d41-f1-content">
+                <p>Sent by the United States Military Attaché, London, via Army channels.</p>
+            </note>
+            <note corresp="#d41-f2" n="2" xml:id="d41-f2-content">
+                <p>A drug which had also been prescribed when Churchill had had pneumonia in
+                    February 1943. Concerning the Prime Minister’s health immediately before the
+                    Second Quebec Conference, see Moran, p. 189.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

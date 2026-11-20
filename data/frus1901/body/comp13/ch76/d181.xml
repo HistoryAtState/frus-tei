@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1901_d181" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. von Holleben.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1901_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1901/d181"
+                    type="canonical"/>
+                <relatedItem target="d180.xml" type="prev"/>
+                <relatedItem target="d181-a1.xml" type="next"/>
+                <relatedItem target="../ch76.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1901</bibl>
+                <bibl type="frus-division-id">d181</bibl>
+                <bibl type="frus-division-n">181</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="197" to="198" unit="page"
+                        >197–98</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1901-12-16"><hi rendition="#italic">December
+                            16, 1901</hi></date>
+                    <date notAfter="1901-12-16T23:59:59-05:00" notBefore="1901-12-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d181">
+
+                <pb facs="0277" n="197" sameAs="frus:frus1901/pg197"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. von Holleben.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1901-12-16"><hi rendition="#italic">December 16,
+                        1901</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">Dear Excellency</hi>: I have the honor to inclose a
+                    memorandum giving the views of the President in reference to the memorandum
+                    which you kindly left with me a few days ago.</p>
+                <p>Yours, faithfully,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+                <xi:include href="d181-a1.xml" xpointer="d181-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1949v03_comp2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Council of Foreign Ministers</title>
+            </titleStmt>
+            <xi:include href="../frus1949v03_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1949v03_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1949v03/comp2"
+                    type="canonical"/>
+                <relatedItem target="comp1/ch5/ch5subch5/d434.xml" type="prev"/>
+                <relatedItem target="comp2/ch6.xml" type="next"/>
+                <relatedItem target="../frus1949v03.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1949v03</bibl>
+                <bibl type="frus-division-id">comp2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="856" to="1065" unit="page"
+                        >856–1065</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1949-06-20T23:59:59-05:00" notBefore="1949-04-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp2">
+
+                <pb facs="0897" n="856" xml:id="pg856"/>
+
+                <head>Council of Foreign Ministers</head>
+
+                <xi:include href="comp2/ch6.xml" xpointer="ch6"/>
+            </div>
+        </body>
+    </text>
+</TEI>

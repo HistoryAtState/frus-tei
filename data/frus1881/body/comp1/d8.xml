@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1881_d8" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 8.</title>
+                <title type="subtitle">Mr. Osborn to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1881_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1881_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1881/d8"
+                    type="canonical"/>
+                <relatedItem target="d7.xml" type="prev"/>
+                <relatedItem target="d8-a1.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1881</bibl>
+                <bibl type="frus-division-id">d8</bibl>
+                <bibl type="frus-division-n">8</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="10" to="13" unit="page"
+                        >10–13</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">Buenos Ayres</hi></placeName>
+                    <date calendar="gregorian" when="1881-10-27"><hi rendition="#italic"
+                            >October</hi> 27, 1881</date>
+                    <date notAfter="1881-10-27T23:59:59-05:00" notBefore="1881-10-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d8">
+
+                <pb facs="0134" n="10" sameAs="frus:frus1881/pg10"/>
+
+                <head>No. 8.<lb/><hi rendition="#italic">Mr. Osborn to Mr. Blaine</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >Buenos Ayres</hi></placeName>, <date calendar="gregorian"
+                            when="1881-10-27"><hi rendition="#italic">October</hi> 27, 1881</date>.
+                        (Received November 28.)</dateline>
+                    <seg rendition="#float-left">No. 338.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith an
+                    official translation of an authenticated copy of the treaty, of which
+                    ratifications were exchanged at Santiago by Chili and the Argentine Republic on
+                    the 22d instant, with a printed copy of the note of the minister of foreign
+                    affairs, addressed to this legation, under date of the 26th instant, in
+                    reference to the same.</p>
+                <pb facs="0135" n="11" xml:id="pg11"/>
+                <p>In consequence of the failure caused by the snow and the state of the roads) of
+                    the Argentine courier to reach Santiago with the document on time, the
+                    ratifications were exchanged by wire at p.m. on the 22d instant.</p>
+                <p>The treaty, which might be called the Wire Treaty, meets with approval and gives
+                    general satisfaction to all parties and to the whole Argentine press.</p>
+                <p>I have, &amp;c.,</p>
+                <closer><signed>THOS. O. OSBORN.</signed></closer>
+
+
+
+
+                <xi:include href="d8-a1.xml" xpointer="d8-a1"/>
+                <xi:include href="d8-a2.xml" xpointer="d8-a2"/>
+                <xi:include href="d8-a3.xml" xpointer="d8-a3"/>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1944Quebec_d232" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Chief of the Military Mission in the Soviet Union (Deane) to the Chief of
+                    Staff, United States Army (Marshall)</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1944Quebec_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1944Quebec/d232"
+                    type="canonical"/>
+                <relatedItem target="d231-a2.xml" type="prev"/>
+                <relatedItem target="d233.xml" type="next"/>
+                <relatedItem target="../ch5subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1944Quebec</bibl>
+                <bibl type="frus-division-id">d232</bibl>
+                <bibl type="frus-division-n">232</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="404" to="405" unit="page"
+                        >404–5</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Moscow</hi></placeName>
+                    <date calendar="gregorian" when="1944-09-13">13 September 1944</date>
+                    <date notAfter="1944-09-13T23:59:59-05:00" notBefore="1944-09-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1944Quebec/terms">
+                    <term ref="frus:frus1944Quebec/terms#t_AGWar1">AGWar</term>
+                    <term ref="frus:frus1944Quebec/terms#t_MX1">MX</term>
+                    <term ref="frus:frus1944Quebec/terms#t_Octagon1">Octagon</term>
+                    <term ref="frus:frus1944Quebec/terms#t_TopSec1">TopSec</term>
+                    <term ref="frus:frus1944Quebec/terms#t_USSTAF1">USSTAF</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d232">
+
+                <pb facs="0466" n="404" sameAs="frus:frus1944Quebec/pg404"/>
+
+                <note rend="inline" type="source">Department of the Army Files: Telegram</note>
+                <head><hi rendition="#italic">The Chief of the Military Mission in the Soviet
+                        Union</hi> (<hi rendition="#italic">Deane</hi>) <hi rendition="#italic">to
+                        the Chief of Staff, United States Army</hi> (<hi rendition="#italic"
+                        >Marshall</hi>)</head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Moscow</hi></placeName>, <date calendar="gregorian"
+                            when="1944-09-13">13 September 1944</date>.</dateline>
+                </opener>
+                <p>To AGWar for General Marshall information to General Eisenhower and General
+                    Spaatz from Deane TopSec MX 20947. Copy sent direct to Eisenhower.</p>
+                <p>Simultaneously with the receipt of your <hi rendition="#small-caps">Octagon</hi>
+                    10 dated 12 September<anchor n="1" xml:id="d232-f1"/> I received information
+                    from USSTAF that the project was scheduled for today, September 13. The British
+                    and American Ambassadors and I saw Mr. Molotov who arranged for approval to be
+                    given by the Red Army General Staff. General Spaatz was informed of approval and
+                    as a result the mission is now scheduled for September 14.<anchor n="2"
+                        xml:id="d232-f2"/> I shall await word from General Spaatz as to whether this
+                    one mission completes the project or if he proposes to send representatives to
+                    Moscow to work out a plan for continued support. I do not believe it is
+                    necessary for representatives to come here since all details of plan should be
+                    worked out in London. Really, all that <pb facs="0467" n="405" xml:id="pg405"/>
+                    is necessary here is Soviet approval which the British and American missions can
+                    attempt to secure here once they have been informed of the plan.</p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d232-f1" n="1" xml:id="d232-f1-content">
+                <p><hi rendition="#italic">Ante</hi>, <ref target="#pg397">p. 397</ref>.</p>
+            </note>
+            <note corresp="#d232-f2" n="2" xml:id="d232-f2-content">
+                <p>The mission was later postponed until September 18 because of bad weather. See
+                        <hi rendition="#italic">post</hi>, <ref target="#pg491">p. 491</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v27_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1964-68v27_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1964-68v27_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v27/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1964-68v27.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v27</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="946" to="946" unit="page"
+                        >946</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1968-12-29T01:49:00-05:00" notBefore="1964-01-24T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="0988" n="946" sameAs="frus:frus1964-68v27/pg946"/>
+
+                <head>Errata</head>
+                <p>The following error has been identified in <ref target="frus:frus1964-68v27">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1964–1968, Volume
+                        XXVII</ref>, Mainland Southeast Asia; Regional Affairs. Please be aware that
+                    printed volumes have not been revised. <!--Revised information is in italic.-->
+                </p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. Document 368 (date of errata entry: January 3,
+                            2013)</hi>
+                    </item>
+                    <item>The volume skips from <ref target="#d367">Document 367</ref> to <ref
+                            target="#d369">369</ref> (see <ref target="#pg818">pages 818</ref>–<ref
+                            target="#pg819">19</ref>).</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

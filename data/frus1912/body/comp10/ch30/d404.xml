@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d404" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d404"
+                    type="canonical"/>
+                <relatedItem target="d403.xml" type="prev"/>
+                <relatedItem target="d405.xml" type="next"/>
+                <relatedItem target="../ch30.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d404</bibl>
+                <bibl type="frus-division-n">404</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="277" to="277" unit="page"
+                        >277</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Habana</hi></placeName>
+                    <date calendar="gregorian" when="1912-01-30">
+                        <hi rendition="#italic">January 30, 1912</hi></date>
+                    <date notAfter="1912-01-30T23:59:59-05:00" notBefore="1912-01-30T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d404">
+
+                <pb facs="0393" n="277" sameAs="frus:frus1912/pg277"/>
+
+                <note rend="inline" type="source">File No. 437.00/25.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <seg rendition="#float-left">No. 90.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Habana</hi></placeName>, <date
+                            calendar="gregorian" when="1912-01-30">
+                            <hi rendition="#italic">January 30, 1912</hi></date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to report that since
+                    writing my No. 86 of to-day’s date, I have received a personal note<anchor n="1"
+                        xml:id="d404-f1"/> from my French colleague (copy and translation inclosed)
+                    requesting me to inform the Cuban Government that “the United States consider
+                    arbitration as the only way” to settle the question of the so-called
+                    “insurrectionary claims.”</p>
+                <p>I also enclose copy of my reply<anchor n="1" xml:id="d404-f2"/> to the note above
+                    mentioned, stating that I was unable to find among the Department’s instructions
+                    anything which would warrant me in taking the action desired by the French
+                    Minister.</p>
+                <p>During the recent visit of Monsieur Jusserand to Habana he also broached the
+                    subject and requested that I support the British, French and German Ministers in
+                    their request for the arbitration of these claims. He informed me that the
+                    Department had instructed Mr. Jackson<anchor n="2" xml:id="d404-f3"/> to make it
+                    clear to the Cuban Government that the American Government would be obliged to
+                    support any demand of the three interested powers for the arbitration of these
+                    claims. I have been unable to find any such instruction in the files of the
+                    legation.</p>
+                <p>I shall bear in mind, however, should occasion arise, the Department’s telegram
+                    of June 8 [1911]<anchor n="3" xml:id="d404-f4"/> concerning its position on this
+                    question.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">A. M. Beaupré</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d404-f1" n="1" xml:id="d404-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d404-f2" n="1" xml:id="d404-f2-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d404-f3" n="2" xml:id="d404-f3-content">
+                <p>The American Minister.</p>
+            </note>
+            <note corresp="#d404-f4" n="3" xml:id="d404-f4-content">
+                <p>
+                    <ref target="frus1911#pg_126">For. Rel. 1911, p. 126</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

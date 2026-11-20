@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d509" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Señor Aspíroz.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d509"
+                    type="canonical"/>
+                <relatedItem target="d508.xml" type="prev"/>
+                <relatedItem target="d510.xml" type="next"/>
+                <relatedItem target="../ch93.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d509</bibl>
+                <bibl type="frus-division-n">509</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="498" to="499" unit="page"
+                        >498–99</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1899-07-15"><hi rendition="#italic">July 15,
+                            1899</hi></date>
+                    <date notAfter="1899-07-15T23:59:59-05:00" notBefore="1899-07-15T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d509">
+
+                <pb facs="0594" n="498" sameAs="frus:frus1899/pg498"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Señor Aspíroz.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1899-07-15"><hi rendition="#italic">July 15,
+                        1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 19.]</seg></opener>
+                <p><hi rendition="#small-caps">Excellency</hi>: Referring to the correspondence
+                    which has passed between your embassy and this Department with respect to the
+                    case <pb facs="0595" n="499" xml:id="pg499"/> of Mattie D. Rich, charged with
+                    the murder of her husband, John D. Rich, in Ciudad Juarez, Chihuahua, Mexico,
+                    and especially to your note of the 6th instant making formal request for her
+                    extradition, I have the honor to inform you that the President has decided to
+                    extradite the fugitive as requested.</p>
+                <p>A formal warrant for her surrender to such person as may be authorized to receive
+                    her on behalf of the Mexican Government is therefore inclosed.</p>
+                <p>Accept, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+</TEI>

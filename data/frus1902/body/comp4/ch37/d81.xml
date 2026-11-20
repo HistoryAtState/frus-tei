@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d81" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d81"
+                    type="canonical"/>
+                <relatedItem target="../ch37.xml" type="prev"/>
+                <relatedItem target="d82.xml" type="next"/>
+                <relatedItem target="../ch37.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d81</bibl>
+                <bibl type="frus-division-n">81</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="98" to="98" unit="page"
+                        >98</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Belgian Legation</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1902-10-06"><hi rendition="#italic">October 6,
+                            1902</hi></date>
+                    <date notAfter="1902-10-06T23:59:59-05:00" notBefore="1902-10-06T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d81">
+
+                <pb facs="0178" n="98" sameAs="frus:frus1902/pg98"/>
+
+                <head><hi rendition="#italic">Memorandum.</hi></head>
+                <opener><seg rendition="#center">[Translation.]</seg></opener>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Belgian Legation</hi>,<lb/><hi rendition="#italic"
+                            >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1902-10-06"><hi rendition="#italic">October 6,
+                        1902</hi></date>.</dateline></opener>
+                <p>By telegram dated October 6, the Belgian Government instructs the legation of
+                    Belgium at Washington to ask the Government of the United States to authorize
+                    the American cruiser at Cape Haitien to concert with the consul of Belgium for
+                    the protection of common interests in the Bayeux plantation.</p>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1961-63v07-09mSupp_d10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum from Battle to Swank, April 21</title>
+            </titleStmt>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1961-63v07-09mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1961-63v07-09mSupp/d10"
+                    type="canonical"/>
+                <relatedItem target="../ch4.xml" type="prev"/>
+                <relatedItem target="d10-a1.xml" type="next"/>
+                <relatedItem target="../ch4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1961-63v07-09mSupp</bibl>
+                <bibl type="frus-division-id">d10</bibl>
+                <bibl type="frus-division-n">10</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                        when="1961-04-21">April 21, 1961</date>
+                    <date notAfter="1961-04-21T23:59:59-05:00" notBefore="1961-04-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1961-63v07-09mSupp/persons">
+                    <term ref="frus:frus1961-63v07-09mSupp/persons#p_RD_1">Rusk, Dean</term>
+                    <term ref="frus:frus1961-63v07-09mSupp/persons#p_SAE_1">Stevenson, Adlai E.,
+                        II</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d10">
+
+                <pb facs="0214" n="63" sameAs="frus:frus1961-63v07-09mSupp/pg63"/>
+
+                <head>10. Memorandum from Battle to Swank, April 21<anchor n="1" xml:id="d10-f1"
+                    /></head>
+                <opener><dateline>
+                        <date ana="#date_undated-inferred-from-document-head" calendar="gregorian"
+                            when="1961-04-21">April 21, 1961</date>
+                    </dateline></opener>
+                <pb facs="d10-01" n="1" type="facsimile" xml:id="d10-01"/>
+                <p rendition="#center"><hi rendition="#italic">The Secretary’s Remarks to the
+                        Disarmament Consultants</hi></p>
+                <p>The attached copy of the Secretary’s remarks, as delivered to the disarmament
+                    consultants on April 14, is referred for approval.</p>
+                <p>The Disarmament Administration plans no distribution of the Secretary’s remarks,
+                    except for one copy to Ambassador Stevenson.</p>
+                <closer><signed>L.D. Battle</signed></closer>
+
+
+
+                <xi:include href="d10-a1.xml" xpointer="d10-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d10-f1" n="1" type="source" xml:id="d10-f1-content">
+                <p>Transmits copy of Rusk’s April 14 remarks to the disarmament consultants. No
+                    classification marking on Battle memorandum. Remarks are Confidential. 12 pp.
+                    Department of State, Central Files, 600.0012/4–2161.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

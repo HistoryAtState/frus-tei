@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v17_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1969-76v17_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1969-76v17_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v17/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1969-76v17.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v17</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1175" to="1175" unit="page"
+                        >1175</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1972-12-16T18:07:00-05:00" notBefore="1969-01-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="1230" n="1175" sameAs="frus:frus1969-76v17/pg1175"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to <ref target="frus:frus1969-76v17">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1969–1976, Volume
+                    XVII</ref>, China, 1969–1972. Please be aware that printed volumes have not been
+                    revised. <!--Revised information is in italic.-->
+                </p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#pg848">Document 212, Footnote 1, Page
+                                848</ref> (date of correction: October 14, 2012)</hi>
+                    </item>
+                    <item>The conversation number in the document’s source note has been corrected
+                        from “No. 532–17” to “No. 683–4.”</item>
+                    <item>
+                        <hi rendition="#bold">2. <ref target="#pg652">Document 185, Footnote 2, Page
+                                652</ref> (date of correction: January 3, 2013)</hi>
+                    </item>
+                    <item>The footnote of the referenced document has been corrected from “footnote
+                        14” to “footnote 12.”</item>
+                    <item>
+                        <hi rendition="#bold">3. <ref target="#pg793">Document 200, Footnote 5, Page
+                                793</ref> (date of correction: January 3, 2013)</hi>
+                    </item>
+                    <item>The footnote of the referenced document has been corrected from “footnote
+                        16” to “footnote 15.”</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

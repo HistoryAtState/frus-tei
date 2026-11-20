@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d473" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Commander in Chief, Allied Force Headquarters (Eisenhower) to the
+                    Combined Chiefs of Staff </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d473"
+                    type="canonical"/>
+                <relatedItem target="d472.xml" type="prev"/>
+                <relatedItem target="d474.xml" type="next"/>
+                <relatedItem target="../ch9subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d473</bibl>
+                <bibl type="frus-division-n">473</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1056" to="1056" unit="page"
+                        >1056</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Algiers</hi></placeName>
+                    <date calendar="gregorian" when="1943-08-17">17 August 1943</date>
+                    <date notAfter="1943-08-17T23:59:59-05:00" notBefore="1943-08-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_Bosco1">Bosco</term>
+                    <term ref="frus:frus1943/terms#t_Concrete1">Concrete</term>
+                    <term ref="frus:frus1943/terms#t_EyesOnly1">Eyes Only</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d473">
+
+                <pb facs="1170" n="1056" xml:id="pg1056"/>
+
+                <note rend="inline" type="source"> J.C.S. Files: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The Commander in Chief, Allied Force Headquarters</hi>
+                        (<hi rendition="#italic">Eisenhower</hi>) <hi rendition="#italic">to the
+                        Combined Chiefs of Staff </hi><anchor n="1" xml:id="d473-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">urgent</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Algiers</hi></placeName>, <date
+                            calendar="gregorian" when="1943-08-17">17 August 1943</date>.</dateline>
+                </opener>
+                <p>The following message is personal to General McNarney for Eyes Only from
+                    Eisenhower. I request that the following message be sent to the Combined Chiefs
+                    of Staff with the least possible delay.</p>
+                <quote rend="blockquote">
+                    <p>“I have seen messages number <hi rendition="#small-caps">Concrete</hi> 231,
+                        232, 233, and 234 from the Foreign Secretary to the Prime Minister.<anchor
+                            n="2" xml:id="d473-f2"/> I have the following suggestions to offer.</p>
+                    <p>“1st, If the Combined Chiefs of Staff should direct me to send a staff
+                        officer to Lisbon, I believe he should go with the following general
+                        instructions: <list>
+                            <item>“(<hi rendition="#italic">a</hi>) To collect information and check
+                                it against that already in his possession.</item>
+                            <item>“(<hi rendition="#italic">b</hi>) To inform General C that the
+                                Allied force here make no promise in advance but that if the Italian
+                                army is really anxious to speed up the date when an Allied force
+                                lands in Italy, it should proceed at once with widespread sabotaging
+                                operations, particularly directed against all communications,
+                                airfields and public utilities useful to the Germans.</item>
+                            <item>“(<hi rendition="#italic">c</hi>) That the Italian Government and
+                                army have no recourse except to depend upon the decency and sense of
+                                justice of the Allied governments when once we have arrived in
+                                Italy.</item>
+                        </list>
+                    </p>
+                    <p>“My second suggestion is that if I am not directed to send a staff officer to
+                        Lisbon that the British Military Attaché at that place be directed to secure
+                        every possible item of information he can from General C and forward it to
+                        this headquarters by early cable.</p>
+                    <p>“If I am directed to send a staff officer to Lisbon, the individual will be
+                        Brigadier Strong of the British Army, head of my Intelligence Division. He
+                        will travel in civilian clothes with passport duly issued by the local
+                        British Consulate.”</p>
+                </quote>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d473-f1" n="1" type="source" xml:id="d473-f1-content">
+                <p>Sent to the War Department at Washington as telegram No. W–7578 and forwarded to
+                    Quebec as telegram No. Bosco 89.</p>
+            </note>
+            <note corresp="#d473-f2" n="2" xml:id="d473-f2-content">
+                <p>
+                    <hi rendition="#italic">Ante</hi>, <ref target="#pg589">pp. 589</ref> ff.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

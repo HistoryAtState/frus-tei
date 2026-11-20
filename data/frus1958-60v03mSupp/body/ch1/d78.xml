@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d78" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum From Lay to the NSC</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d78"
+                    type="canonical"/>
+                <relatedItem target="d77.xml" type="prev"/>
+                <relatedItem target="d78-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d78</bibl>
+                <bibl type="frus-division-n">78</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1958-07-21">July 21, 1958</date>
+                    <date notAfter="1958-07-21T23:59:59-05:00" notBefore="1958-07-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_LJS_1">Lay, James S., Jr.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_RG_1">RG</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_SP_1">S/P</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d78">
+
+                <pb facs="0365" n="260" sameAs="frus:frus1958-60v03mSupp/pg260"/>
+
+                <head>78. Memorandum From Lay to the NSC<anchor n="1" xml:id="d78-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left">OD–NSC–58225–33</seg>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1958-07-21">July 21, 1958</date></dateline>
+                </opener>
+                <pb facs="d78-1" n="1" type="facsimile" xml:id="d78-1"/>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Basic National Security Policy</item>
+                </list>
+                <list type="references">
+                    <head>REFERENCES</head>
+                    <item>A. NSC 5810/1</item>
+                    <item>B. NSC Actions Nos. 1903 and 1934</item>
+                </list>
+                <p>The enclosed memorandum from the Secretary of Defense, setting forth
+                    recommendations by the Department of Defense relative to the military elements
+                    of national strategy in NSC 5810/1, including paragraphs 13 and 14 thereof,
+                    prepared pursuant to NSC Action No. <pb facs="0366" n="261" type="typeset"
+                        xml:id="pg261"/> 1903–<hi rendition="#italic">b</hi>–(3), is transmitted
+                    herewith for consideration by the National Security Council at its meeting on
+                    Thursday, July 24, 1958.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">James S. Lay, Jr.</hi>
+                        <lb/>
+                        <hi rendition="#italic">Executive Secretary</hi>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>cc: The Secretary of the Treasury</p>
+                    <p>The Director, Bureau of the Budget</p>
+                    <p>The Chairman, Atomic Energy Commission</p>
+                    <p>The Chairman, Joint Chiefs of Staff</p>
+                    <p>The Director of Central Intelligence</p>
+                </postscript>
+
+
+                <xi:include href="d78-a1.xml" xpointer="d78-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d78-f1" n="1" type="source" xml:id="d78-f1-content">
+                <p>Source: Transmits McElroy’s memorandum on strategic concept (print <ref
+                        target="#d30">Document 30</ref>). Top Secret; Limited Distribution, 4 pp.
+                    NARA, RG 59, S/P–NSC Files: Lot 62 D 1.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d211" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Adee to Mr. Wu.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d211"
+                    type="canonical"/>
+                <relatedItem target="../ch74.xml" type="prev"/>
+                <relatedItem target="d212.xml" type="next"/>
+                <relatedItem target="../ch74.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d211</bibl>
+                <bibl type="frus-division-n">211</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="262" to="262" unit="page"
+                        >262</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1902-08-16"><hi rendition="#italic">August 16,
+                            1902</hi></date>
+                    <date notAfter="1902-08-16T23:59:59-05:00" notBefore="1902-08-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d211">
+
+                <pb facs="0342" n="262" sameAs="frus:frus1902/pg262"/>
+
+                <head><hi rendition="#italic">Mr. Adee to Mr. Wu</hi>.</head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1902-08-16"><hi rendition="#italic">August 16,
+                        1902</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">My Dear Mr. Wu</hi>: Referring to our conversation a
+                    few day ago concerning the protection of subjects of China by the consul-general
+                    of the United States at Panama, I take pleasure in inclosing copy of the most
+                    recent instruction<anchor n="a" xml:id="d211-f1"/> to the consul-general on the
+                    subject, in which reference is made to previous instructions addressed to his
+                    office. As was stated in the course of our conversation, these instructions
+                    authorize the consul-general to use his good offices in behalf of Chinese
+                    subjects in the absence of a diplomatic or consular representative of China in
+                    Colombia.</p>
+                <p>In case you should desire the instructions repeated to the consul-general, it
+                    will give me much pleasure to comply with your request.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Alvey A. Adee.</hi></signed></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d211-f1" n="a" xml:id="d211-f1-content">
+                <p>Not printed. See correspondence on same subject with Colombia, <ref
+                        target="#pg318">p. 318</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

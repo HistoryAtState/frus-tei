@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d990-a5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d990-a5"
+                    type="canonical"/>
+                <relatedItem target="d990-a4.xml" type="prev"/>
+                <relatedItem target="d991.xml" type="next"/>
+                <relatedItem target="d990.xml" type="parent"/>
+                <relatedItem target="d990.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d990-a5</bibl>
+                <bibl type="frus-division-n">990.5</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="639" to="639" unit="page"
+                        >639</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1914-04-25T21:00:00-05:00">
+                        <hi rendition="#italic">April 25, 1914, 9 p.m.</hi>
+                    </date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d990-a5">
+
+                <pb facs="0755" n="639" sameAs="frus:frus1914/pg639"/>
+
+                <opener>
+                    <seg rendition="#center">[Telegram.]<anchor n="79" xml:id="d990-f1"/></seg>
+                </opener>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1914-04-25T21:00:00-05:00">
+                            <hi rendition="#italic">April 25, 1914, 9 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>In view of relations existing between this Government and the Huerta Government,
+                    you and such members of your staff as are American citizens are directed to
+                    leave your post at the earliest opportunity. Place consular offices and archives
+                    with coats of arms, flags and seals in custody of the consular officer of Great
+                    Britain and proceed to the United States or place of safety bringing code,
+                    current accounts and fee stamps with you. Procure vouchers for transportation
+                    expenses of your family. Naval vessel instructed to afford transportation.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Bryan</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d990-f1" n="79" xml:id="d990-f1-content">
+                <p>Sent to Frontera.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

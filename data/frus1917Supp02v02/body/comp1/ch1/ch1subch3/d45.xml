@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917Supp02v02_d45" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Great Britain (Page) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1917Supp02v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1917Supp02v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1917Supp02v02/d45"
+                    type="canonical"/>
+                <relatedItem target="d44.xml" type="prev"/>
+                <relatedItem target="d45-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917Supp02v02</bibl>
+                <bibl type="frus-division-id">d45</bibl>
+                <bibl type="frus-division-n">45</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="898" to="902" unit="page"
+                        >898–902</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1917-06-22">
+                        <hi rendition="#italic">June 22, 1917</hi></date>
+                    <date notAfter="1917-06-22T23:59:59-05:00" notBefore="1917-06-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1917Supp02v01/persons">
+                    <term ref="frus:frus1917Supp02v01/persons#p_BSA1">Block, Sir Adam</term>
+                    <term ref="frus:frus1917Supp02v01/persons#p_PWH1">Page, Walter Hines</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d45">
+
+                <pb facs="0144" n="898" sameAs="frus:frus1917Supp02v02/pg898"/>
+
+                <note rend="inline" type="source">File No. 763.72112/3980</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Great Britain</hi> (<hi
+                        rendition="#italic">Page</hi>) <hi rendition="#italic">to the Secretary of
+                        State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 6451</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1917-06-22">
+                            <hi rendition="#italic">June 22, 1917</hi></date>. <lb/> [<hi
+                            rendition="#italic">Received July 6.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: I have the honor to report that on June
+                    19, 1917 (copy of letter attached<anchor n="2" xml:id="d45-f1"/>), Sir Adam
+                    Block requested Mr. Beal of my staff to attend a meeting to be held at the
+                    office of the Ministry of Blockade on June 21, 1917, to consider a proposal to
+                    tighten the financial blockade of the enemy by obtaining general assurances from
+                    neutral banks that they will restrict their business within certain limits and
+                    confine their operations to transacting such business with the enemy as will not
+                    injure the Allies, as a condition of continuing their financial relations with
+                    Allied countries.</p>
+                <pb facs="0145" n="899" xml:id="pg899"/>
+                <p>In accordance with Sir Adam Block’s invitation, Mr. Beal went to this meeting,
+                    which was also attended by representatives of the French, Russian and Italian
+                    Governments, and I enclose herewith, for your information a copy of the minutes,
+                    together with a copy of the suggestions (Exhibit A) made by Sir Adam Block at
+                    that time. I also enclose herewith copy of further suggestions (Exhibit
+                        B),<anchor n="1" xml:id="d45-f2"/> which Sir Adam Block has since had
+                    written out and which have just been received by Mr. Beal.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Walter Hines Page</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d45-a1.xml" xpointer="d45-a1"/>
+                <xi:include href="d45-a2.xml" xpointer="d45-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d45-f1" n="2" xml:id="d45-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d45-f2" n="1" xml:id="d45-f2-content">
+                <p>Not printed.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

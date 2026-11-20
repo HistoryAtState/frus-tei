@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1899_d6" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Hay to Mr. Buchanan.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1899_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1899/d6"
+                    type="canonical"/>
+                <relatedItem target="../ch2.xml" type="prev"/>
+                <relatedItem target="d6-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1899</bibl>
+                <bibl type="frus-division-id">d6</bibl>
+                <bibl type="frus-division-n">6</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="5" to="5" unit="page"
+                    >5</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Department of State</hi>,<lb/><hi
+                            rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1899-02-16"><hi rendition="#italic">February
+                            16, 1899</hi></date>
+                    <date notAfter="1899-02-16T23:59:59-05:00" notBefore="1899-02-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d6">
+
+                <pb facs="0097" n="5" sameAs="frus:frus1899/pg5"/>
+
+                <head><hi rendition="#italic">Mr. Hay to Mr. Buchanan.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Department of State</hi>,<lb/><hi rendition="#italic"
+                                >Washington</hi></placeName>, <date calendar="gregorian"
+                            when="1899-02-16"><hi rendition="#italic">February 16,
+                        1899</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 454.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I inclose copy of a letter from Messrs.
+                    Briesen &amp; Knauth, of New York City, complaining that the trade-marks and
+                    symbols of United States citizens are improperly appropriated in the Argentine
+                    Republic.</p>
+                <p>You will give the subject attention in the way of inquiry and, if convenient
+                    occasion offers, of suggestion to the minister for foreign affairs in the
+                    direction of an understanding which would remove or lessen the ground of
+                    complaint.</p>
+                <p>I am, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">John Hay.</hi></signed></closer>
+
+
+                <xi:include href="d6-a1.xml" xpointer="d6-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

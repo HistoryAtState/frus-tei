@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav01_d4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Russia (Francis) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1918Russiav01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1918Russiav01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav01/d4"
+                    type="canonical"/>
+                <relatedItem target="d3.xml" type="prev"/>
+                <relatedItem target="d5.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav01</bibl>
+                <bibl type="frus-division-id">d4</bibl>
+                <bibl type="frus-division-n">4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="3" to="3" unit="page"
+                    >3</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Petrograd</hi></placeName>
+                    <date calendar="gregorian" when="1917-03-17T15:00:00+02:31">
+                        <hi rendition="#italic">March 17, 1917, 3 p.m.</hi>
+                    </date>
+                    <date notAfter="1917-03-17T07:29:00-05:00" notBefore="1917-03-17T07:29:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav01/persons">
+                    <term ref="frus:frus1918Russiav01/persons#p_FDR1">Francis, David R.</term>
+                    <term ref="frus:frus1918Russiav01/persons#p_MAGD1">Michael Alexandrovich, Grand
+                        Duke</term>
+                    <term ref="frus:frus1918Russiav01/persons#p_MPN1">Milyukov, Paul N.</term>
+                    <term ref="frus:frus1918Russiav01/persons#p_SM1">Summers, Maddin</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d4">
+
+                <pb facs="0077" n="3" sameAs="frus:frus1918Russiav01/pg3"/>
+
+                <note rend="inline" type="source">File No. 861.00/281</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Russia</hi> (<hi rendition="#italic"
+                        >Francis</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Petrograd</hi></placeName>, <date
+                            calendar="gregorian" when="1917-03-17T15:00:00+02:31">
+                            <hi rendition="#italic">March 17, 1917, 3 p.m.</hi>
+                        </date>
+                        <lb/> [<hi rendition="#italic">Received March 18, 9 a.m.</hi>]</dateline>
+                </opener>
+                <p>1103. Abdication of Emperor and King [acting] for himself and son officially
+                    promulgated. It advocates vigorous prosecution of the war which it fears
+                    internal turmoils threaten to affect unhappily and states: <quote
+                        rend="blockquote">
+                        <p>In accordance with the Imperial Duma we have considered it well abdicate
+                            the throne of the Russian Empire and to renounce the supreme authority.
+                            Not wishing to part with our beloved son we transfer our inheritance to
+                            our brother the Grand Duke Michael Alexandrovich and bless [him] on
+                            mounting the throne of the Russian Empire.</p>
+                    </quote>
+                </p>
+                <p> Milyukov is recognized by the Foreign Office staff. High member of staff tells
+                    me Emperor’s brother replied would accept Imperial office if Russia so desired
+                    and would exercise its functions under direction of representatives of the
+                    people. Workingmen’s committee still inveighing against monarchy and demanding
+                    social[ist] republic. Orderly quiet prevails to-day, no dissensions reported
+                    throughout all Russia. Summers<anchor n="2" xml:id="d4-f1"/> says revolutionary
+                    party in absolute control Moscow without bloodshed.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Francis</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d4-f1" n="2" xml:id="d4-f1-content">
+                <p> Maddin Summers, Consul General at Moscow.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

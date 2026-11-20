@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d30" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d30"
+                    type="canonical"/>
+                <relatedItem target="../ch12.xml" type="prev"/>
+                <relatedItem target="d30-a1.xml" type="next"/>
+                <relatedItem target="../ch12.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d30</bibl>
+                <bibl type="frus-division-n">30</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="26" to="27" unit="page"
+                        >26–27</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1915-12-31">
+                        <hi rendition="#italic">December 31, 1915</hi></date>
+                    <date notAfter="1915-12-31T23:59:59-05:00" notBefore="1915-12-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d30">
+
+                <pb facs="0142" n="26" sameAs="frus:frus1915/pg26"/>
+
+                <note rend="inline" type="source">File No. 711.0021/69.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1915-12-31">
+                            <hi rendition="#italic">December 31, 1915</hi></date>.</dateline>
+                </opener>
+                <p rendition="#flush">
+                    <hi rendition="#italic">To the Diplomatic Officers of the United States
+                        accredited to Maritime Countries</hi>.</p>
+                <p>
+                    <hi rendition="#small-caps">Gentlemen</hi>: In accordance with a suggestion made
+                    in a letter of the Department of Commerce dated the 16th instant, I enclose
+                    herewith two copies of that Department’s circular No. 268 with reference to the
+                    application of certain provisions of Section 13 of the Seamen’s Act to foreign
+                    vessels in trade with the United States.</p>
+                <p>You will transmit one of the copies to the Government to which you are
+                    respectively accredited, retaining the other for the files of your mission.</p>
+                <p>I am [etc.]</p>
+                <closer>For the Secretary of State: <lb/>
+                    <signed>
+                        <hi rendition="#small-caps">Frank L. Polk.</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d30-a1.xml" xpointer="d30-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

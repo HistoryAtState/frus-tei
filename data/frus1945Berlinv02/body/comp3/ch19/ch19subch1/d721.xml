@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d721" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 721</title>
+                <title type="subtitle">The Ambassador in China (Hurley) to the Secretary of
+                    State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1945Berlinv02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d721"
+                    type="canonical"/>
+                <relatedItem target="d720.xml" type="prev"/>
+                <relatedItem target="d721a-1.xml" type="next"/>
+                <relatedItem target="../ch19subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d721</bibl>
+                <bibl type="frus-division-n">721</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="619" to="620" unit="page"
+                        >619–20</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Chungking</hi></placeName>
+                    <date calendar="gregorian" when="1945-08-01">1 August 1945</date>
+                    <date notAfter="1945-08-01T23:59:59-05:00" notBefore="1945-08-01T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/persons">
+                    <term ref="frus:frus1945Berlinv02/persons#p_BJF1">Byrnes, James F.</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_HMGPJ1">Hurley, Major General
+                        Patrick J.</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv02/terms">
+                    <term ref="frus:frus1945Berlinv02/terms#t_Cfb1">Cfb</term>
+                    <term ref="frus:frus1945Berlinv02/terms#t_ComNavGrp1">ComNavGrp</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d721">
+
+                <pb facs="0813" n="619" sameAs="frus:frus1945Berlinv02/pg619"/>
+
+                <note rend="inline" type="source">740.00119 Potsdam/8–745: Telegram</note>
+                <head>No. 721<lb/><hi rendition="#italic">The Ambassador in China</hi> (<hi
+                        rendition="#italic">Hurley</hi>) <hi rendition="#italic">to the Secretary of
+                        State</hi><anchor n="1" xml:id="d721-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">urgent</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Chungking</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-08-01">1 August 1945</date>.</dateline>
+                </opener>
+                <p>ComNavGrp China sends. (The following message is secret and urgent for Byrnes
+                    Secretary of State, Potsdam, Germany from Hurley.)</p>
+                <p>Reference my immediately preceding telegram. I am now in receipt of the official
+                    reply for the Chinese Government from the <pb facs="0814" n="620" xml:id="pg620"
+                    /> Minister of Foreign Relations received at 1630<anchor n="2" xml:id="d721-f2"
+                    /> Chungking time, August 1. It states <quote rend="blockquote">
+                        <p>“The Chinese Government concurs in the proposal and takes great pleasure
+                            in accepting the invitation to become a member of the Council of Foreign
+                            Ministers and to take part in its work, and it fully shares your
+                            conviction that China’s association with her American, British, Soviet
+                            and French Allies in this new body will offer an essential and fruitful
+                            introduction to our future association as permanent members of the
+                            Security Council”.</p>
+                    </quote></p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d721-f1" n="1" type="source" xml:id="d721-f1-content">
+                <p>Sent by the Commander, Naval Group, China, via Navy channels. An identical
+                    message, numbered <hi rendition="#small-caps">Cfb</hi> 2386, was sent by the
+                    Commanding General, United States Forces, China.</p>
+            </note>
+            <note corresp="#d721-f2" n="2" xml:id="d721-f2-content">
+                <p>i. e., 4:30 p.m.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

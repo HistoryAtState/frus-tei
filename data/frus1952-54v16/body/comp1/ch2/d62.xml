@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1952-54v16_d62" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by Christopher Van Hollen of the Executive Secretariat, Department
+                    of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1952-54v16_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1952-54v16_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1952-54v16/d62"
+                    type="canonical"/>
+                <relatedItem target="d61.xml" type="prev"/>
+                <relatedItem target="d62-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1952-54v16</bibl>
+                <bibl type="frus-division-id">d62</bibl>
+                <bibl type="frus-division-n">62</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="105" to="111" unit="page"
+                        >105–11</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1954-04-16">April 16, 1954</date>
+                    <date notAfter="1954-04-16T23:59:59-05:00" notBefore="1954-04-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1952-54v16/persons">
+                    <term ref="frus:frus1952-54v16/persons#p_VHC1">Van Hollen, Christopher</term>
+                </keywords>
+                <keywords scheme="frus:frus1952-54v16/terms">
+                    <term ref="frus:frus1952-54v16/terms#t_C1">C</term>
+                    <term ref="frus:frus1952-54v16/terms#t_FE1">FE</term>
+                    <term ref="frus:frus1952-54v16/terms#t_GK1">GK</term>
+                    <term ref="frus:frus1952-54v16/terms#t_ROK1">ROK</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d62">
+
+                <pb facs="0131" n="105" sameAs="frus:frus1952-54v16/pg105"/>
+
+                <note rend="inline" type="source">FE flies, lot 60 D 330, “Position Papers”</note>
+                <head><hi rendition="#italic">Memorandum by Christopher Van Hollen of the Executive
+                        Secretariat, Department of State</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps"
+                        >confidential</hi><lb/>GK D–4/10</seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1954-04-16">April 16, 1954</date>.</dateline>
+                </opener>
+                <p rendition="#center"><hi rendition="#small-caps">Korean Phase</hi></p>
+                <p rendition="#center"><hi rendition="#small-caps">draft proposal for reunification
+                        of korea</hi></p>
+                <p rendition="#center">(Alternative B)</p>
+                <p>The attached proposal for the reunification of Korea (Alternative B) provides for
+                    elections in North and South Korea for the establishment of a Korean National
+                    Government within the ROK constitutional structure.</p>
+                <pb facs="0132" n="106" xml:id="pg106"/>
+                <p>This proposal represents a middle position between Alternative A—administrative
+                    incorporation of North Korea into the existing Republic of Korea, (GK
+                        D–4/7)<anchor n="1" xml:id="d62-f1"/> and Alternative C which provides for
+                    all-Korean elections for constituent assembly, and a new national Government (GK
+                        D–4b).<anchor n="2" xml:id="d62-f2"/></p>
+                <p>The basic U.S. position on the over-all question of Korean reunification,
+                    together with a brief summary of the three Alternative plans, is contained in GK
+                        D–4/ld.<anchor n="3" xml:id="d62-f3"/></p>
+                <closer><signed><hi rendition="#small-caps">Christopher Van
+                    Hollen</hi></signed></closer>
+
+
+                <xi:include href="d62-a1.xml" xpointer="d62-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d62-f1" n="1" xml:id="d62-f1-content">
+                <p>Dated Apr. 9, <ref target="#pg82">p. 82</ref>.</p>
+            </note>
+            <note corresp="#d62-f2" n="2" xml:id="d62-f2-content">
+                <p>Dated Mar. 27, <ref target="#pg62">p. 62</ref>.</p>
+            </note>
+            <note corresp="#d62-f3" n="3" xml:id="d62-f3-content">
+                <p>Document GK D–4/ld is not printed. For a subsequent revised version of it.
+                    Document GK D–4/le, Apr. 24, see <ref target="#pg181">p. 181</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

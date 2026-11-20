@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v2_d20" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 326.</title>
+                <title type="subtitle">Mr. Thomas to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1873p1v2/d20"
+                    type="canonical"/>
+                <relatedItem target="d19.xml" type="prev"/>
+                <relatedItem target="d20-a1.xml" type="next"/>
+                <relatedItem target="../comp4.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v2</bibl>
+                <bibl type="frus-division-id">d20</bibl>
+                <bibl type="frus-division-n">20</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="755" to="758" unit="page"
+                        >755–58</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Legation</hi>,<lb/><hi
+                            rendition="#italic">Lima, Peru</hi></placeName>
+                    <date calendar="gregorian" when="1872-12-13"><hi rendition="#italic"
+                            >December</hi> 13, 1872</date>
+                    <date notAfter="1872-12-13T23:59:59-05:00" notBefore="1872-12-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1873p1v2/persons">
+                    <term ref="frus:frus1873p1v2/persons#p_FT1">Francis Thomas</term>
+                    <term ref="frus:frus1873p1v2/persons#p_HF1">Hamilton Fish</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d20">
+
+                <pb facs="0125" n="755" sameAs="frus:frus1873p1v2/pg755"/>
+
+                <head>No. 326.<lb/><hi rendition="#italic">Mr. Thomas to Mr. Fish.</hi></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps">United
+                                States Legation</hi>,<lb/><hi rendition="#italic">Lima,
+                            Peru</hi></placeName>, <date calendar="gregorian" when="1872-12-13"><hi
+                                rendition="#italic">December</hi> 13, 1872</date>. (Rec’d Jan. 7,
+                        1873.)</dateline>
+                    <seg rendition="#float-left">No. 24.]</seg>
+                </opener>
+                <p><hi rendition="#small-caps">Sir</hi>: The Congress of Peru, being limited by the
+                    constitution to a session of one hundred (100) business days, failed to act on
+                    several subjects of importance. His Excellency Manuel Pardo, President of this
+                    republic, called an extra session of Congress, which convened on the 9th
+                    instant.</p>
+                <p>I was present with other members of the diplomatic corps, the cabinet of the
+                    President, and the judges of the courts of Peru, by invitation, to witness the
+                    opening of the session of Congress. President Pardo made an oral address on the
+                    occasion, which was well received, and a translation of which is herewith
+                    inclosed.</p>
+                <p>I have, &amp;c.,</p>
+                <closer>
+                    <signed>FRANCIS THOMAS.</signed>
+                </closer>
+
+
+
+
+                <xi:include href="d20-a1.xml" xpointer="d20-a1"/>
+                <xi:include href="d20-a2.xml" xpointer="d20-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

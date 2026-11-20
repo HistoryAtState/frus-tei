@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Berlinv02_d855" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>No. 855</title>
+                <title type="subtitle">Memorandum by the Central Secretariat</title>
+            </titleStmt>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml"
+                xpointer="publicationStmt"/>
+            <xi:include href="../../../../../frus1945Berlinv02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Berlinv02/d855"
+                    type="canonical"/>
+                <relatedItem target="d854.xml" type="prev"/>
+                <relatedItem target="d855-a1.xml" type="next"/>
+                <relatedItem target="../ch20subsubch10.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Berlinv02</bibl>
+                <bibl type="frus-division-id">d855</bibl>
+                <bibl type="frus-division-n">855</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="780" to="784" unit="page"
+                        >780–84</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-07-18">July 18, 1945</date>
+                    <date notAfter="1945-07-18T23:59:59-05:00" notBefore="1945-07-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Berlinv02/persons">
+                    <term ref="frus:frus1945Berlinv02/persons#p_BJF1">Byrnes, James F.</term>
+                    <term ref="frus:frus1945Berlinv02/persons#p_MA1">MacLeish, Archibald</term>
+                </keywords>
+                <keywords scheme="frus:frus1945Berlinv02/terms">
+                    <term ref="frus:frus1945Berlinv02/terms#t_SC1">SC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d855">
+
+                <pb facs="0974" n="780" sameAs="frus:frus1945Berlinv02/pg780"/>
+
+                <note rend="inline" type="source">740.00119 Control (Germany)/7–1745</note>
+                <head>No. 855<lb/><hi rendition="#italic">Memorandum by the Central
+                        Secretariat</hi><anchor n="1" xml:id="d855-f1"/></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">top secret</hi>
+                        <lb/> SC–145<hi rendition="#italic">b</hi></seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-07-18">July 18, 1945</date>.</dateline>
+                </opener>
+                <p rendition="#flush"><hi rendition="#small-caps">Proposed Communication to the
+                        Secretary at the Berlin Meeting on the Objective of the United States
+                        Government in the Occupation of Germany</hi></p>
+                <p>There is attached a redraft of the proposed communication to the Secretary on the
+                    objective of the United States Government in the occupation of Germany.</p>
+                <p>This redraft has been prepared by Mr. MacLeish in the light of comments in the
+                    meetings of the Staff Committee on July 16 and July 17.<anchor n="2"
+                        xml:id="d855-f2"/></p>
+
+
+                <xi:include href="d855-a1.xml" xpointer="d855-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d855-f1" n="1" type="source" xml:id="d855-f1-content">
+                <p>Circulated to the Secretary’s Staff Committee. Cf. <ref
+                        target="frus1945Berlinv01#d349">document No. 349, printed in vol. <hi
+                            rendition="#small-caps">i</hi></ref>.</p>
+            </note>
+            <note corresp="#d855-f2" n="2" xml:id="d855-f2-content">
+                <p>The Secretary’s Staff Committee decided at its 141st Meeting on July 17 that this
+                    paper should be forwarded to Byrnes at the Conference.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

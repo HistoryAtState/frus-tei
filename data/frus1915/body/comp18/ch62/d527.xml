@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915_d527" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1915_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1915/d527"
+                    type="canonical"/>
+                <relatedItem target="d526.xml" type="prev"/>
+                <relatedItem target="d528.xml" type="next"/>
+                <relatedItem target="../ch62.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915</bibl>
+                <bibl type="frus-division-id">d527</bibl>
+                <bibl type="frus-division-n">527</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="471" to="471" unit="page"
+                        >471</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Port au Prince</hi></placeName>
+                    <date calendar="gregorian" when="1915-05-14">
+                        <hi rendition="#italic">May 14, 1915</hi></date>
+                    <date notAfter="1915-05-14T23:59:59-05:00" notBefore="1915-05-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d527">
+
+                <pb facs="0587" n="471" sameAs="frus:frus1915/pg471"/>
+
+                <note rend="inline" type="source">File No. 838.00/1176.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Port au Prince</hi></placeName>, <date
+                            calendar="gregorian" when="1915-05-14">
+                            <hi rendition="#italic">May 14, 1915</hi></date>.</dateline>
+                </opener>
+                <p>Government forces were badly defeated near Cape Haitien yesterday. More than 100
+                    reported killed and a number wounded and made prisoners. Government troops have
+                    retreated about 25 miles abandoning arms and ammunition. It is currently
+                    reported that ammunition is being supplied to revolutionary forces by
+                    Dominicans, a large quantity having been delivered to them by sailboat from
+                    Monte Christi on May 11. New paper currency in circulation here today.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Davis</hi>.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

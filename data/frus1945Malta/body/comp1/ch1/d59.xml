@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d59" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The President to the Ambassador in the Soviet Union (Harriman)</title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1945Malta/d59"
+                    type="canonical"/>
+                <relatedItem target="d58.xml" type="prev"/>
+                <relatedItem target="d60.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d59</bibl>
+                <bibl type="frus-division-n">59</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="37" to="37" unit="page"
+                        >37</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1945-01-16">16 January 1945</date>
+                    <date notAfter="1945-01-16T23:59:59-05:00" notBefore="1945-01-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_D1">Deane, Major General John R.</term>
+                    <term ref="frus:frus1945Malta/persons#p_HWA1">Harriman, W. Averell</term>
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d59">
+
+                <pb facs="0119" n="37" xml:id="pg37"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The President to the Ambassador in the Soviet Union</hi>
+                        (<hi rendition="#italic">Harriman</hi>)<anchor n="1" xml:id="d59-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1945-01-16">16 January 1945</date>.</dateline>
+                </opener>
+                <p>Number 167, Top Secret and Personal, for Ambassador Harriman from the
+                    President.</p>
+                <p>Referring to Deane’s M22351<anchor n="2" xml:id="d59-f2"/> of 14 January and your
+                    . . . [telegram of January 16].<anchor n="3" xml:id="d59-f3"/>
+                </p>
+                <p>I hope that you will be able to arrange, without offending the Russians, for the
+                    setting up of my personal mess ashore and the use of my stewards and cooks. I
+                    desire this in order to maintain my usual diet. Our supplies will be obtained
+                    from the <hi rendition="#italic">Catoctin</hi>.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d59-f1" n="1" type="source" xml:id="d59-f1-content">
+                <p>Sent to the United States Naval Attaché, Moscow, via Navy channels.</p>
+            </note>
+            <note corresp="#d59-f2" n="2" xml:id="d59-f2-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d59-f3" n="3" xml:id="d59-f3-content">
+                <p>
+                    <hi rendition="#italic">Supra</hi>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

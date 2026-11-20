@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1969-76v41_d129" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>National Security Decision Memorandum 14</title>
+            </titleStmt>
+            <xi:include href="../../../frus1969-76v41_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1969-76v41_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1969-76v41/d129"
+                    type="canonical"/>
+                <relatedItem target="d128.xml" type="prev"/>
+                <relatedItem target="d130.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1969-76v41</bibl>
+                <bibl type="frus-division-id">d129</bibl>
+                <bibl type="frus-division-n">129</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="475" to="475" unit="page"
+                        >475</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1969-05-29">May 29, 1969</date>
+                    <date notAfter="1969-05-29T23:59:59-05:00" notBefore="1969-05-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1969-76v41/persons">
+                    <term ref="frus:frus1969-76v41/persons#p_KHA_1">Kissinger, Henry A.</term>
+                </keywords>
+                <keywords scheme="frus:frus1969-76v41/terms">
+                    <term ref="frus:frus1969-76v41/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1969-76v41/terms#t_NSDM_1">NSDM</term>
+                    <term ref="frus:frus1969-76v41/terms#t_NSSM_1">NSSM</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d129">
+
+                <pb facs="0514" n="475" xml:id="pg475"/>
+
+                <head>129. National Security Decision Memorandum 14<anchor n="1" xml:id="d129-f1"/>
+                </head>
+                <opener><dateline rendition="#float-right">
+                        <placeName>Washington</placeName>, <date calendar="gregorian"
+                            when="1969-05-29">May 29, 1969</date>.</dateline></opener>
+                <list type="description">
+                    <label>TO</label>
+                    <item>The Secretary of State</item>
+                </list>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Policy Toward Post-De Gaulle France</item>
+                </list>
+                <p>The President has reviewed the recommendations in the study requested by NSSM
+                        55,<anchor n="2" xml:id="d129-f2"/> as reported by the Review Group,<anchor
+                        n="3" xml:id="d129-f3"/> and has approved them as policy guidelines for the
+                    next several weeks.</p>
+                <p>Please take the necessary steps to ensure that all concerned, in Washington as
+                    well as in the field, act in conformity with these guidelines.</p>
+                <closer>
+                    <signed corresp="#p_KHA_1"> Henry A. Kissinger </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d129-f1" n="1" type="source" xml:id="d129-f1-content">
+                <p>Source: National Archives, Nixon Presidential Materials, NSC Files, NSC
+                    Institutional Files (H-Files), Box H–210, National Security Decision Memoranda,
+                    NSDM 14. Secret. Copies were sent to the Secretaries of Defense and Treasury,
+                    the Chairman of the Joint Chiefs of Staff, and the Director of Central
+                    Intelligence.</p>
+            </note>
+            <note corresp="#d129-f2" n="2" xml:id="d129-f2-content">
+                <p>
+                    <ref target="#d126">Documents 126</ref> and <ref target="#d129">129</ref>.</p>
+            </note>
+            <note corresp="#d129-f3" n="3" xml:id="d129-f3-content">
+                <p>See <ref target="#d128">Document 128</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

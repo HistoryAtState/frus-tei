@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1892_d163" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Lincoln to Mr. Blaine.</title>
+            </titleStmt>
+            <xi:include href="../../frus1892_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1892_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1892/d163"
+                    type="canonical"/>
+                <relatedItem target="../comp9.xml" type="prev"/>
+                <relatedItem target="d163-a1.xml" type="next"/>
+                <relatedItem target="../comp9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1892</bibl>
+                <bibl type="frus-division-id">d163</bibl>
+                <bibl type="frus-division-n">163</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="220" to="220" unit="page"
+                        >220</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United
+                            States</hi>,<lb/><hi rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1891-06-17"><hi rendition="#italic">June 17,
+                            1891</hi></date>
+                    <date notAfter="1891-06-17T23:59:59-05:00" notBefore="1891-06-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d163">
+
+                <pb facs="0308" n="220" sameAs="frus:frus1892/pg220"/>
+
+                <head><hi rendition="#italic">Mr. Lincoln to Mr. Blaine.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Legation of the United States</hi>,<lb/><hi rendition="#italic"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1891-06-17"><hi rendition="#italic">June 17, 1891</hi></date>.
+                        (Received June 25.)</dateline>
+                    <seg rendition="#float-left">No. 475.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>; Referring to your circular instruction of
+                    May 8th inclosing copies of our new copyright act for communication to Her
+                    Majesty’s Government, I have the honor to inclose herewith for your information
+                    copies of my note transmitting the documents in question to the foreign office,
+                    and of the reply thereto, which I have just received from the Marquis of
+                    Salisbury.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Robert T.
+                    Lincoln.</hi></signed></closer>
+
+
+
+                <xi:include href="d163-a1.xml" xpointer="d163-a1"/>
+                <xi:include href="d163-a2.xml" xpointer="d163-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

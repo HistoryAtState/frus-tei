@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_comp14" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Germany:</title>
+            </titleStmt>
+            <xi:include href="../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/comp14"
+                    type="canonical"/>
+                <relatedItem target="comp13/ch28/d919.xml" type="prev"/>
+                <relatedItem target="comp14/ch29.xml" type="next"/>
+                <relatedItem target="../frus1917.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">comp14</bibl>
+                <bibl type="frus-division-n">14</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="748" to="748" unit="page"
+                        >748</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1917-04-06T23:59:59-05:00" notBefore="1917-02-03T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp14">
+
+                <pb facs="0914" n="748" xml:id="pg748"/>
+
+                <head>Germany:</head>
+
+                <xi:include href="comp14/ch29.xml" xpointer="ch29"/>
+            </div>
+        </body>
+    </text>
+</TEI>

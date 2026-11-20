@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1977-80v06_errata" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Errata</title>
+            </titleStmt>
+            <xi:include href="../frus1977-80v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1977-80v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1977-80v06/errata"
+                    type="canonical"/>
+                <relatedItem target="index.xml" type="prev"/>
+                <relatedItem type="next"/>
+                <relatedItem target="../frus1977-80v06.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1977-80v06</bibl>
+                <bibl type="frus-division-id">errata</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">errata</bibl>
+                <bibl type="frus-print-pages"><biblScope from="974" to="974" unit="page"
+                        >974</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1981-01-05T10:04:00-05:00" notBefore="1977-01-26T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="errata">
+
+                <pb facs="1009" n="[974]" xml:id="pg974"/>
+
+                <head>Errata</head>
+                <p>The following change has been made to <hi rendition="#italic">Foreign
+                        Relations</hi>, 1977–1980, Volume VI, Soviet Union. Please be aware that
+                    printed volumes have not been revised. <!--Revised information is in italic.-->
+                </p>
+                <list type="simple">
+                    <item>
+                        <hi rendition="#bold">1. <ref target="#d278">Document 278</ref>, footnote 5,
+                            Page 820 (date of correction: November 8, 2017)</hi>
+                    </item>
+                    <item>The citation to “<hi rendition="#italic">Foreign Relations</hi>,
+                        1977–1980, Volume XI, Iran: Hostage Crisis” has been changed to “<hi
+                            rendition="#italic">Foreign Relations</hi>, Volume XI, <ref
+                            target="frus:frus1977-80v11p1">Part 1</ref> and <ref
+                            target="frus:frus1977-80v11p2">Part 2</ref>, Iran: Hostage
+                        Crisis.”</item>
+                </list>
+            </div>
+        </body>
+    </text>
+</TEI>

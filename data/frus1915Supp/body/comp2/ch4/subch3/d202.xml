@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp_d202" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in France (Sharp) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915Supp/d202"
+                    type="canonical"/>
+                <relatedItem target="d201.xml" type="prev"/>
+                <relatedItem target="d202-a1.xml" type="next"/>
+                <relatedItem target="../subch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915Supp</bibl>
+                <bibl type="frus-division-id">d202</bibl>
+                <bibl type="frus-division-n">202</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="149" to="151" unit="page"
+                        >149–51</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Paris</hi></placeName>
+                    <date calendar="gregorian" when="1915-03-18">
+                        <hi rendition="#italic">March 18, 1915</hi>.</date>
+                    <date notAfter="1915-03-18T23:59:59-05:00" notBefore="1915-03-18T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1915Supp/persons">
+                    <term ref="frus:frus1915Supp/persons#p_SWG1">Sharp, William Graves</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d202">
+
+                <pb facs="0407" n="149" sameAs="frus:frus1915Supp/pg149"/>
+
+                <note rend="inline" type="source">File No. 763.72112/964</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in France</hi> (<hi rendition="#italic"
+                        >Sharp</hi>) <hi rendition="#italic">to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 334]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Paris</hi></placeName>, <date
+                            calendar="gregorian" when="1915-03-18">
+                            <hi rendition="#italic">March 18, 1915</hi>.</date>
+                        <lb/> [<hi rendition="#italic">Received March 30.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir</hi>: In regard to my telegram No. 622 of the
+                    16th instant<anchor n="1" xml:id="d202-f1"/> I have the honor to enclose
+                    herewith in copy and translation the decree of March 13 to which the
+                    above-mentioned telegram referred.</p>
+                <p>In this decree the application of the declaration of March 1 concerning the
+                    treatment to be accorded to shipping bound to or from German ports is set forth.
+                    I understand that a copy of the declaration <pb facs="0408" n="150"
+                        xml:id="pg150"/> was submitted to the Department of State by the French
+                    Ambassador in Washington on March 1.<anchor n="1" xml:id="d202-f2"/>
+                </p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">W. G. Sharp</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d202-a1.xml" xpointer="d202-a1"/>
+                <xi:include href="d202-a2.xml" xpointer="d202-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d202-f1" n="1" xml:id="d202-f1-content">
+                <p>Not printed.</p>
+            </note>
+            <note corresp="#d202-f2" n="1" xml:id="d202-f2-content">
+                <p>See footnote, <hi rendition="#italic">ante</hi>, <ref target="#pg127">p.
+                        127</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

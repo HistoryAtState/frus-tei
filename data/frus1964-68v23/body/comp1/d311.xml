@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v23_d311" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum for the Files</title>
+            </titleStmt>
+            <xi:include href="../../frus1964-68v23_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1964-68v23_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1964-68v23/d311"
+                    type="canonical"/>
+                <relatedItem target="d310.xml" type="prev"/>
+                <relatedItem target="d312.xml" type="next"/>
+                <relatedItem target="../comp1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1964-68v23</bibl>
+                <bibl type="frus-division-id">d311</bibl>
+                <bibl type="frus-division-n">311</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="451" to="452" unit="page"
+                        >451–52</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1964-11-05">November 5, 1964</date>
+                    <date notAfter="1964-11-05T23:59:59-05:00" notBefore="1964-11-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1964-68v23/persons">
+                    <term ref="frus:frus1964-68v23/persons#p_HWA_1">Harriman, W. Averell</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d311">
+
+                <pb facs="0484" n="451" sameAs="frus:frus1964-68v23/pg451"/>
+
+                <head>311. Memorandum for the Files<anchor n="1" xml:id="d311-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1964-11-05">November 5,
+                        1964</date>.</dateline></opener>
+                <p>It is becoming increasingly clear that our incautious broadcasting of our concern
+                    about the fate of the Americans in Stanleyville has increased the rebel
+                    appreciation of the value of the hostages, thereby increasing the danger to
+                    them. The country team’s judgment in these matters and that of our Embassy in
+                    Belgium have so far been consistently sound, and it is clear that we should have
+                    paid more attention to their views. I have on several occasions registered this
+                    opinion, including <pb facs="0485" n="452" xml:id="pg452"/> my objection to the
+                    stand-down of the aircraft in the Congo for seven days.</p>
+                <closer>
+                    <signed>W.A.H.</signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d311-f1" n="1" type="source" xml:id="d311-f1-content">
+                <p>Source: Library of Congress, Manuscript Division, Harriman Papers, Box 448, Congo
+                    (3). Confidential. Drafted by Harriman.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

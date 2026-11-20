@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1964-68v13" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1964-68v13_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1964-68v13_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1964-68v13_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1964-68v13"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1964-68v13" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v13/covers/frus1964-68v13.jpg"/>
+                        <extent>
+                            <measure quantity="32335" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:53:51.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v13" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v13/ebook/frus1964-68v13.epub"/>
+                        <extent>
+                            <measure quantity="1186131" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:53:51.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1964-68v13" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1964-68v13/ebook/frus1964-68v13.mobi"/>
+                        <extent>
+                            <measure quantity="1759064" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T16:53:51.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1995 as printed book</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">johnson</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>austria</term>
+                    <term>belgium</term>
+                    <term>nuclear-weapons</term>
+                    <term>canada</term>
+                    <term>china</term>
+                    <term>cuba</term>
+                    <term>cyprus</term>
+                    <term>european-economic-community</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>greece</term>
+                    <term>italy</term>
+                    <term>johnson-lyndon-b</term>
+                    <term>luxembourg</term>
+                    <term>netherlands</term>
+                    <term>norway</term>
+                    <term>north-atlantic-treaty-organization</term>
+                    <term>portugal</term>
+                    <term>romania</term>
+                    <term>rusk-david-dean</term>
+                    <term>sweden</term>
+                    <term>switzerland</term>
+                    <term>turkey</term>
+                    <term>united-kingdom</term>
+                    <term>vietnam</term>
+                    <term>arms-control-and-disarmament</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1964-68v13" status="published" when="1995"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1964–1968</titlePart>
+                    <titlePart type="volumenumber">Volume XIII</titlePart>
+                    <titlePart type="volume">Western Europe Region</titlePart>
+                </docTitle>
+                <docImprint>Department of State<lb/>Washington</docImprint>
+                <byline>Editor: Charles S. Sampson </byline>
+                <byline>General Editor: Glenn W. LaFantasie </byline>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <pubPlace>Washington</pubPlace>
+                    <docDate>1995</docDate>
+                    <pb facs="0002" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION 10261 <lb/>
+                    <hi rendition="#small-caps">Office Of The Historian</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau Of Public Affairs</hi>
+                    <lb/> For sale by the U.S. Government Printing Office<lb/>Superintendent of
+                    Documents<lb/>Mail Stop: SSOP<lb/>Washington, DC 20402-9328<lb/>ISBN
+                    0-16-045063-2</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <pb facs="0008" n="[VIII]" xml:id="pgVIII"/>
+            <xi:include href="front/editorial.xml" xpointer="editorial"/>
+            <xi:include href="front/sources.xml" xpointer="sources"/>
+            <pb facs="0018" n="[XVIII]" xml:id="pgXVIII"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+            <xi:include href="front/persons.xml" xpointer="persons"/>
+            <xi:include href="front/introduction.xml" xpointer="introduction"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <pb facs="0828" n="[798]" xml:id="pg798"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+            <pb facs="0847" n="[817]" xml:id="pg817"/>
+            <pb facs="0848" n="[818]" xml:id="pg818"/>
+        </back>
+    </text>
+</TEI>

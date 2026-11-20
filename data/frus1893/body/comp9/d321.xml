@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1893_d321" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Bayard to Mr. Gresham.</title>
+            </titleStmt>
+            <xi:include href="../../frus1893_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1893_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1893/d321"
+                    type="canonical"/>
+                <relatedItem target="d320.xml" type="prev"/>
+                <relatedItem target="d321-a1.xml" type="next"/>
+                <relatedItem target="../comp9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1893</bibl>
+                <bibl type="frus-division-id">d321</bibl>
+                <bibl type="frus-division-n">321</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="326" to="327" unit="page"
+                        >326–27</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Embassy of the United
+                            States</hi>,<lb/><hi rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1893-08-22"><hi rendition="#italic">August 22,
+                            1893</hi></date>
+                    <date notAfter="1893-08-22T23:59:59-05:00" notBefore="1893-08-22T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d321">
+
+                <pb facs="0434" n="326" sameAs="frus:frus1893/pg326"/>
+
+                <head><hi rendition="#italic">Mr. Bayard to Mr. Gresham.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Embassy of the United States</hi>,<lb/><hi rendition="#italic"
+                                >London</hi></placeName>, <date calendar="gregorian"
+                            when="1893-08-22"><hi rendition="#italic">August 22, 1893</hi></date>.
+                        (Received September 2.)</dateline>
+                    <seg rendition="#float-left">No. 49.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to your instruction, numbered 93,
+                    of 1st instant, I have the honor to inclose herewith copies of notes exchanged
+                    between <pb facs="0435" n="327" xml:id="pg327"/> the foreign office and myself,
+                    relative to the protection of citizens of the United States in Bulgaria.</p>
+                <p>You will observe that instructions will at once be sent to Mr. Dering, Her
+                    Majesty’s agent and consul-general at Sofia, to continue to our citizens in
+                    Bulgaria the same protection that was afforded by his predecessor, Mr.
+                    O’Conor.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">T. F. Bayard.</hi></signed></closer>
+
+
+
+                <xi:include href="d321-a1.xml" xpointer="d321-a1"/>
+                <xi:include href="d321-a2.xml" xpointer="d321-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

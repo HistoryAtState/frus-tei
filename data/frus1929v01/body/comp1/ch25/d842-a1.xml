@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1929v01_d842-a1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum</title>
+            </titleStmt>
+            <xi:include href="../../../frus1929v01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1929v01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1929v01/d842-a1"
+                    type="canonical"/>
+                <relatedItem target="d842.xml" type="prev"/>
+                <relatedItem target="d843.xml" type="next"/>
+                <relatedItem target="d842.xml" type="parent"/>
+                <relatedItem target="d842.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1929v01</bibl>
+                <bibl type="frus-division-id">d842-a1</bibl>
+                <bibl type="frus-division-n">842.1</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1002" to="1002" unit="page"
+                        >1002</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d842-a1">
+
+                <pb facs="1138" n="1002" sameAs="frus:frus1929v01/pg1002"/>
+
+                <opener><seg rendition="#center">[Enclosure]</seg></opener>
+                <head><hi rendition="#small-caps">Memorandum</hi></head>
+                <list>
+                    <label>1.</label>
+                    <item>A list of sections of the Bill deemed contrary to the treaties: Paragraphs
+                        369, 371, 812, 1402, 1640, 1649, 1686, Section 303.</item>
+                    <label>2.</label>
+                    <item>A quotation from the German Treaty showing what the United States has
+                        promised to Germany in this regard and a list of similarly situated
+                        treaties. </item>
+                </list>
+                <quote rend="blockquote">
+                    <p>“Art. VII … Each of the High Contracting Parties binds itself unconditionally
+                        to impose no higher or other duties or conditions and no prohibition on the
+                        importation of any article, the growth, produce or manufacture, of the
+                        territories of the other than are or shall be imposed on the importation of
+                        any like article, the growth, produce or manufacture of any other foreign
+                        country.</p>
+                    <p rendition="#center">. . . . . . . . . . . . . .</p>
+                    <p>“Any advantage of whatsoever kind which either High Contracting Party may
+                        extend to any article, the growth, produce, or manufacture of any other
+                        foreign country shall simultaneously and unconditionally, without request
+                        and without compensation, be extended to the like article the growth,
+                        produce, or manufacture of the other High Contracting Party.”</p>
+                </quote>
+                <p>Countries with whom the United States has similar treaties of Friendship,
+                    Commerce and Consular Rights: <list>
+                        <item>Hungary<anchor n="40" xml:id="d842-f1"/></item>
+                        <item>Honduras<anchor n="41" xml:id="d842-f2"/></item>
+                        <item>Latvia<anchor n="42" xml:id="d842-f3"/></item>
+                        <item>Estonia<anchor n="43" xml:id="d842-f4"/></item>
+                    </list>
+                </p>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d842-f1" n="40" xml:id="d842-f1-content">
+                <p><ref target="frus1925v02#pg_341"><hi rendition="#italic">Foreign Relations</hi>,
+                        1925, vol. <hi rendition="#small-caps">ii</hi>, p. 341</ref>.</p>
+            </note>
+            <note corresp="#d842-f2" n="41" xml:id="d842-f2-content">
+                <p><ref target="frus1927v03#pg_101"><hi rendition="#italic">Ibid.</hi>, 1927, vol.
+                            <hi rendition="#small-caps">iii</hi>, p. 101</ref>.</p>
+            </note>
+            <note corresp="#d842-f3" n="42" xml:id="d842-f3-content">
+                <p><ref target="frus1928v03#pg_208"><hi rendition="#italic">Ibid.</hi>, 1928, vol.
+                            <hi rendition="#small-caps">iii</hi>, p. 208</ref>.</p>
+            </note>
+            <note corresp="#d842-f4" n="43" xml:id="d842-f4-content">
+                <p><ref target="frus1925v02#pg_70"><hi rendition="#italic">Ibid.</hi>, 1925, vol.
+                            <hi rendition="#small-caps">ii</hi>, p. 70</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

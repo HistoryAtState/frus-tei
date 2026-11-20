@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv01_d28" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Secretary of State to Dr. S. E. Mezes </title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv01_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv01/d28"
+                    type="canonical"/>
+                <relatedItem target="d27.xml" type="prev"/>
+                <relatedItem target="d28-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv01</bibl>
+                <bibl type="frus-division-id">d28</bibl>
+                <bibl type="frus-division-n">28</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="22" to="25" unit="page"
+                        >22–25</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi>
+                    </placeName>
+                    <date calendar="gregorian" when="1917-11-21">November 21, 1917</date>
+                    <date notAfter="1917-11-21T23:59:59-05:00" notBefore="1917-11-21T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1919Parisv01/persons">
+                    <term ref="frus:frus1919Parisv01/persons#p_LR1">Lansing, Robert</term>
+                    <term ref="frus:frus1919Parisv01/persons#p_MSE1">Mezes, Dr. S. E.</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d28">
+
+                <pb facs="0092" n="22" sameAs="frus:frus1919Parisv01/pg22"/>
+
+                <note rend="inline" type="source">Paris Peace Conf. 182/6</note>
+                <head>
+                    <hi rendition="#italic">The Secretary of State to Dr. S. E. Mezes </hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi>
+                        </placeName>, <date calendar="gregorian" when="1917-11-21">November 21,
+                            1917</date>.</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">My Dear Doctor Mezes</hi>: In compliance with your
+                    request of November 19th I am sending you the proposed agreement between this
+                    Government and other American Republics which was under consideration about a
+                    year-and-a-half ago. You will observe it is in the form of what might be called
+                    a “Pan American Treaty”.<anchor n="6" xml:id="d28-f1"/>
+                </p>
+                <p>I assume you understand that this is of a most confidential nature and for the
+                    present I prefer you not to show it to anyone else and certainly not without
+                    having discussed the matter with me.</p>
+                <p>Very sincerely yours,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Robert Lansing</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d28-a1.xml" xpointer="d28-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d28-f1" n="6" xml:id="d28-f1-content">
+                <p>For papers previously printed on this subject, see <ref
+                        target="frus1914-20v02#pg_471">
+                        <hi rendition="#italic">Foreign Relations: The Lansing Papers</hi>,
+                        1914–1920, vol. <hi rendition="#small-caps">ii</hi>, pp. 471</ref> ff.; also
+                        <ref target="frus1916#pg_3">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1916, pp. 3</ref>–<ref
+                        target="frus1916#pg_4">4</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1918Russiav02_d365" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The British Ambassador (Reading) to the Secretary of State</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1918Russiav02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1918Russiav02/d365"
+                    type="canonical"/>
+                <relatedItem target="d364.xml" type="prev"/>
+                <relatedItem target="d365-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1918Russiav02</bibl>
+                <bibl type="frus-division-id">d365</bibl>
+                <bibl type="frus-division-n">365</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="305" to="306" unit="page"
+                        >305–6</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1918-07-27T23:59:59-05:00" notBefore="1918-07-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1918Russiav02/persons">
+                    <term ref="frus:frus1918Russiav02/persons#p_RERDI1">Reading, Earl of (Rufus
+                        Daniel Isaacs)</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d365">
+
+                <pb facs="0395" n="305" sameAs="frus:frus1918Russiav02/pg305"/>
+
+                <note rend="inline" type="source">File No. 861.00/7412</note>
+                <head><hi rendition="#italic">The British Ambassador</hi> (<hi rendition="#italic"
+                        >Reading</hi>) <hi rendition="#italic">to the Secretary of State</hi></head>
+                <dateline>
+                    <date ana="#date_undated-inferred-from-document-content" calendar="gregorian"
+                        when="1918-07-27">[July 27, 1918]</date>
+                </dateline>
+                <p>[Copies of the following paraphrase of a telegram and of the draft proclamation
+                    were handed by the Ambassador to the Acting Secretary of State on July 27,
+                    1918:]</p>
+
+
+                <xi:include href="d365-a1.xml" xpointer="d365-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

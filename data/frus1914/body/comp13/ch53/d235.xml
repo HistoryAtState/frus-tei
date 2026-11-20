@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1914_d235" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1914_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1914/d235"
+                    type="canonical"/>
+                <relatedItem target="d234.xml" type="prev"/>
+                <relatedItem target="d236.xml" type="next"/>
+                <relatedItem target="../ch53.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1914</bibl>
+                <bibl type="frus-division-id">d235</bibl>
+                <bibl type="frus-division-n">235</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="202" to="202" unit="page"
+                        >202</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                        <hi rendition="#italic">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1914-01-29T23:00:00-05:00">
+                        <hi rendition="#italic">January 29, 1914, 11 p.m.</hi>
+                    </date>
+                    <date notAfter="1914-01-29T23:00:00-05:00" notBefore="1914-01-29T23:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d235">
+
+                <pb facs="0318" n="202" sameAs="frus:frus1914/pg202"/>
+
+                <note rend="inline" type="source">File No. 839.51/1213c.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Department of State</hi>, <lb/>
+                            <hi rendition="#italic">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1914-01-29T23:00:00-05:00">
+                            <hi rendition="#italic">January 29, 1914, 11 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>You may inform Minister for Foreign Affairs that Department has consulted
+                    President and will send commercial attaché on receipt of written request
+                    expressed as required in Department’s telegram of January 27, 8 p.m. Your
+                    January 28, 2 p.m., just received, will consider relief measures tomorrow.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Bryan</hi></signed>.</closer>
+            </div>
+        </body>
+    </text>
+</TEI>

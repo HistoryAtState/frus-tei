@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p2v3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1873p2v3_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1873p2v3_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1873p2v3_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1873p2v3"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1873p2v3" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1873p2v3/covers/frus1873p2v3.jpg"/>
+                        <extent>
+                            <measure quantity="44892" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:31:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1873p2v3" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1873p2v3/ebook/frus1873p2v3.epub"/>
+                        <extent>
+                            <measure quantity="1169608" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:31:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1873p2v3" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1873p2v3/ebook/frus1873p2v3.mobi"/>
+                        <extent>
+                            <measure quantity="1329075" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:31:54.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1874 as printed book and adapted to TEI-XML based on scans provided
+                    by UWDCC</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">lincoln</term>
+                    <term xml:id="admin3">johnson-a</term>
+                    <term xml:id="admin4">grant</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>canada</term>
+                    <term>fish-hamilton</term>
+                    <term>grant-ulysses-s</term>
+                    <term>united-kingdom</term>
+                    <term>war-of-1812</term>
+                    <term>martinique</term>
+                    <term>the-bahamas</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1873p2v3" status="published" when="1874"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0055" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <docTitle>
+                    <titlePart type="series">PAPERS RELATING TO THE FOREIGN RELATIONS OF THE UNITED
+                        STATES,</titlePart>
+                    <titlePart type="subseries">TRANSMITTED TO CONGRESS,<lb/>WITH THE ANNUAL MESSAGE
+                        OF THE PRESIDENT,<lb/>DECEMBER 1, 1873.</titlePart>
+                    <titlePart type="volumeno">PRECEDED BY A<lb/>LIST OF PAPERS, AND A LIST OF
+                        PERSONS WHOSE CORRESPONDENCE IS CONTAINED IN THIS VOLUME, AND FOLLOWED BY AN
+                        INDEX OF PERSONS AND SUBJECTS.<lb/>PART II.<lb/>PAPERS RELATING TO THE
+                        AMERICAN AND BRITISH JOINT CLAIMS COMMISSION.<lb/>VOLUME III.</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <pubPlace>WASHINGTON:</pubPlace>
+                    <lb/>
+                    <publisher>GOVERNMENT PRINTING OFFICE.</publisher>
+                    <lb/>
+                    <docDate>1874.</docDate>
+                </docImprint>
+            </titlePage>
+            <pb facs="0056" n="[II]" xml:id="pgII"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+            <xi:include href="back/appendix.xml" xpointer="appendix"/>
+        </back>
+    </text>
+</TEI>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_d71" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/d71"
+                    type="canonical"/>
+                <relatedItem target="d70.xml" type="prev"/>
+                <relatedItem target="d72.xml" type="next"/>
+                <relatedItem target="../ch11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">d71</bibl>
+                <bibl type="frus-division-n">71</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="66" to="66" unit="page"
+                        >66</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                        <hi rendition="#italic">Peking</hi></placeName>
+                    <date calendar="gregorian" when="1912-02-16">
+                        <hi rendition="#italic">February 16, 1912</hi></date>
+                    <date notAfter="1912-02-16T23:59:59-05:00" notBefore="1912-02-16T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d71">
+
+                <pb facs="0182" n="66" sameAs="frus:frus1912/pg66"/>
+
+                <note rend="inline" type="source">File No. 893.00/1073.</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <seg rendition="#center">[Telegram.]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Legation</hi>, <lb/>
+                            <hi rendition="#italic">Peking</hi></placeName>, <date
+                            calendar="gregorian" when="1912-02-16">
+                            <hi rendition="#italic">February 16, 1912</hi></date>.</dateline>
+                </opener>
+                <p>Yuan Shih-Kai unanimously elected President yesterday by the Nanking assembly.
+                    To-day the Imperial family and the former Ministers of State all urged him not
+                    to decline the office. The provisional capital is fixed at Nanking. Sun
+                    telegraphs Yuan that an envoy has been sent to invite him to come to
+                    Nanking.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Calhoun.</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

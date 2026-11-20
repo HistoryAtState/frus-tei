@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v07p1_comp2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>North Atlantic Treaty Organization</title>
+            </titleStmt>
+            <xi:include href="../frus1958-60v07p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1958-60v07p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v07p1/comp2"
+                    type="canonical"/>
+                <relatedItem target="comp1/ch1/d130.xml" type="prev"/>
+                <relatedItem target="comp2/ch2.xml" type="next"/>
+                <relatedItem target="../frus1958-60v07p1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v07p1</bibl>
+                <bibl type="frus-division-id">comp2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="314" to="683" unit="page"
+                        >314–683</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1960-12-17T23:59:59-05:00" notBefore="1958-01-08T19:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp2">
+
+                <pb facs="0350" n="314" xml:id="pg314"/>
+
+                <head>North Atlantic Treaty Organization</head>
+
+                <xi:include href="comp2/ch2.xml" xpointer="ch2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

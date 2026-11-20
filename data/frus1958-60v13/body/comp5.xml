@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v13_comp5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Libya</title>
+            </titleStmt>
+            <xi:include href="../frus1958-60v13_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1958-60v13_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v13/comp5"
+                    type="canonical"/>
+                <relatedItem target="comp4/ch4/d327.xml" type="prev"/>
+                <relatedItem target="comp5/ch5.xml" type="next"/>
+                <relatedItem target="../frus1958-60v13.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v13</bibl>
+                <bibl type="frus-division-id">comp5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="720" to="755" unit="page"
+                        >720–55</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1960-04-15T11:30:00-05:00" notBefore="1958-02-14T11:30:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp5">
+
+                <pb facs="0754" n="720" xml:id="pg720"/>
+
+                <head>Libya</head>
+
+                <xi:include href="comp5/ch5.xml" xpointer="ch5"/>
+            </div>
+        </body>
+    </text>
+</TEI>

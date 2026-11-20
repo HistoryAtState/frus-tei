@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1928v02" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1928v02_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1928v02_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1928v02_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1928v02"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1928v02" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1928v02/covers/frus1928v02.jpg"/>
+                        <extent>
+                            <measure quantity="27322" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:09:15.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1928v02" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1928v02/ebook/frus1928v02.epub"/>
+                        <extent>
+                            <measure quantity="1925887" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:09:15.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1928v02" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1928v02/ebook/frus1928v02.mobi"/>
+                        <extent>
+                            <measure quantity="2509834" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:09:15.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1943 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">harding</term>
+                    <term xml:id="admin3">coolidge</term>
+                    <term xml:id="admin4">hoover</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>canada</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>colombia</term>
+                    <term>cuba</term>
+                    <term>denmark</term>
+                    <term>dominican-republic</term>
+                    <term>ecuador</term>
+                    <term>egypt</term>
+                    <term>ethiopia</term>
+                    <term>finland</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>united-kingdom</term>
+                    <term>antarctica</term>
+                    <term>protection-of-americans-abroad</term>
+                    <term>diplomatic-recognition</term>
+                    <term>czech-republic</term>
+                    <term>slovakia</term>
+                    <term>american-samoa</term>
+                    <term>kellogg-frank-billings</term>
+                    <term>djibouti</term>
+                    <term>coolidge-calvin</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1928v02" status="published" when="1943"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Papers Relating to the Foreign Relations of the United
+                        States</titlePart>
+                    <titlePart type="subseries">1928</titlePart>
+                    <titlePart type="volumeno">(In Three Volumes)<lb/>Volume II</titlePart>
+                </docTitle>
+                <titlePart type="volumetitle"/>
+                <docImprint>United States Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States<lb/>Government Printing
+                        Office</publisher><lb/><pubPlace>Washington:</pubPlace>
+                    <docDate>1943</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE<lb/><hi
+                        rendition="#small-caps">Publication</hi> 1840<lb/>For sale by
+                    the<lb/>Superintendent of Documents, Washington, D. C.<lb/>Price $2.00
+                    (Buckram)</docImprint>
+            </titlePage>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+            <xi:include href="body/comp12.xml" xpointer="comp12"/>
+            <xi:include href="body/comp13.xml" xpointer="comp13"/>
+            <xi:include href="body/comp14.xml" xpointer="comp14"/>
+            <xi:include href="body/comp15.xml" xpointer="comp15"/>
+            <pb facs="1123" n="[1005]" xml:id="pg1005"/>
+            <pb facs="1124" n="[1006]" xml:id="pg1006"/>
+        </body>
+        <back>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

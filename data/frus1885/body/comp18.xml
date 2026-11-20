@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1885_comp18" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Netherlands</title>
+            </titleStmt>
+            <xi:include href="../frus1885_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1885_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1885/comp18"
+                    type="canonical"/>
+                <relatedItem target="comp17/d418.xml" type="prev"/>
+                <relatedItem target="comp18/d419.xml" type="next"/>
+                <relatedItem target="../frus1885.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1885</bibl>
+                <bibl type="frus-division-id">comp18</bibl>
+                <bibl type="frus-division-n">18</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="576" to="587" unit="page"
+                        >576–87</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1885-11-20T23:59:59-05:00" notBefore="1885-09-17T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp18">
+
+                <pb facs="0704" n="576" sameAs="frus:frus1885/pg576"/>
+
+                <head>Netherlands</head>
+
+
+
+
+
+
+
+
+                <xi:include href="comp18/d419.xml" xpointer="d419"/>
+                <xi:include href="comp18/d420.xml" xpointer="d420"/>
+                <xi:include href="comp18/d421.xml" xpointer="d421"/>
+                <xi:include href="comp18/d422.xml" xpointer="d422"/>
+                <xi:include href="comp18/d423.xml" xpointer="d423"/>
+                <xi:include href="comp18/d424.xml" xpointer="d424"/>
+                <xi:include href="comp18/d425.xml" xpointer="d425"/>
+                <xi:include href="comp18/d426.xml" xpointer="d426"/>
+            </div>
+        </body>
+    </text>
+</TEI>

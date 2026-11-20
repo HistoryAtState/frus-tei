@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1948v05p2_d380" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Vice Consul at Jerusalem (Burdett) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1948v05p2_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1948v05p2_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1948v05p2/d380"
+                    type="canonical"/>
+                <relatedItem target="d379.xml" type="prev"/>
+                <relatedItem target="d381.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1948v05p2</bibl>
+                <bibl type="frus-division-id">d380</bibl>
+                <bibl type="frus-division-n">380</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1112" to="1112" unit="page"
+                        >1112</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Jerusalem</hi></placeName>
+                    <date calendar="gregorian" when="1948-06-13">June 13, 1948</date>
+                    <date notAfter="1948-06-13T23:59:59-05:00" notBefore="1948-06-13T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1948v05p2/terms">
+                    <term ref="frus:frus1948v05p2/terms#t_niact1">niact</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d380">
+
+                <pb facs="0602" n="1112" xml:id="pg1112"/>
+
+                <note rend="inline" type="source">501.BB Palestine/6–1348: Telegram</note>
+                <head>
+                    <hi rendition="#italic">The Vice Consul at Jerusalem</hi> (<hi
+                        rendition="#italic">Burdett</hi>) <hi rendition="#italic">to the Secretary
+                        of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">us urgent</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">niact</hi>
+                    </seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Jerusalem</hi></placeName>, <date
+                            calendar="gregorian" when="1948-06-13">June 13, 1948</date>.</dateline>
+                </opener>
+                <p>908. Following message was communicated at 2100 hours local tonight to Jewish
+                    authorities in Jerusalem by Truce Commission and Count Bernadotte’s special
+                    representative in Jerusalem.</p>
+                <quote rend="blockquote">
+                    <p>“The Truce Commission and Colonel Brunsson,<anchor n="1" xml:id="d380-f1"/>
+                        special representative of Count Bernadotte, have carefully considered the
+                        question of Jewish convoys to Jerusalem, They feel such convoys must be
+                        checked at Bab el Wad in order to insure effective control. Until further
+                        notice the Jewish authorities are requested to stop all vehicles before they
+                        reach Bab el Wad. If any vehicles pass Bab el Wad before clearance by
+                        representatives of the mediator, the Truce Commission and Colonel Brunsson
+                        consider that the Jewish authorities will bear full responsibility for any
+                        resulting breach of the cease-fire agreement.”<anchor n="2" xml:id="d380-f2"
+                        />
+                    </p>
+                </quote>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Burdett</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d380-f1" n="1" xml:id="d380-f1-content">
+                <p>Nils Brunsson, Personal Representative of Count Bernadotte at Jerusalem and Chief
+                    Military Observer in that city.</p>
+            </note>
+            <note corresp="#d380-f2" n="2" xml:id="d380-f2-content">
+                <p>The Truce Commission, on June 14, sent a further communication to Dr. Bernard
+                    Joseph, the Israeli head of the Jerusalem Emergency Committee, fixing a deadline
+                    of 8 p. m. that night for accepting establishment of the checkpoint. Mr. Burdett
+                    reported that “Five minutes before deadline Joseph notified Commission he agreed
+                    on own responsibility and in absence instructions from Tel Aviv to establishment
+                    Bab El Wad check post Added he assumed no responsibility for safety observers
+                    and that in event his decision countermanded by Tel Aviv, check point would have
+                    to be evacuated.” (Telegram 918, June 14, from Jerusalem, 501.BB
+                    Palestine/6–1448)</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

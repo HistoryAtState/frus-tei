@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1945Malta_d5" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>President Roosevelt to Marshal Stalin </title>
+            </titleStmt>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1945Malta_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1945Malta/d5"
+                    type="canonical"/>
+                <relatedItem target="d4.xml" type="prev"/>
+                <relatedItem target="d6.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1945Malta</bibl>
+                <bibl type="frus-division-id">d5</bibl>
+                <bibl type="frus-division-n">5</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="4" to="5" unit="page"
+                    >4–5</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName/>
+                    <date calendar="gregorian" when="1944-07-27">27 July 1944</date>
+                    <date notAfter="1944-07-27T23:59:59-05:00" notBefore="1944-07-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1945Malta/persons">
+                    <term ref="frus:frus1945Malta/persons#p_RFD1">Roosevelt, Franklin D.</term>
+                    <term ref="frus:frus1945Malta/persons#p_S16">Stalin, Marshal of the Soviet Union
+                        Iosif Vissarionovich</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d5">
+
+                <pb facs="0086" n="4" sameAs="frus:frus1945Malta/pg4"/>
+
+                <note rend="inline" type="source">Roosevelt Papers: Telegram</note>
+                <head>
+                    <hi rendition="#italic">President Roosevelt to Marshal Stalin </hi><anchor n="1"
+                        xml:id="d5-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/>
+                        <hi rendition="#small-caps">priority</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<hi rendition="#small-caps">Pearl Harbor,
+                            Hawaii</hi>,] <lb/>
+                        <date calendar="gregorian" when="1944-07-27">27 July 1944</date>.</dateline>
+                </opener>
+                <p>Number 32. Top Secret and Personal. For Marshal Stalin from the President.</p>
+                <pb facs="0087" n="5" xml:id="pg5"/>
+                <p>I can fully understand the difficulty of your coming to a conference with the
+                    Prime Minister and me in view of the rapid military progress now being made but
+                    I hope you can keep such a conference very much in mind and that we can meet as
+                    early as possible. Such a meeting would help me domestically and we are
+                    approaching the time for further strategical decisions.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Roosevelt</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d5-f1" n="1" type="source" xml:id="d5-f1-content">
+                <p>Sent to the United States Naval Attaché, Moscow, via Navy channels.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

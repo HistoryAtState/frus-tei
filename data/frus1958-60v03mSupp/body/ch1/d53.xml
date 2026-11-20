@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d53" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum from Stroh to Robertson.</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d53"
+                    type="canonical"/>
+                <relatedItem target="d52.xml" type="prev"/>
+                <relatedItem target="d53-a1.xml" type="next"/>
+                <relatedItem target="../ch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d53</bibl>
+                <bibl type="frus-division-n">53</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1958-05-08">May 8, 1958</date>
+                    <date notAfter="1958-05-08T23:59:59-05:00" notBefore="1958-05-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_BAAA_1">Burke, Admiral Arleigh
+                        A.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_RG_1">RG</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d53">
+
+                <pb facs="0298" n="193" sameAs="frus:frus1958-60v03mSupp/pg193"/>
+
+                <head>53. Memorandum from Stroh to Robertson.<anchor n="1" xml:id="d53-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1958-05-08">May 8, 1958</date></dateline>
+                </opener>
+                <pb facs="d53-1" n="1" type="facsimile" xml:id="d53-1"/>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Basic National Security Policy</item>
+                </list>
+                <p>Encl: (1) CNO’s Views on Basic National Policy—NSC 5810</p>
+                <list>
+                    <label>1.</label>
+                    <item>Attached hereto (encl (1)) is a copy of the paper which I understand
+                        Admiral Burke spoke to you about last evening (7 May).</item>
+                    <label>2.</label>
+                    <item>Admiral Burke would very much appreciate it if you could glance over it
+                        and give him the benefit of your reaction as to the language, grammar, or
+                        any other field, but more particularly the appropriateness and verity of the
+                        thoughts expressed.</item>
+                    <label>3.</label>
+                    <item>As you know, the Joint Chiefs of Staff are to confer with the Secretary of
+                        Defense next Tuesday (13 May) on this matter, at which time each of the
+                        Chiefs and the Chairman will express their views and state why they feel NSC
+                        5810 should be altered or left alone as the case may be.</item>
+                    <label>4.</label>
+                    <item>Admiral Burke would also very much appreciate it if you could find the
+                        opportunity to ask for Mr. Murphy’s opinion in this matter even if he can
+                        spare the time only for a cursory glance.</item>
+                </list>
+                <p>Very respectfully,</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">Robert J. Stroh</hi>
+                    </signed>
+                </closer>
+
+
+
+                <xi:include href="d53-a1.xml" xpointer="d53-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d53-f1" n="1" type="source" xml:id="d53-f1-content">
+                <p>Source: Transmits views of Chief of Naval Operations on NSC 5810. Top Secret. 9
+                    pp. NARA, RG 59, Central Files, 711.5/5-858.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

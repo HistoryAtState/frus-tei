@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1943_d99" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum by the Combined Staff Planners</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1943_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1943/d99"
+                    type="canonical"/>
+                <relatedItem target="d98-a2.xml" type="prev"/>
+                <relatedItem target="d99-a1.xml" type="next"/>
+                <relatedItem target="../ch3subch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1943</bibl>
+                <bibl type="frus-division-id">d99</bibl>
+                <bibl type="frus-division-n">99</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="284" to="287" unit="page"
+                        >284–87</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1943-05-25">25 May 1943</date>
+                    <date notAfter="1943-05-25T23:59:59-05:00" notBefore="1943-05-25T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1943/terms">
+                    <term ref="frus:frus1943/terms#t_CCS1">CCS</term>
+                    <term ref="frus:frus1943/terms#t_Husky1">Husky</term>
+                    <term ref="frus:frus1943/terms#t_JCS1">JCS</term>
+                    <term ref="frus:frus1943/terms#t_Roundhammer1">Roundhammer</term>
+                    <term ref="frus:frus1943/terms#t_Trident1">Trident</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d99">
+
+                <pb facs="0386" n="284" sameAs="frus:frus1943/pg284"/>
+
+                <note rend="inline" type="source"> J.C.S. Files</note>
+                <head>
+                    <hi rendition="#italic">Memorandum by the Combined Staff Planners</hi><anchor
+                        n="1" xml:id="d99-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">secret</hi>
+                    </seg>
+                    <dateline rendition="#float-right">[<placeName><hi rendition="#small-caps"
+                                >Washington</hi></placeName>,] <date calendar="gregorian"
+                            when="1943-05-25">25 May 1943</date>.</dateline>
+                </opener>
+                <p rendition="#flush">Attachment to C.C.S. 250/1</p>
+                <p rendition="#center">
+                    <hi rendition="#small-caps">Implementation of Decisions Reached at the Trident
+                        Conference</hi>
+                </p>
+                <list>
+                    <label>1.</label>
+                    <item>In order that there may be no delay in action to implement the decisions
+                        arrived at the <hi rendition="#small-caps">Trident</hi> Conference, the
+                        Combined Staff Planners recommend as follows: <list>
+                            <label>
+                                <hi rendition="#italic">a</hi>.</label>
+                            <item>That a directive be issued to General Eisenhower for operations
+                                after <hi rendition="#small-caps">Husky</hi> (Enclosure A).</item>
+                            <label>
+                                <hi rendition="#italic">b</hi>.</label>
+                            <item>That a supplementary directive be issued to General Morgan
+                                (Enclosure B).</item>
+                            <label>
+                                <hi rendition="#italic">c</hi>.</label>
+                            <item>That General Morgan should be instructed to give, as soon as
+                                possible, a preliminary estimate of the requirements for operation
+                                    <hi rendition="#small-caps">Roundhammer</hi> in transport
+                                aircraft and gliders.</item>
+                        </list>
+                    </item>
+                    <label>2.</label>
+                    <item>In view of the urgency of completing the <hi rendition="#small-caps"
+                            >Roundhammer</hi> plan, we suggest that further consideration should be
+                        given to the early appointment of the Supreme Commander.</item>
+                </list>
+
+
+
+                <xi:include href="d99-a1.xml" xpointer="d99-a1"/>
+                <xi:include href="d99-a2.xml" xpointer="d99-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d99-f1" n="1" type="source" xml:id="d99-f1-content">
+                <p>Circulated under cover of the following note by the Secretaries of the Combined
+                    Chiefs of Staff: “The attached memorandum by the Combined Staff Planners is in
+                    the form as amended and approved by the Combined Chiefs of Staff in their 96th
+                    Meeting.” For the record of the meeting of the Combined Chiefs of Staff under
+                    reference, held on May 25, 1943, see <hi rendition="#italic">ante</hi>, <ref
+                        target="#pg200">p. 200</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

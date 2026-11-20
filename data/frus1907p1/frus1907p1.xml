@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1907p1" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1907p1_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1907p1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1907p1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1907p1"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1907p1" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1907p1/covers/frus1907p1.jpg"/>
+                        <extent>
+                            <measure quantity="39973" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:47:31.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1907p1" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1907p1/ebook/frus1907p1.epub"/>
+                        <extent>
+                            <measure quantity="1224917" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:47:31.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1907p1" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1907p1/ebook/frus1907p1.mobi"/>
+                        <extent>
+                            <measure quantity="1623053" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T14:47:31.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1910 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">pre-truman</term>
+                    <term xml:id="admin2">roosevelt-t</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>argentina</term>
+                    <term>austria</term>
+                    <term>hungary</term>
+                    <term>belgium</term>
+                    <term>bolivia</term>
+                    <term>brazil</term>
+                    <term>bulgaria</term>
+                    <term>chile</term>
+                    <term>china</term>
+                    <term>colombia</term>
+                    <term>cuba</term>
+                    <term>denmark</term>
+                    <term>dominican-republic</term>
+                    <term>ecuador</term>
+                    <term>france</term>
+                    <term>germany</term>
+                    <term>united-kingdom</term>
+                    <term>greece</term>
+                    <term>roosevelt-theodore</term>
+                    <term>trade-and-commercial-policy-agreements</term>
+                    <term>root-elihu</term>
+                    <term>spanish-american-war</term>
+                    <term>grenada</term>
+                    <term>barbados</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1907p1" status="published" when="1910"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0001" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Papers Relating to the Foreign Relations of the United
+                        States</titlePart>
+                    <titlePart type="subseries">With the Annual Message of the President Transmitted
+                        to Congress December 3, 1907</titlePart>
+                    <titlePart type="volumeno">In two parts<lb/>Part 1</titlePart>
+                </docTitle>
+                <byline/>
+                <docImprint>
+                    <pubPlace>Washington</pubPlace><lb/><publisher>Government Printing
+                        Office</publisher><lb/><docDate>1910</docDate>
+                </docImprint>
+            </titlePage>
+            <pb facs="0002" n="[II]" xml:id="pgII"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/message-of-the-president.xml"
+                xpointer="message-of-the-president"/>
+            <pb facs="0070" n="[LXX]" xml:id="pgLXX"/>
+            <xi:include href="front/papers.xml" xpointer="papers"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+            <xi:include href="body/comp12.xml" xpointer="comp12"/>
+            <xi:include href="body/comp13.xml" xpointer="comp13"/>
+            <xi:include href="body/comp14.xml" xpointer="comp14"/>
+            <xi:include href="body/comp15.xml" xpointer="comp15"/>
+            <xi:include href="body/comp16.xml" xpointer="comp16"/>
+            <xi:include href="body/comp17.xml" xpointer="comp17"/>
+            <xi:include href="body/comp18.xml" xpointer="comp18"/>
+            <pb facs="0700" n="[588]" xml:id="pg588"/>
+        </body>
+    </text>
+</TEI>

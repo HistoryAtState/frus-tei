@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1919Parisv08_d25-a4" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note</title>
+            </titleStmt>
+            <xi:include href="../../../frus1919Parisv08_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1919Parisv08_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1919Parisv08/d25-a4"
+                    type="canonical"/>
+                <relatedItem target="d25-a3.xml" type="prev"/>
+                <relatedItem target="d25-a5.xml" type="next"/>
+                <relatedItem target="d25.xml" type="parent"/>
+                <relatedItem target="d25.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1919Parisv08</bibl>
+                <bibl type="frus-division-id">d25-a4</bibl>
+                <bibl type="frus-division-n">25.4</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="523" to="523" unit="page"
+                        >523</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Spa</hi></placeName>
+                    <date calendar="gregorian" when="1919-03-18">March 18, 1919</date>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d25-a4">
+
+                <pb facs="0533" n="523" sameAs="frus:frus1919Parisv08/pg523"/>
+
+                <opener><seg rendition="#center">[Subenclosure—Translation<anchor n="15"
+                            xml:id="d25-f1"/>]</seg></opener>
+                <head><hi rendition="#italic">Note</hi></head>
+                <opener>
+                    <seg rendition="#float-left"><hi rendition="#small-caps">interallied
+                            permanent<lb/>armistice commission</hi></seg>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >Spa</hi></placeName>, <date calendar="gregorian" when="1919-03-18"
+                            >March 18, 1919</date>.</dateline>
+                </opener>
+                <p rendition="#flush">General Dupont, Adlon Hotel, Berlin, for General Ewart.</p>
+                <list>
+                    <item>First. German commission has pointed out to me that more than two thousand
+                        Russian officers as well as a certain number of Russian soldiers, women, and
+                        children were last January, upon invitation of the representatives of the
+                        Entente at Kiev, transported from Kiev to Germany.</item>
+                    <item>Second. German Government requests a settlement with regard to expenses
+                        for pay and food. This matter is placed henceforth in the hands of the
+                        Interallied Commission on Russian War Prisoners, which is to study the means
+                        of reimbursing the advances made and of providing repatriation of the
+                        Russians in question ahead of the first convoys repatriating the Russian
+                        prisoners.</item>
+                    <item>Third. Inform German Government of this decision.</item>
+                </list>
+                <closer><signed><hi rendition="#small-caps">Nudant</hi></signed><lb/><hi
+                        rendition="#italic">French Military Mission</hi></closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d25-f1" n="15" xml:id="d25-f1-content">
+                <p>Translation from the French supplied by the editors.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

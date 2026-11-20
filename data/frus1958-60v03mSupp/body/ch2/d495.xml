@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1958-60v03mSupp_d495" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Memorandum From Lay to the NSC</title>
+            </titleStmt>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1958-60v03mSupp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1958-60v03mSupp/d495"
+                    type="canonical"/>
+                <relatedItem target="d494.xml" type="prev"/>
+                <relatedItem target="d495-a1.xml" type="next"/>
+                <relatedItem target="../ch2.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1958-60v03mSupp</bibl>
+                <bibl type="frus-division-id">d495</bibl>
+                <bibl type="frus-division-n">495</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>Washington</placeName>
+                    <date calendar="gregorian" when="1959-09-02">September 2, 1959</date>
+                    <date notAfter="1959-09-02T23:59:59-05:00" notBefore="1959-09-02T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1958-60v03mSupp/persons">
+                    <term ref="frus:frus1958-60v03mSupp/persons#p_LJS_1">Lay, James S., Jr.</term>
+                </keywords>
+                <keywords scheme="frus:frus1958-60v03mSupp/terms">
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_NSC_1">NSC</term>
+                    <term ref="frus:frus1958-60v03mSupp/terms#t_SS_1">S/S</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d495">
+
+                <pb facs="1835" n="1730" xml:id="pg1730"/>
+
+                <head>495. Memorandum From Lay to the NSC<anchor n="1" xml:id="d495-f1"/></head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName>Washington</placeName>, <date
+                            calendar="gregorian" when="1959-09-02">September 2,
+                        1959</date></dateline>
+                </opener>
+                <pb facs="d495-1" n="1" type="facsimile" xml:id="d495-1"/>
+                <list subtype="subject" type="description">
+                    <label>SUBJECT</label>
+                    <item>Peaceful Uses of Atomic Energy</item>
+                </list>
+                <list type="references">
+                    <head>REFERENCE</head>
+                    <item>NSC 5725/1</item>
+                </list>
+                <p>The enclosed Report by the Atomic Energy Commission and the Department of State
+                    on the implementation of NSC 5725/1, for the period July 1, 1958 to June 30,
+                    1959, is transmitted herewith for the information of the National Security
+                    Council.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#bold">James S. Lay. Jr.</hi>
+                        <lb/>
+                        <hi rendition="#italic">Executive Secretary</hi>
+                    </signed>
+                </closer>
+                <postscript>
+                    <p>cc: The Secretary of the Treasury</p>
+                    <p>The Director, Bureau of the Budget</p>
+                    <p>The Chairman, Atomic Energy Commission</p>
+                    <p>The Chairman, Joint Chiefs of Staff</p>
+                    <p>The Director of Central Intelligence</p>
+                </postscript>
+
+
+
+
+                <xi:include href="d495-a1.xml" xpointer="d495-a1"/>
+                <xi:include href="d495-a2.xml" xpointer="d495-a2"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d495-f1" n="1" type="source" xml:id="d495-f1-content">
+                <p>Source: Transmits report on the implementation of NSC 5725/1, for the period
+                    July, 1958-June 30, 1959. Secret. 46 pp. NARA, S/S–NSC Files: Lot 63 D 351, NSC
+                    5725.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1955-57v17_d2" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Note From Secretary of State Dulles to Secretary-General Hammarskjöld</title>
+            </titleStmt>
+            <xi:include href="../../../../frus1955-57v17_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1955-57v17_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1955-57v17/d2"
+                    type="canonical"/>
+                <relatedItem target="d1.xml" type="prev"/>
+                <relatedItem target="d2-a1.xml" type="next"/>
+                <relatedItem target="../ch1subch1.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1955-57v17</bibl>
+                <bibl type="frus-division-id">d2</bibl>
+                <bibl type="frus-division-n">2</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="3" to="4" unit="page"
+                    >3–4</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#italic">New York</hi></placeName>
+                    <date calendar="gregorian" when="1956-12-31"><hi rendition="#italic">December
+                            31, 1956</hi></date>
+                    <date notAfter="1956-12-31T23:59:59-05:00" notBefore="1956-12-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1955-57v17/persons">
+                    <term ref="frus:frus1955-57v17/persons#p_DAW1">Dulles, Allen W.</term>
+                    <term ref="frus:frus1955-57v17/persons#p_DJF1">Dulles, John Foster</term>
+                    <term ref="frus:frus1955-57v17/persons#p_HD1">Hammarskjöld, Dag</term>
+                </keywords>
+                <keywords scheme="frus:frus1955-57v17/terms">
+                    <term ref="frus:frus1955-57v17/terms#t_USUN1">USUN</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d2">
+
+                <pb facs="0035" n="3" sameAs="frus:frus1955-57v17/pg3"/>
+
+                <head>2. Note From Secretary of State Dulles to Secretary-General
+                        Hammarskjöld<anchor n="1" xml:id="d2-f1"/></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#italic">New
+                                York</hi></placeName>, <date calendar="gregorian" when="1956-12-31"
+                                ><hi rendition="#italic">December 31,
+                    1956</hi></date>.</dateline></opener>
+                <p><hi rendition="#small-caps">My Dear Hammarskjold</hi>: I enclose herewith a copy
+                    of the informal memorandum which I used as a sort of a talking paper with you
+                    this afternoon in relation to the putting up of funds to help finance the
+                    reopening of the Suez Canal.</p>
+                <p>It was a very great pleasure to have seen you and to have had the good talk with
+                    you.</p>
+                <p>With best wishes for a good New Year.</p>
+                <p>Sincerely yours,</p>
+                <closer><signed><hi rendition="#bold">John Foster Dulles</hi><anchor n="2"
+                            xml:id="d2-f2"/></signed></closer>
+
+
+                <xi:include href="d2-a1.xml" xpointer="d2-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d2-f1" n="1" type="source" xml:id="d2-f1-content">
+                <p>Source: USUN Files, Unnumbered Files, Suez Canal. According to the notes of the
+                    Secretary’s Staff Meeting for January 3, this note and the enclosure were not
+                    delivered to Hammarskjöld until January 2. (Department of State, Secretary’s
+                    Staff Meetings: Lot 63 D 75)</p>
+            </note>
+            <note corresp="#d2-f2" n="2" xml:id="d2-f2-content">
+                <p>Printed from a copy that bears this typed signature.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

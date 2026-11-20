@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1904_d521" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Newel to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1904_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1904/d521"
+                    type="canonical"/>
+                <relatedItem target="d520.xml" type="prev"/>
+                <relatedItem target="d521-a1.xml" type="next"/>
+                <relatedItem target="../ch121.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1904</bibl>
+                <bibl type="frus-division-id">d521</bibl>
+                <bibl type="frus-division-n">521</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="517" to="518" unit="page"
+                        >517–18</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Legation</hi>,<lb/><hi
+                            rendition="#italic">The Hague</hi></placeName>
+                    <date calendar="gregorian" when="1904-04-05"><hi rendition="#italic">April 5,
+                            1904</hi></date>
+                    <date notAfter="1904-04-05T23:59:59-05:00" notBefore="1904-04-05T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d521">
+
+                <pb facs="0605" n="517" sameAs="frus:frus1904/pg517"/>
+
+                <head><hi rendition="#italic">Mr. Newel to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Legation</hi>,<lb/><hi rendition="#italic">The
+                            Hague</hi></placeName>, <date calendar="gregorian" when="1904-04-05"><hi
+                                rendition="#italic">April 5, 1904</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 736.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to Department dispatch No. 410,
+                    dated March 9, 1904, relating to the costs of the international tribunal in
+                    regard to the Venezuelan arbitration case, and instructing me to communicate the
+                    contents of that instruction to the international bureau;</p>
+                <p>I have the honor to inclose herewith a copy of the correspondence that has passed
+                    between this legation and the secretary general of the permanent court of
+                    arbitration on the subject, consisting of my note of the 21st of March, Jonkheer
+                    Ruyssenaers’ reply, and a translation of that note.</p>
+                <p>It will be observed that Jonkheer Ruyssenaers offers, provided the United States
+                    Government should deem it advisable, to act as intermediary in regard to the
+                    honorarium to be paid to the three arbitrators; that, in confirming the
+                    agreement that that honorarium has been fixed upon at $19,000, the United States
+                    quota thereof would be $1,727.28, and, further, that he has addressed a similar
+                    communication to all the eleven powers interested in this litigation.</p>
+                <p>Awaiting the Department’s instructions in the premises,</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Stanford Newel.</hi></signed></closer>
+
+
+
+                <xi:include href="d521-a1.xml" xpointer="d521-a1"/>
+                <xi:include href="d521-a2.xml" xpointer="d521-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

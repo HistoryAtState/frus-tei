@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1950v06_d480" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Report to the National Security Council by the Department of State</title>
+            </titleStmt>
+            <xi:include href="../../../frus1950v06_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1950v06_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1950v06/d480"
+                    type="canonical"/>
+                <relatedItem target="d479.xml" type="prev"/>
+                <relatedItem target="d480-a1.xml" type="next"/>
+                <relatedItem target="../ch6.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1950v06</bibl>
+                <bibl type="frus-division-id">d480</bibl>
+                <bibl type="frus-division-n">480</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="744" to="747" unit="page"
+                        >744–47</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Washington</hi></placeName>
+                    <date calendar="gregorian" when="1950-02-27">February 27, 1950</date>
+                    <date notAfter="1950-02-27T23:59:59-05:00" notBefore="1950-02-27T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1950v06/terms">
+                    <term ref="frus:frus1950v06/terms#t_NSC1">NSC</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d480">
+
+                <pb facs="0758" n="744" sameAs="frus:frus1950v06/pg744"/>
+
+                <note rend="inline" type="source">Department of State Executive Secretariat Files:
+                    Lot 63D351: NSC 64 Series</note>
+                <head>
+                    <hi rendition="#italic">Report to the National Security Council by the
+                        Department of State</hi><anchor n="1" xml:id="d480-f1"/>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">
+                        <hi rendition="#small-caps">top secret</hi>
+                        <lb/> NSC 64</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Washington</hi></placeName>, <date
+                            calendar="gregorian" when="1950-02-27">February 27,
+                        1950</date>.</dateline>
+                </opener>
+                <p rendition="#flush">
+                    <hi rendition="#small-caps">Note by the Executive Secretary to the National
+                        Security Council on” the Position of the United States With Respect to
+                        Indochina</hi>
+                </p>
+                <p>The enclosed report by the Department of State on the subject is submitted
+                    herewith for urgent consideration by the National Security Council and the
+                    Secretary of the Treasury.</p>
+                <pb facs="0759" n="745" xml:id="pg745"/>
+                <p>It is recommended that, if the Council and the Secretary of the Treasury adopt
+                    the enclosed report, it be submitted to the President for his consideration with
+                    the recommendation that he approve the Conclusions contained therein and direct
+                    their implementation by all appropriate executive departments and agencies of
+                    the U.S. Government under the coordination of the Secretary of State.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">James</hi> S. <hi rendition="#small-caps">Lay,
+                            Jr</hi>.</signed>
+                </closer>
+
+
+                <xi:include href="d480-a1.xml" xpointer="d480-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d480-f1" n="1" type="source" xml:id="d480-f1-content">
+                <p>This report was adopted by the National Security Council on April 18 and was
+                    approved by President Truman on April 24; see Record of NSC Action of April 18,
+                    and footnote 4 thereto, <ref target="#pg786">p. 786</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

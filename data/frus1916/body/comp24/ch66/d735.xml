@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1916_d735" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>[Untitled]</title>
+            </titleStmt>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1916_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1916/d735"
+                    type="canonical"/>
+                <relatedItem target="d734.xml" type="prev"/>
+                <relatedItem target="d736.xml" type="next"/>
+                <relatedItem target="../ch66.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1916</bibl>
+                <bibl type="frus-division-id">d735</bibl>
+                <bibl type="frus-division-n">735</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="573" to="574" unit="page"
+                        >573–74</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">Laredo</hi></placeName>
+                    <date calendar="gregorian" when="1916-06-12T10:00:00-06:00">
+                        <hi rendition="#italic">June 12, 1916, 10 a.m.</hi>
+                    </date>
+                    <date notAfter="1916-06-12T11:00:00-05:00" notBefore="1916-06-12T11:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d735">
+
+                <pb facs="0649" n="573" sameAs="frus:frus1916/pg573"/>
+
+                <note rend="inline" type="source">File No. 812.00/18394</note>
+                <head ana="#head_untitled-inferred-from-preceding-sibling-head">[Untitled]</head>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">Laredo</hi></placeName>, <date
+                            calendar="gregorian" when="1916-06-12T10:00:00-06:00">
+                            <hi rendition="#italic">June 12, 1916, 10 a.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>A small party of armed Mexicans invaded Texas last night with a red flag and a
+                    can of kerosene oil and attempted to burn bridges. They are being chased by
+                    American soldiers. More recruits are being added daily to troops in vicinity of
+                    La Jarita and are being distributed <pb facs="0650" n="574" xml:id="pg574"/>
+                    above and below Laredo. Mexican officers openly assert intention to invade
+                    Texas.</p>
+                <p>It seems to be the plan to make Laredo the storm centre.</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Garrett</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1902_d21" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. McCormick to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1902_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1902/d21"
+                    type="canonical"/>
+                <relatedItem target="d20.xml" type="prev"/>
+                <relatedItem target="d21-a1.xml" type="next"/>
+                <relatedItem target="../ch14.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1902</bibl>
+                <bibl type="frus-division-id">d21</bibl>
+                <bibl type="frus-division-n">21</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="28" to="29" unit="page"
+                        >28–29</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Legation</hi>,<lb/><hi
+                            rendition="#italic">Vienna</hi></placeName>
+                    <date calendar="gregorian" when="1902-03-08"><hi rendition="#italic">March 8,
+                            1902</hi></date>
+                    <date notAfter="1902-03-08T23:59:59-05:00" notBefore="1902-03-08T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d21">
+
+                <pb facs="0108" n="28" sameAs="frus:frus1902/pg28"/>
+
+                <head><hi rendition="#italic">Mr. McCormick to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >United States Legation</hi>,<lb/><hi rendition="#italic"
+                                >Vienna</hi></placeName>, <date calendar="gregorian"
+                            when="1902-03-08"><hi rendition="#italic">March 8,
+                        1902</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 72.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: For the information of the Department, I
+                    have the honor to inclose herewith, with its translation, a cutting from the
+                    Vienna Frem-denblatt, the semiofficial organ of this Government, with reference
+                    to the proposed raising of the Austro-Hungarian mission at Washington to
+                    ambassadorial rank.</p>
+                <p>I would especially call the Department’s attention to the “question arising out
+                    of the emigration movement” which “may have to be settled between this Monarchy
+                    and the United States”—a reference to the naturalization treaty and the
+                    difficulties growing out of the treatment accorded to naturalized citizens of
+                    Austro-Hungarian birth returning to the Monarchy for any purpose, involving at
+                    times a disregard of the character of passports of which such naturalized
+                    citizens may be the bearers.</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Robert S.
+                    McCormick.</hi></signed></closer>
+
+
+                <xi:include href="d21-a1.xml" xpointer="d21-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

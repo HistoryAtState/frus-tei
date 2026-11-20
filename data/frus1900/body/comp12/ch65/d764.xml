@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1900_d764" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Choate to Mr. Hay.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1900_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1900/d764"
+                    type="canonical"/>
+                <relatedItem target="d763-a2.xml" type="prev"/>
+                <relatedItem target="d764-a1.xml" type="next"/>
+                <relatedItem target="../ch65.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1900</bibl>
+                <bibl type="frus-division-id">d764</bibl>
+                <bibl type="frus-division-n">764</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="624" to="625" unit="page"
+                        >624–25</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">American Embassy</hi>,<lb/><hi
+                            rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1900-12-19"><hi rendition="#italic">December
+                            19, 1900</hi></date>
+                    <date notAfter="1900-12-19T23:59:59-05:00" notBefore="1900-12-19T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d764">
+
+                <pb facs="0722" n="624" sameAs="frus:frus1900/pg624"/>
+
+                <head><hi rendition="#italic">Mr. Choate to Mr. Hay.</hi></head>
+                <opener><dateline rendition="#float-right"><placeName><hi rendition="#small-caps"
+                                >American Embassy</hi>,<lb/><hi rendition="#italic"
+                            >London</hi></placeName>, <date calendar="gregorian" when="1900-12-19"
+                                ><hi rendition="#italic">December 19, 1900</hi></date>.</dateline>
+                    <seg rendition="#float-left">No. 459.]</seg></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: Referring to your instruction No. 445 of
+                    September 11 last, I have the honor to inclose the copy of a note received by me
+                    from the Marquis of Lansdowne, transmitting an order, which I also inclose
+                    herewith, upon Her Majesty’s paymaster-general for £1,000, which the secretary
+                    of state for war has awarded to Mrs. Labram.</p>
+                <p>You will observe “that Her Majesty’s Government gladly take this <pb facs="0723"
+                        n="625" xml:id="pg625"/> opportunity of placing on record their sense of the
+                    valuable services by her late husband during the siege of Kimberley and of
+                    expressing their regret at the loss she has sustained in his death.”</p>
+                <p>I have, etc.,</p>
+                <closer><signed><hi rendition="#small-caps">Joseph H. Choate.</hi></signed></closer>
+
+
+                <xi:include href="d764-a1.xml" xpointer="d764-a1"/>
+            </div>
+        </body>
+    </text>
+</TEI>

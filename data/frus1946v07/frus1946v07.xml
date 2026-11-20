@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1946v07" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <xi:include href="frus1946v07_includes.xml" xpointer="titleStmt"/>
+            <xi:include href="frus1946v07_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="frus1946v07_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1946v07"
+                    type="canonical"/>
+                <note>This publication contains 3 associated files. For page images, see the
+                    facsimile element.</note>
+                <relatedItem corresp="#frus1946v07" type="jpg">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1946v07/covers/frus1946v07.jpg"/>
+                        <extent>
+                            <measure quantity="28462" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:50:46.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1946v07" type="epub">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1946v07/ebook/frus1946v07.epub"/>
+                        <extent>
+                            <measure quantity="1703214" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:50:46.000Z"/>
+                    </bibl>
+                </relatedItem>
+                <relatedItem corresp="#frus1946v07" type="mobi">
+                    <bibl>
+                        <ref
+                            target="https://static.history.state.gov/frus/frus1946v07/ebook/frus1946v07.mobi"/>
+                        <extent>
+                            <measure quantity="2187697" unit="bytes"/>
+                        </extent>
+                        <date type="publication-date" when="2020-11-25T15:50:46.000Z"/>
+                    </bibl>
+                </relatedItem>
+            </notesStmt>
+            <sourceDesc>
+                <p>Released in 1969 as printed book and adapted to TEI-XML based on scans provided
+                    by the University of Wisconsin Digital Collections Center</p>
+            </sourceDesc>
+        </fileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc">
+            <xi:fallback>
+                <xi:include href="../../resources/frus-encodingDesc.xml" xpointer="encodingDesc"/>
+            </xi:fallback>
+        </xi:include>
+        <profileDesc>
+            <textClass>
+                <keywords scheme="#frus-administration-coverage">
+                    <term xml:id="admin1">truman</term>
+                </keywords>
+                <keywords scheme="#frus-production-priority">
+                    <term corresp="#admin1">regular</term>
+                </keywords>
+                <keywords scheme="#frus-media-type">
+                    <term>print</term>
+                </keywords>
+                <keywords scheme="https://history.state.gov/tags">
+                    <term>truman-harry-s</term>
+                    <term>byrnes-james-francis</term>
+                    <term>egypt</term>
+                    <term>ethiopia</term>
+                    <term>greece</term>
+                    <term>iran</term>
+                    <term>iraq</term>
+                    <term>libya</term>
+                    <term>morocco</term>
+                    <term>palestine</term>
+                    <term>saudi-arabia</term>
+                    <term>syria</term>
+                    <term>lebanon</term>
+                    <term>jordan</term>
+                    <term>turkey</term>
+                    <term>yemen</term>
+                    <term>albania</term>
+                    <term>algeria</term>
+                    <term>azerbaijan</term>
+                    <term>bahrain</term>
+                    <term>agriculture</term>
+                    <term>italy</term>
+                    <term>france</term>
+                    <term>ukraine</term>
+                    <term>bulgaria</term>
+                    <term>arms-control-and-disarmament</term>
+                    <term>united-kingdom</term>
+                    <term>elections</term>
+                    <term>foreign-aid</term>
+                    <term>energy-and-natural-resources</term>
+                    <term>kuwait</term>
+                    <term>terrorism</term>
+                    <term>qatar</term>
+                    <term>sudan</term>
+                    <term>tunisia</term>
+                    <term>madagascar</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <revisionDesc status="published">
+            <change corresp="#frus1946v07" status="published" when="1969"/>
+        </revisionDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <pb facs="0005" n="[I]" xml:id="pgI"/>
+            <titlePage type="main">
+                <figure>
+                    <graphic url="figure_0001"/>
+                </figure>
+                <docTitle>
+                    <titlePart type="series">Foreign Relations of the United States</titlePart>
+                    <titlePart type="subseries">1946</titlePart>
+                    <titlePart type="volumeno">Volume VII</titlePart>
+                    <titlePart type="volumetitle">The Near East and Africa</titlePart>
+                </docTitle>
+                <docImprint>United States Government Printing Office<lb/>Washington</docImprint>
+                <byline/>
+                <docImprint>
+                    <publisher>United States Government Printing Office</publisher>
+                    <lb/>
+                    <pubPlace>Washington</pubPlace>
+                    <lb/>
+                    <docDate>1969</docDate>
+                    <pb facs="0006" n="[II]" xml:id="pgII"/> DEPARTMENT OF STATE PUBLICATION 8490 <lb/>
+                    <hi rendition="#small-caps">Historical Office</hi>
+                    <lb/>
+                    <hi rendition="#small-caps">Bureau of Public Affairs</hi>
+                    <lb/> For sale by the<lb/>Superintendent of Documents, U. S. Government Printing
+                    Office<lb/>Washington, D.C., 20402 - Price $5.25 (Buckram)</docImprint>
+            </titlePage>
+            <xi:include href="front/preface.xml" xpointer="preface"/>
+            <divGen type="toc" xml:id="toc"/>
+            <xi:include href="front/terms.xml" xpointer="terms"/>
+        </front>
+        <body>
+            <xi:include href="body/comp1.xml" xpointer="comp1"/>
+            <xi:include href="body/comp2.xml" xpointer="comp2"/>
+            <xi:include href="body/comp3.xml" xpointer="comp3"/>
+            <xi:include href="body/comp4.xml" xpointer="comp4"/>
+            <xi:include href="body/comp5.xml" xpointer="comp5"/>
+            <xi:include href="body/comp6.xml" xpointer="comp6"/>
+            <xi:include href="body/comp7.xml" xpointer="comp7"/>
+            <xi:include href="body/comp8.xml" xpointer="comp8"/>
+            <xi:include href="body/comp9.xml" xpointer="comp9"/>
+            <xi:include href="body/comp10.xml" xpointer="comp10"/>
+            <xi:include href="body/comp11.xml" xpointer="comp11"/>
+            <xi:include href="body/comp12.xml" xpointer="comp12"/>
+            <xi:include href="body/comp13.xml" xpointer="comp13"/>
+            <xi:include href="body/comp14.xml" xpointer="comp14"/>
+        </body>
+        <back>
+            <pb facs="0939" n="[927]" xml:id="pg927"/>
+            <pb facs="0940" n="[928]" xml:id="pg928"/>
+            <xi:include href="back/index.xml" xpointer="index"/>
+        </back>
+    </text>
+</TEI>

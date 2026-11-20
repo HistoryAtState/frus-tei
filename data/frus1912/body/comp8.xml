@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1912_comp8" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Colombia:</title>
+            </titleStmt>
+            <xi:include href="../frus1912_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1912_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1912/comp8"
+                    type="canonical"/>
+                <relatedItem target="comp7/ch21/d309-a1.xml" type="prev"/>
+                <relatedItem target="comp8/ch22.xml" type="next"/>
+                <relatedItem target="../frus1912.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1912</bibl>
+                <bibl type="frus-division-id">comp8</bibl>
+                <bibl type="frus-division-n">8</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="225" to="226" unit="page"
+                        >225–26</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1912-08-28T23:59:59-05:00" notBefore="1912-04-20T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp8">
+
+                <pb facs="0341" n="225" xml:id="pg225"/>
+
+                <head>Colombia:</head>
+
+
+                <xi:include href="comp8/ch22.xml" xpointer="ch22"/>
+                <xi:include href="comp8/ch23.xml" xpointer="ch23"/>
+            </div>
+        </body>
+    </text>
+</TEI>

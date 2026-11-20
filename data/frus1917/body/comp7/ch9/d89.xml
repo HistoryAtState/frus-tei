@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1917_d89" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Ambassador Page to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1917_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1917/d89"
+                    type="canonical"/>
+                <relatedItem target="d88.xml" type="prev"/>
+                <relatedItem target="d90.xml" type="next"/>
+                <relatedItem target="../ch9.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1917</bibl>
+                <bibl type="frus-division-id">d89</bibl>
+                <bibl type="frus-division-n">89</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="71" to="71" unit="page"
+                        >71</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                        <hi rendition="#italic">London</hi></placeName>
+                    <date calendar="gregorian" when="1917-06-15T14:00:00+01:00">
+                        <hi rendition="#italic">June 15, 1917, 2 p.m.</hi>
+                    </date>
+                    <date notAfter="1917-06-15T08:00:00-05:00" notBefore="1917-06-15T08:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d89">
+
+                <pb facs="0237" n="71" sameAs="frus:frus1917/pg71"/>
+
+                <note rend="inline" type="source">File No. 893.00/2616</note>
+                <head>
+                    <hi rendition="#italic">Ambassador Page to the Secretary of State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#center">[Telegram]</seg>
+                </opener>
+                <opener>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">American Embassy</hi>, <lb/>
+                            <hi rendition="#italic">London</hi></placeName>, <date
+                            calendar="gregorian" when="1917-06-15T14:00:00+01:00">
+                            <hi rendition="#italic">June 15, 1917, 2 p.m.</hi>
+                        </date>
+                    </dateline>
+                </opener>
+                <p>6470. Mr. Balfour has consulted his associates and the result is the following
+                    memorandum which I have just received from him:<anchor n="6" xml:id="d89-f1"/>
+                </p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Page</hi>
+                    </signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d89-f1" n="6" xml:id="d89-f1-content">
+                <p>Printed as inclosure to dispatch No, 642, June 19, 1917, from the American
+                    Embassy at London.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

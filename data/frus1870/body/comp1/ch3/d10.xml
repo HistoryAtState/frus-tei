@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1870_d10" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Mr. Jones to Mr. Fish.</title>
+            </titleStmt>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../frus1870_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1870/d10"
+                    type="canonical"/>
+                <relatedItem target="d9.xml" type="prev"/>
+                <relatedItem target="d10-a1.xml" type="next"/>
+                <relatedItem target="../ch3.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1870</bibl>
+                <bibl type="frus-division-id">d10</bibl>
+                <bibl type="frus-division-n">10</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="53" to="56" unit="page"
+                        >53–56</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">Legation of the United States,</hi><hi
+                            rendition="#italic"> Brussels</hi></placeName>
+                    <date calendar="gregorian" when="1870-11-14"><hi rendition="#italic"
+                            >November</hi> 14, 1870.</date>
+                    <date notAfter="1870-11-14T23:59:59-05:00" notBefore="1870-11-14T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d10">
+
+                <pb facs="0087" n="53" xml:id="pg53"/>
+
+                <note rend="inline" type="source">No. 10.</note>
+                <head>Mr. Jones to Mr. Fish.</head>
+                <opener>
+                    <seg rendition="#float-left">No. 74.]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName><hi rendition="#small-caps">Legation of the United
+                                States,</hi><hi rendition="#italic"> Brussels</hi></placeName>,
+                            <date calendar="gregorian" when="1870-11-14"><hi rendition="#italic"
+                                >November</hi> 14, 1870.</date></dateline></opener>
+                <p><hi rendition="#small-caps">Sir</hi>: I have the honor to inclose herewith
+                    circulars of Count Bismarck and M. Jules Favre, on the subject of the
+                    negotiations with M. Thiers for an armistice.</p>
+                <p rendition="#center">* * * * * * * *</p>
+                <p>I have the honor to be, very respectfully, your obedient servant,</p>
+                <closer>
+                    <signed>J. R. JONES.</signed></closer>
+                <postscript>
+                    <p>Hon. <hi rendition="#small-caps">Hamilton Fish,</hi>
+                        <hi rendition="#italic">Secretary of State.</hi></p>
+                </postscript>
+
+
+
+                <xi:include href="d10-a1.xml" xpointer="d10-a1"/>
+                <xi:include href="d10-a2.xml" xpointer="d10-a2"/>
+            </div>
+        </body>
+    </text>
+</TEI>

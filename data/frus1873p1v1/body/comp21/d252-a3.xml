@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1873p1v1_d252-a3" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Notification.</title>
+            </titleStmt>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../frus1873p1v1_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1873p1v1/d252-a3"
+                    type="canonical"/>
+                <relatedItem target="d252-a2.xml" type="prev"/>
+                <relatedItem target="d252-a4.xml" type="next"/>
+                <relatedItem target="d252.xml" type="parent"/>
+                <relatedItem target="d252.xml" type="attachment-source"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1873p1v1</bibl>
+                <bibl type="frus-division-id">d252-a3</bibl>
+                <bibl type="frus-division-n">252.3</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="566" to="566" unit="page"
+                        >566</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+                <bibl type="frus-attachment-label"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName><hi rendition="#small-caps">United States Legation</hi></placeName>
+                    <date calendar="gregorian" when="1872-12-23"><hi rendition="#italic"
+                            >December</hi> 23, 1872</date>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1873p1v1/persons">
+                    <term ref="frus:frus1873p1v1/persons#p_CEDL1">C. E. De Long</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d252-a3">
+
+                <pb facs="0652" n="566" sameAs="frus:frus1873p1v1/pg566"/>
+
+                <opener>
+                    <seg rendition="#center">[Inclosure 2.]</seg>
+                </opener>
+                <head>
+                    <hi rendition="#italic">Notification.</hi>
+                </head>
+                <opener>
+                    <dateline rendition="#float-right"><placeName><hi rendition="#small-caps">United
+                                States Legation</hi></placeName>,<lb/><date calendar="gregorian"
+                            when="1872-12-23"><hi rendition="#italic">December</hi> 23,
+                        1872</date>.</dateline>
+                </opener>
+                <p>The undersigned publishes, for the information of his countrymen in Japan, the
+                    following letter, received by him on the 20th instant, with an accompanying
+                    proclamation by the public works department.</p>
+                <closer>
+                    <signed>C. E. DE LONG,<lb/><hi rendition="#italic">United States
+                        Minister.</hi></signed>
+                </closer>
+            </div>
+        </body>
+    </text>
+</TEI>

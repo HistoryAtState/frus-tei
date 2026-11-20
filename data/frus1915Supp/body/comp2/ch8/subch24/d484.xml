@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1915Supp_d484" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>The Ambassador in Great Britain (Page) to the Secretary of State </title>
+            </titleStmt>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../../../../frus1915Supp_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1915Supp/d484"
+                    type="canonical"/>
+                <relatedItem target="d483.xml" type="prev"/>
+                <relatedItem target="d484-a1.xml" type="next"/>
+                <relatedItem target="../subch24.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1915Supp</bibl>
+                <bibl type="frus-division-id">d484</bibl>
+                <bibl type="frus-division-n">484</bibl>
+                <bibl type="frus-division-type">document</bibl>
+                <bibl type="frus-division-subtype">historical-document</bibl>
+                <bibl type="frus-print-pages"><biblScope from="338" to="339" unit="page"
+                        >338–39</biblScope></bibl>
+                <bibl type="frus-identifying-mark"/>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <placeName>
+                        <hi rendition="#small-caps">London</hi></placeName>
+                    <date calendar="gregorian" when="1915-02-11">
+                        <hi rendition="#italic">February 11, 1915</hi>.</date>
+                    <date notAfter="1915-02-11T23:59:59-05:00" notBefore="1915-02-11T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+            <textClass>
+                <keywords scheme="frus:frus1915Supp/persons">
+                    <term ref="frus:frus1915Supp/persons#p_GSE1">Grey, Sir Edward</term>
+                    <term ref="frus:frus1915Supp/persons#p_PWH1">Page, Walter Hines</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="d484">
+
+                <pb facs="0596" n="338" xml:id="pg338"/>
+
+                <note rend="inline" type="source">File No. 763.72112/771</note>
+                <head>
+                    <hi rendition="#italic">The Ambassador in Great Britain</hi> (<hi
+                        rendition="#italic">Page</hi>) <hi rendition="#italic">to the Secretary of
+                        State </hi>
+                </head>
+                <opener>
+                    <seg rendition="#float-left">No. 877]</seg>
+                    <dateline rendition="#float-right">
+                        <placeName>
+                            <hi rendition="#small-caps">London</hi></placeName>, <date
+                            calendar="gregorian" when="1915-02-11">
+                            <hi rendition="#italic">February 11, 1915</hi>.</date>
+                        <lb/> [<hi rendition="#italic">Received February 24.</hi>]</dateline>
+                </opener>
+                <p>
+                    <hi rendition="#small-caps">Sir:</hi> With reference to the British Government’s
+                    reply of the 10th instant to your note of December the 28th last,<anchor n="1"
+                        xml:id="d484-f1"/> I have the honor to transmit herewith enclosed a copy of
+                    a memorandum I have just received from Sir Edward Grey embodying a circular
+                    which it is believed has been issued by a firm in New York bearing a German
+                    name, suggesting that American exporters write to the Department and to their
+                    Representatives and Senators, urging that steps be taken toward relief from
+                    restrictions believed to be placed on exports from the United States.</p>
+                <p>I have [etc.]</p>
+                <closer>
+                    <signed>
+                        <hi rendition="#small-caps">Walter Hines Page</hi>
+                    </signed>
+                </closer>
+
+
+                <xi:include href="d484-a1.xml" xpointer="d484-a1"/>
+            </div>
+        </body>
+    </text>
+    <standOff>
+        <listAnnotation>
+            <note corresp="#d484-f1" n="1" xml:id="d484-f1-content">
+                <p>
+                    <ref target="frus1914Supp#pg_314">
+                        <hi rendition="#italic">Foreign Relations</hi>, 1914, Supplement, p.
+                        314</ref>.</p>
+            </note>
+        </listAnnotation>
+    </standOff>
+</TEI>

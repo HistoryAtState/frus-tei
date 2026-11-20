@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1910_comp40" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Venezuela</title>
+            </titleStmt>
+            <xi:include href="../frus1910_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1910_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem target="https://history.state.gov/historicaldocuments/frus1910/comp40"
+                    type="canonical"/>
+                <relatedItem target="comp39/ch102/d955-a1.xml" type="prev"/>
+                <relatedItem target="comp40/ch103.xml" type="next"/>
+                <relatedItem target="../frus1910.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1910</bibl>
+                <bibl type="frus-division-id">comp40</bibl>
+                <bibl type="frus-division-n">40</bibl>
+                <bibl type="frus-division-type">compilation</bibl>
+                <bibl type="frus-division-subtype"/>
+                <bibl type="frus-print-pages"><biblScope from="864" to="868" unit="page"
+                        >864–68</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1910-11-03T23:59:59-05:00" notBefore="1910-03-31T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="comp40">
+
+                <pb facs="0976" n="864" xml:id="pg864"/>
+
+                <head>Venezuela</head>
+
+
+                <xi:include href="comp40/ch103.xml" xpointer="ch103"/>
+                <xi:include href="comp40/ch104.xml" xpointer="ch104"/>
+            </div>
+        </body>
+    </text>
+</TEI>

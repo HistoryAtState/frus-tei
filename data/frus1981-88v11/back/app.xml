@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:id="frus1981-88v11_app" xmlns="http://www.tei-c.org/ns/1.0"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Appendix</title>
+            </titleStmt>
+            <xi:include href="../frus1981-88v11_includes.xml" xpointer="publicationStmt"/>
+            <xi:include href="../frus1981-88v11_includes.xml" xpointer="seriesStmt"/>
+            <notesStmt>
+                <relatedItem
+                    target="https://history.state.gov/historicaldocuments/frus1981-88v11/app"
+                    type="canonical"/>
+                <relatedItem target="../body/comp1/ch4/d330-a1.xml" type="prev"/>
+                <relatedItem target="app/appA.xml" type="next"/>
+                <relatedItem target="../frus1981-88v11.xml" type="parent"/>
+            </notesStmt>
+            <sourceDesc>
+                <bibl type="frus-volume-id">frus1981-88v11</bibl>
+                <bibl type="frus-division-id">app</bibl>
+                <bibl type="frus-division-type">section</bibl>
+                <bibl type="frus-division-subtype">appendix</bibl>
+                <bibl type="frus-print-pages"><biblScope from="1546" to="1582" unit="page"
+                        >1546–82</biblScope></bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <settingDesc>
+                <setting>
+                    <date notAfter="1989-01-17T23:59:59-05:00" notBefore="1981-07-29T00:00:00-05:00"
+                        type="frus-doc-dateTime"/>
+                </setting>
+            </settingDesc>
+        </profileDesc>
+        <xi:include
+            href="https://static.history.state.gov/frus-tei-guidelines/current/frus-encodingDesc.xml"
+            xpointer="encodingDesc"/>
+    </teiHeader>
+    <text>
+        <body>
+            <div xml:id="app">
+
+                <pb facs="1573" n="1546" xml:id="pg1546"/>
+
+                <head>Appendix</head>
+
+
+
+
+
+
+
+
+
+
+
+
+
+                <xi:include href="app/appA.xml" xpointer="appA"/>
+                <xi:include href="app/appB.xml" xpointer="appB"/>
+                <xi:include href="app/appC.xml" xpointer="appC"/>
+                <xi:include href="app/appD.xml" xpointer="appD"/>
+                <xi:include href="app/appE.xml" xpointer="appE"/>
+                <xi:include href="app/appF.xml" xpointer="appF"/>
+                <xi:include href="app/appG.xml" xpointer="appG"/>
+            </div>
+        </body>
+    </text>
+</TEI>
