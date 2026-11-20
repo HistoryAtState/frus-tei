@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project default="xar" name="frus-tei" basedir=".">
+    <xmlproperty file="build.properties.xml" semanticAttributes="true" keepRoot="false" />
+    <property name="build.dir" value="build" />
+    <property name="git.repo.path" value="${basedir}/.git" />
+    <available file="${git.repo.path}" type="dir" property="git.present" />
+
+    <condition property="is-release">
+        <equals arg1="${release}" arg2="true" />
+    </condition>
+
+    <!--
+        The default xar packages a CURATED SUBSET of the volumes, not the whole
+        corpus: the full corpus (694 volumes, ~5.6 GB) cannot be installed as a
+        single xar, as eXist's deploy and indexing step does not finish and a
+        partial install leaves the instance unusable.
+
+        REQUIRED volumes: every volume the hsg-jinks landing page links, so those
+        links resolve. These lists live in other repositories; keep this one in
+        sync with them:
+          * "Latest Publications" cards (hsg-jinks data/landing/landing.xml):
+                frus1977-80v27, frus1981-88v05, frus1989-92v31
+          * "Latest News" cards (carousel package, first three topics in
+            display-order.xml) that link to a FRUS volume:
+                frus1958-60v05mSupp
+
+        REPRESENTATIVE volumes, for broader coverage of eras and structures:
+                frus1861         (oldest; front and body split)
+                frus1981-88v41   (second sample of the per-document model)
+
+        To add a volume, add an include line below. Its .last-modified entries
+        are packaged with it. "ant xar-full" packages the entire corpus.
+    -->
+    <patternset id="curated-volumes">
+        <include name="data/frus1861/**" />
+        <include name="data/frus1958-60v05mSupp/**" />
+        <include name="data/frus1977-80v27/**" />
+        <include name="data/frus1981-88v05/**" />
+        <include name="data/frus1981-88v41/**" />
+        <include name="data/frus1989-92v31/**" />
+    </patternset>
+
+    <!-- the package scaffold and the shared resources, in every xar -->
+    <patternset id="package-files">
+        <include name="expath-pkg.xml" />
+        <include name="repo.xml" />
+        <include name="pre-install.xql" />
+        <include name="index.xql" />
+        <include name="collection.xconf" />
+        <include name="catalog.xml" />
+        <include name="README.md" />
+        <include name="LICENSE.md" />
+        <include name="resources/**" />
+        <exclude name="resources/*.xpr" />
+    </patternset>
+
+    <target name="release.true" if="is-release">
+        <echo>Calculating git revision info for release</echo>
+    </target>
+
+    <target name="release.false" unless="is-release">
+        <echo>Not a release, moving on ...</echo>
+    </target>
+
+    <target name="check-release" depends="release.true, release.false">
+    </target>
+
+    <target name="clean">
+        <echo message="Deleting xar files..." />
+        <delete dir="${build.dir}" failonerror="false" />
+    </target>
+
+    <target name="templates" description="process template files" if="is-release"
+        depends="git.revision">
+        <echo message="Apply values to .tmpl ..." />
+        <copy todir="${basedir}" overwrite="true" verbose="true">
+            <fileset file="*.xml.tmpl" />
+            <filterchain>
+                <replacetokens>
+                    <token key="name" value="${app.name}" />
+                    <token key="version" value="${app.version}" />
+                    <token key="url" value="${app.url}" />
+                    <token key="title" value="${app.title}" />
+                    <token key="commit-id" value="${git.revision}" />
+                    <token key="commit-time" value="${git.time}" />
+                </replacetokens>
+                <tokenfilter>
+                    <!-- until we move template processing to XSLT, take care with reserved
+                    characters -->
+                    <replacestring from="&amp;" to="&amp;amp;" />
+                </tokenfilter>
+            </filterchain>
+            <globmapper from="*.tmpl" to="*" />
+        </copy>
+    </target>
+
+    <target name="prepare" depends="clean,check-release,git.revision,templates">
+        <mkdir dir="${build.dir}" />
+    </target>
+
+    <target name="xar" depends="prepare" description="Package the curated volume subset (installable)">
+        <zip destfile="${build.dir}/${app.name}.xar">
+            <fileset dir="${basedir}">
+                <patternset refid="package-files" />
+                <patternset refid="curated-volumes" />
+            </fileset>
+            <zipfileset dir="${basedir}/.last-modified" prefix=".last-modified" erroronmissingdir="false">
+                <patternset refid="curated-volumes" />
+            </zipfileset>
+        </zip>
+        <echo>Version: ${app.version}</echo>
+    </target>
+
+    <target name="xar-full" depends="prepare" description="Package the entire corpus (not installable in one step)">
+        <zip destfile="${build.dir}/${app.name}.xar">
+            <fileset dir="${basedir}">
+                <patternset refid="package-files" />
+                <include name="data/**" />
+                <include name=".last-modified/**" />
+            </fileset>
+        </zip>
+        <echo>Version: ${app.version}</echo>
+    </target>
+
+    <target name="git.revision" description="Store git revision in ${repository.version}"
+        if="is-release" depends="check-release">
+        <exec executable="git" outputproperty="git.revision" failifexecutionfails="false"
+            errorproperty="">
+            <arg value="--git-dir=${git.repo.path}" />
+            <arg value="rev-parse" />
+            <arg value="HEAD" />
+        </exec>
+        <condition property="repository.version" value="${git.revision}" else="unknown">
+            <and>
+                <isset property="git.revision" />
+                <length string="${git.revision}" trim="yes" length="0" when="greater" />
+            </and>
+        </condition>
+        <echo>Git repo: ${repository.version}</echo>
+
+        <exec executable="git" outputproperty="git.time" failifexecutionfails="false"
+            errorproperty="">
+            <arg value="--git-dir=${git.repo.path}" />
+            <arg value="show" />
+            <arg value="-s" />
+            <arg value="--format=%ct" />
+            <arg value="${git.revision}" />
+        </exec>
+        <echo>Git time: ${git.time}</echo>
+
+    </target>
+</project>
