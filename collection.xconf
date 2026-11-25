@@ -11,6 +11,81 @@
             <analyzer class="org.exist.indexing.lucene.analyzers.NoDiacriticsStandardAnalyzer">
                 <param name="stopwords" type="org.apache.lucene.analysis.util.CharArraySet"/>
             </analyzer>
+            <!-- Analyzer chains (eXist 7 lucene analyzer chains) for hsg-jinks's search
+                 options. plain is the default field's: words are runs of non-space
+                 characters without the punctuation around them, split at em dashes
+                 (a pattern tokenizer, so highlights cover the word only); possessives
+                 dropped; each word indexed whole and in its parts (U.S.-Soviet:
+                 u.s.-soviet, u.s, soviet) but the parts never
+                 joined, so U.S. is not "us"; at query time a word is kept whole;
+                 lower-cased and folded (so F-16 equals F–16). cased keeps case; stemmed
+                 adds English (Porter) stemming; punct and literal keep words as written
+                 (no parts; literal keeps case too). -->
+            <analyzer id="plain">
+                <index>
+                    <tokenizer name="pattern" pattern="[^\s\p{P}](?:[^\s—―]*[^\s\p{P}])?" group="0"/>
+                    <filter name="length" min="1" max="255"/>
+                    <filter name="englishPossessive"/>
+                    <filter name="wordDelimiterGraph" preserveOriginal="1" splitOnNumerics="0"/>
+                    <filter name="flattenGraph"/>
+                    <filter name="lowercase"/>
+                    <filter name="asciiFolding"/>
+                </index>
+                <query>
+                    <tokenizer name="pattern" pattern="[^\s\p{P}](?:[^\s—―]*[^\s\p{P}])?" group="0"/>
+                    <filter name="length" min="1" max="255"/>
+                    <filter name="englishPossessive"/>
+                    <filter name="lowercase"/>
+                    <filter name="asciiFolding"/>
+                </query>
+            </analyzer>
+            <analyzer id="cased">
+                <index>
+                    <tokenizer name="pattern" pattern="[^\s\p{P}](?:[^\s—―]*[^\s\p{P}])?" group="0"/>
+                    <filter name="length" min="1" max="255"/>
+                    <filter name="englishPossessive"/>
+                    <filter name="wordDelimiterGraph" preserveOriginal="1" splitOnNumerics="0"/>
+                    <filter name="flattenGraph"/>
+                    <filter name="asciiFolding"/>
+                </index>
+                <query>
+                    <tokenizer name="pattern" pattern="[^\s\p{P}](?:[^\s—―]*[^\s\p{P}])?" group="0"/>
+                    <filter name="length" min="1" max="255"/>
+                    <filter name="englishPossessive"/>
+                    <filter name="asciiFolding"/>
+                </query>
+            </analyzer>
+            <analyzer id="punct">
+                <tokenizer name="pattern" pattern="[^\s\p{P}](?:[^\s—―]*[^\s\p{P}])?" group="0"/>
+                <filter name="length" min="1" max="255"/>
+                <filter name="lowercase"/>
+                <filter name="asciiFolding"/>
+            </analyzer>
+            <analyzer id="literal">
+                <tokenizer name="pattern" pattern="[^\s\p{P}](?:[^\s—―]*[^\s\p{P}])?" group="0"/>
+                <filter name="length" min="1" max="255"/>
+                <filter name="asciiFolding"/>
+            </analyzer>
+            <analyzer id="stemmed">
+                <index>
+                    <tokenizer name="pattern" pattern="[^\s\p{P}](?:[^\s—―]*[^\s\p{P}])?" group="0"/>
+                    <filter name="length" min="1" max="255"/>
+                    <filter name="englishPossessive"/>
+                    <filter name="wordDelimiterGraph" preserveOriginal="1" splitOnNumerics="0"/>
+                    <filter name="flattenGraph"/>
+                    <filter name="lowercase"/>
+                    <filter name="asciiFolding"/>
+                    <filter name="porterStem"/>
+                </index>
+                <query>
+                    <tokenizer name="pattern" pattern="[^\s\p{P}](?:[^\s—―]*[^\s\p{P}])?" group="0"/>
+                    <filter name="length" min="1" max="255"/>
+                    <filter name="englishPossessive"/>
+                    <filter name="lowercase"/>
+                    <filter name="asciiFolding"/>
+                    <filter name="porterStem"/>
+                </query>
+            </analyzer>
             <text match="/tei:TEI/tei:text">
                 <facet dimension="frus-volume-id" expression="(ancestor::tei:TEI//tei:bibl[@type='frus-volume-id'], ancestor::tei:TEI/@xml:id/string())[1]"/>
                 <facet dimension="frus-division-type" expression="ancestor::tei:TEI//tei:bibl[@type='frus-division-type']"/>
@@ -28,7 +103,12 @@
                 <facet dimension="frus-volume-id" expression="idx:frus-volume-id(.)"/>
                 <facet dimension="frus-division-type" expression="idx:frus-division-type(.)"/>
                 <!-- TODO: `if="@type = ('section', 'document')"`  see HistoryAtState/hsg-jinks-data#15-->
-                <field name="hsg-fulltext" expression="."/>
+                <field analyzer="plain" name="hsg-fulltext" expression="." store="no"/>
+                <!-- The option fields: the same text, analyzed differently (see the chains above). None is stored: ft:highlight-field-matches computes an unstored field's text from the node (eXist feat/highlight-unstored-fields). -->
+                <field name="hsg-fulltext-stemmed" expression="." analyzer="stemmed" store="no"/>
+                <field name="hsg-fulltext-cased" expression="." analyzer="cased" store="no"/>
+                <field name="hsg-fulltext-punct" expression="." analyzer="punct" store="no"/>
+                <field name="hsg-fulltext-literal" expression="." analyzer="literal" store="no"/>
                 <field name="hsg-url" expression="idx:frus-url(.)"/>
                 <field name="frus-search-date-min" expression="idx:frus-date-min-string(.)"/>
                 <field name="frus-search-date-max" expression="idx:frus-date-max-string(.)"/>
