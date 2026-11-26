@@ -24,19 +24,37 @@
                 frus1958-60v05mSupp
 
         REPRESENTATIVE volumes, for broader coverage of eras and structures:
-                frus1861         (oldest; front and body split)
-                frus1981-88v41   (second sample of the per-document model)
+                frus1861             (oldest; front and body split, subchapters)
+                frus1873p2v3         (19th century: non-Gregorian calendars, margin
+                                      notes, brace cells, back-of-book index,
+                                      four administrations)
+                frus1969-76ve09p1    (electronic-only volume in parts; document
+                                      summary and source segs, note on covert
+                                      actions)
+                frus1917-72PubDip    (special collection; embedded XHTML video
+                                      players: script, object, param)
+                frus1977-80v09       (published, without full text: press release
+                                      only; superseded by frus1977-80v09Ed2)
+                frus1981-88v37       (not published: being-researched)
+                frus1861-99Index     (not published: being-digitized; index volume)
 
         To add a volume, add an include line below. Its .last-modified entries
-        are packaged with it.
+        are packaged with it. Installing computes the volumes' embeddings for
+        the vector index (collection.xconf), which takes most of the install
+        time; hsg-jinks's CI keeps them and tests hybrid search against them.
     -->
     <patternset id="curated-volumes">
         <include name="data/frus1861/**" />
         <include name="data/frus1958-60v05mSupp/**" />
         <include name="data/frus1977-80v27/**" />
         <include name="data/frus1981-88v05/**" />
-        <include name="data/frus1981-88v41/**" />
         <include name="data/frus1989-92v31/**" />
+        <include name="data/frus1873p2v3/**" />
+        <include name="data/frus1969-76ve09p1/**" />
+        <include name="data/frus1917-72PubDip/**" />
+        <include name="data/frus1977-80v09/**" />
+        <include name="data/frus1981-88v37/**" />
+        <include name="data/frus1861-99Index/**" />
     </patternset>
 
     <!-- the package scaffold and the shared resources, in every xar -->
